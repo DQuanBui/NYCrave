@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { ListingView } from "@/components/listing/listing-view"
+import { NeighborhoodGrid } from "@/components/listing/neighborhood-grid"
 import { SectionHeader } from "@/components/listing/section-header"
 import { TypeGrid } from "@/components/listing/type-grid"
 import { getPlaces } from "@/lib/places"
@@ -30,7 +31,8 @@ export async function CategoryPage({
   const t = await getTranslations()
   const meta = CATEGORY_META[category]
   const kinds = CATEGORY_TYPE_KINDS[category] ?? []
-  const pool = kinds.length ? await getPlaces({ category }) : []
+  const showHoods = category === "shopping"
+  const pool = kinds.length || showHoods ? await getPlaces({ category }) : []
 
   return (
     <div>
@@ -44,6 +46,14 @@ export async function CategoryPage({
         {kinds.map((kind) => (
           <TypeGrid key={kind} kind={kind} pool={pool} />
         ))}
+        {showHoods ? (
+          <NeighborhoodGrid
+            pool={pool}
+            href={meta.href}
+            line={meta.line}
+            title={t("browse.shoppingNeighborhoods")}
+          />
+        ) : null}
         <section aria-labelledby="all-places" className="space-y-5">
           {kinds.length ? (
             <h2 id="all-places" className="font-display text-display-md">

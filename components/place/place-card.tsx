@@ -21,6 +21,10 @@ export function PlaceCard({ place, className, priority }: PlaceCardProps) {
   const t = useTranslations()
   const meta = CATEGORY_META[place.category]
   const tags = placeTagKeys(place).map((key) => t(key))
+  if (place.category === "attraction" && place.timeNeededMinutes) {
+    tags.unshift(t("place.timeNeeded", { minutes: place.timeNeededMinutes }))
+    tags.splice(2)
+  }
 
   return (
     <article

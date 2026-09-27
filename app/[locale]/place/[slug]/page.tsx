@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { CopyButton } from "@/components/place/copy-button"
 import { HoursBadge } from "@/components/place/hours-badge"
 import { HoursTable } from "@/components/place/hours-table"
 import { PlacePhoto } from "@/components/place/place-photo"
@@ -57,6 +58,7 @@ export default async function PlacePage({ params }: Props) {
   const meta = CATEGORY_META[place.category]
   const line = LINES[meta.line]
   const jsonLd = placeJsonLd(place)
+  const coordinates = `${place.lat.toFixed(5)}, ${place.lng.toFixed(5)}`
   const tags = [
     ...placeTagKeys(place, 12),
     ...(place.dietary ?? []).map((d) => `dietary.${d}` as const),
@@ -175,6 +177,18 @@ export default async function PlacePage({ params }: Props) {
                   <li key={tip}>{tip}</li>
                 ))}
               </ul>
+              <div className="flex flex-wrap items-center gap-3 rounded-xl border bg-card p-4">
+                <span className="text-sm font-semibold text-muted-foreground">
+                  {t("place.coordinates")}
+                </span>
+                <code className="font-semibold tabular-nums">{coordinates}</code>
+                <CopyButton
+                  value={coordinates}
+                  label={t("place.copyCoordinates")}
+                  copiedLabel={t("place.copied")}
+                  className="ml-auto"
+                />
+              </div>
             </Section>
           ) : null}
 
