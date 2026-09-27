@@ -786,6 +786,13 @@
         "Để chặn việc gửi báo cáo ồ ạt, máy chủ tạm đếm số báo cáo theo địa chỉ mạng trong bộ nhớ. Số liệu này không được lưu."
       ]
     },
+    "feedback": {
+      "title": "Góp ý",
+      "items": [
+        "Khi bạn gửi góp ý, chúng tôi lưu điểm đánh giá, các tính năng bạn chọn, nội dung bạn viết và ngôn ngữ của trang. Không có ô tên hay email.",
+        "Để biết khi nào nên hỏi, trình duyệt của bạn đếm số trang bạn đã xem và nhớ lần hỏi gần nhất. Con số này chỉ nằm trên thiết bị của bạn."
+      ]
+    },
     "services": {
       "title": "Các dịch vụ trang web sử dụng",
       "items": [
@@ -855,5 +862,40 @@
       "subway": "Ga tàu điện gần nhất: {station} ({trains}), khoảng {minutes} phút đi bộ.",
       "checkHours": "Giờ mở cửa được tra cứu từ nguồn chính thức nhưng chưa được xác nhận với địa điểm, nên hãy kiểm tra trước khi đi."
     }
+  },
+  "feedback": {
+    "ask": "Bạn thấy NYCrave thế nào?",
+    "askBody": "Chạm vào một khuôn mặt. Chỉ mất mười giây.",
+    "notNow": "Để sau",
+    "open": "Gửi góp ý",
+    "title": "Góp ý của bạn",
+    "intro": "Cho chúng tôi biết NYCrave đã giúp bạn thế nào và điều gì sẽ làm nó tốt hơn.",
+    "rating": "Trải nghiệm của bạn thế nào?",
+    "ratings": {
+      "1": "Tệ",
+      "2": "Chưa tốt",
+      "3": "Tạm được",
+      "4": "Tốt",
+      "5": "Rất thích"
+    },
+    "rate": "{rating} trên 5: {label}",
+    "used": "Bạn đã dùng gì? (không bắt buộc)",
+    "features": {
+      "search": "Tìm kiếm",
+      "places": "Chỗ ăn và chỗ chơi",
+      "plan": "Lên lịch My Day",
+      "map": "Bản đồ",
+      "assistant": "Hỏi NYCrave",
+      "tips": "Mẹo"
+    },
+    "comment": "Bạn muốn nói thêm gì không? (không bắt buộc)",
+    "commentPlaceholder": "Điều gì ổn, điều gì chưa, hoặc một địa điểm nên thêm",
+    "send": "Gửi góp ý",
+    "sending": "Đang gửi…",
+    "thanks": "Cảm ơn bạn! Chúng tôi đọc từng góp ý.",
+    "close": "Đóng",
+    "error": "Chưa gửi được. Vui lòng thử lại.",
+    "limited": "Bạn đã gửi góp ý vài lần rồi. Vui lòng thử lại sau vài phút.",
+    "privacy": "Chúng tôi chỉ lưu điểm đánh giá, lựa chọn và nội dung bạn viết, không có tên hay email."
   }
 }

@@ -786,6 +786,13 @@
         "Para frenar informes masivos, el servidor cuenta por un momento los informes por dirección de red en memoria. No se guarda."
       ]
     },
+    "feedback": {
+      "title": "Opiniones",
+      "items": [
+        "Cuando envías tu opinión, guardamos la puntuación, las funciones que elegiste, lo que escribes y el idioma del sitio. No hay campo de nombre ni de correo.",
+        "Para decidir cuándo preguntar, tu navegador cuenta las páginas que has visto y recuerda cuándo preguntó por última vez. Ese dato se queda en tu dispositivo."
+      ]
+    },
     "services": {
       "title": "Servicios que usa el sitio",
       "items": [
@@ -855,5 +862,40 @@
       "subway": "Metro más cercano: {station} ({trains}), a unos {minutes} min a pie.",
       "checkHours": "Los horarios se investigaron en fuentes oficiales, pero aún no se confirmaron con el lugar, así que verifica antes de ir."
     }
+  },
+  "feedback": {
+    "ask": "¿Qué te parece NYCrave?",
+    "askBody": "Toca una cara. Son diez segundos.",
+    "notNow": "Ahora no",
+    "open": "Enviar opinión",
+    "title": "Tu opinión",
+    "intro": "Cuéntanos cómo te fue con NYCrave y qué lo haría mejor.",
+    "rating": "¿Cómo fue tu experiencia?",
+    "ratings": {
+      "1": "Mala",
+      "2": "Regular",
+      "3": "Bien",
+      "4": "Muy bien",
+      "5": "Me encanta"
+    },
+    "rate": "{rating} de 5: {label}",
+    "used": "¿Qué usaste? (opcional)",
+    "features": {
+      "search": "Búsqueda",
+      "places": "Lugares para comer y ver",
+      "plan": "Planificador Mi día",
+      "map": "Mapa",
+      "assistant": "Pregunta a NYCrave",
+      "tips": "Consejos"
+    },
+    "comment": "¿Algo más? (opcional)",
+    "commentPlaceholder": "Qué funcionó, qué no, o un lugar que deberíamos añadir",
+    "send": "Enviar opinión",
+    "sending": "Enviando…",
+    "thanks": "¡Gracias! Leemos cada mensaje.",
+    "close": "Cerrar",
+    "error": "No se pudo enviar. Inténtalo de nuevo.",
+    "limited": "Ya enviaste tu opinión varias veces. Inténtalo de nuevo en unos minutos.",
+    "privacy": "Solo guardamos tu puntuación, lo que elegiste y lo que escribes, sin nombre ni correo."
   }
 }

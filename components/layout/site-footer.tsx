@@ -1,8 +1,10 @@
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { Wordmark } from "@/components/brand/wordmark"
+import { FeedbackLink } from "@/components/feedback/feedback"
 import { LocaleSwitcher } from "@/components/layout/locale-switcher"
 import { Link } from "@/i18n/navigation"
+import { feedbackEnabled } from "@/lib/feedback-store"
 import { MENU, NAV } from "@/lib/nav"
 
 export async function SiteFooter() {
@@ -44,6 +46,9 @@ export async function SiteFooter() {
           <Link href="/privacy" className="underline underline-offset-4 hover:text-sign-foreground">
             {t("footer.privacy")}
           </Link>
+          {feedbackEnabled() ? (
+            <FeedbackLink className="underline underline-offset-4 hover:text-sign-foreground" />
+          ) : null}
         </span>
         <LocaleSwitcher />
       </div>

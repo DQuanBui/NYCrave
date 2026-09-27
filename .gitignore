@@ -50,3 +50,4 @@ CLAUDE.md
 
 # Visitor reports written in local development
 /data/reports.json
+/data/feedback.json

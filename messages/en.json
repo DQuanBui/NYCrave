@@ -786,6 +786,13 @@
         "To stop floods of reports, the server briefly counts reports per network address in memory. It is not saved."
       ]
     },
+    "feedback": {
+      "title": "Feedback",
+      "items": [
+        "When you send feedback, we store your rating, the features you picked, anything you write and the site language. There is no name or email field.",
+        "To decide when to ask, your browser counts the pages you have seen and remembers when it last asked. That count stays on your device."
+      ]
+    },
     "services": {
       "title": "Services the site uses",
       "items": [
@@ -855,5 +862,40 @@
       "subway": "Nearest subway: {station} ({trains}), about {minutes} min walk.",
       "checkHours": "Hours were researched from official sources but not yet confirmed with the venue, so check before you go."
     }
+  },
+  "feedback": {
+    "ask": "How's NYCrave so far?",
+    "askBody": "Tap a face. It takes ten seconds.",
+    "notNow": "Not now",
+    "open": "Send feedback",
+    "title": "Your feedback",
+    "intro": "Tell us how NYCrave worked for you and what would make it better.",
+    "rating": "How was your experience?",
+    "ratings": {
+      "1": "Poor",
+      "2": "Not great",
+      "3": "Okay",
+      "4": "Good",
+      "5": "Love it"
+    },
+    "rate": "{rating} out of 5: {label}",
+    "used": "What did you use? (optional)",
+    "features": {
+      "search": "Search",
+      "places": "Places to eat and see",
+      "plan": "My Day planner",
+      "map": "Map",
+      "assistant": "Ask NYCrave",
+      "tips": "Tips"
+    },
+    "comment": "Anything to add? (optional)",
+    "commentPlaceholder": "What worked, what didn't, or a place we should add",
+    "send": "Send feedback",
+    "sending": "Sending…",
+    "thanks": "Thank you! We read every note.",
+    "close": "Close",
+    "error": "That didn't go through. Please try again.",
+    "limited": "You've sent feedback a few times already. Please try again in a few minutes.",
+    "privacy": "We only store your rating, what you picked and what you write, with no name or email."
   }
 }

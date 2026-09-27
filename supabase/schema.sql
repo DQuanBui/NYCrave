@@ -83,3 +83,17 @@ create table reports (
 
 create index reports_open_idx on reports (resolved, created_at desc);
 alter table reports enable row level security;
+
+-- Visitor feedback about the site (rating, features used, optional comment).
+-- Inserted and read by the server with the service role only; no public policies.
+create table feedback (
+  id          bigint generated always as identity primary key,
+  rating      smallint not null check (rating between 1 and 5),
+  features    text[] not null default '{}',
+  comment     text check (char_length(comment) <= 1000),
+  locale      text not null,
+  created_at  timestamptz not null default now()
+);
+
+create index feedback_created_idx on feedback (created_at desc);
+alter table feedback enable row level security;

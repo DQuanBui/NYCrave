@@ -4,6 +4,7 @@ import { LoginForm, SyncSeedButton } from "@/components/admin/admin-forms"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { adminEnabled, isAdmin } from "@/lib/admin-auth"
+import { recentFeedback, summarizeFeedback } from "@/lib/feedback-store"
 import { writeBackend } from "@/lib/place-store"
 import { getPlaces } from "@/lib/places"
 import { openReports, type Report } from "@/lib/report-store"
@@ -58,6 +59,8 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
   const unverified = places.filter((p) => !p.verified).length
   const backend = writeBackend()
   const reports = await openReports()
+  const feedback = await recentFeedback()
+  const summary = summarizeFeedback(feedback)
   const nameOf = new Map(places.map((p) => [p.id, p]))
 
   return (
@@ -138,6 +141,54 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
                 </li>
               )
             })}
+          </ul>
+        </section>
+      ) : null}
+
+      {feedback.length ? (
+        <section aria-labelledby="feedback" className="space-y-3">
+          <h2 id="feedback" className="text-xl font-bold">
+            Visitor feedback ({summary.total})
+          </h2>
+          <div className="flex flex-wrap items-end gap-6 rounded-2xl border p-4">
+            <p>
+              <span className="text-4xl font-bold">{summary.average.toFixed(1)}</span>
+              <span className="text-muted-foreground"> / 5 average</span>
+            </p>
+            <ol className="flex items-end gap-2" aria-label="Ratings from 1 to 5">
+              {summary.counts.map((count, i) => (
+                <li key={i} className="flex flex-col items-center gap-1 text-xs">
+                  <span
+                    aria-hidden
+                    className="w-6 rounded-t bg-taxi"
+                    style={{ height: `${4 + (48 * count) / Math.max(...summary.counts, 1)}px` }}
+                  />
+                  <span>
+                    {i + 1}★ · {count}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </div>
+          <ul className="divide-y rounded-2xl border">
+            {feedback.slice(0, 50).map((f) => (
+              <li key={f.id} className="space-y-1 px-4 py-3 text-sm">
+                <p className="font-semibold">
+                  {"★".repeat(f.rating)}
+                  <span className="text-muted-foreground">{"★".repeat(5 - f.rating)}</span>
+                  {f.features.length ? (
+                    <span className="ml-2 font-normal text-muted-foreground">
+                      used {f.features.join(", ")}
+                    </span>
+                  ) : null}
+                </p>
+                {f.comment ? <p>“{f.comment}”</p> : null}
+                <p className="text-xs text-muted-foreground">
+                  {new Date(f.createdAt).toLocaleString("en-US", { timeZone: "America/New_York" })}{" "}
+                  · {f.locale}
+                </p>
+              </li>
+            ))}
           </ul>
         </section>
       ) : null}

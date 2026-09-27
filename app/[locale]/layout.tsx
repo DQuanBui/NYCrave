@@ -4,12 +4,14 @@ import { hasLocale, NextIntlClientProvider } from "next-intl"
 import { getTranslations } from "next-intl/server"
 import { BottomTabBar } from "@/components/layout/bottom-tab-bar"
 import { Assistant } from "@/components/assistant/assistant"
+import { FeedbackPrompt } from "@/components/feedback/feedback"
 import { SiteFooter } from "@/components/layout/site-footer"
 import { SiteHeader } from "@/components/layout/site-header"
 import { ServiceWorker } from "@/components/providers/service-worker"
 import { Providers } from "@/components/providers/theme-provider"
 import { initLocale } from "@/i18n/locale"
 import { routing } from "@/i18n/routing"
+import { feedbackEnabled } from "@/lib/feedback-store"
 import { body, display } from "@/lib/fonts"
 import { SITE_URL } from "@/lib/site"
 import "../globals.css"
@@ -64,6 +66,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             <SiteFooter />
             <BottomTabBar />
             <Assistant ai={Boolean(process.env.ANTHROPIC_API_KEY)} />
+            {feedbackEnabled() ? <FeedbackPrompt /> : null}
             <ServiceWorker />
           </Providers>
         </NextIntlClientProvider>
