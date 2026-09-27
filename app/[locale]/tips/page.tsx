@@ -107,7 +107,7 @@ export default async function TipsPage({ params }: Props) {
                       return (
                         <li key={n.slug}>
                           <Link
-                            href={{ pathname: "/search", query: { q: n.name } }}
+                            href={`/neighborhoods/${n.slug}`}
                             className="inline-flex items-center gap-2 rounded-full border-2 border-transparent bg-card px-3 py-1.5 text-sm font-semibold hover:border-foreground"
                           >
                             {n.name}

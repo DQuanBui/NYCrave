@@ -22,7 +22,8 @@
     "openMenu": "Open menu",
     "menuTitle": "All sections",
     "menuDescription": "Every line NYCrave runs.",
-    "homeLabel": "NYCrave home"
+    "homeLabel": "NYCrave home",
+    "neighborhoods": "Neighborhoods"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -47,7 +48,7 @@
   },
   "search": {
     "label": "Search places",
-    "placeholder": "Try “pho in Queens” or “free things to do”",
+    "placeholder": "Try “late night pizza”",
     "submit": "Search",
     "title": "Search",
     "resultsFor": "Results for “{query}”",
@@ -94,7 +95,9 @@
       "coffee": "Coffee",
       "dinner": "Dinner",
       "night": "Night"
-    }
+    },
+    "surprise": "Surprise me",
+    "surpriseLabel": "Go to a random place that is open now"
   },
   "categories": {
     "restaurant": {
@@ -164,7 +167,11 @@
     "noResultsBody": "Nothing here fits all of those filters. Remove one, or clear them all.",
     "mapLabel": "Map of {count, plural, one {# place} other {# places}}",
     "viewPlace": "View place",
-    "resultsHeading": "Places"
+    "resultsHeading": "Places",
+    "nearMe": "Near me",
+    "locating": "Finding you",
+    "locationDenied": "Location is off. Allow it in your browser to sort by distance.",
+    "locationFar": "You seem to be outside New York City, so distances are long."
   },
   "browse": {
     "cuisine": "Browse by cuisine",
@@ -265,7 +272,7 @@
     "share": "Share",
     "export": "Add to calendar",
     "mapLabel": "Route map of your day",
-    "costNote": "Costs are estimates for one person and use placeholder prices until places are verified.",
+    "costNote": "Costs are rough estimates for one person, based on each place's price level and ticket prices.",
     "savedDays": "Saved days",
     "remove": "Remove {label}",
     "enhance": "Refine with AI",
@@ -280,7 +287,7 @@
   },
   "place": {
     "unverified": "Unverified",
-    "unverifiedHint": "Placeholder details that have not been checked yet.",
+    "unverifiedHint": "Researched from official sources but not yet confirmed with the venue.",
     "free": "Free",
     "save": "Save {name}",
     "unsave": "Remove {name} from saved",
@@ -316,7 +323,12 @@
     "reviewsAttribution": "Ratings and reviews from Google.",
     "seeOnGoogle": "See all on Google Maps",
     "back": "Back",
-    "today": "Today"
+    "today": "Today",
+    "illustrative": "Illustrative photo",
+    "photoCredit": "Photo: {credit}",
+    "distanceWalk": "{distance} mi, {minutes} min walk",
+    "distanceSubway": "{distance} mi, {minutes} min by subway",
+    "planAround": "Plan a day around this"
   },
   "hours": {
     "open": "Open",
@@ -340,9 +352,10 @@
     "emptyCta": "Find something to eat"
   },
   "footer": {
-    "dataNote": "Places marked Unverified use placeholder details and have not been checked yet.",
+    "dataNote": "Places marked Unverified were researched from official sources but not yet confirmed with the venue. Hours and prices change, so check before you go.",
     "copyright": "© {year} NYCrave",
-    "language": "Language"
+    "language": "Language",
+    "credits": "Photo credits"
   },
   "notFound": {
     "title": "This stop is not in service",
@@ -526,5 +539,57 @@
   "offline": {
     "title": "You are offline",
     "body": "Most of NYCrave needs a connection. Places you saved stay on this device and open without one."
+  },
+  "neighborhoods": {
+    "title": "Neighborhoods",
+    "tagline": "Every NYCrave place, block by block and borough by borough.",
+    "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",
+    "placesIn": "Places in {name}",
+    "nearby": "Nearby neighborhoods",
+    "planDay": "Plan a day starting here",
+    "mapLabel": "Map of places in {name}",
+    "emptyTitle": "No places here yet",
+    "emptyBody": "We have not added places in {name} yet. Try a nearby neighborhood.",
+    "blurbs": {
+      "financial-district": "Wall Street, the 9/11 Memorial and ferries from the harbor's edge, where the city began.",
+      "chinatown": "Dim sum parlors, bakeries and produce stands packed into narrow downtown streets.",
+      "lower-east-side": "Old tenement blocks, classic delis and a late-night bar scene.",
+      "soho": "Cast-iron buildings, cobblestones and flagship shopping.",
+      "east-village": "Noodle bars, cocktail dens and St. Marks Place energy, open late.",
+      "west-village": "Crooked tree-lined streets, jazz clubs and a slice on every corner.",
+      "union-square": "A busy crossroads with a greenmarket, bookstores and subway lines in every direction.",
+      "meatpacking-district": "Old warehouses turned boutiques, the south end of the High Line and the Hudson waterfront.",
+      "chelsea": "Galleries, Chelsea Market and the High Line overhead.",
+      "nomad": "Grand old hotels, rooftop bars and Madison Square Park next door.",
+      "koreatown": "A block of 32nd Street packed with barbecue, karaoke and late-night soup.",
+      "midtown": "Times Square, Broadway theaters and the skyscrapers you have seen in movies.",
+      "midtown-east": "Grand Central, the Chrysler Building and the tram to Roosevelt Island.",
+      "upper-west-side": "Museums, brownstones and two parks: Central on one side, Riverside on the other.",
+      "upper-east-side": "Museum Mile along Fifth Avenue and quiet townhouse blocks.",
+      "harlem": "Soul food, jazz history and the Apollo on 125th Street.",
+      "williamsburg": "Waterfront parks, rooftop bars, coffee roasters and weekend food markets.",
+      "greenpoint": "Polish bakeries, vintage shops and quiet streets along the East River.",
+      "dumbo": "Cobblestones between two bridges, and the most photographed view in Brooklyn.",
+      "brooklyn-heights": "Brownstone streets above the harbor and a promenade facing Lower Manhattan.",
+      "park-slope": "Brownstones, family cafés and the edge of Prospect Park.",
+      "bushwick": "Warehouse murals, galleries and late-night bars.",
+      "sunset-park": "Brooklyn's Chinatown, taquerias, and a hilltop park looking out over the harbor.",
+      "flushing": "One of the city's biggest Chinatowns: dumplings, food courts and bubble tea.",
+      "astoria": "Greek tavernas, beer gardens and the Museum of the Moving Image.",
+      "jackson-heights": "South Asian and Latin American food along Roosevelt Avenue and 74th Street.",
+      "long-island-city": "Riverfront parks with the best Midtown skyline views, plus MoMA PS1.",
+      "belmont": "The Bronx's Little Italy, centered on Arthur Avenue.",
+      "mott-haven": "Historic rowhouses and a growing arts scene in the South Bronx.",
+      "st-george": "The Staten Island Ferry terminal, with harbor views back to Manhattan."
+    }
+  },
+  "credits": {
+    "title": "Photo credits",
+    "tagline": "The photographers behind NYCrave's pictures.",
+    "intro": "Photos come from Wikimedia Commons under free licenses. Each is credited below: select a credit for the original file, or the license for its terms.",
+    "illustrativeNote": "Photos marked Illustrative show a typical dish, drink or scene, not the exact place.",
+    "home": "Home page",
+    "license": "License",
+    "count": "{count, plural, one {# photo} other {# photos}}"
   }
 }

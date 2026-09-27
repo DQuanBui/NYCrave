@@ -74,7 +74,7 @@ export function Hero() {
           </span>
           <span
             aria-hidden
-            className="relative mt-3 block h-[1.9em] overflow-hidden pt-[0.05em] font-display text-[clamp(3.25rem,9.5vw,6.75rem)] leading-[0.92]"
+            className="relative mt-3 block h-[2em] overflow-hidden pt-[0.05em] font-display text-[clamp(3.25rem,9.5vw,6.75rem)] leading-[0.98]"
           >
             <AnimatePresence initial={false}>
               <m.span

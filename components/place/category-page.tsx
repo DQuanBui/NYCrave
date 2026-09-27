@@ -32,7 +32,11 @@ export async function CategoryPage({
   const meta = CATEGORY_META[category]
   const kinds = CATEGORY_TYPE_KINDS[category] ?? []
   const showHoods = category === "shopping"
-  const pool = kinds.length || showHoods ? await getPlaces({ category }) : []
+  const pool = await getPlaces({ category }, { sort: "trending" })
+  // Header prints: the most popular places' own photos first, illustrative ones last
+  const prints = pool
+    .flatMap((p) => p.photos.slice(0, 1))
+    .sort((a, b) => Number(Boolean(a.illustrative)) - Number(Boolean(b.illustrative)))
 
   return (
     <div>
@@ -41,6 +45,7 @@ export async function CategoryPage({
         bullet={meta.bullet}
         title={t(`categories.${category}.title`)}
         tagline={t(`categories.${category}.tagline`)}
+        photos={prints}
       />
       <div className="mx-auto max-w-7xl space-y-12 px-4 py-8 lg:px-8 lg:py-10">
         {kinds.map((kind) => (

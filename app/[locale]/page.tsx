@@ -51,6 +51,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           title={t("openNow")}
           places={all}
           live="open-now"
+          surprise
           seeAllHref="/search?q=open+now"
           emptyText={t("openNowEmpty")}
         />

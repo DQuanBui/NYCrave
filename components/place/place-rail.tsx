@@ -1,6 +1,6 @@
 "use client"
 
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import { ChevronLeft, ChevronRight, Shuffle } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useId, useRef } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
@@ -8,7 +8,7 @@ import { SignBand } from "@/components/brand/sign-band"
 import { PlaceCard } from "@/components/place/place-card"
 import { PlaceCardSkeleton } from "@/components/place/place-card-skeleton"
 import { useNow } from "@/hooks/use-now"
-import { Link } from "@/i18n/navigation"
+import { Link, useRouter } from "@/i18n/navigation"
 import { getOpenStatus, isOpen, isOpenLaterToday, nycClock } from "@/lib/hours"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
@@ -25,6 +25,8 @@ type PlaceRailProps = {
   live?: LiveFilter
   emptyText?: string
   limit?: number
+  /** Adds a button that jumps to a random place from the (live-filtered) list. */
+  surprise?: boolean
 }
 
 function applyLive(places: Place[], live: LiveFilter, now: Date) {
@@ -40,6 +42,7 @@ export function PlaceRail({
   live,
   emptyText,
   limit = 10,
+  surprise = false,
 }: PlaceRailProps) {
   const t = useTranslations()
   const headingId = useId()
@@ -47,7 +50,9 @@ export function PlaceRail({
   const now = useNow()
 
   const pending = live !== undefined && now === null
-  const visible = (live && now ? applyLive(places, live, now) : places).slice(0, limit)
+  const router = useRouter()
+  const matching = live && now ? applyLive(places, live, now) : places
+  const visible = matching.slice(0, limit)
   const lines = CATEGORIES.filter((c) => visible.some((p) => p.category === c))
 
   const scrollBy = (direction: 1 | -1) => {
@@ -67,6 +72,21 @@ export function PlaceRail({
         ))}
         action={
           <div className="flex items-center gap-1">
+            {surprise && !pending && matching.length > 0 ? (
+              <button
+                type="button"
+                onClick={() =>
+                  router.push(
+                    `/place/${matching[Math.floor(Math.random() * matching.length)].slug}`,
+                  )
+                }
+                aria-label={t("home.surpriseLabel")}
+                className="inline-flex items-center gap-1.5 rounded-full bg-taxi px-3 py-1.5 text-sm font-bold text-taxi-foreground"
+              >
+                <Shuffle aria-hidden className="size-4" />
+                <span className="hidden sm:inline">{t("home.surprise")}</span>
+              </button>
+            ) : null}
             {seeAllHref ? (
               <Link
                 href={seeAllHref}

@@ -1,6 +1,20 @@
 [
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/chelsea-market-1.jpg",
+        "alt": "The Chelsea Market sign on the old factory building",
+        "width": 1100,
+        "height": 495,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Chelsea_Market_August_2024_001.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": ["Food hall concourse", "Shops under the old factory arches"],
     "vibeTags": ["rainy_day", "group_friendly", "tourist_classic", "kid_friendly"],
     "verified": false,
@@ -70,7 +84,34 @@
     "lng": -74.0049
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/strand-bookstore-1.jpg",
+        "alt": "Strand Bookstore's corner building with red awnings and flags",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Ajay Suresh from New York, NY, USA, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Strand_Bookstore_(48072652191).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/strand-bookstore-2.jpg",
+        "alt": "Strand Bookstore's storefront and sidewalk book carts",
+        "width": 1100,
+        "height": 618,
+        "source": "other",
+        "attribution": {
+          "text": "Eunice, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:The_strand_bookstore_(16052169773).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
     "mustTry": ["Sidewalk bargain carts", "Rare Book Room"],
     "vibeTags": ["rainy_day", "local_favorite", "tourist_classic", "quiet"],
     "verified": false,
@@ -139,7 +180,22 @@
     "lng": -73.99094
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/beacons-closet-greenpoint-1.jpg",
+        "alt": "Illustrative photo: racks of secondhand plaid shirts",
+        "width": 1100,
+        "height": 619,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Ewan Munro from London, UK, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Too_Much_Plaid_(4394365739).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
     "mustTry": ["Racks sorted by color"],
     "vibeTags": ["local_favorite", "rainy_day", "instagrammable"],
     "verified": false,
@@ -208,7 +264,34 @@
     "lng": -73.95248
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/macys-herald-square-1.jpg",
+        "alt": "Macy's Herald Square flagship on 34th Street",
+        "width": 1100,
+        "height": 729,
+        "source": "other",
+        "attribution": {
+          "text": "Balou46, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC-manhattan-macys.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/macys-herald-square-2.jpg",
+        "alt": "Macy's Herald Square and the busy corner of Broadway and 34th Street",
+        "width": 1100,
+        "height": 943,
+        "source": "other",
+        "attribution": {
+          "text": "Arild Vågen, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Macy%27s_Herald_Square_August_2017_01.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": ["Original wooden escalators"],
     "vibeTags": ["tourist_classic", "rainy_day"],
     "verified": false,
@@ -278,7 +361,34 @@
     "lng": -73.98926
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/smorgasburg-williamsburg-1.jpg",
+        "alt": "Food stalls and crowds at Smorgasburg in Brooklyn",
+        "width": 1100,
+        "height": 734,
+        "source": "other",
+        "attribution": {
+          "text": "Jill Laurie Goodman from New York, United States, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Smorgasburg_(8173898964).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/smorgasburg-williamsburg-2.jpg",
+        "alt": "Tents and visitors at Smorgasburg on the waterfront",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Alexander Rea, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cooking_Channel_at_Smorgasburg_34_(7509703888).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
     "mustTry": ["Grazing across dozens of food vendors"],
     "vibeTags": ["outdoor", "group_friendly", "instagrammable", "kid_friendly"],
     "verified": false,
@@ -318,7 +428,34 @@
     "lng": -73.962
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/arthur-avenue-retail-market-1.jpg",
+        "alt": "The Arthur Avenue Retail Market building",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Leonard J. DeFrancisci, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Arthur_Avenue_Retail_Market_(Bronx,_New_York)_001.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/arthur-avenue-retail-market-2.jpg",
+        "alt": "Shoppers and stalls inside the Arthur Avenue Retail Market",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Joe Mabel, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Arthur_Avenue_Retail_Market_03.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": ["Fresh mozzarella", "Cured meats", "Hand-rolled cigars"],
     "vibeTags": ["local_favorite", "rainy_day"],
     "verified": false,

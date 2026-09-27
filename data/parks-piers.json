@@ -1,6 +1,33 @@
 [
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/central-park-1.jpg",
+        "alt": "Bethesda Fountain and the Lake in Central Park",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Fountain_and_the_Lake,_Central_Park,_Manhattan,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/central-park-2.jpg",
+        "alt": "Bethesda Terrace and the Lake with Midtown towers beyond the trees",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Terrace_and_432_Park_Avenue_from_the_Lake,_Central_Park,_Manhattan,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["outdoor", "kid_friendly", "tourist_classic", "local_favorite"],
     "verified": false,
@@ -78,7 +105,34 @@
     "lng": -73.9665
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/the-high-line-1.jpg",
+        "alt": "Visitors sitting on the High Line above a street",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Photograph by Mike Peel (www.mikepeel.net)., CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:High_Line,_New_York_2012_39.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/the-high-line-2.jpg",
+        "alt": "Planted walkways along the High Line",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Photograph by Mike Peel (www.mikepeel.net)., CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:At_New_York_City_2023_024_-_High_Line_Section_3.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["outdoor", "instagrammable", "tourist_classic", "date_night"],
     "verified": false,
@@ -154,7 +208,34 @@
     "lng": -74.0048
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/brooklyn-bridge-park-1.jpg",
+        "alt": "Old pier pilings and the Lower Manhattan skyline from Brooklyn Bridge Park",
+        "width": 1100,
+        "height": 735,
+        "source": "other",
+        "attribution": {
+          "text": "Jakub Hałun, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Manhattan_from_Brooklyn_Bridge_Park,_New_York_City,_20231005_0912_2144.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/brooklyn-bridge-park-2.jpg",
+        "alt": "The Brooklyn Bridge and Lower Manhattan from Pebble Beach",
+        "width": 1100,
+        "height": 367,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["outdoor", "kid_friendly", "instagrammable", "date_night"],
     "verified": false,
@@ -227,7 +308,34 @@
     "lng": -73.9967
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/prospect-park-1.jpg",
+        "alt": "The Long Meadow in Prospect Park",
+        "width": 1100,
+        "height": 828,
+        "source": "other",
+        "attribution": {
+          "text": "Garry R. Osgood, CC BY 2.5",
+          "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Long_Meadow_Panorama_from_Endale_Arch.jpg",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+        }
+      },
+      {
+        "url": "/photos/prospect-park-2.jpg",
+        "alt": "Autumn trees on Prospect Park's Long Meadow",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Neil in Brooklyn, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Prospect_Park,_Long_Meadow_across_from_ball_fields.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["outdoor", "kid_friendly", "local_favorite", "group_friendly"],
     "verified": false,
@@ -300,7 +408,34 @@
     "lng": -73.969
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/little-island-1.jpg",
+        "alt": "Little Island's tulip-shaped piles rising from the Hudson River",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Photograph by Mike Peel (www.mikepeel.net)., CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:At_New_York_City_2023_060_-_Little_Island_at_Pier_55.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/little-island-2.jpg",
+        "alt": "The amphitheater on Little Island",
+        "width": 1100,
+        "height": 734,
+        "source": "other",
+        "attribution": {
+          "text": "Jakub Hałun, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Little_Island_Amphitheater,_New_York_City,_20231001_1824_1523.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["outdoor", "instagrammable", "date_night", "kid_friendly"],
     "verified": false,
@@ -373,7 +508,21 @@
     "lng": -74.0103
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/gantry-plaza-state-park-1.jpg",
+        "alt": "Midtown skyline across the East River from Gantry Plaza State Park",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Tdorante10, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Gantry_Plaza_td_(2019-06-08)_034_-_Peninsula_Park,_Stage_II.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["outdoor", "instagrammable", "date_night", "local_favorite"],
     "verified": false,
@@ -446,7 +595,34 @@
     "lng": -73.958
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/domino-park-1.jpg",
+        "alt": "The Williamsburg Bridge and Manhattan skyline from Domino Park",
+        "width": 1100,
+        "height": 495,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Domino_Park_002.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/domino-park-2.jpg",
+        "alt": "The East River and Williamsburg Bridge seen from Domino Park",
+        "width": 1100,
+        "height": 495,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_from_Domino_Park_019.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["outdoor", "kid_friendly", "local_favorite", "group_friendly"],
     "verified": false,

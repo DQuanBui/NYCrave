@@ -36,7 +36,12 @@ export async function SiteFooter() {
         </nav>
       </div>
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 pb-8 text-xs text-sign-foreground/75 lg:px-8">
-        <span>{t("footer.copyright", { year: new Date().getFullYear() })}</span>
+        <span className="flex flex-wrap gap-x-4 gap-y-1">
+          <span>{t("footer.copyright", { year: new Date().getFullYear() })}</span>
+          <Link href="/credits" className="underline underline-offset-4 hover:text-sign-foreground">
+            {t("footer.credits")}
+          </Link>
+        </span>
         <LocaleSwitcher />
       </div>
     </footer>

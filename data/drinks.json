@@ -1,6 +1,21 @@
 [
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/devocion-williamsburg-1.jpg",
+        "alt": "Illustrative photo: pour-over coffee being brewed",
+        "width": 1100,
+        "height": 732,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Kim Sanso, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Manual_drip_(pour-over)_coffee.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
     "mustTry": ["Single-origin pour-over", "Espresso"],
     "vibeTags": ["solo_friendly", "quiet", "instagrammable", "rainy_day"],
     "verified": false,
@@ -135,7 +150,22 @@
     "lng": -74.00184
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/kettl-greenpoint-1.jpg",
+        "alt": "Illustrative photo: a bowl of whisked matcha",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "rumpleteaser from Nagoya, Japan, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Matcha_(5026245674).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
     "mustTry": ["Usucha matcha", "Hojicha"],
     "vibeTags": ["quiet", "solo_friendly", "instagrammable"],
     "verified": false,
@@ -205,7 +235,22 @@
     "lng": -73.95816
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/xing-fu-tang-east-village-1.jpg",
+        "alt": "Illustrative photo: milk tea with tapioca pearls",
+        "width": 1100,
+        "height": 1648,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "sam651030 from Pixabay, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:A_bubble_tea_with_tapioca_pearls,_July_2018.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
     "mustTry": ["Brown sugar boba milk"],
     "vibeTags": ["cheap_eats", "instagrammable", "group_friendly"],
     "verified": false,
@@ -276,7 +321,22 @@
     "lng": -73.98778
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/death-and-co-east-village-1.jpg",
+        "alt": "Illustrative photo: a dim cocktail bar",
+        "width": 1100,
+        "height": 736,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Matti Blume, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wiki_Loves_Cocktails_2017,_Berlin,_20170716_(DSC06538).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": ["Seasonal cocktail menu"],
     "vibeTags": ["date_night", "late_night", "quiet"],
     "verified": false,
@@ -418,7 +478,22 @@
     "lng": -74.00608
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/230-fifth-rooftop-bar-1.jpg",
+        "alt": "Illustrative photo: the Empire State Building at dusk seen from a nearby rooftop",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Casper Moller from London, United Kingdom, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_at_dusk_from_the_Bryant_Park_Hotel_(1629369476).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
     "mustTry": ["A drink with the Empire State Building view"],
     "vibeTags": ["instagrammable", "date_night", "group_friendly", "late_night"],
     "verified": false,
@@ -489,7 +564,22 @@
     "lng": -73.98859
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/westlight-williamsburg-1.jpg",
+        "alt": "Illustrative photo: the Manhattan skyline across the East River from Williamsburg",
+        "width": 1100,
+        "height": 495,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Manhattan_Skyline_from_Williamsburg_011.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": ["Cocktails on the terrace"],
     "vibeTags": ["date_night", "instagrammable", "late_night"],
     "verified": false,

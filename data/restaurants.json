@@ -1,6 +1,46 @@
 [
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/katzs-delicatessen-1.jpg",
+        "alt": "Katz's Delicatessen's corner storefront and neon signs on East Houston Street",
+        "width": 1100,
+        "height": 785,
+        "source": "other",
+        "attribution": {
+          "text": "Frank Schulenburg, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Katz%E2%80%99s_Delicatessen_(2024)-L1005652.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/katzs-delicatessen-2.jpg",
+        "alt": "Katz's painted wall sign, known as the best since 1888",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Shinya Suzuki from New York, U.S.A., CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Katz%27s_Delicatessen_sign.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/katzs-delicatessen-3.jpg",
+        "alt": "Crowds outside Katz's Delicatessen at the corner of Houston and Ludlow",
+        "width": 1100,
+        "height": 688,
+        "source": "other",
+        "attribution": {
+          "text": "ajay_suresh, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Katz%27s_Delicatessen_(51623899326).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
     "mustTry": ["Pastrami on rye", "Matzo ball soup", "Hot dog"],
     "vibeTags": ["tourist_classic", "local_favorite", "late_night", "group_friendly"],
     "verified": false,
@@ -72,7 +112,34 @@
     "lng": -73.98735
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/joes-pizza-carmine-street-1.jpg",
+        "alt": "Joe's Pizza storefront at 7 Carmine Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Joe%27s_Pizza_2022_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/joes-pizza-carmine-street-2.jpg",
+        "alt": "A plain cheese slice on a paper plate at Joe's Pizza",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Wil540 art, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Joes_Pizza_2021.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": ["Plain cheese slice", "Fresh mozzarella slice", "Pepperoni slice"],
     "vibeTags": ["cheap_eats", "late_night", "tourist_classic", "solo_friendly"],
     "verified": false,
@@ -144,7 +211,34 @@
     "lng": -74.00206
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/nom-wah-tea-parlor-1.jpg",
+        "alt": "Nom Wah Tea Parlor's storefront on Doyers Street",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Bagelpigeon, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Nom_Wah_Tea_Parlor_in_New_York_City_Chinatown.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      },
+      {
+        "url": "/photos/nom-wah-tea-parlor-2.jpg",
+        "alt": "The bend of Doyers Street in Chinatown",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Doyers_Street,_Chinatown,_Manhattan,_New_York_(7237357202).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
     "mustTry": ["Shrimp dumplings", "Pork buns", "Soup dumplings"],
     "vibeTags": ["local_favorite", "group_friendly", "tourist_classic", "rainy_day"],
     "verified": false,
@@ -215,7 +309,21 @@
     "lng": -73.9982
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/los-tacos-no-1-chelsea-market-1.jpg",
+        "alt": "Two adobada tacos from Los Tacos No. 1",
+        "width": 1100,
+        "height": 1116,
+        "source": "other",
+        "attribution": {
+          "text": "BanjoZebra, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Los_Tacos_No._1_adobada_tacos.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": ["Adobada taco", "Carne asada taco", "Nopal (cactus) taco"],
     "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly", "rainy_day"],
     "verified": false,
@@ -286,7 +394,22 @@
     "lng": -74.0049
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/ippudo-east-village-1.jpg",
+        "alt": "Illustrative photo: a bowl of tonkotsu ramen with pork, egg and scallions",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Gatorfan252525, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:A_bowl_of_tonkotsu_ramen_at_Ichiran_in_Tokyo_in_July_2026.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": ["Shiromaru classic tonkotsu ramen", "Akamaru modern ramen", "Pork buns"],
     "vibeTags": ["rainy_day", "date_night", "group_friendly"],
     "verified": false,
@@ -358,7 +481,33 @@
     "lng": -73.99018
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/sylvias-restaurant-harlem-1.jpg",
+        "alt": "Sylvia's Restaurant on Malcolm X Boulevard in Harlem",
+        "width": 1100,
+        "height": 619,
+        "source": "other",
+        "attribution": {
+          "text": "Ajay Suresh from New York, NY, USA, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Harlem_-_Sylvia%27s_Restaurant_(48555310372).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/sylvias-restaurant-harlem-2.jpg",
+        "alt": "Diners at Sylvia's outdoor tables on Malcolm X Boulevard",
+        "width": 1024,
+        "height": 668,
+        "source": "other",
+        "attribution": {
+          "text": "Carol M. Highsmith, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Juneteenth,_Sylvia%27s_Restaurant,_328_Malcolm_X_Blvd.,_Harlem.jpg",
+          "license": "Public domain"
+        }
+      }
+    ],
     "mustTry": ["Fried chicken", "Smothered pork chops", "Mac and cheese", "Candied yams"],
     "vibeTags": ["tourist_classic", "local_favorite", "group_friendly", "kid_friendly"],
     "verified": false,
@@ -430,7 +579,34 @@
     "lng": -73.94452
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/jackson-diner-1.jpg",
+        "alt": "Jackson Diner's awning on 74th Street",
+        "width": 1100,
+        "height": 978,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Jackson_Diner_bikers_jeh.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      },
+      {
+        "url": "/photos/jackson-diner-2.jpg",
+        "alt": "The dining room at Jackson Diner",
+        "width": 1100,
+        "height": 697,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Jackson_Diner_inside_jeh.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
     "mustTry": ["Chicken tikka masala", "Saag paneer", "Samosas"],
     "vibeTags": ["local_favorite", "group_friendly", "kid_friendly"],
     "verified": false,
@@ -502,7 +678,21 @@
     "lng": -73.89201
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/levain-bakery-west-74th-street-1.jpg",
+        "alt": "Three thick Levain cookies on paper",
+        "width": 1100,
+        "height": 745,
+        "source": "other",
+        "attribution": {
+          "text": "Biskuit, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Levain_Bakery_-_The_Best_Cookies_in_the_World_-_Chocolate_Chocolate_Chip,_Oatmeal_Raisin,_Chocolate_Chip_Walnut.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
     "mustTry": ["Chocolate chip walnut cookie", "Dark chocolate peanut butter chip cookie"],
     "vibeTags": ["tourist_classic", "local_favorite", "instagrammable", "kid_friendly"],
     "verified": false,
@@ -573,7 +763,22 @@
     "lng": -73.98032
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/nan-xiang-xiao-long-bao-flushing-1.jpg",
+        "alt": "Illustrative photo: soup dumplings in a bamboo steamer",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Thank You (25 Millions ) views, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Xiao_Lung_Bao_-_55302485355.png",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": ["Pork soup dumplings", "Crab and pork soup dumplings", "Scallion pancake"],
     "vibeTags": ["local_favorite", "group_friendly", "late_night", "cheap_eats"],
     "verified": false,
@@ -645,7 +850,22 @@
     "lng": -73.83261
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/madame-vo-east-village-1.jpg",
+        "alt": "Illustrative photo: a bowl of beef pho with lime and chili on the side",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Codename5281, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ph%E1%BB%9F_b%C3%B2,_C%E1%BA%A7u_Gi%E1%BA%A5y,_H%C3%A0_N%E1%BB%99i.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
     "mustTry": ["Pho with day-long brisket broth", "Short rib add-on", "Imperial rolls"],
     "vibeTags": ["date_night", "rainy_day", "local_favorite"],
     "verified": false,

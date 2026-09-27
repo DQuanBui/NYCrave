@@ -1,5 +1,5 @@
 import type { LineColor } from "@/lib/lines"
-import type { Category, Cuisine, DishType, DrinkType } from "@/types/place"
+import type { Borough, Category, Cuisine, DishType, DrinkType } from "@/types/place"
 
 export type CategoryMeta = {
   line: LineColor
@@ -87,3 +87,12 @@ export const DRINK_EMOJI: Record<DrinkType, string> = {
 
 /** Rough per-person spend by price level, for planner cost estimates (USD). */
 export const PRICE_LEVEL_ESTIMATE: Record<1 | 2 | 3 | 4, number> = { 1: 15, 2: 35, 3: 70, 4: 140 }
+
+/** Each borough borrows the color of a line that serves it (the 7 for Queens, the 2/5 for the Bronx). */
+export const BOROUGH_META: Record<Borough, { line: LineColor; bullet: string }> = {
+  manhattan: { line: "blue", bullet: "M" },
+  brooklyn: { line: "green", bullet: "B" },
+  queens: { line: "purple", bullet: "Q" },
+  bronx: { line: "red", bullet: "X" },
+  staten_island: { line: "gray", bullet: "S" },
+}

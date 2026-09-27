@@ -1,6 +1,33 @@
 [
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/the-met-fifth-avenue-1.jpg",
+        "alt": "The Metropolitan Museum of Art's Fifth Avenue facade and front steps",
+        "width": 1100,
+        "height": 922,
+        "source": "other",
+        "attribution": {
+          "text": "Arad, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Metropolitan_Museum_of_Art_entrance_NYC.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      },
+      {
+        "url": "/photos/the-met-fifth-avenue-2.jpg",
+        "alt": "The Temple of Dendur inside the Met's glass-walled Sackler Wing",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "颐园居, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Dendur_Temple_in_Metropolitan_Museum_of_Art_20240523.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": ["Temple of Dendur", "Arms and Armor galleries", "Roof garden in season"],
     "vibeTags": ["rainy_day", "tourist_classic", "kid_friendly"],
     "verified": false,
@@ -71,7 +98,34 @@
     "lng": -73.96323
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/american-museum-of-natural-history-1.jpg",
+        "alt": "Visitors inside the curving atrium of the Gilder Center",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Photograph by Mike Peel (www.mikepeel.net)., CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:At_American_Museum_of_Natural_History_2024_029.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/american-museum-of-natural-history-2.jpg",
+        "alt": "A dinosaur skeleton in the museum's rotunda",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Jakub Hałun, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:American_Museum_of_Natural_History,_NYC,_20231005_124504.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": ["Blue whale in the Hall of Ocean Life", "Dinosaur halls", "Gilder Center"],
     "vibeTags": ["rainy_day", "kid_friendly", "tourist_classic"],
     "verified": false,
@@ -147,7 +201,20 @@
     "lng": -73.97424
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/moma-1.jpg",
+        "alt": "MoMA's sculpture garden with visitors among the trees",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Unknown author, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_Modern_Art_New_York_2005-04-28.jpg",
+          "license": "Public domain"
+        }
+      }
+    ],
     "mustTry": ["Van Gogh's The Starry Night", "Sculpture garden"],
     "vibeTags": ["rainy_day", "tourist_classic", "quiet"],
     "verified": false,
@@ -223,7 +290,34 @@
     "lng": -73.9775
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/empire-state-building-1.jpg",
+        "alt": "The Empire State Building lit up at dusk above Midtown",
+        "width": 1100,
+        "height": 827,
+        "source": "other",
+        "attribution": {
+          "text": "Dllu, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/empire-state-building-2.jpg",
+        "alt": "The Empire State Building against a clear blue sky",
+        "width": 1100,
+        "height": 2190,
+        "source": "other",
+        "attribution": {
+          "text": "Axel Tschentscher, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_From_Rooftop_2019-10-05_19-11.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": ["86th-floor open-air deck", "102nd-floor observatory"],
     "vibeTags": ["tourist_classic", "instagrammable", "date_night"],
     "verified": false,
@@ -299,7 +393,34 @@
     "lng": -73.98566
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/911-memorial-and-museum-1.jpg",
+        "alt": "The South Pool of the 9/11 Memorial with names engraved around the edge",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "NormanB, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_-_National_September_11_Memorial_South_Pool_-_April_2012_-_9693C.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/911-memorial-and-museum-2.jpg",
+        "alt": "The 9/11 Memorial pool with One World Trade Center rising behind",
+        "width": 1100,
+        "height": 1096,
+        "source": "other",
+        "attribution": {
+          "text": "Dave Z, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:9-11_Memorial_South_Pool.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
     "mustTry": ["Reflecting Absence memorial pools", "Foundation Hall"],
     "vibeTags": ["tourist_classic", "quiet"],
     "verified": false,
@@ -375,7 +496,34 @@
     "lng": -74.01327
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/grand-central-terminal-1.jpg",
+        "alt": "Grand Central's Main Concourse with its arched windows",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Axel Tschentscher, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Terminal_Main_Concourse_2019-10-03_20-02.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/grand-central-terminal-2.jpg",
+        "alt": "Travelers crossing Grand Central's Main Concourse",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Photograph by Mike Peel (www.mikepeel.net)., CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:At_New_York_City_2023_008.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": ["Main Concourse ceiling", "Whispering gallery", "Grand Central Market"],
     "vibeTags": ["tourist_classic", "instagrammable", "rainy_day", "kid_friendly"],
     "verified": false,
@@ -443,7 +591,34 @@
     "lng": -73.97725
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/new-york-public-library-schwarzman-1.jpg",
+        "alt": "The Rose Main Reading Room with its painted ceiling and long tables",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Julien Chatelain from Paris, France, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_Public_Library_Rose_Main_Reading_Room.jpeg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      },
+      {
+        "url": "/photos/new-york-public-library-schwarzman-2.jpg",
+        "alt": "Readers at the long tables of the library's reading room",
+        "width": 1100,
+        "height": 475,
+        "source": "other",
+        "attribution": {
+          "text": "Diliff, CC BY 2.5",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_Public_Library_Research_Room_Jan_2006-1-_3.jpg",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+        }
+      }
+    ],
     "mustTry": ["Rose Main Reading Room", "The lions Patience and Fortitude"],
     "vibeTags": ["quiet", "rainy_day", "tourist_classic", "instagrammable"],
     "verified": false,
@@ -511,7 +686,34 @@
     "lng": -73.98215
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/statue-of-liberty-ferry-1.jpg",
+        "alt": "The Statue of Liberty seen from the ferry",
+        "width": 1100,
+        "height": 734,
+        "source": "other",
+        "attribution": {
+          "text": "Jakub Hałun, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Liberty_Island_from_the_ferry,_NYC,_20231003_1607_2000.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/statue-of-liberty-ferry-2.jpg",
+        "alt": "The ferry landing on Liberty Island below the statue",
+        "width": 1100,
+        "height": 1648,
+        "source": "other",
+        "attribution": {
+          "text": "Jakub Hałun, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Liberty_Island_Ferry_Terminal,_New_York_City,_20231003_1438_1942.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": ["Liberty Island grounds", "Ellis Island National Museum of Immigration"],
     "vibeTags": ["tourist_classic", "kid_friendly", "outdoor", "instagrammable"],
     "verified": false,

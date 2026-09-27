@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { PlacePhoto } from "@/components/place/place-photo"
+import { IllustrativeChip, PlacePhoto } from "@/components/place/place-photo"
 import { cn } from "@/lib/utils"
 import type { Photo, Place } from "@/types/place"
 
@@ -27,7 +27,7 @@ export function PhotoGallery({
         <li
           key={photo.url}
           className={cn(
-            "relative h-full shrink-0 snap-start overflow-hidden",
+            "relative h-full shrink-0 snap-start overflow-hidden bg-muted",
             photos.length === 1 ? "w-full" : "w-[88%] sm:w-[60%] lg:w-[45%]",
           )}
         >
@@ -42,6 +42,7 @@ export function PhotoGallery({
               unoptimized={photo.source === "google_places"}
               className="object-cover"
             />
+            {photo.illustrative ? <IllustrativeChip className="top-2 bottom-auto" /> : null}
             {photo.attribution ? (
               <figcaption className="absolute right-0 bottom-0 rounded-tl-md bg-black/65 px-2 py-0.5 text-[0.7rem] text-white">
                 {photo.attribution.url ? (

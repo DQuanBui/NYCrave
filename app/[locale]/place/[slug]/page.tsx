@@ -9,10 +9,12 @@ import { HoursTable } from "@/components/place/hours-table"
 import { GoogleReviews } from "@/components/place/google-reviews"
 import { PhotoGallery } from "@/components/place/photo-gallery"
 import { PlaceRail } from "@/components/place/place-rail"
+import { PlanAroundButton } from "@/components/place/plan-around-button"
 import { PriceLevel } from "@/components/place/price-level"
 import { SaveButton } from "@/components/place/save-button"
 import { ShareButton } from "@/components/place/share-button"
 import { UnverifiedTag } from "@/components/place/unverified-tag"
+import { neighborhoodByName } from "@/data/neighborhoods"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { formatPriceRange } from "@/lib/format"
@@ -58,6 +60,7 @@ export default async function PlacePage({ params }: Props) {
   const meta = CATEGORY_META[place.category]
   const line = LINES[meta.line]
   const jsonLd = placeJsonLd(place)
+  const neighborhood = neighborhoodByName(place.neighborhood)
   const coordinates = `${place.lat.toFixed(5)}, ${place.lng.toFixed(5)}`
   const tags = [
     ...placeTagKeys(place, 12),
@@ -111,7 +114,17 @@ export default async function PlacePage({ params }: Props) {
             <h1 className="font-display text-display-lg text-balance">{place.name}</h1>
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
               <span className="text-muted-foreground">
-                {place.neighborhood}, {t(`borough.${place.borough}`)}
+                {neighborhood ? (
+                  <Link
+                    href={`/neighborhoods/${neighborhood.slug}`}
+                    className="underline decoration-foreground/30 underline-offset-4 hover:decoration-foreground"
+                  >
+                    {place.neighborhood}
+                  </Link>
+                ) : (
+                  place.neighborhood
+                )}
+                , {t(`borough.${place.borough}`)}
               </span>
               <PriceLevel place={place} />
               <HoursBadge hours={place.hours} />
@@ -119,6 +132,7 @@ export default async function PlacePage({ params }: Props) {
             <div className="flex flex-wrap gap-2 pt-1">
               <SaveButton slug={place.slug} name={place.name} variant="outline" />
               <ShareButton title={place.name} />
+              <PlanAroundButton place={place} />
             </div>
           </header>
 

@@ -11,12 +11,81 @@ export type HeroScene = {
 
 // The first scene is a two-line phrase so the headline space is filled on load
 export const HERO_SCENES: HeroScene[] = [
-  { key: "dumplings", category: "restaurant", emoji: "🥟", query: "dumplings in Chinatown" },
-  { key: "rooftop", category: "drink", emoji: "🍸", query: "rooftop" },
-  { key: "museum", category: "attraction", emoji: "🖼️", query: "museums" },
-  { key: "vintage", category: "shopping", emoji: "🧥", query: "vintage in Greenpoint" },
-  { key: "skyline", category: "photo_spot", emoji: "🌃", query: "photo spots" },
-  { key: "pier", category: "park_pier", emoji: "🌅", query: "piers" },
+  {
+    key: "dumplings",
+    category: "restaurant",
+    emoji: "🥟",
+    query: "dumplings in Chinatown",
+    image: {
+      src: "/photos/hero-dumplings-1.jpg",
+      alt: "Illustrative photo: shrimp dumplings in a bamboo steamer",
+      credit: "Mshuang2, CC0",
+      creditUrl: "https://commons.wikimedia.org/wiki/File:Three_dim_sum_in_steamer_basket.jpg",
+    },
+  },
+  {
+    key: "rooftop",
+    category: "drink",
+    emoji: "🍸",
+    query: "rooftop",
+    image: {
+      src: "/photos/hero-rooftop-1.jpg",
+      alt: "Illustrative photo: Manhattan rooftops and towers at dusk",
+      credit: "Oliver Kienzi, CC BY-SA 4.0",
+      creditUrl: "https://commons.wikimedia.org/wiki/File:Azul_Rooftop_Bar_1.jpg",
+    },
+  },
+  {
+    key: "museum",
+    category: "attraction",
+    emoji: "🖼️",
+    query: "museums",
+    image: {
+      src: "/photos/hero-museum-1.jpg",
+      alt: "The Temple of Dendur inside the Metropolitan Museum of Art",
+      credit: "颐园居, CC BY 4.0",
+      creditUrl:
+        "https://commons.wikimedia.org/wiki/File:Dendur_Temple_in_Metropolitan_Museum_of_Art_20240523.jpg",
+    },
+  },
+  {
+    key: "vintage",
+    category: "shopping",
+    emoji: "🧥",
+    query: "vintage in Greenpoint",
+    image: {
+      src: "/photos/hero-vintage-1.jpg",
+      alt: "Illustrative photo: racks of secondhand plaid shirts",
+      credit: "Ewan Munro from London, UK, CC BY-SA 2.0",
+      creditUrl: "https://commons.wikimedia.org/wiki/File:Too_Much_Plaid_(4394365739).jpg",
+    },
+  },
+  {
+    key: "skyline",
+    category: "photo_spot",
+    emoji: "🌃",
+    query: "photo spots",
+    image: {
+      src: "/photos/hero-skyline-1.jpg",
+      alt: "Lower Manhattan's skyline lit up at blue hour",
+      credit: "King of Hearts, CC BY-SA 4.0",
+      creditUrl:
+        "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Governors_Island_August_2017_panorama.jpg",
+    },
+  },
+  {
+    key: "pier",
+    category: "park_pier",
+    emoji: "🌅",
+    query: "piers",
+    image: {
+      src: "/photos/hero-pier-1.jpg",
+      alt: "Pier 45 in Hudson River Park with the sun low over the river",
+      credit: "Tdorante10, CC BY-SA 4.0",
+      creditUrl:
+        "https://commons.wikimedia.org/wiki/File:Hudson_River_Park_td_(2019-04-24)_108_-_Pier_45_Sunset_Salsa.jpg",
+    },
+  },
 ]
 
 export type Mood = {

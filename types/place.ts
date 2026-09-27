@@ -40,8 +40,17 @@ export const photoSchema = z.object({
   width: z.number().int().positive(),
   height: z.number().int().positive(),
   source: z.enum(["local", "google_places", "other"]),
-  /** Required for third-party photos (e.g. Google Places author attributions). */
-  attribution: z.object({ text: z.string(), url: z.url().optional() }).optional(),
+  /** A generic photo of the dish or drink, not of this exact place. */
+  illustrative: z.boolean().optional(),
+  /** Required for third-party photos (Google Places authors, Creative Commons credits). */
+  attribution: z
+    .object({
+      text: z.string(),
+      url: z.url().optional(),
+      license: z.string().optional(),
+      licenseUrl: z.url().optional(),
+    })
+    .optional(),
 })
 
 export const ticketInfoSchema = z.object({

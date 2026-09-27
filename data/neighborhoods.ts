@@ -94,3 +94,7 @@ export function findNeighborhood(name: string): Neighborhood | undefined {
   const needle = name.trim().toLowerCase()
   return NEIGHBORHOODS.find((n) => n.name.toLowerCase() === needle || n.slug === needle)
 }
+
+export function neighborhoodByName(name: string): Neighborhood | undefined {
+  return NEIGHBORHOODS.find((n) => n.name === name)
+}

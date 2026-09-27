@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next"
+import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getPathname } from "@/i18n/navigation"
 import { routing } from "@/i18n/routing"
 import { toSlug } from "@/lib/place-filters"
@@ -24,7 +25,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const places = await getPlaces()
   const verified = places.filter((p) => p.verified)
 
-  const staticPages = ["/", "/my-day", "/tips", ...Object.values(CATEGORY_META).map((m) => m.href)]
+  const staticPages = [
+    "/",
+    "/my-day",
+    "/tips",
+    "/neighborhoods",
+    ...Object.values(CATEGORY_META).map((m) => m.href),
+    ...NEIGHBORHOODS.map((n) => `/neighborhoods/${n.slug}`),
+  ]
   const typePages = (Object.keys(TYPE_KINDS) as TypeKind[]).flatMap((kind) =>
     countByType(kind, verified)
       .filter((t) => t.count > 0)

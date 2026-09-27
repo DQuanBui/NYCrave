@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 import { LINES } from "@/lib/lines"
 import { placeEmoji } from "@/lib/place-display"
 import { CATEGORY_META } from "@/lib/taxonomy"
@@ -16,7 +17,7 @@ type PlacePhotoProps = {
 
 /**
  * The first photo of a place, or subway-tile placeholder art in its line color.
- * Third-party photos always carry their attribution.
+ * Credits appear in the place gallery and on the photo credits page.
  */
 export function PlacePhoto({
   place,
@@ -30,7 +31,7 @@ export function PlacePhoto({
 
   if (photo) {
     return (
-      <figure className={cn("relative overflow-hidden", className)}>
+      <div className={cn("relative overflow-hidden bg-muted", className)}>
         <Image
           src={photo.url}
           alt={photo.alt}
@@ -40,23 +41,8 @@ export function PlacePhoto({
           unoptimized={photo.source === "google_places"}
           className="object-cover"
         />
-        {photo.attribution ? (
-          <figcaption className="absolute right-0 bottom-0 rounded-tl-md bg-black/60 px-2 py-0.5 text-[0.65rem] text-white">
-            {photo.attribution.url ? (
-              <a
-                href={photo.attribution.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-              >
-                {photo.attribution.text}
-              </a>
-            ) : (
-              photo.attribution.text
-            )}
-          </figcaption>
-        ) : null}
-      </figure>
+        {photo.illustrative ? <IllustrativeChip /> : null}
+      </div>
     )
   }
 
@@ -73,5 +59,19 @@ export function PlacePhoto({
         {placeEmoji(place)}
       </span>
     </div>
+  )
+}
+
+export function IllustrativeChip({ className }: { className?: string }) {
+  const t = useTranslations("place")
+  return (
+    <span
+      className={cn(
+        "absolute bottom-2 left-2 rounded-sm bg-black/65 px-1.5 py-0.5 text-[0.65rem] font-semibold text-white",
+        className,
+      )}
+    >
+      {t("illustrative")}
+    </span>
   )
 }

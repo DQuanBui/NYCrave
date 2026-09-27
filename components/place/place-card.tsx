@@ -1,3 +1,4 @@
+import { Navigation } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { HoursBadge } from "@/components/place/hours-badge"
@@ -9,15 +10,18 @@ import { Link } from "@/i18n/navigation"
 import { placeTagKeys } from "@/lib/place-display"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
+import type { Travel } from "@/lib/planner/types"
 import type { Place } from "@/types/place"
 
 type PlaceCardProps = {
   place: Place
   className?: string
   priority?: boolean
+  /** Distance from the viewer, when they asked to sort by "near me". */
+  travel?: Travel
 }
 
-export function PlaceCard({ place, className, priority }: PlaceCardProps) {
+export function PlaceCard({ place, className, priority, travel }: PlaceCardProps) {
   const t = useTranslations()
   const meta = CATEGORY_META[place.category]
   const tags = placeTagKeys(place).map((key) => t(key))
@@ -66,6 +70,15 @@ export function PlaceCard({ place, className, priority }: PlaceCardProps) {
         <p className="text-sm text-muted-foreground">
           {place.neighborhood}, {t(`borough.${place.borough}`)}
         </p>
+        {travel ? (
+          <p className="flex items-center gap-1.5 text-sm font-semibold">
+            <Navigation aria-hidden className="size-3.5 text-line-blue" />
+            {t(travel.mode === "walk" ? "place.distanceWalk" : "place.distanceSubway", {
+              distance: (travel.km / 1.609).toFixed(1),
+              minutes: travel.minutes,
+            })}
+          </p>
+        ) : null}
         {place.editorialTake ? (
           <p className="line-clamp-2 text-sm leading-snug text-pretty">{place.editorialTake}</p>
         ) : null}

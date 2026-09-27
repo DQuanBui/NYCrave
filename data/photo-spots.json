@@ -1,6 +1,33 @@
 [
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/dumbo-washington-street-view-1.jpg",
+        "alt": "The Manhattan Bridge framed by brick buildings on Washington Street",
+        "width": 1100,
+        "height": 1650,
+        "source": "other",
+        "attribution": {
+          "text": "Superbass, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:2024-11-17-Manhattan_Bridge_Dumbo-0407.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/dumbo-washington-street-view-2.jpg",
+        "alt": "Morning view of the Manhattan Bridge from Washington Street in DUMBO",
+        "width": 1100,
+        "height": 1650,
+        "source": "other",
+        "attribution": {
+          "text": "Eugene Krasnaok, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Manhattan_Bridge_view_from_Washington_Street_DUMBO_Brooklyn_Morning_2022.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["instagrammable", "tourist_classic", "outdoor"],
     "verified": false,
@@ -75,7 +102,34 @@
     "lng": -73.9894
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/brooklyn-bridge-promenade-1.jpg",
+        "alt": "The Brooklyn Bridge's upper walkway between its stone towers",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Rodolfo Zosel (Realpicr), CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_Upper_Deck_Walkway.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/brooklyn-bridge-promenade-2.jpg",
+        "alt": "The Brooklyn Bridge cables seen from the pedestrian walkway",
+        "width": 1100,
+        "height": 745,
+        "source": "other",
+        "attribution": {
+          "text": "Guushing at en.wikipedia, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_as_viewed_from_pedestrian_walkway.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["instagrammable", "tourist_classic", "outdoor", "date_night"],
     "verified": false,
@@ -150,7 +204,34 @@
     "lng": -73.9926
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/brooklyn-heights-promenade-1.jpg",
+        "alt": "The Brooklyn Heights Promenade facing the Lower Manhattan skyline",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Acroterion, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Heights_Promenade_NY1.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/brooklyn-heights-promenade-2.jpg",
+        "alt": "Lower Manhattan skyline across the East River from Brooklyn Heights",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Heights_Promenade_December_2021_003.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["instagrammable", "date_night", "quiet", "outdoor"],
     "verified": false,
@@ -224,7 +305,21 @@
     "lng": -73.998
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/tudor-city-bridge-1.jpg",
+        "alt": "42nd Street at blue hour seen from the Tudor City overpass",
+        "width": 1100,
+        "height": 1650,
+        "source": "other",
+        "attribution": {
+          "text": "John Cunniff from New York, NY, USA, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Tudor_City_Overpass,_Blue_Hour_(23318720031).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["instagrammable", "local_favorite", "outdoor"],
     "verified": false,
@@ -298,7 +393,34 @@
     "lng": -73.9712
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/times-square-1.jpg",
+        "alt": "Times Square's billboards lit up at night",
+        "width": 1100,
+        "height": 734,
+        "source": "other",
+        "attribution": {
+          "text": "chensiyuan, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:1_times_square_night_2013.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/times-square-2.jpg",
+        "alt": "Crowds under the screens of Times Square",
+        "width": 1100,
+        "height": 1007,
+        "source": "other",
+        "attribution": {
+          "text": "Nkon21, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Times_Square_20190726.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["tourist_classic", "instagrammable", "late_night", "kid_friendly"],
     "verified": false,
@@ -372,7 +494,34 @@
     "lng": -73.9855
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/roosevelt-island-tramway-1.jpg",
+        "alt": "A red Roosevelt Island tram car gliding above Manhattan streets",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jdforrester, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Roosevelt_Island_Tramway_half-way_view_towards_Manhattan,_2021-10-01.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/roosevelt-island-tramway-2.jpg",
+        "alt": "A Roosevelt Island tram car against a blue sky",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Superbass, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:2024-11-18-_Roosevelt_Island_Tramway-0602.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
     "mustTry": [],
     "vibeTags": ["instagrammable", "kid_friendly", "local_favorite"],
     "verified": false,
