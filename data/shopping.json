@@ -1,98 +1,301 @@
 [
   {
     "photos": [],
-    "mustTry": ["Denim wall (placeholder)"],
-    "vibeTags": ["local_favorite", "rainy_day"],
+    "mustTry": ["Food hall concourse", "Shops under the old factory arches"],
+    "vibeTags": ["rainy_day", "group_friendly", "tourist_classic", "kid_friendly"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "s-sample-vintage-shop",
-    "slug": "sample-vintage-shop",
-    "name": "Sample Vintage Shop",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-chelsea-market",
+    "slug": "chelsea-market",
+    "name": "Chelsea Market",
     "category": "shopping",
-    "shopTypes": ["vintage", "thrift"],
-    "borough": "brooklyn",
-    "neighborhood": "Williamsburg",
-    "address": "TODO: verify (placeholder address, Williamsburg, Brooklyn)",
-    "lat": 40.7178,
-    "lng": -73.9574,
+    "shopTypes": ["market"],
+    "dietary": ["vegetarian", "vegan"],
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "75 9th Ave, New York, NY 10011",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A food hall and shops inside the old Nabisco factory, right next to the High Line. Come hungry and graze.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 75,
+    "trendingScore": 88,
+    "website": "https://www.chelseamarket.com",
+    "verificationNotes": "Checked 2026-09-27: market hours from chelseamarket.com; individual vendors keep their own hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74205,
+    "lng": -74.0049
+  },
+  {
+    "photos": [],
+    "mustTry": ["Sidewalk bargain carts", "Rare Book Room"],
+    "vibeTags": ["rainy_day", "local_favorite", "tourist_classic", "quiet"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-strand-bookstore",
+    "slug": "strand-bookstore",
+    "name": "Strand Bookstore",
+    "category": "shopping",
+    "shopTypes": ["bookstore"],
+    "borough": "manhattan",
+    "neighborhood": "Union Square",
+    "address": "828 Broadway, New York, NY 10003",
     "priceLevel": 2,
     "isFree": false,
     "hours": {
       "sun": [
         {
-          "open": "12:00",
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Home of the famous \"18 miles of books\": new, used and rare, with bargain carts out on the sidewalk.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 80,
+    "website": "https://www.strandbooks.com",
+    "verificationNotes": "Checked 2026-09-27: hours from strandbooks.com hours and locations page. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73328,
+    "lng": -73.99094
+  },
+  {
+    "photos": [],
+    "mustTry": ["Racks sorted by color"],
+    "vibeTags": ["local_favorite", "rainy_day", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-beacons-closet-greenpoint",
+    "slug": "beacons-closet-greenpoint",
+    "name": "Beacon's Closet",
+    "category": "shopping",
+    "shopTypes": ["vintage", "thrift"],
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "74 Guernsey St, Brooklyn, NY 11222",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
           "close": "20:00"
         }
       ],
       "mon": [
         {
-          "open": "12:00",
+          "open": "11:00",
           "close": "20:00"
         }
       ],
       "tue": [
         {
-          "open": "12:00",
+          "open": "11:00",
           "close": "20:00"
         }
       ],
       "wed": [
         {
-          "open": "12:00",
+          "open": "11:00",
           "close": "20:00"
         }
       ],
       "thu": [
         {
-          "open": "12:00",
+          "open": "11:00",
           "close": "20:00"
         }
       ],
       "fri": [
         {
-          "open": "12:00",
+          "open": "11:00",
           "close": "20:00"
         }
       ],
       "sat": [
         {
-          "open": "12:00",
+          "open": "11:00",
           "close": "20:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: racks worth an hour of digging. TODO: rewrite after a visit.",
-    "timeNeededMinutes": 60,
-    "trendingScore": 58
+    "editorialTake": "A warehouse-sized buy-sell-trade vintage store with racks sorted by color. Bring patience and an afternoon.",
+    "bestTimeToVisit": "Weekday midday",
+    "timeNeededMinutes": 75,
+    "trendingScore": 71,
+    "website": "https://beaconscloset.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from beaconscloset.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72371,
+    "lng": -73.95248
   },
   {
     "photos": [],
-    "mustTry": ["Food vendor row (placeholder)"],
-    "vibeTags": ["outdoor", "group_friendly", "kid_friendly", "instagrammable"],
+    "mustTry": ["Original wooden escalators"],
+    "vibeTags": ["tourist_classic", "rainy_day"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "s-sample-weekend-market",
-    "slug": "sample-weekend-market",
-    "name": "Sample Weekend Market",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-macys-herald-square",
+    "slug": "macys-herald-square",
+    "name": "Macy's Herald Square",
+    "category": "shopping",
+    "shopTypes": ["department_store", "flagship"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "151 W 34th St, New York, NY 10001",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "The block-long flagship on Herald Square. Ride the original wooden escalators between the upper floors.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 60,
+    "trendingScore": 73,
+    "website": "https://www.macys.com/stores/ny/newyork/herald-square_3.html",
+    "phone": "(212) 695-4400",
+    "verificationNotes": "Checked 2026-09-27: store hours from macys.com via current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75089,
+    "lng": -73.98926
+  },
+  {
+    "photos": [],
+    "mustTry": ["Grazing across dozens of food vendors"],
+    "vibeTags": ["outdoor", "group_friendly", "instagrammable", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-smorgasburg-williamsburg",
+    "slug": "smorgasburg-williamsburg",
+    "name": "Smorgasburg Williamsburg",
     "category": "shopping",
     "shopTypes": ["market"],
     "dietary": ["vegetarian", "vegan"],
     "borough": "brooklyn",
-    "neighborhood": "DUMBO",
-    "address": "TODO: verify (placeholder address, DUMBO, Brooklyn)",
-    "lat": 40.7029,
-    "lng": -73.9893,
-    "priceLevel": 1,
+    "neighborhood": "Williamsburg",
+    "address": "Marsha P. Johnson State Park, 90 Kent Ave, Brooklyn, NY 11211",
+    "priceLevel": 2,
     "isFree": true,
     "hours": {
-      "sun": [
-        {
-          "open": "10:00",
-          "close": "18:00"
-        }
-      ],
+      "sun": [],
       "mon": [],
       "tue": [],
       "wed": [],
@@ -100,81 +303,87 @@
       "fri": [],
       "sat": [
         {
-          "open": "10:00",
+          "open": "11:00",
           "close": "18:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: free to wander, easy to snack your way through. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Before noon",
+    "editorialTake": "The Saturday open-air food market on the Williamsburg waterfront: dozens of vendors, picnic tables and a skyline view.",
+    "bestTimeToVisit": "Right at 11 AM opening",
     "timeNeededMinutes": 90,
-    "trendingScore": 79
+    "trendingScore": 86,
+    "website": "https://smorgasburg.com/new-york",
+    "verificationNotes": "Checked 2026-09-27: Saturdays 11 AM to 6 PM, seasonal (April to October), from smorgasburg.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7215,
+    "lng": -73.962
   },
   {
     "photos": [],
-    "mustTry": [],
-    "vibeTags": ["tourist_classic", "rainy_day"],
+    "mustTry": ["Fresh mozzarella", "Cured meats", "Hand-rolled cigars"],
+    "vibeTags": ["local_favorite", "rainy_day"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "s-sample-flagship-store",
-    "slug": "sample-flagship-store",
-    "name": "Sample Flagship Store",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-arthur-avenue-market",
+    "slug": "arthur-avenue-retail-market",
+    "name": "Arthur Avenue Retail Market",
     "category": "shopping",
-    "shopTypes": ["flagship"],
-    "borough": "manhattan",
-    "neighborhood": "SoHo",
-    "address": "TODO: verify (placeholder address, SoHo, Manhattan)",
-    "lat": 40.7239,
-    "lng": -74.0006,
-    "priceLevel": 3,
-    "isFree": false,
+    "shopTypes": ["market"],
+    "borough": "bronx",
+    "neighborhood": "Belmont",
+    "address": "2344 Arthur Ave, Bronx, NY 10458",
+    "priceLevel": 2,
+    "isFree": true,
     "hours": {
       "sun": [
         {
-          "open": "11:00",
-          "close": "19:00"
+          "open": "08:00",
+          "close": "20:00"
         }
       ],
       "mon": [
         {
-          "open": "10:00",
-          "close": "21:00"
+          "open": "08:00",
+          "close": "20:00"
         }
       ],
       "tue": [
         {
-          "open": "10:00",
-          "close": "21:00"
+          "open": "08:00",
+          "close": "20:00"
         }
       ],
       "wed": [
         {
-          "open": "10:00",
-          "close": "21:00"
+          "open": "08:00",
+          "close": "20:00"
         }
       ],
       "thu": [
         {
-          "open": "10:00",
-          "close": "21:00"
+          "open": "08:00",
+          "close": "20:00"
         }
       ],
       "fri": [
         {
-          "open": "10:00",
-          "close": "21:00"
+          "open": "08:00",
+          "close": "20:00"
         }
       ],
       "sat": [
         {
-          "open": "10:00",
-          "close": "21:00"
+          "open": "08:00",
+          "close": "20:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: a multi-floor flagship with a showroom feel. TODO: rewrite after a visit.",
-    "timeNeededMinutes": 45,
-    "trendingScore": 50
+    "editorialTake": "The Bronx's Little Italy under one roof: salumerias, fresh mozzarella, pastries and a cigar roller at work.",
+    "bestTimeToVisit": "Saturday morning",
+    "timeNeededMinutes": 60,
+    "trendingScore": 64,
+    "website": "https://bronxlittleitaly.com/merchants/institutions/arthur-avenue-retail-market/",
+    "verificationNotes": "Checked 2026-09-27: market hours from current listings; vendor hours vary. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.8543,
+    "lng": -73.88846
   }
 ]

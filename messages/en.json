@@ -36,10 +36,10 @@
     "play": "Play rotating destinations",
     "searchScene": "Search for {scene}",
     "scenes": {
-      "pho": "pho in Flushing",
+      "dumplings": "dumplings in Chinatown",
       "rooftop": "a rooftop at sunset",
-      "gallery": "free art in Chelsea",
-      "vintage": "vintage in Williamsburg",
+      "museum": "museums on a rainy day",
+      "vintage": "vintage in Greenpoint",
       "skyline": "the skyline at blue hour",
       "pier": "a pier at golden hour"
     },
@@ -299,7 +299,6 @@
     "bookTickets": "Book tickets",
     "bestTime": "Best time",
     "tickets": "Tickets",
-    "ticketRange": "${min}–${max}",
     "priceLevel": "Price level {level} of 4",
     "photoComingSoon": "Photo coming soon",
     "bestLight": "Best light",

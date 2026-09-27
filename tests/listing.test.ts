@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest"
 import { applyListing, filterOptions, hasActiveFilters } from "@/lib/listing"
 import { fromSlug, listingQuery, parseListingParams, toSlug } from "@/lib/place-filters"
-import { getPlaces } from "@/lib/places"
+import { fixturePlaces } from "./fixtures"
 import { countByType } from "@/lib/type-browse"
 import { CUISINES } from "@/types/place"
 
-const all = await getPlaces()
+const all = fixturePlaces
 
 describe("listing params", () => {
   it("parses known values and drops junk", () => {

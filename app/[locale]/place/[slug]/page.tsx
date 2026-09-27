@@ -15,6 +15,7 @@ import { ShareButton } from "@/components/place/share-button"
 import { UnverifiedTag } from "@/components/place/unverified-tag"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
+import { formatPriceRange } from "@/lib/format"
 import { appleMapsUrl, distanceKm, googleMapsUrl, transitDirectionsUrl } from "@/lib/geo"
 import { getGooglePlaceDetails } from "@/lib/google-places"
 import { LINES } from "@/lib/lines"
@@ -285,7 +286,7 @@ async function Facts({ place }: { place: Place }) {
   if (place.ticketInfo) {
     facts.push({
       label: t("tickets"),
-      value: t("ticketRange", place.ticketInfo.priceRange),
+      value: formatPriceRange(place.ticketInfo.priceRange),
       note: place.ticketInfo.notes,
       href: place.ticketInfo.bookingUrl,
       icon: <Ticket aria-hidden className="size-4" />,

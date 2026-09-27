@@ -1,28 +1,97 @@
 [
   {
     "photos": [],
-    "mustTry": [],
-    "vibeTags": ["rainy_day", "kid_friendly", "tourist_classic"],
+    "mustTry": ["Temple of Dendur", "Arms and Armor galleries", "Roof garden in season"],
+    "vibeTags": ["rainy_day", "tourist_classic", "kid_friendly"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "a-sample-history-museum",
-    "slug": "sample-history-museum",
-    "name": "Sample History Museum",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-the-met",
+    "slug": "the-met-fifth-avenue",
+    "name": "The Metropolitan Museum of Art",
     "category": "attraction",
     "borough": "manhattan",
-    "neighborhood": "Upper West Side",
-    "address": "TODO: verify (placeholder address, Upper West Side, Manhattan)",
-    "lat": 40.7813,
-    "lng": -73.974,
+    "neighborhood": "Upper East Side",
+    "address": "1000 Fifth Ave, New York, NY 10028",
     "priceLevel": 2,
     "isFree": false,
     "ticketInfo": {
       "priceRange": {
-        "min": 20,
+        "min": 30,
         "max": 30
       },
-      "notes": "TODO: verify ticket prices and discounts."
+      "bookingUrl": "https://www.metmuseum.org/plan-your-visit",
+      "notes": "Adults $30. Pay what you wish for New York State residents and NY, NJ and CT students with ID."
+    },
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Five thousand years of art under one roof. Pick two or three wings rather than trying to see it all; Friday and Saturday nights are calmer.",
+    "bestTimeToVisit": "Friday or Saturday evening",
+    "timeNeededMinutes": 180,
+    "trendingScore": 94,
+    "website": "https://www.metmuseum.org",
+    "verificationNotes": "Checked 2026-09-27: hours (closed Wednesdays) and admission from metmuseum.org via current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.77941,
+    "lng": -73.96323
+  },
+  {
+    "photos": [],
+    "mustTry": ["Blue whale in the Hall of Ocean Life", "Dinosaur halls", "Gilder Center"],
+    "vibeTags": ["rainy_day", "kid_friendly", "tourist_classic"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-amnh",
+    "slug": "american-museum-of-natural-history",
+    "name": "American Museum of Natural History",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "200 Central Park West, New York, NY 10024",
+    "priceLevel": 2,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 28,
+        "max": 37
+      },
+      "bookingUrl": "https://www.amnh.org/plan-your-visit",
+      "notes": "General admission from about $28 for adults; add-ons cost more. New York State residents pay what they wish."
     },
     "hours": {
       "sun": [
@@ -31,7 +100,12 @@
           "close": "17:30"
         }
       ],
-      "mon": [],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
       "tue": [
         {
           "open": "10:00",
@@ -53,7 +127,7 @@
       "fri": [
         {
           "open": "10:00",
-          "close": "20:00"
+          "close": "17:30"
         }
       ],
       "sat": [
@@ -63,140 +137,453 @@
         }
       ]
     },
-    "editorialTake": "Placeholder take: a full rainy afternoon of galleries. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Weekday mornings",
-    "timeNeededMinutes": 150,
-    "trendingScore": 70
+    "editorialTake": "Dinosaurs, a 94-foot blue whale and the soaring Gilder Center: a sure bet for kids and a rainy afternoon.",
+    "bestTimeToVisit": "Weekday right at opening",
+    "timeNeededMinutes": 180,
+    "trendingScore": 90,
+    "website": "https://www.amnh.org",
+    "verificationNotes": "Checked 2026-09-27: hours from amnh.org (daily 10 AM to 5:30 PM); ticket prices vary by package. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7811,
+    "lng": -73.97424
   },
   {
     "photos": [],
-    "mustTry": [],
-    "vibeTags": ["rainy_day", "quiet", "local_favorite", "solo_friendly"],
+    "mustTry": ["Van Gogh's The Starry Night", "Sculpture garden"],
+    "vibeTags": ["rainy_day", "tourist_classic", "quiet"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "a-sample-free-gallery",
-    "slug": "sample-free-gallery",
-    "name": "Sample Free Gallery",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-moma",
+    "slug": "moma",
+    "name": "The Museum of Modern Art (MoMA)",
     "category": "attraction",
     "borough": "manhattan",
-    "neighborhood": "Chelsea",
-    "address": "TODO: verify (placeholder address, Chelsea, Manhattan)",
-    "lat": 40.7478,
-    "lng": -74.0048,
-    "priceLevel": 1,
-    "isFree": true,
+    "neighborhood": "Midtown",
+    "address": "11 W 53rd St, New York, NY 10019",
+    "priceLevel": 2,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 28,
+        "max": 30
+      },
+      "bookingUrl": "https://www.moma.org/visit",
+      "notes": "Adults $28 online or $30 at the door; 16 and under free. Free for New York State residents on Friday evenings with a reserved ticket."
+    },
     "hours": {
       "sun": [
         {
-          "open": "12:00",
-          "close": "17:00"
+          "open": "10:30",
+          "close": "17:30"
         }
       ],
-      "mon": [],
-      "tue": [],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
       "wed": [
         {
-          "open": "11:00",
-          "close": "18:00"
+          "open": "10:30",
+          "close": "17:30"
         }
       ],
       "thu": [
         {
-          "open": "11:00",
-          "close": "18:00"
+          "open": "10:30",
+          "close": "17:30"
         }
       ],
       "fri": [
         {
-          "open": "11:00",
-          "close": "18:00"
+          "open": "10:30",
+          "close": "20:30"
         }
       ],
       "sat": [
         {
-          "open": "11:00",
-          "close": "18:00"
+          "open": "10:30",
+          "close": "17:30"
         }
       ]
     },
-    "editorialTake": "Placeholder take: small rotating shows, no ticket needed. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Saturday afternoon",
-    "timeNeededMinutes": 60,
-    "trendingScore": 55
+    "editorialTake": "The modern canon in six floors, from Van Gogh and Monet to Warhol. Start at the top and work your way down.",
+    "bestTimeToVisit": "Weekday at opening",
+    "timeNeededMinutes": 150,
+    "trendingScore": 89,
+    "website": "https://www.moma.org",
+    "verificationNotes": "Checked 2026-09-27: hours and admission from moma.org via current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.76161,
+    "lng": -73.9775
   },
   {
     "photos": [],
-    "mustTry": [],
-    "vibeTags": ["instagrammable", "tourist_classic", "date_night"],
+    "mustTry": ["86th-floor open-air deck", "102nd-floor observatory"],
+    "vibeTags": ["tourist_classic", "instagrammable", "date_night"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "a-sample-observation-deck",
-    "slug": "sample-observation-deck",
-    "name": "Sample Observation Deck",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-empire-state-building",
+    "slug": "empire-state-building",
+    "name": "Empire State Building",
     "category": "attraction",
     "borough": "manhattan",
     "neighborhood": "Midtown",
-    "address": "TODO: verify (placeholder address, Midtown, Manhattan)",
-    "lat": 40.7527,
-    "lng": -73.9772,
+    "address": "20 W 34th St, New York, NY 10001",
     "priceLevel": 3,
     "isFree": false,
     "ticketInfo": {
       "priceRange": {
-        "min": 40,
-        "max": 65
+        "min": 44,
+        "max": 44
       },
-      "notes": "TODO: verify prices; sunset slots usually cost more."
+      "bookingUrl": "https://www.esbnyc.com/buy-tickets",
+      "notes": "Dynamic pricing: Main Deck (86th floor) from $44 for late-night slots; sunset and top-deck tickets cost more."
     },
     "hours": {
       "sun": [
         {
-          "open": "09:00",
+          "open": "10:00",
           "close": "23:00"
         }
       ],
       "mon": [
         {
-          "open": "09:00",
+          "open": "10:00",
           "close": "23:00"
         }
       ],
       "tue": [
         {
-          "open": "09:00",
+          "open": "10:00",
           "close": "23:00"
         }
       ],
       "wed": [
         {
-          "open": "09:00",
+          "open": "10:00",
           "close": "23:00"
         }
       ],
       "thu": [
         {
-          "open": "09:00",
+          "open": "10:00",
           "close": "23:00"
         }
       ],
       "fri": [
         {
-          "open": "09:00",
+          "open": "10:00",
           "close": "23:00"
         }
       ],
       "sat": [
         {
-          "open": "09:00",
+          "open": "10:00",
           "close": "23:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: the big-sky view for first-timers. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Sunset",
+    "editorialTake": "The classic view: an open-air deck 86 floors above Midtown. Late-night slots are the cheapest and the least crowded.",
+    "bestTimeToVisit": "After 9 PM for city lights",
     "timeNeededMinutes": 90,
-    "trendingScore": 88
+    "trendingScore": 92,
+    "website": "https://www.esbnyc.com",
+    "verificationNotes": "Checked 2026-09-27: seasonal hours from esbnyc.com (10 AM to 11 PM through October 4; they change through the year). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74844,
+    "lng": -73.98566
+  },
+  {
+    "photos": [],
+    "mustTry": ["Reflecting Absence memorial pools", "Foundation Hall"],
+    "vibeTags": ["tourist_classic", "quiet"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-911-memorial-museum",
+    "slug": "911-memorial-and-museum",
+    "name": "9/11 Memorial & Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "180 Greenwich St, New York, NY 10007",
+    "priceLevel": 2,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 33,
+        "max": 33
+      },
+      "bookingUrl": "https://www.911memorial.org/visit",
+      "notes": "Memorial pools are free, 8 AM to 8 PM. Museum: adults $33, with discounts for youth, seniors and children."
+    },
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "Two reflecting pools in the footprints of the Twin Towers, and a museum beneath that tells the story with care. Plan time to sit afterward.",
+    "bestTimeToVisit": "Morning",
+    "timeNeededMinutes": 150,
+    "trendingScore": 85,
+    "website": "https://www.911memorial.org",
+    "verificationNotes": "Checked 2026-09-27: museum hours (last entry 6 PM) and prices from 911memorial.org via current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.71137,
+    "lng": -74.01327
+  },
+  {
+    "photos": [],
+    "mustTry": ["Main Concourse ceiling", "Whispering gallery", "Grand Central Market"],
+    "vibeTags": ["tourist_classic", "instagrammable", "rainy_day", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-grand-central",
+    "slug": "grand-central-terminal",
+    "name": "Grand Central Terminal",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "89 E 42nd St, New York, NY 10017",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "05:15",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "05:15",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "05:15",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "05:15",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "05:15",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "05:15",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "05:15",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A working train station that happens to be one of the city's great rooms. Look up at the constellation ceiling, then test the whispering gallery.",
+    "bestTimeToVisit": "Mid-morning, after the rush",
+    "timeNeededMinutes": 40,
+    "trendingScore": 87,
+    "website": "https://grandcentralterminal.com",
+    "verificationNotes": "Checked 2026-09-27: terminal hours (5:15 AM to 2 AM daily) from grandcentralterminal.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75269,
+    "lng": -73.97725
+  },
+  {
+    "photos": [],
+    "mustTry": ["Rose Main Reading Room", "The lions Patience and Fortitude"],
+    "vibeTags": ["quiet", "rainy_day", "tourist_classic", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-nypl-schwarzman",
+    "slug": "new-york-public-library-schwarzman",
+    "name": "New York Public Library (Stephen A. Schwarzman Building)",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "476 Fifth Ave, New York, NY 10018",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "The Beaux-Arts main library, guarded by the lions Patience and Fortitude. Step quietly into the Rose Main Reading Room and look up.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 45,
+    "trendingScore": 75,
+    "website": "https://www.nypl.org/locations/schwarzman",
+    "verificationNotes": "Checked 2026-09-27: hours from nypl.org via current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75334,
+    "lng": -73.98215
+  },
+  {
+    "photos": [],
+    "mustTry": ["Liberty Island grounds", "Ellis Island National Museum of Immigration"],
+    "vibeTags": ["tourist_classic", "kid_friendly", "outdoor", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-statue-of-liberty",
+    "slug": "statue-of-liberty-ferry",
+    "name": "Statue of Liberty & Ellis Island",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "Ferries from Castle Clinton, Battery Park, New York, NY 10004",
+    "priceLevel": 2,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 25.5,
+        "max": 25.5
+      },
+      "bookingUrl": "https://www.statuecitycruises.com",
+      "notes": "Official Statue City Cruises ferry: adults $25.50, children $16.50, seniors $22.50. Buy only from the official site or Castle Clinton."
+    },
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "Board the official ferry at Battery Park for Liberty Island and Ellis Island. Take an early boat and give yourself the whole morning.",
+    "bestTimeToVisit": "First ferry of the day",
+    "timeNeededMinutes": 240,
+    "trendingScore": 91,
+    "website": "https://www.nps.gov/stli",
+    "verificationNotes": "Checked 2026-09-27: ferries run from 9 AM; the last departure changes by season (about 3:30 to 5 PM). Prices from Statue City Cruises. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7034,
+    "lng": -74.0169
   }
 ]

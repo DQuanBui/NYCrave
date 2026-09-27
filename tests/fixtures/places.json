@@ -1,0 +1,1288 @@
+[
+  {
+    "photos": [],
+    "mustTry": ["Rare beef pho (placeholder)", "Broken rice plate (placeholder)"],
+    "vibeTags": ["cheap_eats", "local_favorite", "rainy_day", "solo_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "r-sample-pho-house",
+    "slug": "sample-pho-house",
+    "name": "Sample Pho House",
+    "category": "restaurant",
+    "cuisines": ["vietnamese"],
+    "dishTypes": ["noodle_soup", "rice_dishes"],
+    "dietary": [],
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "TODO: verify (placeholder address, Flushing, Queens)",
+    "lat": 40.7592,
+    "lng": -73.8297,
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a broth-first noodle shop for cold days. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 45,
+    "trendingScore": 82
+  },
+  {
+    "photos": [],
+    "mustTry": ["Pan-fried pork dumplings (placeholder)", "Veggie dumplings (placeholder)"],
+    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "r-sample-dumpling-counter",
+    "slug": "sample-dumpling-counter",
+    "name": "Sample Dumpling Counter",
+    "category": "restaurant",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dumplings", "noodle_soup"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "TODO: verify (placeholder address, Chinatown, Manhattan)",
+    "lat": 40.7162,
+    "lng": -73.9966,
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a quick, cash-friendly counter for a dumpling run. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 30,
+    "trendingScore": 74
+  },
+  {
+    "photos": [],
+    "mustTry": ["Tonkotsu ramen (placeholder)", "Spicy miso ramen (placeholder)"],
+    "vibeTags": ["late_night", "date_night", "rainy_day"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "r-sample-ramen-bar",
+    "slug": "sample-ramen-bar",
+    "name": "Sample Ramen Bar",
+    "category": "restaurant",
+    "cuisines": ["japanese"],
+    "dishTypes": ["ramen"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "TODO: verify (placeholder address, East Village, Manhattan)",
+    "lat": 40.7271,
+    "lng": -73.9838,
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: an after-dark ramen counter that stays open past midnight. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 60,
+    "trendingScore": 90
+  },
+  {
+    "photos": [],
+    "mustTry": ["Al pastor tacos (placeholder)", "Horchata (placeholder)"],
+    "vibeTags": ["cheap_eats", "late_night", "kid_friendly", "local_favorite"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "r-sample-taco-window",
+    "slug": "sample-taco-window",
+    "name": "Sample Taco Window",
+    "category": "restaurant",
+    "cuisines": ["mexican"],
+    "dishTypes": ["tacos", "street_food"],
+    "dietary": ["gluten_free"],
+    "borough": "queens",
+    "neighborhood": "Jackson Heights",
+    "address": "TODO: verify (placeholder address, Jackson Heights, Queens)",
+    "lat": 40.7549,
+    "lng": -73.8846,
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a walk-up taco window worth the detour. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 30,
+    "trendingScore": 68
+  },
+  {
+    "photos": [],
+    "mustTry": ["Pour-over of the day (placeholder)", "Cardamom bun (placeholder)"],
+    "vibeTags": ["rainy_day", "solo_friendly", "quiet", "local_favorite"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "d-sample-coffee-roasters",
+    "slug": "sample-coffee-roasters",
+    "name": "Sample Coffee Roasters",
+    "category": "drink",
+    "drinkTypes": ["coffee", "tea"],
+    "dietary": ["vegan"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "TODO: verify (placeholder address, Williamsburg, Brooklyn)",
+    "lat": 40.7142,
+    "lng": -73.9613,
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a bright, laptop-friendly roaster for slow mornings. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 40,
+    "trendingScore": 61
+  },
+  {
+    "photos": [],
+    "mustTry": ["Brown sugar milk tea (placeholder)", "Iced matcha latte (placeholder)"],
+    "vibeTags": ["cheap_eats", "instagrammable", "group_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "d-sample-boba-shop",
+    "slug": "sample-boba-shop",
+    "name": "Sample Boba Shop",
+    "category": "drink",
+    "drinkTypes": ["bubble_tea", "matcha"],
+    "dietary": ["vegan"],
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "TODO: verify (placeholder address, Flushing, Queens)",
+    "lat": 40.7577,
+    "lng": -73.8318,
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: the after-dinner stop for chewy boba and a matcha fix. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 20,
+    "trendingScore": 77
+  },
+  {
+    "photos": [],
+    "mustTry": ["House spritz (placeholder)"],
+    "vibeTags": ["date_night", "instagrammable", "late_night"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "d-sample-rooftop-lounge",
+    "slug": "sample-rooftop-lounge",
+    "name": "Sample Rooftop Lounge",
+    "category": "drink",
+    "drinkTypes": ["cocktails", "rooftop_bar"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "TODO: verify (placeholder address, Midtown, Manhattan)",
+    "lat": 40.7541,
+    "lng": -73.9868,
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "00:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "00:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "15:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: skyline views and a pricey-but-worth-it cocktail list. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Just before sunset",
+    "timeNeededMinutes": 75,
+    "trendingScore": 85
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["rainy_day", "kid_friendly", "tourist_classic"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "a-sample-history-museum",
+    "slug": "sample-history-museum",
+    "name": "Sample History Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "TODO: verify (placeholder address, Upper West Side, Manhattan)",
+    "lat": 40.7813,
+    "lng": -73.974,
+    "priceLevel": 2,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 20,
+        "max": 30
+      },
+      "notes": "TODO: verify ticket prices and discounts."
+    },
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a full rainy afternoon of galleries. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Weekday mornings",
+    "timeNeededMinutes": 150,
+    "trendingScore": 70
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["rainy_day", "quiet", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "a-sample-free-gallery",
+    "slug": "sample-free-gallery",
+    "name": "Sample Free Gallery",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "TODO: verify (placeholder address, Chelsea, Manhattan)",
+    "lat": 40.7478,
+    "lng": -74.0048,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: small rotating shows, no ticket needed. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Saturday afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 55
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic", "date_night"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "a-sample-observation-deck",
+    "slug": "sample-observation-deck",
+    "name": "Sample Observation Deck",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "TODO: verify (placeholder address, Midtown, Manhattan)",
+    "lat": 40.7527,
+    "lng": -73.9772,
+    "priceLevel": 3,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 40,
+        "max": 65
+      },
+      "notes": "TODO: verify prices; sunset slots usually cost more."
+    },
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: the big-sky view for first-timers. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 90,
+    "trendingScore": 88
+  },
+  {
+    "photos": [],
+    "mustTry": ["Denim wall (placeholder)"],
+    "vibeTags": ["local_favorite", "rainy_day"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "s-sample-vintage-shop",
+    "slug": "sample-vintage-shop",
+    "name": "Sample Vintage Shop",
+    "category": "shopping",
+    "shopTypes": ["vintage", "thrift"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "TODO: verify (placeholder address, Williamsburg, Brooklyn)",
+    "lat": 40.7178,
+    "lng": -73.9574,
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: racks worth an hour of digging. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 60,
+    "trendingScore": 58
+  },
+  {
+    "photos": [],
+    "mustTry": ["Food vendor row (placeholder)"],
+    "vibeTags": ["outdoor", "group_friendly", "kid_friendly", "instagrammable"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "s-sample-weekend-market",
+    "slug": "sample-weekend-market",
+    "name": "Sample Weekend Market",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "dietary": ["vegetarian", "vegan"],
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "TODO: verify (placeholder address, DUMBO, Brooklyn)",
+    "lat": 40.7029,
+    "lng": -73.9893,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: free to wander, easy to snack your way through. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Before noon",
+    "timeNeededMinutes": 90,
+    "trendingScore": 79
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["tourist_classic", "rainy_day"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "s-sample-flagship-store",
+    "slug": "sample-flagship-store",
+    "name": "Sample Flagship Store",
+    "category": "shopping",
+    "shopTypes": ["flagship"],
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "TODO: verify (placeholder address, SoHo, Manhattan)",
+    "lat": 40.7239,
+    "lng": -74.0006,
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a multi-floor flagship with a showroom feel. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 45,
+    "trendingScore": 50
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic", "outdoor"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "p-sample-bridge-overlook",
+    "slug": "sample-bridge-overlook",
+    "name": "Sample Bridge Overlook",
+    "category": "photo_spot",
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "TODO: verify (placeholder address, DUMBO, Brooklyn)",
+    "lat": 40.7036,
+    "lng": -73.9902,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: the classic bridge-through-the-buildings frame. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Sunrise on weekdays",
+    "timeNeededMinutes": 30,
+    "trendingScore": 92,
+    "photoSpot": {
+      "bestLight": ["sunrise", "golden_hour"],
+      "tips": [
+        "Placeholder tip: arrive early to beat crowds.",
+        "Placeholder tip: a 35mm focal length frames the scene well."
+      ]
+    }
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "date_night", "outdoor"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "p-sample-skyline-pier-view",
+    "slug": "sample-skyline-pier-view",
+    "name": "Sample Skyline Pier View",
+    "category": "photo_spot",
+    "borough": "queens",
+    "neighborhood": "Long Island City",
+    "address": "TODO: verify (placeholder address, Long Island City, Queens)",
+    "lat": 40.7452,
+    "lng": -73.9588,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a wide Manhattan skyline across the water. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Blue hour",
+    "timeNeededMinutes": 30,
+    "trendingScore": 71,
+    "photoSpot": {
+      "bestLight": ["golden_hour", "blue_hour", "night"],
+      "tips": ["Placeholder tip: bring something to steady your phone for night shots."]
+    }
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "local_favorite", "outdoor"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "p-sample-mural-wall",
+    "slug": "sample-mural-wall",
+    "name": "Sample Mural Wall",
+    "category": "photo_spot",
+    "borough": "brooklyn",
+    "neighborhood": "Bushwick",
+    "address": "TODO: verify (placeholder address, Bushwick, Brooklyn)",
+    "lat": 40.7054,
+    "lng": -73.9336,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a block of rotating street murals. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Late morning",
+    "timeNeededMinutes": 45,
+    "trendingScore": 64,
+    "photoSpot": {
+      "bestLight": ["morning", "midday"],
+      "tips": ["Placeholder tip: murals change often, so check recent photos first."]
+    }
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "kid_friendly", "local_favorite", "date_night"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "g-sample-waterfront-park",
+    "slug": "sample-waterfront-park",
+    "name": "Sample Waterfront Park",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "TODO: verify (placeholder address, Greenpoint, Brooklyn)",
+    "lat": 40.7296,
+    "lng": -73.9611,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: lawn, river breeze, and a picnic-ready view. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Golden hour",
+    "timeNeededMinutes": 60,
+    "trendingScore": 66,
+    "park": {
+      "activities": ["Picnics (placeholder)", "Waterfront walk (placeholder)"],
+      "amenities": ["Restrooms (TODO: verify)", "Benches (placeholder)"],
+      "seasonalNotes": "TODO: verify seasonal events."
+    }
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "kid_friendly", "group_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "g-sample-neighborhood-park",
+    "slug": "sample-neighborhood-park",
+    "name": "Sample Neighborhood Park",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "Park Slope",
+    "address": "TODO: verify (placeholder address, Park Slope, Brooklyn)",
+    "lat": 40.6702,
+    "lng": -73.9712,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: big meadows and weekend people-watching. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Weekend mornings",
+    "timeNeededMinutes": 90,
+    "trendingScore": 60,
+    "park": {
+      "activities": ["Running loop (placeholder)", "Playground (placeholder)"],
+      "amenities": ["Water fountains (TODO: verify)"],
+      "seasonalNotes": "TODO: verify summer programming."
+    }
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "tourist_classic", "instagrammable"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "g-sample-harbor-pier",
+    "slug": "sample-harbor-pier",
+    "name": "Sample Harbor Pier",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "TODO: verify (placeholder address, Financial District, Manhattan)",
+    "lat": 40.7033,
+    "lng": -74.0138,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a harbor pier for sunset and ferry-watching. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 40,
+    "trendingScore": 72,
+    "park": {
+      "activities": ["Harbor views (placeholder)"],
+      "amenities": ["Seating (placeholder)"],
+      "seasonalNotes": "TODO: verify seasonal hours."
+    }
+  }
+]

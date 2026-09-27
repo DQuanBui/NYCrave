@@ -1,28 +1,25 @@
 [
   {
     "photos": [],
-    "mustTry": ["Pour-over of the day (placeholder)", "Cardamom bun (placeholder)"],
-    "vibeTags": ["rainy_day", "solo_friendly", "quiet", "local_favorite"],
+    "mustTry": ["Single-origin pour-over", "Espresso"],
+    "vibeTags": ["solo_friendly", "quiet", "instagrammable", "rainy_day"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "d-sample-coffee-roasters",
-    "slug": "sample-coffee-roasters",
-    "name": "Sample Coffee Roasters",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-devocion-williamsburg",
+    "slug": "devocion-williamsburg",
+    "name": "Devoción",
     "category": "drink",
-    "drinkTypes": ["coffee", "tea"],
+    "drinkTypes": ["coffee"],
     "dietary": ["vegan"],
     "borough": "brooklyn",
     "neighborhood": "Williamsburg",
-    "address": "TODO: verify (placeholder address, Williamsburg, Brooklyn)",
-    "lat": 40.7142,
-    "lng": -73.9613,
+    "address": "148 Grand St, Brooklyn, NY 11249",
     "priceLevel": 2,
     "isFree": false,
     "hours": {
       "sun": [
         {
-          "open": "07:00",
+          "open": "07:30",
           "close": "18:00"
         }
       ],
@@ -58,150 +55,507 @@
       ],
       "sat": [
         {
-          "open": "07:00",
+          "open": "07:30",
           "close": "18:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: a bright, laptop-friendly roaster for slow mornings. TODO: rewrite after a visit.",
-    "timeNeededMinutes": 40,
-    "trendingScore": 61
+    "editorialTake": "A bright, plant-filled Williamsburg café and roastery pouring Colombian coffee. Good light, good chairs, good for lingering.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 45,
+    "trendingScore": 74,
+    "website": "https://www.devocion.com",
+    "verificationNotes": "Checked 2026-09-27: address (148 Grand St) and hours from devocion.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.71476,
+    "lng": -73.96223
   },
   {
     "photos": [],
-    "mustTry": ["Brown sugar milk tea (placeholder)", "Iced matcha latte (placeholder)"],
+    "mustTry": ["Taiwanese oolong service", "Seasonal tea snacks"],
+    "vibeTags": ["quiet", "date_night", "solo_friendly", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-te-company",
+    "slug": "te-company-west-village",
+    "name": "Té Company",
+    "category": "drink",
+    "drinkTypes": ["tea"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "163 W 10th St, New York, NY 10014",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A tiny, walk-in-only tearoom devoted to Taiwanese oolong. Slow down, sit by the window and let them steer the pot.",
+    "bestTimeToVisit": "Weekday afternoon (weekends have a waitlist)",
+    "timeNeededMinutes": 60,
+    "trendingScore": 66,
+    "website": "https://tecompanytea.com",
+    "verificationNotes": "Checked 2026-09-27: hours from tecompanytea.com listings (closed Mondays). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73454,
+    "lng": -74.00184
+  },
+  {
+    "photos": [],
+    "mustTry": ["Usucha matcha", "Hojicha"],
+    "vibeTags": ["quiet", "solo_friendly", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-kettl-greenpoint",
+    "slug": "kettl-greenpoint",
+    "name": "Kettl",
+    "category": "drink",
+    "drinkTypes": ["matcha", "tea"],
+    "dietary": ["vegan"],
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "70 Greenpoint Ave, Brooklyn, NY 11222",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "Kettl's flagship café for Japanese teas and matcha, with a wall of teaware to browse on your way out.",
+    "bestTimeToVisit": "Late morning",
+    "timeNeededMinutes": 40,
+    "trendingScore": 68,
+    "website": "https://kettl.co",
+    "verificationNotes": "Checked 2026-09-27: address and hours from kettl.co locations and current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72952,
+    "lng": -73.95816
+  },
+  {
+    "photos": [],
+    "mustTry": ["Brown sugar boba milk"],
     "vibeTags": ["cheap_eats", "instagrammable", "group_friendly"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "d-sample-boba-shop",
-    "slug": "sample-boba-shop",
-    "name": "Sample Boba Shop",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-xing-fu-tang",
+    "slug": "xing-fu-tang-east-village",
+    "name": "Xing Fu Tang",
     "category": "drink",
-    "drinkTypes": ["bubble_tea", "matcha"],
-    "dietary": ["vegan"],
-    "borough": "queens",
-    "neighborhood": "Flushing",
-    "address": "TODO: verify (placeholder address, Flushing, Queens)",
-    "lat": 40.7577,
-    "lng": -73.8318,
+    "drinkTypes": ["bubble_tea"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "133 2nd Ave, New York, NY 10003",
     "priceLevel": 1,
     "isFree": false,
     "hours": {
       "sun": [
         {
-          "open": "11:00",
-          "close": "23:00"
+          "open": "13:00",
+          "close": "22:00"
         }
       ],
       "mon": [
         {
-          "open": "11:00",
-          "close": "23:00"
+          "open": "14:00",
+          "close": "22:00"
         }
       ],
       "tue": [
         {
-          "open": "11:00",
-          "close": "23:00"
+          "open": "14:00",
+          "close": "22:00"
         }
       ],
       "wed": [
         {
-          "open": "11:00",
-          "close": "23:00"
+          "open": "14:00",
+          "close": "22:00"
         }
       ],
       "thu": [
         {
-          "open": "11:00",
-          "close": "23:00"
+          "open": "14:00",
+          "close": "22:00"
         }
       ],
       "fri": [
         {
-          "open": "11:00",
+          "open": "14:00",
           "close": "23:00"
         }
       ],
       "sat": [
         {
-          "open": "11:00",
+          "open": "13:00",
           "close": "23:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: the after-dinner stop for chewy boba and a matcha fix. TODO: rewrite after a visit.",
+    "editorialTake": "Brown sugar boba from the Taiwanese chain that makes its pearls by hand in an open kitchen, a few steps from St. Marks Place.",
+    "bestTimeToVisit": "Evening, after dinner in the East Village",
     "timeNeededMinutes": 20,
-    "trendingScore": 77
+    "trendingScore": 72,
+    "website": "https://xingfutang.com",
+    "phone": "(646) 590-1298",
+    "verificationNotes": "Checked 2026-09-27: address and hours from current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72877,
+    "lng": -73.98778
   },
   {
     "photos": [],
-    "mustTry": ["House spritz (placeholder)"],
-    "vibeTags": ["date_night", "instagrammable", "late_night"],
+    "mustTry": ["Seasonal cocktail menu"],
+    "vibeTags": ["date_night", "late_night", "quiet"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "d-sample-rooftop-lounge",
-    "slug": "sample-rooftop-lounge",
-    "name": "Sample Rooftop Lounge",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-death-and-co",
+    "slug": "death-and-co-east-village",
+    "name": "Death & Co",
     "category": "drink",
-    "drinkTypes": ["cocktails", "rooftop_bar"],
+    "drinkTypes": ["cocktails"],
     "dietary": [],
     "borough": "manhattan",
-    "neighborhood": "Midtown",
-    "address": "TODO: verify (placeholder address, Midtown, Manhattan)",
-    "lat": 40.7541,
-    "lng": -73.9868,
+    "neighborhood": "East Village",
+    "address": "433 E 6th St, New York, NY 10009",
     "priceLevel": 3,
     "isFree": false,
     "hours": {
       "sun": [
         {
-          "open": "13:00",
-          "close": "23:00"
+          "open": "18:00",
+          "close": "01:00"
         }
       ],
       "mon": [
         {
-          "open": "16:00",
-          "close": "00:00"
+          "open": "18:00",
+          "close": "01:00"
         }
       ],
       "tue": [
         {
-          "open": "16:00",
-          "close": "00:00"
+          "open": "18:00",
+          "close": "01:00"
         }
       ],
       "wed": [
         {
-          "open": "16:00",
+          "open": "18:00",
           "close": "01:00"
         }
       ],
       "thu": [
         {
-          "open": "16:00",
-          "close": "01:00"
+          "open": "18:00",
+          "close": "02:00"
         }
       ],
       "fri": [
         {
-          "open": "15:00",
+          "open": "18:00",
           "close": "02:00"
         }
       ],
       "sat": [
         {
-          "open": "13:00",
+          "open": "18:00",
           "close": "02:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: skyline views and a pricey-but-worth-it cocktail list. TODO: rewrite after a visit.",
+    "editorialTake": "A dim, serious cocktail bar that helped define the modern craft cocktail era. Seated service only, so arrive early or expect a wait.",
+    "bestTimeToVisit": "Right at 6 PM opening",
+    "timeNeededMinutes": 90,
+    "trendingScore": 79,
+    "website": "https://www.deathandcompany.com",
+    "phone": "(212) 388-0882",
+    "verificationNotes": "Checked 2026-09-27: address and hours from current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72594,
+    "lng": -73.98466
+  },
+  {
+    "photos": [],
+    "mustTry": ["House cocktails", "Late-night bites"],
+    "vibeTags": ["late_night", "date_night", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-employees-only",
+    "slug": "employees-only-west-village",
+    "name": "Employees Only",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "510 Hudson St, New York, NY 10014",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ]
+    },
+    "editorialTake": "A West Village speakeasy-style bar behind a psychic's window, with bartenders in white jackets and a room that stays busy until 4 AM.",
+    "bestTimeToVisit": "After 10 PM",
+    "timeNeededMinutes": 90,
+    "trendingScore": 77,
+    "website": "https://www.employeesonlynyc.com",
+    "phone": "(212) 242-3021",
+    "verificationNotes": "Checked 2026-09-27: hours (6 PM to 4 AM daily) from employeesonlynyc.com listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73344,
+    "lng": -74.00608
+  },
+  {
+    "photos": [],
+    "mustTry": ["A drink with the Empire State Building view"],
+    "vibeTags": ["instagrammable", "date_night", "group_friendly", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-230-fifth-rooftop",
+    "slug": "230-fifth-rooftop-bar",
+    "name": "230 Fifth Rooftop Bar",
+    "category": "drink",
+    "drinkTypes": ["rooftop_bar", "cocktails"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "NoMad",
+    "address": "1150 Broadway, New York, NY 10001",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "03:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ]
+    },
+    "editorialTake": "A huge NoMad rooftop with a head-on view of the Empire State Building, plus heated igloos in the cold months.",
     "bestTimeToVisit": "Just before sunset",
-    "timeNeededMinutes": 75,
-    "trendingScore": 85
+    "timeNeededMinutes": 90,
+    "trendingScore": 83,
+    "website": "https://230-fifth.com",
+    "phone": "(212) 725-4300",
+    "verificationNotes": "Checked 2026-09-27: address and hours from 230-fifth.com listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74424,
+    "lng": -73.98859
+  },
+  {
+    "photos": [],
+    "mustTry": ["Cocktails on the terrace"],
+    "vibeTags": ["date_night", "instagrammable", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-westlight",
+    "slug": "westlight-williamsburg",
+    "name": "Westlight",
+    "category": "drink",
+    "drinkTypes": ["rooftop_bar", "cocktails"],
+    "dietary": [],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "The William Vale, 111 N 12th St, 22nd floor, Brooklyn, NY 11249",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "Twenty-two floors up with a wraparound view across the East River to the Manhattan skyline.",
+    "bestTimeToVisit": "Golden hour",
+    "timeNeededMinutes": 90,
+    "trendingScore": 81,
+    "website": "https://www.westlightnyc.com",
+    "verificationNotes": "Checked 2026-09-27: hours from westlightnyc.com location page and listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72241,
+    "lng": -73.95692
   }
 ]

@@ -1,273 +1,747 @@
 [
   {
     "photos": [],
-    "mustTry": ["Rare beef pho (placeholder)", "Broken rice plate (placeholder)"],
-    "vibeTags": ["cheap_eats", "local_favorite", "rainy_day", "solo_friendly"],
+    "mustTry": ["Pastrami on rye", "Matzo ball soup", "Hot dog"],
+    "vibeTags": ["tourist_classic", "local_favorite", "late_night", "group_friendly"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "r-sample-pho-house",
-    "slug": "sample-pho-house",
-    "name": "Sample Pho House",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-katzs-delicatessen",
+    "slug": "katzs-delicatessen",
+    "name": "Katz's Delicatessen",
     "category": "restaurant",
-    "cuisines": ["vietnamese"],
-    "dishTypes": ["noodle_soup", "rice_dishes"],
+    "cuisines": ["jewish_deli", "american"],
+    "dishTypes": ["sandwiches"],
     "dietary": [],
-    "borough": "queens",
-    "neighborhood": "Flushing",
-    "address": "TODO: verify (placeholder address, Flushing, Queens)",
-    "lat": 40.7592,
-    "lng": -73.8297,
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "205 E Houston St, New York, NY 10002",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "Take a ticket, order at the counter and watch pastrami hand-carved to order in a dining hall that has been feeding the Lower East Side since 1888. Open straight through the weekend.",
+    "bestTimeToVisit": "Weekday mid-afternoon, between the lunch and dinner rush",
+    "timeNeededMinutes": 60,
+    "trendingScore": 95,
+    "website": "https://katzsdelicatessen.com",
+    "phone": "(212) 254-2246",
+    "verificationNotes": "Checked 2026-09-27: address and hours from katzsdelicatessen.com (open 24 hours Friday 8 AM to Sunday 11 PM). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72234,
+    "lng": -73.98735
+  },
+  {
+    "photos": [],
+    "mustTry": ["Plain cheese slice", "Fresh mozzarella slice", "Pepperoni slice"],
+    "vibeTags": ["cheap_eats", "late_night", "tourist_classic", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-joes-pizza-carmine",
+    "slug": "joes-pizza-carmine-street",
+    "name": "Joe's Pizza",
+    "category": "restaurant",
+    "cuisines": ["italian", "american"],
+    "dishTypes": ["pizza", "street_food"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "7 Carmine St, New York, NY 10014",
     "priceLevel": 1,
     "isFree": false,
     "hours": {
       "sun": [
         {
           "open": "10:00",
-          "close": "22:00"
+          "close": "03:00"
         }
       ],
       "mon": [
         {
           "open": "10:00",
-          "close": "22:00"
+          "close": "03:00"
         }
       ],
       "tue": [
         {
           "open": "10:00",
-          "close": "22:00"
+          "close": "03:00"
         }
       ],
       "wed": [
         {
           "open": "10:00",
-          "close": "22:00"
+          "close": "03:00"
         }
       ],
       "thu": [
         {
           "open": "10:00",
-          "close": "22:00"
+          "close": "03:00"
         }
       ],
       "fri": [
         {
           "open": "10:00",
-          "close": "22:00"
+          "close": "04:00"
         }
       ],
       "sat": [
         {
           "open": "10:00",
-          "close": "22:00"
+          "close": "04:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: a broth-first noodle shop for cold days. TODO: rewrite after a visit.",
-    "timeNeededMinutes": 45,
-    "trendingScore": 82
+    "editorialTake": "The textbook New York slice: thin, crisp, foldable, and best eaten standing at the counter or out on Carmine Street.",
+    "bestTimeToVisit": "Late night, after a Village bar",
+    "timeNeededMinutes": 20,
+    "trendingScore": 90,
+    "website": "https://www.joespizzanyc.com",
+    "phone": "(212) 366-1182",
+    "verificationNotes": "Checked 2026-09-27: address from joespizzanyc.com; hours from current third-party listings (the official site does not post them). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73055,
+    "lng": -74.00206
   },
   {
     "photos": [],
-    "mustTry": ["Pan-fried pork dumplings (placeholder)", "Veggie dumplings (placeholder)"],
-    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
+    "mustTry": ["Shrimp dumplings", "Pork buns", "Soup dumplings"],
+    "vibeTags": ["local_favorite", "group_friendly", "tourist_classic", "rainy_day"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "r-sample-dumpling-counter",
-    "slug": "sample-dumpling-counter",
-    "name": "Sample Dumpling Counter",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-nom-wah-tea-parlor",
+    "slug": "nom-wah-tea-parlor",
+    "name": "Nom Wah Tea Parlor",
     "category": "restaurant",
     "cuisines": ["chinese"],
-    "dishTypes": ["dumplings", "noodle_soup"],
+    "dishTypes": ["dumplings", "rice_dishes"],
     "dietary": ["vegetarian"],
     "borough": "manhattan",
     "neighborhood": "Chinatown",
-    "address": "TODO: verify (placeholder address, Chinatown, Manhattan)",
-    "lat": 40.7162,
-    "lng": -73.9966,
-    "priceLevel": 1,
+    "address": "13 Doyers St, New York, NY 10013",
+    "priceLevel": 2,
     "isFree": false,
     "hours": {
       "sun": [
         {
-          "open": "09:00",
+          "open": "11:00",
           "close": "21:00"
         }
       ],
       "mon": [
         {
-          "open": "09:00",
+          "open": "11:00",
           "close": "21:00"
         }
       ],
       "tue": [
         {
-          "open": "09:00",
+          "open": "11:00",
           "close": "21:00"
         }
       ],
       "wed": [
         {
-          "open": "09:00",
+          "open": "11:00",
           "close": "21:00"
         }
       ],
       "thu": [
         {
-          "open": "09:00",
+          "open": "11:00",
           "close": "21:00"
         }
       ],
       "fri": [
         {
-          "open": "09:00",
+          "open": "11:00",
           "close": "21:00"
         }
       ],
       "sat": [
         {
-          "open": "09:00",
+          "open": "11:00",
           "close": "21:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: a quick, cash-friendly counter for a dumpling run. TODO: rewrite after a visit.",
-    "timeNeededMinutes": 30,
-    "trendingScore": 74
+    "editorialTake": "Dim sum on crooked Doyers Street in a diner-style room that has served Chinatown since 1920. Order a spread and share.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 86,
+    "website": "https://nomwah.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from nomwah.com (every day 11 AM to 9 PM, including holidays). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.71446,
+    "lng": -73.9982
   },
   {
     "photos": [],
-    "mustTry": ["Tonkotsu ramen (placeholder)", "Spicy miso ramen (placeholder)"],
-    "vibeTags": ["late_night", "date_night", "rainy_day"],
+    "mustTry": ["Adobada taco", "Carne asada taco", "Nopal (cactus) taco"],
+    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly", "rainy_day"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "r-sample-ramen-bar",
-    "slug": "sample-ramen-bar",
-    "name": "Sample Ramen Bar",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-los-tacos-no-1-chelsea",
+    "slug": "los-tacos-no-1-chelsea-market",
+    "name": "Los Tacos No. 1",
+    "category": "restaurant",
+    "cuisines": ["mexican"],
+    "dishTypes": ["tacos", "street_food"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "Chelsea Market, 75 9th Ave, New York, NY 10011",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Standing-room tacos on fresh tortillas inside Chelsea Market. The line looks long and moves fast.",
+    "bestTimeToVisit": "Before noon or mid-afternoon",
+    "timeNeededMinutes": 30,
+    "trendingScore": 88,
+    "website": "https://www.lostacos1.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from the Chelsea Market location page on lostacos1.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74205,
+    "lng": -74.0049
+  },
+  {
+    "photos": [],
+    "mustTry": ["Shiromaru classic tonkotsu ramen", "Akamaru modern ramen", "Pork buns"],
+    "vibeTags": ["rainy_day", "date_night", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-ippudo-east-village",
+    "slug": "ippudo-east-village",
+    "name": "IPPUDO East Village",
     "category": "restaurant",
     "cuisines": ["japanese"],
     "dishTypes": ["ramen"],
     "dietary": ["vegetarian"],
     "borough": "manhattan",
     "neighborhood": "East Village",
-    "address": "TODO: verify (placeholder address, East Village, Manhattan)",
-    "lat": 40.7271,
-    "lng": -73.9838,
+    "address": "65 4th Ave, New York, NY 10003",
     "priceLevel": 2,
     "isFree": false,
     "hours": {
       "sun": [
         {
-          "open": "17:00",
-          "close": "23:00"
+          "open": "11:00",
+          "close": "22:30"
         }
       ],
       "mon": [
         {
-          "open": "17:00",
-          "close": "01:00"
+          "open": "11:30",
+          "close": "22:30"
         }
       ],
       "tue": [
         {
-          "open": "17:00",
-          "close": "01:00"
+          "open": "11:30",
+          "close": "22:30"
         }
       ],
       "wed": [
         {
-          "open": "17:00",
-          "close": "01:00"
+          "open": "11:30",
+          "close": "22:30"
         }
       ],
       "thu": [
         {
-          "open": "17:00",
-          "close": "01:00"
+          "open": "11:30",
+          "close": "22:30"
         }
       ],
       "fri": [
         {
-          "open": "17:00",
-          "close": "03:00"
+          "open": "11:00",
+          "close": "23:00"
         }
       ],
       "sat": [
         {
-          "open": "17:00",
-          "close": "03:00"
+          "open": "11:00",
+          "close": "23:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: an after-dark ramen counter that stays open past midnight. TODO: rewrite after a visit.",
+    "editorialTake": "Rich tonkotsu broth in a buzzing room; this was the Fukuoka ramen house's first New York restaurant. Plant-based bowls are on the menu too.",
+    "bestTimeToVisit": "Early dinner on a weeknight",
     "timeNeededMinutes": 60,
-    "trendingScore": 90
+    "trendingScore": 82,
+    "website": "https://www.ippudous.com/east-village",
+    "phone": "(212) 388-0088",
+    "verificationNotes": "Checked 2026-09-27: address from ippudous.com; hours from current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7309,
+    "lng": -73.99018
   },
   {
     "photos": [],
-    "mustTry": ["Al pastor tacos (placeholder)", "Horchata (placeholder)"],
-    "vibeTags": ["cheap_eats", "late_night", "kid_friendly", "local_favorite"],
+    "mustTry": ["Fried chicken", "Smothered pork chops", "Mac and cheese", "Candied yams"],
+    "vibeTags": ["tourist_classic", "local_favorite", "group_friendly", "kid_friendly"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "r-sample-taco-window",
-    "slug": "sample-taco-window",
-    "name": "Sample Taco Window",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-sylvias-harlem",
+    "slug": "sylvias-restaurant-harlem",
+    "name": "Sylvia's Restaurant",
     "category": "restaurant",
-    "cuisines": ["mexican"],
-    "dishTypes": ["tacos", "street_food"],
-    "dietary": ["gluten_free"],
-    "borough": "queens",
-    "neighborhood": "Jackson Heights",
-    "address": "TODO: verify (placeholder address, Jackson Heights, Queens)",
-    "lat": 40.7549,
-    "lng": -73.8846,
-    "priceLevel": 1,
+    "cuisines": ["american"],
+    "dishTypes": ["fried_chicken", "brunch"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Harlem",
+    "address": "328 Malcolm X Blvd, New York, NY 10027",
+    "priceLevel": 2,
     "isFree": false,
     "hours": {
       "sun": [
         {
           "open": "11:00",
-          "close": "22:00"
+          "close": "20:00"
         }
       ],
-      "mon": [],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
       "tue": [
         {
           "open": "11:00",
-          "close": "23:00"
+          "close": "20:00"
         }
       ],
       "wed": [
         {
           "open": "11:00",
-          "close": "23:00"
+          "close": "22:00"
         }
       ],
       "thu": [
         {
           "open": "11:00",
-          "close": "23:00"
+          "close": "22:00"
         }
       ],
       "fri": [
         {
           "open": "11:00",
-          "close": "02:00"
+          "close": "22:00"
         }
       ],
       "sat": [
         {
           "open": "11:00",
-          "close": "02:00"
+          "close": "22:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: a walk-up taco window worth the detour. TODO: rewrite after a visit.",
-    "timeNeededMinutes": 30,
-    "trendingScore": 68
+    "editorialTake": "Harlem's best-known soul food dining room: fried chicken, smothered chops and sweet cornbread, with a crowd of locals and visitors side by side.",
+    "bestTimeToVisit": "Sunday afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 78,
+    "website": "https://sylviasrestaurant.com",
+    "phone": "(212) 996-0660",
+    "verificationNotes": "Checked 2026-09-27: address and hours from sylviasrestaurant.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.80863,
+    "lng": -73.94452
+  },
+  {
+    "photos": [],
+    "mustTry": ["Chicken tikka masala", "Saag paneer", "Samosas"],
+    "vibeTags": ["local_favorite", "group_friendly", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-jackson-diner",
+    "slug": "jackson-diner",
+    "name": "Jackson Diner",
+    "category": "restaurant",
+    "cuisines": ["indian"],
+    "dishTypes": ["curry", "vegetarian_plates"],
+    "dietary": ["vegetarian"],
+    "borough": "queens",
+    "neighborhood": "Jackson Heights",
+    "address": "37-47 74th St, Jackson Heights, NY 11372",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A Jackson Heights standby for North Indian curries and tandoor dishes, steps from the 74 St–Broadway station.",
+    "bestTimeToVisit": "Weekday lunch, then walk 74th Street",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://www.jacksondiner.com",
+    "phone": "(718) 672-1232",
+    "verificationNotes": "Checked 2026-09-27: address and hours from jacksondiner.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74826,
+    "lng": -73.89201
+  },
+  {
+    "photos": [],
+    "mustTry": ["Chocolate chip walnut cookie", "Dark chocolate peanut butter chip cookie"],
+    "vibeTags": ["tourist_classic", "local_favorite", "instagrammable", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-levain-bakery-74th",
+    "slug": "levain-bakery-west-74th-street",
+    "name": "Levain Bakery",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["bakery", "desserts"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "167 W 74th St, New York, NY 10023",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "The original basement bakery behind Levain's thick, gooey cookies. Expect a line on the stairs; it moves quickly.",
+    "bestTimeToVisit": "Morning, when trays come out warm",
+    "timeNeededMinutes": 20,
+    "trendingScore": 84,
+    "website": "https://levainbakery.com/pages/west-74th-street",
+    "verificationNotes": "Checked 2026-09-27: address from levainbakery.com; hours from current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.77993,
+    "lng": -73.98032
+  },
+  {
+    "photos": [],
+    "mustTry": ["Pork soup dumplings", "Crab and pork soup dumplings", "Scallion pancake"],
+    "vibeTags": ["local_favorite", "group_friendly", "late_night", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-nan-xiang-flushing",
+    "slug": "nan-xiang-xiao-long-bao-flushing",
+    "name": "Nan Xiang Xiao Long Bao",
+    "category": "restaurant",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dumplings", "noodle_soup"],
+    "dietary": [],
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "39-16 Prince St, Flushing, NY 11354",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "23:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "23:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "23:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "23:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "23:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "00:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "00:30"
+        }
+      ]
+    },
+    "editorialTake": "Flushing's soup-dumpling specialist since 2006: thin-skinned xiao long bao made to order, walk-in only.",
+    "bestTimeToVisit": "Weekday breakfast or late evening",
+    "timeNeededMinutes": 45,
+    "trendingScore": 80,
+    "website": "https://nanxiangxiaolongbao.com",
+    "phone": "(718) 321-3838",
+    "verificationNotes": "Checked 2026-09-27: address and hours from nanxiangxiaolongbao.com and current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75958,
+    "lng": -73.83261
+  },
+  {
+    "photos": [],
+    "mustTry": ["Pho with day-long brisket broth", "Short rib add-on", "Imperial rolls"],
+    "vibeTags": ["date_night", "rainy_day", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-madame-vo",
+    "slug": "madame-vo-east-village",
+    "name": "Madame Vo",
+    "category": "restaurant",
+    "cuisines": ["vietnamese"],
+    "dishTypes": ["noodle_soup", "rice_dishes"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "212 E 10th St, New York, NY 10003",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Vietnamese home cooking in a modern East Village room. The pho broth steeps for a full day, and it shows.",
+    "bestTimeToVisit": "Weekday dinner",
+    "timeNeededMinutes": 60,
+    "trendingScore": 76,
+    "website": "https://www.madamevo.com",
+    "phone": "(917) 261-2115",
+    "verificationNotes": "Checked 2026-09-27: address from madamevo.com; hours (closed 3:30 to 5:30 PM) from current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72927,
+    "lng": -73.98609
   }
 ]

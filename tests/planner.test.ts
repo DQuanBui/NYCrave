@@ -1,13 +1,13 @@
 import { describe, expect, it } from "vitest"
 import { isOpenForWindow } from "@/lib/hours"
-import { getPlaces } from "@/lib/places"
+import { fixturePlaces } from "./fixtures"
 import { estimateTravel } from "@/lib/planner/estimates"
 import { fold, localStamp, planToIcs } from "@/lib/planner/ics"
 import { parsePlanParams, planQuery, swapQuery } from "@/lib/planner/params"
 import { planDay, weekdayOf } from "@/lib/planner/plan"
 import type { PlanInput } from "@/lib/planner/types"
 
-const places = await getPlaces()
+const places = fixturePlaces
 const MONDAY = "2026-09-28"
 
 const base: PlanInput = {

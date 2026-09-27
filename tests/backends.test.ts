@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest"
 import { periodsToHours } from "@/lib/google-places"
 import { placeToRow, rowToPlace } from "@/lib/place-row"
-import { seedPlaces } from "@/lib/places"
+import { fixturePlaces } from "./fixtures"
 import { placeSchema, type Place } from "@/types/place"
 
 /** Optional tag lists: absent and empty mean the same thing. */
@@ -16,7 +16,7 @@ const normalize = (p: Place) => ({
 
 describe("Supabase row mapping", () => {
   it("round-trips every seed place through a database row", () => {
-    for (const place of seedPlaces()) {
+    for (const place of fixturePlaces) {
       const row = placeToRow(place)
       // Postgres hands timestamps back with an explicit offset
       const back = placeSchema.parse(
@@ -27,7 +27,7 @@ describe("Supabase row mapping", () => {
   })
 
   it("uses snake_case columns and nulls for missing optionals", () => {
-    const row = placeToRow(seedPlaces()[0])
+    const row = placeToRow(fixturePlaces[0])
     expect(row).toHaveProperty("price_level")
     expect(row).toHaveProperty("is_free")
     expect(row.google_place_id).toBeNull()

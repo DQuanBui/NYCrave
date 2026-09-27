@@ -105,8 +105,8 @@ const PHRASES: Record<string, Effect[]> = {
     add("categories", "photo_spot"),
   ],
   attractions: [add("categories", "attraction")],
-  museum: [add("categories", "attraction")],
-  museums: [add("categories", "attraction")],
+  museum: [add("categories", "attraction"), add("terms", "museum")],
+  museums: [add("categories", "attraction"), add("terms", "museum")],
   shopping: [add("categories", "shopping")],
   shop: [add("categories", "shopping")],
   vintage: [add("shopTypes", "vintage")],
@@ -222,7 +222,8 @@ export function parseQuery(q: string): SearchIntent {
     for (const effect of PHRASES[phrase]) effect(intent)
     rest = rest.split(needle).join(" ")
   }
-  intent.terms = rest.split(" ").filter((w) => w.length > 1 && !STOPWORDS.has(w))
+  // Phrases may add their own terms (e.g. "museums"); leftover words join them
+  intent.terms.push(...rest.split(" ").filter((w) => w.length > 1 && !STOPWORDS.has(w)))
   return intent
 }
 

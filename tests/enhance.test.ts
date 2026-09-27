@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest"
-import { getPlaces } from "@/lib/places"
+import { fixturePlaces } from "./fixtures"
 import { buildCandidates, describeSlots, validateSelection } from "@/lib/planner/enhance"
 import { planDay } from "@/lib/planner/plan"
 import type { PlanInput } from "@/lib/planner/types"
 
-const places = await getPlaces()
+const places = fixturePlaces
 const input: PlanInput = {
   date: "2026-09-28",
   start: 9 * 60,

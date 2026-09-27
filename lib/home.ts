@@ -1,19 +1,20 @@
 import type { Category } from "@/types/place"
 
 export type HeroScene = {
-  key: "pho" | "rooftop" | "gallery" | "vintage" | "skyline" | "pier"
+  key: "dumplings" | "rooftop" | "museum" | "vintage" | "skyline" | "pier"
   category: Category
   emoji: string
   query: string
-  /** Licensed photo in /public/hero. Until one exists, the scene renders as line-color art. */
-  image?: { src: string; alt: string; credit: string }
+  /** Licensed photo in /public/photos. Without one, the scene renders as line-color art. */
+  image?: { src: string; alt: string; credit: string; creditUrl?: string }
 }
 
+// The first scene is a two-line phrase so the headline space is filled on load
 export const HERO_SCENES: HeroScene[] = [
-  { key: "pho", category: "restaurant", emoji: "🍜", query: "pho in Flushing" },
+  { key: "dumplings", category: "restaurant", emoji: "🥟", query: "dumplings in Chinatown" },
   { key: "rooftop", category: "drink", emoji: "🍸", query: "rooftop" },
-  { key: "gallery", category: "attraction", emoji: "🖼️", query: "free Chelsea" },
-  { key: "vintage", category: "shopping", emoji: "🧥", query: "vintage in Williamsburg" },
+  { key: "museum", category: "attraction", emoji: "🖼️", query: "museums" },
+  { key: "vintage", category: "shopping", emoji: "🧥", query: "vintage in Greenpoint" },
   { key: "skyline", category: "photo_spot", emoji: "🌃", query: "photo spots" },
   { key: "pier", category: "park_pier", emoji: "🌅", query: "piers" },
 ]
@@ -44,10 +45,10 @@ export const MOODS: Mood[] = [
 ]
 
 export const SEARCH_SUGGESTIONS = [
-  "pho in Queens",
+  "dumplings in Chinatown",
   "free things to do",
-  "late night ramen",
-  "boba in Flushing",
+  "late night pizza",
+  "boba in the East Village",
   "rooftop",
-  "vintage",
+  "museums",
 ]

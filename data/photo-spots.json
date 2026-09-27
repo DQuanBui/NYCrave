@@ -4,17 +4,14 @@
     "mustTry": [],
     "vibeTags": ["instagrammable", "tourist_classic", "outdoor"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "p-sample-bridge-overlook",
-    "slug": "sample-bridge-overlook",
-    "name": "Sample Bridge Overlook",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-dumbo-washington-street",
+    "slug": "dumbo-washington-street-view",
+    "name": "Washington Street, DUMBO",
     "category": "photo_spot",
     "borough": "brooklyn",
     "neighborhood": "DUMBO",
-    "address": "TODO: verify (placeholder address, DUMBO, Brooklyn)",
-    "lat": 40.7036,
-    "lng": -73.9902,
+    "address": "Washington St at Water St, Brooklyn, NY 11201",
     "priceLevel": 1,
     "isFree": true,
     "hours": {
@@ -61,105 +58,184 @@
         }
       ]
     },
-    "editorialTake": "Placeholder take: the classic bridge-through-the-buildings frame. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Sunrise on weekdays",
-    "timeNeededMinutes": 30,
-    "trendingScore": 92,
+    "editorialTake": "The famous frame: the Manhattan Bridge between brick warehouses, with the Empire State Building peeking through the bridge's tower.",
+    "bestTimeToVisit": "Sunrise on a weekday",
+    "timeNeededMinutes": 20,
+    "trendingScore": 93,
     "photoSpot": {
-      "bestLight": ["sunrise", "golden_hour"],
+      "bestLight": ["sunrise", "morning"],
       "tips": [
-        "Placeholder tip: arrive early to beat crowds.",
-        "Placeholder tip: a 35mm focal length frames the scene well."
+        "Stand on Washington Street between Water and Front Streets.",
+        "Come early: after mid-morning the block fills with photographers.",
+        "It is a working street, so watch for cars."
       ]
-    }
+    },
+    "verificationNotes": "Checked 2026-09-27: public street, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7032,
+    "lng": -73.9894
   },
   {
     "photos": [],
     "mustTry": [],
-    "vibeTags": ["instagrammable", "date_night", "outdoor"],
+    "vibeTags": ["instagrammable", "tourist_classic", "outdoor", "date_night"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "p-sample-skyline-pier-view",
-    "slug": "sample-skyline-pier-view",
-    "name": "Sample Skyline Pier View",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-brooklyn-bridge-promenade",
+    "slug": "brooklyn-bridge-promenade",
+    "name": "Brooklyn Bridge Promenade",
     "category": "photo_spot",
-    "borough": "queens",
-    "neighborhood": "Long Island City",
-    "address": "TODO: verify (placeholder address, Long Island City, Queens)",
-    "lat": 40.7452,
-    "lng": -73.9588,
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "Pedestrian entrance at Tillary St & Cadman Plaza E, Brooklyn (or City Hall, Manhattan)",
     "priceLevel": 1,
     "isFree": true,
     "hours": {
       "sun": [
         {
-          "open": "06:00",
-          "close": "01:00"
+          "open": "00:00",
+          "close": "24:00"
         }
       ],
       "mon": [
         {
-          "open": "06:00",
-          "close": "01:00"
+          "open": "00:00",
+          "close": "24:00"
         }
       ],
       "tue": [
         {
-          "open": "06:00",
-          "close": "01:00"
+          "open": "00:00",
+          "close": "24:00"
         }
       ],
       "wed": [
         {
-          "open": "06:00",
-          "close": "01:00"
+          "open": "00:00",
+          "close": "24:00"
         }
       ],
       "thu": [
         {
-          "open": "06:00",
-          "close": "01:00"
+          "open": "00:00",
+          "close": "24:00"
         }
       ],
       "fri": [
         {
-          "open": "06:00",
-          "close": "01:00"
+          "open": "00:00",
+          "close": "24:00"
         }
       ],
       "sat": [
         {
-          "open": "06:00",
-          "close": "01:00"
+          "open": "00:00",
+          "close": "24:00"
         }
       ]
     },
-    "editorialTake": "Placeholder take: a wide Manhattan skyline across the water. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Blue hour",
+    "editorialTake": "Walk the 1883 bridge's elevated promenade between the stone towers for skyline views in both directions.",
+    "bestTimeToVisit": "Sunrise, or the blue hour after sunset",
+    "timeNeededMinutes": 45,
+    "trendingScore": 90,
+    "photoSpot": {
+      "bestLight": ["sunrise", "golden_hour", "blue_hour"],
+      "tips": [
+        "Walk from Brooklyn toward Manhattan so the skyline stays in front of you.",
+        "Sunrise is the quietest time on the promenade.",
+        "Frame the cables converging on the stone towers."
+      ]
+    },
+    "verificationNotes": "Checked 2026-09-27: pedestrian promenade open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7038,
+    "lng": -73.9926
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "date_night", "quiet", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-brooklyn-heights-promenade",
+    "slug": "brooklyn-heights-promenade",
+    "name": "Brooklyn Heights Promenade",
+    "category": "photo_spot",
+    "borough": "brooklyn",
+    "neighborhood": "Brooklyn Heights",
+    "address": "Montague St to Orange St, Brooklyn, NY 11201",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A quiet elevated walkway facing Lower Manhattan across the East River, with the Brooklyn Bridge to the north and the harbor to the south.",
+    "bestTimeToVisit": "Sunset into blue hour",
     "timeNeededMinutes": 30,
-    "trendingScore": 71,
+    "trendingScore": 76,
     "photoSpot": {
       "bestLight": ["golden_hour", "blue_hour", "night"],
-      "tips": ["Placeholder tip: bring something to steady your phone for night shots."]
-    }
+      "tips": [
+        "The skyline faces west, so sunset lights up the glass.",
+        "Stay for blue hour, when the towers light up."
+      ]
+    },
+    "verificationNotes": "Checked 2026-09-27: public walkway; hours treated as always open, confirm with NYC Parks. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.6966,
+    "lng": -73.998
   },
   {
     "photos": [],
     "mustTry": [],
     "vibeTags": ["instagrammable", "local_favorite", "outdoor"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "p-sample-mural-wall",
-    "slug": "sample-mural-wall",
-    "name": "Sample Mural Wall",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-tudor-city-bridge",
+    "slug": "tudor-city-bridge",
+    "name": "Tudor City Bridge",
     "category": "photo_spot",
-    "borough": "brooklyn",
-    "neighborhood": "Bushwick",
-    "address": "TODO: verify (placeholder address, Bushwick, Brooklyn)",
-    "lat": 40.7054,
-    "lng": -73.9336,
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "Tudor City Pl over E 42nd St, New York, NY 10017",
     "priceLevel": 1,
     "isFree": true,
     "hours": {
@@ -206,13 +282,175 @@
         }
       ]
     },
-    "editorialTake": "Placeholder take: a block of rotating street murals. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Late morning",
-    "timeNeededMinutes": 45,
-    "trendingScore": 64,
+    "editorialTake": "An overpass looking straight down 42nd Street, with the Chrysler Building close by. It is a favorite spot for Manhattanhenge sunsets.",
+    "bestTimeToVisit": "Sunset, especially on Manhattanhenge evenings in late May and July",
+    "timeNeededMinutes": 20,
+    "trendingScore": 62,
     "photoSpot": {
-      "bestLight": ["morning", "midday"],
-      "tips": ["Placeholder tip: murals change often, so check recent photos first."]
-    }
+      "bestLight": ["golden_hour", "blue_hour"],
+      "tips": [
+        "Use a longer lens to stack 42nd Street's buildings.",
+        "On Manhattanhenge evenings, arrive at least an hour early."
+      ]
+    },
+    "verificationNotes": "Checked 2026-09-27: public overpass, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.749,
+    "lng": -73.9712
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["tourist_classic", "instagrammable", "late_night", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-times-square",
+    "slug": "times-square",
+    "name": "Times Square",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "Broadway & 7th Ave at W 45th St, New York, NY 10036",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "Neon overload at the crossroads of Broadway and Seventh Avenue. Once is essential; after dark is the time.",
+    "bestTimeToVisit": "After dark",
+    "timeNeededMinutes": 30,
+    "trendingScore": 88,
+    "photoSpot": {
+      "bestLight": ["blue_hour", "night"],
+      "tips": [
+        "Climb the red steps above the TKTS booth for the classic view down the square.",
+        "Keep bags close in the crowds."
+      ]
+    },
+    "verificationNotes": "Checked 2026-09-27: public plaza, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.758,
+    "lng": -73.9855
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "kid_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-roosevelt-island-tram",
+    "slug": "roosevelt-island-tramway",
+    "name": "Roosevelt Island Tramway",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "Tram Plaza, E 59th St & 2nd Ave, New York, NY 10022",
+    "priceLevel": 1,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 3,
+        "max": 3
+      },
+      "notes": "Costs one standard fare; tap OMNY or use a MetroCard."
+    },
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "03:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "03:30"
+        }
+      ]
+    },
+    "editorialTake": "An aerial cable car over the East River for the price of a subway ride, gliding alongside the Queensboro Bridge.",
+    "bestTimeToVisit": "Golden hour going out, city lights coming back",
+    "timeNeededMinutes": 30,
+    "trendingScore": 69,
+    "photoSpot": {
+      "bestLight": ["golden_hour", "blue_hour"],
+      "tips": [
+        "Grab a spot by the windows facing the Queensboro Bridge.",
+        "Ride once each way: the view changes on the return."
+      ]
+    },
+    "website": "https://rioc.ny.gov",
+    "verificationNotes": "Checked 2026-09-27: hours and fare from current listings (runs every 10 to 15 minutes). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7612,
+    "lng": -73.9641
   }
 ]

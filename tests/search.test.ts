@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest"
 import type { NycClock } from "@/lib/hours"
-import { getPlaces } from "@/lib/places"
+import { fixturePlaces } from "./fixtures"
 import { hasIntent, parseQuery, searchPlaces } from "@/lib/search"
 
-const places = await getPlaces()
+const places = fixturePlaces
 const slugs = (q: string, clock?: NycClock) => searchPlaces(places, q, clock).map((p) => p.slug)
 
 describe("parseQuery", () => {

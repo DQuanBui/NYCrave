@@ -2,19 +2,16 @@
   {
     "photos": [],
     "mustTry": [],
-    "vibeTags": ["outdoor", "kid_friendly", "local_favorite", "date_night"],
+    "vibeTags": ["outdoor", "kid_friendly", "tourist_classic", "local_favorite"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "g-sample-waterfront-park",
-    "slug": "sample-waterfront-park",
-    "name": "Sample Waterfront Park",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-central-park",
+    "slug": "central-park",
+    "name": "Central Park",
     "category": "park_pier",
-    "borough": "brooklyn",
-    "neighborhood": "Greenpoint",
-    "address": "TODO: verify (placeholder address, Greenpoint, Brooklyn)",
-    "lat": 40.7296,
-    "lng": -73.9611,
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "Central Park, from 59th St to 110th St, New York, NY",
     "priceLevel": 1,
     "isFree": true,
     "hours": {
@@ -61,32 +58,187 @@
         }
       ]
     },
-    "editorialTake": "Placeholder take: lawn, river breeze, and a picnic-ready view. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Golden hour",
-    "timeNeededMinutes": 60,
-    "trendingScore": 66,
+    "editorialTake": "843 acres of meadows, lakes and bridges in the middle of Manhattan. Start at Bethesda Terrace and wander.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 120,
+    "trendingScore": 96,
     "park": {
-      "activities": ["Picnics (placeholder)", "Waterfront walk (placeholder)"],
-      "amenities": ["Restrooms (TODO: verify)", "Benches (placeholder)"],
-      "seasonalNotes": "TODO: verify seasonal events."
-    }
+      "activities": [
+        "Bethesda Terrace and Fountain",
+        "Rowboats at the Loeb Boathouse (seasonal)",
+        "Sheep Meadow",
+        "Conservatory Garden"
+      ],
+      "amenities": ["Restrooms", "Visitor centers", "Central Park Zoo (ticketed)"],
+      "seasonalNotes": "Ice skating at Wollman Rink in winter; SummerStage concerts and Shakespeare in the Park in summer."
+    },
+    "website": "https://www.centralparknyc.org",
+    "verificationNotes": "Checked 2026-09-27: park hours (6 AM to 1 AM) from NYC Parks and the Central Park Conservancy. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7812,
+    "lng": -73.9665
   },
   {
     "photos": [],
     "mustTry": [],
-    "vibeTags": ["outdoor", "kid_friendly", "group_friendly"],
+    "vibeTags": ["outdoor", "instagrammable", "tourist_classic", "date_night"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "g-sample-neighborhood-park",
-    "slug": "sample-neighborhood-park",
-    "name": "Sample Neighborhood Park",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-high-line",
+    "slug": "the-high-line",
+    "name": "The High Line",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "Gansevoort St to W 34th St, entrances along the route, New York, NY",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A 1.45-mile park planted on an old elevated freight line, with gardens, art and framed views of the street below.",
+    "bestTimeToVisit": "Weekday morning or sunset",
+    "timeNeededMinutes": 60,
+    "trendingScore": 91,
+    "park": {
+      "activities": ["Elevated garden walk", "Public art commissions", "Sunset over the Hudson"],
+      "amenities": [
+        "Restrooms at Gansevoort St and 16th St",
+        "Elevator access at several entrances"
+      ],
+      "seasonalNotes": "Open 7 AM to 10 PM April through November; shorter winter hours."
+    },
+    "website": "https://www.thehighline.org",
+    "verificationNotes": "Checked 2026-09-27: hours from thehighline.org (April 1 to November 30 schedule). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.748,
+    "lng": -74.0048
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "kid_friendly", "instagrammable", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-brooklyn-bridge-park",
+    "slug": "brooklyn-bridge-park",
+    "name": "Brooklyn Bridge Park",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "334 Furman St, Brooklyn, NY 11201",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "Waterfront lawns and piers facing the Lower Manhattan skyline, with Jane's Carousel under the bridge.",
+    "bestTimeToVisit": "Golden hour",
+    "timeNeededMinutes": 90,
+    "trendingScore": 89,
+    "park": {
+      "activities": ["Jane's Carousel", "Pier sports courts", "Waterfront lawns"],
+      "amenities": ["Restrooms", "Seasonal food spots"],
+      "seasonalNotes": "Summer brings outdoor movies and pop-up food on the piers."
+    },
+    "website": "https://brooklynbridgepark.org",
+    "verificationNotes": "Checked 2026-09-27: park hours (6 AM to 1 AM) from brooklynbridgepark.org. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7003,
+    "lng": -73.9967
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "kid_friendly", "local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-prospect-park",
+    "slug": "prospect-park",
+    "name": "Prospect Park",
     "category": "park_pier",
     "borough": "brooklyn",
     "neighborhood": "Park Slope",
-    "address": "TODO: verify (placeholder address, Park Slope, Brooklyn)",
-    "lat": 40.6702,
-    "lng": -73.9712,
+    "address": "Prospect Park, Brooklyn, NY 11215",
     "priceLevel": 1,
     "isFree": true,
     "hours": {
@@ -133,32 +285,33 @@
         }
       ]
     },
-    "editorialTake": "Placeholder take: big meadows and weekend people-watching. TODO: rewrite after a visit.",
-    "bestTimeToVisit": "Weekend mornings",
-    "timeNeededMinutes": 90,
-    "trendingScore": 60,
+    "editorialTake": "Brooklyn's great park, designed by the team behind Central Park, with the enormous Long Meadow at its heart.",
+    "bestTimeToVisit": "Weekend morning",
+    "timeNeededMinutes": 120,
+    "trendingScore": 77,
     "park": {
-      "activities": ["Running loop (placeholder)", "Playground (placeholder)"],
-      "amenities": ["Water fountains (TODO: verify)"],
-      "seasonalNotes": "TODO: verify summer programming."
-    }
+      "activities": ["Long Meadow", "Prospect Park Zoo", "LeFrak Center at Lakeside"],
+      "amenities": ["Restrooms", "Picnic areas"],
+      "seasonalNotes": "Celebrate Brooklyn! concerts at the Lena Horne Bandshell in summer; skating at Lakeside in winter."
+    },
+    "website": "https://www.prospectpark.org",
+    "verificationNotes": "Checked 2026-09-27: park hours (5 AM to 1 AM) from NYC Parks. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.6602,
+    "lng": -73.969
   },
   {
     "photos": [],
     "mustTry": [],
-    "vibeTags": ["outdoor", "tourist_classic", "instagrammable"],
+    "vibeTags": ["outdoor", "instagrammable", "date_night", "kid_friendly"],
     "verified": false,
-    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
-    "updatedAt": "2026-09-26T00:00:00.000Z",
-    "id": "g-sample-harbor-pier",
-    "slug": "sample-harbor-pier",
-    "name": "Sample Harbor Pier",
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-little-island",
+    "slug": "little-island",
+    "name": "Little Island",
     "category": "park_pier",
     "borough": "manhattan",
-    "neighborhood": "Financial District",
-    "address": "TODO: verify (placeholder address, Financial District, Manhattan)",
-    "lat": 40.7033,
-    "lng": -74.0138,
+    "neighborhood": "Meatpacking District",
+    "address": "Pier 55, Hudson River Park at W 13th St, New York, NY 10014",
     "priceLevel": 1,
     "isFree": true,
     "hours": {
@@ -205,14 +358,164 @@
         }
       ]
     },
-    "editorialTake": "Placeholder take: a harbor pier for sunset and ferry-watching. TODO: rewrite after a visit.",
+    "editorialTake": "A free park perched on tulip-shaped concrete piles in the Hudson, with hilltop lookouts and an amphitheater.",
     "bestTimeToVisit": "Sunset",
-    "timeNeededMinutes": 40,
-    "trendingScore": 72,
+    "timeNeededMinutes": 45,
+    "trendingScore": 84,
     "park": {
-      "activities": ["Harbor views (placeholder)"],
-      "amenities": ["Seating (placeholder)"],
-      "seasonalNotes": "TODO: verify seasonal hours."
-    }
+      "activities": ["Hilltop lookouts", "Performances at The Amph"],
+      "amenities": ["Restrooms", "Food and drink kiosks"],
+      "seasonalNotes": "Performances and events at The Amph in warmer months."
+    },
+    "website": "https://littleisland.org",
+    "verificationNotes": "Checked 2026-09-27: hours (6 AM to 11 PM) from littleisland.org via current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.742,
+    "lng": -74.0103
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "instagrammable", "date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-gantry-plaza",
+    "slug": "gantry-plaza-state-park",
+    "name": "Gantry Plaza State Park",
+    "category": "park_pier",
+    "borough": "queens",
+    "neighborhood": "Long Island City",
+    "address": "4-44 47th Rd, Long Island City, NY 11101",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Restored railroad gantries and piers facing Midtown across the East River, next to the red Pepsi-Cola sign.",
+    "bestTimeToVisit": "Sunset into blue hour",
+    "timeNeededMinutes": 45,
+    "trendingScore": 74,
+    "park": {
+      "activities": ["Skyline views from the piers", "The Pepsi-Cola sign"],
+      "amenities": ["Benches and lounge chairs", "Playground"],
+      "seasonalNotes": "Sunsets over Midtown are best from late spring to fall."
+    },
+    "website": "https://parks.ny.gov/parks/gantryplaza/",
+    "verificationNotes": "Checked 2026-09-27: hours from current listings; NY State Parks lists dawn to dusk. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7454,
+    "lng": -73.958
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "kid_friendly", "local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-domino-park",
+    "slug": "domino-park",
+    "name": "Domino Park",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "15 River St, Brooklyn, NY 11249",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A waterfront park built on the old Domino Sugar refinery site, with salvaged machinery on the Artifact Walk and views of the Williamsburg Bridge.",
+    "bestTimeToVisit": "Late afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 70,
+    "park": {
+      "activities": ["Artifact Walk", "Beach volleyball and bocce", "Playground"],
+      "amenities": ["Restrooms", "Seasonal taco stand"],
+      "seasonalNotes": "The playground is open sunrise to sunset."
+    },
+    "website": "https://www.dominopark.com",
+    "verificationNotes": "Checked 2026-09-27: hours from dominopark.com via current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7142,
+    "lng": -73.9686
   }
 ]

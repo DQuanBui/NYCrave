@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl"
+import { formatPriceRange } from "@/lib/format"
 import { cn } from "@/lib/utils"
 import type { Place } from "@/types/place"
 
@@ -11,7 +12,7 @@ export function PriceLevel({ place, className }: { place: Place; className?: str
     return (
       <span className={cn("font-semibold tabular-nums", className)}>
         <span className="sr-only">{t("tickets")}: </span>
-        {t("ticketRange", place.ticketInfo.priceRange)}
+        {formatPriceRange(place.ticketInfo.priceRange)}
       </span>
     )
   }
