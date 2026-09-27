@@ -783,8 +783,8 @@
     "assistant": {
       "title": "The assistant",
       "items": [
-        "When you use Ask NYCrave, your questions and the conversation so far are sent to Anthropic, which runs the Claude model, to write the answer. Do not share personal details in the chat.",
-        "NYCrave does not store the conversation. It stays in the open page and disappears when you clear it or close the site."
+        "Ask NYCrave answers from NYCrave's own data on its server. Questions are not stored.",
+        "If AI answers are switched on for the site, questions and the conversation so far are sent to Anthropic, which runs the Claude model, to write the answer. Do not share personal details in the chat."
       ]
     },
     "none": {
@@ -824,6 +824,22 @@
       "invalid": "That question is too long. Please shorten it.",
       "failed": "Something went wrong. Please try again.",
       "aborted": "Stopped."
+    },
+    "introFree": "Ask about food, sights, a place's hours, getting around or a plan for your day. Answers come straight from NYCrave's places and tips.",
+    "disclaimerFree": "Answers come from NYCrave's own data, not AI. Hours can change, so check before you go.",
+    "helper": {
+      "greeting": "Hi! Ask me about places to eat, drink or visit, what's open now, a place's hours, getting around, or say “plan a day in the East Village”.",
+      "thanks": "You're welcome. Enjoy New York!",
+      "found": "Here's what NYCrave has:",
+      "seeAll": "See all results",
+      "noResults": "I couldn't find a NYCrave place for that. Try a dish, a drink, a neighborhood or a mood, like “pizza in the West Village” or “free museums”.",
+      "planIntro": "Here's a day starting in {from}, built around what's open:",
+      "planLink": "Open this day in My Day to change it",
+      "noPlan": "I couldn't fit a day right now. Try My Day and pick your own times and budget.",
+      "tipsLink": "More on the Tourist tips page",
+      "address": "Address",
+      "subway": "Nearest subway: {station} ({trains}), about {minutes} min walk.",
+      "checkHours": "Hours were researched from official sources but not yet confirmed with the venue, so check before you go."
     }
   }
 }

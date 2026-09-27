@@ -30,7 +30,8 @@ type Message = {
 /** Pages where the floating button would cover the page's own controls. */
 const HIDDEN_ON = ["/map", "/admin"]
 
-export function Assistant() {
+/** Answers come from Claude when `ai` is on, otherwise from the free helper. */
+export function Assistant({ ai }: { ai: boolean }) {
   const t = useTranslations("assistant")
   const locale = useLocale()
   const pathname = usePathname()
@@ -124,13 +125,16 @@ export function Assistant() {
           {t("open")}
         </button>
       </SheetTrigger>
-      <SheetContent side="right" className="flex flex-col gap-0 p-0 data-[side=right]:w-full data-[side=right]:sm:max-w-md">
+      <SheetContent
+        side="right"
+        className="flex flex-col gap-0 p-0 data-[side=right]:w-full data-[side=right]:sm:max-w-md"
+      >
         <SheetHeader className="border-b pr-12">
           <SheetTitle className="flex items-center gap-2 text-lg font-bold">
             <Sparkles aria-hidden className="size-5 text-taxi" />
             {t("title")}
           </SheetTitle>
-          <SheetDescription>{t("intro")}</SheetDescription>
+          <SheetDescription>{t(ai ? "intro" : "introFree")}</SheetDescription>
         </SheetHeader>
 
         <div ref={scroller} className="flex-1 space-y-4 overflow-y-auto px-4 py-4">
@@ -274,7 +278,7 @@ export function Assistant() {
           </div>
           <div className="flex items-start justify-between gap-3">
             <p className="text-xs text-muted-foreground">
-              {t("disclaimer")}{" "}
+              {t(ai ? "disclaimer" : "disclaimerFree")}{" "}
               <Link
                 href="/privacy"
                 onClick={() => setOpen(false)}

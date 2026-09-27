@@ -783,8 +783,8 @@
     "assistant": {
       "title": "Trợ lý",
       "items": [
-        "Khi bạn dùng Hỏi NYCrave, câu hỏi và nội dung cuộc trò chuyện được gửi đến Anthropic, đơn vị vận hành mô hình Claude, để viết câu trả lời. Đừng chia sẻ thông tin cá nhân trong cuộc trò chuyện.",
-        "NYCrave không lưu cuộc trò chuyện. Nó chỉ nằm trong trang đang mở và biến mất khi bạn xóa hoặc đóng trang."
+        "Hỏi NYCrave trả lời từ dữ liệu của NYCrave trên máy chủ của trang. Câu hỏi không được lưu lại.",
+        "Nếu trang bật câu trả lời bằng AI, câu hỏi và nội dung cuộc trò chuyện được gửi đến Anthropic, đơn vị vận hành mô hình Claude, để viết câu trả lời. Đừng chia sẻ thông tin cá nhân trong cuộc trò chuyện."
       ]
     },
     "none": {
@@ -824,6 +824,22 @@
       "invalid": "Câu hỏi quá dài. Vui lòng rút gọn.",
       "failed": "Đã có lỗi xảy ra. Vui lòng thử lại.",
       "aborted": "Đã dừng."
+    },
+    "introFree": "Hỏi về ăn uống, điểm tham quan, giờ mở cửa, cách đi lại hoặc lịch trình trong ngày. Câu trả lời lấy trực tiếp từ các địa điểm và mẹo của NYCrave.",
+    "disclaimerFree": "Câu trả lời lấy từ dữ liệu của NYCrave, không dùng AI. Giờ mở cửa có thể thay đổi, nên hãy kiểm tra trước khi đi.",
+    "helper": {
+      "greeting": "Xin chào! Hãy hỏi tôi về chỗ ăn, uống hay tham quan, nơi nào đang mở cửa, giờ mở cửa của một địa điểm, cách đi lại, hoặc nói “lên lịch một ngày ở East Village”.",
+      "thanks": "Không có gì. Chúc bạn vui ở New York!",
+      "found": "Đây là những gì NYCrave có:",
+      "seeAll": "Xem tất cả kết quả",
+      "noResults": "Tôi chưa tìm thấy địa điểm nào trên NYCrave cho câu này. Hãy thử một món ăn, đồ uống, khu phố hoặc tâm trạng, như “pizza ở West Village” hoặc “bảo tàng miễn phí”.",
+      "planIntro": "Đây là một ngày bắt đầu ở {from}, sắp xếp quanh những nơi đang mở cửa:",
+      "planLink": "Mở ngày này trong Lịch trình để chỉnh sửa",
+      "noPlan": "Lúc này tôi chưa sắp xếp được một ngày. Hãy vào Lịch trình và tự chọn giờ và ngân sách.",
+      "tipsLink": "Xem thêm ở trang Mẹo du lịch",
+      "address": "Địa chỉ",
+      "subway": "Ga tàu điện gần nhất: {station} ({trains}), khoảng {minutes} phút đi bộ.",
+      "checkHours": "Giờ mở cửa được tra cứu từ nguồn chính thức nhưng chưa được xác nhận với địa điểm, nên hãy kiểm tra trước khi đi."
     }
   }
 }

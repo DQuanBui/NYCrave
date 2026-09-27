@@ -12,7 +12,10 @@ const NOW = new Date("2026-10-03T17:00:00Z")
 describe("assistant tools", () => {
   it("search returns NYCrave places with live status and links", () => {
     const { results } = searchTool(places, "dumplings in Chinatown", NOW)
-    expect(results[0]).toMatchObject({ slug: "nom-wah-tea-parlor", url: "/place/nom-wah-tea-parlor" })
+    expect(results[0]).toMatchObject({
+      slug: "nom-wah-tea-parlor",
+      url: "/place/nom-wah-tea-parlor",
+    })
     expect(results[0].status).toMatch(/^open now, until/)
     expect(results.length).toBeLessThanOrEqual(6)
   })
@@ -57,7 +60,9 @@ describe("assistant prompt", () => {
 
   it("finds linked places, once each, with or without a locale prefix", () => {
     expect(
-      extractPlaceSlugs("Try [Katz's](/place/katzs-delicatessen), [Joe's](/vi/place/joes-pizza-carmine-street) and [Katz's](/place/katzs-delicatessen)."),
+      extractPlaceSlugs(
+        "Try [Katz's](/place/katzs-delicatessen), [Joe's](/vi/place/joes-pizza-carmine-street) and [Katz's](/place/katzs-delicatessen).",
+      ),
     ).toEqual(["katzs-delicatessen", "joes-pizza-carmine-street"])
   })
 })
@@ -67,9 +72,18 @@ describe("assistant route", () => {
   const call = (body: unknown) =>
     POST(new Request("http://x/api/assistant", { method: "POST", body: JSON.stringify(body) }))
 
-  it("is off without an API key", async () => {
+  it("answers for free without an API key", async () => {
     vi.stubEnv("ANTHROPIC_API_KEY", "")
-    expect((await call({ messages: [{ role: "user", content: "hi" }] })).status).toBe(501)
+    const res = await call({ messages: [{ role: "user", content: "dumplings in Chinatown" }] })
+    expect(res.status).toBe(200)
+    const events = (await res.text())
+      .trim()
+      .split("\n")
+      .map((l) => JSON.parse(l))
+    expect(events[0].type).toBe("text")
+    expect(events[0].text).toContain("(/place/nom-wah-tea-parlor)")
+    expect(events.find((e) => e.type === "places").places[0].slug).toBe("nom-wah-tea-parlor")
+    expect(events.at(-1)).toEqual({ type: "done" })
   })
 
   it("rejects bad and overlong questions before calling the model", async () => {

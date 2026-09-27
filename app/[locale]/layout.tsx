@@ -63,7 +63,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             </main>
             <SiteFooter />
             <BottomTabBar />
-            {process.env.ANTHROPIC_API_KEY ? <Assistant /> : null}
+            <Assistant ai={Boolean(process.env.ANTHROPIC_API_KEY)} />
             <ServiceWorker />
           </Providers>
         </NextIntlClientProvider>

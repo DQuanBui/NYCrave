@@ -3,6 +3,7 @@ import { betaZodTool } from "@anthropic-ai/sdk/helpers/beta/zod"
 import { z } from "zod"
 import { MAX_MESSAGE_CHARS } from "@/lib/assistant/limits"
 import { assistantSystemPrompt, extractPlaceSlugs } from "@/lib/assistant/prompt"
+import { helperAnswer } from "@/lib/assistant/helper"
 import { placeTool, planTool, searchTool, TIPS } from "@/lib/assistant/tools"
 import { toCard } from "@/lib/card-place"
 import { getPlaces } from "@/lib/places"
@@ -26,31 +27,34 @@ const bodySchema = z.object({
 // Best-effort guards for a paid endpoint, per server instance
 const WINDOW_MS = 10 * 60_000
 const PER_VISITOR = 20
+const PER_VISITOR_FREE = 60
 const OVERALL = 400
 const hits = new Map<string, number[]>()
 let overall: number[] = []
 
-function limited(ip: string): boolean {
+function limited(ip: string, perVisitor: number, ai: boolean): boolean {
   const now = Date.now()
   const recent = (hits.get(ip) ?? []).filter((t) => now - t < WINDOW_MS)
   overall = overall.filter((t) => now - t < WINDOW_MS)
-  if (recent.length >= PER_VISITOR || overall.length >= OVERALL) return true
+  // The overall cap only protects AI spending
+  if (recent.length >= perVisitor || (ai && overall.length >= OVERALL)) return true
   hits.set(ip, [...recent, now])
   overall.push(now)
   return false
 }
 
 /**
- * The site assistant. Claude answers with NYCrave's own tools (search, place
+ * The site assistant. Without an API key it answers for free from NYCrave's own
+ * data (lib/assistant/helper). With ANTHROPIC_API_KEY set, Claude answers with NYCrave's own tools (search, place
  * details, the day planner and tips) and streams newline-delimited JSON:
  * {type:"text"} deltas, then {type:"places"} cards for places it linked, then {type:"done"}.
  */
 export async function POST(request: Request) {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    return Response.json({ error: "not_configured" }, { status: 501 })
-  }
+  const ai = Boolean(process.env.ANTHROPIC_API_KEY)
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "local"
-  if (limited(ip)) return Response.json({ error: "rate_limited" }, { status: 429 })
+  if (limited(ip, ai ? PER_VISITOR : PER_VISITOR_FREE, ai)) {
+    return Response.json({ error: "rate_limited" }, { status: 429 })
+  }
 
   const parsed = bodySchema.safeParse(await request.json().catch(() => null))
   if (!parsed.success) return Response.json({ error: "invalid" }, { status: 400 })
@@ -62,6 +66,27 @@ export async function POST(request: Request) {
 
   const places = await getPlaces()
   const now = new Date()
+
+  // Free mode: answer from NYCrave's own search, planner and tips, no AI
+  if (!ai) {
+    const answer = helperAnswer(last.content, places, now, locale)
+    const cards = answer.places
+      .map((slug) => places.find((p) => p.slug === slug))
+      .filter((p) => p !== undefined)
+      .slice(0, 6)
+      .map(toCard)
+    const lines = [
+      { type: "text", text: answer.text },
+      ...(cards.length ? [{ type: "places", places: cards }] : []),
+      { type: "done" },
+    ]
+    return new Response(lines.map((l) => `${JSON.stringify(l)}\n`).join(""), {
+      headers: {
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Cache-Control": "no-store",
+      },
+    })
+  }
 
   const tools = [
     betaZodTool({

@@ -121,6 +121,8 @@ export type PlanToolInput = {
   end?: string
   budget?: number
   interests?: Interest[]
+  /** Put indoor stops first, as the planner does when rain is likely. */
+  indoors?: boolean
 }
 
 export function planTool(places: Place[], input: PlanToolInput, now: Date) {
@@ -134,8 +136,8 @@ export function planTool(places: Place[], input: PlanToolInput, now: Date) {
     d: input.date ?? nycDateString(now),
     from,
     m: input.mood && MOODS.includes(input.mood) ? input.mood : "first_timer",
-    w: "0",
   }
+  if (!input.indoors) raw.w = "0"
   if (input.start) raw.s = input.start
   if (input.end) raw.e = input.end
   if (input.budget !== undefined) raw.b = String(input.budget)
@@ -143,7 +145,7 @@ export function planTool(places: Place[], input: PlanToolInput, now: Date) {
   if (interests.length) raw.i = interests.join(",")
 
   const { input: planInput } = parsePlanParams(raw, now)
-  const plan = planDay(planInput, places)
+  const plan = planDay(planInput, places, { rainLikely: input.indoors })
   return {
     link: `/my-day?${new URLSearchParams(planQuery(planInput)).toString()}`,
     date: planInput.date,
