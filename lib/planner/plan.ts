@@ -132,6 +132,28 @@ export function slotsFor(input: PlanInput): SlotDef[] {
   )
 }
 
+/**
+ * Places that could stand in for a stop at the same time: right kind for the slot,
+ * open for the whole visit, dietary-safe, and not reserved by another stop.
+ */
+export function alternativesFor(
+  input: PlanInput,
+  places: Place[],
+  stop: Pick<Stop, "slot" | "start" | "end">,
+  reserved: Set<string>,
+): Place[] {
+  const def = SLOT_DEFS.find((d) => d.slot === stop.slot)
+  if (!def) return []
+  const weekday = weekdayOf(input.date)
+  return places.filter(
+    (p) =>
+      def.eligible(p) &&
+      !reserved.has(p.id) &&
+      (!def.food || input.dietary.every((d) => p.dietary?.includes(d))) &&
+      isOpenForWindow(p.hours, weekday, stop.start, stop.end),
+  )
+}
+
 type State = {
   t: number
   loc: LatLng
