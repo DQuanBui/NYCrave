@@ -35,6 +35,8 @@ Every section has filters that live in the link, so any view can be shared: open
 
 - **Smart search** understands plain phrases like "dumplings in Chinatown", "late night pizza", "free things to do" or "vegan boba", and suggests places by name as you type.
 - **Mood chips** for date night, cheap eats, late night, rainy days, kids and photos.
+![The city map: every place as a subway bullet on one map, with line toggles and Open now, Free and Near me filters](docs/screenshots/map-desktop.jpg)
+
 - **The city map** puts every place on one map: toggle lines, show only what's open now or free, tap *Near me* to fly to where you are, and tap a marker for a preview card.
 - **Near me** sorts any list by distance and shows the walk or subway time to each place.
 - **Surprise me** jumps to a random place that is open right now.
@@ -72,6 +74,7 @@ A photo gallery with credits, a live "open until 11 PM" badge, the week's hours,
 
 - **Installable** on iPhone and Android. Saved places stay available offline, even underground.
 - **Saved** places and saved days live on your device; no account needed. **Share your list** as a link, and whoever opens it can save every place with one tap.
+- **In English and Vietnamese (Tiếng Việt)**: switch in the footer; place descriptions are in English for now.
 - **Light and dark mode**, keyboard navigation, screen-reader labels and reduced-motion support throughout.
 
 <br clear="right">
@@ -105,7 +108,7 @@ NYCrave looks like a food magazine that fell for the subway map:
 
 ## Under the hood
 
-Next.js 16 and TypeScript · Tailwind CSS v4 and shadcn/ui · Motion · next-intl (English now, structured for Vietnamese, Spanish, Chinese, Korean and Japanese) · MapLibre with OpenStreetMap tiles · Open-Meteo forecasts · MTA open data for subway stations · astronomical sun times · optional Supabase, Google Places API and Claude · data validated with zod · automated tests covering opening hours, search, filters, the planner and the place data · Lighthouse mobile scores of 100 for accessibility, best practices and SEO.
+Next.js 16 and TypeScript · Tailwind CSS v4 and shadcn/ui · Motion · next-intl (English and Vietnamese, ready for Spanish, Chinese, Korean and Japanese) · MapLibre with OpenStreetMap tiles · Open-Meteo forecasts · MTA open data for subway stations · astronomical sun times · optional Supabase, Google Places API and Claude · data validated with zod · automated tests covering opening hours, search, filters, the planner and the place data · Lighthouse mobile scores of 100 for accessibility, best practices and SEO.
 
 To run it locally (Node.js 20.9 or later):
 
@@ -118,7 +121,7 @@ Everything works without any keys. Optional services switch on through the envir
 
 ## What's next
 
-- Translations, starting with Vietnamese and Spanish
+- More languages, starting with Spanish, and translated place descriptions
 - Accounts, so saved places and days sync across devices
 - A companion mobile app built with Expo on the same data model
 - More places, especially beyond Manhattan and Brooklyn

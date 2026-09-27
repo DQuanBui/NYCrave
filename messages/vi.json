@@ -1,0 +1,792 @@
+{
+  "meta": {
+    "title": "NYCrave: ăn gì, uống gì, đi đâu ở New York",
+    "titleTemplate": "%s | NYCrave",
+    "description": "Cẩm nang New York cho người địa phương và du khách: nhà hàng theo ẩm thực và món ăn, cà phê và cocktail, điểm tham quan, góc chụp ảnh, công viên, cùng công cụ lên lịch trình cho cả ngày."
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "eat": "Ăn",
+    "sip": "Uống",
+    "explore": "Khám phá",
+    "shop": "Mua sắm",
+    "photoSpots": "Chụp ảnh",
+    "parks": "Công viên",
+    "tips": "Mẹo du lịch",
+    "myDay": "Lịch trình",
+    "saved": "Đã lưu",
+    "search": "Tìm kiếm",
+    "main": "Điều hướng chính",
+    "tabs": "Chuyên mục",
+    "skipToContent": "Bỏ qua đến nội dung",
+    "openMenu": "Mở menu",
+    "menuTitle": "Tất cả chuyên mục",
+    "menuDescription": "Mọi tuyến NYCrave đang chạy.",
+    "homeLabel": "Trang chủ NYCrave",
+    "neighborhoods": "Khu phố",
+    "map": "Bản đồ"
+  },
+  "theme": {
+    "toggle": "Chuyển sang chế độ {mode}",
+    "light": "sáng",
+    "dark": "tối"
+  },
+  "hero": {
+    "announcement": "Điểm dừng tiếp theo là",
+    "srAlt": "bất cứ nơi nào bạn thèm ở New York",
+    "pause": "Tạm dừng chuyển điểm đến",
+    "play": "Tiếp tục chuyển điểm đến",
+    "searchScene": "Tìm {scene}",
+    "scenes": {
+      "dumplings": "há cảo ở Chinatown",
+      "rooftop": "sân thượng lúc hoàng hôn",
+      "museum": "bảo tàng ngày mưa",
+      "vintage": "đồ vintage ở Greenpoint",
+      "skyline": "đường chân trời lúc giờ xanh",
+      "pier": "bến tàu lúc giờ vàng"
+    },
+    "intro": "Tìm chỗ ăn, uống, khám phá và mua sắm khắp năm quận, xem nơi nào đang mở cửa ngay lúc này, và lên kế hoạch cho cả ngày.",
+    "weather": "Hôm nay ở New York: cao nhất {temp}°F, {chance}% khả năng có mưa.",
+    "rainyIdeas": "Gợi ý cho ngày mưa",
+    "hotIdeas": "Gợi ý trong nhà cho ngày nóng",
+    "coldIdeas": "Gợi ý trong nhà cho ngày lạnh"
+  },
+  "search": {
+    "label": "Tìm địa điểm",
+    "placeholder": "Thử “late night pizza”",
+    "submit": "Tìm",
+    "title": "Tìm kiếm",
+    "resultsFor": "Kết quả cho “{query}”",
+    "count": "{count, plural, =0 {Không có địa điểm} other {# địa điểm}}",
+    "understood": "Đang tìm",
+    "emptyTitle": "Tuyến này chưa có gì",
+    "emptyBody": "Không có địa điểm nào khớp với “{query}”. Hãy thử một món ăn, một khu phố hoặc một phong cách.",
+    "startTitle": "Bạn đang thèm gì?",
+    "startBody": "Tìm theo món ăn, đồ uống, khu phố hoặc tâm trạng. Tìm kiếm hiện hiểu tiếng Anh tốt nhất.",
+    "suggestions": "Thử một trong các gợi ý",
+    "openNow": "đang mở cửa",
+    "openToday": "mở cửa hôm nay",
+    "free": "miễn phí",
+    "suggestPlaces": "Địa điểm gợi ý"
+  },
+  "moods": {
+    "title": "Chọn tâm trạng",
+    "dateNight": "Hẹn hò",
+    "cheapEats": "Ăn rẻ",
+    "lateNight": "Khuya",
+    "rainyDay": "Ngày mưa",
+    "kidFriendly": "Đi cùng trẻ em",
+    "instagrammable": "Để chụp ảnh",
+    "freeToday": "Miễn phí hôm nay",
+    "openNow": "Đang mở cửa"
+  },
+  "home": {
+    "trending": "Đang thịnh hành",
+    "openNow": "Đang mở cửa",
+    "freeToday": "Miễn phí hôm nay",
+    "localFavorites": "Người địa phương yêu thích",
+    "seeAll": "Xem tất cả",
+    "openNowEmpty": "Lúc này chưa có nơi nào trong danh sách mở cửa. Các lựa chọn về khuya sẽ mở lại vào tối nay.",
+    "freeTodayEmpty": "Hôm nay không có lựa chọn miễn phí nào mở cửa. Hãy thử công viên và bến tàu.",
+    "linesTitle": "Duyệt theo tuyến",
+    "linesCount": "{count, plural, other {# điểm dừng}}",
+    "myDayTitle": "Lên lịch cho ngày của tôi",
+    "myDayBody": "Chọn ngày, tâm trạng và ngân sách. Chúng tôi sắp xếp từ bữa sáng đến ly cuối ngày quanh những nơi thật sự đang mở cửa, kèm thời gian đi bộ và tàu điện giữa các điểm.",
+    "myDayCta": "Lên kế hoạch",
+    "myDayStops": {
+      "breakfast": "Bữa sáng",
+      "morning": "Buổi sáng",
+      "lunch": "Bữa trưa",
+      "afternoon": "Buổi chiều",
+      "coffee": "Cà phê",
+      "dinner": "Bữa tối",
+      "night": "Buổi tối"
+    },
+    "surprise": "Gây bất ngờ cho tôi",
+    "surpriseLabel": "Đi đến một nơi ngẫu nhiên đang mở cửa",
+    "seeMap": "Xem tất cả trên bản đồ"
+  },
+  "categories": {
+    "restaurant": {
+      "nav": "Ăn",
+      "label": "Nhà hàng",
+      "title": "Ăn",
+      "tagline": "Nhà hàng theo ẩm thực và món ăn, từ quầy bán mang đi đến bữa tối hẹn hò."
+    },
+    "drink": {
+      "nav": "Uống",
+      "label": "Đồ uống",
+      "title": "Uống",
+      "tagline": "Cà phê, trà sữa, matcha, quán cocktail và bar sân thượng."
+    },
+    "attraction": {
+      "nav": "Khám phá",
+      "label": "Điểm tham quan",
+      "title": "Khám phá",
+      "tagline": "Bảo tàng, công trình biểu tượng và những việc nên làm, miễn phí hoặc có vé."
+    },
+    "shopping": {
+      "nav": "Mua sắm",
+      "label": "Mua sắm",
+      "title": "Mua sắm",
+      "tagline": "Cửa hàng flagship, đồ vintage và đồ si, cùng các khu chợ cuối tuần."
+    },
+    "photo_spot": {
+      "nav": "Chụp ảnh",
+      "label": "Góc chụp ảnh",
+      "title": "Góc chụp ảnh",
+      "tagline": "Đứng ở đâu, và khi nào ánh sáng đẹp nhất."
+    },
+    "park_pier": {
+      "nav": "Công viên",
+      "label": "Công viên hoặc bến tàu",
+      "title": "Công viên & bến tàu",
+      "tagline": "Không gian xanh và bờ sông, cùng những gì có ở đó theo từng mùa."
+    }
+  },
+  "filters": {
+    "label": "Bộ lọc",
+    "open": "Đang mở cửa",
+    "free": "Miễn phí",
+    "borough": "Quận",
+    "anyBorough": "Tất cả các quận",
+    "neighborhood": "Khu phố",
+    "anyNeighborhood": "Tất cả khu phố",
+    "price": "Giá",
+    "anyPrice": "Mọi mức giá",
+    "upTo": "Tối đa {price}",
+    "vibe": "Phong cách",
+    "anyVibe": "Mọi phong cách",
+    "dietary": "Chế độ ăn",
+    "anyDietary": "Không hạn chế",
+    "light": "Ánh sáng đẹp nhất",
+    "anyLight": "Mọi thời điểm trong ngày",
+    "sort": "Sắp xếp",
+    "sortTrending": "Thịnh hành",
+    "sortName": "A đến Z",
+    "sortPrice": "Giá từ thấp đến cao",
+    "view": "Hiển thị",
+    "list": "Danh sách",
+    "map": "Bản đồ",
+    "clear": "Xóa bộ lọc",
+    "results": "{count, plural, =0 {Không có địa điểm} other {# địa điểm}}",
+    "noResultsTitle": "Không có điểm dừng nào phù hợp",
+    "noResultsBody": "Không có nơi nào thỏa mãn tất cả các bộ lọc này. Bỏ bớt một bộ lọc, hoặc xóa hết.",
+    "mapLabel": "Bản đồ {count, plural, other {# địa điểm}}",
+    "viewPlace": "Xem địa điểm",
+    "resultsHeading": "Địa điểm",
+    "nearMe": "Gần tôi",
+    "locating": "Đang tìm vị trí",
+    "locationDenied": "Vị trí đang tắt. Hãy cho phép trong trình duyệt để sắp xếp theo khoảng cách.",
+    "locationFar": "Có vẻ bạn đang ở ngoài thành phố New York, nên khoảng cách sẽ khá xa."
+  },
+  "browse": {
+    "cuisine": "Duyệt theo ẩm thực",
+    "dish": "Duyệt theo món",
+    "drink": "Bạn muốn uống gì?",
+    "shop": "Duyệt theo loại cửa hàng",
+    "all": "Mọi điểm dừng trên tuyến này",
+    "shoppingNeighborhoods": "Khu phố mua sắm",
+    "none": "Chưa có",
+    "showAll": "Hiện cả {count}",
+    "showFewer": "Thu gọn",
+    "back": "Tất cả {section}",
+    "cuisineTagline": "Nhà hàng {name} khắp năm quận.",
+    "dishTagline": "Ăn {name} ở đâu tại New York.",
+    "drinkTagline": "Những quán {name} đáng ghé.",
+    "shopTagline": "Mua sắm {name} ở New York.",
+    "cuisineTitle": "Nhà hàng {name} ở NYC",
+    "dishTitle": "{name} ở NYC",
+    "drinkTitle": "{name} ở NYC",
+    "shopTitle": "Cửa hàng {name} ở NYC"
+  },
+  "planner": {
+    "title": "Lên lịch cho ngày của tôi",
+    "intro": "Cho chúng tôi biết khi nào, ở đâu và bạn thích di chuyển thế nào. Chúng tôi sắp xếp cả ngày quanh những nơi đang mở cửa, kèm thời gian đi bộ và tàu điện giữa các điểm.",
+    "edit": "Chỉnh sửa ngày của bạn",
+    "date": "Ngày",
+    "start": "Bắt đầu",
+    "end": "Kết thúc",
+    "endHint": "Giờ kết thúc sớm hơn giờ bắt đầu nghĩa là kéo dài qua nửa đêm.",
+    "from": "Xuất phát từ",
+    "budget": "Ngân sách mỗi người",
+    "budgetValue": "${amount}",
+    "mood": "Tâm trạng",
+    "moods": {
+      "first_timer": "Lần đầu đến NYC",
+      "foodie": "Tín đồ ẩm thực",
+      "romantic": "Lãng mạn",
+      "chill": "Thư thả",
+      "adventurous": "Phiêu lưu",
+      "artsy": "Nghệ thuật"
+    },
+    "interests": "Sở thích",
+    "interest": {
+      "food": "Ẩm thực",
+      "coffee": "Cà phê và trà",
+      "museums": "Bảo tàng",
+      "art": "Nghệ thuật",
+      "shopping": "Mua sắm",
+      "photos": "Góc chụp ảnh",
+      "parks": "Công viên và bến tàu",
+      "views": "Cảnh đẹp",
+      "nightlife": "Cuộc sống về đêm"
+    },
+    "dietary": "Chế độ ăn",
+    "pace": "Nhịp độ",
+    "paces": {
+      "relaxed": "Thong thả",
+      "packed": "Dày đặc"
+    },
+    "paceHints": {
+      "relaxed": "Ít điểm dừng hơn, ở lâu hơn mỗi nơi",
+      "packed": "Ghé ngắn hơn và thêm một điểm buổi chiều"
+    },
+    "weather": "Xem dự báo thời tiết",
+    "weatherHint": "Ưu tiên điểm trong nhà nếu có khả năng mưa",
+    "submit": "Lên lịch cho ngày của tôi",
+    "slots": {
+      "breakfast": "Bữa sáng",
+      "morning": "Buổi sáng",
+      "lunch": "Bữa trưa",
+      "afternoon": "Buổi chiều",
+      "afternoon2": "Chiều muộn",
+      "coffee": "Nghỉ cà phê",
+      "dinner": "Bữa tối",
+      "night": "Buổi tối"
+    },
+    "walk": "{minutes} phút đi bộ",
+    "subway": "{minutes} phút đi tàu điện",
+    "fare": "vé ${fare}",
+    "cost": "Khoảng ${amount}",
+    "free": "Miễn phí",
+    "until": "đến {time}",
+    "swap": "Đổi điểm dừng này",
+    "swapLabel": "Đổi {slot}, {name}",
+    "summaryStops": "{count, plural, other {# điểm dừng}}",
+    "summaryCost": "Khoảng ${amount} mỗi người",
+    "summaryTravel": "{duration} di chuyển",
+    "duration": "{hours, plural, =0 {} other {# giờ }}{minutes} phút",
+    "startPoint": "Bắt đầu ở {name}",
+    "rainLikely": "Có khả năng mưa ({chance}%), nên các điểm trong nhà được ưu tiên trước.",
+    "dry": "Ít khả năng mưa ({chance}%).",
+    "noForecast": "Chưa có dự báo cho ngày này, nên lịch trình không tính đến thời tiết.",
+    "unfilled": "Không có nơi nào mở cửa và vừa ngân sách cho {slots}. Hãy thử giờ bắt đầu khác, ngân sách lớn hơn hoặc bớt bộ lọc chế độ ăn.",
+    "emptyTitle": "Không có điểm dừng nào phù hợp với ngày này",
+    "emptyBody": "Không có nơi nào mở cửa và vừa ngân sách trong khung giờ này. Hãy nới rộng thời gian hoặc tăng ngân sách.",
+    "save": "Lưu ngày",
+    "savedDay": "Đã lưu ngày",
+    "share": "Chia sẻ",
+    "export": "Thêm vào lịch",
+    "mapLabel": "Bản đồ lộ trình trong ngày",
+    "costNote": "Chi phí là ước tính cho một người, dựa trên mức giá của từng nơi và giá vé.",
+    "savedDays": "Ngày đã lưu",
+    "remove": "Xóa {label}",
+    "enhance": "Tinh chỉnh bằng AI",
+    "enhancing": "Đang tinh chỉnh",
+    "enhanceError": "Không thể tinh chỉnh ngày này. Lịch trình của bạn vẫn giữ nguyên.",
+    "enhanceHint": "Chỉ chọn trong các địa điểm có trên NYCrave, rồi kiểm tra lại giờ mở cửa và ngân sách.",
+    "presets": {
+      "title": "Hoặc bắt đầu từ một ngày dựng sẵn",
+      "intro": "Mỗi ngày được lên lịch cho hôm nay, quanh những nơi thật sự đang mở cửa. Chọn một ngày, rồi đổi bất cứ điểm nào bạn muốn.",
+      "budgetLabel": "Ngân sách ${budget}",
+      "classic": {
+        "bullet": "1",
+        "title": "Ngày đầu kinh điển",
+        "blurb": "Các công trình biểu tượng và món ăn nổi tiếng của New York cho lần đầu ghé thăm, bắt đầu ở Midtown."
+      },
+      "foodie": {
+        "bullet": "F",
+        "title": "Hành trình ăn uống",
+        "blurb": "Ăn nhiều món ngon nhất có thể trong một ngày, xen giữa là cà phê. Bắt đầu ở Chinatown."
+      },
+      "waterfront": {
+        "bullet": "G",
+        "title": "Brooklyn ven sông",
+        "blurb": "Công viên, bến tàu và góc chụp ảnh với nhịp độ thong thả, bắt đầu ở DUMBO."
+      },
+      "artsy": {
+        "bullet": "A",
+        "title": "Nghệ thuật và bảo tàng",
+        "blurb": "Những bộ sưu tập lớn của thành phố với nhịp độ chậm rãi, bắt đầu ở Upper East Side."
+      },
+      "date": {
+        "bullet": "D",
+        "title": "Tối hẹn hò",
+        "blurb": "Một buổi tối với cảnh đẹp, bữa tối và chút đồ ngọt, bắt đầu ở West Village."
+      },
+      "budget": {
+        "bullet": "$",
+        "title": "Thành phố lớn, ngân sách nhỏ",
+        "blurb": "Ăn rẻ và tham quan miễn phí với khoảng $50 cả ngày, bắt đầu ở Lower East Side."
+      }
+    },
+    "hot": "Hôm nay nóng (cao nhất {temp}°F), nên các điểm trong nhà được ưu tiên trước.",
+    "cold": "Hôm nay lạnh (cao nhất {temp}°F), nên các điểm trong nhà được ưu tiên trước.",
+    "openRoute": "Mở toàn bộ lộ trình trên Google Maps",
+    "newTab": "(mở trong thẻ mới)"
+  },
+  "listing": {
+    "count": "{count, plural, =0 {Chưa có địa điểm} other {# địa điểm}}",
+    "emptyTitle": "Tuyến này vẫn đang xây dựng",
+    "emptyBody": "Chưa có địa điểm nào ở đây. Điểm dừng mới sẽ được thêm khi đã xác minh."
+  },
+  "place": {
+    "unverified": "Chưa xác minh",
+    "unverifiedHint": "Đã tra cứu từ nguồn chính thức nhưng chưa được xác nhận với địa điểm.",
+    "free": "Miễn phí",
+    "save": "Lưu {name}",
+    "unsave": "Bỏ lưu {name}",
+    "saved": "Đã lưu",
+    "share": "Chia sẻ",
+    "linkCopied": "Đã sao chép liên kết",
+    "mustTry": "Nhất định phải thử",
+    "editorialTake": "Nhận xét của chúng tôi",
+    "hours": "Giờ mở cửa",
+    "location": "Vị trí",
+    "openInGoogleMaps": "Mở trên Google Maps",
+    "openInAppleMaps": "Mở trên Apple Maps",
+    "transitDirections": "Chỉ đường bằng phương tiện công cộng",
+    "timeNeededLabel": "Thời gian cần",
+    "timeNeeded": "Khoảng {minutes} phút",
+    "bookTickets": "Đặt vé",
+    "bestTime": "Thời điểm đẹp nhất",
+    "tickets": "Vé",
+    "priceLevel": "Mức giá {level} trên 4",
+    "photoComingSoon": "Sắp có ảnh",
+    "bestLight": "Ánh sáng đẹp nhất",
+    "coordinates": "Vị trí chính xác",
+    "copyCoordinates": "Sao chép tọa độ",
+    "copied": "Đã sao chép",
+    "photoTips": "Mẹo chụp ảnh",
+    "activities": "Hoạt động",
+    "amenities": "Tiện ích",
+    "seasonalNotes": "Lưu ý theo mùa",
+    "similar": "Những nơi tương tự",
+    "reviewsTitle": "Đánh giá từ Google",
+    "googleRating": "{rating} trên Google ({count, plural, other {# đánh giá}})",
+    "stars": "{rating} trên 5 sao",
+    "reviewsAttribution": "Điểm và đánh giá từ Google.",
+    "seeOnGoogle": "Xem tất cả trên Google Maps",
+    "back": "Quay lại",
+    "today": "Hôm nay",
+    "illustrative": "Ảnh minh họa",
+    "photoCredit": "Ảnh: {credit}",
+    "distanceWalk": "{distance} dặm, {minutes} phút đi bộ",
+    "distanceSubway": "{distance} dặm, {minutes} phút đi tàu điện",
+    "planAround": "Lên lịch một ngày quanh nơi này"
+  },
+  "hours": {
+    "open": "Đang mở",
+    "closingSoon": "Sắp đóng cửa",
+    "closed": "Đã đóng cửa",
+    "openingSoon": "Sắp mở cửa",
+    "open24h": "Mở cửa 24 giờ",
+    "unavailable": "Chưa có giờ mở cửa",
+    "checking": "Đang kiểm tra giờ",
+    "until": "đến {time}",
+    "at": "lúc {time}",
+    "opensAt": "mở lúc {time}",
+    "opensTomorrow": "mở ngày mai lúc {time}",
+    "opensOn": "mở {day} lúc {time}"
+  },
+  "saved": {
+    "title": "Đã lưu",
+    "count": "{count, plural, other {# địa điểm}}",
+    "emptyTitle": "Chưa lưu gì",
+    "emptyBody": "Nhấn vào trái tim ở bất kỳ địa điểm nào để giữ lại ở đây. Địa điểm đã lưu được giữ trên thiết bị này.",
+    "emptyCta": "Tìm chỗ ăn",
+    "shareList": "Chia sẻ danh sách này",
+    "shareTitle": "Danh sách NYCrave của tôi",
+    "sharedTitle": "Một danh sách được chia sẻ với bạn",
+    "sharedBody": "Có người đã gửi cho bạn những địa điểm này. Lưu tất cả để giữ chúng trên thiết bị này.",
+    "saveAll": "Lưu cả {count}",
+    "allSaved": "Đã lưu hết",
+    "yours": "Địa điểm bạn đã lưu"
+  },
+  "footer": {
+    "dataNote": "Các địa điểm ghi Chưa xác minh đã được tra cứu từ nguồn chính thức nhưng chưa được xác nhận với địa điểm. Giờ mở cửa và giá có thể thay đổi, nên hãy kiểm tra trước khi đi. Mô tả địa điểm hiện chỉ có bằng tiếng Anh.",
+    "copyright": "© {year} NYCrave",
+    "language": "Ngôn ngữ",
+    "credits": "Nguồn ảnh",
+    "privacy": "Quyền riêng tư"
+  },
+  "notFound": {
+    "title": "Điểm dừng này không phục vụ",
+    "body": "Trang bạn tìm không tồn tại hoặc đã được chuyển đi.",
+    "cta": "Về trang chủ"
+  },
+  "rail": {
+    "previous": "Cuộn {title} về trước",
+    "next": "Cuộn {title} tới"
+  },
+  "cuisine": {
+    "vietnamese": "Việt Nam",
+    "korean": "Hàn Quốc",
+    "japanese": "Nhật Bản",
+    "chinese": "Trung Hoa",
+    "thai": "Thái Lan",
+    "indian": "Ấn Độ",
+    "american": "Mỹ",
+    "italian": "Ý",
+    "mexican": "Mexico",
+    "french": "Pháp",
+    "greek": "Hy Lạp",
+    "middle_eastern": "Trung Đông",
+    "caribbean": "Caribe",
+    "ethiopian": "Ethiopia",
+    "filipino": "Philippines",
+    "malaysian": "Malaysia",
+    "taiwanese": "Đài Loan",
+    "spanish": "Tây Ban Nha",
+    "turkish": "Thổ Nhĩ Kỳ",
+    "peruvian": "Peru",
+    "jewish_deli": "Deli Do Thái",
+    "halal": "Halal",
+    "colombian": "Colombia",
+    "dominican": "Dominica",
+    "polish": "Ba Lan",
+    "georgian": "Gruzia",
+    "west_african": "Tây Phi",
+    "nepali": "Nepal"
+  },
+  "dish": {
+    "bbq": "Thịt nướng",
+    "noodle_soup": "Mì nước",
+    "dry_noodles": "Mì khô",
+    "dumplings": "Há cảo & sủi cảo",
+    "rice_dishes": "Món cơm",
+    "hot_pot": "Lẩu",
+    "sushi": "Sushi",
+    "ramen": "Ramen",
+    "curry": "Cà ri",
+    "sandwiches": "Bánh mì kẹp",
+    "pizza": "Pizza",
+    "bagels": "Bánh bagel",
+    "tacos": "Tacos",
+    "brunch": "Brunch",
+    "bakery": "Tiệm bánh",
+    "desserts": "Tráng miệng",
+    "street_food": "Món đường phố",
+    "seafood": "Hải sản",
+    "burgers": "Burger",
+    "fried_chicken": "Gà rán",
+    "vegetarian_plates": "Món chay"
+  },
+  "drinkType": {
+    "coffee": "Cà phê",
+    "bubble_tea": "Trà sữa trân châu",
+    "tea": "Trà",
+    "matcha": "Matcha",
+    "cocktails": "Cocktail",
+    "rooftop_bar": "Bar sân thượng",
+    "wine_bar": "Quán rượu vang",
+    "juice": "Nước ép"
+  },
+  "shopType": {
+    "flagship": "Cửa hàng flagship",
+    "vintage": "Đồ vintage",
+    "thrift": "Đồ si",
+    "market": "Chợ",
+    "boutique": "Cửa hàng nhỏ",
+    "bookstore": "Nhà sách",
+    "department_store": "Trung tâm thương mại"
+  },
+  "vibe": {
+    "date_night": "Hẹn hò",
+    "cheap_eats": "Ăn rẻ",
+    "late_night": "Mở khuya",
+    "rainy_day": "Ngày mưa",
+    "kid_friendly": "Phù hợp trẻ em",
+    "instagrammable": "Đẹp để chụp ảnh",
+    "local_favorite": "Người địa phương yêu thích",
+    "tourist_classic": "Kinh điển với du khách",
+    "group_friendly": "Hợp đi nhóm",
+    "solo_friendly": "Hợp đi một mình",
+    "outdoor": "Ngoài trời",
+    "quiet": "Yên tĩnh"
+  },
+  "dietary": {
+    "vegetarian": "Ăn chay",
+    "vegan": "Thuần chay",
+    "halal": "Halal",
+    "kosher": "Kosher",
+    "gluten_free": "Không gluten"
+  },
+  "borough": {
+    "manhattan": "Manhattan",
+    "brooklyn": "Brooklyn",
+    "queens": "Queens",
+    "bronx": "The Bronx",
+    "staten_island": "Staten Island"
+  },
+  "light": {
+    "sunrise": "Bình minh",
+    "morning": "Buổi sáng",
+    "midday": "Giữa trưa",
+    "golden_hour": "Giờ vàng",
+    "blue_hour": "Giờ xanh",
+    "night": "Ban đêm"
+  },
+  "tips": {
+    "title": "Mẹo du lịch",
+    "tagline": "Đi lại, thanh toán, tiền tip và những điều giúp bạn thoải mái ở New York.",
+    "contents": "Trên trang này",
+    "subway": {
+      "title": "Tàu điện ngầm và OMNY",
+      "items": [
+        "Chạm thẻ không tiếp xúc, điện thoại hoặc đồng hồ vào đầu đọc OMNY ở cửa soát vé hoặc trên xe buýt. Không cần MetroCard.",
+        "Luôn dùng cùng một thẻ hoặc thiết bị: sau 12 chuyến trả tiền trong 7 ngày, các chuyến còn lại của tuần đó được miễn phí.",
+        "Chuyển tiếp giữa tàu điện và xe buýt trong vòng hai giờ là miễn phí khi bạn chạm cùng một thẻ.",
+        "Uptown là đi về phía bắc, downtown là đi về phía nam. Xem biển báo ở sân ga hoặc lối vào trước khi quẹt thẻ.",
+        "Tàu local dừng ở mọi ga; tàu express bỏ qua một số ga. Biển ở đầu và thân tàu cho biết đó là loại nào.",
+        "Tàu điện chạy 24/7, nhưng ban đêm và cuối tuần thường có thay đổi lịch chạy. Hãy kiểm tra trước khi đi."
+      ],
+      "source": "Giá vé và thay đổi lịch chạy: mta.info"
+    },
+    "tipping": {
+      "title": "Tiền tip và thuế",
+      "items": [
+        "Nhà hàng có phục vụ bàn: 18 đến 22 phần trăm hóa đơn trước thuế là mức thông thường.",
+        "Quán bar: khoảng $1 đến $2 mỗi ly, hoặc khoảng 20 phần trăm nếu tính theo hóa đơn.",
+        "Quầy bán mang đi và cà phê: tip là tùy ý; một hai đô la luôn được trân trọng.",
+        "Taxi và xe công nghệ: 15 đến 20 phần trăm.",
+        "Giá niêm yết thường chưa gồm thuế bán hàng, được cộng khi thanh toán (8,875 phần trăm ở thành phố New York)."
+      ]
+    },
+    "safety": {
+      "title": "An toàn và phép lịch sự",
+      "items": [
+        "Để hành khách xuống tàu trước rồi mới lên, và đừng dựa vào cửa.",
+        "Trên thang cuốn, đứng bên phải và đi bên trái.",
+        "Kéo khóa túi và cầm điện thoại trên tay, đừng để ở túi quần sau, khi ở nơi đông người.",
+        "Một toa trống trên chuyến tàu đông thường có lý do. Hãy chọn toa khác.",
+        "Khẩn cấp: gọi 911. Dịch vụ thành phố và câu hỏi không khẩn cấp: gọi 311."
+      ]
+    },
+    "neighborhoods": {
+      "title": "Hướng dẫn khu phố",
+      "intro": "Các địa điểm của NYCrave nằm ở đâu, theo từng quận. Chọn một khu phố để xem có gì ở đó.",
+      "count": "{count, plural, =0 {Chưa có địa điểm} other {# địa điểm}}"
+    },
+    "seasons": {
+      "title": "Quanh năm",
+      "note": "Ngày tổ chức thay đổi mỗi năm; hãy xem trang chính thức của sự kiện trước khi lên kế hoạch.",
+      "spring": {
+        "title": "Mùa xuân",
+        "body": "Hoa anh đào trong các công viên và chỗ ngồi ngoài trời trở lại trên vỉa hè."
+      },
+      "summer": {
+        "title": "Mùa hè",
+        "body": "Hòa nhạc và chiếu phim ngoài trời miễn phí trong công viên, bãi biển công cộng mở cửa từ cuối tuần Memorial Day đến Labor Day."
+      },
+      "fall": {
+        "title": "Mùa thu",
+        "body": "Lá vàng trong công viên, lễ diễu hành Halloween ở Village ngày 31 tháng 10, và cuộc thi Marathon thành phố New York đầu tháng 11."
+      },
+      "winter": {
+        "title": "Mùa đông",
+        "body": "Cửa kính trang trí và đèn lễ hội, sân trượt băng ngoài trời, và khoảnh khắc thả quả cầu đêm giao thừa ở Times Square."
+      }
+    },
+    "airports": {
+      "title": "Từ sân bay vào thành phố",
+      "items": [
+        "Từ JFK: đi AirTrain đến Jamaica (tàu E, J, Z hoặc LIRR) hoặc đến Howard Beach (tàu A). Vé AirTrain được trả khi bạn ra khỏi ga.",
+        "Từ LaGuardia: xe buýt Q70 LaGuardia Link chạy đến ga tàu điện Jackson Heights–Roosevelt Avenue và ga LIRR Woodside.",
+        "Từ Newark: AirTrain Newark nối với ga Newark Liberty International Airport, có tàu NJ Transit và Amtrak đến ga New York Penn.",
+        "Taxi vàng tính giá cố định giữa JFK và Manhattan, cộng phí cầu đường và tiền tip. Hãy kiểm tra mức giá hiện hành trước khi đi.",
+        "Chỉ đón taxi ở hàng chờ chính thức bên ngoài khu đến, và bỏ qua bất kỳ ai mời chở trong nhà ga."
+      ],
+      "source": "Phương tiện và giá vé sân bay: panynj.gov"
+    },
+    "calculator": {
+      "title": "Bữa tối thật sự tốn bao nhiêu?",
+      "bill": "Tổng tiền trên thực đơn, trước thuế",
+      "tip": "Tiền tip",
+      "people": "Số người",
+      "fewer": "Bớt một người",
+      "more": "Thêm một người",
+      "tax": "Thuế bán hàng ({rate}%)",
+      "tipAmount": "Tiền tip",
+      "total": "Tổng cộng",
+      "each": "Mỗi người trả",
+      "invalid": "Nhập tổng tiền trên thực đơn để xem thuế và tiền tip.",
+      "note": "Tiền tip được tính trên số tiền trước thuế. Một số nhà hàng tự cộng phí phục vụ cho nhóm đông; nếu vậy, hãy xem hóa đơn trước khi tip thêm."
+    }
+  },
+  "offline": {
+    "title": "Bạn đang ngoại tuyến",
+    "body": "Hầu hết NYCrave cần kết nối mạng. Các địa điểm bạn đã lưu được giữ trên thiết bị này và mở được khi không có mạng."
+  },
+  "neighborhoods": {
+    "title": "Khu phố",
+    "tagline": "Mọi địa điểm của NYCrave, theo từng dãy phố và từng quận.",
+    "count": "{count, plural, =0 {Chưa có địa điểm} other {# địa điểm}}",
+    "placesIn": "Địa điểm ở {name}",
+    "nearby": "Khu phố lân cận",
+    "planDay": "Lên lịch một ngày bắt đầu từ đây",
+    "mapLabel": "Bản đồ địa điểm ở {name}",
+    "emptyTitle": "Chưa có địa điểm nào ở đây",
+    "emptyBody": "Chúng tôi chưa thêm địa điểm nào ở {name}. Hãy thử một khu phố lân cận.",
+    "blurbs": {
+      "financial-district": "Phố Wall, Đài tưởng niệm 11/9 và những chuyến phà từ mép cảng, nơi thành phố bắt đầu.",
+      "chinatown": "Quán dim sum, tiệm bánh và sạp rau quả chen chúc trên những con phố hẹp ở downtown.",
+      "lower-east-side": "Những dãy nhà tập thể cũ, quán deli kinh điển và các quán bar mở khuya.",
+      "soho": "Những tòa nhà mặt gang, phố lát đá và các cửa hàng flagship.",
+      "east-village": "Quán mì, quán cocktail và không khí St. Marks Place, mở đến khuya.",
+      "west-village": "Những con phố quanh co rợp bóng cây, câu lạc bộ jazz và pizza ở mọi góc phố.",
+      "union-square": "Ngã tư nhộn nhịp với chợ nông sản, nhà sách và các tuyến tàu điện đi mọi hướng.",
+      "meatpacking-district": "Nhà kho cũ thành cửa hàng thời trang, đầu phía nam của High Line và bờ sông Hudson.",
+      "chelsea": "Phòng tranh, Chelsea Market và High Line trên cao.",
+      "nomad": "Những khách sạn cổ, bar sân thượng và công viên Madison Square ngay cạnh.",
+      "koreatown": "Một dãy phố 32 đầy quán thịt nướng, karaoke và canh nóng đến khuya.",
+      "midtown": "Times Square, các nhà hát Broadway và những tòa nhà chọc trời bạn đã thấy trong phim.",
+      "midtown-east": "Grand Central, tòa nhà Chrysler và cáp treo sang đảo Roosevelt.",
+      "upper-west-side": "Bảo tàng, nhà gạch nâu và hai công viên: Central Park một bên, Riverside bên kia.",
+      "upper-east-side": "Dãy bảo tàng Museum Mile dọc Đại lộ số 5 và những dãy nhà phố yên tĩnh.",
+      "harlem": "Ẩm thực soul food, lịch sử nhạc jazz và nhà hát Apollo trên phố 125.",
+      "williamsburg": "Công viên ven sông, bar sân thượng, xưởng rang cà phê và chợ ẩm thực cuối tuần.",
+      "greenpoint": "Tiệm bánh Ba Lan, cửa hàng vintage và những con phố yên tĩnh dọc sông East.",
+      "dumbo": "Phố lát đá giữa hai cây cầu, và khung cảnh được chụp nhiều nhất ở Brooklyn.",
+      "brooklyn-heights": "Những con phố nhà gạch nâu phía trên cảng và lối đi dạo nhìn sang Lower Manhattan.",
+      "park-slope": "Nhà gạch nâu, quán cà phê gia đình và rìa công viên Prospect.",
+      "bushwick": "Tranh tường trên nhà kho, phòng tranh và quán bar mở khuya.",
+      "sunset-park": "Chinatown của Brooklyn, quán taco và một công viên trên đồi nhìn ra cảng.",
+      "flushing": "Một trong những khu Chinatown lớn nhất thành phố: há cảo, khu ẩm thực và trà sữa.",
+      "astoria": "Quán taverna Hy Lạp, vườn bia và Bảo tàng Hình ảnh Chuyển động.",
+      "jackson-heights": "Ẩm thực Nam Á và Mỹ Latinh dọc đại lộ Roosevelt và phố 74.",
+      "long-island-city": "Công viên ven sông với góc nhìn đẹp nhất sang Midtown, cùng MoMA PS1.",
+      "belmont": "Khu Little Italy của Bronx, quanh đại lộ Arthur.",
+      "mott-haven": "Những dãy nhà phố lịch sử và giới nghệ thuật đang lớn dần ở South Bronx.",
+      "st-george": "Bến phà Staten Island, với cảnh cảng nhìn về Manhattan.",
+      "greenwich-village": "Quảng trường Washington, câu lạc bộ jazz, quán cà phê lâu đời và những con phố nơi phong trào nhạc folk bắt đầu.",
+      "prospect-heights": "Những dãy nhà gạch nâu giữa công viên Prospect, Bảo tàng Brooklyn và Vườn Bách thảo.",
+      "flushing-meadows": "Khu Hội chợ Thế giới 1964: quả cầu Unisphere, bảo tàng và bãi cỏ rộng cạnh sân Citi Field.",
+      "bronx-park": "Sở thú Bronx và Vườn Bách thảo New York, nằm cạnh nhau trong rừng dọc sông Bronx."
+    }
+  },
+  "credits": {
+    "title": "Nguồn ảnh",
+    "tagline": "Những nhiếp ảnh gia đứng sau hình ảnh của NYCrave.",
+    "intro": "Ảnh được lấy từ Wikimedia Commons theo giấy phép tự do. Mỗi ảnh đều được ghi nguồn bên dưới: chọn phần ghi nguồn để xem tệp gốc, hoặc giấy phép để xem điều khoản.",
+    "illustrativeNote": "Ảnh ghi Minh họa thể hiện một món ăn, đồ uống hoặc khung cảnh tiêu biểu, không phải chính địa điểm đó.",
+    "home": "Trang chủ",
+    "license": "Giấy phép",
+    "count": "{count, plural, other {# ảnh}}"
+  },
+  "subway": {
+    "title": "Ga tàu điện gần nhất",
+    "trains": "Các tuyến: {routes}",
+    "walk": "{minutes} phút đi bộ",
+    "accessible": "Ga có lối cho người khuyết tật",
+    "source": "Ga và tuyến ban ngày theo dữ liệu mở của MTA. Xem mta.info để biết thay đổi cuối tuần và ban đêm.",
+    "linesHere": "Các tuyến tàu điện ở đây",
+    "take": "Đi tàu",
+    "fromTo": "từ {from} đến {to}",
+    "train": "tàu {route}"
+  },
+  "sun": {
+    "title": "Ánh sáng hôm nay ở New York",
+    "sunrise": "Bình minh",
+    "goldenMorning": "Giờ vàng buổi sáng",
+    "goldenEvening": "Giờ vàng buổi chiều",
+    "sunset": "Hoàng hôn",
+    "blueEvening": "Giờ xanh",
+    "range": "{start}–{end}",
+    "note": "Tính theo tọa độ của địa điểm này. Nhà cao tầng có thể che mặt trời thấp, nên hãy đến sớm một chút.",
+    "noteCity": "Tính cho Lower Manhattan; thời gian lệch một hai phút ở các nơi khác trong thành phố. Nhà cao tầng có thể che mặt trời thấp, nên hãy đến sớm một chút."
+  },
+  "holidays": {
+    "major": "{name}: nhiều nơi đóng cửa hoặc mở ngắn giờ, kể cả bảo tàng. Hãy kiểm tra trước khi đi.",
+    "minor": "{name}: hầu hết các nơi vẫn mở cửa, nhưng một số theo giờ ngày lễ.",
+    "names": {
+      "newYearsDay": "Tết Dương lịch",
+      "mlkDay": "Ngày Martin Luther King Jr.",
+      "presidentsDay": "Ngày Tổng thống",
+      "memorialDay": "Ngày Tưởng niệm",
+      "juneteenth": "Ngày Juneteenth",
+      "independenceDay": "Ngày Độc lập",
+      "laborDay": "Ngày Lao động",
+      "indigenousPeoplesDay": "Ngày của Người bản địa",
+      "veteransDay": "Ngày Cựu chiến binh",
+      "thanksgiving": "Lễ Tạ ơn",
+      "christmasEve": "Đêm Giáng sinh",
+      "christmas": "Lễ Giáng sinh",
+      "newYearsEve": "Đêm Giao thừa"
+    }
+  },
+  "report": {
+    "open": "Có gì sai? Hãy cho chúng tôi biết",
+    "title": "Báo lỗi",
+    "intro": "Giúp thông tin về {name} luôn chính xác. Chúng tôi đối chiếu mọi báo cáo với nguồn chính thức của địa điểm.",
+    "what": "Sai ở đâu?",
+    "kinds": {
+      "closed": "Nơi này đã đóng cửa",
+      "hours": "Giờ mở cửa bị sai",
+      "location": "Địa chỉ hoặc vị trí trên bản đồ bị sai",
+      "photo": "Có ảnh bị sai",
+      "other": "Vấn đề khác"
+    },
+    "note": "Chi tiết (không bắt buộc)",
+    "notePlaceholder": "Ví dụ: cuối tuần giờ mở cửa lúc 11 giờ sáng",
+    "send": "Gửi báo cáo",
+    "sending": "Đang gửi…",
+    "thanks": "Cảm ơn bạn! Chúng tôi sẽ kiểm tra và sửa trang.",
+    "close": "Đóng",
+    "error": "Chưa gửi được. Vui lòng thử lại.",
+    "limited": "Bạn đã gửi khá nhiều báo cáo. Vui lòng thử lại sau vài phút.",
+    "privacy": "Chúng tôi chỉ lưu những gì bạn viết ở đây, không có tên hay email."
+  },
+  "cityMap": {
+    "title": "Bản đồ thành phố",
+    "description": "Mọi địa điểm của NYCrave trên một bản đồ: lọc theo tuyến, xem nơi nào đang mở cửa, và tìm những gì gần bạn.",
+    "label": "Bản đồ các địa điểm của NYCrave",
+    "count": "{count, plural, =0 {Không có địa điểm phù hợp} other {# địa điểm}}",
+    "openNow": "Đang mở cửa",
+    "open": "Mở địa điểm",
+    "close": "Đóng xem trước"
+  },
+  "privacy": {
+    "title": "Quyền riêng tư",
+    "tagline": "NYCrave giữ gì, gửi gì, và những gì không bao giờ thu thập.",
+    "device": {
+      "title": "Lưu trên thiết bị của bạn",
+      "items": [
+        "Địa điểm và ngày đã lưu được giữ trong bộ nhớ cục bộ của trình duyệt. Chúng không bao giờ rời khỏi thiết bị, và xóa dữ liệu trình duyệt sẽ xóa chúng.",
+        "Lựa chọn chế độ sáng hoặc tối của bạn cũng được lưu theo cách đó.",
+        "Nếu bạn cài NYCrave, ứng dụng giữ một bản sao các địa điểm đã lưu để mở được khi không có mạng."
+      ]
+    },
+    "location": {
+      "title": "Vị trí của bạn",
+      "items": [
+        "Nút Gần tôi chỉ hỏi trình duyệt về vị trí của bạn khi bạn nhấn vào.",
+        "Khoảng cách và thời gian đi bộ được tính ngay trên thiết bị. Vị trí của bạn không bao giờ được gửi cho NYCrave hay được lưu lại."
+      ]
+    },
+    "reports": {
+      "title": "Báo lỗi",
+      "items": [
+        "Khi bạn báo lỗi về một địa điểm, chúng tôi lưu địa điểm, loại lỗi và ghi chú bạn viết. Không có ô nhập tên hay email.",
+        "Để chặn việc gửi báo cáo ồ ạt, máy chủ tạm đếm số báo cáo theo địa chỉ mạng trong bộ nhớ. Số liệu này không được lưu."
+      ]
+    },
+    "services": {
+      "title": "Các dịch vụ trang web sử dụng",
+      "items": [
+        "Ô bản đồ được tải từ OpenFreeMap, nên trình duyệt của bạn gửi yêu cầu đến máy chủ của họ, như với mọi bản đồ trực tuyến.",
+        "Dự báo thời tiết lấy từ Open-Meteo. Máy chủ của NYCrave hỏi dự báo cho New York; không có thông tin nào về bạn được gửi đi.",
+        "Khi Google Places được bật, ảnh và đánh giá địa điểm được máy chủ NYCrave lấy về và hiển thị kèm ghi nguồn của Google."
+      ]
+    },
+    "none": {
+      "title": "Những điều NYCrave không bao giờ làm",
+      "items": [
+        "Không tài khoản, không quảng cáo, không phân tích hành vi và không cookie theo dõi.",
+        "Cookie duy nhất là cookie đăng nhập cho trang quản trị của biên tập viên."
+      ]
+    },
+    "updated": "Cập nhật lần cuối ngày 27 tháng 9 năm 2026."
+  }
+}

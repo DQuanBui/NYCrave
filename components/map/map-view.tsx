@@ -46,6 +46,8 @@ export type MapViewProps = {
   /** Room to keep clear when fitting points, e.g. under overlaid controls. */
   padding?: { top: number; bottom: number; left: number; right: number }
   controlsPosition?: "top-right" | "bottom-right"
+  /** Start here instead of fitting every point (the fit still runs on later changes). */
+  initialView?: { longitude: number; latitude: number; zoom: number }
 }
 
 // Served from public/ (see scripts/copy-maplibre-worker.mjs)
@@ -93,6 +95,7 @@ export default function MapView({
   userLocation,
   padding = { top: 60, bottom: 60, left: 60, right: 60 },
   controlsPosition = "top-right",
+  initialView,
 }: MapViewProps) {
   const t = useTranslations("filters")
   const { resolvedTheme } = useTheme()
@@ -104,6 +107,7 @@ export default function MapView({
   const selected = points.find((p) => p.id === selectedId)
 
   const initialViewState = useMemo(() => {
+    if (initialView) return initialView
     if (points.length === 0) return NYC
     if (points.length === 1) return { longitude: points[0].lng, latitude: points[0].lat, zoom: 14 }
     return { bounds: boundsOf(points), fitBoundsOptions: { padding, maxZoom: 15 } }
@@ -112,9 +116,11 @@ export default function MapView({
   }, [])
 
   const key = points.map((p) => p.id).join(",")
+  const firstKey = useRef(key)
   useEffect(() => {
     const map = mapRef.current
     if (!map || points.length === 0) return
+    if (initialView && key === firstKey.current) return
     if (points.length === 1) map.flyTo({ center: [points[0].lng, points[0].lat], zoom: 14 })
     else map.fitBounds(boundsOf(points), { padding, maxZoom: 15, duration: 600 })
     // Refit when the set of points changes, not on every render.

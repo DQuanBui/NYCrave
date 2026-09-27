@@ -69,6 +69,7 @@
 }
 
 :root {
+  --hero-leading: 0.98;
   --radius: 0.75rem;
 
   --background: #f5f5f0;
@@ -131,6 +132,15 @@
   --grid-avenue: rgb(242 242 236 / 0.06);
   --tile: #25282c;
   --grout: #16181a;
+}
+
+/* Vietnamese stacks marks above capitals and lowercase letters (ả, ở, Ấ), so
+   the tight poster leading needs more headroom there. */
+:root:lang(vi) {
+  --text-display-xl--line-height: 1.04;
+  --text-display-lg--line-height: 1.06;
+  --text-display-md--line-height: 1.12;
+  --hero-leading: 1.12;
 }
 
 @layer base {

@@ -25,7 +25,7 @@ export function LocaleSwitcher() {
             router.replace(pathname, { locale: e.target.value as typeof locale }),
           )
         }
-        className="h-9 rounded-full border-2 border-foreground/15 bg-card px-3"
+        className="h-9 rounded-full border-2 border-sign-foreground/30 bg-sign px-3 text-sign-foreground"
       >
         {routing.locales.map((l) => (
           <option key={l} value={l}>

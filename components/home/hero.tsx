@@ -89,12 +89,12 @@ export function Hero({ hints, forecast, holiday }: HeroProps) {
           </span>
           <span
             aria-hidden
-            className="relative mt-3 block h-[2em] overflow-hidden pt-[0.05em] font-display text-[clamp(3.25rem,9.5vw,6.75rem)] leading-[0.98]"
+            className="relative mt-3 block h-[2.2em] overflow-hidden font-display text-[clamp(3.25rem,9.5vw,6.75rem)] leading-(--hero-leading)"
           >
             <AnimatePresence initial={false}>
               <m.span
                 key={scene.key}
-                className="absolute inset-x-0 top-0 text-balance"
+                className="absolute inset-x-0 top-[0.12em] text-balance"
                 initial={{ y: "70%", opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: "-70%", opacity: 0 }}
@@ -111,27 +111,29 @@ export function Hero({ hints, forecast, holiday }: HeroProps) {
 
         <SmartSearch className="max-w-2xl" hints={hints} />
         {forecast ? (
-          <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground">
+          <p className="flex items-start gap-2 text-sm text-muted-foreground">
             {forecast.rainLikely ? (
-              <CloudRain aria-hidden className="size-4 text-line-blue" />
+              <CloudRain aria-hidden className="mt-0.5 size-4 shrink-0 text-line-blue" />
             ) : (
-              <Sun aria-hidden className="size-4 text-line-orange" />
+              <Sun aria-hidden className="mt-0.5 size-4 shrink-0 text-line-orange" />
             )}
-            {t("weather", { temp: forecast.tempMaxF, chance: forecast.chance })}
-            {forecast.rainLikely || forecast.extreme ? (
-              <Link
-                href={{ pathname: "/search", query: { q: "rainy day" } }}
-                className="font-semibold text-foreground underline underline-offset-4"
-              >
-                {t(
-                  forecast.rainLikely
-                    ? "rainyIdeas"
-                    : forecast.extreme === "hot"
-                      ? "hotIdeas"
-                      : "coldIdeas",
-                )}
-              </Link>
-            ) : null}
+            <span>
+              {t("weather", { temp: forecast.tempMaxF, chance: forecast.chance })}{" "}
+              {forecast.rainLikely || forecast.extreme ? (
+                <Link
+                  href={{ pathname: "/search", query: { q: "rainy day" } }}
+                  className="font-semibold text-foreground underline underline-offset-4"
+                >
+                  {t(
+                    forecast.rainLikely
+                      ? "rainyIdeas"
+                      : forecast.extreme === "hot"
+                        ? "hotIdeas"
+                        : "coldIdeas",
+                  )}
+                </Link>
+              ) : null}
+            </span>
           </p>
         ) : null}
         {holiday ? <HolidayNote holiday={holiday} className="max-w-2xl" /> : null}
