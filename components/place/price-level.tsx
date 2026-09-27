@@ -7,6 +7,14 @@ export function PriceLevel({ place, className }: { place: Place; className?: str
   if (place.isFree) {
     return <span className={cn("font-bold text-line-green", className)}>{t("free")}</span>
   }
+  if (place.ticketInfo) {
+    return (
+      <span className={cn("font-semibold tabular-nums", className)}>
+        <span className="sr-only">{t("tickets")}: </span>
+        {t("ticketRange", place.ticketInfo.priceRange)}
+      </span>
+    )
+  }
   return (
     <span className={cn("font-semibold tabular-nums", className)}>
       <span aria-hidden>

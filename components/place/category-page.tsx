@@ -1,13 +1,14 @@
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
-import { EmptyState } from "@/components/brand/empty-state"
-import { LineBullet } from "@/components/brand/line-bullet"
-import { PlaceGrid } from "@/components/place/place-grid"
-import { LINES } from "@/lib/lines"
+import { ListingView } from "@/components/listing/listing-view"
+import { SectionHeader } from "@/components/listing/section-header"
+import { TypeGrid } from "@/components/listing/type-grid"
 import { getPlaces } from "@/lib/places"
 import { CATEGORY_META } from "@/lib/taxonomy"
-import { cn } from "@/lib/utils"
+import { CATEGORY_TYPE_KINDS } from "@/lib/type-browse"
 import type { Category } from "@/types/place"
+
+type RawParams = Record<string, string | string[] | undefined>
 
 export async function categoryMetadata(category: Category): Promise<Metadata> {
   const t = await getTranslations(`categories.${category}`)
@@ -18,42 +19,43 @@ export async function categoryMetadata(category: Category): Promise<Metadata> {
   }
 }
 
-/** Shared listing for every category line. Filters and map view arrive in Phase 2. */
-export async function CategoryPage({ category }: { category: Category }) {
+/** Shared page for every category line: browse grids, then the filterable listing. */
+export async function CategoryPage({
+  category,
+  searchParams,
+}: {
+  category: Category
+  searchParams: Promise<RawParams>
+}) {
   const t = await getTranslations()
   const meta = CATEGORY_META[category]
-  const places = await getPlaces({ category }, { sort: "trending" })
+  const kinds = CATEGORY_TYPE_KINDS[category] ?? []
+  const pool = kinds.length ? await getPlaces({ category }) : []
 
   return (
     <div>
-      <header className="relative overflow-hidden border-b">
-        <span aria-hidden className={cn("absolute inset-x-0 top-0 h-2", LINES[meta.line].bg)} />
-        <div className="mx-auto flex max-w-7xl items-end gap-5 px-4 pt-12 pb-8 lg:px-8 lg:pt-16">
-          <LineBullet line={meta.line} size="xl" className="mb-1 sm:size-20 sm:text-4xl">
-            {meta.bullet}
-          </LineBullet>
-          <div className="min-w-0 space-y-2">
-            <h1 className="font-display text-display-xl">{t(`categories.${category}.title`)}</h1>
-            <p className="max-w-xl text-lg text-muted-foreground">
-              {t(`categories.${category}.tagline`)}
-            </p>
-          </div>
-        </div>
-      </header>
-      <div className="mx-auto max-w-7xl space-y-6 px-4 py-8 lg:px-8">
-        <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
-          {t("listing.count", { count: places.length })}
-        </p>
-        {places.length ? (
-          <PlaceGrid places={places} />
-        ) : (
-          <EmptyState
-            line={meta.line}
-            bullet={meta.bullet}
-            title={t("listing.emptyTitle")}
-            body={t("listing.emptyBody")}
-          />
-        )}
+      <SectionHeader
+        line={meta.line}
+        bullet={meta.bullet}
+        title={t(`categories.${category}.title`)}
+        tagline={t(`categories.${category}.tagline`)}
+      />
+      <div className="mx-auto max-w-7xl space-y-12 px-4 py-8 lg:px-8 lg:py-10">
+        {kinds.map((kind) => (
+          <TypeGrid key={kind} kind={kind} pool={pool} />
+        ))}
+        <section aria-labelledby="all-places" className="space-y-5">
+          {kinds.length ? (
+            <h2 id="all-places" className="font-display text-display-md">
+              {t("browse.all")}
+            </h2>
+          ) : (
+            <h2 id="all-places" className="sr-only">
+              {t("browse.all")}
+            </h2>
+          )}
+          <ListingView base={{ category }} searchParams={searchParams} />
+        </section>
       </div>
     </div>
   )

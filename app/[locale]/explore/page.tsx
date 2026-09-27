@@ -6,7 +6,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/explore"
   return categoryMetadata("attraction")
 }
 
-export default async function Page({ params }: PageProps<"/[locale]/explore">) {
+export default async function Page({ params, searchParams }: PageProps<"/[locale]/explore">) {
   await initLocale(params)
-  return <CategoryPage category="attraction" />
+  return <CategoryPage category="attraction" searchParams={searchParams} />
 }
