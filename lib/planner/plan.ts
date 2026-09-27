@@ -1,6 +1,6 @@
 import { findNeighborhood, NEIGHBORHOODS } from "@/data/neighborhoods"
 import { distanceKm, type LatLng } from "@/lib/geo"
-import { isOpenForWindow } from "@/lib/hours"
+import { earliestOpenStart, isOpenForWindow } from "@/lib/hours"
 import type { Place } from "@/types/place"
 import { estimateCost, estimateTravel, SUBWAY_FARE } from "./estimates"
 import { placeScore } from "./scoring"
@@ -192,9 +192,13 @@ const ANCHOR_PER_KM = 0.35
 function options(ctx: Context, state: State, def: SlotDef): Option[] {
   const { input } = ctx
   const excluded = new Set(ctx.adjustments.exclude?.[def.slot] ?? [])
-  // Places pinned to other slots are reserved for them
+  // Places pinned to other slots are reserved for them, and so is their share of the budget
+  let reserved = 0
   for (const [slot, id] of Object.entries(ctx.adjustments.locks ?? {})) {
-    if (slot !== def.slot && id) excluded.add(id)
+    if (slot === def.slot || !id) continue
+    excluded.add(id)
+    const pinned = ctx.places.find((p) => p.id === id)
+    if (pinned && !state.used.has(id)) reserved += estimateCost(pinned, slot as Slot) + SUBWAY_FARE
   }
 
   const evaluate = (pool: Place[]) => {
@@ -205,15 +209,24 @@ function options(ctx: Context, state: State, def: SlotDef): Option[] {
 
       const travel = estimateTravel(state.loc, place)
       const ready = state.t + travel.minutes
-      const start = roundUp5(Math.max(ready, def.earliest))
+      // Arriving before a place opens means waiting for it (penalized below)
+      const minutes = def.minutes(place, input.pace)
+      const opensAt = earliestOpenStart(
+        place.hours,
+        ctx.weekday,
+        Math.max(ready, def.earliest),
+        minutes,
+      )
+      if (opensAt === null) continue
+      const start = roundUp5(opensAt)
       if (start > def.latest) continue
-      const end = start + def.minutes(place, input.pace)
+      const end = start + minutes
       if (end > input.end) continue
       if (!isOpenForWindow(place.hours, ctx.weekday, start, end)) continue
 
       const fare = travel.mode === "subway" ? SUBWAY_FARE : 0
       const cost = estimateCost(place, def.slot)
-      if (state.spent + cost + fare > input.budget) continue
+      if (state.spent + cost + fare + reserved > input.budget) continue
 
       const score = placeScore(place, def.slot, input, ctx.rainLikely)
       const wait = start - ready

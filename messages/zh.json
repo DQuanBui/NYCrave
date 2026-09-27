@@ -470,7 +470,8 @@
     "seafood": "海鲜",
     "burgers": "汉堡",
     "fried_chicken": "炸鸡",
-    "vegetarian_plates": "素食"
+    "vegetarian_plates": "素食",
+    "pasta": "意面"
   },
   "drinkType": {
     "coffee": "咖啡",
@@ -667,7 +668,16 @@
       "hells-kitchen": "第九大道上的剧院区餐厅，以及哈德逊河上的无畏号。",
       "washington-heights": "多米尼加美食和音乐、大都会修道院分馆，以及哈德逊河畔崖顶的公园。",
       "flatbush": "弗拉特布什大道和教堂大道一带的加勒比面包店、牙买加烤鸡和罗蒂饼。",
-      "woodside": "小马尼拉的菲律宾餐厅，以及 7 号线高架下的爱尔兰酒吧。"
+      "woodside": "小马尼拉的菲律宾餐厅，以及 7 号线高架下的爱尔兰酒吧。",
+      "tribeca": "宽阔的石板街、改造的仓库，以及多家城中最负盛名的餐厅。",
+      "noho": "铸铁阁楼、Bond Street 的餐厅，步行即到东村和格林威治村。",
+      "flatiron": "熨斗大厦、麦迪逊广场公园，以及密集的顶级餐厅。",
+      "murray-hill": "中央车站附近安静的联排住宅街区，有经典熟食店和社区酒吧。",
+      "fort-greene": "Fort Greene 公园周边的褐石屋、周日市集和街坊小酒馆。",
+      "cobble-hill": "绿树成荫的褐石街区，以及 Atlantic Avenue 上的中东商店和餐厅。",
+      "carroll-gardens": "老牌意大利面包店、前院花园，以及 Smith Street 上热闹的餐厅街。",
+      "gowanus": "运河边的旧仓库变身为酒吧、音乐场地和餐厅。",
+      "bay-ridge": "第三大道上的中东和北欧美食，还能远眺韦拉扎诺大桥。"
     }
   },
   "credits": {

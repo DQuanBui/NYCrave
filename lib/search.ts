@@ -78,6 +78,7 @@ const PHRASES: Record<string, Effect[]> = {
   burgers: [add("dishTypes", "burgers")],
   "fried chicken": [add("dishTypes", "fried_chicken")],
   rice: [add("dishTypes", "rice_dishes")],
+  pasta: [add("dishTypes", "pasta")],
   // Drinks
   coffee: [add("drinkTypes", "coffee")],
   cafe: [add("drinkTypes", "coffee")],
@@ -172,6 +173,7 @@ const PHRASES: Record<string, Effect[]> = {
  * pointing at the same effects as the English phrases.
  */
 const VIETNAMESE: Record<string, string> = {
+  "mi y": "pasta",
   "ha cao": "dumplings",
   "sui cao": "dumplings",
   "xiao long bao": "soup dumplings",

@@ -470,7 +470,8 @@
     "seafood": "Seafood",
     "burgers": "Burgers",
     "fried_chicken": "Fried chicken",
-    "vegetarian_plates": "Vegetarian plates"
+    "vegetarian_plates": "Vegetarian plates",
+    "pasta": "Pasta"
   },
   "drinkType": {
     "coffee": "Coffee",
@@ -667,7 +668,16 @@
       "hells-kitchen": "Theater-district restaurants along Ninth Avenue and the Intrepid on the Hudson.",
       "washington-heights": "Dominican food and music, The Met Cloisters and cliff-top parks above the Hudson.",
       "flatbush": "Caribbean bakeries, jerk chicken and roti along Flatbush and Church Avenues.",
-      "woodside": "Little Manila's Filipino restaurants and Irish pubs under the 7 train."
+      "woodside": "Little Manila's Filipino restaurants and Irish pubs under the 7 train.",
+      "tribeca": "Wide cobbled streets, converted warehouses and some of the city's most celebrated restaurants.",
+      "noho": "Cast-iron lofts, Bond Street's restaurants and a short walk to both Villages.",
+      "flatiron": "The Flatiron Building, Madison Square Park and a dense run of top restaurants.",
+      "murray-hill": "Quiet townhouse blocks near Grand Central, with classic delis and neighborhood bars.",
+      "fort-greene": "Brownstones around Fort Greene Park, Sunday markets and neighborhood bistros.",
+      "cobble-hill": "Leafy brownstone blocks and Atlantic Avenue's Middle Eastern shops and restaurants.",
+      "carroll-gardens": "Old Italian bakeries, front gardens and a busy restaurant strip along Smith Street.",
+      "gowanus": "Old canal-side warehouses turned into bars, music venues and restaurants.",
+      "bay-ridge": "Middle Eastern and Scandinavian food along Third Avenue, with views of the Verrazzano Bridge."
     }
   },
   "credits": {

@@ -1,6 +1,7 @@
 import { neighborhoodByName } from "@/data/neighborhoods"
 import { toMinutes } from "@/lib/hours"
 import type { Place } from "@/types/place"
+import { estimateCost } from "./estimates"
 import { defaultInput, planQuery } from "./params"
 import type { Mood, Slot } from "./types"
 
@@ -8,11 +9,13 @@ import type { Mood, Slot } from "./types"
 export function slotForPlace(p: Place): Slot {
   switch (p.category) {
     case "restaurant": {
-      if (p.dishTypes?.some((d) => d === "bakery" || d === "brunch")) return "breakfast"
       const opens = Object.values(p.hours)
         .flat()
         .map((r) => toMinutes(r.open))
       const earliest = opens.length ? Math.min(...opens) : 12 * 60
+      // Brunch and bakeries fit breakfast only when they open in time for it
+      const morning = p.dishTypes?.some((d) => d === "bakery" || d === "brunch")
+      if (morning && earliest <= 10.5 * 60) return "breakfast"
       return earliest >= 16 * 60 || p.vibeTags.includes("date_night") ? "dinner" : "lunch"
     }
     case "drink":
@@ -41,13 +44,17 @@ function moodFor(p: Place): Mood {
 export function planAroundQuery(p: Place, now = new Date()): Record<string, string> {
   const input = defaultInput(now)
   const hood = neighborhoodByName(p.neighborhood)
+  const slot = slotForPlace(p)
+  // Leave room for the rest of the day around a pricey pick
+  const budget = Math.max(input.budget, Math.ceil((estimateCost(p, slot) + 80) / 10) * 10)
   return planQuery(
     {
       ...input,
       from: hood?.slug ?? input.from,
       mood: moodFor(p),
-      end: slotForPlace(p) === "night" ? 24 * 60 : input.end,
+      budget,
+      end: slot === "night" ? 24 * 60 : input.end,
     },
-    { locks: { [slotForPlace(p)]: p.id } },
+    { locks: { [slot]: p.id } },
   )
 }

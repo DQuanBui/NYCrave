@@ -17,6 +17,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lat: 40.7075,
     lng: -74.0113,
   },
+  { slug: "tribeca", name: "Tribeca", borough: "manhattan", lat: 40.7163, lng: -74.0086 },
   { slug: "chinatown", name: "Chinatown", borough: "manhattan", lat: 40.7158, lng: -73.997 },
   {
     slug: "lower-east-side",
@@ -26,6 +27,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9843,
   },
   { slug: "soho", name: "SoHo", borough: "manhattan", lat: 40.7233, lng: -74.003 },
+  { slug: "noho", name: "NoHo", borough: "manhattan", lat: 40.7262, lng: -73.9925 },
   { slug: "nolita", name: "Nolita", borough: "manhattan", lat: 40.7223, lng: -73.9955 },
   { slug: "east-village", name: "East Village", borough: "manhattan", lat: 40.7265, lng: -73.9815 },
   { slug: "west-village", name: "West Village", borough: "manhattan", lat: 40.7358, lng: -74.0036 },
@@ -37,6 +39,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9969,
   },
   { slug: "union-square", name: "Union Square", borough: "manhattan", lat: 40.7359, lng: -73.9911 },
+  { slug: "flatiron", name: "Flatiron", borough: "manhattan", lat: 40.7411, lng: -73.9897 },
   {
     slug: "meatpacking-district",
     name: "Meatpacking District",
@@ -56,6 +59,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9918,
   },
   { slug: "midtown-east", name: "Midtown East", borough: "manhattan", lat: 40.7527, lng: -73.9727 },
+  { slug: "murray-hill", name: "Murray Hill", borough: "manhattan", lat: 40.7479, lng: -73.9757 },
   {
     slug: "upper-west-side",
     name: "Upper West Side",
@@ -88,7 +92,17 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lat: 40.696,
     lng: -73.9936,
   },
+  {
+    slug: "carroll-gardens",
+    name: "Carroll Gardens",
+    borough: "brooklyn",
+    lat: 40.6795,
+    lng: -73.9992,
+  },
+  { slug: "cobble-hill", name: "Cobble Hill", borough: "brooklyn", lat: 40.6862, lng: -73.9962 },
+  { slug: "fort-greene", name: "Fort Greene", borough: "brooklyn", lat: 40.6897, lng: -73.9745 },
   { slug: "park-slope", name: "Park Slope", borough: "brooklyn", lat: 40.671, lng: -73.9814 },
+  { slug: "gowanus", name: "Gowanus", borough: "brooklyn", lat: 40.6733, lng: -73.9892 },
   { slug: "flatbush", name: "Flatbush", borough: "brooklyn", lat: 40.6415, lng: -73.9594 },
   {
     slug: "prospect-heights",
@@ -99,6 +113,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   { slug: "bushwick", name: "Bushwick", borough: "brooklyn", lat: 40.6944, lng: -73.9213 },
   { slug: "sunset-park", name: "Sunset Park", borough: "brooklyn", lat: 40.6455, lng: -74.0124 },
+  { slug: "bay-ridge", name: "Bay Ridge", borough: "brooklyn", lat: 40.6264, lng: -74.0299 },
   { slug: "flushing", name: "Flushing", borough: "queens", lat: 40.758, lng: -73.8303 },
   {
     slug: "flushing-meadows",

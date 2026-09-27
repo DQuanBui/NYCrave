@@ -470,7 +470,8 @@
     "seafood": "Hải sản",
     "burgers": "Burger",
     "fried_chicken": "Gà rán",
-    "vegetarian_plates": "Món chay"
+    "vegetarian_plates": "Món chay",
+    "pasta": "Mì Ý"
   },
   "drinkType": {
     "coffee": "Cà phê",
@@ -667,7 +668,16 @@
       "hells-kitchen": "Nhà hàng khu nhà hát dọc Đại lộ số 9 và tàu Intrepid trên sông Hudson.",
       "washington-heights": "Ẩm thực và âm nhạc Dominica, bảo tàng The Met Cloisters và những công viên trên vách đá nhìn ra sông Hudson.",
       "flatbush": "Tiệm bánh Caribe, gà nướng jerk và bánh roti dọc đại lộ Flatbush và Church.",
-      "woodside": "Nhà hàng Philippines của Little Manila và quán rượu Ireland dưới đường tàu số 7."
+      "woodside": "Nhà hàng Philippines của Little Manila và quán rượu Ireland dưới đường tàu số 7.",
+      "tribeca": "Phố lát đá rộng, nhà kho cải tạo và nhiều nhà hàng nổi tiếng bậc nhất thành phố.",
+      "noho": "Những căn gác gang cổ, nhà hàng trên phố Bond và chỉ vài bước tới hai khu Village.",
+      "flatiron": "Tòa nhà Flatiron, công viên Madison Square và dãy nhà hàng hàng đầu.",
+      "murray-hill": "Những dãy nhà phố yên tĩnh gần Grand Central, với tiệm deli kinh điển và quán bar khu phố.",
+      "fort-greene": "Nhà gạch nâu quanh công viên Fort Greene, chợ Chủ nhật và quán bistro nhỏ.",
+      "cobble-hill": "Phố nhà gạch nâu rợp bóng cây và các cửa hàng, nhà hàng Trung Đông trên đại lộ Atlantic.",
+      "carroll-gardens": "Tiệm bánh Ý lâu đời, vườn trước nhà và dãy nhà hàng sôi động trên phố Smith.",
+      "gowanus": "Nhà kho cũ bên kênh đào nay thành quán bar, sân khấu nhạc và nhà hàng.",
+      "bay-ridge": "Món Trung Đông và Bắc Âu dọc đại lộ Third, nhìn ra cầu Verrazzano."
     }
   },
   "credits": {

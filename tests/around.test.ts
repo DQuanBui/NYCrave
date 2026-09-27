@@ -16,6 +16,8 @@ describe("plan a day around a place", () => {
     expect(slotForPlace(bySlug("death-and-co-east-village"))).toBe("night")
     expect(slotForPlace(bySlug("devocion-williamsburg"))).toBe("coffee")
     expect(slotForPlace(bySlug("the-met-fifth-avenue"))).toBe("morning")
+    // Bakery-style, but only open for dinner
+    expect(slotForPlace(bySlug("shukette-chelsea"))).toBe("dinner")
   })
 
   it("keeps the chosen place in most generated days", () => {
@@ -25,8 +27,8 @@ describe("plan a day around a place", () => {
       const plan = planDay(input, places, adjustments)
       if (plan.stops.some((s) => s.place.id === place.id)) kept++
     }
-    // A few places cannot fit (e.g. open only at other times or over budget)
-    expect(kept / places.length).toBeGreaterThan(0.75)
+    // A few places cannot fit (e.g. open only at other times); pricey ones still do
+    expect(kept / places.length).toBeGreaterThan(0.95)
   })
 })
 

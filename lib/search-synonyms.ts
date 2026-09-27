@@ -179,6 +179,8 @@ const CJK_PAIRS: [string, string][] = [
   ["中餐", "chinese"],
   ["日料", "japanese"],
   ["面条", "noodles"],
+  ["意面", "pasta"],
+  ["意大利面", "pasta"],
   ["米饭", "rice"],
   // Korean
   ["메트로폴리탄 미술관", "the met"],
@@ -266,6 +268,7 @@ const CJK_PAIRS: [string, string][] = [
   ["감사", "thanks"],
   ["주소", "address"],
   ["국수", "noodles"],
+  ["파스타", "pasta"],
   ["한식", "korean"],
   ["일식", "japanese"],
   ["중식", "chinese"],

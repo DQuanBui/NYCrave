@@ -72,6 +72,7 @@ export const DISH_EMOJI: Record<DishType, string> = {
   burgers: "🍔",
   fried_chicken: "🍗",
   vegetarian_plates: "🥗",
+  pasta: "🍝",
 }
 
 export const DRINK_EMOJI: Record<DrinkType, string> = {

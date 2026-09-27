@@ -65,6 +65,7 @@ export const DISH_TYPES = [
   "burgers",
   "fried_chicken",
   "vegetarian_plates",
+  "pasta",
 ] as const
 
 export const DRINK_TYPES = [

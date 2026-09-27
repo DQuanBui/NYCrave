@@ -3381,5 +3381,3902 @@
     "verificationNotes": "Checked 2026-09-27: hours from current listings (the official site blocked direct checking). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.72606,
     "lng": -74.0024
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/cafe-china-midtown-1.jpg",
+        "alt": "Café China's wooden doors at 59 West 37th Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Transpoman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_China_NYC_2023.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/cafe-china-midtown-2.jpg",
+        "alt": "Illustrative photo: Sichuan dan dan noodles in chili oil",
+        "width": 1100,
+        "height": 731,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Steven G. Johnson, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Dan-dan_noodles,_Shanghai.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Dan dan noodles", "Chongqing spicy chicken", "Mapo tofu"],
+    "vibeTags": ["date_night", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from cafechina.nyc (last seating 30 minutes before close). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-cafe-china",
+    "slug": "cafe-china-midtown",
+    "name": "Café China",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dry_noodles", "rice_dishes"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "59 W 37th St, New York, NY 10018",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "22:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "22:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "22:30"
+        }
+      ]
+    },
+    "editorialTake": "Sichuan cooking in a stylish room styled like 1930s Shanghai, a few blocks from the Empire State Building. The spice is real and the dishes are made to share.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 78,
+    "website": "https://cafechina.nyc",
+    "lat": 40.75167,
+    "lng": -73.98576
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/hwa-yuan-szechuan-chinatown-1.jpg",
+        "alt": "Illustrative photo: cold sesame noodles with shredded chicken and cucumber",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "T.Tseng, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cold_Sesame_Noodles,_shredded_chicken,_pickled_cucumbers,_crispy_garlic,_crushed_peanuts,_scallions,_sesame_dressing,_chicken_broth,_yu_choy_(31967905702).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Cold sesame noodles", "Peking duck", "Dishes to share"],
+    "vibeTags": ["group_friendly", "local_favorite", "tourist_classic"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours (noon to 9:30 PM daily) from hwayuannyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-hwa-yuan-szechuan",
+    "slug": "hwa-yuan-szechuan-chinatown",
+    "name": "Hwa Yuan Szechuan",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dry_noodles", "rice_dishes"],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "42 E Broadway, New York, NY 10002",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ]
+    },
+    "editorialTake": "The revived home of New York's famous cold sesame noodles, in a big, elegant Chinatown dining room made for round tables and sharing.",
+    "bestTimeToVisit": "Family-style dinner",
+    "timeNeededMinutes": 75,
+    "trendingScore": 76,
+    "website": "https://www.hwayuannyc.com",
+    "lat": 40.71377,
+    "lng": -73.996
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/potluck-club-chinatown-1.jpg",
+        "alt": "Illustrative photo: crispy salt and pepper fried chicken",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "NeoBatfreak, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Taiwanese_Pepper_Salt_Chicken_drumettes_(%E9%B9%BD%E9%85%A5%E9%9B%9E)_(2).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Salt and pepper chicken", "Scallion biscuits"],
+    "vibeTags": ["group_friendly", "local_favorite", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and dinner hours from thepotluckclubny.com (location page). No brunch service. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-potluck-club",
+    "slug": "potluck-club-chinatown",
+    "name": "Potluck Club",
+    "cuisines": ["chinese", "american"],
+    "dishTypes": ["fried_chicken"],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "133 Chrystie St, New York, NY 10002",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:30",
+          "close": "21:15"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "17:30",
+          "close": "21:15"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:30",
+          "close": "21:15"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:30",
+          "close": "21:15"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:30",
+          "close": "21:15"
+        }
+      ]
+    },
+    "editorialTake": "Cantonese American cooking for groups, famous for crackly salt and pepper fried chicken served with fluffy scallion biscuits. Dinner only, Wednesday to Sunday.",
+    "bestTimeToVisit": "Early dinner",
+    "timeNeededMinutes": 90,
+    "trendingScore": 80,
+    "website": "https://thepotluckclubny.com",
+    "lat": 40.71958,
+    "lng": -73.99352
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/redfarm-upper-west-side-1.jpg",
+        "alt": "Illustrative photo: shrimp har gow dumplings in a bamboo steamer",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "ZhengZhou, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ha_Gow_(Cantonese_Shrimp_Dumplings).jpeg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Pac-Man shrimp dumplings", "Katz's pastrami egg roll", "Soup dumplings"],
+    "vibeTags": ["group_friendly", "instagrammable", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from redfarmnyc.com (Upper West Side location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-redfarm-uws",
+    "slug": "redfarm-upper-west-side",
+    "name": "RedFarm",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dumplings"],
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "2170 Broadway, New York, NY 10024",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "16:30",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:30",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:30",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:30",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:30",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "16:30",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "16:30",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Playful, photogenic dim sum from Joe Ng, including dumplings shaped like Pac-Man ghosts. Fun for groups and a good pick after the Natural History Museum.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 80,
+    "website": "https://www.redfarmnyc.com",
+    "lat": 40.78207,
+    "lng": -73.98063
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/2nd-ave-deli-murray-hill-1.jpg",
+        "alt": "A table at 2nd Ave Deli with a pastrami sandwich, pickles and sides",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Librarygroover, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Second_Avenue_Deli.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Pastrami on rye", "Corned beef", "Matzo ball soup"],
+    "vibeTags": ["tourist_classic", "local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours for the Murray Hill location from 2ndavedeli.com/contact. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-2nd-ave-deli",
+    "slug": "2nd-ave-deli-murray-hill",
+    "name": "2nd Ave Deli",
+    "cuisines": ["jewish_deli"],
+    "dishTypes": ["sandwiches", "noodle_soup"],
+    "borough": "manhattan",
+    "neighborhood": "Murray Hill",
+    "address": "162 E 33rd St, New York, NY 10016",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "A classic Jewish deli, now on East 33rd Street, with towering pastrami and corned beef sandwiches and matzo ball soup like a grandmother's.",
+    "bestTimeToVisit": "Late lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 78,
+    "website": "https://2ndavedeli.com",
+    "lat": 40.74511,
+    "lng": -73.97924
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/sarges-deli-murray-hill-1.jpg",
+        "alt": "Sarge's Delicatessen's red awning and storefront on Third Avenue",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Transpoman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sarge%27s_Deli_NYC.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/sarges-deli-murray-hill-2.jpg",
+        "alt": "Sarge's neon sign at night",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Eden, Janine and Jim from New York City, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sarge%27s_(4640622115).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Pastrami sandwich", "Cheesecake"],
+    "vibeTags": ["local_favorite", "group_friendly", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and dine-in hours (10 AM to 10 PM daily) from sargesdeli.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-sarges-deli",
+    "slug": "sarges-deli-murray-hill",
+    "name": "Sarge's Delicatessen",
+    "cuisines": ["jewish_deli", "american"],
+    "dishTypes": ["sandwiches", "desserts"],
+    "borough": "manhattan",
+    "neighborhood": "Murray Hill",
+    "address": "548 3rd Ave, New York, NY 10016",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "An old-school Murray Hill deli with enormous sandwiches, cheesecake by the slab and red booths. Share a sandwich; it is more than enough.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://sargesdeli.com",
+    "lat": 40.74734,
+    "lng": -73.9772
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/raku-east-village-1.jpg",
+        "alt": "Illustrative photo: a bowl of thick udon noodles with scallions and sesame",
+        "width": 1100,
+        "height": 731,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "pelican from Tokyo, Japan, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sanuki_udon_noodle_(2223059600).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Niku udon", "Cold udon with dipping broth"],
+    "vibeTags": ["rainy_day", "solo_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours for the East Village location from rakunyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-raku-east-village",
+    "slug": "raku-east-village",
+    "name": "Raku",
+    "cuisines": ["japanese"],
+    "dishTypes": ["noodle_soup"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "342 E 6th St, New York, NY 10003",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ]
+    },
+    "editorialTake": "Thick, chewy handmade udon in deeply comforting broths, served in a calm little room on East 6th Street. Ideal on a cold or rainy day.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 45,
+    "trendingScore": 76,
+    "website": "https://www.rakunyc.com",
+    "lat": 40.72647,
+    "lng": -73.98665
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/tonchin-midtown-1.jpg",
+        "alt": "Illustrative photo: a bowl of tonkotsu ramen with pork and egg",
+        "width": 1100,
+        "height": 1280,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Wesoree, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ikkousha_tonkotsu_bowl.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Tonchin tonkotsu ramen", "House cocktails"],
+    "vibeTags": ["solo_friendly", "rainy_day", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours (11:30 AM to 10 PM daily) from tonchinus.com/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-tonchin-midtown",
+    "slug": "tonchin-midtown",
+    "name": "Tonchin",
+    "cuisines": ["japanese"],
+    "dishTypes": ["ramen"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "13 W 36th St, New York, NY 10018",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A Tokyo ramen family's New York shop: rich tonkotsu ramen with springy noodles, in a stylish room steps from Herald Square.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 50,
+    "trendingScore": 72,
+    "website": "https://www.tonchinus.com",
+    "lat": 40.75032,
+    "lng": -73.98448
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/nami-nori-williamsburg-1.jpg",
+        "alt": "Illustrative photo: a set of open temaki hand rolls",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Andy Li, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sushi_hand_roll_combo_set_B_-_Goemon_Hand_Roll_Bar_2024-09-12.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Open-style temaki hand rolls", "Chef's hand roll set"],
+    "vibeTags": ["date_night", "instagrammable", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours for the Williamsburg location from naminori.us. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-nami-nori-williamsburg",
+    "slug": "nami-nori-williamsburg",
+    "name": "Nami Nori",
+    "cuisines": ["japanese"],
+    "dishTypes": ["sushi"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "236 N 12th St, Brooklyn, NY 11211",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Taco-style open hand rolls, crisp nori curled around rice and fish, at a bright counter in Williamsburg. A fun, approachable way into sushi.",
+    "bestTimeToVisit": "Weekday dinner",
+    "timeNeededMinutes": 60,
+    "trendingScore": 74,
+    "website": "https://www.naminori.us",
+    "lat": 40.71918,
+    "lng": -73.95289
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/rule-of-thirds-greenpoint-1.jpg",
+        "alt": "Illustrative photo: skewers grilling over charcoal",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "PattayaPatrol, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:DSCF0302_Skewers_of_marinated_squid_grilling_over_glowing_charcoal_embers.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Japanese brunch set", "Skewers", "Sharing plates"],
+    "vibeTags": ["group_friendly", "local_favorite", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from thirdsbk.com. Brunch also runs on holiday Mondays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-rule-of-thirds",
+    "slug": "rule-of-thirds-greenpoint",
+    "name": "Rule of Thirds",
+    "cuisines": ["japanese"],
+    "dishTypes": ["brunch", "bbq"],
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "171 Banker St, Brooklyn, NY 11222",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A big, sunny room in a former Greenpoint warehouse, serving Japanese brunch on weekends and skewers and sharing plates at night.",
+    "bestTimeToVisit": "Weekend brunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 70,
+    "website": "https://www.thirdsbk.com",
+    "lat": 40.72473,
+    "lng": -73.95522
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/lartusi-west-village-1.jpg",
+        "alt": "Illustrative photo: a plate of fresh pasta with mushrooms and greens",
+        "width": 1100,
+        "height": 804,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Eaters Collective eaterscollective, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Plate_of_Pasta_(Unsplash).jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Fresh pasta", "Roasted mushrooms", "Olive oil cake"],
+    "vibeTags": ["date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from lartusi.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-lartusi",
+    "slug": "lartusi-west-village",
+    "name": "L'Artusi",
+    "cuisines": ["italian"],
+    "dishTypes": ["pasta", "brunch"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "228 W 10th St, New York, NY 10014",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A buzzy West Village Italian with a long bar and an open kitchen, beloved for its pastas, roasted mushrooms and olive oil cake. Walk-ins can try the bar.",
+    "bestTimeToVisit": "Early dinner at the bar",
+    "timeNeededMinutes": 90,
+    "trendingScore": 84,
+    "website": "https://www.lartusi.com",
+    "lat": 40.73372,
+    "lng": -74.00512
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/via-carota-west-village-1.jpg",
+        "alt": "Via Carota's green awning and outdoor tables on Grove Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Via_Carota_2023_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/via-carota-west-village-2.jpg",
+        "alt": "Via Carota's corner of Grove Street and Bleecker Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "MainlyTwelve, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Via_Carota_exterior.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Seasonal vegetables", "Cacio e pepe", "Insalata verde"],
+    "vibeTags": ["date_night", "local_favorite", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": ["vegetarian"],
+    "verificationNotes": "Checked 2026-09-27: address and hours from viacarota.com. The site lists Friday opening as 10 AM in one place and 11 AM in another; 11 AM is shown. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-via-carota",
+    "slug": "via-carota-west-village",
+    "name": "Via Carota",
+    "cuisines": ["italian"],
+    "dishTypes": ["pasta", "vegetarian_plates"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "51 Grove St, New York, NY 10014",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A rustic Italian trattoria on Grove Street where the vegetables are as famous as the pasta. Walk-ins only, so arrive early or expect a wait.",
+    "bestTimeToVisit": "Weekday late lunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 88,
+    "website": "https://www.viacarota.com",
+    "lat": 40.73311,
+    "lng": -74.00365
+  },
+  {
+    "photos": [],
+    "mustTry": ["Pinwheel lasagna for two", "Chrysanthemum salad"],
+    "vibeTags": ["date_night", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from donangie.com (location page). Last seating 10:30 PM; closing shown as 11 PM. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-don-angie",
+    "slug": "don-angie-west-village",
+    "name": "Don Angie",
+    "cuisines": ["italian", "american"],
+    "dishTypes": ["pasta"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "103 Greenwich Ave, New York, NY 10014",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "14:00"
+        },
+        {
+          "open": "16:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "14:00"
+        },
+        {
+          "open": "16:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "14:00"
+        },
+        {
+          "open": "16:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Creative Italian American cooking in a cozy corner room, known for its spiraled pinwheel lasagna. One of the hardest tables to book in the Village.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 86,
+    "website": "https://www.donangie.com",
+    "lat": 40.7378,
+    "lng": -74.00199
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/lilia-williamsburg-1.jpg",
+        "alt": "Illustrative photo: nests of fresh handmade pasta on a wooden board",
+        "width": 1100,
+        "height": 734,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Sarah Boyle sboyle, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Handmade_pasta_noodles_(Unsplash).jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Handmade pasta", "Wood-fired dishes"],
+    "vibeTags": ["date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from lilianewyork.com (location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-lilia",
+    "slug": "lilia-williamsburg",
+    "name": "Lilia",
+    "cuisines": ["italian"],
+    "dishTypes": ["pasta"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "567 Union Ave, Brooklyn, NY 11222",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Missy Robbins's airy Williamsburg restaurant in a former auto body shop, famous for handmade pasta and dishes from the wood fire.",
+    "bestTimeToVisit": "Early dinner",
+    "timeNeededMinutes": 90,
+    "trendingScore": 86,
+    "website": "https://www.lilianewyork.com",
+    "lat": 40.71762,
+    "lng": -73.9524
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/lucali-carroll-gardens-1.jpg",
+        "alt": "A whole pizza with basil at Lucali",
+        "width": 1100,
+        "height": 1142,
+        "source": "other",
+        "attribution": {
+          "text": "Praneeth Thalla, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lucali_Pizza.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/lucali-carroll-gardens-2.jpg",
+        "alt": "Making pizza by the brick oven at Lucali",
+        "width": 1024,
+        "height": 768,
+        "source": "other",
+        "attribution": {
+          "text": "Eric Mueller from Los Angeles, California, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Mark_makes_pizza_at_Lucali_(2512534782).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Thin-crust pizza", "Calzone"],
+    "vibeTags": ["date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from lucali.com (Brooklyn location page). Closed Tuesdays; first come, first served. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-lucali",
+    "slug": "lucali-carroll-gardens",
+    "name": "Lucali",
+    "cuisines": ["italian"],
+    "dishTypes": ["pizza"],
+    "borough": "brooklyn",
+    "neighborhood": "Carroll Gardens",
+    "address": "575 Henry St, Brooklyn, NY 11231",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Candlelit Carroll Gardens pizzeria with thin, crisp pies and calzones. No reservations: names go on the waitlist from 4 PM, and it is BYOB.",
+    "bestTimeToVisit": "Put your name down at 4 PM",
+    "timeNeededMinutes": 90,
+    "trendingScore": 84,
+    "website": "https://www.lucali.com",
+    "lat": 40.68182,
+    "lng": -74.00032
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/le-coucou-soho-1.jpg",
+        "alt": "Le Coucou's entrance on Lafayette Street, framed by plants",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Transpoman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Le_Coucou_NYC.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/le-coucou-soho-2.jpg",
+        "alt": "Le Coucou's arched windows on Lafayette Street",
+        "width": 1100,
+        "height": 1956,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Le_Coucou_HDR_2022_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Tout le lapin (rabbit)", "Seasonal fish"],
+    "vibeTags": ["date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from lecoucou.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-le-coucou",
+    "slug": "le-coucou-soho",
+    "name": "Le Coucou",
+    "cuisines": ["french"],
+    "dishTypes": ["seafood"],
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "138 Lafayette St, New York, NY 10013",
+    "priceLevel": 4,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "14:00"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Refined French cooking from Daniel Rose in a grand, candlelit room: a special-occasion restaurant with polished service.",
+    "bestTimeToVisit": "Lunch, for the room in daylight",
+    "timeNeededMinutes": 120,
+    "trendingScore": 80,
+    "website": "https://lecoucou.com",
+    "lat": 40.71908,
+    "lng": -74.00014
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/frenchette-tribeca-1.jpg",
+        "alt": "Frenchette's storefront on West Broadway in Tribeca",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Wil540 art, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:06_20_2022_Batard_Frenchette.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Duck frites", "Natural wine", "Weekend brunch"],
+    "vibeTags": ["date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from frenchettenyc.com (lunch, midday menu 3 to 5, dinner). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-frenchette",
+    "slug": "frenchette-tribeca",
+    "name": "Frenchette",
+    "cuisines": ["french"],
+    "dishTypes": ["brunch"],
+    "borough": "manhattan",
+    "neighborhood": "Tribeca",
+    "address": "241 W Broadway, New York, NY 10013",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A lively Tribeca bistro with modern French dishes and a serious natural wine list. Service runs straight through the day with a midday menu.",
+    "bestTimeToVisit": "Late lunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 80,
+    "website": "https://www.frenchettenyc.com",
+    "lat": 40.71963,
+    "lng": -74.00578
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/le-crocodile-williamsburg-1.jpg",
+        "alt": "Illustrative photo: steak frites with herb butter",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Missvain, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Steak_frites_at_The_Bar_at_MacArthur_Place_in_Sonoma_-_Sarah_Stierch.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Steak frites", "Weekend brunch"],
+    "vibeTags": ["date_night", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: hours from lecrocodile.com menu pages via search (breakfast from 7 AM, dinner to 10 or 11 PM). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-le-crocodile",
+    "slug": "le-crocodile-williamsburg",
+    "name": "Le Crocodile",
+    "cuisines": ["french"],
+    "dishTypes": ["brunch"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "80 Wythe Ave, Brooklyn, NY 11249",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A classic French brasserie in the Wythe Hotel, open from breakfast to late dinner, with red banquettes and a buzzy Williamsburg crowd.",
+    "bestTimeToVisit": "Weekend brunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 74,
+    "website": "https://www.lecrocodile.com",
+    "lat": 40.71305,
+    "lng": -73.96577
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/cafe-paulette-fort-greene-1.jpg",
+        "alt": "Illustrative photo: a croque monsieur with a cup of coffee",
+        "width": 1100,
+        "height": 726,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Photogoddle, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cambodian_Croque_Monsieur.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Steak frites", "Croque monsieur", "Natural wine"],
+    "vibeTags": ["date_night", "local_favorite", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from cafepaulette.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-cafe-paulette",
+    "slug": "cafe-paulette-fort-greene",
+    "name": "Café Paulette",
+    "cuisines": ["french"],
+    "dishTypes": ["brunch"],
+    "borough": "brooklyn",
+    "neighborhood": "Fort Greene",
+    "address": "1 S Elliott Pl, Brooklyn, NY 11217",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A cozy Parisian bistro across from Fort Greene Park since 2013, with a heated patio year-round and live jazz on summer Tuesdays.",
+    "bestTimeToVisit": "Weekend brunch on the patio",
+    "timeNeededMinutes": 75,
+    "trendingScore": 66,
+    "website": "https://www.cafepaulette.com",
+    "lat": 40.68959,
+    "lng": -73.97592
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/shukette-chelsea-1.jpg",
+        "alt": "Illustrative photo: hummus with paprika and warm pita",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Popo le Chien, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Houmous.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Fresh-baked breads", "Dips", "Charcoal-grilled dishes"],
+    "vibeTags": ["group_friendly", "date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: hours from current listings (the official site shows them only in a script). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-shukette",
+    "slug": "shukette-chelsea",
+    "name": "Shukette",
+    "cuisines": ["middle_eastern"],
+    "dishTypes": ["bakery", "bbq"],
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "230 9th Ave, New York, NY 10001",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A loud, joyful Levantine restaurant in Chelsea where warm bread comes straight from the oven with a spread of dips, then grilled meats and fish.",
+    "bestTimeToVisit": "Early dinner",
+    "timeNeededMinutes": 90,
+    "trendingScore": 78,
+    "website": "https://www.shukettenyc.com",
+    "lat": 40.74727,
+    "lng": -74.00088
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/laser-wolf-williamsburg-1.jpg",
+        "alt": "Illustrative photo: a table of Israeli salatim, small salads and dips",
+        "width": 1100,
+        "height": 623,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Ted Eytan, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Israeli_spread.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Salatim spread", "Skewers from the grill"],
+    "vibeTags": ["date_night", "instagrammable", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from laserwolfbrooklyn.com/contact. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-laser-wolf",
+    "slug": "laser-wolf-williamsburg",
+    "name": "Laser Wolf",
+    "cuisines": ["middle_eastern"],
+    "dishTypes": ["bbq"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "97 Wythe Ave, Brooklyn, NY 11249",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "22:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "23:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "15:00",
+          "close": "23:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "23:30"
+        }
+      ]
+    },
+    "editorialTake": "An Israeli skewer house on a Williamsburg rooftop with Manhattan views: every meal starts with a table full of salatim.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 90,
+    "trendingScore": 82,
+    "website": "https://www.laserwolfbrooklyn.com",
+    "lat": 40.71321,
+    "lng": -73.96573
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/tanoreen-bay-ridge-1.jpg",
+        "alt": "Illustrative photo: knafeh topped with pistachios",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "HaJunkiyada, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Homemade_knafeh_with_pistachios.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Knafeh", "Makloubeh", "Mezze spread"],
+    "vibeTags": ["group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": ["vegetarian"],
+    "verificationNotes": "Checked 2026-09-27: address and hours from tanoreen.com (location page). Closed Mondays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-tanoreen",
+    "slug": "tanoreen-bay-ridge",
+    "name": "Tanoreen",
+    "cuisines": ["middle_eastern"],
+    "dishTypes": ["desserts", "vegetarian_plates", "rice_dishes"],
+    "borough": "brooklyn",
+    "neighborhood": "Bay Ridge",
+    "address": "7523 3rd Ave, Brooklyn, NY 11209",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Chef Rawia Bishara's Palestinian home cooking in Bay Ridge, from mezze spreads to layered makloubeh and warm knafeh. Worth the trip.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 76,
+    "website": "https://www.tanoreen.com",
+    "lat": 40.6308,
+    "lng": -74.02778
+  },
+  {
+    "photos": [],
+    "mustTry": ["Palestinian flatbreads", "Sharing platters"],
+    "vibeTags": ["group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from albadawinyc.com (Brooklyn Heights page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-al-badawi",
+    "slug": "al-badawi-brooklyn-heights",
+    "name": "Al Badawi",
+    "cuisines": ["middle_eastern"],
+    "dishTypes": ["bakery", "rice_dishes"],
+    "borough": "brooklyn",
+    "neighborhood": "Brooklyn Heights",
+    "address": "151 Atlantic Ave, Brooklyn, NY 11201",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Palestinian cooking on Atlantic Avenue: flatbreads from the oven and generous platters built for sharing.",
+    "bestTimeToVisit": "Dinner with friends",
+    "timeNeededMinutes": 75,
+    "trendingScore": 72,
+    "website": "https://www.albadawinyc.com",
+    "lat": 40.69058,
+    "lng": -73.995
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/ayat-bay-ridge-1.jpg",
+        "alt": "Illustrative photo: mansaf, lamb over yellow rice",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Bahnfrend, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Jordanian_Traditional_Mansaf,_Petra_Restaurant,_2026_(01).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Shawarma", "Mansaf", "Maklouba"],
+    "vibeTags": ["group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": ["halal"],
+    "verificationNotes": "Checked 2026-09-27: address and hours (11 AM to 10 PM daily) from ayatnyc.com (Bay Ridge page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-ayat-bay-ridge",
+    "slug": "ayat-bay-ridge",
+    "name": "Ayat",
+    "cuisines": ["middle_eastern", "halal"],
+    "dishTypes": ["rice_dishes", "sandwiches"],
+    "borough": "brooklyn",
+    "neighborhood": "Bay Ridge",
+    "address": "8501 3rd Ave, Brooklyn, NY 11209",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A Michelin Guide-featured Palestinian restaurant in Bay Ridge with generous shawarma, mansaf and upside-down maklouba.",
+    "bestTimeToVisit": "Lunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 70,
+    "website": "https://www.ayatnyc.com",
+    "lat": 40.62416,
+    "lng": -74.0306
+  },
+  {
+    "photos": [],
+    "mustTry": ["Chicken and lamb over rice", "Spicy rice"],
+    "vibeTags": ["cheap_eats", "late_night", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": ["halal"],
+    "verificationNotes": "Checked 2026-09-27: location and cart hours from adelsfamousnyc.com (location page). A street cart: no seating. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-adels-famous-halal",
+    "slug": "adels-famous-halal-food",
+    "name": "Adel's Famous Halal Food",
+    "cuisines": ["halal", "middle_eastern"],
+    "dishTypes": ["rice_dishes", "street_food"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "1221 6th Ave (near W 49th St), New York, NY 10020",
+    "priceLevel": 1,
+    "hours": {
+      "sun": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "18:00",
+          "close": "04:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "18:00",
+          "close": "05:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "18:00",
+          "close": "05:00"
+        }
+      ]
+    },
+    "editorialTake": "A late-night halal cart on Sixth Avenue with a devoted following for its chicken and lamb over rice. Opens at 6 PM and runs until the early hours.",
+    "bestTimeToVisit": "After a show",
+    "timeNeededMinutes": 20,
+    "trendingScore": 76,
+    "website": "https://www.adelsfamousnyc.com",
+    "lat": 40.75945,
+    "lng": -73.98146
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/yemen-cafe-cobble-hill-1.jpg",
+        "alt": "Yemen Café's sign above its entrance",
+        "width": 1100,
+        "height": 1354,
+        "source": "other",
+        "attribution": {
+          "text": "Zaynabk17, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Yemencafe.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/yemen-cafe-cobble-hill-2.jpg",
+        "alt": "Illustrative photo: fahsa, a bubbling Yemeni stew, with flatbread",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "غسان السقاف, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Fahsa.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Lamb haneeth", "Fahsah", "Fresh bread"],
+    "vibeTags": ["group_friendly", "local_favorite", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": ["halal"],
+    "verificationNotes": "Checked 2026-09-27: address and hours from yemencafe.com. Opens at 2 PM on Fridays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-yemen-cafe",
+    "slug": "yemen-cafe-cobble-hill",
+    "name": "Yemen Café",
+    "cuisines": ["middle_eastern", "halal"],
+    "dishTypes": ["rice_dishes", "bakery"],
+    "borough": "brooklyn",
+    "neighborhood": "Cobble Hill",
+    "address": "176 Atlantic Ave, Brooklyn, NY 11201",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "14:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A long-running Yemeni restaurant on Atlantic Avenue: slow-cooked lamb haneeth over rice, bubbling fahsah and huge, fresh flatbreads.",
+    "bestTimeToVisit": "Lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://yemencafe.com",
+    "lat": 40.68983,
+    "lng": -73.99368
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/hanoi-house-east-village-1.jpg",
+        "alt": "Illustrative photo: a bowl of beef pho with herbs",
+        "width": 1100,
+        "height": 828,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Andy Li, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Beef_noodle_soup_(Ph%E1%BB%9F_b%C3%B2)_-_Pho_Hanoi_Authentic_2024-12-01.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Northern-style beef pho", "Summer rolls"],
+    "vibeTags": ["local_favorite", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from hanoihousenyc.com (location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-hanoi-house",
+    "slug": "hanoi-house-east-village",
+    "name": "Hanoi House",
+    "cuisines": ["vietnamese"],
+    "dishTypes": ["noodle_soup"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "119 St Marks Pl, New York, NY 10009",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:30",
+          "close": "22:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "15:30"
+        },
+        {
+          "open": "17:30",
+          "close": "22:30"
+        }
+      ]
+    },
+    "editorialTake": "Northern Vietnamese cooking on St. Marks Place, with a clear, fragrant Hanoi-style beef pho that many call the city's best.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 80,
+    "website": "https://www.hanoihousenyc.com",
+    "lat": 40.7271,
+    "lng": -73.98348
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/saigon-social-lower-east-side-1.jpg",
+        "alt": "Illustrative photo: com tam, broken rice with grilled pork",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Christopher Crouzet, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_T%E1%BA%A5m,_Da_Nang,_Vietnam.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Vietnamese comfort dishes", "Weekend brunch"],
+    "vibeTags": ["local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address, dinner and brunch hours from saigonsocialnyc.com/contact. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-saigon-social",
+    "slug": "saigon-social-lower-east-side",
+    "name": "Saigon Social",
+    "cuisines": ["vietnamese"],
+    "dishTypes": ["rice_dishes", "brunch", "sandwiches"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "172 Orchard St, New York, NY 10002",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "22:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ]
+    },
+    "editorialTake": "Chef Helen Nguyen's Lower East Side spot for Vietnamese comfort food with creative touches, plus a weekend brunch. Closed Tuesdays.",
+    "bestTimeToVisit": "Weekend brunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 76,
+    "website": "https://www.saigonsocialnyc.com",
+    "lat": 40.72152,
+    "lng": -73.98838
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/di-an-di-greenpoint-1.jpg",
+        "alt": "Illustrative photo: fresh spring rolls with peanut sauce",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "T.Tseng, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Spring_rolls_with_peanut_sauce.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Pho", "Modern Vietnamese small plates"],
+    "vibeTags": ["group_friendly", "instagrammable", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from diandi.nyc (hours and location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-di-an-di",
+    "slug": "di-an-di-greenpoint",
+    "name": "Di An Di",
+    "cuisines": ["vietnamese"],
+    "dishTypes": ["noodle_soup"],
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "68 Greenpoint Ave, Brooklyn, NY 11222",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A lively, plant-filled Greenpoint dining room serving modern Vietnamese food, from pho to inventive plates for sharing.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 74,
+    "website": "https://www.diandi.nyc",
+    "lat": 40.72952,
+    "lng": -73.95824
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/banh-vietnamese-shop-house-1.jpg",
+        "alt": "Illustrative photo: bun cha, grilled pork with rice noodles and herbs",
+        "width": 1100,
+        "height": 620,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Weetjesman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bun_cha_Hanoi.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Bún chả", "Bánh mì", "Rotating regional specials"],
+    "vibeTags": ["local_favorite", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: hours from banhny.com via search (the site's ordering page loads them with a script). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-banh-shop-house",
+    "slug": "banh-vietnamese-shop-house",
+    "name": "Bánh Vietnamese Shop House",
+    "cuisines": ["vietnamese"],
+    "dishTypes": ["sandwiches", "dry_noodles"],
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "942 Amsterdam Ave, New York, NY 10025",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        },
+        {
+          "open": "18:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "18:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "18:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "18:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        },
+        {
+          "open": "18:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        },
+        {
+          "open": "18:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A small Upper West Side shop house cooking regional Vietnamese dishes, with specials that change often. Closed Mondays.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 50,
+    "trendingScore": 66,
+    "website": "https://www.banhny.com",
+    "lat": 40.80085,
+    "lng": -73.96564
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/cho-dang-gol-midtown-1.jpg",
+        "alt": "Illustrative photo: sundubu jjigae, soft tofu stew in a stone pot",
+        "width": 1100,
+        "height": 906,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "anokarina, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sundubu-jjigae_3.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Homemade tofu", "Soft tofu stew", "Korean comfort dishes"],
+    "vibeTags": ["cheap_eats", "rainy_day", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from chodanggolnyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-cho-dang-gol",
+    "slug": "cho-dang-gol-midtown",
+    "name": "Cho Dang Gol",
+    "cuisines": ["korean"],
+    "dishTypes": ["rice_dishes", "vegetarian_plates"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "55 W 35th St, New York, NY 10001",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ]
+    },
+    "editorialTake": "Tofu made in house and bubbling stews in a homey room near Koreatown. Comfort food at fair prices; walk-in only.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://chodanggolnyc.com",
+    "lat": 40.75017,
+    "lng": -73.98634
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/her-name-is-han-nomad-1.jpg",
+        "alt": "Illustrative photo: a spread of Korean banchan side dishes",
+        "width": 922,
+        "height": 692,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Timber Tank, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Korean_side_dishes-Banchan-01.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Homestyle Korean dishes", "Weekend brunch"],
+    "vibeTags": ["date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from hernameishan.com/contactus. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-her-name-is-han",
+    "slug": "her-name-is-han-nomad",
+    "name": "Her Name Is Han",
+    "cuisines": ["korean"],
+    "dishTypes": ["rice_dishes"],
+    "borough": "manhattan",
+    "neighborhood": "NoMad",
+    "address": "17 E 31st St, New York, NY 10016",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "15:00"
+        },
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "Homestyle Korean cooking in a cozy, wood-lined room just off Fifth Avenue, busy from lunch to late dinner.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 72,
+    "website": "https://www.hernameishan.com",
+    "lat": 40.74623,
+    "lng": -73.98476
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/cote-flatiron-1.jpg",
+        "alt": "COTE's entrance on West 22nd Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cote_(restaurant)_22St_HDR_2022_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Butcher's Feast", "Dry-aged steak grilled at the table"],
+    "vibeTags": ["date_night", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from cotekoreansteakhouse.com (Flatiron page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-cote-flatiron",
+    "slug": "cote-flatiron",
+    "name": "COTE",
+    "cuisines": ["korean"],
+    "dishTypes": ["bbq"],
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "16 W 22nd St, New York, NY 10010",
+    "priceLevel": 4,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A glossy Korean steakhouse where prime and dry-aged beef is grilled at your table. A splurge for a celebration.",
+    "bestTimeToVisit": "Dinner",
+    "timeNeededMinutes": 120,
+    "trendingScore": 82,
+    "website": "https://www.cotekoreansteakhouse.com",
+    "lat": 40.74105,
+    "lng": -73.99142
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/insa-gowanus-1.jpg",
+        "alt": "Illustrative photo: Korean fried chicken",
+        "width": 1100,
+        "height": 618,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Startandstar, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Korean_fried_chicken_240206.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Korean barbecue", "Fried chicken", "Karaoke rooms"],
+    "vibeTags": ["group_friendly", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and dining hours from insabrooklyn.com. Closed Mondays and Tuesdays; karaoke runs later than dining. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-insa",
+    "slug": "insa-gowanus",
+    "name": "Insa",
+    "cuisines": ["korean"],
+    "dishTypes": ["bbq", "fried_chicken"],
+    "borough": "brooklyn",
+    "neighborhood": "Gowanus",
+    "address": "328 Douglass St, Brooklyn, NY 11217",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "17:30",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:30",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:30",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:30",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Korean barbecue and fried chicken in Gowanus, with private karaoke rooms for after dinner. Made for birthdays and groups.",
+    "bestTimeToVisit": "Dinner, then karaoke",
+    "timeNeededMinutes": 120,
+    "trendingScore": 72,
+    "website": "https://insabrooklyn.com",
+    "lat": 40.67942,
+    "lng": -73.98269
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/soothr-east-village-1.jpg",
+        "alt": "Illustrative photo: khao soi curry noodle soup with crispy noodles",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Douglas Perkins, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Khao_Soi_02.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Khao soi", "Signature noodles"],
+    "vibeTags": ["local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from soothrnyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-soothr",
+    "slug": "soothr-east-village",
+    "name": "Soothr",
+    "cuisines": ["thai"],
+    "dishTypes": ["noodle_soup", "dry_noodles"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "204 E 13th St, New York, NY 10003",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "15:30"
+        },
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Thai noodle specialists near Union Square: rich khao soi, fragrant noodle soups and bold wok noodles.",
+    "bestTimeToVisit": "Weekday lunch special",
+    "timeNeededMinutes": 60,
+    "trendingScore": 76,
+    "website": "https://soothrnyc.com",
+    "lat": 40.73227,
+    "lng": -73.98735
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/fish-cheeks-noho-1.jpg",
+        "alt": "Illustrative photo: crab in a yellow Thai curry sauce",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "User:Takoradee, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Pu_Phat_Phong_Kari.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      }
+    ],
+    "mustTry": ["Coconut crab curry", "Whole fish"],
+    "vibeTags": ["group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from fishcheeksnyc.com (NoHo location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-fish-cheeks",
+    "slug": "fish-cheeks-noho",
+    "name": "Fish Cheeks",
+    "cuisines": ["thai"],
+    "dishTypes": ["seafood", "curry"],
+    "borough": "manhattan",
+    "neighborhood": "NoHo",
+    "address": "55 Bond St, New York, NY 10012",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:15"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "22:15"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "22:15"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "22:15"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "22:15"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "23:15"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "23:15"
+        }
+      ]
+    },
+    "editorialTake": "Bright, spicy Thai seafood on Bond Street, famous for its coconut crab curry and whole fish for the table.",
+    "bestTimeToVisit": "Happy hour, noon to 5 PM",
+    "timeNeededMinutes": 75,
+    "trendingScore": 78,
+    "website": "https://www.fishcheeksnyc.com",
+    "lat": 40.72574,
+    "lng": -73.9927
+  },
+  {
+    "photos": [],
+    "mustTry": ["Charcoal-grilled dishes", "Contemporary Thai curries"],
+    "vibeTags": ["date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from bangkoksupperclubnyc.com (location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-bangkok-supper-club",
+    "slug": "bangkok-supper-club-west-village",
+    "name": "Bangkok Supper Club",
+    "cuisines": ["thai"],
+    "dishTypes": ["bbq", "curry"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "641 Hudson St, New York, NY 10014",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "16:00",
+          "close": "22:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "22:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "22:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "22:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "22:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "16:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A moody West Village supper club for contemporary Thai cooking, with much of the menu cooked over charcoal.",
+    "bestTimeToVisit": "Dinner",
+    "timeNeededMinutes": 90,
+    "trendingScore": 76,
+    "website": "https://www.bangkoksupperclubnyc.com",
+    "lat": 40.73903,
+    "lng": -74.0058
+  },
+  {
+    "photos": [],
+    "mustTry": ["Southern Thai curries", "Seafood"],
+    "vibeTags": ["local_favorite", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: hours from hungrythirstynyc.com (5 to 9 PM, closed Mondays). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-hungry-thirsty",
+    "slug": "hungry-thirsty-carroll-gardens",
+    "name": "Hungry Thirsty",
+    "cuisines": ["thai"],
+    "dishTypes": ["curry", "seafood"],
+    "borough": "brooklyn",
+    "neighborhood": "Carroll Gardens",
+    "address": "407 Smith St, Brooklyn, NY 11231",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Southern Thai cooking in Carroll Gardens with fiery curries and seafood that do not tone down the spice. Dinner only; closed Mondays.",
+    "bestTimeToVisit": "Early dinner",
+    "timeNeededMinutes": 75,
+    "trendingScore": 68,
+    "website": "https://www.hungrythirstynyc.com",
+    "lat": 40.67794,
+    "lng": -73.99605
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/semma-greenwich-village-1.jpg",
+        "alt": "Semma's storefront on Greenwich Avenue",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Transpoman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Semma_NYC.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/semma-greenwich-village-2.jpg",
+        "alt": "Illustrative photo: a masala dosa with chutneys and sambar",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "OdetomyLife, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Masala_Dosa_or_Dosai.JPG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Gunpowder dosa", "Southern Indian specialties"],
+    "vibeTags": ["date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from semma.nyc. Closed Sundays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-semma",
+    "slug": "semma-greenwich-village",
+    "name": "Semma",
+    "cuisines": ["indian"],
+    "dishTypes": ["curry"],
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "60 Greenwich Ave, New York, NY 10011",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Chef Vijay Kumar's celebrated Southern Indian restaurant, cooking the dishes of Tamil Nadu with no compromises. Reservations open 15 days ahead.",
+    "bestTimeToVisit": "Dinner (book ahead)",
+    "timeNeededMinutes": 90,
+    "trendingScore": 86,
+    "website": "https://www.semma.nyc",
+    "lat": 40.73607,
+    "lng": -74.00069
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/dhamaka-lower-east-side-1.jpg",
+        "alt": "Essex Market across Delancey Street, home of Dhamaka",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Essex_Market_across_Delancey_St_2021_jeh.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/dhamaka-lower-east-side-2.jpg",
+        "alt": "Illustrative photo: goat curry with rice and roti",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Alpha from Melbourne, Australia, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lamb_Rogan_Josh,_Goat_Curry,_Spinach_and_Beans_with_half-rice_and_1_roti_-_Zam_Zam_AUD8_(2786164923).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Bold regional Indian dishes", "Weekend brunch"],
+    "vibeTags": ["group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from dhamaka.nyc. No phone; reservations by email or SevenRooms. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-dhamaka",
+    "slug": "dhamaka-lower-east-side",
+    "name": "Dhamaka",
+    "cuisines": ["indian"],
+    "dishTypes": ["curry"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "119 Delancey St (Essex Market), New York, NY 10002",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Unapologetic regional Indian cooking inside Essex Market, with dishes rarely found on New York menus. Bring friends and share.",
+    "bestTimeToVisit": "Weekend brunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 82,
+    "website": "https://www.dhamaka.nyc",
+    "lat": 40.71823,
+    "lng": -73.98808
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/adda-east-village-1.jpg",
+        "alt": "Illustrative photo: butter chicken in a creamy tomato sauce",
+        "width": 1100,
+        "height": 731,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "stu_spivack, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Butter chicken", "Regional Indian dishes"],
+    "vibeTags": ["local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours (5 to 10 PM daily) from addanyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-adda",
+    "slug": "adda-east-village",
+    "name": "Adda",
+    "cuisines": ["indian"],
+    "dishTypes": ["curry"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "107 1st Ave, New York, NY 10003",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "An Indian canteen in the East Village with regional home-style cooking and a much-loved butter chicken.",
+    "bestTimeToVisit": "Weeknight dinner",
+    "timeNeededMinutes": 75,
+    "trendingScore": 80,
+    "website": "https://www.addanyc.com",
+    "lat": 40.72685,
+    "lng": -73.98623
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bungalow-east-village-1.jpg",
+        "alt": "Illustrative photo: an Indian thali with curries, rice and bread",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Vyacheslav Argenberg, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Darjeeling,_India,_Indian_Thali_meal.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Indian comfort dishes", "Cocktails"],
+    "vibeTags": ["date_night", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from bungalowny.com (last seating 10 PM). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-bungalow",
+    "slug": "bungalow-east-village",
+    "name": "Bungalow",
+    "cuisines": ["indian"],
+    "dishTypes": ["curry"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "24 1st Ave, New York, NY 10009",
+    "priceLevel": 3,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Chef Vikas Khanna's elegant East Village restaurant, serving Indian comfort food with a sense of occasion. Closed Mondays.",
+    "bestTimeToVisit": "Dinner",
+    "timeNeededMinutes": 90,
+    "trendingScore": 80,
+    "website": "https://www.bungalowny.com",
+    "lat": 40.72365,
+    "lng": -73.98795
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/masalawala-and-sons-park-slope-1.jpg",
+        "alt": "Masalawala & Sons' green storefront on Fifth Avenue in Park Slope",
+        "width": 1100,
+        "height": 1433,
+        "source": "other",
+        "attribution": {
+          "text": "Veggiegalaxy, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Masalawala_%26_Sons.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/masalawala-and-sons-park-slope-2.jpg",
+        "alt": "Illustrative photo: Bengali fish curry",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Ferdous, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Vetki_fish_curry_01.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Bengali specialties", "Homestyle dishes"],
+    "vibeTags": ["local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "category": "restaurant",
+    "isFree": false,
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-27: address and hours from masalawala.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-masalawala-and-sons",
+    "slug": "masalawala-and-sons-park-slope",
+    "name": "Masalawala & Sons",
+    "cuisines": ["indian"],
+    "dishTypes": ["curry"],
+    "borough": "brooklyn",
+    "neighborhood": "Park Slope",
+    "address": "365 5th Ave, Brooklyn, NY 11215",
+    "priceLevel": 2,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "14:30"
+        },
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Bengali home cooking in Park Slope, from the team behind Dhamaka and Semma, with dishes rarely seen on New York menus. Closed Mondays.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 74,
+    "website": "https://www.masalawala.com",
+    "lat": 40.67124,
+    "lng": -73.98427
   }
 ]

@@ -470,7 +470,8 @@
     "seafood": "Mariscos",
     "burgers": "Hamburguesas",
     "fried_chicken": "Pollo frito",
-    "vegetarian_plates": "Platos vegetarianos"
+    "vegetarian_plates": "Platos vegetarianos",
+    "pasta": "Pasta"
   },
   "drinkType": {
     "coffee": "Café",
@@ -667,7 +668,16 @@
       "hells-kitchen": "Restaurantes del distrito de los teatros por la Novena Avenida y el Intrepid sobre el Hudson.",
       "washington-heights": "Comida y música dominicana, The Met Cloisters y parques en lo alto de los acantilados sobre el Hudson.",
       "flatbush": "Panaderías caribeñas, pollo jerk y roti por las avenidas Flatbush y Church.",
-      "woodside": "Los restaurantes filipinos de Little Manila y pubs irlandeses bajo el tren 7."
+      "woodside": "Los restaurantes filipinos de Little Manila y pubs irlandeses bajo el tren 7.",
+      "tribeca": "Calles adoquinadas, almacenes reconvertidos y algunos de los restaurantes más célebres de la ciudad.",
+      "noho": "Lofts de hierro fundido, los restaurantes de Bond Street y a un paso de los dos Villages.",
+      "flatiron": "El Flatiron Building, Madison Square Park y muchos de los mejores restaurantes.",
+      "murray-hill": "Calles tranquilas cerca de Grand Central, con delis clásicos y bares de barrio.",
+      "fort-greene": "Casas de piedra rojiza junto a Fort Greene Park, mercados de domingo y bistrós de barrio.",
+      "cobble-hill": "Calles arboladas y las tiendas y restaurantes de Oriente Medio de Atlantic Avenue.",
+      "carroll-gardens": "Panaderías italianas de siempre, jardines delanteros y muchos restaurantes en Smith Street.",
+      "gowanus": "Viejos almacenes junto al canal convertidos en bares, salas de música y restaurantes.",
+      "bay-ridge": "Comida de Oriente Medio y escandinava en la Tercera Avenida, con vistas al puente Verrazzano."
     }
   },
   "credits": {

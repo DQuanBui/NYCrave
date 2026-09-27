@@ -147,6 +147,21 @@ export function isOpenForWindow(
   )
 }
 
+/** The earliest start at or after `fromMinutes` that keeps a visit of `duration` inside opening hours. */
+export function earliestOpenStart(
+  hours: WeeklyHours,
+  weekday: number,
+  fromMinutes: number,
+  duration: number,
+): number | null {
+  let best: number | null = null
+  for (const [start, end] of intervalsAround(hours, weekday)) {
+    const at = Math.max(fromMinutes, start)
+    if (at + duration <= end && (best === null || at < best)) best = at
+  }
+  return best
+}
+
 /** True if the place is open now or opens again before midnight. */
 export function isOpenLaterToday(hours: WeeklyHours, clock: NycClock): boolean {
   return intervalsAround(hours, clock.weekday).some(
