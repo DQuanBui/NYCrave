@@ -308,6 +308,11 @@
     "amenities": "Amenities",
     "seasonalNotes": "Seasonal notes",
     "similar": "More like this",
+    "reviewsTitle": "Reviews from Google",
+    "googleRating": "{rating} on Google ({count, plural, one {# review} other {# reviews}})",
+    "stars": "{rating} out of 5 stars",
+    "reviewsAttribution": "Ratings and reviews from Google.",
+    "seeOnGoogle": "See all on Google Maps",
     "back": "Back",
     "today": "Today"
   },

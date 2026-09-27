@@ -6,7 +6,8 @@ import { LineBullet } from "@/components/brand/line-bullet"
 import { CopyButton } from "@/components/place/copy-button"
 import { HoursBadge } from "@/components/place/hours-badge"
 import { HoursTable } from "@/components/place/hours-table"
-import { PlacePhoto } from "@/components/place/place-photo"
+import { GoogleReviews } from "@/components/place/google-reviews"
+import { PhotoGallery } from "@/components/place/photo-gallery"
 import { PlaceRail } from "@/components/place/place-rail"
 import { PriceLevel } from "@/components/place/price-level"
 import { SaveButton } from "@/components/place/save-button"
@@ -15,6 +16,7 @@ import { UnverifiedTag } from "@/components/place/unverified-tag"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { appleMapsUrl, distanceKm, googleMapsUrl, transitDirectionsUrl } from "@/lib/geo"
+import { getGooglePlaceDetails } from "@/lib/google-places"
 import { LINES } from "@/lib/lines"
 import { placeTagKeys } from "@/lib/place-display"
 import { getPlaceBySlug, getPlaces } from "@/lib/places"
@@ -25,7 +27,8 @@ import type { Place } from "@/types/place"
 
 type Props = PageProps<"/[locale]/place/[slug]">
 
-export const dynamicParams = false
+// New places from the database render on first request; Google data refreshes hourly
+export const revalidate = 3600
 
 export async function generateStaticParams() {
   return (await getPlaces()).map((p) => ({ slug: p.slug }))
@@ -64,6 +67,11 @@ export default async function PlacePage({ params }: Props) {
     ...(place.dietary ?? []).map((d) => `dietary.${d}` as const),
   ]
 
+  const google = place.googlePlaceId
+    ? await getGooglePlaceDetails(place.googlePlaceId, place.name)
+    : null
+  const photos = [...place.photos, ...(google?.photos ?? [])]
+
   const similar = (await getPlaces({ category: place.category }))
     .filter((p) => p.id !== place.id)
     .sort((a, b) => distanceKm(place, a) - distanceKm(place, b))
@@ -79,11 +87,9 @@ export default async function PlacePage({ params }: Props) {
       ) : null}
 
       <div className="relative">
-        <PlacePhoto
+        <PhotoGallery
           place={place}
-          priority
-          emojiSize="lg"
-          sizes="100vw"
+          photos={photos}
           className="aspect-[16/10] w-full sm:aspect-[21/9] lg:max-h-[28rem]"
         />
         <Link
@@ -215,6 +221,8 @@ export default async function PlacePage({ params }: Props) {
               ) : null}
             </div>
           ) : null}
+
+          {google ? <GoogleReviews details={google} /> : null}
 
           {tags.length > 0 ? (
             <ul className="flex flex-wrap gap-1.5">

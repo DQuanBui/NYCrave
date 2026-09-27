@@ -37,6 +37,7 @@ export function PlacePhoto({
           fill
           sizes={sizes}
           priority={priority}
+          unoptimized={photo.source === "google_places"}
           className="object-cover"
         />
         {photo.attribution ? (

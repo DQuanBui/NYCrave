@@ -7,6 +7,9 @@ import { initLocale } from "@/i18n/locale"
 import { getPlaces } from "@/lib/places"
 import { CATEGORIES, type Category } from "@/types/place"
 
+// Refresh listings from the database every few minutes
+export const revalidate = 300
+
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   await initLocale(params)
   const t = await getTranslations("home")

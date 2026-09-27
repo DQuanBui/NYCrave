@@ -1,0 +1,171 @@
+import type { Metadata } from "next"
+import { LineBullet } from "@/components/brand/line-bullet"
+import { LoginForm, SyncSeedButton } from "@/components/admin/admin-forms"
+import { initLocale } from "@/i18n/locale"
+import { Link } from "@/i18n/navigation"
+import { adminEnabled, isAdmin } from "@/lib/admin-auth"
+import { writeBackend } from "@/lib/place-store"
+import { getPlaces } from "@/lib/places"
+import { supabaseConfigured } from "@/lib/supabase"
+import { CATEGORY_META } from "@/lib/taxonomy"
+import { logoutAction, setVerifiedAction } from "./actions"
+
+export const metadata: Metadata = { title: "Admin", robots: { index: false, follow: false } }
+
+// Depends on env and the session cookie at request time
+export const dynamic = "force-dynamic"
+
+const BACKEND_LABEL = {
+  supabase: "Supabase (live database)",
+  json: "Local JSON files (development only)",
+  readonly: "Read-only: set Supabase env vars to edit in production",
+} as const
+
+/** Internal tool for adding and verifying places. English only by design. */
+export default async function AdminPage({ params }: PageProps<"/[locale]/admin">) {
+  await initLocale(params)
+
+  if (!adminEnabled()) {
+    return (
+      <Shell>
+        <p>
+          Admin is disabled. Set <code className="font-semibold">ADMIN_PASSWORD</code> in{" "}
+          <code className="font-semibold">.env.local</code> to turn it on.
+        </p>
+      </Shell>
+    )
+  }
+  if (!(await isAdmin())) {
+    return (
+      <Shell>
+        <LoginForm />
+      </Shell>
+    )
+  }
+
+  const places = (await getPlaces({}, { sort: "name" })).sort(
+    (a, b) => Number(a.verified) - Number(b.verified),
+  )
+  const unverified = places.filter((p) => !p.verified).length
+  const backend = writeBackend()
+
+  return (
+    <Shell>
+      <div className="flex flex-wrap items-center gap-3">
+        <p className="rounded-full bg-muted px-3 py-1 text-sm font-semibold">
+          Writes go to: {BACKEND_LABEL[backend]}
+        </p>
+        <p className="rounded-full bg-taxi px-3 py-1 text-sm font-semibold text-taxi-foreground">
+          {unverified} of {places.length} unverified
+        </p>
+        <form action={logoutAction} className="ml-auto">
+          <button type="submit" className="text-sm font-semibold underline underline-offset-4">
+            Sign out
+          </button>
+        </form>
+      </div>
+
+      <div className="flex flex-wrap items-start gap-4">
+        {backend !== "readonly" ? (
+          <Link
+            href="/admin/place/new"
+            className="inline-flex h-10 items-center rounded-full bg-foreground px-5 text-sm font-bold text-background"
+          >
+            Add a place
+          </Link>
+        ) : null}
+        {supabaseConfigured && backend === "supabase" ? <SyncSeedButton /> : null}
+      </div>
+
+      <div className="overflow-x-auto rounded-2xl border">
+        <table className="w-full min-w-[40rem] text-sm">
+          <thead className="bg-muted text-left">
+            <tr>
+              <th scope="col" className="px-4 py-3">
+                Place
+              </th>
+              <th scope="col" className="px-4 py-3">
+                Neighborhood
+              </th>
+              <th scope="col" className="px-4 py-3">
+                Updated
+              </th>
+              <th scope="col" className="px-4 py-3">
+                Status
+              </th>
+              <th scope="col" className="px-4 py-3">
+                <span className="sr-only">Actions</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {places.map((p) => {
+              const meta = CATEGORY_META[p.category]
+              return (
+                <tr key={p.id} className="border-t">
+                  <td className="px-4 py-3">
+                    <span className="flex items-center gap-2 font-semibold">
+                      <LineBullet line={meta.line} size="xs">
+                        {meta.bullet}
+                      </LineBullet>
+                      {p.name}
+                    </span>
+                  </td>
+                  <td className="px-4 py-3 text-muted-foreground">{p.neighborhood}</td>
+                  <td className="px-4 py-3 text-muted-foreground tabular-nums">
+                    {p.updatedAt.slice(0, 10)}
+                  </td>
+                  <td className="px-4 py-3">
+                    {backend === "readonly" ? (
+                      p.verified ? (
+                        "Verified"
+                      ) : (
+                        "Unverified"
+                      )
+                    ) : (
+                      <form action={setVerifiedAction}>
+                        <input type="hidden" name="id" value={p.id} />
+                        <input type="hidden" name="verified" value={p.verified ? "0" : "1"} />
+                        <button
+                          type="submit"
+                          disabled={!p.verified && Boolean(p.verificationNotes?.includes("TODO"))}
+                          title={
+                            !p.verified && p.verificationNotes?.includes("TODO")
+                              ? "Resolve the TODO notes in the editor first"
+                              : undefined
+                          }
+                          className="rounded-full border-2 px-3 py-1 text-xs font-bold disabled:opacity-50"
+                        >
+                          {p.verified ? "Verified: undo" : "Mark verified"}
+                        </button>
+                      </form>
+                    )}
+                  </td>
+                  <td className="px-4 py-3 text-right">
+                    {backend !== "readonly" ? (
+                      <Link
+                        href={`/admin/place/${p.id}`}
+                        className="font-semibold underline underline-offset-4"
+                      >
+                        Edit
+                      </Link>
+                    ) : null}
+                  </td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
+    </Shell>
+  )
+}
+
+function Shell({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="mx-auto max-w-6xl space-y-6 px-4 py-10 lg:px-8">
+      <h1 className="font-display text-display-lg">Places admin</h1>
+      {children}
+    </div>
+  )
+}
