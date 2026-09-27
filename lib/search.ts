@@ -1,5 +1,6 @@
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getStatusAt, isOpen, isOpenLaterToday, type NycClock } from "@/lib/hours"
+import { expandForeign, SPANISH } from "@/lib/search-synonyms"
 import { BOROUGHS, CUISINES } from "@/types/enums"
 import type {
   Borough,
@@ -269,8 +270,8 @@ for (const n of NEIGHBORHOODS) {
   ]
 }
 
-for (const [vi, en] of Object.entries(VIETNAMESE)) {
-  PHRASES[vi] = [...(PHRASES[vi] ?? []), ...PHRASES[en]]
+for (const [foreign, en] of [...Object.entries(VIETNAMESE), ...Object.entries(SPANISH)]) {
+  PHRASES[foreign] = [...(PHRASES[foreign] ?? []), ...PHRASES[en]]
 }
 
 /** Longest phrases first so "bubble tea" wins over "tea". */
@@ -306,7 +307,7 @@ export function parseQuery(q: string): SearchIntent {
     dietary: [],
     terms: [],
   }
-  let rest = ` ${normalizeQuery(q)} `
+  let rest = ` ${normalizeQuery(expandForeign(q))} `
   for (const phrase of PHRASE_LIST) {
     const needle = ` ${phrase} `
     if (!rest.includes(needle)) continue

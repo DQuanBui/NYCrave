@@ -1,0 +1,849 @@
+{
+  "meta": {
+    "title": "NYCrave：纽约吃喝玩乐指南",
+    "titleTemplate": "%s | NYCrave",
+    "description": "写给本地人和游客的纽约指南：按菜系和菜品找餐厅，咖啡与鸡尾酒，好玩的去处，拍照地点，公园，还有帮你安排一整天行程的规划工具。"
+  },
+  "nav": {
+    "home": "首页",
+    "eat": "美食",
+    "sip": "饮品",
+    "explore": "探索",
+    "shop": "购物",
+    "photoSpots": "拍照",
+    "parks": "公园",
+    "tips": "旅行贴士",
+    "myDay": "我的一天",
+    "saved": "收藏",
+    "search": "搜索",
+    "main": "主导航",
+    "tabs": "栏目",
+    "skipToContent": "跳到正文",
+    "openMenu": "打开菜单",
+    "menuTitle": "所有栏目",
+    "menuDescription": "NYCrave 的每一条线路。",
+    "homeLabel": "NYCrave 首页",
+    "neighborhoods": "街区",
+    "map": "地图"
+  },
+  "theme": {
+    "toggle": "切换到{mode}模式",
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "hero": {
+    "announcement": "下一站是",
+    "srAlt": "纽约任何让你嘴馋的地方",
+    "pause": "暂停轮播目的地",
+    "play": "继续轮播目的地",
+    "searchScene": "搜索{scene}",
+    "scenes": {
+      "dumplings": "唐人街的点心",
+      "rooftop": "日落时的屋顶酒吧",
+      "museum": "雨天的博物馆",
+      "vintage": "Greenpoint 的古着",
+      "skyline": "蓝调时刻的天际线",
+      "pier": "黄金时刻的码头"
+    },
+    "intro": "在五大区找到吃、喝、玩、买的好去处，看看现在哪里开门，再围绕它安排一整天。",
+    "weather": "纽约今天：最高 {temp}°F，降雨概率 {chance}%。",
+    "rainyIdeas": "雨天去处",
+    "hotIdeas": "避暑室内去处",
+    "coldIdeas": "避寒室内去处"
+  },
+  "search": {
+    "label": "搜索地点",
+    "placeholder": "试试“饺子”或“奶茶”",
+    "submit": "搜索",
+    "title": "搜索",
+    "resultsFor": "“{query}”的搜索结果",
+    "count": "{count, plural, =0 {没有地点} other {# 个地点}}",
+    "understood": "正在搜索",
+    "emptyTitle": "这条线路暂时还没有内容",
+    "emptyBody": "没有与“{query}”相符的地点。试试某道菜、某个街区或某种氛围。",
+    "startTitle": "你想吃什么？",
+    "startBody": "按菜品、饮品、街区或心情搜索，中文或英文都可以。",
+    "suggestions": "试试这些",
+    "openNow": "正在营业",
+    "openToday": "今天营业",
+    "free": "免费",
+    "suggestPlaces": "推荐地点"
+  },
+  "moods": {
+    "title": "选个心情",
+    "dateNight": "约会",
+    "cheapEats": "平价美食",
+    "lateNight": "深夜",
+    "rainyDay": "雨天",
+    "kidFriendly": "带孩子",
+    "instagrammable": "适合拍照",
+    "freeToday": "今天免费",
+    "openNow": "正在营业"
+  },
+  "home": {
+    "trending": "热门",
+    "openNow": "正在营业",
+    "freeToday": "今天免费",
+    "localFavorites": "本地人最爱",
+    "seeAll": "查看全部",
+    "openNowEmpty": "我们收录的地点现在都没开门。深夜去处今晚会再次营业。",
+    "freeTodayEmpty": "今天没有开放的免费去处。去公园和码头看看吧。",
+    "linesTitle": "按线路浏览",
+    "linesCount": "{count, plural, other {# 站}}",
+    "myDayTitle": "规划我的一天",
+    "myDayBody": "选好日期、心情和预算。我们会根据真正营业的地点，从早餐一路安排到睡前一杯，并标出每站之间的步行和地铁时间。",
+    "myDayCta": "规划一天",
+    "myDayStops": {
+      "breakfast": "早餐",
+      "morning": "上午",
+      "lunch": "午餐",
+      "afternoon": "下午",
+      "coffee": "咖啡",
+      "dinner": "晚餐",
+      "night": "夜晚"
+    },
+    "surprise": "给我惊喜",
+    "surpriseLabel": "随机前往一个正在营业的地点",
+    "seeMap": "在地图上查看全部"
+  },
+  "categories": {
+    "restaurant": {
+      "nav": "美食",
+      "label": "餐厅",
+      "title": "美食",
+      "tagline": "按菜系和菜品找餐厅，从柜台小吃到约会晚餐。"
+    },
+    "drink": {
+      "nav": "饮品",
+      "label": "饮品",
+      "title": "饮品",
+      "tagline": "咖啡、奶茶、抹茶、鸡尾酒吧和屋顶酒吧。"
+    },
+    "attraction": {
+      "nav": "探索",
+      "label": "景点",
+      "title": "探索",
+      "tagline": "博物馆、地标和好玩的事，免费或需购票。"
+    },
+    "shopping": {
+      "nav": "购物",
+      "label": "购物",
+      "title": "购物",
+      "tagline": "旗舰店、古着和二手店，以及周末市集。"
+    },
+    "photo_spot": {
+      "nav": "拍照",
+      "label": "拍照地点",
+      "title": "拍照地点",
+      "tagline": "站在哪里拍，什么时候光线最好。"
+    },
+    "park_pier": {
+      "nav": "公园",
+      "label": "公园或码头",
+      "title": "公园与码头",
+      "tagline": "绿地和滨水空间，以及每个季节能看到什么。"
+    }
+  },
+  "filters": {
+    "label": "筛选",
+    "open": "正在营业",
+    "free": "免费",
+    "borough": "行政区",
+    "anyBorough": "所有行政区",
+    "neighborhood": "街区",
+    "anyNeighborhood": "所有街区",
+    "price": "价格",
+    "anyPrice": "任意价格",
+    "upTo": "最高 {price}",
+    "vibe": "氛围",
+    "anyVibe": "任意氛围",
+    "dietary": "饮食",
+    "anyDietary": "无限制",
+    "light": "最佳光线",
+    "anyLight": "任意时段",
+    "sort": "排序",
+    "sortTrending": "热门",
+    "sortName": "按名称",
+    "sortPrice": "价格从低到高",
+    "view": "视图",
+    "list": "列表",
+    "map": "地图",
+    "clear": "清除筛选",
+    "results": "{count, plural, =0 {没有地点} other {# 个地点}}",
+    "noResultsTitle": "没有符合条件的站点",
+    "noResultsBody": "没有地点能同时满足这些筛选条件。去掉一个，或者全部清除。",
+    "mapLabel": "{count, plural, other {# 个地点}}的地图",
+    "viewPlace": "查看地点",
+    "resultsHeading": "地点",
+    "nearMe": "附近",
+    "locating": "正在定位",
+    "locationDenied": "定位已关闭。请在浏览器中允许定位，以便按距离排序。",
+    "locationFar": "你似乎不在纽约市内，所以距离会比较远。"
+  },
+  "browse": {
+    "cuisine": "按菜系浏览",
+    "dish": "按菜品浏览",
+    "drink": "想喝点什么？",
+    "shop": "按店铺类型浏览",
+    "all": "这条线路上的所有站点",
+    "shoppingNeighborhoods": "购物街区",
+    "showAll": "显示全部 {count} 个",
+    "showFewer": "收起",
+    "back": "{section}的全部",
+    "cuisineTagline": "五大区的{name}餐厅。",
+    "dishTagline": "在纽约哪里吃{name}。",
+    "drinkTagline": "值得专程去的{name}。",
+    "shopTagline": "纽约的{name}购物。",
+    "cuisineTitle": "纽约的{name}餐厅",
+    "dishTitle": "纽约的{name}",
+    "drinkTitle": "纽约的{name}",
+    "shopTitle": "纽约的{name}店铺"
+  },
+  "planner": {
+    "title": "规划我的一天",
+    "intro": "告诉我们时间、地点和你喜欢的出行方式。我们会围绕营业中的地点安排一天，并标出每站之间的步行和地铁时间。",
+    "edit": "修改你的一天",
+    "date": "日期",
+    "start": "开始",
+    "end": "结束",
+    "endHint": "结束时间早于开始时间，表示行程跨过午夜。",
+    "from": "出发地",
+    "budget": "人均预算",
+    "budgetValue": "${amount}",
+    "mood": "心情",
+    "moods": {
+      "first_timer": "第一次来纽约",
+      "foodie": "吃货",
+      "romantic": "浪漫",
+      "chill": "悠闲",
+      "adventurous": "冒险",
+      "artsy": "文艺"
+    },
+    "interests": "兴趣",
+    "interest": {
+      "food": "美食",
+      "coffee": "咖啡和茶",
+      "museums": "博物馆",
+      "art": "艺术",
+      "shopping": "购物",
+      "photos": "拍照地点",
+      "parks": "公园和码头",
+      "views": "景观",
+      "nightlife": "夜生活"
+    },
+    "dietary": "饮食需求",
+    "pace": "节奏",
+    "paces": {
+      "relaxed": "轻松",
+      "packed": "紧凑"
+    },
+    "paceHints": {
+      "relaxed": "站点更少，每站停留更久",
+      "packed": "每站停留更短，下午多一站"
+    },
+    "weather": "查看天气预报",
+    "weatherHint": "可能下雨时优先安排室内地点",
+    "submit": "规划我的一天",
+    "slots": {
+      "breakfast": "早餐",
+      "morning": "上午",
+      "lunch": "午餐",
+      "afternoon": "下午",
+      "afternoon2": "傍晚",
+      "coffee": "咖啡时间",
+      "dinner": "晚餐",
+      "night": "夜晚"
+    },
+    "walk": "步行 {minutes} 分钟",
+    "subway": "地铁 {minutes} 分钟",
+    "fare": "票价 ${fare}",
+    "cost": "约 ${amount}",
+    "free": "免费",
+    "until": "营业至 {time}",
+    "swap": "换掉这一站",
+    "swapLabel": "换掉{slot}：{name}",
+    "summaryStops": "{count, plural, other {# 站}}",
+    "summaryCost": "人均约 ${amount}",
+    "summaryTravel": "路上共 {duration}",
+    "duration": "{hours, plural, =0 {} other {# 小时 }}{minutes} 分钟",
+    "startPoint": "从{name}出发",
+    "rainLikely": "可能下雨（{chance}%），所以优先安排室内地点。",
+    "dry": "降雨概率低（{chance}%）。",
+    "noForecast": "这一天还没有天气预报，所以行程暂不考虑天气。",
+    "unfilled": "{slots}没有营业中且在预算内的地点。试试换个开始时间、提高预算或减少饮食筛选。",
+    "emptyTitle": "这一天没有合适的站点",
+    "emptyBody": "这个时间段内没有营业中且在预算内的地点。放宽时间范围或提高预算。",
+    "save": "保存这一天",
+    "savedDay": "已保存",
+    "share": "分享",
+    "export": "加入日历",
+    "mapLabel": "你这一天的路线图",
+    "costNote": "费用为人均粗略估算，依据各地点的价格档次和票价。",
+    "savedDays": "已保存的行程",
+    "remove": "删除 {label}",
+    "enhance": "用 AI 优化",
+    "enhancing": "正在优化",
+    "enhanceError": "无法优化这一天。你的行程没有变化。",
+    "enhanceHint": "只从 NYCrave 收录的地点中挑选，并重新核对营业时间和预算。",
+    "presets": {
+      "title": "或者从现成的一天开始",
+      "intro": "每个行程都按今天真正营业的地点安排。选一个，再换掉你不喜欢的。",
+      "budgetLabel": "预算 ${budget}",
+      "classic": {
+        "bullet": "1",
+        "title": "经典第一天",
+        "blurb": "初次来访必看的地标和纽约名吃，从 Midtown 出发。"
+      },
+      "foodie": {
+        "bullet": "F",
+        "title": "美食之旅",
+        "blurb": "一天之内吃尽美味，中间来杯咖啡。从唐人街出发。"
+      },
+      "waterfront": {
+        "bullet": "G",
+        "title": "布鲁克林滨水一日",
+        "blurb": "慢节奏逛公园、码头和拍照地点，从 DUMBO 出发。"
+      },
+      "artsy": {
+        "bullet": "A",
+        "title": "艺术与博物馆",
+        "blurb": "慢慢欣赏这座城市的伟大收藏，从 Upper East Side 出发。"
+      },
+      "date": {
+        "bullet": "D",
+        "title": "约会之夜",
+        "blurb": "有景观、晚餐和甜点的一个晚上，从 West Village 出发。"
+      },
+      "budget": {
+        "bullet": "$",
+        "title": "大城市，小预算",
+        "blurb": "约 $50 玩一整天的平价美食和免费景点，从 Lower East Side 出发。"
+      }
+    },
+    "hot": "今天很热（最高 {temp}°F），所以优先安排室内地点。",
+    "cold": "今天很冷（最高 {temp}°F），所以优先安排室内地点。",
+    "openRoute": "在 Google 地图中打开完整路线",
+    "newTab": "（在新标签页中打开）"
+  },
+  "listing": {
+    "count": "{count, plural, =0 {暂无地点} other {# 个地点}}",
+    "emptyTitle": "这条线路仍在建设中",
+    "emptyBody": "这里还没有地点。新站点经核实后会陆续加入。"
+  },
+  "place": {
+    "unverified": "未核实",
+    "unverifiedHint": "已根据官方来源整理，但尚未与商家确认。",
+    "free": "免费",
+    "save": "收藏 {name}",
+    "unsave": "取消收藏 {name}",
+    "saved": "已收藏",
+    "share": "分享",
+    "linkCopied": "链接已复制",
+    "mustTry": "必点",
+    "editorialTake": "我们的看法",
+    "hours": "营业时间",
+    "location": "位置",
+    "openInGoogleMaps": "在 Google 地图中打开",
+    "openInAppleMaps": "在 Apple 地图中打开",
+    "transitDirections": "公共交通路线",
+    "timeNeededLabel": "所需时间",
+    "timeNeeded": "约 {minutes} 分钟",
+    "bookTickets": "购票",
+    "bestTime": "最佳时间",
+    "tickets": "门票",
+    "priceLevel": "价格档次 {level}（共 4 档）",
+    "photoComingSoon": "照片即将上线",
+    "bestLight": "最佳光线",
+    "coordinates": "精确位置",
+    "copyCoordinates": "复制坐标",
+    "copied": "已复制",
+    "photoTips": "拍照贴士",
+    "activities": "活动",
+    "amenities": "设施",
+    "seasonalNotes": "季节提示",
+    "similar": "类似地点",
+    "reviewsTitle": "Google 评价",
+    "googleRating": "Google 评分 {rating}（{count, plural, other {# 条评价}}）",
+    "stars": "{rating} 星（满分 5 星）",
+    "reviewsAttribution": "评分和评价来自 Google。",
+    "seeOnGoogle": "在 Google 地图上查看全部",
+    "back": "返回",
+    "today": "今天",
+    "illustrative": "示意图",
+    "photoCredit": "照片：{credit}",
+    "distanceWalk": "{distance} 英里，步行 {minutes} 分钟",
+    "distanceSubway": "{distance} 英里，地铁 {minutes} 分钟",
+    "planAround": "围绕这里规划一天"
+  },
+  "hours": {
+    "open": "营业中",
+    "closingSoon": "即将打烊",
+    "closed": "已打烊",
+    "openingSoon": "即将营业",
+    "open24h": "24 小时营业",
+    "unavailable": "暂无营业时间",
+    "checking": "正在查询营业时间",
+    "until": "营业至 {time}",
+    "at": "{time}",
+    "opensAt": "{time} 开门",
+    "opensTomorrow": "明天 {time} 开门",
+    "opensOn": "{day} {time} 开门"
+  },
+  "saved": {
+    "title": "收藏",
+    "count": "{count, plural, other {# 个地点}}",
+    "emptyTitle": "还没有收藏",
+    "emptyBody": "点击任意地点上的心形即可收藏。收藏的地点保存在这台设备上。",
+    "emptyCta": "找点吃的",
+    "shareList": "分享这个清单",
+    "shareTitle": "我的 NYCrave 清单",
+    "sharedTitle": "有人与你分享了一个清单",
+    "sharedBody": "有人给你发来了这些地点。全部收藏，就能保存在这台设备上。",
+    "saveAll": "全部收藏（{count} 个）",
+    "allSaved": "已全部收藏",
+    "yours": "你收藏的地点"
+  },
+  "footer": {
+    "dataNote": "标为“未核实”的地点已根据官方来源整理，但尚未与商家确认。营业时间和价格可能变动，出发前请先确认。地点介绍目前仅有英文。",
+    "copyright": "© {year} NYCrave",
+    "language": "语言",
+    "credits": "照片来源",
+    "privacy": "隐私"
+  },
+  "notFound": {
+    "title": "本站暂停服务",
+    "body": "你要找的页面不存在或已移动。",
+    "cta": "返回首页"
+  },
+  "rail": {
+    "previous": "向前滚动{title}",
+    "next": "向后滚动{title}"
+  },
+  "cuisine": {
+    "vietnamese": "越南菜",
+    "korean": "韩国菜",
+    "japanese": "日本料理",
+    "chinese": "中餐",
+    "thai": "泰国菜",
+    "indian": "印度菜",
+    "american": "美式",
+    "italian": "意大利菜",
+    "mexican": "墨西哥菜",
+    "french": "法国菜",
+    "greek": "希腊菜",
+    "middle_eastern": "中东菜",
+    "caribbean": "加勒比菜",
+    "ethiopian": "埃塞俄比亚菜",
+    "filipino": "菲律宾菜",
+    "malaysian": "马来西亚菜",
+    "taiwanese": "台湾菜",
+    "spanish": "西班牙菜",
+    "turkish": "土耳其菜",
+    "peruvian": "秘鲁菜",
+    "jewish_deli": "犹太熟食",
+    "halal": "清真",
+    "colombian": "哥伦比亚菜",
+    "dominican": "多米尼加菜",
+    "polish": "波兰菜",
+    "georgian": "格鲁吉亚菜",
+    "west_african": "西非菜",
+    "nepali": "尼泊尔菜"
+  },
+  "dish": {
+    "bbq": "烧烤",
+    "noodle_soup": "汤面",
+    "dry_noodles": "拌面炒面",
+    "dumplings": "饺子点心",
+    "rice_dishes": "饭类",
+    "hot_pot": "火锅",
+    "sushi": "寿司",
+    "ramen": "拉面",
+    "curry": "咖喱",
+    "sandwiches": "三明治",
+    "pizza": "披萨",
+    "bagels": "贝果",
+    "tacos": "塔可",
+    "brunch": "早午餐",
+    "bakery": "烘焙",
+    "desserts": "甜品",
+    "street_food": "街头小吃",
+    "seafood": "海鲜",
+    "burgers": "汉堡",
+    "fried_chicken": "炸鸡",
+    "vegetarian_plates": "素食"
+  },
+  "drinkType": {
+    "coffee": "咖啡",
+    "bubble_tea": "珍珠奶茶",
+    "tea": "茶",
+    "matcha": "抹茶",
+    "cocktails": "鸡尾酒",
+    "rooftop_bar": "屋顶酒吧",
+    "wine_bar": "葡萄酒吧",
+    "juice": "果汁"
+  },
+  "shopType": {
+    "flagship": "旗舰店",
+    "vintage": "古着",
+    "thrift": "二手店",
+    "market": "市集",
+    "boutique": "精品店",
+    "bookstore": "书店",
+    "department_store": "百货公司"
+  },
+  "vibe": {
+    "date_night": "适合约会",
+    "cheap_eats": "平价",
+    "late_night": "深夜营业",
+    "rainy_day": "雨天好去处",
+    "kid_friendly": "适合孩子",
+    "instagrammable": "适合拍照",
+    "local_favorite": "本地人最爱",
+    "tourist_classic": "经典景点",
+    "group_friendly": "适合聚会",
+    "solo_friendly": "适合独自前往",
+    "outdoor": "户外",
+    "quiet": "安静"
+  },
+  "dietary": {
+    "vegetarian": "素食",
+    "vegan": "纯素",
+    "halal": "清真",
+    "kosher": "犹太洁食",
+    "gluten_free": "无麸质"
+  },
+  "borough": {
+    "manhattan": "曼哈顿",
+    "brooklyn": "布鲁克林",
+    "queens": "皇后区",
+    "bronx": "布朗克斯",
+    "staten_island": "史坦顿岛"
+  },
+  "light": {
+    "sunrise": "日出",
+    "morning": "上午",
+    "midday": "正午",
+    "golden_hour": "黄金时刻",
+    "blue_hour": "蓝调时刻",
+    "night": "夜晚"
+  },
+  "tips": {
+    "title": "旅行贴士",
+    "tagline": "在纽约出行、付款、给小费和舒服玩耍的实用信息。",
+    "contents": "本页内容",
+    "subway": {
+      "title": "地铁与 OMNY",
+      "items": [
+        "在闸机或公交车上的 OMNY 读卡器上刷非接触式银行卡、手机或手表即可，不需要 MetroCard。",
+        "每次都用同一张卡或同一台设备：7 天内付费乘坐满 12 次后，这一周剩下的乘车都免费。",
+        "用同一张卡刷卡，两小时内地铁和公交之间换乘免费。",
+        "Uptown 是往北，downtown 是往南。进站刷卡前先看站台或入口的指示牌。",
+        "Local 列车每站都停，express 列车会跳过一些站。列车车头和车身的标志会写明。",
+        "地铁 24 小时运行，但夜间和周末常有线路调整，出发前请先查询。"
+      ],
+      "source": "票价与线路调整：mta.info"
+    },
+    "tipping": {
+      "title": "小费与税",
+      "items": [
+        "有服务员的餐厅：通常给税前账单的 18% 到 22%。",
+        "酒吧：每杯约 $1 到 $2，或账单的 20% 左右。",
+        "柜台点餐和咖啡店：小费随意，给一两美元会被感谢。",
+        "出租车和网约车：15% 到 20%。",
+        "标价通常不含销售税，结账时另加（纽约市为 8.875%）。"
+      ]
+    },
+    "safety": {
+      "title": "安全与礼仪",
+      "items": [
+        "先下后上，不要倚靠车门。",
+        "乘扶梯时靠右站立，左侧通行。",
+        "在人多的地方拉好包的拉链，手机拿在手上，不要放在后裤袋。",
+        "拥挤的列车上出现空车厢通常有原因，换一节车厢吧。",
+        "紧急情况请拨 911。城市服务和非紧急问题请拨 311。"
+      ]
+    },
+    "neighborhoods": {
+      "title": "街区指南",
+      "intro": "按行政区看 NYCrave 地点的分布。点一个街区看看那里有什么。",
+      "count": "{count, plural, =0 {暂无地点} other {# 个地点}}"
+    },
+    "seasons": {
+      "title": "四季纽约",
+      "note": "每年日期都会变化，安排行程前请查看活动官网。",
+      "spring": {
+        "title": "春季",
+        "body": "公园里樱花盛开，户外餐位重回街边。"
+      },
+      "summer": {
+        "title": "夏季",
+        "body": "公园里有免费户外音乐会和电影，公共海滩从阵亡将士纪念日周末开放到劳动节。"
+      },
+      "fall": {
+        "title": "秋季",
+        "body": "公园里的秋叶，10 月 31 日的格林威治村万圣节游行，以及 11 月初的纽约马拉松。"
+      },
+      "winter": {
+        "title": "冬季",
+        "body": "节日橱窗和灯饰、户外溜冰场，以及时代广场的新年倒计时落球。"
+      }
+    },
+    "airports": {
+      "title": "从机场进城",
+      "items": [
+        "从 JFK：乘 AirTrain 到 Jamaica（E、J、Z 线或 LIRR）或 Howard Beach（A 线）。AirTrain 票价在出站时支付。",
+        "从拉瓜迪亚：Q70 LaGuardia Link 巴士开往 Jackson Heights–Roosevelt Avenue 地铁站和 Woodside 的 LIRR 站。",
+        "从纽瓦克：AirTrain Newark 连接 Newark Liberty International Airport 站，可换乘 NJ Transit 和 Amtrak 到纽约宾州车站。",
+        "黄色出租车在 JFK 和曼哈顿之间收固定车费，另加过路费和小费。乘车前请确认当前金额。",
+        "只在到达层外的官方候车点打车，不要理会航站楼内主动拉客的人。"
+      ],
+      "source": "机场交通与票价：panynj.gov"
+    },
+    "calculator": {
+      "title": "这顿晚饭到底要花多少？",
+      "bill": "菜单税前总额",
+      "tip": "小费",
+      "people": "人数",
+      "fewer": "减少一人",
+      "more": "增加一人",
+      "tax": "销售税（{rate}%）",
+      "tipAmount": "小费",
+      "total": "总计",
+      "each": "每人支付",
+      "invalid": "输入菜单总额，查看税费和小费。",
+      "note": "小费按税前金额计算。有些餐厅会对多人用餐加收服务费；如有，再付小费前请先看清账单。"
+    }
+  },
+  "offline": {
+    "title": "你已离线",
+    "body": "NYCrave 大部分功能需要联网。你收藏的地点保存在这台设备上，离线也能打开。"
+  },
+  "neighborhoods": {
+    "title": "街区",
+    "tagline": "NYCrave 的所有地点，按街区和行政区一一呈现。",
+    "count": "{count, plural, =0 {暂无地点} other {# 个地点}}",
+    "placesIn": "{name}的地点",
+    "nearby": "附近街区",
+    "planDay": "从这里开始规划一天",
+    "mapLabel": "{name}的地点地图",
+    "emptyTitle": "这里还没有地点",
+    "emptyBody": "我们还没有收录{name}的地点。看看附近的街区吧。",
+    "blurbs": {
+      "financial-district": "华尔街、9/11 纪念馆和港口边的渡轮，这座城市的起点。",
+      "chinatown": "点心茶楼、面包店和蔬果摊挤满了下城的窄街。",
+      "lower-east-side": "老式公寓楼、经典熟食店和深夜酒吧。",
+      "soho": "铸铁建筑、鹅卵石街道和旗舰店。",
+      "east-village": "面馆、鸡尾酒吧和圣马可街的热闹，营业到很晚。",
+      "west-village": "弯弯曲曲的林荫小街、爵士俱乐部和街角的披萨。",
+      "union-square": "热闹的十字路口，有农夫市集、书店和通往四面八方的地铁。",
+      "meatpacking-district": "旧仓库改成的精品店、高线公园南端和哈德逊河滨。",
+      "chelsea": "画廊、切尔西市场和头顶上的高线公园。",
+      "nomad": "宏伟的老酒店、屋顶酒吧和旁边的麦迪逊广场公园。",
+      "koreatown": "32 街的一个街区，满是烤肉、KTV 和深夜汤饭。",
+      "midtown": "时代广场、百老汇剧院和电影里见过的摩天大楼。",
+      "midtown-east": "中央车站、克莱斯勒大厦和通往罗斯福岛的缆车。",
+      "upper-west-side": "博物馆、褐石房屋和两座公园：一边是中央公园，一边是河滨公园。",
+      "upper-east-side": "第五大道上的博物馆大道和安静的联排住宅街区。",
+      "harlem": "灵魂料理、爵士历史和 125 街上的阿波罗剧院。",
+      "williamsburg": "滨水公园、屋顶酒吧、咖啡烘焙坊和周末美食市集。",
+      "greenpoint": "波兰面包店、古着店和东河边安静的街道。",
+      "dumbo": "两座大桥之间的鹅卵石街道，还有布鲁克林被拍得最多的风景。",
+      "brooklyn-heights": "港口上方的褐石街道，以及面朝下曼哈顿的滨海步道。",
+      "park-slope": "褐石房屋、亲子咖啡馆和展望公园的边缘。",
+      "bushwick": "仓库墙上的壁画、画廊和深夜酒吧。",
+      "sunset-park": "布鲁克林的唐人街、墨西哥卷饼店和俯瞰港口的山顶公园。",
+      "flushing": "纽约最大的唐人街之一：饺子点心、美食广场和奶茶。",
+      "astoria": "希腊小酒馆、啤酒花园和动态影像博物馆。",
+      "jackson-heights": "罗斯福大道和 74 街一带的南亚和拉丁美洲美食。",
+      "long-island-city": "看 Midtown 天际线最好的滨河公园，还有 MoMA PS1。",
+      "belmont": "布朗克斯的小意大利，以亚瑟大道为中心。",
+      "mott-haven": "南布朗克斯的历史联排房屋和日渐活跃的艺术圈。",
+      "st-george": "史坦顿岛渡轮码头，可以隔着港口眺望曼哈顿。",
+      "greenwich-village": "华盛顿广场、爵士俱乐部、老咖啡馆，以及民谣复兴开始的街道。",
+      "prospect-heights": "位于展望公园、布鲁克林博物馆和植物园之间的褐石街区。",
+      "flushing-meadows": "1964 年世博会旧址：大地球仪、博物馆和花旗球场旁的大片草坪。",
+      "bronx-park": "布朗克斯动物园和纽约植物园，并排坐落在布朗克斯河畔的林中。",
+      "nolita": "小意大利北边林荫街道上的精品小店、咖啡馆和老牌意大利面包店。",
+      "hells-kitchen": "第九大道上的剧院区餐厅，以及哈德逊河上的无畏号。",
+      "washington-heights": "多米尼加美食和音乐、大都会修道院分馆，以及哈德逊河畔崖顶的公园。",
+      "flatbush": "弗拉特布什大道和教堂大道一带的加勒比面包店、牙买加烤鸡和罗蒂饼。",
+      "woodside": "小马尼拉的菲律宾餐厅，以及 7 号线高架下的爱尔兰酒吧。"
+    }
+  },
+  "credits": {
+    "title": "照片来源",
+    "tagline": "NYCrave 照片背后的摄影师。",
+    "intro": "照片来自 Wikimedia Commons，采用自由许可。每张照片的来源都列在下方：点击署名查看原始文件，点击许可查看条款。",
+    "illustrativeNote": "标为“示意图”的照片展示的是典型的菜品、饮品或场景，并非该地点本身。",
+    "home": "首页",
+    "license": "许可",
+    "count": "{count, plural, other {# 张照片}}"
+  },
+  "subway": {
+    "title": "最近的地铁站",
+    "trains": "线路：{routes}",
+    "walk": "步行 {minutes} 分钟",
+    "accessible": "无障碍车站",
+    "source": "车站和白天线路来自 MTA 开放数据。周末和夜间的调整请查看 mta.info。",
+    "linesHere": "这里的地铁线路",
+    "take": "乘坐",
+    "fromTo": "从 {from} 到 {to}",
+    "train": "{route} 线"
+  },
+  "sun": {
+    "title": "今天纽约的光线",
+    "sunrise": "日出",
+    "goldenMorning": "早晨黄金时刻",
+    "goldenEvening": "傍晚黄金时刻",
+    "sunset": "日落",
+    "blueEvening": "蓝调时刻",
+    "range": "{start}–{end}",
+    "note": "按这个地点的坐标计算。高楼可能挡住低角度的太阳，请稍早到达。",
+    "noteCity": "按下曼哈顿计算；城市各处会相差一两分钟。高楼可能挡住低角度的太阳，请稍早到达。"
+  },
+  "holidays": {
+    "major": "{name}：许多地点（包括博物馆）会关门或缩短营业时间。出发前请先确认。",
+    "minor": "{name}：大多数地点照常营业，但有些按节假日时间营业。",
+    "names": {
+      "newYearsDay": "元旦",
+      "mlkDay": "马丁·路德·金纪念日",
+      "presidentsDay": "总统日",
+      "memorialDay": "阵亡将士纪念日",
+      "juneteenth": "六月节",
+      "independenceDay": "独立日",
+      "laborDay": "劳动节",
+      "indigenousPeoplesDay": "原住民日",
+      "veteransDay": "退伍军人节",
+      "thanksgiving": "感恩节",
+      "christmasEve": "平安夜",
+      "christmas": "圣诞节",
+      "newYearsEve": "除夕夜"
+    }
+  },
+  "report": {
+    "open": "有错误？告诉我们",
+    "title": "报告问题",
+    "intro": "帮助我们让{name}的信息保持准确。我们会对照商家的官方来源核对每一份报告。",
+    "what": "哪里有问题？",
+    "kinds": {
+      "closed": "已经停业",
+      "hours": "营业时间有误",
+      "location": "地址或地图位置有误",
+      "photo": "照片有误",
+      "other": "其他问题"
+    },
+    "note": "详细说明（选填）",
+    "notePlaceholder": "例如：周末改为上午 11 点开门",
+    "send": "发送报告",
+    "sending": "正在发送…",
+    "thanks": "谢谢！我们会核实并修正页面。",
+    "close": "关闭",
+    "error": "发送失败，请重试。",
+    "limited": "你已经发送了好几份报告，请过几分钟再试。",
+    "privacy": "我们只保存你在这里写的内容，不需要姓名或邮箱。"
+  },
+  "cityMap": {
+    "title": "城市地图",
+    "description": "NYCrave 的所有地点尽在一张地图：按线路筛选，看看哪里正在营业，找到你附近的去处。",
+    "label": "NYCrave 地点地图",
+    "count": "{count, plural, =0 {没有符合条件的地点} other {# 个地点}}",
+    "openNow": "正在营业",
+    "open": "打开地点",
+    "close": "关闭预览"
+  },
+  "privacy": {
+    "title": "隐私",
+    "tagline": "NYCrave 保存什么、发送什么，以及从不收集什么。",
+    "device": {
+      "title": "保存在你的设备上",
+      "items": [
+        "收藏的地点和行程保存在浏览器的本地存储中。它们不会离开你的设备，清除浏览器数据就会删除。",
+        "你选择的浅色或深色模式也以同样方式保存。",
+        "如果你安装了 NYCrave，应用会保留一份收藏地点的副本，离线也能打开。"
+      ]
+    },
+    "location": {
+      "title": "你的位置",
+      "items": [
+        "只有在你点击“附近”时，才会向浏览器请求你的位置。",
+        "距离和步行时间都在你的设备上计算。你的位置不会发送给 NYCrave，也不会被保存。"
+      ]
+    },
+    "reports": {
+      "title": "问题报告",
+      "items": [
+        "你报告某个地点的问题时，我们会保存地点、问题类型和你写的备注。没有姓名或邮箱栏。",
+        "为防止大量刷报告，服务器会在内存中按网络地址短暂计数，不会保存。"
+      ]
+    },
+    "services": {
+      "title": "网站使用的服务",
+      "items": [
+        "地图图块来自 OpenFreeMap，所以你的浏览器会向它的服务器请求图块，和任何在线地图一样。",
+        "天气预报来自 Open-Meteo。NYCrave 的服务器只请求纽约的天气，不会发送任何关于你的信息。",
+        "开启 Google Places 后，地点照片和评价由 NYCrave 的服务器获取，并注明来自 Google。"
+      ]
+    },
+    "assistant": {
+      "title": "问答助手",
+      "items": [
+        "“问问 NYCrave”在服务器上用 NYCrave 自己的数据回答。问题不会被保存。",
+        "如果网站开启了 AI 回答，你的问题和当前对话会发送给运行 Claude 模型的 Anthropic 以生成回答。请不要在聊天中分享个人信息。"
+      ]
+    },
+    "none": {
+      "title": "NYCrave 从不做的事",
+      "items": [
+        "没有账户，没有广告，没有数据分析，也没有追踪 Cookie。",
+        "唯一的 Cookie 是编辑后台的登录 Cookie。"
+      ]
+    },
+    "updated": "最后更新：2026 年 9 月 27 日。"
+  },
+  "assistant": {
+    "open": "问问 NYCrave",
+    "title": "问问 NYCrave",
+    "intro": "可以问美食、景点、出行或一天的安排。回答基于 NYCrave 收录的地点。",
+    "try": "试着问问",
+    "suggestions": [
+      "唐人街哪里有好吃的饺子点心？",
+      "帮两个人规划曼哈顿的一个雨天",
+      "今晚 East Village 有什么营业到很晚？",
+      "从 JFK 机场怎么去 Midtown？"
+    ],
+    "label": "你的问题",
+    "placeholder": "问问关于纽约的事…",
+    "send": "发送",
+    "stop": "停止回答",
+    "clear": "清空聊天",
+    "you": "你",
+    "assistantLabel": "NYCrave 助手",
+    "thinking": "正在查询",
+    "disclaimer": "AI 的回答可能有误，出发前请确认营业时间。问题会发送给 Anthropic 以生成回答。",
+    "privacy": "隐私",
+    "errors": {
+      "not_configured": "助手尚未开启。",
+      "rate_limited": "你在短时间内问了很多问题，请过几分钟再试。",
+      "busy": "助手现在很忙，请稍后再试。",
+      "invalid": "问题太长了，请缩短一些。",
+      "failed": "出了点问题，请重试。",
+      "aborted": "已停止。"
+    },
+    "introFree": "可以问美食、景点、营业时间、出行或一天的安排。回答直接来自 NYCrave 的地点和贴士。",
+    "disclaimerFree": "回答来自 NYCrave 自己的数据，不使用 AI。营业时间可能变动，出发前请先确认。",
+    "helper": {
+      "greeting": "你好！可以问我去哪吃、去哪喝、去哪玩，现在哪里开门，某个地方的营业时间，怎么出行，或者说“在 East Village 规划一天”。",
+      "thanks": "不客气，祝你在纽约玩得开心！",
+      "found": "NYCrave 找到了这些：",
+      "seeAll": "查看所有结果",
+      "noResults": "没有找到相关的 NYCrave 地点。试试某道菜、某种饮品、某个街区或心情，比如 “pizza in the West Village” 或 “free museums”。",
+      "planIntro": "这是从{from}出发、根据营业情况安排的一天：",
+      "planLink": "在“我的一天”中打开并修改",
+      "noPlan": "现在没法排出一天的行程。试试“我的一天”，自己选时间和预算。",
+      "tipsLink": "更多内容见旅行贴士页面",
+      "address": "地址",
+      "subway": "最近的地铁站：{station}（{trains}），步行约 {minutes} 分钟。",
+      "checkHours": "营业时间已根据官方来源整理，但尚未与商家确认，出发前请先核实。"
+    }
+  }
+}

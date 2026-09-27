@@ -5,7 +5,8 @@ import { getPlaces } from "@/lib/places"
 const places = await getPlaces()
 // Saturday 2026-10-03, 1 PM in New York
 const NOW = new Date("2026-10-03T17:00:00Z")
-const ask = (q: string, locale: "en" | "vi" = "en") => helperAnswer(q, places, NOW, locale)
+const ask = (q: string, locale: "en" | "vi" | "es" | "zh" | "ko" = "en") =>
+  helperAnswer(q, places, NOW, locale)
 
 describe("free helper", () => {
   it("greets and explains what it can do", () => {
@@ -64,5 +65,33 @@ describe("free helper", () => {
     const a = ask("sushi in queens")
     expect(a.places).toEqual([])
     expect(a.text).toMatch(/couldn't find a NYCrave place/)
+  })
+})
+
+describe("free helper in Spanish, Chinese and Korean", () => {
+  it("answers in the visitor's language with local times", () => {
+    const es = ask("¿Dónde como dumplings en Chinatown?", "es")
+    expect(es.places).toContain("nom-wah-tea-parlor")
+    expect(es.text).toMatch(/^Esto es lo que tiene NYCrave/)
+    expect(es.text).toMatch(/abierto ahora, hasta las \d/)
+
+    const zh = ask("唐人街哪里有好吃的饺子点心？", "zh")
+    expect(zh.places).toContain("nom-wah-tea-parlor")
+    expect(zh.text).toMatch(/正在营业，营业至 \d{1,2}:\d{2}/)
+
+    const ko = ask("차이나타운에서 딤섬 먹을 곳은?", "ko")
+    expect(ko.places).toContain("nom-wah-tea-parlor")
+    expect(ko.text).toMatch(/영업 중, \d{1,2}:\d{2}까지/)
+  })
+
+  it("plans days and answers tips from translated questions", () => {
+    expect(ask("Planea un día de lluvia en Manhattan", "es").text).toContain("](/my-day?")
+    expect(ask("帮两个人规划曼哈顿的一个雨天", "zh").text).toContain("](/my-day?")
+    expect(ask("두 사람이 맨해튼에서 보낼 비 오는 날 일정 짜 줘", "ko").text).toContain(
+      "](/my-day?",
+    )
+    expect(ask("¿Cómo llego del aeropuerto JFK a Midtown?", "es").text).toMatch(/AirTrain/)
+    expect(ask("从 JFK 机场怎么去 Midtown？", "zh").text).toMatch(/AirTrain/)
+    expect(ask("JFK 공항에서 미드타운까지 어떻게 가요?", "ko").text).toMatch(/AirTrain/)
   })
 })

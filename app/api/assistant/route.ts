@@ -21,7 +21,7 @@ const bodySchema = z.object({
     )
     .min(1)
     .max(MAX_TURNS),
-  locale: z.enum(["en", "vi"]).default("en"),
+  locale: z.enum(["en", "vi", "es", "zh", "ko"]).default("en"),
 })
 
 // Best-effort guards for a paid endpoint, per server instance

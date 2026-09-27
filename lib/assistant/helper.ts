@@ -1,8 +1,12 @@
 import en from "@/messages/en.json"
+import es from "@/messages/es.json"
+import ko from "@/messages/ko.json"
 import vi from "@/messages/vi.json"
+import zh from "@/messages/zh.json"
 import { findNeighborhood } from "@/data/neighborhoods"
 import { placeTool, planTool, searchTool } from "@/lib/assistant/tools"
 import { normalizeQuery, parseQuery } from "@/lib/search"
+import { expandForeign } from "@/lib/search-synonyms"
 import type { Mood } from "@/lib/planner/types"
 import type { Place } from "@/types/place"
 
@@ -12,7 +16,11 @@ import type { Place } from "@/types/place"
  * costs nothing to run and can only ever mention places that are on NYCrave.
  */
 
-type Locale = "en" | "vi"
+type Locale = "en" | "vi" | "es" | "zh" | "ko"
+const MESSAGES = { en, vi, es, zh, ko }
+
+/** Lowercase, accent-free, with Chinese and Korean words turned into English. */
+const read = (question: string) => normalizeQuery(expandForeign(question))
 export type HelperAnswer = { text: string; places: string[] }
 
 const has = (q: string, words: string[]) => words.some((w) => ` ${q} `.includes(` ${w} `))
@@ -28,6 +36,8 @@ const TIP_TOPICS = {
     "ewr",
     "airtrain",
     "san bay",
+    "aeropuerto",
+    "aeropuertos",
   ],
   subway: [
     "subway",
@@ -41,9 +51,36 @@ const TIP_TOPICS = {
     "tau dien",
     "tau dien ngam",
     "ve tau",
+    "tren",
+    "trenes",
+    "tarifa",
   ],
-  tipping: ["tip", "tips", "tipping", "tax", "taxes", "tien tip", "thue", "boa"],
-  safety: ["safe", "safety", "dangerous", "emergency", "911", "an toan", "nguy hiem", "khan cap"],
+  tipping: [
+    "tip",
+    "tips",
+    "tipping",
+    "tax",
+    "taxes",
+    "tien tip",
+    "thue",
+    "boa",
+    "propina",
+    "propinas",
+    "impuesto",
+  ],
+  safety: [
+    "safe",
+    "safety",
+    "dangerous",
+    "emergency",
+    "911",
+    "an toan",
+    "nguy hiem",
+    "khan cap",
+    "seguridad",
+    "seguro",
+    "emergencia",
+  ],
   seasons: [
     "season",
     "seasons",
@@ -57,6 +94,11 @@ const TIP_TOPICS = {
     "mua he",
     "mua xuan",
     "mua thu",
+    "invierno",
+    "verano",
+    "primavera",
+    "otono",
+    "navidad",
   ],
 } as const
 
@@ -69,6 +111,10 @@ const PLAN_WORDS = [
   "len lich",
   "ke hoach",
   "mot ngay",
+  "planea",
+  "planear",
+  "planifica",
+  "itinerario",
 ]
 const DETAIL_WORDS = [
   "hours",
@@ -86,15 +132,30 @@ const DETAIL_WORDS = [
   "dia chi",
   "di den",
   "may gio",
+  "horario",
+  "abre",
+  "cierra",
+  "direccion",
+  "como llego",
+  "a que hora",
 ]
-const GREETINGS = ["hi", "hello", "hey", "help", "xin chao", "chao", "giup"]
-const THANKS = ["thanks", "thank you", "thx", "cam on"]
+const GREETINGS = ["hi", "hello", "hey", "help", "xin chao", "chao", "giup", "hola", "ayuda"]
+const THANKS = ["thanks", "thank you", "thx", "cam on", "gracias"]
 
 const MOOD_WORDS: [Mood, string[]][] = [
-  ["romantic", ["romantic", "date", "couple", "hen ho", "lang man"]],
-  ["foodie", ["food", "foodie", "eat", "eating", "an uong", "am thuc"]],
-  ["artsy", ["art", "museum", "museums", "gallery", "nghe thuat", "bao tang"]],
-  ["chill", ["chill", "relax", "relaxing", "slow", "thu thai", "thong tha"]],
+  [
+    "romantic",
+    ["romantic", "date", "date night", "couple", "hen ho", "lang man", "cita", "romantico"],
+  ],
+  ["foodie", ["food", "foodie", "eat", "eating", "an uong", "am thuc", "comida", "comer"]],
+  [
+    "artsy",
+    ["art", "museum", "museums", "gallery", "nghe thuat", "bao tang", "arte", "museo", "museos"],
+  ],
+  [
+    "chill",
+    ["chill", "relax", "relaxing", "slow", "thu thai", "thong tha", "tranquilo", "relajado"],
+  ],
   ["adventurous", ["adventure", "adventurous", "local", "hidden", "phieu luu"]],
 ]
 
@@ -150,7 +211,7 @@ function distinctiveWords(places: Place[]): Map<string, Place> {
 }
 
 export function findPlaceIn(question: string, places: Place[]): Place | undefined {
-  const q = ` ${normalizeQuery(question)} `
+  const q = ` ${read(question)} `
   let best: { place: Place; len: number } | undefined
   const consider = (place: Place | undefined, key: string) => {
     if (place && q.includes(` ${key} `) && (!best || key.length > best.len))
@@ -166,7 +227,7 @@ export function findPlaceIn(question: string, places: Place[]): Place | undefine
   return best?.place
 }
 
-const L = (locale: Locale) => (locale === "vi" ? vi : en)
+const L = (locale: Locale) => MESSAGES[locale] ?? en
 
 function tipsFor(topic: keyof typeof TIP_TOPICS, locale: Locale): string {
   const tips = L(locale).tips
@@ -187,7 +248,7 @@ export function helperAnswer(
   locale: Locale,
 ): HelperAnswer {
   const h = L(locale).assistant.helper
-  const q = normalizeQuery(question)
+  const q = read(question)
 
   if (has(q, THANKS)) return { text: h.thanks, places: [] }
   if (!q || (has(q, GREETINGS) && q.split(" ").length <= 3)) return { text: h.greeting, places: [] }
@@ -203,6 +264,9 @@ export function helperAnswer(
       "raining",
       "indoor",
       "indoors",
+      "lluvia",
+      "lluvioso",
+      "frio",
       "cold",
       "mua",
       "troi mua",
@@ -261,23 +325,65 @@ export function helperAnswer(
   }
 }
 
-/** The tools describe status in English; translate the few fixed shapes. */
+type StatusWords = {
+  always: string
+  closedForGood: string
+  openUntil: (time: string, tomorrow: boolean) => string
+  opensAt: (time: string, tomorrow: boolean) => string
+  /** Use 24-hour times ("21:00") instead of "9 PM". */
+  clock24: boolean
+}
+
+const STATUS: Record<Exclude<Locale, "en">, StatusWords> = {
+  vi: {
+    always: "mở cửa 24 giờ",
+    closedForGood: "tạm đóng cửa",
+    openUntil: (t, tm) => `đang mở, đến ${tm ? "ngày mai " : ""}${t}`,
+    opensAt: (t, tm) => `đang đóng, mở lúc ${t}${tm ? " ngày mai" : ""}`,
+    clock24: true,
+  },
+  es: {
+    always: "abierto las 24 horas",
+    closedForGood: "cerrado por tiempo indefinido",
+    openUntil: (t, tm) => `abierto ahora, hasta ${tm ? "mañana a " : ""}las ${t}`,
+    opensAt: (t, tm) => `cerrado ahora, abre ${tm ? "mañana " : ""}a las ${t}`,
+    clock24: false,
+  },
+  zh: {
+    always: "24 小时营业",
+    closedForGood: "暂停营业",
+    openUntil: (t, tm) => `正在营业，营业至${tm ? "明天" : ""} ${t}`,
+    opensAt: (t, tm) => `已打烊，${tm ? "明天" : ""} ${t} 开门`,
+    clock24: true,
+  },
+  ko: {
+    always: "24시간 영업",
+    closedForGood: "휴업 중",
+    openUntil: (t, tm) => `영업 중, ${tm ? "내일 " : ""}${t}까지`,
+    opensAt: (t, tm) => `영업 종료, ${tm ? "내일 " : ""}${t} 영업 시작`,
+    clock24: true,
+  },
+}
+
+/** "9 PM" to "21:00" (Intl puts a narrow no-break space before AM/PM). */
+const to24 = (text: string) =>
+  text.replace(
+    /\b(\d{1,2})(?::(\d{2}))?[\s ](AM|PM)\b/g,
+    (_, h: string, m: string | undefined, ap: string) =>
+      `${(Number(h) % 12) + (ap === "PM" ? 12 : 0)}:${m ?? "00"}`,
+  )
+
+/** The tools describe status in English ("open now, until 9 PM"); say it in the visitor's language. */
 function statusText(status: string, locale: Locale): string {
   if (locale === "en") return status
-  return (
-    status
-      .replace("open 24 hours", "mở cửa 24 giờ")
-      .replace(/^open now, until (.+)$/, "đang mở, đến $1")
-      .replace(/^closed now, opens (.+)$/, "đang đóng, mở lúc $1")
-      .replace("closed indefinitely", "tạm đóng cửa")
-      .replace("tomorrow ", "ngày mai ")
-      // "9 PM" to "21:00" (Intl puts a narrow no-break space before AM/PM)
-      .replace(
-        /\b(\d{1,2})(?::(\d{2}))?[\s\u202f](AM|PM)\b/g,
-        (_, h: string, m: string | undefined, ap: string) => {
-          const hour = (Number(h) % 12) + (ap === "PM" ? 12 : 0)
-          return `${hour}:${m ?? "00"}`
-        },
-      )
-  )
+  const w = STATUS[locale]
+  const time = (t: string) => (w.clock24 ? to24(t) : t)
+  if (status === "open 24 hours") return w.always
+  if (status === "closed indefinitely") return w.closedForGood
+  const open = status.match(/^open now, until (tomorrow )?(.+)$/)
+  if (open) return w.openUntil(time(open[2]), Boolean(open[1]))
+  const closed = status.match(/^closed now, opens (tomorrow )?(.+)$/)
+  if (closed) return w.opensAt(time(closed[2]), Boolean(closed[1]))
+  // A bare time, as in plan stops
+  return time(status)
 }

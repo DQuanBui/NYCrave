@@ -2,7 +2,15 @@ import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { holidayOn } from "@/lib/holidays"
 import { NYC_TZ, nycDateString } from "@/lib/hours"
 
-export function assistantSystemPrompt(now: Date, locale: "en" | "vi"): string {
+const LANGUAGE = {
+  en: "English",
+  vi: "Vietnamese",
+  es: "Spanish",
+  zh: "Simplified Chinese",
+  ko: "Korean",
+}
+
+export function assistantSystemPrompt(now: Date, locale: keyof typeof LANGUAGE): string {
   const when = new Intl.DateTimeFormat("en-US", {
     timeZone: NYC_TZ,
     weekday: "long",
@@ -17,7 +25,7 @@ export function assistantSystemPrompt(now: Date, locale: "en" | "vi"): string {
   return `You are the NYCrave assistant, a friendly local guide inside NYCrave, a website about where to eat, drink, explore and shop in New York City and how to plan a day there.
 
 It is ${when} in New York (today is ${nycDateString(now)}).${holiday ? ` Today is a US holiday (${holiday.key}); hours may differ.` : ""}
-The visitor is reading the site in ${locale === "vi" ? "Vietnamese" : "English"}. Reply in the language of their latest message.
+The visitor is reading the site in ${LANGUAGE[locale]}. Reply in the language of their latest message.
 
 How to answer:
 - Recommend places only from search_places, get_place or plan_day results in this conversation. Never name a restaurant, bar, shop or attraction that the tools did not return, and never invent hours, prices, addresses, ratings or menu items.

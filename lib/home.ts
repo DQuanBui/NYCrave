@@ -113,7 +113,8 @@ export const MOODS: Mood[] = [
   { key: "instagrammable", emoji: "📸", query: "instagrammable" },
 ]
 
-export const SEARCH_SUGGESTIONS: Record<"en" | "vi", string[]> = {
+/** Search chips per language; each one must find places (see tests/seed.test.ts). */
+export const SEARCH_SUGGESTIONS: Record<"en" | "vi" | "es" | "zh" | "ko", string[]> = {
   en: [
     "dumplings in Chinatown",
     "free things to do",
@@ -129,5 +130,22 @@ export const SEARCH_SUGGESTIONS: Record<"en" | "vi", string[]> = {
     "trà sữa ở East Village",
     "bar sân thượng",
     "bảo tàng",
+  ],
+  es: [
+    "dumplings en Chinatown",
+    "atracciones gratis",
+    "pizza tarde en la noche",
+    "bubble tea en el East Village",
+    "azotea",
+    "comida peruana",
+  ],
+  zh: ["唐人街 饺子", "免费 景点", "深夜 披萨", "东村 奶茶", "屋顶 酒吧", "韩国城"],
+  ko: [
+    "차이나타운 만두",
+    "무료 명소",
+    "심야 피자",
+    "이스트 빌리지 버블티",
+    "루프톱",
+    "코리아타운",
   ],
 }

@@ -143,6 +143,34 @@
   --hero-leading: 1.12;
 }
 
+/* Chinese and Korean: Anton and Be Vietnam Pro have no CJK glyphs, so name good
+   system fonts, set headlines bold (the fallback is not a poster face) and
+   give them a little more room. */
+:root:lang(zh) {
+  --font-sans: var(--font-body), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-display: var(--font-anton), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+}
+:root:lang(ko) {
+  --font-sans: var(--font-body), "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  --font-display: var(--font-anton), "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+}
+:root:lang(zh),
+:root:lang(ko) {
+  --text-display-xl--line-height: 1.08;
+  --text-display-lg--line-height: 1.1;
+  --text-display-md--line-height: 1.15;
+  --hero-leading: 1.12;
+}
+:root:lang(zh) .font-display,
+:root:lang(ko) .font-display {
+  font-weight: 800;
+}
+/* Korean wraps between words, not inside them */
+:root:lang(ko) {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

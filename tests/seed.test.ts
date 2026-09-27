@@ -53,8 +53,7 @@ describe("seed data (real places)", () => {
 describe("home page links lead somewhere", () => {
   it.each([
     ...HERO_SCENES.map((s) => s.query),
-    ...SEARCH_SUGGESTIONS.en,
-    ...SEARCH_SUGGESTIONS.vi,
+    ...Object.values(SEARCH_SUGGESTIONS).flat(),
     ...MOODS.map((m) => m.query),
   ])("“%s” returns results", (query) => {
     // A Saturday afternoon, when most places are open

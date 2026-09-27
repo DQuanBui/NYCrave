@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest"
 import en from "@/messages/en.json"
+import es from "@/messages/es.json"
+import ko from "@/messages/ko.json"
 import vi from "@/messages/vi.json"
+import zh from "@/messages/zh.json"
+import { routing } from "@/i18n/routing"
 
 type Tree = { [key: string]: string | string[] | Tree }
 
@@ -14,29 +18,41 @@ function leaves(tree: Tree, prefix = ""): Map<string, string | string[]> {
   return out
 }
 
-// {name}, {count, plural, ...} and friends: every argument must survive translation
-const args = (s: string) =>
-  [...s.matchAll(/\{(\w+)(?=[,}])/g)]
-    .map((m) => m[1])
-    .filter((a) => a !== "other")
-    .sort()
+// ICU arguments: {name} or {count, plural, ...}. Plural branch text such as
+// "=0 {没有地点}" is not an argument, so skip braces right after a selector.
+const args = (s: string) => [
+  ...new Set(
+    [...s.matchAll(/(?<!=0 )(?<!one )(?<!other )\{([A-Za-z_]\w*)(?=[,}])/g)].map((m) => m[1]),
+  ),
+]
+
+const TRANSLATIONS = { vi, es, zh, ko } as Record<string, Tree>
 
 describe("translations", () => {
   const base = leaves(en as Tree)
-  const other = leaves(vi as Tree)
 
-  it("vi has exactly the same keys as en", () => {
-    expect([...other.keys()].sort()).toEqual([...base.keys()].sort())
+  it("covers every locale the site serves", () => {
+    expect(Object.keys(TRANSLATIONS).sort()).toEqual(
+      routing.locales.filter((l) => l !== "en").sort(),
+    )
   })
 
-  it("keeps every ICU argument and list length", () => {
-    for (const [key, value] of base) {
-      const translated = other.get(key)!
-      if (Array.isArray(value)) {
-        expect(Array.isArray(translated) && translated.length, key).toBe(value.length)
-      } else {
-        expect([...new Set(args(translated as string))], key).toEqual([...new Set(args(value))])
+  it.each(Object.entries(TRANSLATIONS))("%s has exactly the same keys as en", (_, messages) => {
+    expect([...leaves(messages).keys()].sort()).toEqual([...base.keys()].sort())
+  })
+
+  it.each(Object.entries(TRANSLATIONS))(
+    "%s keeps every ICU argument and list length",
+    (_, messages) => {
+      const other = leaves(messages)
+      for (const [key, value] of base) {
+        const translated = other.get(key)!
+        if (Array.isArray(value)) {
+          expect(Array.isArray(translated) && translated.length, key).toBe(value.length)
+        } else {
+          expect(args(translated as string).sort(), key).toEqual(args(value).sort())
+        }
       }
-    }
-  })
+    },
+  )
 })

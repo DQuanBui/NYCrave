@@ -1,0 +1,849 @@
+{
+  "meta": {
+    "title": "NYCrave: dónde comer, beber y explorar en Nueva York",
+    "titleTemplate": "%s | NYCrave",
+    "description": "Una guía de Nueva York para locales y visitantes: restaurantes por cocina y plato, café y cócteles, qué hacer, lugares para fotos, parques y un planificador que arma tu día."
+  },
+  "nav": {
+    "home": "Inicio",
+    "eat": "Comer",
+    "sip": "Beber",
+    "explore": "Explorar",
+    "shop": "Compras",
+    "photoSpots": "Fotos",
+    "parks": "Parques",
+    "tips": "Consejos",
+    "myDay": "Mi día",
+    "saved": "Guardados",
+    "search": "Buscar",
+    "main": "Principal",
+    "tabs": "Secciones",
+    "skipToContent": "Ir al contenido",
+    "openMenu": "Abrir menú",
+    "menuTitle": "Todas las secciones",
+    "menuDescription": "Todas las líneas de NYCrave.",
+    "homeLabel": "Inicio de NYCrave",
+    "neighborhoods": "Barrios",
+    "map": "Mapa"
+  },
+  "theme": {
+    "toggle": "Cambiar a modo {mode}",
+    "light": "claro",
+    "dark": "oscuro"
+  },
+  "hero": {
+    "announcement": "La próxima parada es",
+    "srAlt": "cualquier antojo en la ciudad de Nueva York",
+    "pause": "Pausar destinos",
+    "play": "Reanudar destinos",
+    "searchScene": "Buscar {scene}",
+    "scenes": {
+      "dumplings": "dumplings en Chinatown",
+      "rooftop": "una azotea al atardecer",
+      "museum": "museos en un día de lluvia",
+      "vintage": "ropa vintage en Greenpoint",
+      "skyline": "el skyline en la hora azul",
+      "pier": "un muelle en la hora dorada"
+    },
+    "intro": "Encuentra dónde comer, beber, explorar y comprar en los cinco distritos, mira qué está abierto ahora mismo y planea un día entero.",
+    "weather": "Hoy en Nueva York: máxima de {temp}°F, {chance}% de probabilidad de lluvia.",
+    "rainyIdeas": "Ideas para un día de lluvia",
+    "hotIdeas": "Ideas bajo techo para el calor",
+    "coldIdeas": "Ideas bajo techo para el frío"
+  },
+  "search": {
+    "label": "Buscar lugares",
+    "placeholder": "Prueba “dumplings” o “tacos”",
+    "submit": "Buscar",
+    "title": "Buscar",
+    "resultsFor": "Resultados para “{query}”",
+    "count": "{count, plural, =0 {Ningún lugar} one {# lugar} other {# lugares}}",
+    "understood": "Buscando",
+    "emptyTitle": "Todavía no hay nada en esta línea",
+    "emptyBody": "Ningún lugar coincide con “{query}”. Prueba un plato, un barrio o un ambiente.",
+    "startTitle": "¿Qué se te antoja?",
+    "startBody": "Busca por plato, bebida, barrio o estado de ánimo, en español o en inglés.",
+    "suggestions": "Prueba una de estas",
+    "openNow": "abierto ahora",
+    "openToday": "abierto hoy",
+    "free": "gratis",
+    "suggestPlaces": "Lugares sugeridos"
+  },
+  "moods": {
+    "title": "Elige un plan",
+    "dateNight": "Cita",
+    "cheapEats": "Comer barato",
+    "lateNight": "Tarde en la noche",
+    "rainyDay": "Día de lluvia",
+    "kidFriendly": "Con niños",
+    "instagrammable": "Para las fotos",
+    "freeToday": "Gratis hoy",
+    "openNow": "Abierto ahora"
+  },
+  "home": {
+    "trending": "Tendencia",
+    "openNow": "Abierto ahora",
+    "freeToday": "Gratis hoy",
+    "localFavorites": "Favoritos de los locales",
+    "seeAll": "Ver todo",
+    "openNowEmpty": "Ninguno de nuestros lugares está abierto ahora. Los de la noche vuelven a abrir esta tarde.",
+    "freeTodayEmpty": "Hoy no hay opciones gratis abiertas. Prueba los parques y muelles.",
+    "linesTitle": "Explora por línea",
+    "linesCount": "{count, plural, one {# parada} other {# paradas}}",
+    "myDayTitle": "Diseña mi día",
+    "myDayBody": "Elige una fecha, un plan y un presupuesto. Organizamos desde el desayuno hasta la última copa según lo que realmente está abierto, con el tiempo a pie y en metro entre paradas.",
+    "myDayCta": "Planear un día",
+    "myDayStops": {
+      "breakfast": "Desayuno",
+      "morning": "Mañana",
+      "lunch": "Almuerzo",
+      "afternoon": "Tarde",
+      "coffee": "Café",
+      "dinner": "Cena",
+      "night": "Noche"
+    },
+    "surprise": "Sorpréndeme",
+    "surpriseLabel": "Ir a un lugar al azar que esté abierto ahora",
+    "seeMap": "Verlos todos en el mapa"
+  },
+  "categories": {
+    "restaurant": {
+      "nav": "Comer",
+      "label": "Restaurante",
+      "title": "Comer",
+      "tagline": "Restaurantes por cocina y plato, desde mostradores hasta cenas románticas."
+    },
+    "drink": {
+      "nav": "Beber",
+      "label": "Bebidas",
+      "title": "Beber",
+      "tagline": "Café, bubble tea, matcha, bares de cócteles y azoteas."
+    },
+    "attraction": {
+      "nav": "Explorar",
+      "label": "Atracción",
+      "title": "Explorar",
+      "tagline": "Museos, monumentos y qué hacer, gratis o con entrada."
+    },
+    "shopping": {
+      "nav": "Compras",
+      "label": "Compras",
+      "title": "Compras",
+      "tagline": "Tiendas insignia, ropa vintage y de segunda mano, y mercados de fin de semana."
+    },
+    "photo_spot": {
+      "nav": "Fotos",
+      "label": "Lugar para fotos",
+      "title": "Lugares para fotos",
+      "tagline": "Dónde pararse y cuándo la luz es mejor."
+    },
+    "park_pier": {
+      "nav": "Parques",
+      "label": "Parque o muelle",
+      "title": "Parques y muelles",
+      "tagline": "Espacios verdes y frente al agua, con lo que ofrecen en cada estación."
+    }
+  },
+  "filters": {
+    "label": "Filtros",
+    "open": "Abierto ahora",
+    "free": "Gratis",
+    "borough": "Distrito",
+    "anyBorough": "Todos los distritos",
+    "neighborhood": "Barrio",
+    "anyNeighborhood": "Todos los barrios",
+    "price": "Precio",
+    "anyPrice": "Cualquier precio",
+    "upTo": "Hasta {price}",
+    "vibe": "Ambiente",
+    "anyVibe": "Cualquier ambiente",
+    "dietary": "Dieta",
+    "anyDietary": "Sin restricciones",
+    "light": "Mejor luz",
+    "anyLight": "Cualquier hora del día",
+    "sort": "Ordenar",
+    "sortTrending": "Tendencia",
+    "sortName": "De la A a la Z",
+    "sortPrice": "Precio, de menor a mayor",
+    "view": "Vista",
+    "list": "Lista",
+    "map": "Mapa",
+    "clear": "Quitar filtros",
+    "results": "{count, plural, =0 {Ningún lugar} one {# lugar} other {# lugares}}",
+    "noResultsTitle": "Ninguna parada coincide",
+    "noResultsBody": "Nada cumple todos esos filtros. Quita uno o bórralos todos.",
+    "mapLabel": "Mapa de {count, plural, one {# lugar} other {# lugares}}",
+    "viewPlace": "Ver lugar",
+    "resultsHeading": "Lugares",
+    "nearMe": "Cerca de mí",
+    "locating": "Buscando tu ubicación",
+    "locationDenied": "La ubicación está desactivada. Actívala en tu navegador para ordenar por distancia.",
+    "locationFar": "Parece que estás fuera de la ciudad de Nueva York, así que las distancias son largas."
+  },
+  "browse": {
+    "cuisine": "Explora por cocina",
+    "dish": "Explora por plato",
+    "drink": "¿Qué vas a beber?",
+    "shop": "Explora por tipo de tienda",
+    "all": "Todas las paradas de esta línea",
+    "shoppingNeighborhoods": "Barrios para ir de compras",
+    "showAll": "Mostrar los {count}",
+    "showFewer": "Mostrar menos",
+    "back": "Todo en {section}",
+    "cuisineTagline": "Restaurantes de cocina {name} en los cinco distritos.",
+    "dishTagline": "Dónde comer {name} en Nueva York.",
+    "drinkTagline": "Lugares de {name} que valen el viaje.",
+    "shopTagline": "Tiendas de {name} en Nueva York.",
+    "cuisineTitle": "Restaurantes de cocina {name} en NYC",
+    "dishTitle": "{name} en NYC",
+    "drinkTitle": "{name} en NYC",
+    "shopTitle": "Tiendas de {name} en NYC"
+  },
+  "planner": {
+    "title": "Diseña mi día",
+    "intro": "Dinos cuándo, dónde y cómo te gusta moverte. Organizamos el día según lo que está abierto, con el tiempo a pie y en metro entre paradas.",
+    "edit": "Editar tu día",
+    "date": "Fecha",
+    "start": "Inicio",
+    "end": "Fin",
+    "endHint": "Una hora de fin anterior a la de inicio termina después de la medianoche.",
+    "from": "Salida desde",
+    "budget": "Presupuesto por persona",
+    "budgetValue": "${amount}",
+    "mood": "Plan",
+    "moods": {
+      "first_timer": "Primera vez en NYC",
+      "foodie": "Foodie",
+      "romantic": "Romántico",
+      "chill": "Tranquilo",
+      "adventurous": "Aventurero",
+      "artsy": "Artístico"
+    },
+    "interests": "Intereses",
+    "interest": {
+      "food": "Comida",
+      "coffee": "Café y té",
+      "museums": "Museos",
+      "art": "Arte",
+      "shopping": "Compras",
+      "photos": "Lugares para fotos",
+      "parks": "Parques y muelles",
+      "views": "Vistas",
+      "nightlife": "Vida nocturna"
+    },
+    "dietary": "Necesidades de dieta",
+    "pace": "Ritmo",
+    "paces": {
+      "relaxed": "Relajado",
+      "packed": "Intenso"
+    },
+    "paceHints": {
+      "relaxed": "Menos paradas y más tiempo en cada una",
+      "packed": "Visitas más cortas y una parada extra por la tarde"
+    },
+    "weather": "Consultar el pronóstico",
+    "weatherHint": "Poner primero los lugares bajo techo si es probable que llueva",
+    "submit": "Diseñar mi día",
+    "slots": {
+      "breakfast": "Desayuno",
+      "morning": "Mañana",
+      "lunch": "Almuerzo",
+      "afternoon": "Tarde",
+      "afternoon2": "Última hora de la tarde",
+      "coffee": "Pausa para café",
+      "dinner": "Cena",
+      "night": "Noche"
+    },
+    "walk": "{minutes} min a pie",
+    "subway": "{minutes} min en metro",
+    "fare": "pasaje de ${fare}",
+    "cost": "Unos ${amount}",
+    "free": "Gratis",
+    "until": "hasta las {time}",
+    "swap": "Cambiar esta parada",
+    "swapLabel": "Cambiar {slot}, {name}",
+    "summaryStops": "{count, plural, one {# parada} other {# paradas}}",
+    "summaryCost": "Unos ${amount} por persona",
+    "summaryTravel": "{duration} de traslados",
+    "duration": "{hours, plural, =0 {} other {# h }}{minutes} min",
+    "startPoint": "Salida desde {name}",
+    "rainLikely": "Probable lluvia ({chance}%), así que primero van los lugares bajo techo.",
+    "dry": "Poca probabilidad de lluvia ({chance}%).",
+    "noForecast": "Todavía no hay pronóstico para esta fecha, así que el plan no tiene en cuenta el clima.",
+    "unfilled": "Nada abierto y dentro del presupuesto para {slots}. Prueba otra hora de inicio, un presupuesto mayor o menos filtros de dieta.",
+    "emptyTitle": "Ninguna parada encaja en este día",
+    "emptyBody": "Nada está abierto y dentro del presupuesto en ese horario. Amplía el horario o sube el presupuesto.",
+    "save": "Guardar día",
+    "savedDay": "Día guardado",
+    "share": "Compartir",
+    "export": "Agregar al calendario",
+    "mapLabel": "Mapa de la ruta de tu día",
+    "costNote": "Los costos son estimaciones aproximadas por persona, según el nivel de precios y las entradas de cada lugar.",
+    "savedDays": "Días guardados",
+    "remove": "Quitar {label}",
+    "enhance": "Mejorar con IA",
+    "enhancing": "Mejorando",
+    "enhanceError": "No se pudo mejorar este día. Tu plan no cambió.",
+    "enhanceHint": "Elige solo entre los lugares de NYCrave y luego vuelve a comprobar horarios y presupuesto.",
+    "presets": {
+      "title": "O empieza con un día ya armado",
+      "intro": "Cada uno se planea para hoy, según lo que realmente está abierto. Elige uno y cambia lo que quieras.",
+      "budgetLabel": "Presupuesto de ${budget}",
+      "classic": {
+        "bullet": "1",
+        "title": "Primer día clásico",
+        "blurb": "Monumentos y comida famosa de Nueva York para una primera visita, desde Midtown."
+      },
+      "foodie": {
+        "bullet": "F",
+        "title": "Ruta gastronómica",
+        "blurb": "Todos los buenos bocados que caben en un día, con café entre medio. Desde Chinatown."
+      },
+      "waterfront": {
+        "bullet": "G",
+        "title": "Brooklyn junto al agua",
+        "blurb": "Parques, muelles y lugares para fotos con calma, desde DUMBO."
+      },
+      "artsy": {
+        "bullet": "A",
+        "title": "Arte y museos",
+        "blurb": "Las grandes colecciones de la ciudad sin prisa, desde el Upper East Side."
+      },
+      "date": {
+        "bullet": "D",
+        "title": "Noche de cita",
+        "blurb": "Una tarde con vistas, cena y algo dulce, desde el West Village."
+      },
+      "budget": {
+        "bullet": "$",
+        "title": "Gran ciudad, bajo presupuesto",
+        "blurb": "Comida barata y lugares gratis por unos $50 todo el día, desde el Lower East Side."
+      }
+    },
+    "hot": "Hace calor (máxima de {temp}°F), así que primero van los lugares bajo techo.",
+    "cold": "Hace frío (máxima de {temp}°F), así que primero van los lugares bajo techo.",
+    "openRoute": "Abrir toda la ruta en Google Maps",
+    "newTab": "(se abre en una pestaña nueva)"
+  },
+  "listing": {
+    "count": "{count, plural, =0 {Todavía no hay lugares} one {# lugar} other {# lugares}}",
+    "emptyTitle": "Esta línea todavía está en construcción",
+    "emptyBody": "Todavía no hay lugares aquí. Agregamos nuevas paradas a medida que las verificamos."
+  },
+  "place": {
+    "unverified": "Sin verificar",
+    "unverifiedHint": "Investigado en fuentes oficiales, pero aún no confirmado con el lugar.",
+    "free": "Gratis",
+    "save": "Guardar {name}",
+    "unsave": "Quitar {name} de guardados",
+    "saved": "Guardado",
+    "share": "Compartir",
+    "linkCopied": "Enlace copiado",
+    "mustTry": "Imprescindibles",
+    "editorialTake": "Nuestra opinión",
+    "hours": "Horario",
+    "location": "Ubicación",
+    "openInGoogleMaps": "Abrir en Google Maps",
+    "openInAppleMaps": "Abrir en Apple Maps",
+    "transitDirections": "Cómo llegar en transporte público",
+    "timeNeededLabel": "Tiempo necesario",
+    "timeNeeded": "Unos {minutes} min",
+    "bookTickets": "Comprar entradas",
+    "bestTime": "Mejor momento",
+    "tickets": "Entradas",
+    "priceLevel": "Nivel de precio {level} de 4",
+    "photoComingSoon": "Foto próximamente",
+    "bestLight": "Mejor luz",
+    "coordinates": "Punto exacto",
+    "copyCoordinates": "Copiar coordenadas",
+    "copied": "Copiado",
+    "photoTips": "Consejos para fotos",
+    "activities": "Actividades",
+    "amenities": "Servicios",
+    "seasonalNotes": "Notas de temporada",
+    "similar": "Lugares parecidos",
+    "reviewsTitle": "Reseñas de Google",
+    "googleRating": "{rating} en Google ({count, plural, one {# reseña} other {# reseñas}})",
+    "stars": "{rating} de 5 estrellas",
+    "reviewsAttribution": "Calificaciones y reseñas de Google.",
+    "seeOnGoogle": "Ver todo en Google Maps",
+    "back": "Volver",
+    "today": "Hoy",
+    "illustrative": "Foto ilustrativa",
+    "photoCredit": "Foto: {credit}",
+    "distanceWalk": "{distance} mi, {minutes} min a pie",
+    "distanceSubway": "{distance} mi, {minutes} min en metro",
+    "planAround": "Planear un día alrededor de este lugar"
+  },
+  "hours": {
+    "open": "Abierto",
+    "closingSoon": "Cierra pronto",
+    "closed": "Cerrado",
+    "openingSoon": "Abre pronto",
+    "open24h": "Abierto las 24 horas",
+    "unavailable": "Horario no disponible",
+    "checking": "Consultando horario",
+    "until": "hasta las {time}",
+    "at": "a las {time}",
+    "opensAt": "abre a las {time}",
+    "opensTomorrow": "abre mañana a las {time}",
+    "opensOn": "abre el {day} a las {time}"
+  },
+  "saved": {
+    "title": "Guardados",
+    "count": "{count, plural, one {# lugar} other {# lugares}}",
+    "emptyTitle": "Todavía no guardaste nada",
+    "emptyBody": "Toca el corazón en cualquier lugar para guardarlo aquí. Los lugares guardados se quedan en este dispositivo.",
+    "emptyCta": "Buscar algo para comer",
+    "shareList": "Compartir esta lista",
+    "shareTitle": "Mi lista de NYCrave",
+    "sharedTitle": "Una lista compartida contigo",
+    "sharedBody": "Alguien te envió estos lugares. Guárdalos todos para tenerlos en este dispositivo.",
+    "saveAll": "Guardar los {count}",
+    "allSaved": "Todos guardados",
+    "yours": "Tus lugares guardados"
+  },
+  "footer": {
+    "dataNote": "Los lugares marcados Sin verificar se investigaron en fuentes oficiales, pero aún no se confirmaron con el lugar. Los horarios y precios cambian, así que verifica antes de ir. Las descripciones de los lugares están en inglés por ahora.",
+    "copyright": "© {year} NYCrave",
+    "language": "Idioma",
+    "credits": "Créditos de fotos",
+    "privacy": "Privacidad"
+  },
+  "notFound": {
+    "title": "Esta parada está fuera de servicio",
+    "body": "La página que buscas no existe o se movió.",
+    "cta": "Volver al inicio"
+  },
+  "rail": {
+    "previous": "Desplazar {title} hacia atrás",
+    "next": "Desplazar {title} hacia adelante"
+  },
+  "cuisine": {
+    "vietnamese": "Vietnamita",
+    "korean": "Coreana",
+    "japanese": "Japonesa",
+    "chinese": "China",
+    "thai": "Tailandesa",
+    "indian": "India",
+    "american": "Estadounidense",
+    "italian": "Italiana",
+    "mexican": "Mexicana",
+    "french": "Francesa",
+    "greek": "Griega",
+    "middle_eastern": "De Medio Oriente",
+    "caribbean": "Caribeña",
+    "ethiopian": "Etíope",
+    "filipino": "Filipina",
+    "malaysian": "Malasia",
+    "taiwanese": "Taiwanesa",
+    "spanish": "Española",
+    "turkish": "Turca",
+    "peruvian": "Peruana",
+    "jewish_deli": "Deli judío",
+    "halal": "Halal",
+    "colombian": "Colombiana",
+    "dominican": "Dominicana",
+    "polish": "Polaca",
+    "georgian": "Georgiana",
+    "west_african": "De África Occidental",
+    "nepali": "Nepalí"
+  },
+  "dish": {
+    "bbq": "Barbacoa",
+    "noodle_soup": "Sopa de fideos",
+    "dry_noodles": "Fideos salteados",
+    "dumplings": "Dumplings",
+    "rice_dishes": "Platos de arroz",
+    "hot_pot": "Hot pot",
+    "sushi": "Sushi",
+    "ramen": "Ramen",
+    "curry": "Curry",
+    "sandwiches": "Sándwiches",
+    "pizza": "Pizza",
+    "bagels": "Bagels",
+    "tacos": "Tacos",
+    "brunch": "Brunch",
+    "bakery": "Panadería",
+    "desserts": "Postres",
+    "street_food": "Comida callejera",
+    "seafood": "Mariscos",
+    "burgers": "Hamburguesas",
+    "fried_chicken": "Pollo frito",
+    "vegetarian_plates": "Platos vegetarianos"
+  },
+  "drinkType": {
+    "coffee": "Café",
+    "bubble_tea": "Bubble tea",
+    "tea": "Té",
+    "matcha": "Matcha",
+    "cocktails": "Cócteles",
+    "rooftop_bar": "Bar en azotea",
+    "wine_bar": "Bar de vinos",
+    "juice": "Jugos"
+  },
+  "shopType": {
+    "flagship": "Tienda insignia",
+    "vintage": "Vintage",
+    "thrift": "Segunda mano",
+    "market": "Mercado",
+    "boutique": "Boutique",
+    "bookstore": "Librería",
+    "department_store": "Gran almacén"
+  },
+  "vibe": {
+    "date_night": "Cita",
+    "cheap_eats": "Comer barato",
+    "late_night": "Abierto tarde",
+    "rainy_day": "Día de lluvia",
+    "kid_friendly": "Para niños",
+    "instagrammable": "Para Instagram",
+    "local_favorite": "Favorito local",
+    "tourist_classic": "Clásico turístico",
+    "group_friendly": "Para grupos",
+    "solo_friendly": "Para ir solo",
+    "outdoor": "Al aire libre",
+    "quiet": "Tranquilo"
+  },
+  "dietary": {
+    "vegetarian": "Vegetariano",
+    "vegan": "Vegano",
+    "halal": "Halal",
+    "kosher": "Kosher",
+    "gluten_free": "Sin gluten"
+  },
+  "borough": {
+    "manhattan": "Manhattan",
+    "brooklyn": "Brooklyn",
+    "queens": "Queens",
+    "bronx": "El Bronx",
+    "staten_island": "Staten Island"
+  },
+  "light": {
+    "sunrise": "Amanecer",
+    "morning": "Mañana",
+    "midday": "Mediodía",
+    "golden_hour": "Hora dorada",
+    "blue_hour": "Hora azul",
+    "night": "Noche"
+  },
+  "tips": {
+    "title": "Consejos para turistas",
+    "tagline": "Cómo moverse, pagar, dejar propina y estar cómodo en Nueva York.",
+    "contents": "En esta página",
+    "subway": {
+      "title": "Metro y OMNY",
+      "items": [
+        "Acerca una tarjeta sin contacto, el teléfono o el reloj al lector OMNY del torniquete o del autobús. No necesitas MetroCard.",
+        "Usa siempre la misma tarjeta o dispositivo: después de 12 viajes pagados en 7 días, el resto de los viajes de esa semana son gratis.",
+        "Los transbordos entre metro y autobús dentro de dos horas son gratis si usas la misma tarjeta.",
+        "Uptown significa hacia el norte y downtown hacia el sur. Revisa el letrero del andén o de la entrada antes de pasar.",
+        "Los trenes local paran en todas las estaciones; los express se saltan algunas. El letrero del frente y del costado del tren lo indica.",
+        "El metro funciona las 24 horas, pero de noche y los fines de semana suele haber cambios de servicio. Revisa antes de salir."
+      ],
+      "source": "Tarifas y cambios de servicio: mta.info"
+    },
+    "tipping": {
+      "title": "Propinas e impuestos",
+      "items": [
+        "Restaurantes con servicio de mesa: lo normal es entre el 18 y el 22 por ciento de la cuenta antes de impuestos.",
+        "Bares: alrededor de $1 a $2 por bebida, o cerca del 20 por ciento de la cuenta.",
+        "Mostradores y cafeterías: la propina es opcional; uno o dos dólares se agradecen.",
+        "Taxis y viajes en app: del 15 al 20 por ciento.",
+        "Los precios suelen no incluir el impuesto sobre las ventas, que se suma al pagar (8.875 por ciento en la ciudad de Nueva York)."
+      ]
+    },
+    "safety": {
+      "title": "Seguridad y buenos modales",
+      "items": [
+        "Deja bajar a los pasajeros antes de subir al tren y no te apoyes en las puertas.",
+        "En las escaleras mecánicas, párate a la derecha y camina por la izquierda.",
+        "En multitudes, lleva las bolsas cerradas y el teléfono en la mano, no en el bolsillo trasero.",
+        "Un vagón vacío en un tren lleno suele tener una razón. Elige otro vagón.",
+        "Emergencias: llama al 911. Servicios de la ciudad y preguntas que no son emergencias: llama al 311."
+      ]
+    },
+    "neighborhoods": {
+      "title": "Guía de barrios",
+      "intro": "Dónde están los lugares de NYCrave, por distrito. Toca un barrio para ver qué hay.",
+      "count": "{count, plural, =0 {Todavía no hay lugares} one {# lugar} other {# lugares}}"
+    },
+    "seasons": {
+      "title": "A lo largo del año",
+      "note": "Las fechas cambian cada año; consulta los sitios oficiales de cada evento antes de planear.",
+      "spring": {
+        "title": "Primavera",
+        "body": "Cerezos en flor en los parques y mesas al aire libre que vuelven a las veredas."
+      },
+      "summer": {
+        "title": "Verano",
+        "body": "Conciertos y películas gratis al aire libre en los parques, y playas públicas abiertas desde el fin de semana de Memorial Day hasta Labor Day."
+      },
+      "fall": {
+        "title": "Otoño",
+        "body": "Hojas de colores en los parques, el desfile de Halloween del Village el 31 de octubre y el Maratón de Nueva York a principios de noviembre."
+      },
+      "winter": {
+        "title": "Invierno",
+        "body": "Vitrinas y luces navideñas, pistas de patinaje al aire libre y la bajada de la bola de Año Nuevo en Times Square."
+      }
+    },
+    "airports": {
+      "title": "Cómo llegar desde los aeropuertos",
+      "items": [
+        "Desde JFK: toma el AirTrain hasta Jamaica (trenes E, J y Z, o el LIRR) o hasta Howard Beach (tren A). El AirTrain se paga al salir.",
+        "Desde LaGuardia: el autobús Q70 LaGuardia Link va al metro en Jackson Heights–Roosevelt Avenue y al LIRR en Woodside.",
+        "Desde Newark: el AirTrain Newark conecta con la estación Newark Liberty International Airport, con trenes de NJ Transit y Amtrak a Penn Station en Nueva York.",
+        "Los taxis amarillos cobran una tarifa fija entre JFK y Manhattan, más peajes y propina. Consulta el monto vigente antes de subir.",
+        "Toma taxis solo en las filas oficiales fuera de llegadas e ignora a quien te ofrezca un viaje dentro de la terminal."
+      ],
+      "source": "Transporte y tarifas de los aeropuertos: panynj.gov"
+    },
+    "calculator": {
+      "title": "¿Cuánto costará de verdad la cena?",
+      "bill": "Total del menú antes de impuestos",
+      "tip": "Propina",
+      "people": "Personas",
+      "fewer": "Una persona menos",
+      "more": "Una persona más",
+      "tax": "Impuesto sobre las ventas ({rate}%)",
+      "tipAmount": "Propina",
+      "total": "Total",
+      "each": "Cada persona paga",
+      "invalid": "Ingresa el total del menú para ver el impuesto y la propina.",
+      "note": "La propina se calcula sobre el monto antes de impuestos. Algunos restaurantes agregan un cargo por servicio para grupos; si es así, revisa la cuenta antes de dejar propina otra vez."
+    }
+  },
+  "offline": {
+    "title": "No tienes conexión",
+    "body": "Casi todo NYCrave necesita conexión. Los lugares que guardaste se quedan en este dispositivo y se abren sin ella."
+  },
+  "neighborhoods": {
+    "title": "Barrios",
+    "tagline": "Todos los lugares de NYCrave, cuadra por cuadra y distrito por distrito.",
+    "count": "{count, plural, =0 {Todavía no hay lugares} one {# lugar} other {# lugares}}",
+    "placesIn": "Lugares en {name}",
+    "nearby": "Barrios cercanos",
+    "planDay": "Planear un día desde aquí",
+    "mapLabel": "Mapa de lugares en {name}",
+    "emptyTitle": "Todavía no hay lugares aquí",
+    "emptyBody": "Todavía no agregamos lugares en {name}. Prueba un barrio cercano.",
+    "blurbs": {
+      "financial-district": "Wall Street, el Memorial del 11S y ferris desde el borde del puerto, donde nació la ciudad.",
+      "chinatown": "Casas de dim sum, panaderías y puestos de frutas en calles estrechas del sur de Manhattan.",
+      "lower-east-side": "Antiguos edificios de inquilinos, delis clásicos y bares que abren hasta tarde.",
+      "soho": "Edificios de hierro fundido, calles empedradas y tiendas insignia.",
+      "east-village": "Bares de fideos, cócteles y la energía de St. Marks Place, abiertos hasta tarde.",
+      "west-village": "Calles torcidas con árboles, clubes de jazz y una porción de pizza en cada esquina.",
+      "union-square": "Un cruce animado con mercado de productores, librerías y líneas de metro hacia todas partes.",
+      "meatpacking-district": "Viejos almacenes convertidos en boutiques, el extremo sur del High Line y la orilla del Hudson.",
+      "chelsea": "Galerías, Chelsea Market y el High Line por encima.",
+      "nomad": "Grandes hoteles antiguos, bares en azoteas y el Madison Square Park al lado.",
+      "koreatown": "Una cuadra de la calle 32 llena de barbacoa, karaoke y sopa hasta tarde.",
+      "midtown": "Times Square, los teatros de Broadway y los rascacielos que viste en las películas.",
+      "midtown-east": "Grand Central, el edificio Chrysler y el teleférico a Roosevelt Island.",
+      "upper-west-side": "Museos, casas de piedra rojiza y dos parques: Central Park de un lado y Riverside del otro.",
+      "upper-east-side": "La Milla de los Museos por la Quinta Avenida y cuadras tranquilas de casas señoriales.",
+      "harlem": "Soul food, historia del jazz y el Apollo en la calle 125.",
+      "williamsburg": "Parques junto al río, bares en azoteas, tostadores de café y mercados de comida los fines de semana.",
+      "greenpoint": "Panaderías polacas, tiendas vintage y calles tranquilas junto al East River.",
+      "dumbo": "Calles empedradas entre dos puentes y la vista más fotografiada de Brooklyn.",
+      "brooklyn-heights": "Calles de piedra rojiza sobre el puerto y un paseo frente al sur de Manhattan.",
+      "park-slope": "Casas de piedra rojiza, cafés familiares y el borde de Prospect Park.",
+      "bushwick": "Murales en almacenes, galerías y bares abiertos hasta tarde.",
+      "sunset-park": "El Chinatown de Brooklyn, taquerías y un parque en una colina con vista al puerto.",
+      "flushing": "Uno de los Chinatowns más grandes de la ciudad: dumplings, patios de comida y bubble tea.",
+      "astoria": "Tabernas griegas, jardines de cerveza y el Museum of the Moving Image.",
+      "jackson-heights": "Comida del sur de Asia y de Latinoamérica por Roosevelt Avenue y la calle 74.",
+      "long-island-city": "Parques junto al río con las mejores vistas del skyline de Midtown, y MoMA PS1.",
+      "belmont": "La Pequeña Italia del Bronx, alrededor de Arthur Avenue.",
+      "mott-haven": "Casas adosadas históricas y una escena artística en crecimiento en el sur del Bronx.",
+      "st-george": "La terminal del ferry de Staten Island, con vistas del puerto hacia Manhattan.",
+      "greenwich-village": "Washington Square, clubes de jazz, cafés antiguos y las calles donde empezó el renacer del folk.",
+      "prospect-heights": "Cuadras de piedra rojiza entre Prospect Park, el Brooklyn Museum y el Jardín Botánico.",
+      "flushing-meadows": "El recinto de la Feria Mundial de 1964: la Unisphere, museos y amplios céspedes junto a Citi Field.",
+      "bronx-park": "El Zoológico del Bronx y el Jardín Botánico de Nueva York, juntos en el bosque junto al río Bronx.",
+      "nolita": "Pequeñas boutiques, cafés y viejas panaderías italianas en calles arboladas al norte de Little Italy.",
+      "hells-kitchen": "Restaurantes del distrito de los teatros por la Novena Avenida y el Intrepid sobre el Hudson.",
+      "washington-heights": "Comida y música dominicana, The Met Cloisters y parques en lo alto de los acantilados sobre el Hudson.",
+      "flatbush": "Panaderías caribeñas, pollo jerk y roti por las avenidas Flatbush y Church.",
+      "woodside": "Los restaurantes filipinos de Little Manila y pubs irlandeses bajo el tren 7."
+    }
+  },
+  "credits": {
+    "title": "Créditos de fotos",
+    "tagline": "Los fotógrafos detrás de las imágenes de NYCrave.",
+    "intro": "Las fotos vienen de Wikimedia Commons con licencias libres. Cada una tiene su crédito abajo: elige un crédito para ver el archivo original, o la licencia para ver sus términos.",
+    "illustrativeNote": "Las fotos marcadas como ilustrativas muestran un plato, una bebida o una escena típica, no el lugar exacto.",
+    "home": "Página de inicio",
+    "license": "Licencia",
+    "count": "{count, plural, one {# foto} other {# fotos}}"
+  },
+  "subway": {
+    "title": "Metro más cercano",
+    "trains": "Trenes: {routes}",
+    "walk": "{minutes} min a pie",
+    "accessible": "Estación accesible",
+    "source": "Estaciones y rutas diurnas según los datos abiertos de la MTA. Consulta mta.info para cambios de fin de semana y de noche.",
+    "linesHere": "Líneas de metro aquí",
+    "take": "Toma el",
+    "fromTo": "de {from} a {to}",
+    "train": "tren {route}"
+  },
+  "sun": {
+    "title": "La luz de hoy en Nueva York",
+    "sunrise": "Amanecer",
+    "goldenMorning": "Hora dorada de la mañana",
+    "goldenEvening": "Hora dorada de la tarde",
+    "sunset": "Atardecer",
+    "blueEvening": "Hora azul",
+    "range": "{start}–{end}",
+    "note": "Calculado para las coordenadas de este lugar. Los edificios altos pueden tapar el sol bajo, así que llega un poco antes.",
+    "noteCity": "Calculado para el sur de Manhattan; los horarios varían uno o dos minutos en la ciudad. Los edificios altos pueden tapar el sol bajo, así que llega un poco antes."
+  },
+  "holidays": {
+    "major": "{name}: muchos lugares cierran o abren menos horas, incluidos los museos. Verifica antes de ir.",
+    "minor": "{name}: la mayoría de los lugares abre, pero algunos tienen horario de feriado.",
+    "names": {
+      "newYearsDay": "Año Nuevo",
+      "mlkDay": "Día de Martin Luther King Jr.",
+      "presidentsDay": "Día de los Presidentes",
+      "memorialDay": "Memorial Day",
+      "juneteenth": "Juneteenth",
+      "independenceDay": "Día de la Independencia",
+      "laborDay": "Día del Trabajo",
+      "indigenousPeoplesDay": "Día de los Pueblos Indígenas",
+      "veteransDay": "Día de los Veteranos",
+      "thanksgiving": "Día de Acción de Gracias",
+      "christmasEve": "Nochebuena",
+      "christmas": "Navidad",
+      "newYearsEve": "Nochevieja"
+    }
+  },
+  "report": {
+    "open": "¿Algo está mal? Avísanos",
+    "title": "Informar un problema",
+    "intro": "Ayúdanos a mantener {name} al día. Revisamos cada informe con las fuentes oficiales del lugar.",
+    "what": "¿Qué está mal?",
+    "kinds": {
+      "closed": "Cerró",
+      "hours": "El horario está mal",
+      "location": "La dirección o el punto en el mapa está mal",
+      "photo": "Una foto está mal",
+      "other": "Otra cosa"
+    },
+    "note": "Detalles (opcional)",
+    "notePlaceholder": "Por ejemplo: ahora abre a las 11 AM los fines de semana",
+    "send": "Enviar informe",
+    "sending": "Enviando…",
+    "thanks": "¡Gracias! Lo revisaremos y corregiremos la página.",
+    "close": "Cerrar",
+    "error": "No se pudo enviar. Inténtalo de nuevo.",
+    "limited": "Ya enviaste varios informes. Inténtalo de nuevo en unos minutos.",
+    "privacy": "Solo guardamos lo que escribes aquí, sin nombre ni correo."
+  },
+  "cityMap": {
+    "title": "El mapa de la ciudad",
+    "description": "Todos los lugares de NYCrave en un mapa: filtra por línea, mira qué está abierto y encuentra lo que tienes cerca.",
+    "label": "Mapa de los lugares de NYCrave",
+    "count": "{count, plural, =0 {Ningún lugar coincide} one {# lugar} other {# lugares}}",
+    "openNow": "Abierto ahora",
+    "open": "Abrir lugar",
+    "close": "Cerrar vista previa"
+  },
+  "privacy": {
+    "title": "Privacidad",
+    "tagline": "Qué guarda NYCrave, qué envía y qué nunca recopila.",
+    "device": {
+      "title": "Guardado en tu dispositivo",
+      "items": [
+        "Los lugares y días guardados se almacenan en el almacenamiento local de tu navegador. Nunca salen de tu dispositivo, y se borran si borras los datos del navegador.",
+        "Tu elección de modo claro u oscuro se guarda de la misma forma.",
+        "Si instalas NYCrave, la app guarda una copia de tus lugares guardados para abrirlos sin conexión."
+      ]
+    },
+    "location": {
+      "title": "Tu ubicación",
+      "items": [
+        "Cerca de mí le pide tu ubicación al navegador solo cuando lo tocas.",
+        "Las distancias y los tiempos a pie se calculan en tu dispositivo. Tu ubicación nunca se envía a NYCrave ni se guarda."
+      ]
+    },
+    "reports": {
+      "title": "Informes de problemas",
+      "items": [
+        "Cuando informas un problema con un lugar, guardamos el lugar, el tipo de problema y la nota que escribas. No hay campo de nombre ni de correo.",
+        "Para frenar informes masivos, el servidor cuenta por un momento los informes por dirección de red en memoria. No se guarda."
+      ]
+    },
+    "services": {
+      "title": "Servicios que usa el sitio",
+      "items": [
+        "Los mosaicos del mapa vienen de OpenFreeMap, así que tu navegador los pide a sus servidores, como con cualquier mapa en línea.",
+        "El pronóstico del tiempo viene de Open-Meteo. El servidor de NYCrave pide el pronóstico de Nueva York; no se envía nada sobre ti.",
+        "Cuando Google Places está activado, el servidor de NYCrave obtiene fotos y reseñas de los lugares y las muestra con la atribución de Google."
+      ]
+    },
+    "assistant": {
+      "title": "El asistente",
+      "items": [
+        "Pregúntale a NYCrave responde con los datos propios de NYCrave en su servidor. Las preguntas no se guardan.",
+        "Si el sitio activa respuestas con IA, las preguntas y la conversación se envían a Anthropic, que opera el modelo Claude, para escribir la respuesta. No compartas datos personales en el chat."
+      ]
+    },
+    "none": {
+      "title": "Lo que NYCrave nunca hace",
+      "items": [
+        "Sin cuentas, sin publicidad, sin analítica y sin cookies de seguimiento.",
+        "La única cookie es la de inicio de sesión de la página de administración de los editores."
+      ]
+    },
+    "updated": "Última actualización: 27 de septiembre de 2026."
+  },
+  "assistant": {
+    "open": "Pregúntale a NYCrave",
+    "title": "Pregúntale a NYCrave",
+    "intro": "Pregunta por comida, lugares, cómo moverte o planes para tu día. Las respuestas usan los lugares de NYCrave.",
+    "try": "Prueba a preguntar",
+    "suggestions": [
+      "¿Dónde como dumplings en Chinatown?",
+      "Planea un día de lluvia en Manhattan para dos",
+      "¿Qué abre tarde esta noche en el East Village?",
+      "¿Cómo llego de JFK a Midtown?"
+    ],
+    "label": "Tu pregunta",
+    "placeholder": "Pregunta sobre Nueva York…",
+    "send": "Enviar",
+    "stop": "Dejar de responder",
+    "clear": "Borrar chat",
+    "you": "Tú",
+    "assistantLabel": "Asistente de NYCrave",
+    "thinking": "Buscando",
+    "disclaimer": "Las respuestas de la IA pueden equivocarse, así que verifica los horarios antes de ir. Las preguntas se envían a Anthropic para responderlas.",
+    "privacy": "Privacidad",
+    "errors": {
+      "not_configured": "El asistente todavía no está activado.",
+      "rate_limited": "Preguntaste mucho en poco tiempo. Inténtalo de nuevo en unos minutos.",
+      "busy": "El asistente está ocupado. Inténtalo de nuevo en un momento.",
+      "invalid": "La pregunta es demasiado larga. Acórtala, por favor.",
+      "failed": "Algo salió mal. Inténtalo de nuevo.",
+      "aborted": "Detenido."
+    },
+    "introFree": "Pregunta por comida, lugares, horarios, cómo moverte o un plan para tu día. Las respuestas salen directo de los lugares y consejos de NYCrave.",
+    "disclaimerFree": "Las respuestas salen de los datos de NYCrave, no de una IA. Los horarios pueden cambiar, así que verifica antes de ir.",
+    "helper": {
+      "greeting": "¡Hola! Pregúntame por lugares para comer, beber o visitar, qué está abierto ahora, el horario de un lugar, cómo moverte, o di “planea un día en el East Village”.",
+      "thanks": "De nada. ¡Disfruta Nueva York!",
+      "found": "Esto es lo que tiene NYCrave:",
+      "seeAll": "Ver todos los resultados",
+      "noResults": "No encontré un lugar de NYCrave para eso. Prueba un plato, una bebida, un barrio o un plan, como “pizza in the West Village” o “free museums”.",
+      "planIntro": "Este es un día que empieza en {from}, armado según lo que está abierto:",
+      "planLink": "Abre este día en Mi día para cambiarlo",
+      "noPlan": "No pude armar un día ahora. Prueba Mi día y elige tus propios horarios y presupuesto.",
+      "tipsLink": "Más en la página de consejos",
+      "address": "Dirección",
+      "subway": "Metro más cercano: {station} ({trains}), a unos {minutes} min a pie.",
+      "checkHours": "Los horarios se investigaron en fuentes oficiales, pero aún no se confirmaron con el lugar, así que verifica antes de ir."
+    }
+  }
+}

@@ -50,3 +50,21 @@ describe("Vietnamese search", () => {
     expect(parseQuery("an Italian place").cuisines).toEqual(["italian"])
   })
 })
+
+describe("search in Spanish, Chinese and Korean", () => {
+  it("maps foreign words to the same intent", () => {
+    expect(parseQuery("museos gratis")).toMatchObject({ categories: ["attraction"], isFree: true })
+    expect(parseQuery("pizza tarde en la noche")).toMatchObject({
+      dishTypes: ["pizza"],
+      vibes: ["late_night"],
+    })
+    expect(parseQuery("唐人街 饺子")).toMatchObject({
+      dishTypes: ["dumplings"],
+      neighborhood: "Chinatown",
+    })
+    expect(parseQuery("이스트 빌리지 버블티")).toMatchObject({
+      drinkTypes: ["bubble_tea"],
+      neighborhood: "East Village",
+    })
+  })
+})

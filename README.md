@@ -4,7 +4,7 @@
 
 NYCrave is a mobile-first guide to New York City for locals and visitors: where to eat, what to sip, what to see, where to shop, where to take the photo, and which park to end the day in, plus a planner that builds a whole day around what is actually open.
 
-**Live site: [nycrave.vercel.app](https://nycrave.vercel.app)** · English and Vietnamese
+**Live site: [nycrave.vercel.app](https://nycrave.vercel.app)** · English, Vietnamese, Spanish, Chinese and Korean
 
 ![NYCrave home page: "The next stop is dumplings in Chinatown" beside a photo of dim sum on a subway-map background](docs/screenshots/home-desktop.jpg)
 
@@ -20,14 +20,15 @@ NYCrave is a mobile-first guide to New York City for locals and visitors: where 
 | | |
 | --- | --- |
 | 🔴 **Eat** · 🟠 **Sip** · 🔵 **Explore** · 🟣 **Shop** · 🟡 **Photo spots** · 🟢 **Parks & piers** | Browse by cuisine, dish, drink or shop type, with filters for open now, free, borough, neighborhood, price, vibe and dietary needs, as a list or a map |
-| **Smart search** | Plain phrases in English or Vietnamese: "dumplings in Chinatown", "late night pizza", "trà sữa", "bảo tàng miễn phí" |
+| **Smart search** | Plain phrases in any of the five languages: "dumplings in Chinatown", "late night pizza", "trà sữa", "atracciones gratis", "唐人街 饺子", "차이나타운 만두" |
 | **City map** | Every place on one map, with line toggles, *Open now*, *Free* and *Near me* |
 | **Design My Day** | A timed day from breakfast to a nightcap, within budget, with the train to take between stops; swap stops, share, add to calendar or open the route in Google Maps |
 | **Ready-made days** | A classic first day, a food crawl, Brooklyn by the water, art and museums, date night, and a $50 day |
-| **Ask NYCrave** | A free helper on every page that answers "where can I get…", "is … open now?", "plan a day in …" and "how do I get from JFK…" from NYCrave's own places and tips |
+| **Ask NYCrave** | A free helper on every page, in every language, that answers "where can I get…", "is … open now?", "plan a day in …" and "how do I get from JFK…" from NYCrave's own places and tips |
 | **Place pages** | Photos, live hours, must-try items, tickets, nearest subway stations, directions, and today's golden hour for photo spots |
 | **Neighborhood guides** | Every neighborhood with its places, subway lines and a *Plan a day starting here* button |
 | **Tourist tips** | Airports, the subway and OMNY, tipping with a bill calculator, safety, and the city through the seasons |
+| **Five languages** | English, Vietnamese, Spanish, Simplified Chinese and Korean, switched in the footer |
 | **Works like an app** | Installable, saved places work offline, shareable saved lists, light and dark mode, holiday and weather notices |
 
 ## Screenshots
