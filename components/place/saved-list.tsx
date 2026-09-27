@@ -5,11 +5,20 @@ import { useTranslations } from "next-intl"
 import { EmptyState } from "@/components/brand/empty-state"
 import { PlaceCardSkeleton } from "@/components/place/place-card-skeleton"
 import { PlaceGrid } from "@/components/place/place-grid"
+import { ShareButton } from "@/components/place/share-button"
 import { Button } from "@/components/ui/button"
 import { useHydrated } from "@/hooks/use-now"
 import { useSaved } from "@/hooks/use-saved"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
+import { MAX_SHARED } from "@/lib/shared-list"
+
+/** A link that opens this list on anyone's device, ready to save. */
+function shareListUrl(slugs: string[]) {
+  const url = new URL("/saved", window.location.origin)
+  url.searchParams.set("list", slugs.slice(0, MAX_SHARED).join(","))
+  return url.toString()
+}
 
 export function SavedList({ places }: { places: CardPlace[] }) {
   const t = useTranslations("saved")
@@ -49,9 +58,16 @@ export function SavedList({ places }: { places: CardPlace[] }) {
 
   return (
     <div className="space-y-6">
-      <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
-        {t("count", { count: saved.length })}
-      </p>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
+          {t("count", { count: saved.length })}
+        </p>
+        <ShareButton
+          title={t("shareTitle")}
+          url={shareListUrl(saved.map((p) => p.slug))}
+          label={t("shareList")}
+        />
+      </div>
       <PlaceGrid places={saved} />
     </div>
   )

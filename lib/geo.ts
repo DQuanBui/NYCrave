@@ -34,3 +34,21 @@ export function transitDirectionsUrl(p: LatLng): string {
   url.searchParams.set("travelmode", "transit")
   return url.toString()
 }
+
+type Stop = LatLng & { name: string; address?: string }
+const where = (s: Stop) => (s.address ? `${s.name}, ${s.address}` : `${s.lat},${s.lng}`)
+
+/**
+ * The whole day as one Google Maps route, from the start through every stop.
+ * Google allows up to nine waypoints in these links; plans have at most eight.
+ */
+export function routeDirectionsUrl(origin: LatLng, stops: Stop[]): string {
+  const url = new URL("https://www.google.com/maps/dir/")
+  url.searchParams.set("api", "1")
+  url.searchParams.set("origin", `${origin.lat},${origin.lng}`)
+  url.searchParams.set("destination", where(stops[stops.length - 1]))
+  const via = stops.slice(0, -1).slice(0, 9)
+  if (via.length) url.searchParams.set("waypoints", via.map(where).join("|"))
+  url.searchParams.set("travelmode", "walking")
+  return url.toString()
+}

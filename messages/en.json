@@ -322,7 +322,9 @@
       }
     },
     "hot": "A hot one (high of {temp}°F), so indoor stops come first.",
-    "cold": "A cold one (high of {temp}°F), so indoor stops come first."
+    "cold": "A cold one (high of {temp}°F), so indoor stops come first.",
+    "openRoute": "Open the whole route in Google Maps",
+    "newTab": "(opens in a new tab)"
   },
   "listing": {
     "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",
@@ -393,7 +395,14 @@
     "count": "{count, plural, one {# place} other {# places}}",
     "emptyTitle": "Nothing saved yet",
     "emptyBody": "Tap the heart on any place to keep it here. Saved places stay on this device.",
-    "emptyCta": "Find something to eat"
+    "emptyCta": "Find something to eat",
+    "shareList": "Share this list",
+    "shareTitle": "My NYCrave list",
+    "sharedTitle": "A list shared with you",
+    "sharedBody": "Someone sent you these places. Save them all to keep them on this device.",
+    "saveAll": "Save all {count}",
+    "allSaved": "All saved",
+    "yours": "Your saved places"
   },
   "footer": {
     "dataNote": "Places marked Unverified were researched from official sources but not yet confirmed with the venue. Hours and prices change, so check before you go.",

@@ -53,7 +53,7 @@ Pick a date, start and end times, a starting neighborhood, a budget, a mood (fir
 
 Every subway hop names the stations at each end, and the train to take when one runs straight there that day (no B or W on weekends). Not sure where to start? Six **ready-made days** (a classic first day, a food crawl, Brooklyn by the water, art and museums, date night, and a $50 day) are planned fresh for today with one tap.
 
-Then **swap** any stop you don't like, **save** the day, **share** a link that rebuilds exactly the same plan, or **add it to your calendar**. From any place page, **Plan a day around this** builds a day that includes that place at the best time for it. An optional **Refine with AI** step lets Claude re-pick stops, but only from places on NYCrave, and every pick is checked again against hours and budget.
+Then **swap** any stop you don't like, **save** the day, **share** a link that rebuilds exactly the same plan, **add it to your calendar**, or **open the whole route in Google Maps** with every stop as a waypoint. From any place page, **Plan a day around this** builds a day that includes that place at the best time for it. An optional **Refine with AI** step lets Claude re-pick stops, but only from places on NYCrave, and every pick is checked again against hours and budget.
 
 ### Place pages
 
@@ -71,7 +71,7 @@ A photo gallery with credits, a live "open until 11 PM" badge, the week's hours,
 ### Works like an app
 
 - **Installable** on iPhone and Android. Saved places stay available offline, even underground.
-- **Saved** places and saved days live on your device; no account needed.
+- **Saved** places and saved days live on your device; no account needed. **Share your list** as a link, and whoever opens it can save every place with one tap.
 - **Light and dark mode**, keyboard navigation, screen-reader labels and reduced-motion support throughout.
 
 <br clear="right">

@@ -18,9 +18,15 @@ export function useSaved() {
     store.write(current.includes(slug) ? current.filter((s) => s !== slug) : [slug, ...current])
   }, [])
 
+  /** Adds places that are not saved yet, keeping the given order at the top. */
+  const saveMany = useCallback((add: string[]) => {
+    const current = store.read()
+    store.write([...add.filter((s) => !current.includes(s)), ...current])
+  }, [])
+
   const isSaved = useCallback((slug: string) => slugs.includes(slug), [slugs])
 
-  return { slugs, toggle, isSaved }
+  return { slugs, toggle, saveMany, isSaved }
 }
 
 export type SavedDay = { url: string; label: string; savedAt: number }

@@ -9,10 +9,12 @@ type ShareButtonProps = {
   title: string
   /** Defaults to the current page. */
   url?: string
+  /** Button text; defaults to "Share". */
+  label?: string
   className?: string
 }
 
-export function ShareButton({ title, url: shareUrl, className }: ShareButtonProps) {
+export function ShareButton({ title, url: shareUrl, label, className }: ShareButtonProps) {
   const t = useTranslations("place")
   const [copied, setCopied] = useState(false)
 
@@ -49,7 +51,7 @@ export function ShareButton({ title, url: shareUrl, className }: ShareButtonProp
       ) : (
         <Share2 aria-hidden className="size-4" />
       )}
-      <span aria-live="polite">{copied ? t("linkCopied") : t("share")}</span>
+      <span aria-live="polite">{copied ? t("linkCopied") : (label ?? t("share"))}</span>
     </button>
   )
 }

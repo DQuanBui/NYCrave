@@ -1,4 +1,12 @@
-import { CloudRain, Footprints, Shuffle, Snowflake, Sun, TrainFront } from "lucide-react"
+import {
+  CloudRain,
+  Footprints,
+  Navigation,
+  Shuffle,
+  Snowflake,
+  Sun,
+  TrainFront,
+} from "lucide-react"
 import { getLocale, getTranslations } from "next-intl/server"
 import { EmptyState } from "@/components/brand/empty-state"
 import { HolidayNote } from "@/components/brand/holiday-note"
@@ -10,6 +18,7 @@ import { PlacePhoto } from "@/components/place/place-photo"
 import { RouteBullets } from "@/components/place/subway-list"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getPathname, Link } from "@/i18n/navigation"
+import { routeDirectionsUrl } from "@/lib/geo"
 import { holidayOn } from "@/lib/holidays"
 import { formatClockTime } from "@/lib/hours"
 import { placeToPoint } from "@/lib/map-points"
@@ -244,6 +253,21 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
             ariaLabel={t("planner.mapLabel")}
             className="h-80 lg:h-[28rem]"
           />
+          {plan.stops.length ? (
+            <a
+              href={routeDirectionsUrl(
+                originOf(input.from),
+                plan.stops.map((s) => s.place),
+              )}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 rounded-full border-2 border-foreground px-4 py-2.5 text-sm font-bold hover:bg-accent"
+            >
+              <Navigation aria-hidden className="size-4" />
+              {t("planner.openRoute")}
+              <span className="sr-only">{t("planner.newTab")}</span>
+            </a>
+          ) : null}
           {plan.unfilled.length ? (
             <p className="rounded-xl border-2 border-dashed border-foreground/30 p-4 text-sm">
               {t("planner.unfilled", {
