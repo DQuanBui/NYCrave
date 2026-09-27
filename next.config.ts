@@ -1,5 +1,12 @@
 import type { NextConfig } from "next"
+import createNextIntlPlugin from "next-intl/plugin"
 
-const nextConfig: NextConfig = {/* config options here */}
+const withNextIntl = createNextIntlPlugin()
 
-export default nextConfig
+const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "places.googleapis.com" }],
+  },
+}
+
+export default withNextIntl(nextConfig)

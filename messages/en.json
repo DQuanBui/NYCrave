@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "title": "NYCrave: where to eat, sip and explore in New York City",
+    "titleTemplate": "%s | NYCrave",
+    "description": "A guide to New York City for locals and visitors: restaurants by cuisine and dish, coffee and cocktails, things to do, photo spots, parks, and a planner that builds your day."
+  },
+  "nav": {
+    "home": "Home",
+    "eat": "Eat",
+    "sip": "Sip",
+    "explore": "Explore",
+    "shop": "Shop",
+    "photoSpots": "Photo spots",
+    "parks": "Parks & piers",
+    "tips": "Tourist tips",
+    "myDay": "My Day",
+    "saved": "Saved",
+    "search": "Search",
+    "main": "Main",
+    "tabs": "Sections",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "menuTitle": "All sections",
+    "menuDescription": "Every line NYCrave runs."
+  },
+  "theme": {
+    "toggle": "Switch to {mode} mode",
+    "light": "light",
+    "dark": "dark"
+  },
+  "hero": {
+    "announcement": "The next stop is",
+    "srAlt": "anywhere you crave in New York City",
+    "pause": "Pause rotating destinations",
+    "play": "Play rotating destinations",
+    "searchScene": "Search for {scene}",
+    "scenes": {
+      "pho": "pho in Flushing",
+      "rooftop": "a rooftop at sunset",
+      "gallery": "free art in Chelsea",
+      "vintage": "vintage in Williamsburg",
+      "skyline": "the skyline at blue hour",
+      "pier": "a pier at golden hour"
+    }
+  },
+  "search": {
+    "label": "Search places",
+    "placeholder": "Try “pho in Queens” or “free things to do”",
+    "submit": "Search",
+    "title": "Search",
+    "resultsFor": "Results for “{query}”",
+    "count": "{count, plural, =0 {No places} one {# place} other {# places}}",
+    "understood": "Searching for",
+    "emptyTitle": "Nothing on this line yet",
+    "emptyBody": "No places match “{query}”. Try a dish, a neighborhood, or a vibe.",
+    "startTitle": "What are you craving?",
+    "startBody": "Search by dish, drink, neighborhood or mood.",
+    "suggestions": "Try one of these",
+    "openNow": "open now",
+    "openToday": "open today",
+    "free": "free"
+  },
+  "moods": {
+    "title": "Pick a mood",
+    "dateNight": "Date night",
+    "cheapEats": "Cheap eats",
+    "lateNight": "Late night",
+    "rainyDay": "Rainy day",
+    "kidFriendly": "With kids",
+    "instagrammable": "For the photos",
+    "freeToday": "Free today",
+    "openNow": "Open now"
+  },
+  "home": {
+    "trending": "Trending",
+    "openNow": "Open now",
+    "freeToday": "Free today",
+    "localFavorites": "Local favorites",
+    "seeAll": "See all",
+    "openNowEmpty": "Nothing we list is open right now. The late-night picks open again this evening.",
+    "freeTodayEmpty": "No free picks are open today. Try the parks and piers.",
+    "linesTitle": "Browse by line",
+    "linesCount": "{count, plural, one {# stop} other {# stops}}",
+    "myDayTitle": "Design my day",
+    "myDayBody": "Pick a date, a mood and a budget. We route breakfast to nightcap around what is actually open, with walking and subway time between stops.",
+    "myDayCta": "Plan a day",
+    "myDayStops": {
+      "breakfast": "Breakfast",
+      "morning": "Morning",
+      "lunch": "Lunch",
+      "afternoon": "Afternoon",
+      "coffee": "Coffee",
+      "dinner": "Dinner",
+      "night": "Night"
+    }
+  },
+  "categories": {
+    "restaurant": {
+      "nav": "Eat",
+      "label": "Restaurant",
+      "title": "Eat",
+      "tagline": "Restaurants by cuisine and dish, from counter service to date night."
+    },
+    "drink": {
+      "nav": "Sip",
+      "label": "Drinks",
+      "title": "Sip",
+      "tagline": "Coffee, bubble tea, matcha, cocktail bars and rooftops."
+    },
+    "attraction": {
+      "nav": "Explore",
+      "label": "Attraction",
+      "title": "Explore",
+      "tagline": "Museums, landmarks and things to do, free or ticketed."
+    },
+    "shopping": {
+      "nav": "Shop",
+      "label": "Shopping",
+      "title": "Shop",
+      "tagline": "Flagships, vintage and thrift, and weekend markets."
+    },
+    "photo_spot": {
+      "nav": "Photo spots",
+      "label": "Photo spot",
+      "title": "Photo spots",
+      "tagline": "Where to stand, and when the light is best."
+    },
+    "park_pier": {
+      "nav": "Parks & piers",
+      "label": "Park or pier",
+      "title": "Parks & piers",
+      "tagline": "Green space and waterfront, with what is there each season."
+    }
+  },
+  "listing": {
+    "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",
+    "emptyTitle": "This line is still under construction",
+    "emptyBody": "No places here yet. New stops are added as they are verified."
+  },
+  "place": {
+    "unverified": "Unverified",
+    "unverifiedHint": "Placeholder details that have not been checked yet.",
+    "free": "Free",
+    "save": "Save {name}",
+    "unsave": "Remove {name} from saved",
+    "saved": "Saved",
+    "share": "Share",
+    "linkCopied": "Link copied",
+    "mustTry": "Must-try",
+    "editorialTake": "Our take",
+    "hours": "Hours",
+    "location": "Location",
+    "openInGoogleMaps": "Open in Google Maps",
+    "openInAppleMaps": "Open in Apple Maps",
+    "transitDirections": "Transit directions",
+    "timeNeeded": "About {minutes} min",
+    "bestTime": "Best time",
+    "tickets": "Tickets",
+    "ticketRange": "${min}–${max}",
+    "priceLevel": "Price level {level} of 4",
+    "photoComingSoon": "Photo coming soon",
+    "bestLight": "Best light",
+    "photoTips": "Photo tips",
+    "activities": "Activities",
+    "amenities": "Amenities",
+    "seasonalNotes": "Seasonal notes",
+    "similar": "More like this",
+    "back": "Back",
+    "today": "Today"
+  },
+  "hours": {
+    "open": "Open",
+    "closingSoon": "Closes soon",
+    "closed": "Closed",
+    "openingSoon": "Opens soon",
+    "open24h": "Open 24 hours",
+    "unavailable": "Hours unavailable",
+    "checking": "Checking hours",
+    "until": "until {time}",
+    "closesAt": "closes {time}",
+    "opensAt": "opens {time}",
+    "opensTomorrow": "opens tomorrow {time}",
+    "opensOn": "opens {day} {time}"
+  },
+  "saved": {
+    "title": "Saved",
+    "count": "{count, plural, one {# place} other {# places}}",
+    "emptyTitle": "Nothing saved yet",
+    "emptyBody": "Tap the heart on any place to keep it here. Saved places stay on this device.",
+    "emptyCta": "Find something to eat"
+  },
+  "comingSoon": {
+    "badge": "Under construction",
+    "myDay": {
+      "title": "Design my day",
+      "body": "Tell us the date, your mood and your budget, and we will line up breakfast through a nightcap around what is open. The planner is being built now.",
+      "cta": "Browse places meanwhile"
+    },
+    "tips": {
+      "title": "Tourist tips",
+      "body": "OMNY and subway basics, tipping, safety, a neighborhood guide and seasonal events are on the way.",
+      "cta": "Explore places meanwhile"
+    }
+  },
+  "footer": {
+    "dataNote": "Places marked Unverified use placeholder details and have not been checked yet.",
+    "copyright": "© {year} NYCrave"
+  },
+  "notFound": {
+    "title": "This stop is not in service",
+    "body": "The page you are looking for does not exist or has moved.",
+    "cta": "Back to home"
+  },
+  "rail": {
+    "previous": "Scroll {title} back",
+    "next": "Scroll {title} forward"
+  },
+  "cuisine": {
+    "vietnamese": "Vietnamese",
+    "korean": "Korean",
+    "japanese": "Japanese",
+    "chinese": "Chinese",
+    "thai": "Thai",
+    "indian": "Indian",
+    "american": "American",
+    "italian": "Italian",
+    "mexican": "Mexican",
+    "french": "French",
+    "greek": "Greek",
+    "middle_eastern": "Middle Eastern",
+    "caribbean": "Caribbean",
+    "ethiopian": "Ethiopian",
+    "filipino": "Filipino",
+    "malaysian": "Malaysian",
+    "taiwanese": "Taiwanese",
+    "spanish": "Spanish",
+    "turkish": "Turkish",
+    "peruvian": "Peruvian",
+    "jewish_deli": "Jewish deli",
+    "halal": "Halal",
+    "colombian": "Colombian",
+    "dominican": "Dominican",
+    "polish": "Polish",
+    "georgian": "Georgian",
+    "west_african": "West African",
+    "nepali": "Nepali"
+  },
+  "dish": {
+    "bbq": "BBQ",
+    "noodle_soup": "Noodle soup",
+    "dry_noodles": "Dry noodles",
+    "dumplings": "Dumplings",
+    "rice_dishes": "Rice dishes",
+    "hot_pot": "Hot pot",
+    "sushi": "Sushi",
+    "ramen": "Ramen",
+    "curry": "Curry",
+    "sandwiches": "Sandwiches",
+    "pizza": "Pizza",
+    "bagels": "Bagels",
+    "tacos": "Tacos",
+    "brunch": "Brunch",
+    "bakery": "Bakery",
+    "desserts": "Desserts",
+    "street_food": "Street food",
+    "seafood": "Seafood",
+    "burgers": "Burgers",
+    "fried_chicken": "Fried chicken",
+    "vegetarian_plates": "Vegetarian plates"
+  },
+  "drinkType": {
+    "coffee": "Coffee",
+    "bubble_tea": "Bubble tea",
+    "tea": "Tea",
+    "matcha": "Matcha",
+    "cocktails": "Cocktails",
+    "rooftop_bar": "Rooftop bar",
+    "wine_bar": "Wine bar",
+    "juice": "Juice"
+  },
+  "shopType": {
+    "flagship": "Flagship",
+    "vintage": "Vintage",
+    "thrift": "Thrift",
+    "market": "Market",
+    "boutique": "Boutique",
+    "bookstore": "Bookstore",
+    "department_store": "Department store"
+  },
+  "vibe": {
+    "date_night": "Date night",
+    "cheap_eats": "Cheap eats",
+    "late_night": "Late night",
+    "rainy_day": "Rainy day",
+    "kid_friendly": "Kid-friendly",
+    "instagrammable": "Instagrammable",
+    "local_favorite": "Local favorite",
+    "tourist_classic": "Tourist classic",
+    "group_friendly": "Good for groups",
+    "solo_friendly": "Good solo",
+    "outdoor": "Outdoors",
+    "quiet": "Quiet"
+  },
+  "dietary": {
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "halal": "Halal",
+    "kosher": "Kosher",
+    "gluten_free": "Gluten-free"
+  },
+  "borough": {
+    "manhattan": "Manhattan",
+    "brooklyn": "Brooklyn",
+    "queens": "Queens",
+    "bronx": "The Bronx",
+    "staten_island": "Staten Island"
+  },
+  "light": {
+    "sunrise": "Sunrise",
+    "morning": "Morning",
+    "midday": "Midday",
+    "golden_hour": "Golden hour",
+    "blue_hour": "Blue hour",
+    "night": "Night"
+  }
+}
