@@ -1,66 +1,56 @@
 "use client"
 
 import { useCallback, useSyncExternalStore } from "react"
+import { createLocalStore } from "@/lib/local-store"
 
-/**
- * Saved places live in localStorage for now (Supabase auth later).
- * One store shared by every component, synced across tabs via the storage event.
- */
-const KEY = "nycrave:saved:v1"
-const CHANGE = "nycrave:saved-change"
-const EMPTY: string[] = []
-
-let cachedRaw: string | null = null
-let cachedSlugs: string[] = EMPTY
-
-function read(): string[] {
-  let raw: string | null = null
-  try {
-    raw = window.localStorage.getItem(KEY)
-  } catch {
-    return EMPTY
-  }
-  if (raw === cachedRaw) return cachedSlugs
-  cachedRaw = raw
-  try {
-    const parsed: unknown = raw ? JSON.parse(raw) : []
-    cachedSlugs = Array.isArray(parsed) ? parsed.filter((s) => typeof s === "string") : EMPTY
-  } catch {
-    cachedSlugs = EMPTY
-  }
-  return cachedSlugs
-}
-
-function write(slugs: string[]) {
-  try {
-    window.localStorage.setItem(KEY, JSON.stringify(slugs))
-  } catch {
-    // Storage full or blocked (private mode): saving silently becomes session-less.
-  }
-  window.dispatchEvent(new Event(CHANGE))
-}
-
-function subscribe(onChange: () => void) {
-  const onStorage = (e: StorageEvent) => {
-    if (e.key === KEY) onChange()
-  }
-  window.addEventListener("storage", onStorage)
-  window.addEventListener(CHANGE, onChange)
-  return () => {
-    window.removeEventListener("storage", onStorage)
-    window.removeEventListener(CHANGE, onChange)
-  }
-}
+/** Saved places live in localStorage for now (Supabase auth later). */
+const store = createLocalStore<string[]>(
+  "nycrave:saved:v1",
+  (raw) => (Array.isArray(raw) ? raw.filter((s): s is string => typeof s === "string") : []),
+  [],
+)
 
 export function useSaved() {
-  const slugs = useSyncExternalStore(subscribe, read, () => EMPTY)
+  const slugs = useSyncExternalStore(store.subscribe, store.read, () => store.empty)
 
   const toggle = useCallback((slug: string) => {
-    const current = read()
-    write(current.includes(slug) ? current.filter((s) => s !== slug) : [slug, ...current])
+    const current = store.read()
+    store.write(current.includes(slug) ? current.filter((s) => s !== slug) : [slug, ...current])
   }, [])
 
   const isSaved = useCallback((slug: string) => slugs.includes(slug), [slugs])
 
   return { slugs, toggle, isSaved }
+}
+
+export type SavedDay = { url: string; label: string; savedAt: number }
+
+const dayStore = createLocalStore<SavedDay[]>(
+  "nycrave:days:v1",
+  (raw) =>
+    Array.isArray(raw)
+      ? raw.filter(
+          (d): d is SavedDay =>
+            typeof d?.url === "string" &&
+            typeof d?.label === "string" &&
+            typeof d?.savedAt === "number",
+        )
+      : [],
+  [],
+)
+
+/** Planned days saved on this device, newest first. */
+export function useSavedDays() {
+  const days = useSyncExternalStore(dayStore.subscribe, dayStore.read, () => dayStore.empty)
+
+  const save = useCallback((day: Omit<SavedDay, "savedAt">) => {
+    const rest = dayStore.read().filter((d) => d.url !== day.url)
+    dayStore.write([{ ...day, savedAt: Date.now() }, ...rest])
+  }, [])
+
+  const remove = useCallback((url: string) => {
+    dayStore.write(dayStore.read().filter((d) => d.url !== url))
+  }, [])
+
+  return { days, save, remove, has: (url: string) => days.some((d) => d.url === url) }
 }

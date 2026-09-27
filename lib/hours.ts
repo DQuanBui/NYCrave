@@ -20,6 +20,18 @@ const clockFormat = new Intl.DateTimeFormat("en-US", {
 
 const SHORT_DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
+const dateFormat = new Intl.DateTimeFormat("en-CA", {
+  timeZone: NYC_TZ,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+})
+
+/** The New York calendar date for an instant, as YYYY-MM-DD. */
+export function nycDateString(date: Date): string {
+  return dateFormat.format(date)
+}
+
 /** Wall-clock weekday and time in New York for an instant, DST-aware. */
 export function nycClock(date: Date): NycClock {
   const parts = clockFormat.formatToParts(date)

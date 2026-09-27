@@ -5,12 +5,19 @@ import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { cn } from "@/lib/utils"
 
-export function ShareButton({ title, className }: { title: string; className?: string }) {
+type ShareButtonProps = {
+  title: string
+  /** Defaults to the current page. */
+  url?: string
+  className?: string
+}
+
+export function ShareButton({ title, url: shareUrl, className }: ShareButtonProps) {
   const t = useTranslations("place")
   const [copied, setCopied] = useState(false)
 
   async function share() {
-    const url = window.location.href
+    const url = shareUrl ?? window.location.href
     if (navigator.share) {
       try {
         await navigator.share({ title, url })
