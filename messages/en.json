@@ -42,7 +42,8 @@
       "vintage": "vintage in Williamsburg",
       "skyline": "the skyline at blue hour",
       "pier": "a pier at golden hour"
-    }
+    },
+    "intro": "Find where to eat, drink, explore and shop across the five boroughs, see what is open right now, and plan a whole day around it."
   },
   "search": {
     "label": "Search places",

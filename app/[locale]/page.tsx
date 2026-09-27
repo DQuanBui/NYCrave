@@ -44,7 +44,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
       <Hero />
-      <div className="mx-auto max-w-7xl space-y-16 px-4 lg:space-y-20 lg:px-8">
+      <LineMap counts={counts} />
+      <div className="mx-auto max-w-7xl space-y-16 px-4 pt-14 lg:space-y-20 lg:px-8 lg:pt-20">
         <PlaceRail title={t("trending")} places={all} limit={8} />
         <PlaceRail
           title={t("openNow")}
@@ -66,7 +67,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           places={favorites}
           seeAllHref="/search?q=local+favorites"
         />
-        <LineMap counts={counts} />
       </div>
     </>
   )

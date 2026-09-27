@@ -9,11 +9,11 @@ export async function SiteFooter() {
   const t = await getTranslations()
 
   return (
-    <footer className="mt-24 border-t pb-28 md:pb-0">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 md:grid-cols-[1fr_2fr] lg:px-8">
+    <footer className="mt-24 sign-band pb-28 text-sign-foreground md:pb-0">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 pt-16 pb-12 md:grid-cols-[1fr_2fr] lg:px-8">
         <div className="space-y-4">
           <Wordmark />
-          <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
+          <p className="max-w-xs text-sm leading-relaxed text-sign-foreground/75">
             <LineBullet line="gray" size="xs" className="mr-1.5 align-[-0.3em]">
               !
             </LineBullet>
@@ -26,7 +26,7 @@ export async function SiteFooter() {
               <li key={key}>
                 <Link
                   href={NAV[key].href}
-                  className="text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                  className="text-sign-foreground/75 underline-offset-4 hover:text-sign-foreground hover:underline"
                 >
                   {t(`nav.${key}`)}
                 </Link>
@@ -35,7 +35,7 @@ export async function SiteFooter() {
           </ul>
         </nav>
       </div>
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 pb-8 text-xs text-muted-foreground lg:px-8">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 pb-8 text-xs text-sign-foreground/75 lg:px-8">
         <span>{t("footer.copyright", { year: new Date().getFullYear() })}</span>
         <LocaleSwitcher />
       </div>

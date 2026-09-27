@@ -66,6 +66,9 @@ export function PlaceCard({ place, className, priority }: PlaceCardProps) {
         <p className="text-sm text-muted-foreground">
           {place.neighborhood}, {t(`borough.${place.borough}`)}
         </p>
+        {place.editorialTake ? (
+          <p className="line-clamp-2 text-sm leading-snug text-pretty">{place.editorialTake}</p>
+        ) : null}
         {tags.length > 0 ? (
           <ul className="flex flex-wrap gap-1.5">
             {tags.map((tag) => (

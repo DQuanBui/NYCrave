@@ -1,5 +1,7 @@
+import { ArrowRight } from "lucide-react"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { SignBand } from "@/components/brand/sign-band"
 import { Link } from "@/i18n/navigation"
 import { LINES } from "@/lib/lines"
 import { CATEGORY_META } from "@/lib/taxonomy"
@@ -7,52 +9,58 @@ import { cn } from "@/lib/utils"
 import { CATEGORIES } from "@/types/enums"
 import type { Category } from "@/types/place"
 
-/** Categories drawn as a strip map: one colored line per section, stations stacked like a route. */
+/** Every section as a line on a subway-tile wall, right under the hero. */
 export async function LineMap({ counts }: { counts: Record<Category, number> }) {
   const t = await getTranslations()
   return (
-    <section aria-labelledby="lines-title" className="space-y-6">
-      <h2 id="lines-title" className="font-display text-display-lg">
-        {t("home.linesTitle")}
-      </h2>
-      <ol className="grid gap-x-10 md:grid-cols-2">
-        {CATEGORIES.map((category) => {
-          const meta = CATEGORY_META[category]
-          const line = LINES[meta.line]
-          return (
-            <li key={category} className="group relative">
-              <Link
-                href={meta.href}
-                className="relative flex gap-5 py-4 pr-3 pl-1 transition-colors hover:bg-accent/70"
-              >
-                <span className="relative flex w-11 shrink-0 justify-center">
-                  <span aria-hidden className={cn("absolute -inset-y-4 w-2", line.bg)} />
-                  <LineBullet
-                    line={meta.line}
-                    size="lg"
-                    className="relative ring-4 ring-background"
-                  >
-                    {meta.bullet}
-                  </LineBullet>
-                </span>
-                <span className="min-w-0 pt-1">
-                  <span className="flex items-baseline gap-3">
-                    <span className="font-display text-display-sm sm:text-3xl">
-                      {t(`categories.${category}.title`)}
-                    </span>
-                    <span className="text-sm font-semibold text-muted-foreground tabular-nums">
-                      {t("home.linesCount", { count: counts[category] })}
-                    </span>
+    <section aria-labelledby="lines-title" className="subway-tiles py-10 lg:py-14">
+      <div className="mx-auto max-w-7xl space-y-5 px-4 lg:px-8">
+        <SignBand
+          id="lines-title"
+          title={t("home.linesTitle")}
+          bullets={CATEGORIES.map((c) => (
+            <LineBullet key={c} line={CATEGORY_META[c].line} size="xs">
+              {CATEGORY_META[c].bullet}
+            </LineBullet>
+          ))}
+        />
+        <ol className="grid grid-cols-2 gap-3 md:grid-cols-3">
+          {CATEGORIES.map((category) => {
+            const meta = CATEGORY_META[category]
+            return (
+              <li key={category}>
+                <Link
+                  href={meta.href}
+                  className="group relative flex h-full flex-col gap-3 overflow-hidden rounded-xl bg-card p-4 shadow-sm transition-shadow hover:shadow-md sm:p-5"
+                >
+                  <span
+                    aria-hidden
+                    className={cn("absolute inset-x-0 top-0 h-1.5", LINES[meta.line].bg)}
+                  />
+                  <span className="flex items-center justify-between gap-2">
+                    <LineBullet line={meta.line} size="lg">
+                      {meta.bullet}
+                    </LineBullet>
+                    <ArrowRight
+                      aria-hidden
+                      className="size-5 text-muted-foreground transition-transform group-hover:translate-x-1"
+                    />
                   </span>
-                  <span className="mt-1 block text-sm leading-relaxed text-muted-foreground">
+                  <span className="font-display text-2xl leading-none sm:text-3xl">
+                    {t(`categories.${category}.title`)}
+                  </span>
+                  <span className="text-sm font-semibold text-muted-foreground tabular-nums">
+                    {t("home.linesCount", { count: counts[category] })}
+                  </span>
+                  <span className="hidden text-sm leading-relaxed text-muted-foreground sm:block">
                     {t(`categories.${category}.tagline`)}
                   </span>
-                </span>
-              </Link>
-            </li>
-          )
-        })}
-      </ol>
+                </Link>
+              </li>
+            )
+          })}
+        </ol>
+      </div>
     </section>
   )
 }

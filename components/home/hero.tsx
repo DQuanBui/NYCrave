@@ -7,6 +7,7 @@ import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { RouteArt } from "@/components/brand/route-art"
 import { MoodChips } from "@/components/home/mood-chips"
 import { SmartSearch } from "@/components/home/smart-search"
 import { Link } from "@/i18n/navigation"
@@ -61,7 +62,7 @@ export function Hero() {
   const sceneLabel = t(`scenes.${scene.key}`)
 
   return (
-    <section className="mx-auto grid max-w-7xl gap-8 px-4 pt-6 pb-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-14 lg:px-8 lg:pt-16 lg:pb-20">
+    <section className="mx-auto grid max-w-7xl gap-10 overflow-x-clip px-4 pt-6 pb-14 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-16 lg:px-8 lg:pt-16 lg:pb-24">
       <div className="flex min-w-0 flex-col gap-6">
         <h1>
           <span className="flex items-center gap-2.5 text-base font-semibold text-muted-foreground sm:text-lg">
@@ -89,18 +90,24 @@ export function Hero() {
             </AnimatePresence>
           </span>
         </h1>
+        <p className="max-w-xl text-lg leading-relaxed text-pretty text-muted-foreground">
+          {t("intro")}
+        </p>
 
         <SmartSearch className="max-w-2xl" />
         <MoodChips className="max-w-2xl" />
       </div>
 
       <div
-        className="relative lg:rotate-[1.5deg]"
+        className="relative isolate mx-4 my-6 sm:mx-10 lg:mx-0 lg:rotate-[1.5deg]"
         onMouseEnter={() => setHolding(true)}
         onMouseLeave={() => setHolding(false)}
         onFocus={() => setHolding(true)}
         onBlur={() => setHolding(false)}
       >
+        <div className="absolute -inset-x-10 -inset-y-8 -z-10 sm:-inset-x-16 lg:-inset-x-32 lg:-inset-y-16">
+          <RouteArt className="size-full" />
+        </div>
         <div className="rounded-2xl bg-sign p-2.5 shadow-[0_24px_60px_-20px_rgba(29,31,33,0.55)]">
           <Link
             href={{ pathname: "/search", query: { q: scene.query } }}
