@@ -693,5 +693,514 @@
     "verificationNotes": "Checked 2026-09-27: hours from dominopark.com via current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.7142,
     "lng": -73.9686
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/washington-square-park-1.jpg",
+        "alt": "The Washington Square Arch behind the fountain",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Polka0505, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Washington_Square_Arch,_Greenwich_Village,_NY_(6).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/washington-square-park-2.jpg",
+        "alt": "Washington Square Park's arch and fountain at dusk",
+        "width": 1100,
+        "height": 744,
+        "source": "other",
+        "attribution": {
+          "text": "Tony Hisgett from Birmingham, UK, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Evening_Washington_Square_(6212263466).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "tourist_classic", "local_favorite", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-washington-square-park",
+    "slug": "washington-square-park",
+    "name": "Washington Square Park",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "Washington Square, New York, NY 10012",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "The arch and fountain",
+        "Street performers and chess players",
+        "People-watching"
+      ],
+      "amenities": ["Benches", "Playgrounds", "Dog runs"],
+      "seasonalNotes": "Playgrounds close at 9 PM from March to October and 6 PM in winter."
+    },
+    "editorialTake": "The Village's living room: the marble arch, a fountain you can sit on, pianists, chess hustlers and NYU students. Grab a slice nearby and just stay a while.",
+    "bestTimeToVisit": "Warm weekend afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 86,
+    "website": "https://www.nycgovparks.org/parks/washington-square-park",
+    "verificationNotes": "Checked 2026-09-27: closing shown as midnight to be safe; NYC Parks' standard hours run to 1 AM unless posted. Playground hours from NYC Parks. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73082,
+    "lng": -73.99733
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bryant-park-1.jpg",
+        "alt": "Bryant Park's lawn under golden autumn trees, ringed by Midtown towers",
+        "width": 1100,
+        "height": 645,
+        "source": "other",
+        "attribution": {
+          "text": "Jonathan Arbes, CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bryant_Park_(33321433).jpeg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      },
+      {
+        "url": "/photos/bryant-park-2.jpg",
+        "alt": "The green lawn at Bryant Park in spring",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Billy Hathorn (talk), CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lawn_at_Bryant_Park,_NYC_IMG_1243.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "tourist_classic", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-bryant-park",
+    "slug": "bryant-park",
+    "name": "Bryant Park",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "Between 40th and 42nd Sts and 5th and 6th Aves, New York, NY 10018",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "Movable chairs on the lawn",
+        "Le Carrousel",
+        "Winter Village ice skating (late October to February)"
+      ],
+      "amenities": ["Restrooms", "Kiosks and cafes", "Free Wi-Fi"],
+      "seasonalNotes": "Hours change by month: to 11 PM from May to September; to midnight Thursday to Sunday in November and December."
+    },
+    "editorialTake": "Midtown's backyard behind the Public Library: pull up a green chair on the lawn, and in winter skate for free at the Winter Village rink.",
+    "bestTimeToVisit": "Weekday lunchtime",
+    "timeNeededMinutes": 30,
+    "trendingScore": 80,
+    "website": "https://bryantpark.org",
+    "verificationNotes": "Checked 2026-09-27: October hours (7 AM to 10 PM daily) and location from bryantpark.org/the-park/hours-and-directions. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75359,
+    "lng": -73.98343
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/sunset-park-1.jpg",
+        "alt": "Lower Manhattan's skyline seen over the trees from Sunset Park",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "GK tramrunner RU, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Looking_on_Manhattan_from_Sunset_Park_in_Brooklyn_(zoom).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "local_favorite", "quiet"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-sunset-park",
+    "slug": "sunset-park",
+    "name": "Sunset Park",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "Sunset Park",
+    "address": "41st to 44th St, 5th to 7th Ave, Brooklyn, NY 11220",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": ["Hilltop views of the harbor and Manhattan", "Public pool (summer)"],
+      "amenities": ["Recreation center", "Playgrounds"],
+      "seasonalNotes": "The 1936 pool opens in summer."
+    },
+    "editorialTake": "A hilltop park with one of the best free views in the city: the harbor, the Statue of Liberty and the whole Manhattan skyline. Named for the view, so time it for sunset.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 45,
+    "trendingScore": 60,
+    "website": "https://www.nycgovparks.org/parks/sunset-park",
+    "verificationNotes": "Checked 2026-09-27: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). Views and pool history from NYC Parks. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.64769,
+    "lng": -74.00438
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/brooklyn-botanic-garden-1.jpg",
+        "alt": "Cherry trees in pink bloom around the Cherry Esplanade at Brooklyn Botanic Garden",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "King of Hearts, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_May_2015_009.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/brooklyn-botanic-garden-2.jpg",
+        "alt": "The long lawn of the Cherry Esplanade lined with trees",
+        "width": 1100,
+        "height": 440,
+        "source": "other",
+        "attribution": {
+          "text": "King of Hearts, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Botanic_Garden_New_York_October_2016_003.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "quiet", "date_night", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-brooklyn-botanic-garden",
+    "slug": "brooklyn-botanic-garden",
+    "name": "Brooklyn Botanic Garden",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "Prospect Heights",
+    "address": "990 Washington Ave, Brooklyn, NY 11225",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 22,
+        "max": 22
+      },
+      "bookingUrl": "https://www.bbg.org/tickets",
+      "notes": "Adults $22 at the box office; seniors and students $16; under 12 free. Pay what you wish on winter weekdays (December to February)."
+    },
+    "park": {
+      "activities": [
+        "Cherry Esplanade and Japanese Hill-and-Pond Garden",
+        "Rose garden",
+        "Conservatories"
+      ],
+      "amenities": ["Cafe", "Restrooms", "Shop"],
+      "seasonalNotes": "Cherry blossoms peak in April and early May. Hours change by month."
+    },
+    "editorialTake": "Fifty-two acres of themed gardens next to Prospect Park, from a Japanese pond garden to rose arches. Unmissable in cherry blossom season, lovely in every other.",
+    "bestTimeToVisit": "Late April for cherry blossoms",
+    "timeNeededMinutes": 120,
+    "trendingScore": 76,
+    "website": "https://www.bbg.org",
+    "verificationNotes": "Checked 2026-09-27: October hours (Tuesday to Sunday, 10 AM to 6 PM) and admission from bbg.org/visit/hours. Hours change by month. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.66659,
+    "lng": -73.96202
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/new-york-botanical-garden-1.jpg",
+        "alt": "The domed Enid A. Haupt Conservatory at the New York Botanical Garden",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Krzysztof Ziarnek, Kenraiz, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Enid_A._Haupt_Conservatory_kz01.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/new-york-botanical-garden-2.jpg",
+        "alt": "Lily pools in front of the conservatory at the New York Botanical Garden",
+        "width": 1100,
+        "height": 791,
+        "source": "other",
+        "attribution": {
+          "text": "Acroterion, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:NYBG_Conservatory_NY1.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "quiet", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "g-new-york-botanical-garden",
+    "slug": "new-york-botanical-garden",
+    "name": "New York Botanical Garden",
+    "category": "park_pier",
+    "borough": "bronx",
+    "neighborhood": "Bronx Park",
+    "address": "2900 Southern Blvd, Bronx, NY 10458",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 15,
+        "max": 15
+      },
+      "bookingUrl": "https://www.nybg.org/visit/admission/",
+      "notes": "Grounds pass: adults $15, students and seniors $7, children 2 to 12 $4. The All-Garden Pass (conservatory and exhibitions) costs more."
+    },
+    "park": {
+      "activities": [
+        "Enid A. Haupt Conservatory",
+        "Old-growth Thain Family Forest",
+        "Seasonal exhibitions and the Holiday Train Show"
+      ],
+      "amenities": ["Cafes", "Tram tour", "Restrooms"],
+      "seasonalNotes": "The Holiday Train Show runs from November into January."
+    },
+    "editorialTake": "A 250-acre garden in the Bronx with a Victorian glasshouse, an old-growth forest and a river gorge. Take Metro-North from Grand Central to Botanical Garden station, about 20 minutes.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 180,
+    "trendingScore": 70,
+    "website": "https://www.nybg.org",
+    "verificationNotes": "Checked 2026-09-27: hours (Tuesday to Sunday, 10 AM to 6 PM, plus select Monday holidays) and grounds prices from nybg.org. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.86224,
+    "lng": -73.87715
   }
 ]

@@ -52,7 +52,7 @@ export default async function NeighborhoodPage({ params }: Props) {
   const all = await getPlaces({}, { sort: "trending" })
   const places = all.filter((p) => p.neighborhood === hood.name)
   const meta = BOROUGH_META[hood.borough]
-  const routes = routesNear(hood, 0.9)
+  const routes = routesNear(hood, 0.6)
 
   // Closest neighborhoods that actually have places
   const nearby = NEIGHBORHOODS.filter((n) => n.slug !== hood.slug)

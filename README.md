@@ -64,7 +64,7 @@ A photo gallery with credits, a live "open until 11 PM" badge, the week's hours,
 
 <img src="docs/screenshots/neighborhood-mobile.jpg" alt="Williamsburg neighborhood guide on a phone" width="280" align="right">
 
-- **30 neighborhood guides** across all five boroughs, each with an introduction, the subway lines that serve it, a map of its places, nearby neighborhoods and a *Plan a day starting here* button.
+- **34 neighborhood guides** across all five boroughs, each with an introduction, the subway lines that serve it, a map of its places, nearby neighborhoods and a *Plan a day starting here* button.
 - **Tourist tips**: getting in from JFK, LaGuardia and Newark; OMNY and the subway; tipping and sales tax, with a calculator that shows what dinner really costs per person; safety and etiquette; and the city through the seasons.
 
 ### Works like an app
@@ -97,7 +97,7 @@ NYCrave looks like a food magazine that fell for the subway map:
 
 ## Data and trust
 
-- **45 real places** across the six sections, each checked against the venue's official website or current listings, with the source and date recorded. Places carry an *Unverified* tag until they are confirmed with the venue, and unverified places are kept out of search engines.
+- **70 real places** across the six sections, each checked against the venue's official website or current listings, with the source and date recorded. Places carry an *Unverified* tag until they are confirmed with the venue, and unverified places are kept out of search engines.
 - **Photos** come from Wikimedia Commons under free licenses (CC0, public domain, CC BY and CC BY-SA). Every photo is credited on its place page and on the site's *Photo credits* page. Generic shots of a dish or drink are labeled *Illustrative*.
 - **No scraping.** Ratings and reviews only ever come from the official Google Places API, with attribution. The editorial takes are our own writing.
 - **Easy to maintain.** An editor page lets you add places, fix details, pull hours from Google and mark places as verified.

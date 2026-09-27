@@ -522,5 +522,272 @@
     "verificationNotes": "Checked 2026-09-27: market hours from current listings; vendor hours vary. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.8543,
     "lng": -73.88846
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/housing-works-bookstore-cafe-1.jpg",
+        "alt": "Inside Housing Works Bookstore Cafe: wooden balconies, bookshelves and green pendant lamps",
+        "width": 1100,
+        "height": 734,
+        "source": "other",
+        "attribution": {
+          "text": "Marginalmonkeys, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:HousingWorksCafe-April2015.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Browse the upstairs balcony stacks", "Coffee at the cafe"],
+    "vibeTags": ["rainy_day", "quiet", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-housing-works-bookstore",
+    "slug": "housing-works-bookstore-cafe",
+    "name": "Housing Works Bookstore Cafe",
+    "category": "shopping",
+    "shopTypes": ["bookstore", "thrift"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "126 Crosby St, New York, NY 10012",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A two-story used bookstore and cafe with wooden balconies and rolling ladders, run by a nonprofit that fights homelessness and HIV/AIDS. Every purchase goes to the cause.",
+    "bestTimeToVisit": "A rainy weekday afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 70,
+    "website": "https://www.housingworks.org",
+    "verificationNotes": "Checked 2026-09-27: address and store hours from housingworks.org (Bookstore Cafe location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72459,
+    "lng": -73.9965
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/union-square-greenmarket-1.jpg",
+        "alt": "Shoppers between produce stalls at the Union Square Greenmarket",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Postdlf, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Union_Square_Farmers_Market.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      },
+      {
+        "url": "/photos/union-square-greenmarket-2.jpg",
+        "alt": "Union Square from above, with the park and the plaza",
+        "width": 1100,
+        "height": 736,
+        "source": "other",
+        "attribution": {
+          "text": "Jan Ainali, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Union_square_August_2009.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "Apple cider doughnuts in the fall",
+      "Seasonal fruit from the Hudson Valley",
+      "Fresh bread and cheese"
+    ],
+    "vibeTags": ["local_favorite", "outdoor", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-union-square-greenmarket",
+    "slug": "union-square-greenmarket",
+    "name": "Union Square Greenmarket",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "Union Square",
+    "address": "Union Square Park, E 17th St & Broadway, New York, NY 10003",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "New York's biggest farmers market fills Union Square four days a week with regional farmers, bakers and cheesemakers. Graze your way round, then picnic on the square.",
+    "bestTimeToVisit": "Saturday morning, before noon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 75,
+    "website": "https://www.grownyc.org",
+    "verificationNotes": "Checked 2026-09-27: days and hours (Monday, Wednesday, Friday and Saturday, 8 AM to 6 PM, year-round) from grownyc.org. In winter some farmers leave from 3 PM. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73682,
+    "lng": -73.99072
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/industry-city-1.jpg",
+        "alt": "An Industry City courtyard with lawn and a golden tree in autumn",
+        "width": 1024,
+        "height": 576,
+        "source": "other",
+        "attribution": {
+          "text": "GK tramrunner RU, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Industry_City_courtyard_5-6_Green_playground_10_8_24.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/industry-city-2.jpg",
+        "alt": "String lights over a courtyard between Industry City's warehouse buildings",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Industry_City_August_2021_039.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The food hall", "Makers' shops in the courtyards"],
+    "vibeTags": ["rainy_day", "group_friendly", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "s-industry-city",
+    "slug": "industry-city",
+    "name": "Industry City",
+    "category": "shopping",
+    "shopTypes": ["market", "boutique"],
+    "dietary": [],
+    "borough": "brooklyn",
+    "neighborhood": "Sunset Park",
+    "address": "220 36th St, Brooklyn, NY 11232",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Century-old waterfront warehouses turned into a campus of food halls, makers' shops and galleries, with courtyards for sitting in the sun. A good half day, especially on weekends.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 120,
+    "trendingScore": 68,
+    "website": "https://industrycity.com",
+    "verificationNotes": "Checked 2026-09-27: address and building hours (9 AM to 9 PM) from industrycity.com/visit. Individual shops keep their own hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.65663,
+    "lng": -74.00843
   }
 ]

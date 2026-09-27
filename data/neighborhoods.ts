@@ -28,6 +28,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "soho", name: "SoHo", borough: "manhattan", lat: 40.7233, lng: -74.003 },
   { slug: "east-village", name: "East Village", borough: "manhattan", lat: 40.7265, lng: -73.9815 },
   { slug: "west-village", name: "West Village", borough: "manhattan", lat: 40.7358, lng: -74.0036 },
+  {
+    slug: "greenwich-village",
+    name: "Greenwich Village",
+    borough: "manhattan",
+    lat: 40.7314,
+    lng: -73.9969,
+  },
   { slug: "union-square", name: "Union Square", borough: "manhattan", lat: 40.7359, lng: -73.9911 },
   {
     slug: "meatpacking-district",
@@ -67,9 +74,23 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9936,
   },
   { slug: "park-slope", name: "Park Slope", borough: "brooklyn", lat: 40.671, lng: -73.9814 },
+  {
+    slug: "prospect-heights",
+    name: "Prospect Heights",
+    borough: "brooklyn",
+    lat: 40.6746,
+    lng: -73.9656,
+  },
   { slug: "bushwick", name: "Bushwick", borough: "brooklyn", lat: 40.6944, lng: -73.9213 },
   { slug: "sunset-park", name: "Sunset Park", borough: "brooklyn", lat: 40.6455, lng: -74.0124 },
   { slug: "flushing", name: "Flushing", borough: "queens", lat: 40.758, lng: -73.8303 },
+  {
+    slug: "flushing-meadows",
+    name: "Flushing Meadows",
+    borough: "queens",
+    lat: 40.7453,
+    lng: -73.8448,
+  },
   { slug: "astoria", name: "Astoria", borough: "queens", lat: 40.7644, lng: -73.9235 },
   {
     slug: "jackson-heights",
@@ -86,6 +107,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9485,
   },
   { slug: "belmont", name: "Belmont", borough: "bronx", lat: 40.8551, lng: -73.8876 },
+  { slug: "bronx-park", name: "Bronx Park", borough: "bronx", lat: 40.8575, lng: -73.8766 },
   { slug: "mott-haven", name: "Mott Haven", borough: "bronx", lat: 40.8091, lng: -73.9229 },
   { slug: "st-george", name: "St. George", borough: "staten_island", lat: 40.6437, lng: -74.0765 },
 ]

@@ -48,12 +48,12 @@ export async function SunToday({
   return (
     <section
       aria-labelledby="sun-today"
-      className={cn("space-y-3 rounded-2xl border bg-card p-5", className)}
+      className={cn("@container space-y-3 rounded-2xl border bg-card p-5", className)}
     >
       <Heading id="sun-today" className="font-bold">
         {t("title")}
       </Heading>
-      <dl className="grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-3 lg:grid-cols-5">
+      <dl className="grid grid-cols-2 gap-x-6 gap-y-3 @lg:grid-cols-3 @4xl:grid-cols-5">
         {rows.map(({ icon: Icon, label, value, tone }) => (
           <div key={label}>
             <dt className="flex items-center gap-1.5 text-sm text-muted-foreground">

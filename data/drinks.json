@@ -647,5 +647,96 @@
     "verificationNotes": "Checked 2026-09-27: hours from westlightnyc.com location page and listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.72241,
     "lng": -73.95692
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bohemian-hall-beer-garden-1.jpg",
+        "alt": "Bohemian Hall's brick building and Beer Garden sign on 24th Avenue in Astoria",
+        "width": 1100,
+        "height": 642,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Bohemian_Hall_Astoria_jeh.JPG",
+          "license": "Public domain"
+        }
+      },
+      {
+        "url": "/photos/bohemian-hall-beer-garden-2.jpg",
+        "alt": "The Beer Garden entrance of Bohemian Hall in Astoria",
+        "width": 1100,
+        "height": 731,
+        "source": "other",
+        "attribution": {
+          "text": "MrShah2012, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bohemian_Hall_and_Beer_Garden,_29-19_24th_Ave.,_Astoria,_NY._Fron_sho,_across_the_street..JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Czech lager by the pitcher", "Sausages from the grill"],
+    "vibeTags": ["outdoor", "group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-bohemian-hall",
+    "slug": "bohemian-hall-beer-garden",
+    "name": "Bohemian Hall & Beer Garden",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "dietary": [],
+    "borough": "queens",
+    "neighborhood": "Astoria",
+    "address": "29-19 24th Ave, Astoria, NY 11102",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "15:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "New York's oldest beer garden, run by the Czech and Slovak community since 1910: long picnic tables under the trees, pitchers of Czech beer and a crowd that spans generations.",
+    "bestTimeToVisit": "A warm Saturday afternoon",
+    "timeNeededMinutes": 90,
+    "trendingScore": 76,
+    "website": "https://www.bohemianhall.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from bohemianhall.com (closed Mondays except for private events; est. 1910). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.77295,
+    "lng": -73.91579
   }
 ]

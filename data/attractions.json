@@ -787,5 +787,482 @@
     "verificationNotes": "Checked 2026-09-27: ferries run from 9 AM; the last departure changes by season (about 3:30 to 5 PM). Prices from Statue City Cruises. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.7034,
     "lng": -74.0169
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/guggenheim-museum-1.jpg",
+        "alt": "Looking up the Guggenheim's spiral rotunda to the skylight",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "EgorovaSvetlana, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Main_Gallery_Interior_and_Skylight_Solomon_R_Guggenheim_Museum.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Walk the spiral ramp from the top down", "The rotunda skylight"],
+    "vibeTags": ["rainy_day", "tourist_classic", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-guggenheim",
+    "slug": "guggenheim-museum",
+    "name": "Solomon R. Guggenheim Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "1071 5th Ave, New York, NY 10128",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 30,
+        "max": 30
+      },
+      "bookingUrl": "https://www.guggenheim.org/buy-tickets",
+      "notes": "Adults $30; students and seniors $19; under 12 free. Pay what you wish on Tuesdays and Sundays from 4 to 5:30 PM."
+    },
+    "editorialTake": "Frank Lloyd Wright's white spiral on Fifth Avenue is the artwork before you even look at the art. Take the elevator up and drift down the ramp through the exhibition.",
+    "bestTimeToVisit": "Weekday at opening",
+    "timeNeededMinutes": 120,
+    "trendingScore": 85,
+    "website": "https://www.guggenheim.org",
+    "verificationNotes": "Checked 2026-09-27: hours, address and admission from guggenheim.org (plan your visit and discounts pages). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.78299,
+    "lng": -73.95892
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/whitney-museum-1.jpg",
+        "alt": "The Whitney Museum's building at the foot of the High Line in the Meatpacking District",
+        "width": 1100,
+        "height": 932,
+        "source": "other",
+        "attribution": {
+          "text": "Gunnar Klack, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:2025-05-15-Whitney-Museum-of_American-Art-Meatpacking-District-building.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/whitney-museum-2.jpg",
+        "alt": "The Whitney Museum seen from the west, with its stepped terraces",
+        "width": 1100,
+        "height": 968,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Whitney_Museum_from_west.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "The outdoor terraces facing the Hudson",
+      "The Whitney Biennial, in Biennial years"
+    ],
+    "vibeTags": ["rainy_day", "date_night", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-whitney",
+    "slug": "whitney-museum",
+    "name": "Whitney Museum of American Art",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Meatpacking District",
+    "address": "99 Gansevoort St, New York, NY 10014",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 30,
+        "max": 30
+      },
+      "bookingUrl": "https://whitney.org/visit",
+      "notes": "Adults $30; seniors and students $24; 25 and under free. Free on Friday nights and the second Sunday of every month."
+    },
+    "editorialTake": "Twentieth- and twenty-first-century American art at the foot of the High Line, with stepped outdoor terraces that look over the Hudson and downtown. Go on a Friday night, when it is free.",
+    "bestTimeToVisit": "Friday evening (free)",
+    "timeNeededMinutes": 120,
+    "trendingScore": 80,
+    "website": "https://whitney.org",
+    "verificationNotes": "Checked 2026-09-27: address, hours (closed Tuesdays, open late Fridays) and admission from whitney.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73965,
+    "lng": -74.00892
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/moma-ps1-1.jpg",
+        "alt": "MoMA PS1's red-brick former schoolhouse in Long Island City",
+        "width": 1100,
+        "height": 619,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:MoMA_PS1_067.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/moma-ps1-2.jpg",
+        "alt": "Arched windows along MoMA PS1's brick facade",
+        "width": 1100,
+        "height": 495,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:MoMA_PS1_034.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["James Turrell's Meeting (sky room)", "The courtyard in summer"],
+    "vibeTags": ["rainy_day", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-moma-ps1",
+    "slug": "moma-ps1",
+    "name": "MoMA PS1",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Long Island City",
+    "address": "22-25 Jackson Ave, Long Island City, NY 11101",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "Contemporary art in a former public school in Long Island City, one subway stop from Midtown. Free for everyone through 2028, so there is no reason not to wander in.",
+    "bestTimeToVisit": "Saturday morning",
+    "timeNeededMinutes": 90,
+    "trendingScore": 72,
+    "website": "https://www.moma.org/ps1",
+    "verificationNotes": "Checked 2026-09-27: hours and free admission from MoMA's December 2025 press release (free admission for all from January 1, 2026, for three years; closed Tuesdays and Wednesdays). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74551,
+    "lng": -73.94718
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/staten-island-ferry-1.jpg",
+        "alt": "An orange Staten Island Ferry crossing the harbor near the Statue of Liberty",
+        "width": 1100,
+        "height": 608,
+        "source": "other",
+        "attribution": {
+          "text": "Daniel Schwen, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_Staten_Island_Ferry_Andrew_J._Barberi.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/staten-island-ferry-2.jpg",
+        "alt": "The Statue of Liberty seen from the Staten Island Ferry",
+        "width": 1100,
+        "height": 707,
+        "source": "other",
+        "attribution": {
+          "text": "Peter Christian Riemann, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Statue_of_Liberty_seen_from_Staten_Island_Ferry,_New_York,_1978.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "Stand on the right side going to Staten Island for the Statue of Liberty",
+      "Ride back at dusk for the skyline"
+    ],
+    "vibeTags": ["tourist_classic", "instagrammable", "outdoor", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-staten-island-ferry",
+    "slug": "staten-island-ferry",
+    "name": "Staten Island Ferry",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "Whitehall Terminal, 4 South St, New York, NY 10004",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A free 25-minute harbor cruise past the Statue of Liberty, running around the clock. Nobody should sell you a ticket: just walk on at Whitehall and ride back from St. George.",
+    "bestTimeToVisit": "Sunset, for the return trip",
+    "timeNeededMinutes": 75,
+    "trendingScore": 87,
+    "website": "https://siferry.com",
+    "verificationNotes": "Checked 2026-09-27: 24/7 free service, 25-minute crossing and terminal address from siferry.com and NYC DOT. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.70143,
+    "lng": -74.01316
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bronx-zoo-1.jpg",
+        "alt": "The Bronx Zoo entrance gate among the trees",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "SnowFire, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bronx_Zoo_Asia_Gate_entrance_August_2026.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/bronx-zoo-2.jpg",
+        "alt": "A seabird exhibit with a pool at the Bronx Zoo",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "BronxZooWorldOfBirdsFan, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bronx_Zoo_Little_Blue_Penguin_Habitat.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Congo Gorilla Forest", "JungleWorld", "Tiger Mountain"],
+    "vibeTags": ["kid_friendly", "outdoor", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-bronx-zoo",
+    "slug": "bronx-zoo",
+    "name": "Bronx Zoo",
+    "category": "attraction",
+    "borough": "bronx",
+    "neighborhood": "Bronx Park",
+    "address": "2300 Southern Blvd, Bronx, NY 10460",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 37.7,
+        "max": 37.7
+      },
+      "bookingUrl": "https://bronxzoo.com/tickets",
+      "notes": "Flex pricing: adults from $37.70, seniors from $32.70, children 3 to 12 from $27.70, under 2 free."
+    },
+    "editorialTake": "One of the largest city zoos in the world, spread across the woods of Bronx Park. Wear good shoes, pick three or four areas and pair it with lunch on Arthur Avenue nearby.",
+    "bestTimeToVisit": "Weekday morning at opening",
+    "timeNeededMinutes": 240,
+    "trendingScore": 78,
+    "website": "https://bronxzoo.com",
+    "verificationNotes": "Checked 2026-09-27: address, April 2 to October 31 hours and prices from bronxzoo.com/plan-your-visit. From November 1 the zoo is open 10 AM to 4:30 PM daily. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.85351,
+    "lng": -73.87293
   }
 ]

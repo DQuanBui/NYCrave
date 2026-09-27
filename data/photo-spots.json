@@ -601,5 +601,314 @@
     "verificationNotes": "Checked 2026-09-27: hours and fare from current listings (runs every 10 to 15 minutes). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.7612,
     "lng": -73.9641
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/unisphere-1.jpg",
+        "alt": "The Unisphere with its fountains running in Flushing Meadows Corona Park",
+        "width": 1100,
+        "height": 1143,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Unisphere_in_summer.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/unisphere-2.jpg",
+        "alt": "The steel Unisphere globe under a cloudy sky",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Flushing_Meadows_Corona_Park_Unisphere_003.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "outdoor", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-unisphere",
+    "slug": "unisphere",
+    "name": "Unisphere",
+    "category": "photo_spot",
+    "borough": "queens",
+    "neighborhood": "Flushing Meadows",
+    "address": "Flushing Meadows Corona Park, Queens, NY 11368",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "morning"],
+      "tips": [
+        "Shoot from the southern end of the fountain pool to fit the whole globe",
+        "When the fountains run in summer, a slow shutter turns them to mist",
+        "Walk around it: the rings frame each other differently from every side"
+      ]
+    },
+    "editorialTake": "The 140-foot steel globe from the 1964 World's Fair, still the centerpiece of Flushing Meadows Corona Park. Huge, graphic and rarely crowded.",
+    "bestTimeToVisit": "Late afternoon golden hour",
+    "timeNeededMinutes": 30,
+    "trendingScore": 66,
+    "website": "https://www.nycgovparks.org/parks/flushing-meadows-corona-park",
+    "verificationNotes": "Checked 2026-09-27: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). The Unisphere is a monument in Flushing Meadows Corona Park (NYC Parks). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74612,
+    "lng": -73.84498
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bushwick-collective-1.jpg",
+        "alt": "Illustrative photo: colorful murals along a sidewalk in Bushwick",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bushwick_Brooklyn_Art_697.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/bushwick-collective-2.jpg",
+        "alt": "Illustrative photo: a graffiti mural on a brick wall in Bushwick",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bushwick_Brooklyn_Art_690.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "outdoor", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-bushwick-collective",
+    "slug": "bushwick-collective",
+    "name": "The Bushwick Collective",
+    "category": "photo_spot",
+    "borough": "brooklyn",
+    "neighborhood": "Bushwick",
+    "address": "Troutman St & St Nicholas Ave, Brooklyn, NY 11237",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["morning", "midday"],
+      "tips": [
+        "Start at Troutman St and St Nicholas Ave, then walk the side streets",
+        "Murals change often, so no two visits look the same",
+        "Overcast days give even light on the walls"
+      ]
+    },
+    "editorialTake": "An open-air gallery of large murals on the warehouse walls around Troutman Street, repainted by artists from around the world every year. Take the L to Jefferson St and wander.",
+    "bestTimeToVisit": "Weekend late morning",
+    "timeNeededMinutes": 60,
+    "trendingScore": 74,
+    "verificationNotes": "Checked 2026-09-27: public streets, open at all times. Location and background from the Bushwick Collective's public listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.70706,
+    "lng": -73.92264
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/postcards-staten-island-memorial-1.jpg",
+        "alt": "The white wings of Postcards, the Staten Island 9/11 Memorial, on the St. George Esplanade",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jackie from Monmouth County, NJ, USA, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Postcards_9_11_Memorial,_St._George_Esplanade,_Staten_Island,_NY.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/postcards-staten-island-memorial-2.jpg",
+        "alt": "Name plaques on the Postcards memorial with Lower Manhattan across the harbor",
+        "width": 1100,
+        "height": 730,
+        "source": "other",
+        "attribution": {
+          "text": "InSapphoWeTrust from Los Angeles, California, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Staten_Island_9_11_Memorial_(7247393528).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["quiet", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "p-postcards-memorial",
+    "slug": "postcards-staten-island-memorial",
+    "name": "Postcards, the Staten Island 9/11 Memorial",
+    "category": "photo_spot",
+    "borough": "staten_island",
+    "neighborhood": "St. George",
+    "address": "North Shore Esplanade, St. George, Staten Island, NY 10301",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "blue_hour"],
+      "tips": [
+        "Frame the gap between the two wings toward Lower Manhattan, where the towers stood",
+        "Please be respectful: this is a memorial with 274 names",
+        "Pair it with the free ferry ride back at dusk"
+      ]
+    },
+    "editorialTake": "Two white wings shaped like postcards, pointing across the harbor to where the Twin Towers stood, carrying the names of the 274 Staten Islanders lost. A short walk from the ferry terminal.",
+    "bestTimeToVisit": "Late afternoon, before the ferry back",
+    "timeNeededMinutes": 20,
+    "trendingScore": 58,
+    "verificationNotes": "Checked 2026-09-27: public waterfront esplanade, open at all times. Background from the 9/11 Memorial & Museum's memorials registry. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.64394,
+    "lng": -74.07303
   }
 ]

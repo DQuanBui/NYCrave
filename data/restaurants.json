@@ -963,5 +963,748 @@
     "verificationNotes": "Checked 2026-09-27: address from madamevo.com; hours (closed 3:30 to 5:30 PM) from current listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.72927,
     "lng": -73.98609
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/russ-and-daughters-1.jpg",
+        "alt": "Russ & Daughters' green neon Appetizers sign on East Houston Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Russ_%26_Daughters.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/russ-and-daughters-2.jpg",
+        "alt": "Illustrative photo: a bagel with lox, cream cheese, tomato and red onion",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "LinguisticsGirl.Librarian, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lox_Bagel_Sandwich_with_Cream_Cheese_Schmear_Onion_Tomato.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Bagel with lox and cream cheese", "Smoked fish", "Chocolate babka"],
+    "vibeTags": ["tourist_classic", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-russ-and-daughters",
+    "slug": "russ-and-daughters",
+    "name": "Russ & Daughters",
+    "category": "restaurant",
+    "cuisines": ["jewish_deli", "american"],
+    "dishTypes": ["bagels", "sandwiches"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "179 E Houston St, New York, NY 10002",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "The appetizing shop on Houston Street: a counter of smoked salmon, sable and herring, sliced to order and piled onto a bagel to eat on the street. Take a number and know your fish.",
+    "bestTimeToVisit": "Right at 8 AM on a weekday",
+    "timeNeededMinutes": 30,
+    "trendingScore": 88,
+    "website": "https://www.russanddaughters.com",
+    "phone": "(212) 475-4880",
+    "verificationNotes": "Checked 2026-09-27: address and hours (open every day 8 AM to 4 PM) from shop.russanddaughters.com/locations. The sit-down Cafe is separately at 127 Orchard St. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72258,
+    "lng": -73.98819
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/ess-a-bagel-third-avenue-1.jpg",
+        "alt": "Ess-a-Bagel's corner storefront in Manhattan",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "victorgrigas, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ess-a-bagel_in_NYC.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "Everything bagel with scallion cream cheese",
+      "Bagel with lox",
+      "Egg and cheese on a bagel"
+    ],
+    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-ess-a-bagel",
+    "slug": "ess-a-bagel-third-avenue",
+    "name": "Ess-a-Bagel",
+    "category": "restaurant",
+    "cuisines": ["american", "jewish_deli"],
+    "dishTypes": ["bagels", "sandwiches"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "831 3rd Ave, New York, NY 10022",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "Big, chewy, hand-rolled bagels with a generous smear, from a family-run shop that has been at it since the 1970s. The line moves fast; decide before you reach the counter.",
+    "bestTimeToVisit": "Before 8 AM on weekdays",
+    "timeNeededMinutes": 20,
+    "trendingScore": 82,
+    "website": "https://www.ess-a-bagel.com",
+    "phone": "(212) 980-1010",
+    "verificationNotes": "Checked 2026-09-27: address and hours from ess-a-bagel.com (3rd Avenue location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75616,
+    "lng": -73.97017
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/balthazar-soho-1.jpg",
+        "alt": "Balthazar's red awnings and doorway on Spring Street in winter",
+        "width": 1100,
+        "height": 730,
+        "source": "other",
+        "attribution": {
+          "text": "Ralph Daily, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Balthazar_on_Spring_Street.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Steak frites", "Seafood platter from the raw bar", "Weekend brunch"],
+    "vibeTags": ["date_night", "tourist_classic", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-balthazar",
+    "slug": "balthazar-soho",
+    "name": "Balthazar",
+    "category": "restaurant",
+    "cuisines": ["french"],
+    "dishTypes": ["brunch", "bakery", "seafood"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "80 Spring St, New York, NY 10012",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "16:00"
+        },
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "16:00"
+        },
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A Parisian brasserie in SoHo, all mirrors, red banquettes and brass, busy from breakfast to midnight. Reserve for dinner, or walk in for a croissant and coffee at the bar in the morning.",
+    "bestTimeToVisit": "Weekday breakfast, when it is calmer",
+    "timeNeededMinutes": 75,
+    "trendingScore": 86,
+    "website": "https://balthazarny.com",
+    "phone": "(212) 965-1414",
+    "verificationNotes": "Checked 2026-09-27: address and meal hours from balthazarny.com (breakfast 8 to 11, lunch 11:30 to 4:30 on weekdays; brunch 9 to 4 on weekends; dinner 5 PM to midnight daily). Weekday hours are shown as continuous from breakfast through dinner. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72266,
+    "lng": -73.99816
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/dominique-ansel-bakery-soho-1.jpg",
+        "alt": "A Cronut with green glaze at Dominique Ansel Bakery",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Daniel Zemans, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Dominique_Ansel_-_The_Cronut_actually_does_live_up_to_the_hype_-_crispy,_chewy,_flaky,_buttery_(16591973579).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/dominique-ansel-bakery-soho-2.jpg",
+        "alt": "A glazed Cronut on a paper napkin at Dominique Ansel Bakery",
+        "width": 1100,
+        "height": 930,
+        "source": "other",
+        "attribution": {
+          "text": "LWYang from USA, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Dominique_Ansel_Bakery_(15900018301).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "Cronut (flavor changes monthly)",
+      "DKA (Dominique's Kouign Amann)",
+      "Frozen S'mores"
+    ],
+    "vibeTags": ["instagrammable", "tourist_classic", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-dominique-ansel-bakery",
+    "slug": "dominique-ansel-bakery-soho",
+    "name": "Dominique Ansel Bakery",
+    "category": "restaurant",
+    "cuisines": ["french"],
+    "dishTypes": ["bakery", "desserts"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "189 Spring St, New York, NY 10012",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "The SoHo bakery where the Cronut was born. Pre-order one online, then pick up a buttery DKA and a Frozen S'mores torched to order and eat them in the little back garden.",
+    "bestTimeToVisit": "Opening time for the best selection",
+    "timeNeededMinutes": 30,
+    "trendingScore": 84,
+    "website": "https://www.dominiqueansel.com",
+    "verificationNotes": "Checked 2026-09-27: hours (8 AM to 7 PM daily) and signature pastries from dominiqueansel.com/shop/soho-new-york-ny. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7252,
+    "lng": -74.00292
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/wo-hop-chinatown-1.jpg",
+        "alt": "Wo Hop's sign and street-side dining on Mott Street",
+        "width": 1100,
+        "height": 785,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wo_Hop_outdoor_Mott_St_2021_jeh.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Wonton soup", "Chow fun", "Egg rolls"],
+    "vibeTags": ["cheap_eats", "local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-wo-hop",
+    "slug": "wo-hop-chinatown",
+    "name": "Wo Hop",
+    "category": "restaurant",
+    "cuisines": ["chinese"],
+    "dishTypes": ["noodle_soup", "dry_noodles", "rice_dishes", "dumplings"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "17 Mott St (basement), New York, NY 10013",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Down the stairs at 17 Mott Street since 1938: Chinese American comfort food in a basement dining room papered with dollar bills and photos. Cheap, fast and a Chinatown rite of passage.",
+    "bestTimeToVisit": "Late lunch or an early dinner",
+    "timeNeededMinutes": 45,
+    "trendingScore": 72,
+    "website": "https://www.wohop17.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from wohop17.com (third generation of family ownership, since 1938). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.71429,
+    "lng": -73.99887
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/taverna-kyclades-astoria-1.jpg",
+        "alt": "Illustrative photo: grilled octopus with potatoes and a lemon wedge",
+        "width": 1100,
+        "height": 1100,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Daderot, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Grilled_octopus_with_potatoes_and_chorizo_-_Cambridge,_MA.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Grilled octopus", "Whole grilled fish", "Greek salad"],
+    "vibeTags": ["local_favorite", "group_friendly", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-taverna-kyclades",
+    "slug": "taverna-kyclades-astoria",
+    "name": "Taverna Kyclades",
+    "category": "restaurant",
+    "cuisines": ["greek"],
+    "dishTypes": ["seafood"],
+    "dietary": [],
+    "borough": "queens",
+    "neighborhood": "Astoria",
+    "address": "36-01 Ditmars Blvd, Astoria, NY 11105",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "23:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "23:30"
+        }
+      ]
+    },
+    "editorialTake": "Astoria's favorite Greek seafood taverna on Ditmars Boulevard: whitewashed walls, grilled fish priced to share and a line out the door on weekends. Come hungry and bring friends.",
+    "bestTimeToVisit": "Weekday lunch, to skip the wait",
+    "timeNeededMinutes": 75,
+    "trendingScore": 78,
+    "website": "https://www.tavernakyclades.com",
+    "phone": "(718) 545-8666",
+    "verificationNotes": "Checked 2026-09-27: address and hours from tavernakyclades.com/contact-us (Astoria location). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.77437,
+    "lng": -73.90796
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/robertas-bushwick-1.jpg",
+        "alt": "The graffiti-covered exterior of Roberta's on Moore Street in Bushwick",
+        "width": 1100,
+        "height": 732,
+        "source": "other",
+        "attribution": {
+          "text": "star5112, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Exterior_of_Roberta%27s_in_Bushwick,_Brooklyn.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Bee Sting pizza", "Margherita", "Seasonal salads"],
+    "vibeTags": ["local_favorite", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-robertas-bushwick",
+    "slug": "robertas-bushwick",
+    "name": "Roberta's",
+    "category": "restaurant",
+    "cuisines": ["italian", "american"],
+    "dishTypes": ["pizza"],
+    "dietary": ["vegetarian"],
+    "borough": "brooklyn",
+    "neighborhood": "Bushwick",
+    "address": "261 Moore St, Brooklyn, NY 11206",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "The Bushwick pizzeria that helped put the neighborhood on the food map in 2008: blistered wood-fired pies, a garden out back and a proper hangout feel. Pair it with a walk past the Bushwick Collective murals.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 80,
+    "website": "https://www.robertaspizza.com",
+    "phone": "(718) 417-1118",
+    "verificationNotes": "Checked 2026-09-27: address and hours from robertaspizza.com/bushwick. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.70501,
+    "lng": -73.93359
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/jongro-bbq-koreatown-1.jpg",
+        "alt": "Illustrative photo: Korean barbecue pork grilling at the table with dipping sauce",
+        "width": 945,
+        "height": 629,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "대경라이프, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Korean_barbecue_-_dipping_grilled_pork_shoulder_in_meljeot.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/jongro-bbq-koreatown-2.jpg",
+        "alt": "Neon signs stacked up the buildings of Koreatown on West 32nd Street at night",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Ingfbruno, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:USA-NYC-Koreatown99.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Marinated short rib (galbi)", "Pork belly", "Banchan with the grill"],
+    "vibeTags": ["group_friendly", "late_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-jongro-bbq",
+    "slug": "jongro-bbq-koreatown",
+    "name": "Jongro BBQ",
+    "category": "restaurant",
+    "cuisines": ["korean"],
+    "dishTypes": ["bbq"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Koreatown",
+    "address": "22 W 32nd St, 2nd Floor, New York, NY 10001",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "Tabletop Korean barbecue one floor above 32nd Street, dressed like an old Seoul street, with the meat grilled for you. Loud, fun and open late, which is exactly what Koreatown is for.",
+    "bestTimeToVisit": "Late evening on a weeknight",
+    "timeNeededMinutes": 90,
+    "trendingScore": 79,
+    "website": "https://www.jongrobbqny.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from jongrobbqny.com/contact-us. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74753,
+    "lng": -73.98693
   }
 ]
