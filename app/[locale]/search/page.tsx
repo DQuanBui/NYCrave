@@ -47,7 +47,7 @@ async function intentLabels(intent: SearchIntent): Promise<string[]> {
 }
 
 export default async function SearchPage({ params, searchParams }: Props) {
-  await initLocale(params)
+  const locale = await initLocale(params)
   const t = await getTranslations("search")
   const tf = await getTranslations("filters")
   const query = await readQuery(searchParams)
@@ -109,7 +109,7 @@ export default async function SearchPage({ params, searchParams }: Props) {
           body={query ? t("emptyBody", { query }) : t("suggestions")}
           action={
             <ul className="flex flex-wrap justify-center gap-2">
-              {SEARCH_SUGGESTIONS.map((s) => (
+              {SEARCH_SUGGESTIONS[locale].map((s) => (
                 <li key={s}>
                   <Link
                     href={{ pathname: "/search", query: { q: s } }}

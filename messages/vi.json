@@ -53,7 +53,7 @@
   },
   "search": {
     "label": "Tìm địa điểm",
-    "placeholder": "Thử “late night pizza”",
+    "placeholder": "Thử “phở” hoặc “trà sữa”",
     "submit": "Tìm",
     "title": "Tìm kiếm",
     "resultsFor": "Kết quả cho “{query}”",
@@ -62,7 +62,7 @@
     "emptyTitle": "Tuyến này chưa có gì",
     "emptyBody": "Không có địa điểm nào khớp với “{query}”. Hãy thử một món ăn, một khu phố hoặc một phong cách.",
     "startTitle": "Bạn đang thèm gì?",
-    "startBody": "Tìm theo món ăn, đồ uống, khu phố hoặc tâm trạng. Tìm kiếm hiện hiểu tiếng Anh tốt nhất.",
+    "startBody": "Tìm theo món ăn, đồ uống, khu phố hoặc tâm trạng, bằng tiếng Việt hay tiếng Anh.",
     "suggestions": "Thử một trong các gợi ý",
     "openNow": "đang mở cửa",
     "openToday": "mở cửa hôm nay",

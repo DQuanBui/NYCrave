@@ -94,7 +94,7 @@ NYCrave looks like a food magazine that fell for the subway map:
 - the background is the **Manhattan street grid**, tilted 29 degrees like the real one;
 - section headings are **station signs**, and every section is a **subway line bullet** in the real MTA colors;
 - the home page poster sits on a fragment of an **octilinear route map**, and the browse strip is a **white subway tile wall**;
-- headlines are set in **Anton**, condensed poster type, and text in **Be Vietnam Pro**; both support Vietnamese for future translations;
+- headlines are set in **Anton**, condensed poster type, and text in **Be Vietnam Pro**; both support Vietnamese, which NYCrave now speaks;
 - **taxi yellow** is saved for things you can press.
 
 ![The Eat page in dark mode with cuisine tiles and filters](docs/screenshots/eat-desktop-dark.jpg)

@@ -113,11 +113,21 @@ export const MOODS: Mood[] = [
   { key: "instagrammable", emoji: "📸", query: "instagrammable" },
 ]
 
-export const SEARCH_SUGGESTIONS = [
-  "dumplings in Chinatown",
-  "free things to do",
-  "late night pizza",
-  "boba in the East Village",
-  "rooftop",
-  "museums",
-]
+export const SEARCH_SUGGESTIONS: Record<"en" | "vi", string[]> = {
+  en: [
+    "dumplings in Chinatown",
+    "free things to do",
+    "late night pizza",
+    "boba in the East Village",
+    "rooftop",
+    "museums",
+  ],
+  vi: [
+    "há cảo ở Chinatown",
+    "tham quan miễn phí",
+    "pizza khuya",
+    "trà sữa ở East Village",
+    "bar sân thượng",
+    "bảo tàng",
+  ],
+}

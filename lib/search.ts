@@ -166,6 +166,91 @@ const PHRASES: Record<string, Effect[]> = {
   "the bronx": [(i) => (i.borough = "bronx")],
 }
 
+/**
+ * Vietnamese, written the way normalizeQuery leaves it (no tone marks, đ as d),
+ * pointing at the same effects as the English phrases.
+ */
+const VIETNAMESE: Record<string, string> = {
+  "ha cao": "dumplings",
+  "sui cao": "dumplings",
+  "xiao long bao": "soup dumplings",
+  "mi nuoc": "noodle soup",
+  bun: "noodles",
+  mi: "noodles",
+  lau: "hot pot",
+  "thit nuong": "bbq",
+  com: "rice",
+  "ca ri": "curry",
+  "banh mi kep": "sandwiches",
+  "banh bagel": "bagels",
+  "tiem banh": "bakery",
+  "banh ngot": "pastries",
+  "trang mieng": "desserts",
+  "do ngot": "desserts",
+  "mon duong pho": "street food",
+  "an vat": "street food",
+  "hai san": "seafood",
+  "ga ran": "fried chicken",
+  "ca phe": "coffee",
+  "tra sua": "bubble tea",
+  tra: "tea",
+  "ruou vang": "wine",
+  "san thuong": "rooftop",
+  "bar san thuong": "rooftop",
+  "nuoc ep": "juice",
+  "do uong": "drinks",
+  an: "food",
+  "an uong": "food",
+  "nha hang": "restaurants",
+  "bao tang": "museums",
+  "tham quan": "things to do",
+  "diem tham quan": "attractions",
+  "mua sam": "shopping",
+  "do si": "thrift",
+  "nha sach": "bookstore",
+  "cong vien": "parks",
+  "ben tau": "piers",
+  "chup anh": "photo spots",
+  "goc chup anh": "photo spots",
+  "canh dep": "views",
+  "hen ho": "date night",
+  "lang man": "romantic",
+  "an re": "cheap eats",
+  "gia re": "cheap",
+  khuya: "late night",
+  "mo khuya": "late night",
+  "ngay mua": "rainy day",
+  "trong nha": "indoor",
+  "tre em": "kids",
+  "gia dinh": "family",
+  "song ao": "instagrammable",
+  "nguoi dia phuong": "local favorite",
+  "ngoai troi": "outdoor",
+  "yen tinh": "quiet",
+  "an chay": "vegetarian",
+  chay: "vegetarian",
+  "thuan chay": "vegan",
+  "khong gluten": "gluten free",
+  "mien phi": "free",
+  "dang mo cua": "open now",
+  "dang mo": "open now",
+  "hom nay": "today",
+  "toi nay": "tonight",
+  "viet nam": "vietnamese",
+  "mon viet": "vietnamese",
+  "han quoc": "korean",
+  "nhat ban": "japanese",
+  "mon nhat": "japanese",
+  "trung quoc": "chinese",
+  "trung hoa": "chinese",
+  "an do": "indian",
+  phap: "french",
+  "hy lap": "greek",
+}
+// "bookstore" has no English phrase of its own yet
+PHRASES.bookstore = [add("shopTypes", "bookstore")]
+PHRASES.bookstores = [add("shopTypes", "bookstore")]
+
 for (const cuisine of CUISINES) {
   const phrase = cuisine.replace(/_/g, " ")
   PHRASES[phrase] = [...(PHRASES[phrase] ?? []), add("cuisines", cuisine)]
@@ -184,11 +269,16 @@ for (const n of NEIGHBORHOODS) {
   ]
 }
 
+for (const [vi, en] of Object.entries(VIETNAMESE)) {
+  PHRASES[vi] = [...(PHRASES[vi] ?? []), ...PHRASES[en]]
+}
+
 /** Longest phrases first so "bubble tea" wins over "tea". */
 const PHRASE_LIST = Object.keys(PHRASES).sort((a, b) => b.split(" ").length - a.split(" ").length)
 
 const STOPWORDS = new Set(
-  "a an and any around best by do for from fun good great i in into is me my near nearby of on or place places some spot spots the things to want what whats where with".split(
+  // English, then Vietnamese (ở, gần, và, các, quán, tìm, muốn, đâu, nào, ngon, món)
+  "a an and any around best by do for from fun good great i in into is me my near nearby of on or place places some spot spots the things to want what whats where with o gan va cac quan tim muon dau nao ngon mon".split(
     " ",
   ),
 )
@@ -196,6 +286,7 @@ const STOPWORDS = new Set(
 export function normalizeQuery(q: string): string {
   return q
     .toLowerCase()
+    .replace(/đ/g, "d")
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .replace(/[-_/]/g, " ")
