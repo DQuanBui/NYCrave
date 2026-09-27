@@ -780,6 +780,13 @@
         "Khi Google Places được bật, ảnh và đánh giá địa điểm được máy chủ NYCrave lấy về và hiển thị kèm ghi nguồn của Google."
       ]
     },
+    "assistant": {
+      "title": "Trợ lý",
+      "items": [
+        "Khi bạn dùng Hỏi NYCrave, câu hỏi và nội dung cuộc trò chuyện được gửi đến Anthropic, đơn vị vận hành mô hình Claude, để viết câu trả lời. Đừng chia sẻ thông tin cá nhân trong cuộc trò chuyện.",
+        "NYCrave không lưu cuộc trò chuyện. Nó chỉ nằm trong trang đang mở và biến mất khi bạn xóa hoặc đóng trang."
+      ]
+    },
     "none": {
       "title": "Những điều NYCrave không bao giờ làm",
       "items": [
@@ -788,5 +795,35 @@
       ]
     },
     "updated": "Cập nhật lần cuối ngày 27 tháng 9 năm 2026."
+  },
+  "assistant": {
+    "open": "Hỏi NYCrave",
+    "title": "Hỏi NYCrave",
+    "intro": "Hỏi về ăn uống, điểm tham quan, cách đi lại hoặc lịch trình trong ngày. Câu trả lời dựa trên các địa điểm có trên NYCrave.",
+    "try": "Thử hỏi",
+    "suggestions": [
+      "Ăn há cảo ở Chinatown ở đâu ngon?",
+      "Lên lịch một ngày mưa ở Manhattan cho hai người",
+      "Tối nay ở East Village có gì mở khuya?",
+      "Đi từ sân bay JFK vào Midtown thế nào?"
+    ],
+    "label": "Câu hỏi của bạn",
+    "placeholder": "Hỏi về New York…",
+    "send": "Gửi",
+    "stop": "Dừng trả lời",
+    "clear": "Xóa cuộc trò chuyện",
+    "you": "Bạn",
+    "assistantLabel": "Trợ lý NYCrave",
+    "thinking": "Đang tra cứu",
+    "disclaimer": "Câu trả lời của AI có thể sai, nên hãy kiểm tra giờ mở cửa trước khi đi. Câu hỏi được gửi đến Anthropic để trả lời.",
+    "privacy": "Quyền riêng tư",
+    "errors": {
+      "not_configured": "Trợ lý chưa được bật.",
+      "rate_limited": "Bạn đã hỏi khá nhiều trong thời gian ngắn. Vui lòng thử lại sau vài phút.",
+      "busy": "Trợ lý đang bận. Vui lòng thử lại sau ít phút.",
+      "invalid": "Câu hỏi quá dài. Vui lòng rút gọn.",
+      "failed": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+      "aborted": "Đã dừng."
+    }
   }
 }

@@ -42,6 +42,12 @@ Every section has filters that live in the link, so any view can be shared: open
 - **Surprise me** jumps to a random place that is open right now.
 - **Today's weather** on the home page, with rainy-day ideas when rain is likely.
 
+### Ask NYCrave
+
+A chat assistant, on every page, for questions like *"Where can I get dumplings in Chinatown?"*, *"What's open late in the East Village tonight?"*, *"Plan a rainy Saturday in Manhattan"* or *"How do I get from JFK to Midtown?"*. It answers in English or Vietnamese and shows cards for the places it suggests.
+
+The assistant is powered by Claude, but it does not guess: it looks everything up with NYCrave's own tools (search, live opening hours, place details, nearest subway, the day planner and the tourist tips), recommends only places that are on NYCrave, and links each one. It never invents hours, prices or reviews, and it reminds you to check hours before you go.
+
 ### Design My Day
 
 ![A planned Saturday: a timeline of stops with times, travel and costs beside a route map](docs/screenshots/my-day-desktop.jpg)
@@ -117,7 +123,7 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-Everything works without any keys. Optional services switch on through the environment variables listed in [.env.example](.env.example): Supabase for a live database, Google Places for photos and reviews, an Anthropic key for *Refine with AI*, and an admin password for the editor page.
+Everything works without any keys. Optional services switch on through the environment variables listed in [.env.example](.env.example): Supabase for a live database, Google Places for photos and reviews, an Anthropic key for the *Ask NYCrave* assistant and *Refine with AI*, and an admin password for the editor page.
 
 ## What's next
 

@@ -780,6 +780,13 @@
         "When Google Places is switched on, place photos and reviews are fetched by NYCrave's server and shown with Google's attribution."
       ]
     },
+    "assistant": {
+      "title": "The assistant",
+      "items": [
+        "When you use Ask NYCrave, your questions and the conversation so far are sent to Anthropic, which runs the Claude model, to write the answer. Do not share personal details in the chat.",
+        "NYCrave does not store the conversation. It stays in the open page and disappears when you clear it or close the site."
+      ]
+    },
     "none": {
       "title": "What NYCrave never does",
       "items": [
@@ -788,5 +795,35 @@
       ]
     },
     "updated": "Last updated September 27, 2026."
+  },
+  "assistant": {
+    "open": "Ask NYCrave",
+    "title": "Ask NYCrave",
+    "intro": "Ask about food, sights, getting around or plans for your day. Answers use the places on NYCrave.",
+    "try": "Try asking",
+    "suggestions": [
+      "Where can I get dumplings in Chinatown?",
+      "Plan a rainy day in Manhattan for two",
+      "What's open late in the East Village tonight?",
+      "How do I get from JFK to Midtown?"
+    ],
+    "label": "Your question",
+    "placeholder": "Ask about New York…",
+    "send": "Send",
+    "stop": "Stop answering",
+    "clear": "Clear chat",
+    "you": "You",
+    "assistantLabel": "NYCrave assistant",
+    "thinking": "Looking it up",
+    "disclaimer": "AI answers can be wrong, so check hours before you go. Questions are sent to Anthropic to answer them.",
+    "privacy": "Privacy",
+    "errors": {
+      "not_configured": "The assistant is not switched on yet.",
+      "rate_limited": "You've asked a lot in a short time. Please try again in a few minutes.",
+      "busy": "The assistant is busy right now. Please try again shortly.",
+      "invalid": "That question is too long. Please shorten it.",
+      "failed": "Something went wrong. Please try again.",
+      "aborted": "Stopped."
+    }
   }
 }

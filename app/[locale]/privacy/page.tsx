@@ -5,7 +5,7 @@ import { initLocale } from "@/i18n/locale"
 
 type Props = PageProps<"/[locale]/privacy">
 
-const SECTIONS = ["device", "location", "reports", "services", "none"] as const
+const SECTIONS = ["device", "location", "reports", "services", "assistant", "none"] as const
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   await initLocale(params)

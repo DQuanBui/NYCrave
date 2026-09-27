@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { hasLocale, NextIntlClientProvider } from "next-intl"
 import { getTranslations } from "next-intl/server"
 import { BottomTabBar } from "@/components/layout/bottom-tab-bar"
+import { Assistant } from "@/components/assistant/assistant"
 import { SiteFooter } from "@/components/layout/site-footer"
 import { SiteHeader } from "@/components/layout/site-header"
 import { ServiceWorker } from "@/components/providers/service-worker"
@@ -62,6 +63,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             </main>
             <SiteFooter />
             <BottomTabBar />
+            {process.env.ANTHROPIC_API_KEY ? <Assistant /> : null}
             <ServiceWorker />
           </Providers>
         </NextIntlClientProvider>
