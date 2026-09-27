@@ -47,7 +47,9 @@
     },
     "intro": "Find where to eat, drink, explore and shop across the five boroughs, see what is open right now, and plan a whole day around it.",
     "weather": "Today in New York: high of {temp}°F, {chance}% chance of rain.",
-    "rainyIdeas": "Rainy-day ideas"
+    "rainyIdeas": "Rainy-day ideas",
+    "hotIdeas": "Cool indoor ideas",
+    "coldIdeas": "Warm indoor ideas"
   },
   "search": {
     "label": "Search places",
@@ -318,7 +320,9 @@
         "title": "Big city, small budget",
         "blurb": "Cheap eats and free sights for about $50 all day, starting on the Lower East Side."
       }
-    }
+    },
+    "hot": "A hot one (high of {temp}°F), so indoor stops come first.",
+    "cold": "A cold one (high of {temp}°F), so indoor stops come first."
   },
   "listing": {
     "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",
@@ -395,7 +399,8 @@
     "dataNote": "Places marked Unverified were researched from official sources but not yet confirmed with the venue. Hours and prices change, so check before you go.",
     "copyright": "© {year} NYCrave",
     "language": "Language",
-    "credits": "Photo credits"
+    "credits": "Photo credits",
+    "privacy": "Privacy"
   },
   "notFound": {
     "title": "This stop is not in service",
@@ -732,5 +737,47 @@
     "openNow": "Open now",
     "open": "Open place",
     "close": "Close preview"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "tagline": "What NYCrave keeps, what it sends, and what it never collects.",
+    "device": {
+      "title": "Kept on your device",
+      "items": [
+        "Saved places and saved days are stored in your browser's local storage. They never leave your device, and clearing your browser data removes them.",
+        "Your light or dark mode choice is stored the same way.",
+        "If you install NYCrave, the app keeps a copy of your saved places so they open offline."
+      ]
+    },
+    "location": {
+      "title": "Your location",
+      "items": [
+        "Near me asks your browser for your location only when you tap it.",
+        "Distances and walking times are worked out on your device. Your location is never sent to NYCrave or stored."
+      ]
+    },
+    "reports": {
+      "title": "Problem reports",
+      "items": [
+        "When you report a problem with a place, we store the place, the kind of problem and any note you write. There is no name or email field.",
+        "To stop floods of reports, the server briefly counts reports per network address in memory. It is not saved."
+      ]
+    },
+    "services": {
+      "title": "Services the site uses",
+      "items": [
+        "Map tiles come from OpenFreeMap, so your browser requests them from its servers, as with any online map.",
+        "Weather forecasts come from Open-Meteo. NYCrave's server asks for the New York forecast; nothing about you is sent.",
+        "When Google Places is switched on, place photos and reviews are fetched by NYCrave's server and shown with Google's attribution."
+      ]
+    },
+    "none": {
+      "title": "What NYCrave never does",
+      "items": [
+        "No accounts, no advertising, no analytics and no tracking cookies.",
+        "The only cookie is the sign-in cookie for the editors' admin page."
+      ]
+    },
+    "updated": "Last updated September 27, 2026."
   }
 }

@@ -31,7 +31,7 @@ export default async function MyDayPage({ params, searchParams }: Props) {
     const forecast = input.weatherAware ? await getRainForecast(input.date, today) : null
     const plan = planDay(input, await getPlaces(), {
       ...adjustments,
-      rainLikely: forecast?.rainLikely,
+      rainLikely: forecast?.preferIndoors,
     })
     result = (
       <PlanView

@@ -5,7 +5,7 @@ import { MyDayPromo } from "@/components/home/my-day-promo"
 import { PlaceRail } from "@/components/place/place-rail"
 import { initLocale } from "@/i18n/locale"
 import { holidayOn } from "@/lib/holidays"
-import { nycDateString } from "@/lib/hours"
+import { getOpenStatus, isOpenLaterToday, nycClock, nycDateString } from "@/lib/hours"
 import { toCard } from "@/lib/card-place"
 import { getPlaces } from "@/lib/places"
 import { getRainForecast } from "@/lib/weather"
@@ -31,7 +31,22 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
     neighborhood: p.neighborhood,
     category: p.category,
   }))
-  const today = nycDateString(new Date())
+  const now = new Date()
+  const today = nycDateString(now)
+  // The live rails re-check against the viewer's clock. The server sends a short
+  // list of likely matches (the page is regenerated every few minutes), so the
+  // home page does not carry every place's weekly hours.
+  const clock = nycClock(now)
+  const LIVE_CANDIDATES = 20
+  const openCandidates = all
+    .filter((p) => {
+      const { state } = getOpenStatus(p.hours, now)
+      return state !== "closed" && state !== "closed_indefinitely"
+    })
+    .slice(0, LIVE_CANDIDATES)
+  const freeCandidates = free
+    .filter((p) => isOpenLaterToday(p.hours, clock))
+    .slice(0, LIVE_CANDIDATES)
   const rain = await getRainForecast(today, today)
   const forecast =
     rain && rain.tempMaxC !== null
@@ -39,6 +54,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           tempMaxF: Math.round((rain.tempMaxC * 9) / 5 + 32),
           chance: rain.precipitationProbability,
           rainLikely: rain.rainLikely,
+          extreme: rain.extreme,
         }
       : null
   const counts = Object.fromEntries(
@@ -69,7 +85,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         <PlaceRail title={t("trending")} places={all.slice(0, 8).map(toCard)} limit={8} />
         <PlaceRail
           title={t("openNow")}
-          places={all.map(toCard)}
+          places={openCandidates.map(toCard)}
           live="open-now"
           surprise
           seeAllHref="/search?q=open+now"
@@ -78,7 +94,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         <MyDayPromo />
         <PlaceRail
           title={t("freeToday")}
-          places={free.map(toCard)}
+          places={freeCandidates.map(toCard)}
           live="free-today"
           seeAllHref="/search?q=free+today"
           emptyText={t("freeTodayEmpty")}

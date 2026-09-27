@@ -28,7 +28,12 @@ const EASE = [0.22, 1, 0.36, 1] as const
 type HeroProps = {
   hints?: SearchHint[]
   /** Today's New York forecast, when available. */
-  forecast?: { tempMaxF: number; chance: number; rainLikely: boolean } | null
+  forecast?: {
+    tempMaxF: number
+    chance: number
+    rainLikely: boolean
+    extreme: "hot" | "cold" | null
+  } | null
   /** Today's holiday in New York, when hours may differ. */
   holiday?: Holiday
 }
@@ -113,12 +118,18 @@ export function Hero({ hints, forecast, holiday }: HeroProps) {
               <Sun aria-hidden className="size-4 text-line-orange" />
             )}
             {t("weather", { temp: forecast.tempMaxF, chance: forecast.chance })}
-            {forecast.rainLikely ? (
+            {forecast.rainLikely || forecast.extreme ? (
               <Link
                 href={{ pathname: "/search", query: { q: "rainy day" } }}
                 className="font-semibold text-foreground underline underline-offset-4"
               >
-                {t("rainyIdeas")}
+                {t(
+                  forecast.rainLikely
+                    ? "rainyIdeas"
+                    : forecast.extreme === "hot"
+                      ? "hotIdeas"
+                      : "coldIdeas",
+                )}
               </Link>
             ) : null}
           </p>

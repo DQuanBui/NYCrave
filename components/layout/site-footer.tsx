@@ -41,6 +41,9 @@ export async function SiteFooter() {
           <Link href="/credits" className="underline underline-offset-4 hover:text-sign-foreground">
             {t("footer.credits")}
           </Link>
+          <Link href="/privacy" className="underline underline-offset-4 hover:text-sign-foreground">
+            {t("footer.privacy")}
+          </Link>
         </span>
         <LocaleSwitcher />
       </div>

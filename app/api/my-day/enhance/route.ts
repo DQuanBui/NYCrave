@@ -50,7 +50,7 @@ export async function POST(request: Request) {
   const forecast = input.weatherAware
     ? await getRainForecast(input.date, nycDateString(new Date()))
     : null
-  const base = planDay(input, places, { ...adjustments, rainLikely: forecast?.rainLikely })
+  const base = planDay(input, places, { ...adjustments, rainLikely: forecast?.preferIndoors })
   const slots = buildCandidates(base, places).filter((s) => s.candidates.length > 1)
   if (slots.length === 0) {
     return Response.json({ query: planQuery(input, adjustments), notes: [] })
@@ -93,7 +93,7 @@ export async function POST(request: Request) {
     for (const pick of picks) locks[pick.slot] = pick.placeId
 
     // The deterministic planner re-validates every pick against hours, budget and dietary needs
-    const refined = planDay(input, places, { locks, rainLikely: forecast?.rainLikely })
+    const refined = planDay(input, places, { locks, rainLikely: forecast?.preferIndoors })
     const finalLocks = Object.fromEntries(refined.stops.map((s) => [s.slot, s.place.id]))
     const notes = picks.flatMap((p) => {
       const stop = refined.stops.find((s) => s.slot === p.slot && s.place.id === p.placeId)

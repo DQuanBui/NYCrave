@@ -31,6 +31,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/tips",
     "/neighborhoods",
     "/map",
+    "/privacy",
     ...Object.values(CATEGORY_META).map((m) => m.href),
     ...NEIGHBORHOODS.map((n) => `/neighborhoods/${n.slug}`),
   ]

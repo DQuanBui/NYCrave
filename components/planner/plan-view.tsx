@@ -1,4 +1,4 @@
-import { CloudRain, Footprints, Shuffle, Sun, TrainFront } from "lucide-react"
+import { CloudRain, Footprints, Shuffle, Snowflake, Sun, TrainFront } from "lucide-react"
 import { getLocale, getTranslations } from "next-intl/server"
 import { EmptyState } from "@/components/brand/empty-state"
 import { HolidayNote } from "@/components/brand/holiday-note"
@@ -96,13 +96,19 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
           <p className="flex items-center gap-2 text-sm">
             {forecast?.rainLikely ? (
               <CloudRain aria-hidden className="size-4 text-line-blue" />
+            ) : forecast?.extreme === "cold" ? (
+              <Snowflake aria-hidden className="size-4 text-line-blue" />
             ) : (
               <Sun aria-hidden className="size-4 text-line-orange" />
             )}
             {forecast
-              ? t(forecast.rainLikely ? "planner.rainLikely" : "planner.dry", {
-                  chance: forecast.precipitationProbability,
-                })
+              ? forecast.rainLikely
+                ? t("planner.rainLikely", { chance: forecast.precipitationProbability })
+                : forecast.extreme && forecast.tempMaxC !== null
+                  ? t(forecast.extreme === "hot" ? "planner.hot" : "planner.cold", {
+                      temp: Math.round((forecast.tempMaxC * 9) / 5 + 32),
+                    })
+                  : t("planner.dry", { chance: forecast.precipitationProbability })
               : t("planner.noForecast")}
           </p>
         ) : null}

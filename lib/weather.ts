@@ -6,6 +6,9 @@ import { z } from "zod"
  */
 
 const RAIN_THRESHOLD = 50
+/** Daily highs that make long outdoor stretches unpleasant (about 90°F and 34°F). */
+const HOT_C = 32
+const COLD_C = 1
 const MAX_DAYS_AHEAD = 15
 
 const responseSchema = z.object({
@@ -20,6 +23,16 @@ export type RainForecast = {
   precipitationProbability: number
   tempMaxC: number | null
   rainLikely: boolean
+  extreme: "hot" | "cold" | null
+  /** Rain, heat or cold: indoor stops should come first. */
+  preferIndoors: boolean
+}
+
+export function extremeOf(tempMaxC: number | null): "hot" | "cold" | null {
+  if (tempMaxC === null) return null
+  if (tempMaxC >= HOT_C) return "hot"
+  if (tempMaxC <= COLD_C) return "cold"
+  return null
 }
 
 export async function getRainForecast(date: string, today: string): Promise<RainForecast | null> {
@@ -40,10 +53,15 @@ export async function getRainForecast(date: string, today: string): Promise<Rain
     const { daily } = responseSchema.parse(await res.json())
     const probability = daily.precipitation_probability_max[0]
     if (probability == null) return null
+    const tempMaxC = daily.temperature_2m_max[0] ?? null
+    const rainLikely = probability >= RAIN_THRESHOLD
+    const extreme = extremeOf(tempMaxC)
     return {
       precipitationProbability: probability,
-      tempMaxC: daily.temperature_2m_max[0] ?? null,
-      rainLikely: probability >= RAIN_THRESHOLD,
+      tempMaxC,
+      rainLikely,
+      extreme,
+      preferIndoors: rainLikely || extreme !== null,
     }
   } catch {
     return null
