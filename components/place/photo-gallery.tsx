@@ -21,7 +21,10 @@ export function PhotoGallery({
   }
   return (
     <ul
-      className={cn("scrollbar-none flex snap-x snap-mandatory gap-1 overflow-x-auto", className)}
+      className={cn(
+        "relative scrollbar-none flex snap-x snap-mandatory gap-1 overflow-x-auto",
+        className,
+      )}
     >
       {photos.map((photo, i) => (
         <li

@@ -35,6 +35,7 @@ Every section has filters that live in the link, so any view can be shared: open
 
 - **Smart search** understands plain phrases like "dumplings in Chinatown", "late night pizza", "free things to do" or "vegan boba", and suggests places by name as you type.
 - **Mood chips** for date night, cheap eats, late night, rainy days, kids and photos.
+- **The city map** puts every place on one map: toggle lines, show only what's open now or free, tap *Near me* to fly to where you are, and tap a marker for a preview card.
 - **Near me** sorts any list by distance and shows the walk or subway time to each place.
 - **Surprise me** jumps to a random place that is open right now.
 - **Today's weather** on the home page, with rainy-day ideas when rain is likely.

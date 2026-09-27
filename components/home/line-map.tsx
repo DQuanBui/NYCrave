@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Map as MapIcon } from "lucide-react"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { SignBand } from "@/components/brand/sign-band"
@@ -23,6 +23,16 @@ export async function LineMap({ counts }: { counts: Record<Category, number> }) 
               {CATEGORY_META[c].bullet}
             </LineBullet>
           ))}
+          action={
+            <Link
+              href="/map"
+              className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold hover:bg-white/10"
+            >
+              <MapIcon aria-hidden className="size-4" />
+              <span className="sm:hidden">{t("nav.map")}</span>
+              <span className="hidden sm:inline">{t("home.seeMap")}</span>
+            </Link>
+          }
         />
         <ol className="grid grid-cols-2 gap-3 md:grid-cols-3">
           {CATEGORIES.map((category) => {

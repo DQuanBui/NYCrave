@@ -1,6 +1,6 @@
 "use client"
 
-import { Heart, Menu, Search } from "lucide-react"
+import { Heart, Map as MapIcon, Menu, Search } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { Wordmark } from "@/components/brand/wordmark"
@@ -32,7 +32,7 @@ export function SiteHeader() {
           <Wordmark />
         </Link>
 
-        <nav aria-label={t("main")} className="hidden h-full md:flex">
+        <nav aria-label={t("main")} className="hidden h-full lg:flex">
           <ul className="flex h-full items-stretch">
             {TOP_NAV.map((key) => {
               const item = NAV[key]
@@ -75,7 +75,13 @@ export function SiteHeader() {
               <Search aria-hidden />
             </Link>
           </Button>
-          <Button asChild variant="ghost" className="hidden rounded-full lg:inline-flex">
+          <Button asChild variant="ghost" className="hidden rounded-full xl:inline-flex">
+            <Link href="/map" aria-current={isActive(pathname, "/map") ? "page" : undefined}>
+              <MapIcon aria-hidden />
+              {t("map")}
+            </Link>
+          </Button>
+          <Button asChild variant="ghost" className="hidden rounded-full xl:inline-flex">
             <Link href="/tips">{t("tips")}</Link>
           </Button>
           <Button asChild variant="ghost" className="hidden rounded-full md:inline-flex">
@@ -91,7 +97,7 @@ export function SiteHeader() {
           </Button>
           <Link
             href="/my-day"
-            className="hidden h-9 items-center rounded-full bg-taxi px-4 text-sm font-bold text-taxi-foreground transition-transform hover:-translate-y-px active:translate-y-0 md:inline-flex"
+            className="hidden h-9 items-center rounded-full bg-taxi px-4 text-sm font-bold whitespace-nowrap text-taxi-foreground transition-transform hover:-translate-y-px active:translate-y-0 md:inline-flex"
           >
             {t("myDay")}
           </Link>
@@ -113,7 +119,7 @@ function MobileMenu() {
         <Button
           variant="ghost"
           size="icon"
-          className="rounded-full md:hidden"
+          className="rounded-full lg:hidden"
           aria-label={t("openMenu")}
         >
           <Menu aria-hidden />

@@ -23,7 +23,8 @@
     "menuTitle": "All sections",
     "menuDescription": "Every line NYCrave runs.",
     "homeLabel": "NYCrave home",
-    "neighborhoods": "Neighborhoods"
+    "neighborhoods": "Neighborhoods",
+    "map": "Map"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -100,7 +101,8 @@
       "night": "Night"
     },
     "surprise": "Surprise me",
-    "surpriseLabel": "Go to a random place that is open now"
+    "surpriseLabel": "Go to a random place that is open now",
+    "seeMap": "See them all on the map"
   },
   "categories": {
     "restaurant": {
@@ -721,5 +723,14 @@
     "error": "That didn't go through. Please try again.",
     "limited": "You've sent a few reports already. Please try again in a few minutes.",
     "privacy": "We only store what you write here, with no name or email."
+  },
+  "cityMap": {
+    "title": "The city map",
+    "description": "Every NYCrave place on one map: filter by line, see what is open now, and find what is near you.",
+    "label": "Map of NYCrave places",
+    "count": "{count, plural, =0 {No places match} one {# place} other {# places}}",
+    "openNow": "Open now",
+    "open": "Open place",
+    "close": "Close preview"
   }
 }

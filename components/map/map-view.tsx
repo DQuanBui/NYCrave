@@ -36,6 +36,16 @@ export type MapViewProps = {
   route?: boolean
   className?: string
   ariaLabel: string
+  /** Controlled selection: when set, the parent shows the details instead of a popup. */
+  selectedId?: string | null
+  onSelect?: (id: string | null) => void
+  /** Require two fingers / Ctrl+scroll to move the map (for maps embedded in a page). */
+  cooperative?: boolean
+  /** A "you are here" dot; the map flies there when it first appears. */
+  userLocation?: { lat: number; lng: number } | null
+  /** Room to keep clear when fitting points, e.g. under overlaid controls. */
+  padding?: { top: number; bottom: number; left: number; right: number }
+  controlsPosition?: "top-right" | "bottom-right"
 }
 
 // Served from public/ (see scripts/copy-maplibre-worker.mjs)
@@ -72,17 +82,31 @@ function boundsOf(points: MapPoint[]): [[number, number], [number, number]] {
   ]
 }
 
-export default function MapView({ points, route, className, ariaLabel }: MapViewProps) {
+export default function MapView({
+  points,
+  route,
+  className,
+  ariaLabel,
+  selectedId: controlledId,
+  onSelect,
+  cooperative = true,
+  userLocation,
+  padding = { top: 60, bottom: 60, left: 60, right: 60 },
+  controlsPosition = "top-right",
+}: MapViewProps) {
   const t = useTranslations("filters")
   const { resolvedTheme } = useTheme()
   const mapRef = useRef<MapRef>(null)
-  const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [ownId, setOwnId] = useState<string | null>(null)
+  const controlled = onSelect !== undefined
+  const selectedId = controlled ? (controlledId ?? null) : ownId
+  const setSelectedId = controlled ? onSelect : setOwnId
   const selected = points.find((p) => p.id === selectedId)
 
   const initialViewState = useMemo(() => {
     if (points.length === 0) return NYC
     if (points.length === 1) return { longitude: points[0].lng, latitude: points[0].lat, zoom: 14 }
-    return { bounds: boundsOf(points), fitBoundsOptions: { padding: 60, maxZoom: 15 } }
+    return { bounds: boundsOf(points), fitBoundsOptions: { padding, maxZoom: 15 } }
     // Only for the first render; later changes refit below.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
@@ -92,10 +116,18 @@ export default function MapView({ points, route, className, ariaLabel }: MapView
     const map = mapRef.current
     if (!map || points.length === 0) return
     if (points.length === 1) map.flyTo({ center: [points[0].lng, points[0].lat], zoom: 14 })
-    else map.fitBounds(boundsOf(points), { padding: 60, maxZoom: 15, duration: 600 })
+    else map.fitBounds(boundsOf(points), { padding, maxZoom: 15, duration: 600 })
     // Refit when the set of points changes, not on every render.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key])
+
+  const hasUser = Boolean(userLocation)
+  useEffect(() => {
+    if (userLocation)
+      mapRef.current?.flyTo({ center: [userLocation.lng, userLocation.lat], zoom: 14 })
+    // Fly once when the location arrives, not on every position update.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hasUser])
 
   const routeData = useMemo(
     () => ({
@@ -117,9 +149,10 @@ export default function MapView({ points, route, className, ariaLabel }: MapView
         initialViewState={initialViewState}
         mapStyle={mapStyle(resolvedTheme === "dark")}
         style={{ width: "100%", height: "100%" }}
-        cooperativeGestures
+        cooperativeGestures={cooperative}
+        onClick={() => controlled && setSelectedId(null)}
       >
-        <NavigationControl position="top-right" showCompass={false} />
+        <NavigationControl position={controlsPosition} showCompass={false} />
         {route && points.length > 1 ? (
           <Source id="route" type="geojson" data={routeData}>
             <Layer
@@ -136,8 +169,22 @@ export default function MapView({ points, route, className, ariaLabel }: MapView
             />
           </Source>
         ) : null}
+        {userLocation ? (
+          <Marker longitude={userLocation.lng} latitude={userLocation.lat} anchor="center">
+            <span className="relative grid size-5 place-items-center" aria-hidden>
+              <span className="absolute inset-0 animate-ping rounded-full bg-line-blue/40 motion-reduce:animate-none" />
+              <span className="size-3.5 rounded-full bg-line-blue ring-3 ring-white" />
+            </span>
+          </Marker>
+        ) : null}
         {points.map((p) => (
-          <Marker key={p.id} longitude={p.lng} latitude={p.lat} anchor="center">
+          <Marker
+            key={p.id}
+            longitude={p.lng}
+            latitude={p.lat}
+            anchor="center"
+            style={{ zIndex: p.id === selectedId ? 2 : 1 }}
+          >
             <button
               type="button"
               onClick={(e) => {
@@ -145,15 +192,26 @@ export default function MapView({ points, route, className, ariaLabel }: MapView
                 setSelectedId(p.id)
               }}
               aria-label={p.name}
-              className="block rounded-full transition-transform hover:scale-110 focus-visible:scale-110"
+              aria-pressed={controlled ? p.id === selectedId : undefined}
+              className={cn(
+                "block rounded-full transition-transform hover:scale-110 focus-visible:scale-110",
+                p.id === selectedId && "scale-125",
+              )}
             >
-              <LineBullet line={p.line} size="md" className="shadow-md ring-2 ring-white">
+              <LineBullet
+                line={p.line}
+                size="md"
+                className={cn(
+                  "shadow-md ring-2 ring-white",
+                  p.id === selectedId && "ring-4 ring-foreground",
+                )}
+              >
                 {p.label}
               </LineBullet>
             </button>
           </Marker>
         ))}
-        {selected ? (
+        {selected && !controlled ? (
           <Popup
             longitude={selected.lng}
             latitude={selected.lat}

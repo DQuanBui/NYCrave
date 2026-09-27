@@ -9,7 +9,7 @@ export function MoodChips({ className }: { className?: string }) {
     <nav aria-label={t("title")} className={className}>
       <ul
         className={cn(
-          "-mx-4 scrollbar-none flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0",
+          "relative -mx-4 scrollbar-none flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0",
         )}
       >
         {MOODS.map((mood) => (

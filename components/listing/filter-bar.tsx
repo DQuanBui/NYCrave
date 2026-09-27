@@ -22,7 +22,7 @@ export function FilterBar({ params, options, onChange, onClear }: FilterBarProps
 
   return (
     <div role="group" aria-label={t("filters.label")} className="flex flex-wrap items-center gap-2">
-      <div className="-mx-4 scrollbar-none flex flex-1 items-center gap-2 overflow-x-auto px-4 py-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
+      <div className="relative -mx-4 scrollbar-none flex flex-1 items-center gap-2 overflow-x-auto px-4 py-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
         <button
           type="button"
           aria-pressed={Boolean(params.open)}

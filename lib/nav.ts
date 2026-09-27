@@ -4,6 +4,7 @@ import {
   CupSoda,
   Heart,
   Lightbulb,
+  Map as MapIcon,
   MapPinned,
   Route,
   ShoppingBag,
@@ -22,6 +23,7 @@ export type NavKey =
   | "photoSpots"
   | "parks"
   | "neighborhoods"
+  | "map"
   | "tips"
   | "myDay"
   | "saved"
@@ -41,6 +43,7 @@ export const NAV: Record<NavKey, NavItem> = {
   photoSpots: { key: "photoSpots", icon: Camera, ...category("photo_spot") },
   parks: { key: "parks", icon: Trees, ...category("park_pier") },
   neighborhoods: { key: "neighborhoods", href: "/neighborhoods", icon: MapPinned },
+  map: { key: "map", href: "/map", icon: MapIcon },
   tips: { key: "tips", href: "/tips", icon: Lightbulb },
   myDay: { key: "myDay", href: "/my-day", icon: Route },
   saved: { key: "saved", href: "/saved", icon: Heart },
@@ -51,7 +54,7 @@ export const TAB_BAR: NavKey[] = ["eat", "sip", "explore", "myDay", "saved"]
 /** Desktop header, left group. */
 export const TOP_NAV: NavKey[] = ["eat", "sip", "explore", "shop", "photoSpots", "parks"]
 /** Full menu (mobile sheet). */
-export const MENU: NavKey[] = [...TOP_NAV, "neighborhoods", "tips", "myDay", "saved"]
+export const MENU: NavKey[] = [...TOP_NAV, "map", "neighborhoods", "tips", "myDay", "saved"]
 
 export function isActive(pathname: string, href: string): boolean {
   return pathname === href || pathname.startsWith(`${href}/`)

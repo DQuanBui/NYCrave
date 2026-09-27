@@ -123,7 +123,7 @@ export function PlaceRail({
         <ul
           ref={scroller}
           aria-busy={pending}
-          className="-mx-4 scrollbar-none flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto px-4 pb-2 lg:-mx-8 lg:scroll-px-8 lg:px-8"
+          className="relative -mx-4 scrollbar-none flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto px-4 pb-2 lg:-mx-8 lg:scroll-px-8 lg:px-8"
         >
           {pending
             ? Array.from({ length: 4 }, (_, i) => (

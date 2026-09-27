@@ -142,7 +142,7 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
         </section>
       ) : null}
 
-      <div className="overflow-x-auto rounded-2xl border">
+      <div className="relative overflow-x-auto rounded-2xl border">
         <table className="w-full min-w-[40rem] text-sm">
           <thead className="bg-muted text-left">
             <tr>
