@@ -58,7 +58,7 @@ export const DISH_EMOJI: Record<DishType, string> = {
   rice_dishes: "🍚",
   hot_pot: "🍲",
   sushi: "🍣",
-  ramen: "🍥",
+  ramen: "🍜",
   curry: "🍛",
   sandwiches: "🥪",
   pizza: "🍕",

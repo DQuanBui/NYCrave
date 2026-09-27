@@ -153,7 +153,9 @@
     "openInGoogleMaps": "Open in Google Maps",
     "openInAppleMaps": "Open in Apple Maps",
     "transitDirections": "Transit directions",
+    "timeNeededLabel": "Time needed",
     "timeNeeded": "About {minutes} min",
+    "bookTickets": "Book tickets",
     "bestTime": "Best time",
     "tickets": "Tickets",
     "ticketRange": "${min}–${max}",
@@ -177,7 +179,7 @@
     "unavailable": "Hours unavailable",
     "checking": "Checking hours",
     "until": "until {time}",
-    "closesAt": "closes {time}",
+    "at": "at {time}",
     "opensAt": "opens {time}",
     "opensTomorrow": "opens tomorrow {time}",
     "opensOn": "opens {day} {time}"

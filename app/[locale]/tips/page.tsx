@@ -3,7 +3,8 @@ import { getTranslations } from "next-intl/server"
 import { initLocale } from "@/i18n/locale"
 import { ComingSoon } from "@/components/brand/coming-soon"
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: PageProps<"/[locale]/tips">): Promise<Metadata> {
+  await initLocale(params)
   const t = await getTranslations("comingSoon.tips")
   return { title: t("title"), description: t("body") }
 }

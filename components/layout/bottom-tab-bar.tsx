@@ -36,7 +36,7 @@ export function BottomTabBar() {
                 <span
                   className={cn(
                     "relative grid place-items-center rounded-full transition-transform",
-                    isMyDay ? "-mt-4 size-11 bg-taxi text-taxi-foreground shadow-lg" : "size-6",
+                    isMyDay ? "-mt-5 size-11 bg-taxi text-taxi-foreground shadow-lg" : "size-6",
                     active && !isMyDay && "scale-110",
                   )}
                 >

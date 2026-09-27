@@ -1,0 +1,191 @@
+"use client"
+
+import { Pause, Play } from "lucide-react"
+import { AnimatePresence, motion, useReducedMotion } from "motion/react"
+import Image from "next/image"
+import { useTranslations } from "next-intl"
+import { useEffect, useState } from "react"
+import { LineBullet } from "@/components/brand/line-bullet"
+import { MoodChips } from "@/components/home/mood-chips"
+import { SmartSearch } from "@/components/home/smart-search"
+import { Link } from "@/i18n/navigation"
+import { HERO_SCENES, type HeroScene } from "@/lib/home"
+import { LINES } from "@/lib/lines"
+import { CATEGORY_META } from "@/lib/taxonomy"
+import { cn } from "@/lib/utils"
+
+const ROTATE_MS = 4200
+const EASE = [0.22, 1, 0.36, 1] as const
+
+/**
+ * "The next stop is …" — destinations rotate like a platform announcement.
+ * Autoplay stops for reduced motion, on hover/focus, when paused, or in a background tab.
+ */
+export function Hero() {
+  const t = useTranslations("hero")
+  const reduceMotion = useReducedMotion()
+  // prev stays painted underneath while the next scene wipes in over it
+  const [{ index, prev }, setScenes] = useState({ index: 0, prev: 0 })
+  const go = (next: number) =>
+    setScenes((s) => (s.index === next ? s : { index: next, prev: s.index }))
+  const [paused, setPaused] = useState(false)
+  const [holding, setHolding] = useState(false)
+  const autoplay = !reduceMotion && !paused && !holding
+
+  useEffect(() => {
+    if (!autoplay) return
+    const id = setInterval(() => {
+      if (!document.hidden) {
+        setScenes((s) => ({ index: (s.index + 1) % HERO_SCENES.length, prev: s.index }))
+      }
+    }, ROTATE_MS)
+    return () => clearInterval(id)
+  }, [autoplay])
+
+  const scene = HERO_SCENES[index]
+  const meta = CATEGORY_META[scene.category]
+  const sceneLabel = t(`scenes.${scene.key}`)
+
+  return (
+    <section className="mx-auto grid max-w-7xl gap-8 px-4 pt-6 pb-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-14 lg:px-8 lg:pt-16 lg:pb-20">
+      <div className="flex min-w-0 flex-col gap-6">
+        <h1>
+          <span className="flex items-center gap-2.5 text-base font-semibold text-muted-foreground sm:text-lg">
+            <LineBullet line={meta.line} size="sm" className="transition-colors duration-500">
+              {meta.bullet}
+            </LineBullet>
+            {t("announcement")}
+            <span className="sr-only">{t("srAlt")}</span>
+          </span>
+          <span
+            aria-hidden
+            className="relative mt-3 block h-[1.9em] overflow-hidden pt-[0.05em] font-display text-[clamp(3.25rem,9.5vw,6.75rem)] leading-[0.92]"
+          >
+            <AnimatePresence initial={false}>
+              <motion.span
+                key={scene.key}
+                className="absolute inset-x-0 top-0 text-balance"
+                initial={{ y: "70%", opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                exit={{ y: "-70%", opacity: 0 }}
+                transition={{ duration: 0.55, ease: EASE }}
+              >
+                {sceneLabel}
+              </motion.span>
+            </AnimatePresence>
+          </span>
+        </h1>
+
+        <SmartSearch className="max-w-2xl" />
+        <MoodChips className="max-w-2xl" />
+      </div>
+
+      <div
+        className="relative lg:rotate-[1.5deg]"
+        onMouseEnter={() => setHolding(true)}
+        onMouseLeave={() => setHolding(false)}
+        onFocus={() => setHolding(true)}
+        onBlur={() => setHolding(false)}
+      >
+        <div className="rounded-2xl bg-sign p-2.5 shadow-[0_24px_60px_-20px_rgba(29,31,33,0.55)]">
+          <Link
+            href={{ pathname: "/search", query: { q: scene.query } }}
+            aria-label={t("searchScene", { scene: sceneLabel })}
+            className="relative block aspect-[16/10] overflow-hidden rounded-lg sm:aspect-[16/9] lg:aspect-[4/5]"
+          >
+            {prev !== index ? (
+              <SceneArt scene={HERO_SCENES[prev]} className="absolute inset-0" />
+            ) : null}
+            <motion.div
+              key={scene.key}
+              className="absolute inset-0"
+              initial={prev === index ? false : { clipPath: "inset(0 0 0 100%)" }}
+              animate={{ clipPath: "inset(0 0 0 0%)" }}
+              transition={{ duration: 0.6, ease: EASE }}
+            >
+              <SceneArt scene={scene} className="absolute inset-0" priority />
+            </motion.div>
+          </Link>
+
+          <div className="mt-2.5 flex items-center gap-3 rounded-md sign-band px-3 pt-4 pb-2.5">
+            <ol className="flex flex-1 items-center" aria-label={t("announcement")}>
+              {HERO_SCENES.map((s, i) => {
+                const active = i === index
+                return (
+                  <li key={s.key} className="flex flex-1 items-center last:flex-none">
+                    <button
+                      type="button"
+                      onClick={() => go(i)}
+                      aria-current={active ? "step" : undefined}
+                      aria-label={t(`scenes.${s.key}`)}
+                      className="grid size-6 place-items-center rounded-full"
+                    >
+                      <span
+                        className={cn(
+                          "rounded-full transition-all duration-300",
+                          LINES[CATEGORY_META[s.category].line].bg,
+                          active ? "size-4 ring-2 ring-white" : "size-2.5 opacity-70",
+                        )}
+                      />
+                    </button>
+                    {i < HERO_SCENES.length - 1 ? (
+                      <span aria-hidden className="h-0.5 flex-1 bg-sign-foreground/30" />
+                    ) : null}
+                  </li>
+                )
+              })}
+            </ol>
+            <button
+              type="button"
+              onClick={() => setPaused((p) => !p)}
+              aria-label={paused ? t("play") : t("pause")}
+              aria-pressed={paused}
+              className="grid size-8 shrink-0 place-items-center rounded-full hover:bg-white/10"
+            >
+              {paused ? (
+                <Play aria-hidden className="size-4" />
+              ) : (
+                <Pause aria-hidden className="size-4" />
+              )}
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function SceneArt({
+  scene,
+  className,
+  priority,
+}: {
+  scene: HeroScene
+  className?: string
+  priority?: boolean
+}) {
+  const line = LINES[CATEGORY_META[scene.category].line]
+  if (scene.image) {
+    return (
+      <div className={className}>
+        <Image
+          src={scene.image.src}
+          alt={scene.image.alt}
+          fill
+          priority={priority}
+          sizes="(min-width: 1024px) 40vw, 100vw"
+          className="object-cover"
+        />
+      </div>
+    )
+  }
+  return (
+    <div aria-hidden className={cn(line.bg, line.fg, className)}>
+      <div className="absolute inset-0 tile-pattern" />
+      <div className="absolute inset-0 bg-gradient-to-tr from-black/30 via-transparent to-white/15" />
+      <span className="absolute inset-0 grid place-items-center text-[7rem] drop-shadow-[0_12px_18px_rgba(0,0,0,0.3)] sm:text-[9rem]">
+        {scene.emoji}
+      </span>
+    </div>
+  )
+}
