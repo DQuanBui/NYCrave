@@ -1,7 +1,7 @@
 "use client"
 
 import { Heart } from "lucide-react"
-import { motion } from "motion/react"
+import * as m from "motion/react-m"
 import { useTranslations } from "next-intl"
 import { useHydrated } from "@/hooks/use-now"
 import { useSaved } from "@/hooks/use-saved"
@@ -34,7 +34,7 @@ export function SaveButton({ slug, name, variant = "overlay", className }: SaveB
         className,
       )}
     >
-      <motion.span
+      <m.span
         key={saved ? "saved" : "unsaved"}
         initial={saved ? { scale: 0.4 } : false}
         animate={{ scale: 1 }}
@@ -46,7 +46,7 @@ export function SaveButton({ slug, name, variant = "overlay", className }: SaveB
           className={cn("size-5", saved && "fill-line-red text-line-red")}
           strokeWidth={2.25}
         />
-      </motion.span>
+      </m.span>
     </button>
   )
 }

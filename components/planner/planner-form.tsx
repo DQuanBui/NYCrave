@@ -14,7 +14,8 @@ import {
   type PlanInput,
 } from "@/lib/planner/types"
 import { cn } from "@/lib/utils"
-import { BOROUGHS, DIETARY_OPTIONS, type DietaryOption } from "@/types/place"
+import { BOROUGHS, DIETARY_OPTIONS } from "@/types/enums"
+import type { DietaryOption } from "@/types/place"
 
 const MOOD_EMOJI: Record<Mood, string> = {
   first_timer: "🗽",
@@ -249,7 +250,12 @@ export function PlannerForm({ initial, today }: { initial: PlanInput; today: str
                   onChange={() => set("pace", pace)}
                 />
                 <span className="block font-bold">{t(`planner.paces.${pace}`)}</span>
-                <span className="block text-xs text-muted-foreground">
+                <span
+                  className={cn(
+                    "block text-xs",
+                    input.pace === pace ? "text-foreground/85" : "text-muted-foreground",
+                  )}
+                >
                   {t(`planner.paceHints.${pace}`)}
                 </span>
               </label>

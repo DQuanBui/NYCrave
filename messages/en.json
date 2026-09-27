@@ -21,7 +21,8 @@
     "skipToContent": "Skip to content",
     "openMenu": "Open menu",
     "menuTitle": "All sections",
-    "menuDescription": "Every line NYCrave runs."
+    "menuDescription": "Every line NYCrave runs.",
+    "homeLabel": "NYCrave home"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -161,7 +162,8 @@
     "noResultsTitle": "No stops match",
     "noResultsBody": "Nothing here fits all of those filters. Remove one, or clear them all.",
     "mapLabel": "Map of {count, plural, one {# place} other {# places}}",
-    "viewPlace": "View place"
+    "viewPlace": "View place",
+    "resultsHeading": "Places"
   },
   "browse": {
     "cuisine": "Browse by cuisine",
@@ -337,22 +339,10 @@
     "emptyBody": "Tap the heart on any place to keep it here. Saved places stay on this device.",
     "emptyCta": "Find something to eat"
   },
-  "comingSoon": {
-    "badge": "Under construction",
-    "myDay": {
-      "title": "Design my day",
-      "body": "Tell us the date, your mood and your budget, and we will line up breakfast through a nightcap around what is open. The planner is being built now.",
-      "cta": "Browse places meanwhile"
-    },
-    "tips": {
-      "title": "Tourist tips",
-      "body": "OMNY and subway basics, tipping, safety, a neighborhood guide and seasonal events are on the way.",
-      "cta": "Explore places meanwhile"
-    }
-  },
   "footer": {
     "dataNote": "Places marked Unverified use placeholder details and have not been checked yet.",
-    "copyright": "© {year} NYCrave"
+    "copyright": "© {year} NYCrave",
+    "language": "Language"
   },
   "notFound": {
     "title": "This stop is not in service",
@@ -470,5 +460,71 @@
     "golden_hour": "Golden hour",
     "blue_hour": "Blue hour",
     "night": "Night"
+  },
+  "tips": {
+    "title": "Tourist tips",
+    "tagline": "Getting around, paying, tipping and staying comfortable in New York.",
+    "contents": "On this page",
+    "subway": {
+      "title": "Subway and OMNY",
+      "items": [
+        "Tap a contactless card, phone or watch on the OMNY reader at the turnstile or on the bus. No MetroCard needed.",
+        "Use the same card or device every time: after 12 paid rides in a 7-day window, the rest of that week's rides are free.",
+        "Transfers between subway and bus within two hours are free when you tap the same card.",
+        "Uptown means north, downtown means south. Check the sign on the platform or entrance before you swipe in.",
+        "Local trains stop at every station; express trains skip some. The sign on the front and side of the train says which it is.",
+        "The subway runs 24/7, but nights and weekends often have service changes. Check before you go."
+      ],
+      "source": "Fares and service changes: mta.info"
+    },
+    "tipping": {
+      "title": "Tipping and tax",
+      "items": [
+        "Sit-down restaurants: 18 to 22 percent of the pre-tax bill is standard.",
+        "Bars: about $1 to $2 per drink, or about 20 percent on a tab.",
+        "Counter service and coffee: tipping is optional; a dollar or two is appreciated.",
+        "Taxis and rideshares: 15 to 20 percent.",
+        "Listed prices usually exclude sales tax, which is added at the register (8.875 percent in New York City)."
+      ]
+    },
+    "safety": {
+      "title": "Safety and etiquette",
+      "items": [
+        "Let riders off the train before you board, and do not lean on the doors.",
+        "On escalators, stand on the right and walk on the left.",
+        "Keep bags zipped and phones in hand, not in back pockets, in crowds.",
+        "An empty car on a busy train usually has a reason. Pick another car.",
+        "Emergencies: call 911. City services and non-emergency questions: call 311."
+      ]
+    },
+    "neighborhoods": {
+      "title": "Neighborhood guide",
+      "intro": "Where NYCrave places are, by borough. Tap a neighborhood to see what is there.",
+      "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}"
+    },
+    "seasons": {
+      "title": "Through the year",
+      "note": "Dates change every year; check official event sites before you plan around them.",
+      "spring": {
+        "title": "Spring",
+        "body": "Cherry blossoms in the parks and outdoor dining returning to sidewalks."
+      },
+      "summer": {
+        "title": "Summer",
+        "body": "Free outdoor concerts and movies in parks, and public beaches open from Memorial Day weekend to Labor Day."
+      },
+      "fall": {
+        "title": "Fall",
+        "body": "Foliage in the parks, the Village Halloween Parade on October 31, and the New York City Marathon in early November."
+      },
+      "winter": {
+        "title": "Winter",
+        "body": "Holiday windows and lights, outdoor ice rinks, and the New Year's Eve ball drop in Times Square."
+      }
+    }
+  },
+  "offline": {
+    "title": "You are offline",
+    "body": "Most of NYCrave needs a connection. Places you saved stay on this device and open without one."
   }
 }

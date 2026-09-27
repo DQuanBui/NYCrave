@@ -1,5 +1,6 @@
 import { SITE_URL } from "@/lib/site"
-import { WEEKDAYS, type Category, type Place } from "@/types/place"
+import { WEEKDAYS } from "@/types/enums"
+import type { Category, Place } from "@/types/place"
 
 const SCHEMA_TYPE: Record<Category, string> = {
   restaurant: "Restaurant",

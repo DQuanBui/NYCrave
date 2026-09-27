@@ -1,5 +1,6 @@
 import { z } from "zod"
-import { WEEKDAYS, type ApiReview, type Photo, type WeeklyHours } from "@/types/place"
+import { WEEKDAYS } from "@/types/enums"
+import type { ApiReview, Photo, WeeklyHours } from "@/types/place"
 
 /**
  * Google Places API (New). Server only: the key never reaches the browser. Photos

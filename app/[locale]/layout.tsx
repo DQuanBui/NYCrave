@@ -5,6 +5,7 @@ import { getTranslations } from "next-intl/server"
 import { BottomTabBar } from "@/components/layout/bottom-tab-bar"
 import { SiteFooter } from "@/components/layout/site-footer"
 import { SiteHeader } from "@/components/layout/site-header"
+import { ServiceWorker } from "@/components/providers/service-worker"
 import { Providers } from "@/components/providers/theme-provider"
 import { initLocale } from "@/i18n/locale"
 import { routing } from "@/i18n/routing"
@@ -24,6 +25,8 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
     title: { default: t("title"), template: t("titleTemplate") },
     description: t("description"),
     applicationName: "NYCrave",
+    appleWebApp: { capable: true, title: "NYCrave", statusBarStyle: "default" },
+    formatDetection: { telephone: false },
     openGraph: { type: "website", siteName: "NYCrave", locale },
     twitter: { card: "summary_large_image" },
   }
@@ -59,6 +62,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             </main>
             <SiteFooter />
             <BottomTabBar />
+            <ServiceWorker />
           </Providers>
         </NextIntlClientProvider>
       </body>

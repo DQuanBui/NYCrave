@@ -1,7 +1,8 @@
 "use client"
 
 import { Pause, Play } from "lucide-react"
-import { AnimatePresence, motion, useReducedMotion } from "motion/react"
+import { AnimatePresence, useReducedMotion } from "motion/react"
+import * as m from "motion/react-m"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
@@ -30,7 +31,20 @@ export function Hero() {
     setScenes((s) => (s.index === next ? s : { index: next, prev: s.index }))
   const [paused, setPaused] = useState(false)
   const [holding, setHolding] = useState(false)
-  const autoplay = !reduceMotion && !paused && !holding
+  // Rotation starts once the visitor interacts, so the first scene stays put while
+  // the page loads (and stays the largest contentful paint).
+  const [engaged, setEngaged] = useState(false)
+  const autoplay = engaged && !reduceMotion && !paused && !holding
+
+  useEffect(() => {
+    if (engaged) return
+    const events = ["pointermove", "pointerdown", "scroll", "keydown", "touchstart"] as const
+    const engage = () => setEngaged(true)
+    for (const e of events) window.addEventListener(e, engage, { once: true, passive: true })
+    return () => {
+      for (const e of events) window.removeEventListener(e, engage)
+    }
+  }, [engaged])
 
   useEffect(() => {
     if (!autoplay) return
@@ -62,7 +76,7 @@ export function Hero() {
             className="relative mt-3 block h-[1.9em] overflow-hidden pt-[0.05em] font-display text-[clamp(3.25rem,9.5vw,6.75rem)] leading-[0.92]"
           >
             <AnimatePresence initial={false}>
-              <motion.span
+              <m.span
                 key={scene.key}
                 className="absolute inset-x-0 top-0 text-balance"
                 initial={{ y: "70%", opacity: 0 }}
@@ -71,7 +85,7 @@ export function Hero() {
                 transition={{ duration: 0.55, ease: EASE }}
               >
                 {sceneLabel}
-              </motion.span>
+              </m.span>
             </AnimatePresence>
           </span>
         </h1>
@@ -96,7 +110,7 @@ export function Hero() {
             {prev !== index ? (
               <SceneArt scene={HERO_SCENES[prev]} className="absolute inset-0" />
             ) : null}
-            <motion.div
+            <m.div
               key={scene.key}
               className="absolute inset-0"
               initial={prev === index ? false : { clipPath: "inset(0 0 0 100%)" }}
@@ -104,7 +118,7 @@ export function Hero() {
               transition={{ duration: 0.6, ease: EASE }}
             >
               <SceneArt scene={scene} className="absolute inset-0" priority />
-            </motion.div>
+            </m.div>
           </Link>
 
           <div className="mt-2.5 flex items-center gap-3 rounded-md sign-band px-3 pt-4 pb-2.5">

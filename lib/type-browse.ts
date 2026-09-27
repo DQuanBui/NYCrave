@@ -1,14 +1,7 @@
 import type { PlaceFilter } from "@/lib/place-filters"
 import { CUISINE_EMOJI, DISH_EMOJI, DRINK_EMOJI } from "@/lib/taxonomy"
-import {
-  CUISINES,
-  DISH_TYPES,
-  DRINK_TYPES,
-  SHOP_TYPES,
-  type Category,
-  type Place,
-  type ShopType,
-} from "@/types/place"
+import { CUISINES, DISH_TYPES, DRINK_TYPES, SHOP_TYPES } from "@/types/enums"
+import type { Category, Place, ShopType } from "@/types/place"
 
 export const SHOP_EMOJI: Record<ShopType, string> = {
   flagship: "🏬",

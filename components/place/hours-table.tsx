@@ -4,7 +4,8 @@ import { useLocale, useTranslations } from "next-intl"
 import { useNow } from "@/hooks/use-now"
 import { formatRange, nycClock } from "@/lib/hours"
 import { cn } from "@/lib/utils"
-import { WEEKDAYS, type WeeklyHours } from "@/types/place"
+import { WEEKDAYS } from "@/types/enums"
+import type { WeeklyHours } from "@/types/place"
 
 /** Monday-first week, the way New York posts its hours. */
 const ORDER = [1, 2, 3, 4, 5, 6, 0]

@@ -5,7 +5,9 @@ import { MyDayPromo } from "@/components/home/my-day-promo"
 import { PlaceRail } from "@/components/place/place-rail"
 import { initLocale } from "@/i18n/locale"
 import { getPlaces } from "@/lib/places"
-import { CATEGORIES, type Category } from "@/types/place"
+import { SITE_URL } from "@/lib/site"
+import { CATEGORIES } from "@/types/enums"
+import type { Category } from "@/types/place"
 
 // Refresh listings from the database every few minutes
 export const revalidate = 300
@@ -23,8 +25,24 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
     CATEGORIES.map((c) => [c, all.filter((p) => p.category === c).length]),
   ) as Record<Category, number>
 
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "NYCrave",
+    url: SITE_URL,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE_URL}/search?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       <Hero />
       <div className="mx-auto max-w-7xl space-y-16 px-4 lg:space-y-20 lg:px-8">
         <PlaceRail title={t("trending")} places={all} limit={8} />

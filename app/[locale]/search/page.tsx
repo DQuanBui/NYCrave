@@ -49,6 +49,7 @@ async function intentLabels(intent: SearchIntent): Promise<string[]> {
 export default async function SearchPage({ params, searchParams }: Props) {
   await initLocale(params)
   const t = await getTranslations("search")
+  const tf = await getTranslations("filters")
   const query = await readQuery(searchParams)
   const results = query ? searchPlaces(await getPlaces(), query, nycClock(new Date())) : []
   const labels = query ? await intentLabels(parseQuery(query)) : []
@@ -81,7 +82,12 @@ export default async function SearchPage({ params, searchParams }: Props) {
       ) : null}
 
       {results.length > 0 ? (
-        <PlaceGrid places={results} />
+        <section aria-labelledby="results">
+          <h2 id="results" className="sr-only">
+            {tf("resultsHeading")}
+          </h2>
+          <PlaceGrid places={results} />
+        </section>
       ) : (
         <EmptyState
           line={query ? "red" : "yellow"}

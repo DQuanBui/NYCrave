@@ -1,17 +1,16 @@
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getStatusAt, isOpen, isOpenLaterToday, type NycClock } from "@/lib/hours"
-import {
-  BOROUGHS,
-  CUISINES,
-  type Borough,
-  type Category,
-  type Cuisine,
-  type DietaryOption,
-  type DishType,
-  type DrinkType,
-  type Place,
-  type ShopType,
-  type VibeTag,
+import { BOROUGHS, CUISINES } from "@/types/enums"
+import type {
+  Borough,
+  Category,
+  Cuisine,
+  DietaryOption,
+  DishType,
+  DrinkType,
+  Place,
+  ShopType,
+  VibeTag,
 } from "@/types/place"
 
 /** What a free-text query like "cheap pho in Queens open now" asks for. */

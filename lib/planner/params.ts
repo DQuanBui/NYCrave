@@ -1,6 +1,7 @@
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { nycDateString, toMinutes } from "@/lib/hours"
-import { DIETARY_OPTIONS, type DietaryOption } from "@/types/place"
+import { DIETARY_OPTIONS } from "@/types/enums"
+import type { DietaryOption } from "@/types/place"
 import {
   INTERESTS,
   MOODS,

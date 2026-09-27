@@ -8,9 +8,14 @@ export const display = Anton({
   display: "swap",
 })
 
+/**
+ * Body text. Not preloaded: the browser then fetches only the unicode subsets a
+ * page actually uses (usually just latin) instead of every weight x subset up front.
+ */
 export const body = Be_Vietnam_Pro({
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin", "latin-ext", "vietnamese"],
   variable: "--font-body",
   display: "swap",
+  preload: false,
 })

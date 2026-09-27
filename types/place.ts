@@ -1,126 +1,23 @@
 import { z } from "zod"
+import {
+  BOROUGHS,
+  CATEGORIES,
+  CUISINES,
+  DIETARY_OPTIONS,
+  DISH_TYPES,
+  DRINK_TYPES,
+  LIGHT_TIMES,
+  SHOP_TYPES,
+  VIBE_TAGS,
+} from "./enums"
+
+export * from "./enums"
 
 /**
  * The zod schemas are the source of truth: TypeScript types are inferred from them,
  * and seed data / database rows are validated against them at load time.
  * Keep supabase/schema.sql in sync when changing this file.
  */
-
-export const CATEGORIES = [
-  "restaurant",
-  "drink",
-  "attraction",
-  "shopping",
-  "photo_spot",
-  "park_pier",
-] as const
-
-export const CUISINES = [
-  "vietnamese",
-  "korean",
-  "japanese",
-  "chinese",
-  "thai",
-  "indian",
-  "american",
-  "italian",
-  "mexican",
-  "french",
-  "greek",
-  "middle_eastern",
-  "caribbean",
-  "ethiopian",
-  "filipino",
-  "malaysian",
-  "taiwanese",
-  "spanish",
-  "turkish",
-  "peruvian",
-  "jewish_deli",
-  "halal",
-  "colombian",
-  "dominican",
-  "polish",
-  "georgian",
-  "west_african",
-  "nepali",
-] as const
-
-export const DISH_TYPES = [
-  "bbq",
-  "noodle_soup",
-  "dry_noodles",
-  "dumplings",
-  "rice_dishes",
-  "hot_pot",
-  "sushi",
-  "ramen",
-  "curry",
-  "sandwiches",
-  "pizza",
-  "bagels",
-  "tacos",
-  "brunch",
-  "bakery",
-  "desserts",
-  "street_food",
-  "seafood",
-  "burgers",
-  "fried_chicken",
-  "vegetarian_plates",
-] as const
-
-export const DRINK_TYPES = [
-  "coffee",
-  "bubble_tea",
-  "tea",
-  "matcha",
-  "cocktails",
-  "rooftop_bar",
-  "wine_bar",
-  "juice",
-] as const
-
-export const BOROUGHS = ["manhattan", "brooklyn", "queens", "bronx", "staten_island"] as const
-
-export const VIBE_TAGS = [
-  "date_night",
-  "cheap_eats",
-  "late_night",
-  "rainy_day",
-  "kid_friendly",
-  "instagrammable",
-  "local_favorite",
-  "tourist_classic",
-  "group_friendly",
-  "solo_friendly",
-  "outdoor",
-  "quiet",
-] as const
-
-export const DIETARY_OPTIONS = ["vegetarian", "vegan", "halal", "kosher", "gluten_free"] as const
-
-export const SHOP_TYPES = [
-  "flagship",
-  "vintage",
-  "thrift",
-  "market",
-  "boutique",
-  "bookstore",
-  "department_store",
-] as const
-
-export const LIGHT_TIMES = [
-  "sunrise",
-  "morning",
-  "midday",
-  "golden_hour",
-  "blue_hour",
-  "night",
-] as const
-
-/** Index matches Date#getDay(): 0 = Sunday. */
-export const WEEKDAYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"] as const
 
 const hhmm = z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$|^24:00$/, "Expected HH:MM (24h), or 24:00")
 
@@ -202,17 +99,6 @@ export const placeSchema = z.object({
   verificationNotes: z.string().optional(),
   updatedAt: z.iso.datetime(),
 })
-
-export type Category = (typeof CATEGORIES)[number]
-export type Cuisine = (typeof CUISINES)[number]
-export type DishType = (typeof DISH_TYPES)[number]
-export type DrinkType = (typeof DRINK_TYPES)[number]
-export type Borough = (typeof BOROUGHS)[number]
-export type VibeTag = (typeof VIBE_TAGS)[number]
-export type DietaryOption = (typeof DIETARY_OPTIONS)[number]
-export type ShopType = (typeof SHOP_TYPES)[number]
-export type LightTime = (typeof LIGHT_TIMES)[number]
-export type Weekday = (typeof WEEKDAYS)[number]
 
 export type TimeRange = z.infer<typeof timeRangeSchema>
 export type WeeklyHours = z.infer<typeof weeklyHoursSchema>

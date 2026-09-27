@@ -15,7 +15,7 @@ const button =
 function Feedback({ state }: { state: ActionState }) {
   return (
     <div aria-live="polite" className="space-y-1 text-sm">
-      {state.ok ? <p className="font-semibold text-line-green">{state.ok}</p> : null}
+      {state.ok ? <p className="font-semibold text-free">{state.ok}</p> : null}
       {state.errors?.length ? (
         <ul className="list-disc space-y-0.5 pl-5 font-medium text-destructive">
           {state.errors.map((e) => (

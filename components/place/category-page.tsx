@@ -54,16 +54,12 @@ export async function CategoryPage({
             title={t("browse.shoppingNeighborhoods")}
           />
         ) : null}
-        <section aria-labelledby="all-places" className="space-y-5">
+        <section aria-labelledby={kinds.length ? "all-places" : undefined} className="space-y-5">
           {kinds.length ? (
             <h2 id="all-places" className="font-display text-display-md">
               {t("browse.all")}
             </h2>
-          ) : (
-            <h2 id="all-places" className="sr-only">
-              {t("browse.all")}
-            </h2>
-          )}
+          ) : null}
           <ListingView base={{ category }} searchParams={searchParams} />
         </section>
       </div>

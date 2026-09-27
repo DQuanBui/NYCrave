@@ -1,4 +1,5 @@
-import { WEEKDAYS, type TimeRange, type WeeklyHours } from "@/types/place"
+import { WEEKDAYS } from "@/types/enums"
+import type { TimeRange, WeeklyHours } from "@/types/place"
 
 export const NYC_TZ = "America/New_York"
 const DAY = 1440

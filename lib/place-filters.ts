@@ -7,16 +7,18 @@ import {
   LIGHT_TIMES,
   SHOP_TYPES,
   VIBE_TAGS,
-  type Borough,
-  type Category,
-  type Cuisine,
-  type DietaryOption,
-  type DishType,
-  type DrinkType,
-  type LightTime,
-  type Place,
-  type ShopType,
-  type VibeTag,
+} from "@/types/enums"
+import type {
+  Borough,
+  Category,
+  Cuisine,
+  DietaryOption,
+  DishType,
+  DrinkType,
+  LightTime,
+  Place,
+  ShopType,
+  VibeTag,
 } from "@/types/place"
 
 export type PlaceFilter = {

@@ -1,7 +1,7 @@
 "use client"
 
 import { ThemeProvider as NextThemesProvider } from "next-themes"
-import { MotionConfig } from "motion/react"
+import { domAnimation, LazyMotion, MotionConfig } from "motion/react"
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
@@ -11,7 +11,10 @@ export function Providers({ children }: { children: React.ReactNode }) {
       enableSystem
       disableTransitionOnChange
     >
-      <MotionConfig reducedMotion="user">{children}</MotionConfig>
+      {/* LazyMotion + m.* keeps only the DOM animation features in the bundle */}
+      <LazyMotion features={domAnimation} strict>
+        <MotionConfig reducedMotion="user">{children}</MotionConfig>
+      </LazyMotion>
     </NextThemesProvider>
   )
 }

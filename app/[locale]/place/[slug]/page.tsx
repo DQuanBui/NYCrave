@@ -44,11 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/place/${place.slug}` },
     // Placeholder entries stay out of search indexes until verified
     robots: place.verified ? undefined : { index: false, follow: true },
-    openGraph: {
-      title: place.name,
-      description: place.editorialTake,
-      images: place.photos.slice(0, 1).map((p) => ({ url: p.url, alt: p.alt })),
-    },
+    openGraph: { title: place.name, description: place.editorialTake },
   }
 }
 

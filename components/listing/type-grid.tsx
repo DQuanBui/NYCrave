@@ -46,7 +46,14 @@ export async function TypeGrid({ kind, pool }: { kind: TypeKind; pool: Place[] }
             {body}
           </Link>
         ) : (
-          <div className={cn(base, "border-dashed border-foreground/10 opacity-60")}>{body}</div>
+          <div
+            className={cn(
+              base,
+              "border-dashed border-foreground/15 text-muted-foreground [&_[aria-hidden]]:opacity-50 [&_[aria-hidden]]:grayscale",
+            )}
+          >
+            {body}
+          </div>
         )}
       </li>
     )

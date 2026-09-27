@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { Wordmark } from "@/components/brand/wordmark"
+import { LocaleSwitcher } from "@/components/layout/locale-switcher"
 import { Link } from "@/i18n/navigation"
 import { MENU, NAV } from "@/lib/nav"
 
@@ -34,8 +35,9 @@ export async function SiteFooter() {
           </ul>
         </nav>
       </div>
-      <div className="mx-auto max-w-7xl px-4 pb-8 text-xs text-muted-foreground lg:px-8">
-        {t("footer.copyright", { year: new Date().getFullYear() })}
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 pb-8 text-xs text-muted-foreground lg:px-8">
+        <span>{t("footer.copyright", { year: new Date().getFullYear() })}</span>
+        <LocaleSwitcher />
       </div>
     </footer>
   )

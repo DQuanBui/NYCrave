@@ -1,17 +1,8 @@
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getStatusAt, isOpen, nycClock } from "@/lib/hours"
 import { matchesFilter, paramsToFilter, sortPlaces, type ListingParams } from "@/lib/place-filters"
-import {
-  BOROUGHS,
-  DIETARY_OPTIONS,
-  LIGHT_TIMES,
-  VIBE_TAGS,
-  type Borough,
-  type DietaryOption,
-  type LightTime,
-  type Place,
-  type VibeTag,
-} from "@/types/place"
+import { BOROUGHS, DIETARY_OPTIONS, LIGHT_TIMES, VIBE_TAGS } from "@/types/enums"
+import type { Borough, DietaryOption, LightTime, Place, VibeTag } from "@/types/place"
 
 /** Which filter choices make sense for a set of places (no dead-end options). */
 export type FilterOptions = {

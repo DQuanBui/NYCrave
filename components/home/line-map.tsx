@@ -4,7 +4,8 @@ import { Link } from "@/i18n/navigation"
 import { LINES } from "@/lib/lines"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
-import { CATEGORIES, type Category } from "@/types/place"
+import { CATEGORIES } from "@/types/enums"
+import type { Category } from "@/types/place"
 
 /** Categories drawn as a strip map: one colored line per section, stations stacked like a route. */
 export async function LineMap({ counts }: { counts: Record<Category, number> }) {

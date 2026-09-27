@@ -41,6 +41,7 @@ export function ListingClient({ places, params, options }: ListingClientProps) {
   return (
     <div className="space-y-5">
       <FilterBar params={params} options={options} onChange={update} onClear={clear} />
+      <h2 className="sr-only">{t("resultsHeading")}</h2>
       <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
         {t("results", { count: places.length })}
       </p>

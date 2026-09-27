@@ -12,7 +12,8 @@ import { Link } from "@/i18n/navigation"
 import { getOpenStatus, isOpen, isOpenLaterToday, nycClock } from "@/lib/hours"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
-import { CATEGORIES, type Place } from "@/types/place"
+import { CATEGORIES } from "@/types/enums"
+import type { Place } from "@/types/place"
 
 /** Time-dependent filters run on the client, against the viewer's current time. */
 export type LiveFilter = "open-now" | "free-today"

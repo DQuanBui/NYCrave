@@ -7,7 +7,8 @@ import { isAdmin } from "@/lib/admin-auth"
 import { googlePlacesConfigured } from "@/lib/google-places"
 import { writeBackend } from "@/lib/place-store"
 import { getPlaceById } from "@/lib/places"
-import { WEEKDAYS, type Place } from "@/types/place"
+import { WEEKDAYS } from "@/types/enums"
+import type { Place } from "@/types/place"
 
 export const metadata: Metadata = { title: "Edit place", robots: { index: false, follow: false } }
 

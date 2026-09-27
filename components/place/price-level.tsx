@@ -5,7 +5,7 @@ import type { Place } from "@/types/place"
 export function PriceLevel({ place, className }: { place: Place; className?: string }) {
   const t = useTranslations("place")
   if (place.isFree) {
-    return <span className={cn("font-bold text-line-green", className)}>{t("free")}</span>
+    return <span className={cn("font-bold text-free", className)}>{t("free")}</span>
   }
   if (place.ticketInfo) {
     return (
