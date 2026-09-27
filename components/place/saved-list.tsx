@@ -9,9 +9,9 @@ import { Button } from "@/components/ui/button"
 import { useHydrated } from "@/hooks/use-now"
 import { useSaved } from "@/hooks/use-saved"
 import { Link } from "@/i18n/navigation"
-import type { Place } from "@/types/place"
+import type { CardPlace } from "@/lib/card-place"
 
-export function SavedList({ places }: { places: Place[] }) {
+export function SavedList({ places }: { places: CardPlace[] }) {
   const t = useTranslations("saved")
   const hydrated = useHydrated()
   const { slugs } = useSaved()
@@ -29,7 +29,7 @@ export function SavedList({ places }: { places: Place[] }) {
   // Keep the order the user saved them in (newest first)
   const saved = slugs
     .map((slug) => places.find((p) => p.slug === slug))
-    .filter((p): p is Place => p !== undefined)
+    .filter((p): p is CardPlace => p !== undefined)
 
   if (saved.length === 0) {
     return (

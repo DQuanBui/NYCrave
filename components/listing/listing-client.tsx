@@ -18,10 +18,10 @@ import { listingQuery, type ListingParams } from "@/lib/place-filters"
 import { estimateTravel } from "@/lib/planner/estimates"
 import type { Travel } from "@/lib/planner/types"
 import { cn } from "@/lib/utils"
-import type { Place } from "@/types/place"
+import type { CardPlace } from "@/lib/card-place"
 
 type ListingClientProps = {
-  places: Place[]
+  places: CardPlace[]
   params: ListingParams
   options: FilterOptions
 }

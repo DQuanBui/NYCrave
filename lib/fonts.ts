@@ -1,9 +1,12 @@
 import { Anton, Be_Vietnam_Pro } from "next/font/google"
 
-/** Condensed poster face for headlines. Covers Vietnamese for the planned vi locale. */
+/**
+ * Condensed poster face for headlines. Only the latin file is preloaded; the
+ * latin-ext and Vietnamese files still load on demand for the planned vi locale.
+ */
 export const display = Anton({
   weight: "400",
-  subsets: ["latin", "latin-ext", "vietnamese"],
+  subsets: ["latin"],
   variable: "--font-anton",
   display: "swap",
 })

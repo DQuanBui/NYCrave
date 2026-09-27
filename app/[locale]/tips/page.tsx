@@ -1,5 +1,6 @@
 import {
   CreditCard,
+  Plane,
   Leaf,
   ShieldCheck,
   Snowflake,
@@ -41,6 +42,7 @@ export default async function TipsPage({ params }: Props) {
   const countIn = (name: string) => places.filter((p) => p.neighborhood === name).length
 
   const lists = [
+    { id: "airports", icon: Plane, items: t.raw("airports.items") as string[] },
     { id: "subway", icon: TrainFront, items: t.raw("subway.items") as string[] },
     { id: "tipping", icon: Wallet, items: t.raw("tipping.items") as string[] },
     { id: "safety", icon: ShieldCheck, items: t.raw("safety.items") as string[] },
@@ -53,16 +55,18 @@ export default async function TipsPage({ params }: Props) {
         <nav aria-label={t("contents")} className="lg:sticky lg:top-24 lg:self-start">
           <p className="mb-2 text-sm font-bold text-muted-foreground">{t("contents")}</p>
           <ol className="flex flex-wrap gap-2 lg:flex-col lg:gap-1">
-            {(["subway", "tipping", "safety", "neighborhoods", "seasons"] as const).map((id) => (
-              <li key={id}>
-                <a
-                  href={`#${id}`}
-                  className="inline-block rounded-full px-3 py-1.5 text-sm font-semibold hover:bg-accent lg:rounded-lg"
-                >
-                  {t(`${id}.title`)}
-                </a>
-              </li>
-            ))}
+            {(["airports", "subway", "tipping", "safety", "neighborhoods", "seasons"] as const).map(
+              (id) => (
+                <li key={id}>
+                  <a
+                    href={`#${id}`}
+                    className="inline-block rounded-full px-3 py-1.5 text-sm font-semibold hover:bg-accent lg:rounded-lg"
+                  >
+                    {t(`${id}.title`)}
+                  </a>
+                </li>
+              ),
+            )}
           </ol>
         </nav>
 
@@ -78,6 +82,19 @@ export default async function TipsPage({ params }: Props) {
                   </li>
                 ))}
               </ul>
+              {id === "airports" ? (
+                <p className="flex items-center gap-2 text-sm text-muted-foreground">
+                  <Plane aria-hidden className="size-4" />
+                  <a
+                    href="https://www.panynj.gov"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline underline-offset-4"
+                  >
+                    {t("airports.source")}
+                  </a>
+                </p>
+              ) : null}
               {id === "subway" ? (
                 <p className="flex items-center gap-2 text-sm text-muted-foreground">
                   <CreditCard aria-hidden className="size-4" />

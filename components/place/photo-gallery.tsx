@@ -36,7 +36,8 @@ export function PhotoGallery({
               src={photo.url}
               alt={photo.alt}
               fill
-              priority={i === 0}
+              preload={i === 0}
+              fetchPriority={i === 0 ? "high" : undefined}
               sizes="(min-width: 1024px) 45vw, 90vw"
               // Proxied Google photos are fetched per view and must not be re-hosted
               unoptimized={photo.source === "google_places"}

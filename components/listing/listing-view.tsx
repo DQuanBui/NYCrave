@@ -1,4 +1,5 @@
 import { ListingClient } from "@/components/listing/listing-client"
+import { toCard } from "@/lib/card-place"
 import { applyListing, filterOptions } from "@/lib/listing"
 import { parseListingParams, type PlaceFilter } from "@/lib/place-filters"
 import { getPlaces } from "@/lib/places"
@@ -17,7 +18,7 @@ export async function ListingView({
   const pool = await getPlaces(base)
   return (
     <ListingClient
-      places={applyListing(pool, params)}
+      places={applyListing(pool, params).map(toCard)}
       params={params}
       options={filterOptions(pool)}
     />

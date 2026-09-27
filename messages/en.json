@@ -44,7 +44,9 @@
       "skyline": "the skyline at blue hour",
       "pier": "a pier at golden hour"
     },
-    "intro": "Find where to eat, drink, explore and shop across the five boroughs, see what is open right now, and plan a whole day around it."
+    "intro": "Find where to eat, drink, explore and shop across the five boroughs, see what is open right now, and plan a whole day around it.",
+    "weather": "Today in New York: high of {temp}°F, {chance}% chance of rain.",
+    "rainyIdeas": "Rainy-day ideas"
   },
   "search": {
     "label": "Search places",
@@ -61,7 +63,8 @@
     "suggestions": "Try one of these",
     "openNow": "open now",
     "openToday": "open today",
-    "free": "free"
+    "free": "free",
+    "suggestPlaces": "Suggested places"
   },
   "moods": {
     "title": "Pick a mood",
@@ -534,6 +537,17 @@
         "title": "Winter",
         "body": "Holiday windows and lights, outdoor ice rinks, and the New Year's Eve ball drop in Times Square."
       }
+    },
+    "airports": {
+      "title": "Getting here from the airports",
+      "items": [
+        "From JFK: ride the AirTrain to Jamaica (E, J and Z trains, or the LIRR) or to Howard Beach (A train). The AirTrain fare is paid when you exit.",
+        "From LaGuardia: the Q70 LaGuardia Link bus runs to the subway at Jackson Heights–Roosevelt Avenue and to the LIRR at Woodside.",
+        "From Newark: AirTrain Newark connects to Newark Liberty International Airport Station, with NJ Transit and Amtrak trains to New York Penn Station.",
+        "Yellow taxis charge a flat fare between JFK and Manhattan, plus tolls and tip. Check the current amount before you ride.",
+        "Take taxis only from the official lines outside arrivals, and ignore anyone inside the terminal offering a ride."
+      ],
+      "source": "Airport transit and fares: panynj.gov"
     }
   },
   "offline": {

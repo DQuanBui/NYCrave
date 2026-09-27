@@ -100,17 +100,18 @@ export default async function NeighborhoodPage({ params }: Props) {
 
         {places.length ? (
           <>
-            <LazyMap
-              points={places.map((p) => placeToPoint(p))}
-              ariaLabel={t("neighborhoods.mapLabel", { name: hood.name })}
-              className="h-72 sm:h-96"
-            />
             <section aria-labelledby="places-in" className="space-y-5">
               <h2 id="places-in" className="font-display text-display-md">
                 {t("neighborhoods.placesIn", { name: hood.name })}
               </h2>
               <PlaceGrid places={places} />
             </section>
+            <LazyMap
+              points={places.map((p) => placeToPoint(p))}
+              ariaLabel={t("neighborhoods.mapLabel", { name: hood.name })}
+              className="h-72 sm:h-96"
+            />
+
           </>
         ) : (
           <EmptyState

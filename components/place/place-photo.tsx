@@ -4,10 +4,10 @@ import { LINES } from "@/lib/lines"
 import { placeEmoji } from "@/lib/place-display"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
-import type { Place } from "@/types/place"
+import type { CardPlace } from "@/lib/card-place"
 
 type PlacePhotoProps = {
-  place: Place
+  place: CardPlace
   sizes: string
   priority?: boolean
   className?: string
@@ -37,7 +37,8 @@ export function PlacePhoto({
           alt={photo.alt}
           fill
           sizes={sizes}
-          priority={priority}
+          preload={priority}
+          fetchPriority={priority ? "high" : undefined}
           unoptimized={photo.source === "google_places"}
           className="object-cover"
         />

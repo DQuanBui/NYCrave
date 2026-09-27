@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl"
 import { formatPriceRange } from "@/lib/format"
 import { cn } from "@/lib/utils"
-import type { Place } from "@/types/place"
+import type { CardPlace } from "@/lib/card-place"
 
-export function PriceLevel({ place, className }: { place: Place; className?: string }) {
+export function PriceLevel({ place, className }: { place: CardPlace; className?: string }) {
   const t = useTranslations("place")
   if (place.isFree) {
     return <span className={cn("font-bold text-free", className)}>{t("free")}</span>

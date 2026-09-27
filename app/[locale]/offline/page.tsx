@@ -1,3 +1,4 @@
+import { toCard } from "@/lib/card-place"
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
@@ -22,7 +23,7 @@ export default async function OfflinePage({ params }: PageProps<"/[locale]/offli
           <p className="max-w-xl text-lg text-muted-foreground">{t("body")}</p>
         </div>
       </header>
-      <SavedList places={await getPlaces({}, { sort: "name" })} />
+      <SavedList places={(await getPlaces({}, { sort: "name" })).map(toCard)} />
     </div>
   )
 }

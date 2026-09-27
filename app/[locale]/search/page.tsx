@@ -51,7 +51,14 @@ export default async function SearchPage({ params, searchParams }: Props) {
   const t = await getTranslations("search")
   const tf = await getTranslations("filters")
   const query = await readQuery(searchParams)
-  const results = query ? searchPlaces(await getPlaces(), query, nycClock(new Date())) : []
+  const all = await getPlaces()
+  const results = query ? searchPlaces(all, query, nycClock(new Date())) : []
+  const hints = all.map((p) => ({
+    slug: p.slug,
+    name: p.name,
+    neighborhood: p.neighborhood,
+    category: p.category,
+  }))
   const labels = query ? await intentLabels(parseQuery(query)) : []
 
   return (
@@ -60,7 +67,13 @@ export default async function SearchPage({ params, searchParams }: Props) {
         <h1 className="font-display text-display-lg text-balance">
           {query ? t("resultsFor", { query }) : t("startTitle")}
         </h1>
-        <SmartSearch key={query} defaultValue={query} autoFocus={!query} className="max-w-2xl" />
+        <SmartSearch
+          key={query}
+          defaultValue={query}
+          autoFocus={!query}
+          className="max-w-2xl"
+          hints={hints}
+        />
         {labels.length > 0 ? (
           <div className="flex flex-wrap items-center gap-2 text-sm">
             <span className="font-semibold text-muted-foreground">{t("understood")}</span>

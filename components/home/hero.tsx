@@ -1,6 +1,6 @@
 "use client"
 
-import { Pause, Play } from "lucide-react"
+import { CloudRain, Pause, Play, Sun } from "lucide-react"
 import { AnimatePresence, useReducedMotion } from "motion/react"
 import * as m from "motion/react-m"
 import Image from "next/image"
@@ -9,7 +9,7 @@ import { useEffect, useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { RouteArt } from "@/components/brand/route-art"
 import { MoodChips } from "@/components/home/mood-chips"
-import { SmartSearch } from "@/components/home/smart-search"
+import { SmartSearch, type SearchHint } from "@/components/home/smart-search"
 import { Link } from "@/i18n/navigation"
 import { HERO_SCENES, type HeroScene } from "@/lib/home"
 import { LINES } from "@/lib/lines"
@@ -23,7 +23,13 @@ const EASE = [0.22, 1, 0.36, 1] as const
  * "The next stop is …" — destinations rotate like a platform announcement.
  * Autoplay stops for reduced motion, on hover/focus, when paused, or in a background tab.
  */
-export function Hero() {
+type HeroProps = {
+  hints?: SearchHint[]
+  /** Today's New York forecast, when available. */
+  forecast?: { tempMaxF: number; chance: number; rainLikely: boolean } | null
+}
+
+export function Hero({ hints, forecast }: HeroProps) {
   const t = useTranslations("hero")
   const reduceMotion = useReducedMotion()
   // prev stays painted underneath while the next scene wipes in over it
@@ -94,7 +100,25 @@ export function Hero() {
           {t("intro")}
         </p>
 
-        <SmartSearch className="max-w-2xl" />
+        <SmartSearch className="max-w-2xl" hints={hints} />
+        {forecast ? (
+          <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground">
+            {forecast.rainLikely ? (
+              <CloudRain aria-hidden className="size-4 text-line-blue" />
+            ) : (
+              <Sun aria-hidden className="size-4 text-line-orange" />
+            )}
+            {t("weather", { temp: forecast.tempMaxF, chance: forecast.chance })}
+            {forecast.rainLikely ? (
+              <Link
+                href={{ pathname: "/search", query: { q: "rainy day" } }}
+                className="font-semibold text-foreground underline underline-offset-4"
+              >
+                {t("rainyIdeas")}
+              </Link>
+            ) : null}
+          </p>
+        ) : null}
         <MoodChips className="max-w-2xl" />
       </div>
 
@@ -193,8 +217,9 @@ function SceneArt({
           src={scene.image.src}
           alt={scene.image.alt}
           fill
-          priority={priority}
-          sizes="(min-width: 1024px) 40vw, 100vw"
+          preload={priority}
+          fetchPriority={priority ? "high" : undefined}
+          sizes="(min-width: 1024px) 40vw, calc(100vw - 80px)"
           className="object-cover"
         />
       </div>

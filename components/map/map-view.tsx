@@ -30,7 +30,7 @@ export type MapPoint = {
   label: string
 }
 
-type MapViewProps = {
+export type MapViewProps = {
   points: MapPoint[]
   /** Connect points in order with a route line (Design My Day). */
   route?: boolean

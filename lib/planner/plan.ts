@@ -29,6 +29,11 @@ const isActivity = (p: Place) =>
   p.category === "photo_spot" ||
   p.category === "park_pier"
 
+/** Food people actually eat in the morning: no pizza or tacos at 9 AM. */
+const BREAKFAST_DISHES = new Set(["bakery", "brunch", "bagels", "dumplings", "noodle_soup"])
+const isBreakfastSpot = (p: Place) =>
+  p.category === "restaurant" && (p.dishTypes ?? []).some((d) => BREAKFAST_DISHES.has(d))
+
 const isCafe = (p: Place) =>
   p.category === "drink" &&
   (p.drinkTypes ?? []).some((d) => ["coffee", "tea", "bubble_tea", "matcha", "juice"].includes(d))
@@ -53,7 +58,7 @@ const SLOT_DEFS: SlotDef[] = [
     earliest: h(7),
     latest: h(10.5),
     food: true,
-    eligible: (p) => p.category === "restaurant" || isCafe(p),
+    eligible: (p) => isBreakfastSpot(p) || isCafe(p),
     minutes: (_, pace) => paced(45, pace),
   },
   {

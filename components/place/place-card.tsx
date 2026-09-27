@@ -11,10 +11,10 @@ import { placeTagKeys } from "@/lib/place-display"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
 import type { Travel } from "@/lib/planner/types"
-import type { Place } from "@/types/place"
+import type { CardPlace } from "@/lib/card-place"
 
 type PlaceCardProps = {
-  place: Place
+  place: CardPlace
   className?: string
   priority?: boolean
   /** Distance from the viewer, when they asked to sort by "near me". */

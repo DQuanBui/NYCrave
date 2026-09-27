@@ -13,14 +13,14 @@ import { getOpenStatus, isOpen, isOpenLaterToday, nycClock } from "@/lib/hours"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
 import { CATEGORIES } from "@/types/enums"
-import type { Place } from "@/types/place"
+import type { CardPlace } from "@/lib/card-place"
 
 /** Time-dependent filters run on the client, against the viewer's current time. */
 export type LiveFilter = "open-now" | "free-today"
 
 type PlaceRailProps = {
   title: string
-  places: Place[]
+  places: CardPlace[]
   seeAllHref?: string
   live?: LiveFilter
   emptyText?: string
@@ -29,7 +29,7 @@ type PlaceRailProps = {
   surprise?: boolean
 }
 
-function applyLive(places: Place[], live: LiveFilter, now: Date) {
+function applyLive(places: CardPlace[], live: LiveFilter, now: Date) {
   if (live === "open-now") return places.filter((p) => isOpen(getOpenStatus(p.hours, now)))
   const clock = nycClock(now)
   return places.filter((p) => p.isFree && isOpenLaterToday(p.hours, clock))
@@ -131,9 +131,9 @@ export function PlaceRail({
                   <PlaceCardSkeleton className="h-full" />
                 </li>
               ))
-            : visible.map((place, i) => (
+            : visible.map((place) => (
                 <li key={place.id} className={cn(cardWidth, "snap-start")}>
-                  <PlaceCard place={place} className="h-full" priority={i < 2 && !live} />
+                  <PlaceCard place={place} className="h-full" />
                 </li>
               ))}
         </ul>

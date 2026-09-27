@@ -17,6 +17,7 @@ import { UnverifiedTag } from "@/components/place/unverified-tag"
 import { neighborhoodByName } from "@/data/neighborhoods"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
+import { toCard } from "@/lib/card-place"
 import { formatPriceRange } from "@/lib/format"
 import { appleMapsUrl, distanceKm, googleMapsUrl, transitDirectionsUrl } from "@/lib/geo"
 import { getGooglePlaceDetails } from "@/lib/google-places"
@@ -275,7 +276,7 @@ export default async function PlacePage({ params }: Props) {
 
       {similar.length > 0 ? (
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <PlaceRail title={t("place.similar")} places={similar} />
+          <PlaceRail title={t("place.similar")} places={similar.map(toCard)} />
         </div>
       ) : null}
     </article>
