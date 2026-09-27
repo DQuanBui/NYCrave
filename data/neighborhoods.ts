@@ -26,6 +26,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9843,
   },
   { slug: "soho", name: "SoHo", borough: "manhattan", lat: 40.7233, lng: -74.003 },
+  { slug: "nolita", name: "Nolita", borough: "manhattan", lat: 40.7223, lng: -73.9955 },
   { slug: "east-village", name: "East Village", borough: "manhattan", lat: 40.7265, lng: -73.9815 },
   { slug: "west-village", name: "West Village", borough: "manhattan", lat: 40.7358, lng: -74.0036 },
   {
@@ -47,6 +48,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "nomad", name: "NoMad", borough: "manhattan", lat: 40.7448, lng: -73.988 },
   { slug: "koreatown", name: "Koreatown", borough: "manhattan", lat: 40.7477, lng: -73.9869 },
   { slug: "midtown", name: "Midtown", borough: "manhattan", lat: 40.7549, lng: -73.984 },
+  {
+    slug: "hells-kitchen",
+    name: "Hell's Kitchen",
+    borough: "manhattan",
+    lat: 40.7638,
+    lng: -73.9918,
+  },
   { slug: "midtown-east", name: "Midtown East", borough: "manhattan", lat: 40.7527, lng: -73.9727 },
   {
     slug: "upper-west-side",
@@ -63,6 +71,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9566,
   },
   { slug: "harlem", name: "Harlem", borough: "manhattan", lat: 40.8116, lng: -73.9465 },
+  {
+    slug: "washington-heights",
+    name: "Washington Heights",
+    borough: "manhattan",
+    lat: 40.8417,
+    lng: -73.9394,
+  },
   { slug: "williamsburg", name: "Williamsburg", borough: "brooklyn", lat: 40.7081, lng: -73.9571 },
   { slug: "greenpoint", name: "Greenpoint", borough: "brooklyn", lat: 40.7305, lng: -73.9515 },
   { slug: "dumbo", name: "DUMBO", borough: "brooklyn", lat: 40.7033, lng: -73.9881 },
@@ -74,6 +89,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9936,
   },
   { slug: "park-slope", name: "Park Slope", borough: "brooklyn", lat: 40.671, lng: -73.9814 },
+  { slug: "flatbush", name: "Flatbush", borough: "brooklyn", lat: 40.6415, lng: -73.9594 },
   {
     slug: "prospect-heights",
     name: "Prospect Heights",
@@ -92,6 +108,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.8448,
   },
   { slug: "astoria", name: "Astoria", borough: "queens", lat: 40.7644, lng: -73.9235 },
+  { slug: "woodside", name: "Woodside", borough: "queens", lat: 40.7453, lng: -73.9055 },
   {
     slug: "jackson-heights",
     name: "Jackson Heights",

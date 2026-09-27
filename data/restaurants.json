@@ -1706,5 +1706,1680 @@
     "verificationNotes": "Checked 2026-09-27: address and hours from jongrobbqny.com/contact-us. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.74753,
     "lng": -73.98693
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/thai-diner-nolita-1.jpg",
+        "alt": "Illustrative photo: a bowl of khao soi curry noodles with crispy noodles on top",
+        "width": 1100,
+        "height": 880,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Chainwit., CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Khao_Soi_Northern_Thai_food_%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%8B%E0%B8%AD%E0%B8%A2_%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%AD%E0%B8%87.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/thai-diner-nolita-2.jpg",
+        "alt": "Illustrative photo: outdoor dining on Mott Street in Nolita",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Andre Carrotflower, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Outdoor_dining_on_Mott_Street,_Nolita,_Manhattan_-_20200905.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Thai tea babka", "Khao soi", "Thai disco fries"],
+    "vibeTags": ["local_favorite", "group_friendly", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-thai-diner",
+    "slug": "thai-diner-nolita",
+    "name": "Thai Diner",
+    "category": "restaurant",
+    "cuisines": ["thai", "american"],
+    "dishTypes": ["noodle_soup", "rice_dishes", "desserts"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Nolita",
+    "address": "186 Mott St, New York, NY 10012",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:30",
+          "close": "22:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:30",
+          "close": "22:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:30",
+          "close": "22:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "23:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:30",
+          "close": "23:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "23:30"
+        }
+      ]
+    },
+    "editorialTake": "A Thai American diner on Mott Street with a bright, kitschy room and a menu that runs from Thai breakfast to late dinner. Book ahead or go at an odd hour.",
+    "bestTimeToVisit": "Weekday breakfast, when there is no wait",
+    "timeNeededMinutes": 60,
+    "trendingScore": 88,
+    "website": "https://www.thaidiner.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from thaidiner.com. The restaurant takes no phone calls. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72074,
+    "lng": -73.9957
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/mamouns-falafel-greenwich-village-1.jpg",
+        "alt": "Illustrative photo: falafel wrapped in pita with salad",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Israel_photo_gallery, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Falafel_in_a_pita.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Falafel sandwich", "Shawarma", "Hot sauce, used sparingly"],
+    "vibeTags": ["cheap_eats", "late_night", "solo_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-mamouns-falafel",
+    "slug": "mamouns-falafel-greenwich-village",
+    "name": "Mamoun's Falafel",
+    "category": "restaurant",
+    "cuisines": ["middle_eastern", "halal"],
+    "dishTypes": ["sandwiches", "street_food", "vegetarian_plates"],
+    "dietary": ["vegetarian", "halal"],
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "119 MacDougal St, New York, NY 10012",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "03:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ]
+    },
+    "editorialTake": "A tiny falafel counter that has fed MacDougal Street since 1971: crisp falafel in warm pita for a few dollars, open until the small hours.",
+    "bestTimeToVisit": "Late night after the Village bars",
+    "timeNeededMinutes": 20,
+    "trendingScore": 80,
+    "website": "https://www.mamouns.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from mamouns.com (Greenwich Village location page; founded 1971). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73032,
+    "lng": -74.00036
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-halal-guys-53rd-and-6th-1.jpg",
+        "alt": "Food carts on the corner of West 53rd Street and Sixth Avenue",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Tdorante10, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:53rd_St_6th_Av_td_14_-_1301_6th_Avenue.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Chicken and gyro over rice", "White sauce", "Falafel platter"],
+    "vibeTags": ["cheap_eats", "late_night", "tourist_classic", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-halal-guys-53rd",
+    "slug": "the-halal-guys-53rd-and-6th",
+    "name": "The Halal Guys (53rd & 6th cart)",
+    "category": "restaurant",
+    "cuisines": ["halal", "middle_eastern"],
+    "dishTypes": ["rice_dishes", "street_food", "sandwiches"],
+    "dietary": ["halal"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "W 53rd St & 6th Ave, New York, NY 10019",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "04:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "04:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "04:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "04:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "04:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ]
+    },
+    "editorialTake": "The original street cart, on the corner since 1990, that made chicken over rice with white sauce a New York staple. Expect a line at lunch and after midnight.",
+    "bestTimeToVisit": "Mid-afternoon, or late at night",
+    "timeNeededMinutes": 20,
+    "trendingScore": 86,
+    "website": "https://thehalalguys.com",
+    "verificationNotes": "Checked 2026-09-27: location and hours from thehalalguys.com (W 53rd Street and 6th Avenue page). A street cart: there is no indoor seating. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.76139,
+    "lng": -73.97932
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/footprints-cafe-flatbush-1.jpg",
+        "alt": "Illustrative photo: jerk chicken with rice and peas and coleslaw",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "simon thomas, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Jerk_Chicken,_Rice.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Rasta pasta", "Jerk chicken", "Oxtail"],
+    "vibeTags": ["group_friendly", "local_favorite", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-footprints-cafe-flatbush",
+    "slug": "footprints-cafe-flatbush",
+    "name": "Footprints Cafe",
+    "category": "restaurant",
+    "cuisines": ["caribbean"],
+    "dishTypes": ["rice_dishes", "curry"],
+    "dietary": [],
+    "borough": "brooklyn",
+    "neighborhood": "Flatbush",
+    "address": "1377 Flatbush Ave, Brooklyn, NY 11210",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "Brooklyn's big, busy Jamaican spot, famous for its creamy jerk rasta pasta and generous plates of oxtail and curry. Come hungry and in a group.",
+    "bestTimeToVisit": "Weekend dinner",
+    "timeNeededMinutes": 60,
+    "trendingScore": 74,
+    "website": "https://footprintscafenyc.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours for the Flatbush Avenue location from footprintscafenyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.63724,
+    "lng": -73.9522
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/awash-ethiopian-east-village-1.jpg",
+        "alt": "Illustrative photo: an Ethiopian platter of stews and vegetables on injera",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "PeggyIdog00d, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_meal_called_Injera_with_veggies_and_meat.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Vegetarian combination platter", "Doro wot", "Injera"],
+    "vibeTags": ["group_friendly", "cheap_eats", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-awash-east-village",
+    "slug": "awash-ethiopian-east-village",
+    "name": "Awash Ethiopian Restaurant",
+    "category": "restaurant",
+    "cuisines": ["ethiopian"],
+    "dishTypes": ["vegetarian_plates", "curry"],
+    "dietary": ["vegetarian", "vegan"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "338 E 6th St, New York, NY 10003",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:30",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:30",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:30",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:30",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:30",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:30",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:30",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Stews and vegetables spooned onto a platter of spongy injera, eaten with your hands and shared. The vegetarian combination is one of the best-value meals in the East Village.",
+    "bestTimeToVisit": "Early dinner",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://www.awashny.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours for the East Village location from awashny.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72652,
+    "lng": -73.98686
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/tito-rads-grill-woodside-1.jpg",
+        "alt": "Illustrative photo: sizzling pork sisig with egg and calamansi",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Ymirazudis, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Sizzling_Sisig_at_La_Herencia_Comida.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Grilled tuna jaw", "Crispy pata", "Sisig"],
+    "vibeTags": ["group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-tito-rads-grill",
+    "slug": "tito-rads-grill-woodside",
+    "name": "Tito Rad's Grill",
+    "category": "restaurant",
+    "cuisines": ["filipino"],
+    "dishTypes": ["bbq", "rice_dishes", "seafood"],
+    "dietary": [],
+    "borough": "queens",
+    "neighborhood": "Woodside",
+    "address": "49-10 Queens Blvd, Woodside, NY 11377",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "A family-friendly Filipino grill in Woodside, near Little Manila, known for charred tuna jaw, crackling pork and big shared plates.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 66,
+    "website": "http://titorads.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from titorads.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74251,
+    "lng": -73.91557
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/kopitiam-lower-east-side-1.jpg",
+        "alt": "Illustrative photo: nasi lemak with sambal, egg, peanuts and cucumber",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Mw12310, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Nasi_Lemak,_Mamak,_Sydney.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Nasi lemak", "Pan mee", "Kaya toast with kopi"],
+    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-kopitiam",
+    "slug": "kopitiam-lower-east-side",
+    "name": "Kopitiam",
+    "category": "restaurant",
+    "cuisines": ["malaysian"],
+    "dishTypes": ["rice_dishes", "dry_noodles", "desserts"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "151 E Broadway, New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A bright, casual Malaysian coffee shop serving Nyonya cooking, the Chinese-Malay cuisine of Penang and Malacca, from breakfast kaya toast to spicy noodles.",
+    "bestTimeToVisit": "Late breakfast or lunch",
+    "timeNeededMinutes": 45,
+    "trendingScore": 76,
+    "website": "https://www.kopitiamnyc.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours (10 AM to 10 PM, seven days) from kopitiamnyc.com. An older block on the same site lists 11 AM to 7 PM and closed Wednesdays; confirm before going. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7138,
+    "lng": -73.9909
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/win-son-williamsburg-1.jpg",
+        "alt": "Illustrative photo: lu rou fan, braised pork over rice",
+        "width": 1080,
+        "height": 1080,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Blowing Puffer Fish, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Close-up_of_Minced_pork_rice_bought_from_Puli.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Lu rou fan", "Zhajiang noodles", "Fly's head"],
+    "vibeTags": ["date_night", "group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-win-son",
+    "slug": "win-son-williamsburg",
+    "name": "Win Son",
+    "category": "restaurant",
+    "cuisines": ["taiwanese", "american"],
+    "dishTypes": ["dry_noodles", "rice_dishes"],
+    "dietary": [],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "159 Graham Ave, Brooklyn, NY 11206",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:30",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:30",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:30",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:30",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:30",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:30",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:30",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Taiwanese American cooking in East Williamsburg, with punchy small plates and noodles in a lively dining room. Its bakery across the street does the breakfast.",
+    "bestTimeToVisit": "Weeknight dinner",
+    "timeNeededMinutes": 75,
+    "trendingScore": 78,
+    "website": "https://www.winsonbrooklyn.com",
+    "verificationNotes": "Checked 2026-09-27: address and dinner hours from winsonbrooklyn.com/restaurant. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.70745,
+    "lng": -73.9434
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/casa-mono-gramercy-1.jpg",
+        "alt": "Casa Mono's yellow signs and storefront on Irving Place",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Transpoman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Mono_NYC.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/casa-mono-gramercy-2.jpg",
+        "alt": "Casa Mono's lit yellow sign at night",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Eden, Janine and Jim from New York City, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Casa_Mono_(4100634964).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Pan con tomate", "Croquetas", "Razor clams a la plancha"],
+    "vibeTags": ["date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-casa-mono",
+    "slug": "casa-mono-gramercy",
+    "name": "Casa Mono",
+    "category": "restaurant",
+    "cuisines": ["spanish"],
+    "dishTypes": ["seafood"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Union Square",
+    "address": "52 Irving Pl, New York, NY 10003",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A snug, candlelit tapas bar a few blocks from Union Square, with a counter facing the plancha and a long Spanish wine list. A classic date spot.",
+    "bestTimeToVisit": "Late lunch, or a seat at the counter",
+    "timeNeededMinutes": 90,
+    "trendingScore": 79,
+    "website": "https://www.casamononyc.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours (noon to 11 PM daily) from casamononyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73593,
+    "lng": -73.98717
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/sip-sak-midtown-east-1.jpg",
+        "alt": "Illustrative photo: a Turkish meze plate",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Dreamchef, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Meze-Taba%C4%9F%C4%B1.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Meze plate", "Lamb kebab", "Manti"],
+    "vibeTags": ["group_friendly", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-sip-sak",
+    "slug": "sip-sak-midtown-east",
+    "name": "Sip Sak",
+    "category": "restaurant",
+    "cuisines": ["turkish"],
+    "dishTypes": ["bbq", "vegetarian_plates"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "928 2nd Ave, New York, NY 10022",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A long-running Turkish restaurant from chef Orhan Yegen, with generous meze, grilled kebabs and a bar kept free for walk-ins.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 66,
+    "website": "https://sipsaknyc.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours (11 AM to 11 PM, seven days) from sipsaknyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75434,
+    "lng": -73.9685
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/pio-pio-jackson-heights-1.jpg",
+        "alt": "Illustrative photo: Peruvian rotisserie chicken with fries and salad",
+        "width": 1100,
+        "height": 716,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Marcomogollon, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Pollo_a_la_brasa_para_llevar.JPG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Rotisserie chicken with green sauce", "Ceviche", "Chicharrón"],
+    "vibeTags": ["group_friendly", "kid_friendly", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-pio-pio-jackson-heights",
+    "slug": "pio-pio-jackson-heights",
+    "name": "Pio Pio",
+    "category": "restaurant",
+    "cuisines": ["peruvian"],
+    "dishTypes": ["rice_dishes", "seafood"],
+    "dietary": [],
+    "borough": "queens",
+    "neighborhood": "Jackson Heights",
+    "address": "84-02 Northern Blvd, Jackson Heights, NY 11372",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Peruvian rotisserie chicken with the famous green aji sauce, in a big, lively room made for groups. The family platter feeds a crowd.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://www.piopio.com",
+    "verificationNotes": "Checked 2026-09-27: hours for the 84-02 Northern Blvd location from NYC Tourism's listing and current listings. piopio.com asks visitors to check each location for hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75555,
+    "lng": -73.88318
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/arepa-lady-jackson-heights-1.jpg",
+        "alt": "Illustrative photo: an arepa de choclo with melted cheese",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Nelson Fernando Sotelo Castro, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Arepa_de_chocolo.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/arepa-lady-jackson-heights-2.jpg",
+        "alt": "The Arepa Lady and helpers cooking arepas at a street food festival",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Gary Stevens, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Sainted_Arepa_Lady_and_Helpers_at_San_Francisco_Street_Food_Festival_(6063416391).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Arepa de choclo with cheese", "Arepa with chorizo"],
+    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-arepa-lady",
+    "slug": "arepa-lady-jackson-heights",
+    "name": "Arepa Lady",
+    "category": "restaurant",
+    "cuisines": ["colombian"],
+    "dishTypes": ["street_food"],
+    "dietary": ["vegetarian"],
+    "borough": "queens",
+    "neighborhood": "Jackson Heights",
+    "address": "77-17 37th Ave, Jackson Heights, NY 11372",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "The late-night street cart from Roosevelt Avenue legend, now a restaurant: sweet corn arepas griddled and folded over melting cheese.",
+    "bestTimeToVisit": "Evening, before a walk down 37th Avenue",
+    "timeNeededMinutes": 30,
+    "trendingScore": 72,
+    "website": "https://www.thearepalady.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from the Jackson Heights page of thearepalady.com (via search; the site did not load directly). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74952,
+    "lng": -73.88837
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/malecon-washington-heights-1.jpg",
+        "alt": "Illustrative photo: mofongo with shrimp in a bowl",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "The Eloquent Peasant, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Shrimp_mofongo_from_Rompeolas_restaurant_in_Aguadilla,_Puerto_Rico.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Rotisserie chicken", "Roast pork", "Mofongo with shrimp"],
+    "vibeTags": ["local_favorite", "group_friendly", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-malecon-washington-heights",
+    "slug": "malecon-washington-heights",
+    "name": "Malecon",
+    "category": "restaurant",
+    "cuisines": ["dominican"],
+    "dishTypes": ["rice_dishes", "brunch"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Washington Heights",
+    "address": "4141 Broadway, New York, NY 10033",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A Washington Heights institution since 1987: Dominican rotisserie chicken, roast pork and mofongo, served from breakfast to late at night.",
+    "bestTimeToVisit": "Lunch, then a walk to Fort Tryon Park",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://maleconnyc.com",
+    "verificationNotes": "Checked 2026-09-27: address, hours and opening year (1987) from maleconnyc.com (175th Street page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.84633,
+    "lng": -73.93852
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/karczma-greenpoint-1.jpg",
+        "alt": "Illustrative photo: pierogi topped with crispy bacon",
+        "width": 1100,
+        "height": 862,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Chris Olszewski, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Pierogi_in_Warsaw,_2019.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Pierogi", "Potato pancakes", "Kielbasa"],
+    "vibeTags": ["group_friendly", "local_favorite", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-karczma",
+    "slug": "karczma-greenpoint",
+    "name": "Karczma",
+    "category": "restaurant",
+    "cuisines": ["polish"],
+    "dishTypes": ["dumplings"],
+    "dietary": [],
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "136 Greenpoint Ave, Brooklyn, NY 11222",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "23:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "23:30"
+        }
+      ]
+    },
+    "editorialTake": "A Polish country inn in the heart of Greenpoint, with wooden beams, costumed servers and heaping plates of pierogi and potato pancakes.",
+    "bestTimeToVisit": "A cold evening",
+    "timeNeededMinutes": 75,
+    "trendingScore": 70,
+    "website": "https://www.karczmabrooklyn.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from karczmabrooklyn.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72989,
+    "lng": -73.95511
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/oda-house-upper-east-side-1.jpg",
+        "alt": "Illustrative photo: Adjarian khachapuri, boat-shaped cheese bread with an egg",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Eugene Krasnaok, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Khachapuri_Adjaruli_with_egg_and_butter_2016.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "Adjaruli khachapuri (cheese bread with egg)",
+      "Khinkali dumplings",
+      "Georgian wine"
+    ],
+    "vibeTags": ["group_friendly", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-oda-house",
+    "slug": "oda-house-upper-east-side",
+    "name": "Oda House",
+    "category": "restaurant",
+    "cuisines": ["georgian"],
+    "dishTypes": ["dumplings", "bakery"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "406 E 73rd St, New York, NY 10021",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Georgian cooking since 2013: boat-shaped cheese bread with a runny egg, soup dumplings twisted at the top, and wines from the Caucasus.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 75,
+    "trendingScore": 68,
+    "website": "https://www.odahouse.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours for the Manhattan location from odahouse.com (hours and location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.76805,
+    "lng": -73.95499
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/africa-kine-harlem-1.jpg",
+        "alt": "Illustrative photo: ceebu jen, Senegalese fish and rice",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Alweaver2, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ceebu_Jen,_Senegalese_dish.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Thiebou dieune (fish and rice)", "Chicken yassa", "Dibi (grilled lamb)"],
+    "vibeTags": ["local_favorite", "late_night", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-africa-kine",
+    "slug": "africa-kine-harlem",
+    "name": "Africa Kine",
+    "category": "restaurant",
+    "cuisines": ["west_african"],
+    "dishTypes": ["rice_dishes"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Harlem",
+    "address": "2267 Adam Clayton Powell Jr Blvd, New York, NY 10027",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:30",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "13:30",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "13:30",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "13:30",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "13:30",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "13:30",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:30",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "A Senegalese restaurant in Harlem's Little Senegal, serving lemony yassa, fish and rice, and grilled meats until late.",
+    "bestTimeToVisit": "Dinner",
+    "timeNeededMinutes": 60,
+    "trendingScore": 64,
+    "website": "https://africakinerestaurant.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours (1:30 PM to 1 AM daily) from africakinerestaurant.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.81415,
+    "lng": -73.94411
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/himalayan-yak-jackson-heights-1.jpg",
+        "alt": "Illustrative photo: a plate of steamed momo with dipping sauce",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Gaurav Dhwaj Khadka, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Momo_2.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Momo", "Thukpa noodle soup", "Seasonal yak dumplings"],
+    "vibeTags": ["local_favorite", "late_night", "group_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-himalayan-yak",
+    "slug": "himalayan-yak-jackson-heights",
+    "name": "Himalayan Yak",
+    "category": "restaurant",
+    "cuisines": ["nepali"],
+    "dishTypes": ["dumplings", "noodle_soup", "curry"],
+    "dietary": ["vegetarian"],
+    "borough": "queens",
+    "neighborhood": "Jackson Heights",
+    "address": "72-20 Roosevelt Ave, Jackson Heights, NY 11372",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "Nepali, Tibetan and Bhutanese cooking under the elevated 7 train, from juicy momo to hand-pulled thukpa and, in season, yak from a Vermont farm.",
+    "bestTimeToVisit": "Weekend buffet or a late dinner",
+    "timeNeededMinutes": 60,
+    "trendingScore": 68,
+    "website": "https://himalayanyak.us",
+    "verificationNotes": "Checked 2026-09-27: address and hours from himalayanyak.us. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.74658,
+    "lng": -73.89279
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/corner-bistro-west-village-1.jpg",
+        "alt": "Corner Bistro's red neon sign and entrance on West 4th Street at night",
+        "width": 1100,
+        "height": 1100,
+        "source": "other",
+        "attribution": {
+          "text": "Eden, Janine and Jim from New York City, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Corner_Bistro_(50273778717).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Bistro burger with bacon and cheese", "Fries", "A cold draft beer"],
+    "vibeTags": ["late_night", "cheap_eats", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-corner-bistro",
+    "slug": "corner-bistro-west-village",
+    "name": "Corner Bistro",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["burgers"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "331 W 4th St, New York, NY 10014",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "04:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "04:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "04:00"
+        }
+      ]
+    },
+    "editorialTake": "A dim, wood-paneled West Village tavern serving thick burgers on paper plates until the early hours. Cash only, no reservations, worth the wait.",
+    "bestTimeToVisit": "Late night",
+    "timeNeededMinutes": 45,
+    "trendingScore": 76,
+    "website": "https://www.cornerbistrony.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours for the West Village location from cornerbistrony.com. Cash only, with an ATM on site; walk-ins only. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.73804,
+    "lng": -74.00377
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/blue-ribbon-sushi-soho-1.jpg",
+        "alt": "Illustrative photo: tuna and fish nigiri sushi",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Asok5 from Budapest, Hungary, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Nigiri_Moriawase_(Sushi_Sei)_(42217840971).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Chef's sushi selection", "Oyster roll"],
+    "vibeTags": ["date_night", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "r-blue-ribbon-sushi",
+    "slug": "blue-ribbon-sushi-soho",
+    "name": "Blue Ribbon Sushi",
+    "category": "restaurant",
+    "cuisines": ["japanese"],
+    "dishTypes": ["sushi"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "119 Sullivan St, New York, NY 10012",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "The original Blue Ribbon sushi bar, down a few steps on Sullivan Street since 1995: a cozy, wood-lined room with fish flown in daily and a late kitchen.",
+    "bestTimeToVisit": "Late dinner at the sushi bar",
+    "timeNeededMinutes": 75,
+    "trendingScore": 74,
+    "website": "https://www.blueribbonsushi119.com",
+    "verificationNotes": "Checked 2026-09-27: hours from current listings (the official site blocked direct checking). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.72606,
+    "lng": -74.0024
   }
 ]

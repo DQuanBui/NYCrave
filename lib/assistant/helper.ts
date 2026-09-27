@@ -132,7 +132,7 @@ function placeKeys(p: Place): string[] {
 
 /** Everyday words and area names that must not stand in for a whole place. */
 const COMMON = new Set(
-  "street dumbo pizza natural history modern tacos chelsea times grand terminal ferry williamsburg little fifth rooftop village bagel death restaurant bronx prospect heights public library union bushwick plaza jackson roosevelt industry company arthur avenue retail sunset works housing closet diner collective herald botanic botanical stephen statue liberty island tramway greenmarket".split(
+  "street dumbo pizza natural history modern tacos chelsea times grand terminal ferry williamsburg little fifth rooftop village bagel death restaurant bronx prospect heights public library union bushwick plaza jackson roosevelt industry company arthur avenue retail sunset works housing closet diner collective herald botanic botanical stephen statue liberty island tramway greenmarket sushi falafel grill coffee halal ethiopian bistro corner blue ribbon bells moving image guys cafe".split(
     " ",
   ),
 )

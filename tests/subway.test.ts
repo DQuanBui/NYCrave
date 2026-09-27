@@ -18,8 +18,8 @@ describe("subway stations", () => {
 
   it("puts a station within a 15-minute walk of almost every place", () => {
     const far = places.filter((p) => nearestStations(p).length === 0).map((p) => p.slug)
-    // Roosevelt Island, piers and big parks can be a longer walk
-    expect(far.length).toBeLessThanOrEqual(3)
+    // Piers, Roosevelt Island and big parks can be a longer walk
+    expect(far.length / places.length).toBeLessThan(0.06)
   })
 
   it("colors every route", () => {

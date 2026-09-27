@@ -85,7 +85,22 @@
     "lng": -73.96223
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/te-company-west-village-1.jpg",
+        "alt": "Illustrative photo: a clay teapot and cups on a gongfu tea tray",
+        "width": 1100,
+        "height": 688,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Kandukuru Nagarjun, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Teochew_Kanghu_tea.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
     "mustTry": ["Taiwanese oolong service", "Seasonal tea snacks"],
     "vibeTags": ["quiet", "date_night", "solo_friendly", "rainy_day"],
     "verified": false,
@@ -407,7 +422,22 @@
     "lng": -73.98466
   },
   {
-    "photos": [],
+    "photos": [
+      {
+        "url": "/photos/employees-only-west-village-1.jpg",
+        "alt": "Illustrative photo: a Manhattan cocktail with a large ice cube",
+        "width": 1100,
+        "height": 1653,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "star5112, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Manhattan_cocktail_with_ice.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
     "mustTry": ["House cocktails", "Late-night bites"],
     "vibeTags": ["late_night", "date_night", "group_friendly"],
     "verified": false,
@@ -738,5 +768,174 @@
     "verificationNotes": "Checked 2026-09-27: address and hours from bohemianhall.com (closed Mondays except for private events; est. 1910). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.77295,
     "lng": -73.91579
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-ten-bells-lower-east-side-1.jpg",
+        "alt": "Illustrative photo: a glass of wine by candlelight in a wine bar",
+        "width": 1024,
+        "height": 719,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Baakie, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wine_bar,_Lipscani,_vinul_bun,_Bucuresti.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Natural wine by the glass", "Oysters"],
+    "vibeTags": ["date_night", "local_favorite", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-the-ten-bells",
+    "slug": "the-ten-bells-lower-east-side",
+    "name": "The Ten Bells",
+    "category": "drink",
+    "drinkTypes": ["wine_bar"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "247 Broome St, New York, NY 10002",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "15:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "15:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "A candlelit Lower East Side bar that helped bring natural wine to New York, with a chalkboard list and small plates. Great for a date or a slow evening.",
+    "bestTimeToVisit": "Early evening",
+    "timeNeededMinutes": 75,
+    "trendingScore": 72,
+    "website": "https://www.tenbellsnyc.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from tenbellsnyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.71782,
+    "lng": -73.98985
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/sey-coffee-bushwick-1.jpg",
+        "alt": "Illustrative photo: coffee brewing through a pour-over filter",
+        "width": 1024,
+        "height": 768,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "—Estormiz 06:57, 10 September 2006 (UTC), Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Coffee_Filter_2006_09_09.JPG",
+          "license": "Public domain"
+        }
+      }
+    ],
+    "mustTry": ["Pour-over of the current light roast", "Espresso"],
+    "vibeTags": ["quiet", "instagrammable", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "d-sey-coffee",
+    "slug": "sey-coffee-bushwick",
+    "name": "Sey Coffee",
+    "category": "drink",
+    "drinkTypes": ["coffee"],
+    "dietary": ["vegetarian"],
+    "borough": "brooklyn",
+    "neighborhood": "Bushwick",
+    "address": "18 Grattan St, Brooklyn, NY 11206",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A roaster's cafe in a sunlit Bushwick warehouse with a skylight and plants, pouring very light, fruity coffees. No laptops on weekends.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 40,
+    "trendingScore": 70,
+    "website": "https://www.seycoffee.com",
+    "verificationNotes": "Checked 2026-09-27: address and hours from seycoffee.com/pages/cafe. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.70542,
+    "lng": -73.93238
   }
 ]

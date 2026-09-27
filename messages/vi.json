@@ -187,7 +187,6 @@
     "shop": "Duyệt theo loại cửa hàng",
     "all": "Mọi điểm dừng trên tuyến này",
     "shoppingNeighborhoods": "Khu phố mua sắm",
-    "none": "Chưa có",
     "showAll": "Hiện cả {count}",
     "showFewer": "Thu gọn",
     "back": "Tất cả {section}",
@@ -663,7 +662,12 @@
       "greenwich-village": "Quảng trường Washington, câu lạc bộ jazz, quán cà phê lâu đời và những con phố nơi phong trào nhạc folk bắt đầu.",
       "prospect-heights": "Những dãy nhà gạch nâu giữa công viên Prospect, Bảo tàng Brooklyn và Vườn Bách thảo.",
       "flushing-meadows": "Khu Hội chợ Thế giới 1964: quả cầu Unisphere, bảo tàng và bãi cỏ rộng cạnh sân Citi Field.",
-      "bronx-park": "Sở thú Bronx và Vườn Bách thảo New York, nằm cạnh nhau trong rừng dọc sông Bronx."
+      "bronx-park": "Sở thú Bronx và Vườn Bách thảo New York, nằm cạnh nhau trong rừng dọc sông Bronx.",
+      "nolita": "Cửa hàng nhỏ, quán cà phê và tiệm bánh Ý lâu đời trên những con phố rợp cây phía bắc Little Italy.",
+      "hells-kitchen": "Nhà hàng khu nhà hát dọc Đại lộ số 9 và tàu Intrepid trên sông Hudson.",
+      "washington-heights": "Ẩm thực và âm nhạc Dominica, bảo tàng The Met Cloisters và những công viên trên vách đá nhìn ra sông Hudson.",
+      "flatbush": "Tiệm bánh Caribe, gà nướng jerk và bánh roti dọc đại lộ Flatbush và Church.",
+      "woodside": "Nhà hàng Philippines của Little Manila và quán rượu Ireland dưới đường tàu số 7."
     }
   },
   "credits": {

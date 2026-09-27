@@ -4,7 +4,7 @@
 
 NYCrave is a mobile-first guide to New York City for locals and visitors: where to eat, what to sip, what to see, where to shop, where to take the photo, and which park to end the day in, plus a planner that builds a whole day around what is actually open.
 
-**Live site: [nycrave.vercel.app](https://nycrave.vercel.app)** · English and Tiếng Việt
+**Live site: [nycrave.vercel.app](https://nycrave.vercel.app)** · English and Vietnamese
 
 ![NYCrave home page: "The next stop is dumplings in Chinatown" beside a photo of dim sum on a subway-map background](docs/screenshots/home-desktop.jpg)
 

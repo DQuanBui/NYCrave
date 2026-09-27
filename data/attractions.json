@@ -1264,5 +1264,196 @@
     "verificationNotes": "Checked 2026-09-27: address, April 2 to October 31 hours and prices from bronxzoo.com/plan-your-visit. From November 1 the zoo is open 10 AM to 4:30 PM daily. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.85351,
     "lng": -73.87293
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/museum-of-the-moving-image-1.jpg",
+        "alt": "The Museum of the Moving Image's white building on 35th Avenue in Astoria",
+        "width": 1100,
+        "height": 886,
+        "source": "other",
+        "attribution": {
+          "text": "NickCPrior, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:MOMI.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/museum-of-the-moving-image-2.jpg",
+        "alt": "The Museum of the Moving Image's marquee entrance",
+        "width": 1100,
+        "height": 731,
+        "source": "other",
+        "attribution": {
+          "text": "Engrigg22, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Moving_Image_Marquee.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The hands-on Behind the Screen exhibition", "A film screening on the weekend"],
+    "vibeTags": ["rainy_day", "kid_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-museum-of-the-moving-image",
+    "slug": "museum-of-the-moving-image",
+    "name": "Museum of the Moving Image",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Astoria",
+    "address": "36-01 35th Ave, Astoria, NY 11106",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "14:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "14:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 20,
+        "max": 20
+      },
+      "bookingUrl": "https://movingimage.org/visit/",
+      "notes": "Adults $20; seniors and students $12; ages 3 to 17 $10. Free on Thursdays, 2 to 6 PM."
+    },
+    "editorialTake": "Film, TV and video games, from old movie cameras to arcade cabinets, with hands-on exhibits and a busy screening program. Free on Thursday afternoons.",
+    "bestTimeToVisit": "Thursday afternoon (free)",
+    "timeNeededMinutes": 120,
+    "trendingScore": 66,
+    "website": "https://movingimage.org",
+    "verificationNotes": "Checked 2026-09-27: hours from movingimage.org/visit; admission from the museum's visit information. Closed Monday to Wednesday, except some holiday Mondays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.75619,
+    "lng": -73.92401
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/intrepid-museum-1.jpg",
+        "alt": "The aircraft carrier Intrepid on the Hudson with the Manhattan skyline behind",
+        "width": 1100,
+        "height": 685,
+        "source": "other",
+        "attribution": {
+          "text": "Acroterion, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Intrepid_and_west_side_Manhattan_skyline_NY1.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/intrepid-museum-2.jpg",
+        "alt": "Jets and helicopters on the Intrepid's flight deck",
+        "width": 1100,
+        "height": 735,
+        "source": "other",
+        "attribution": {
+          "text": "Jakub Hałun, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Aircraft_at_Intrepid_Sea,_Air_%26_Space_Museum,_New_York_City,_20231002_1259_1653.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The Space Shuttle Enterprise", "The flight deck's aircraft", "Submarine Growler"],
+    "vibeTags": ["kid_friendly", "tourist_classic", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "id": "a-intrepid-museum",
+    "slug": "intrepid-museum",
+    "name": "Intrepid Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Hell's Kitchen",
+    "address": "Pier 86, W 46th St & 12th Ave, New York, NY 10036",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 24,
+        "max": 33
+      },
+      "bookingUrl": "https://intrepidmuseum.org/plan-your-visit/visitor-information/tickets",
+      "notes": "General admission for adults about $24 to $33 depending on the date; includes the Space Shuttle Pavilion and the submarine Growler."
+    },
+    "editorialTake": "A World War II aircraft carrier on the Hudson turned museum, with fighter jets on the flight deck, the Space Shuttle Enterprise and a Cold War submarine.",
+    "bestTimeToVisit": "Weekday at opening",
+    "timeNeededMinutes": 150,
+    "trendingScore": 78,
+    "website": "https://www.intrepidmuseum.org",
+    "verificationNotes": "Checked 2026-09-27: hours from intrepidmuseum.org/plan-your-visit; ticket range from the museum's ticketing pages. Last entry one hour before closing. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.76453,
+    "lng": -73.99962
   }
 ]

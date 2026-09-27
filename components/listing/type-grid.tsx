@@ -7,11 +7,12 @@ import type { Place } from "@/types/place"
 
 const VISIBLE = 12
 
-/** Emoji tiles with live counts. Types with no places yet stay visible but inert. */
+/** Emoji tiles with live counts, for the types that have places. */
 export async function TypeGrid({ kind, pool }: { kind: TypeKind; pool: Place[] }) {
   const t = await getTranslations()
   const k = TYPE_KINDS[kind]
-  const items = countByType(kind, pool)
+  const items = countByType(kind, pool).filter((item) => item.count > 0)
+  if (items.length === 0) return null
   const headingId = `browse-${kind}`
 
   const tile = (item: (typeof items)[number]) => {
@@ -27,34 +28,19 @@ export async function TypeGrid({ kind, pool }: { kind: TypeKind; pool: Place[] }
         <span className="min-w-0">
           <span className="block truncate font-bold">{label}</span>
           <span className="block text-xs font-semibold text-muted-foreground">
-            {item.count ? t("listing.count", { count: item.count }) : t("browse.none")}
+            {t("listing.count", { count: item.count })}
           </span>
         </span>
       </>
     )
-    const base = "flex items-center gap-3 rounded-xl border-2 p-3"
     return (
       <li key={item.value}>
-        {item.count ? (
-          <Link
-            href={`${k.base}/${toSlug(item.value)}`}
-            className={cn(
-              base,
-              "border-transparent bg-card transition-colors hover:border-foreground",
-            )}
-          >
-            {body}
-          </Link>
-        ) : (
-          <div
-            className={cn(
-              base,
-              "border-dashed border-foreground/15 text-muted-foreground [&_[aria-hidden]]:opacity-50 [&_[aria-hidden]]:grayscale",
-            )}
-          >
-            {body}
-          </div>
-        )}
+        <Link
+          href={`${k.base}/${toSlug(item.value)}`}
+          className="flex items-center gap-3 rounded-xl border-2 border-transparent bg-card p-3 transition-colors hover:border-foreground"
+        >
+          {body}
+        </Link>
       </li>
     )
   }

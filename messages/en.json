@@ -187,7 +187,6 @@
     "shop": "Browse by shop type",
     "all": "Every stop on this line",
     "shoppingNeighborhoods": "Shopping neighborhoods",
-    "none": "None yet",
     "showAll": "Show all {count}",
     "showFewer": "Show fewer",
     "back": "All of {section}",
@@ -663,7 +662,12 @@
       "greenwich-village": "Washington Square, jazz clubs, old coffeehouses and the streets where the folk revival began.",
       "prospect-heights": "Brownstone blocks between Prospect Park, the Brooklyn Museum and the Botanic Garden.",
       "flushing-meadows": "The 1964 World's Fair grounds: the Unisphere, museums and wide lawns next to Citi Field.",
-      "bronx-park": "The Bronx Zoo and the New York Botanical Garden, side by side in the woods along the Bronx River."
+      "bronx-park": "The Bronx Zoo and the New York Botanical Garden, side by side in the woods along the Bronx River.",
+      "nolita": "Small boutiques, cafés and old Italian bakeries on the tree-lined streets north of Little Italy.",
+      "hells-kitchen": "Theater-district restaurants along Ninth Avenue and the Intrepid on the Hudson.",
+      "washington-heights": "Dominican food and music, The Met Cloisters and cliff-top parks above the Hudson.",
+      "flatbush": "Caribbean bakeries, jerk chicken and roti along Flatbush and Church Avenues.",
+      "woodside": "Little Manila's Filipino restaurants and Irish pubs under the 7 train."
     }
   },
   "credits": {
