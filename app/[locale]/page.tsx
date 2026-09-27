@@ -4,6 +4,7 @@ import { LineMap } from "@/components/home/line-map"
 import { MyDayPromo } from "@/components/home/my-day-promo"
 import { PlaceRail } from "@/components/place/place-rail"
 import { initLocale } from "@/i18n/locale"
+import { holidayOn } from "@/lib/holidays"
 import { nycDateString } from "@/lib/hours"
 import { toCard } from "@/lib/card-place"
 import { getPlaces } from "@/lib/places"
@@ -62,7 +63,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
-      <Hero hints={hints} forecast={forecast} />
+      <Hero hints={hints} forecast={forecast} holiday={holidayOn(today)} />
       <LineMap counts={counts} />
       <div className="mx-auto max-w-7xl space-y-16 px-4 pt-14 lg:space-y-20 lg:px-8 lg:pt-20">
         <PlaceRail title={t("trending")} places={all.slice(0, 8).map(toCard)} limit={8} />

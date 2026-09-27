@@ -1,5 +1,5 @@
 import { findNeighborhood, NEIGHBORHOODS } from "@/data/neighborhoods"
-import type { LatLng } from "@/lib/geo"
+import { distanceKm, type LatLng } from "@/lib/geo"
 import { isOpenForWindow } from "@/lib/hours"
 import type { Place } from "@/types/place"
 import { estimateCost, estimateTravel, SUBWAY_FARE } from "./estimates"
@@ -173,11 +173,21 @@ type Option = Omit<Stop, "slot"> & { adjusted: number }
 
 type Context = {
   input: PlanInput
+  origin: LatLng
   places: Place[]
   weekday: number
   adjustments: PlanAdjustments
   rainLikely?: boolean
 }
+
+/**
+ * Keeping the day in one part of town matters more than a slightly better match:
+ * every minute in transit costs, a subway hop costs extra (stairs, waiting,
+ * transfers), and stops drift less far from where the day started.
+ */
+const travelPenalty = (travel: { mode: "walk" | "subway"; minutes: number }) =>
+  travel.minutes / 4 + (travel.mode === "subway" ? 1.25 : 0)
+const ANCHOR_PER_KM = 0.35
 
 function options(ctx: Context, state: State, def: SlotDef): Option[] {
   const { input } = ctx
@@ -207,7 +217,12 @@ function options(ctx: Context, state: State, def: SlotDef): Option[] {
 
       const score = placeScore(place, def.slot, input, ctx.rainLikely)
       const wait = start - ready
-      const adjusted = score - travel.minutes / 10 - wait / 90 - cost / Math.max(input.budget, 1)
+      const adjusted =
+        score -
+        travelPenalty(travel) -
+        distanceKm(ctx.origin, place) * ANCHOR_PER_KM -
+        wait / 90 -
+        cost / Math.max(input.budget, 1)
       out.push({ place, start, end, travel, cost, fare, score, adjusted })
     }
     return out.sort((a, b) => b.adjusted - a.adjusted || a.place.id.localeCompare(b.place.id))
@@ -265,6 +280,7 @@ export function planDay(
 ): Plan {
   const ctx: Context = {
     input,
+    origin: originOf(input.from),
     places: [...places].sort((a, b) => a.id.localeCompare(b.id)),
     weekday: weekdayOf(input.date),
     adjustments: { locks: opts.locks, exclude: opts.exclude },
@@ -273,7 +289,7 @@ export function planDay(
   const defs = slotsFor(input)
   let state: State = {
     t: input.start,
-    loc: originOf(input.from),
+    loc: ctx.origin,
     used: new Set(),
     stops: [],
     unfilled: [],

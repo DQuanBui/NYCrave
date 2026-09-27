@@ -676,5 +676,46 @@
     "range": "{start}–{end}",
     "note": "Calculated for this spot's coordinates. Tall buildings can hide a low sun, so arrive a little early.",
     "noteCity": "Calculated for Lower Manhattan; times shift by a minute or two across the city. Tall buildings can hide a low sun, so arrive a little early."
+  },
+  "holidays": {
+    "major": "{name}: many places close or keep short hours, museums included. Check before you go.",
+    "minor": "{name}: most places are open, but some keep holiday hours.",
+    "names": {
+      "newYearsDay": "New Year's Day",
+      "mlkDay": "Martin Luther King Jr. Day",
+      "presidentsDay": "Presidents' Day",
+      "memorialDay": "Memorial Day",
+      "juneteenth": "Juneteenth",
+      "independenceDay": "Independence Day",
+      "laborDay": "Labor Day",
+      "indigenousPeoplesDay": "Indigenous Peoples' Day",
+      "veteransDay": "Veterans Day",
+      "thanksgiving": "Thanksgiving",
+      "christmasEve": "Christmas Eve",
+      "christmas": "Christmas Day",
+      "newYearsEve": "New Year's Eve"
+    }
+  },
+  "report": {
+    "open": "Something wrong? Tell us",
+    "title": "Report a problem",
+    "intro": "Help keep {name} accurate. We check every report against the venue's official sources.",
+    "what": "What's wrong?",
+    "kinds": {
+      "closed": "It has closed",
+      "hours": "The hours are wrong",
+      "location": "The address or map pin is wrong",
+      "photo": "A photo is wrong",
+      "other": "Something else"
+    },
+    "note": "Details (optional)",
+    "notePlaceholder": "For example: now opens at 11 AM on weekends",
+    "send": "Send report",
+    "sending": "Sending…",
+    "thanks": "Thanks! We'll check it and fix the page.",
+    "close": "Close",
+    "error": "That didn't go through. Please try again.",
+    "limited": "You've sent a few reports already. Please try again in a few minutes.",
+    "privacy": "We only store what you write here, with no name or email."
   }
 }

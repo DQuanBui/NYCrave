@@ -6,6 +6,7 @@ import { isAdmin, signIn, signOut } from "@/lib/admin-auth"
 import { getGooglePlaceDetails } from "@/lib/google-places"
 import { savePlace, syncSeedToSupabase } from "@/lib/place-store"
 import { getPlaceById, getPlaces } from "@/lib/places"
+import { resolveReport } from "@/lib/report-store"
 import { placeSchema } from "@/types/place"
 
 export type ActionState = { ok?: string; errors?: string[]; json?: string }
@@ -124,4 +125,10 @@ export async function syncSeedAction(): Promise<ActionState> {
   } catch (e) {
     return { errors: [(e as Error).message] }
   }
+}
+
+export async function resolveReportAction(form: FormData) {
+  await requireAdmin()
+  await resolveReport(String(form.get("id") ?? ""))
+  revalidatePath("/admin")
 }

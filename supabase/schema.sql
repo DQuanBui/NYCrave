@@ -69,3 +69,17 @@ create trigger places_set_updated_at before update on places
 -- Public read; writes go through the service role (admin page) only.
 alter table places enable row level security;
 create policy "places are publicly readable" on places for select using (true);
+
+-- Visitor reports ("closed", "wrong hours", ...). Inserted and read by the server
+-- with the service role only; there are no public policies.
+create table reports (
+  id          bigint generated always as identity primary key,
+  place_id    text not null references places (id) on delete cascade,
+  kind        text not null check (kind in ('closed', 'hours', 'location', 'photo', 'other')),
+  note        text check (char_length(note) <= 500),
+  resolved    boolean not null default false,
+  created_at  timestamptz not null default now()
+);
+
+create index reports_open_idx on reports (resolved, created_at desc);
+alter table reports enable row level security;

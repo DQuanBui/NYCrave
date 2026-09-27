@@ -1,6 +1,7 @@
 import { CloudRain, Footprints, Shuffle, Sun, TrainFront } from "lucide-react"
 import { getLocale, getTranslations } from "next-intl/server"
 import { EmptyState } from "@/components/brand/empty-state"
+import { HolidayNote } from "@/components/brand/holiday-note"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlanActions } from "@/components/planner/plan-actions"
@@ -9,6 +10,7 @@ import { PlacePhoto } from "@/components/place/place-photo"
 import { RouteBullets } from "@/components/place/subway-list"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getPathname, Link } from "@/i18n/navigation"
+import { holidayOn } from "@/lib/holidays"
 import { formatClockTime } from "@/lib/hours"
 import { placeToPoint } from "@/lib/map-points"
 import { originOf } from "@/lib/planner/plan"
@@ -33,6 +35,7 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
   // Plan dates are calendar dates; noon UTC keeps the weekday stable
   const weekday = new Date(`${input.date}T12:00:00Z`).getUTCDay()
   const weekend = weekday === 0 || weekday === 6
+  const holiday = holidayOn(input.date)
   const startName = NEIGHBORHOODS.find((n) => n.slug === input.from)?.name ?? input.from
   const dateLabel = new Intl.DateTimeFormat(locale, {
     weekday: "long",
@@ -88,6 +91,7 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
             })}
           </li>
         </ul>
+        {holiday ? <HolidayNote holiday={holiday} className="max-w-2xl" /> : null}
         {input.weatherAware ? (
           <p className="flex items-center gap-2 text-sm">
             {forecast?.rainLikely ? (

@@ -6,14 +6,23 @@ import { Link } from "@/i18n/navigation"
 import { adminEnabled, isAdmin } from "@/lib/admin-auth"
 import { writeBackend } from "@/lib/place-store"
 import { getPlaces } from "@/lib/places"
+import { openReports, type Report } from "@/lib/report-store"
 import { supabaseConfigured } from "@/lib/supabase"
 import { CATEGORY_META } from "@/lib/taxonomy"
-import { logoutAction, setVerifiedAction } from "./actions"
+import { logoutAction, resolveReportAction, setVerifiedAction } from "./actions"
 
 export const metadata: Metadata = { title: "Admin", robots: { index: false, follow: false } }
 
 // Depends on env and the session cookie at request time
 export const dynamic = "force-dynamic"
+
+const REPORT_LABEL: Record<Report["kind"], string> = {
+  closed: "Closed",
+  hours: "Hours",
+  location: "Location",
+  photo: "Photo",
+  other: "Other",
+}
 
 const BACKEND_LABEL = {
   supabase: "Supabase (live database)",
@@ -48,6 +57,8 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
   )
   const unverified = places.filter((p) => !p.verified).length
   const backend = writeBackend()
+  const reports = await openReports()
+  const nameOf = new Map(places.map((p) => [p.id, p]))
 
   return (
     <Shell>
@@ -76,6 +87,60 @@ export default async function AdminPage({ params }: PageProps<"/[locale]/admin">
         ) : null}
         {supabaseConfigured && backend === "supabase" ? <SyncSeedButton /> : null}
       </div>
+
+      {reports.length ? (
+        <section aria-labelledby="reports" className="space-y-3">
+          <h2 id="reports" className="text-xl font-bold">
+            Reports from visitors ({reports.length})
+          </h2>
+          <ul className="divide-y rounded-2xl border">
+            {reports.map((r) => {
+              const place = nameOf.get(r.placeId)
+              return (
+                <li key={r.id} className="flex flex-wrap items-start gap-3 px-4 py-3 text-sm">
+                  <div className="min-w-0 flex-1 space-y-1">
+                    <p className="font-semibold">
+                      {place ? (
+                        <Link
+                          href={`/place/${place.slug}`}
+                          className="underline underline-offset-4"
+                        >
+                          {place.name}
+                        </Link>
+                      ) : (
+                        r.placeId
+                      )}{" "}
+                      <span className="rounded-full bg-taxi px-2 py-0.5 text-xs text-taxi-foreground">
+                        {REPORT_LABEL[r.kind]}
+                      </span>
+                    </p>
+                    {r.note ? <p className="text-muted-foreground">“{r.note}”</p> : null}
+                    <p className="text-xs text-muted-foreground">
+                      {new Date(r.createdAt).toLocaleString("en-US", {
+                        timeZone: "America/New_York",
+                      })}
+                    </p>
+                  </div>
+                  {place ? (
+                    <Link
+                      href={`/admin/place/${place.id}`}
+                      className="font-semibold underline underline-offset-4"
+                    >
+                      Edit place
+                    </Link>
+                  ) : null}
+                  <form action={resolveReportAction}>
+                    <input type="hidden" name="id" value={r.id} />
+                    <button type="submit" className="font-semibold underline underline-offset-4">
+                      Mark resolved
+                    </button>
+                  </form>
+                </li>
+              )
+            })}
+          </ul>
+        </section>
+      ) : null}
 
       <div className="overflow-x-auto rounded-2xl border">
         <table className="w-full min-w-[40rem] text-sm">

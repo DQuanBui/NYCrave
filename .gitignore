@@ -47,3 +47,6 @@ CLAUDE.md
 
 # copied from node_modules by scripts/copy-maplibre-worker.mjs
 /public/maplibre
+
+# Visitor reports written in local development
+/data/reports.json

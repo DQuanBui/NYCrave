@@ -2,6 +2,7 @@ import { ArrowLeft, Clock, ExternalLink, MapPin, Ticket, TrainFront } from "luci
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
+import { HolidayNote } from "@/components/brand/holiday-note"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { CopyButton } from "@/components/place/copy-button"
 import { HoursBadge } from "@/components/place/hours-badge"
@@ -11,6 +12,7 @@ import { PhotoGallery } from "@/components/place/photo-gallery"
 import { PlaceRail } from "@/components/place/place-rail"
 import { PlanAroundButton } from "@/components/place/plan-around-button"
 import { PriceLevel } from "@/components/place/price-level"
+import { ReportProblem } from "@/components/place/report-problem"
 import { SaveButton } from "@/components/place/save-button"
 import { SubwayList } from "@/components/place/subway-list"
 import { SunToday } from "@/components/place/sun-today"
@@ -23,9 +25,12 @@ import { toCard } from "@/lib/card-place"
 import { formatPriceRange } from "@/lib/format"
 import { appleMapsUrl, distanceKm, googleMapsUrl, transitDirectionsUrl } from "@/lib/geo"
 import { getGooglePlaceDetails } from "@/lib/google-places"
+import { holidayOn } from "@/lib/holidays"
+import { nycDateString } from "@/lib/hours"
 import { LINES } from "@/lib/lines"
 import { placeTagKeys } from "@/lib/place-display"
 import { getPlaceBySlug, getPlaces } from "@/lib/places"
+import { reportsEnabled } from "@/lib/report-store"
 import { placeJsonLd } from "@/lib/structured-data"
 import { nearestStations } from "@/lib/subway"
 import { CATEGORY_META } from "@/lib/taxonomy"
@@ -77,6 +82,7 @@ export default async function PlacePage({ params }: Props) {
   const photos = [...place.photos, ...(google?.photos ?? [])]
 
   const stations = nearestStations(place)
+  const holiday = holidayOn(nycDateString(new Date()))
   const similar = (await getPlaces({ category: place.category }))
     .filter((p) => p.id !== place.id)
     .sort((a, b) => distanceKm(place, a) - distanceKm(place, b))
@@ -259,6 +265,7 @@ export default async function PlacePage({ params }: Props) {
               {t("place.hours")}
             </h2>
             <HoursTable hours={place.hours} />
+            {holiday ? <HolidayNote holiday={holiday} /> : null}
           </div>
           <div className="space-y-4 rounded-2xl border bg-card p-5">
             <h2 className="flex items-center gap-2 font-bold">
@@ -286,6 +293,7 @@ export default async function PlacePage({ params }: Props) {
               <p className="text-xs text-muted-foreground">{t("subway.source")}</p>
             </div>
           ) : null}
+          {reportsEnabled() ? <ReportProblem placeId={place.id} placeName={place.name} /> : null}
         </aside>
       </div>
 

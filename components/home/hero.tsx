@@ -6,11 +6,13 @@ import * as m from "motion/react-m"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
+import { HolidayNote } from "@/components/brand/holiday-note"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { RouteArt } from "@/components/brand/route-art"
 import { MoodChips } from "@/components/home/mood-chips"
 import { SmartSearch, type SearchHint } from "@/components/home/smart-search"
 import { Link } from "@/i18n/navigation"
+import type { Holiday } from "@/lib/holidays"
 import { HERO_SCENES, type HeroScene } from "@/lib/home"
 import { LINES } from "@/lib/lines"
 import { CATEGORY_META } from "@/lib/taxonomy"
@@ -27,9 +29,11 @@ type HeroProps = {
   hints?: SearchHint[]
   /** Today's New York forecast, when available. */
   forecast?: { tempMaxF: number; chance: number; rainLikely: boolean } | null
+  /** Today's holiday in New York, when hours may differ. */
+  holiday?: Holiday
 }
 
-export function Hero({ hints, forecast }: HeroProps) {
+export function Hero({ hints, forecast, holiday }: HeroProps) {
   const t = useTranslations("hero")
   const reduceMotion = useReducedMotion()
   // prev stays painted underneath while the next scene wipes in over it
@@ -119,6 +123,7 @@ export function Hero({ hints, forecast }: HeroProps) {
             ) : null}
           </p>
         ) : null}
+        {holiday ? <HolidayNote holiday={holiday} className="max-w-2xl" /> : null}
         <MoodChips className="max-w-2xl" />
       </div>
 
