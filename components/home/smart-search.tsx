@@ -27,7 +27,12 @@ const MAX_SUGGESTIONS = 5
  * Free-text search with place suggestions (ARIA combobox): arrow keys move through
  * the list, Enter opens the highlighted place or runs the search, Escape closes it.
  */
-export function SmartSearch({ defaultValue = "", autoFocus, className, hints = [] }: SmartSearchProps) {
+export function SmartSearch({
+  defaultValue = "",
+  autoFocus,
+  className,
+  hints = [],
+}: SmartSearchProps) {
   const t = useTranslations("search")
   const router = useRouter()
   const id = useId()
@@ -39,13 +44,15 @@ export function SmartSearch({ defaultValue = "", autoFocus, className, hints = [
   const suggestions = useMemo(() => {
     const q = normalizeQuery(query)
     if (q.length < 2) return []
-    return hints
-      .map((h) => ({ h, at: normalizeQuery(h.name).indexOf(q) }))
-      // Match names anywhere, neighborhoods by prefix ("flush" finds Flushing places)
-      .filter((m) => m.at !== -1 || normalizeQuery(m.h.neighborhood).startsWith(q))
-      .sort((a, b) => (a.at === -1 ? 99 : a.at) - (b.at === -1 ? 99 : b.at))
-      .slice(0, MAX_SUGGESTIONS)
-      .map((m) => m.h)
+    return (
+      hints
+        .map((h) => ({ h, at: normalizeQuery(h.name).indexOf(q) }))
+        // Match names anywhere, neighborhoods by prefix ("flush" finds Flushing places)
+        .filter((m) => m.at !== -1 || normalizeQuery(m.h.neighborhood).startsWith(q))
+        .sort((a, b) => (a.at === -1 ? 99 : a.at) - (b.at === -1 ? 99 : b.at))
+        .slice(0, MAX_SUGGESTIONS)
+        .map((m) => m.h)
+    )
   }, [query, hints])
 
   const expanded = open && suggestions.length > 0
@@ -141,7 +148,9 @@ export function SmartSearch({ defaultValue = "", autoFocus, className, hints = [
               </LineBullet>
               <span className="min-w-0">
                 <span className="block truncate font-semibold">{hint.name}</span>
-                <span className="block truncate text-xs text-muted-foreground">{hint.neighborhood}</span>
+                <span className="block truncate text-xs text-muted-foreground">
+                  {hint.neighborhood}
+                </span>
               </span>
             </li>
           )
@@ -150,4 +159,3 @@ export function SmartSearch({ defaultValue = "", autoFocus, className, hints = [
     </div>
   )
 }
-

@@ -10,23 +10,22 @@ const STARTS = ["midtown", "chinatown", "dumbo", "upper-east-side", "west-villag
 describe("days stay in one part of town", () => {
   const stops = STARTS.flatMap((from) =>
     MOODS.flatMap((mood) =>
-      ["2026-10-03", "2026-10-07"].flatMap(
-        (date) =>
-          planDay(
-            {
-              date,
-              start: 9 * 60,
-              end: 22 * 60,
-              from,
-              budget: 150,
-              mood,
-              interests: [],
-              dietary: [],
-              pace: "relaxed",
-              weatherAware: false,
-            },
-            places,
-          ).stops.map((s) => ({ ...s, from })),
+      ["2026-10-03", "2026-10-07"].flatMap((date) =>
+        planDay(
+          {
+            date,
+            start: 9 * 60,
+            end: 22 * 60,
+            from,
+            budget: 150,
+            mood,
+            interests: [],
+            dietary: [],
+            pace: "relaxed",
+            weatherAware: false,
+          },
+          places,
+        ).stops.map((s) => ({ ...s, from })),
       ),
     ),
   )

@@ -120,7 +120,6 @@ export default async function NeighborhoodPage({ params }: Props) {
               ariaLabel={t("neighborhoods.mapLabel", { name: hood.name })}
               className="h-72 sm:h-96"
             />
-
           </>
         ) : (
           <EmptyState

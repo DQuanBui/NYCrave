@@ -16,7 +16,10 @@ function leaves(tree: Tree, prefix = ""): Map<string, string | string[]> {
 
 // {name}, {count, plural, ...} and friends: every argument must survive translation
 const args = (s: string) =>
-  [...s.matchAll(/\{(\w+)(?=[,}])/g)].map((m) => m[1]).filter((a) => a !== "other").sort()
+  [...s.matchAll(/\{(\w+)(?=[,}])/g)]
+    .map((m) => m[1])
+    .filter((a) => a !== "other")
+    .sort()
 
 describe("translations", () => {
   const base = leaves(en as Tree)

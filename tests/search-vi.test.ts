@@ -30,7 +30,10 @@ describe("Vietnamese search", () => {
   })
 
   it("maps moods, prices and categories", () => {
-    expect(parseQuery("bảo tàng miễn phí")).toMatchObject({ categories: ["attraction"], isFree: true })
+    expect(parseQuery("bảo tàng miễn phí")).toMatchObject({
+      categories: ["attraction"],
+      isFree: true,
+    })
     expect(parseQuery("hẹn hò").vibes).toEqual(["date_night"])
     expect(parseQuery("ăn chay").dietary).toEqual(["vegetarian"])
     expect(parseQuery("món Hàn Quốc").cuisines).toEqual(["korean"])
