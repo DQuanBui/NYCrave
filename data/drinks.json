@@ -1,0 +1,207 @@
+[
+  {
+    "photos": [],
+    "mustTry": ["Pour-over of the day (placeholder)", "Cardamom bun (placeholder)"],
+    "vibeTags": ["rainy_day", "solo_friendly", "quiet", "local_favorite"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "d-sample-coffee-roasters",
+    "slug": "sample-coffee-roasters",
+    "name": "Sample Coffee Roasters",
+    "category": "drink",
+    "drinkTypes": ["coffee", "tea"],
+    "dietary": ["vegan"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "TODO: verify (placeholder address, Williamsburg, Brooklyn)",
+    "lat": 40.7142,
+    "lng": -73.9613,
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a bright, laptop-friendly roaster for slow mornings. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 40,
+    "trendingScore": 61
+  },
+  {
+    "photos": [],
+    "mustTry": ["Brown sugar milk tea (placeholder)", "Iced matcha latte (placeholder)"],
+    "vibeTags": ["cheap_eats", "instagrammable", "group_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "d-sample-boba-shop",
+    "slug": "sample-boba-shop",
+    "name": "Sample Boba Shop",
+    "category": "drink",
+    "drinkTypes": ["bubble_tea", "matcha"],
+    "dietary": ["vegan"],
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "TODO: verify (placeholder address, Flushing, Queens)",
+    "lat": 40.7577,
+    "lng": -73.8318,
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: the after-dinner stop for chewy boba and a matcha fix. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 20,
+    "trendingScore": 77
+  },
+  {
+    "photos": [],
+    "mustTry": ["House spritz (placeholder)"],
+    "vibeTags": ["date_night", "instagrammable", "late_night"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "d-sample-rooftop-lounge",
+    "slug": "sample-rooftop-lounge",
+    "name": "Sample Rooftop Lounge",
+    "category": "drink",
+    "drinkTypes": ["cocktails", "rooftop_bar"],
+    "dietary": [],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "TODO: verify (placeholder address, Midtown, Manhattan)",
+    "lat": 40.7541,
+    "lng": -73.9868,
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "00:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "00:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "15:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: skyline views and a pricey-but-worth-it cocktail list. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Just before sunset",
+    "timeNeededMinutes": 75,
+    "trendingScore": 85
+  }
+]

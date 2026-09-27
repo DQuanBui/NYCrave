@@ -1,0 +1,218 @@
+[
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "kid_friendly", "local_favorite", "date_night"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "g-sample-waterfront-park",
+    "slug": "sample-waterfront-park",
+    "name": "Sample Waterfront Park",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "TODO: verify (placeholder address, Greenpoint, Brooklyn)",
+    "lat": 40.7296,
+    "lng": -73.9611,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: lawn, river breeze, and a picnic-ready view. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Golden hour",
+    "timeNeededMinutes": 60,
+    "trendingScore": 66,
+    "park": {
+      "activities": ["Picnics (placeholder)", "Waterfront walk (placeholder)"],
+      "amenities": ["Restrooms (TODO: verify)", "Benches (placeholder)"],
+      "seasonalNotes": "TODO: verify seasonal events."
+    }
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "kid_friendly", "group_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "g-sample-neighborhood-park",
+    "slug": "sample-neighborhood-park",
+    "name": "Sample Neighborhood Park",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "Park Slope",
+    "address": "TODO: verify (placeholder address, Park Slope, Brooklyn)",
+    "lat": 40.6702,
+    "lng": -73.9712,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: big meadows and weekend people-watching. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Weekend mornings",
+    "timeNeededMinutes": 90,
+    "trendingScore": 60,
+    "park": {
+      "activities": ["Running loop (placeholder)", "Playground (placeholder)"],
+      "amenities": ["Water fountains (TODO: verify)"],
+      "seasonalNotes": "TODO: verify summer programming."
+    }
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "tourist_classic", "instagrammable"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "g-sample-harbor-pier",
+    "slug": "sample-harbor-pier",
+    "name": "Sample Harbor Pier",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "TODO: verify (placeholder address, Financial District, Manhattan)",
+    "lat": 40.7033,
+    "lng": -74.0138,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a harbor pier for sunset and ferry-watching. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 40,
+    "trendingScore": 72,
+    "park": {
+      "activities": ["Harbor views (placeholder)"],
+      "amenities": ["Seating (placeholder)"],
+      "seasonalNotes": "TODO: verify seasonal hours."
+    }
+  }
+]

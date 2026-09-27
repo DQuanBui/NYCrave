@@ -1,0 +1,273 @@
+[
+  {
+    "photos": [],
+    "mustTry": ["Rare beef pho (placeholder)", "Broken rice plate (placeholder)"],
+    "vibeTags": ["cheap_eats", "local_favorite", "rainy_day", "solo_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "r-sample-pho-house",
+    "slug": "sample-pho-house",
+    "name": "Sample Pho House",
+    "category": "restaurant",
+    "cuisines": ["vietnamese"],
+    "dishTypes": ["noodle_soup", "rice_dishes"],
+    "dietary": [],
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "TODO: verify (placeholder address, Flushing, Queens)",
+    "lat": 40.7592,
+    "lng": -73.8297,
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a broth-first noodle shop for cold days. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 45,
+    "trendingScore": 82
+  },
+  {
+    "photos": [],
+    "mustTry": ["Pan-fried pork dumplings (placeholder)", "Veggie dumplings (placeholder)"],
+    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "r-sample-dumpling-counter",
+    "slug": "sample-dumpling-counter",
+    "name": "Sample Dumpling Counter",
+    "category": "restaurant",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dumplings", "noodle_soup"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "TODO: verify (placeholder address, Chinatown, Manhattan)",
+    "lat": 40.7162,
+    "lng": -73.9966,
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a quick, cash-friendly counter for a dumpling run. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 30,
+    "trendingScore": 74
+  },
+  {
+    "photos": [],
+    "mustTry": ["Tonkotsu ramen (placeholder)", "Spicy miso ramen (placeholder)"],
+    "vibeTags": ["late_night", "date_night", "rainy_day"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "r-sample-ramen-bar",
+    "slug": "sample-ramen-bar",
+    "name": "Sample Ramen Bar",
+    "category": "restaurant",
+    "cuisines": ["japanese"],
+    "dishTypes": ["ramen"],
+    "dietary": ["vegetarian"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "TODO: verify (placeholder address, East Village, Manhattan)",
+    "lat": 40.7271,
+    "lng": -73.9838,
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: an after-dark ramen counter that stays open past midnight. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 60,
+    "trendingScore": 90
+  },
+  {
+    "photos": [],
+    "mustTry": ["Al pastor tacos (placeholder)", "Horchata (placeholder)"],
+    "vibeTags": ["cheap_eats", "late_night", "kid_friendly", "local_favorite"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "r-sample-taco-window",
+    "slug": "sample-taco-window",
+    "name": "Sample Taco Window",
+    "category": "restaurant",
+    "cuisines": ["mexican"],
+    "dishTypes": ["tacos", "street_food"],
+    "dietary": ["gluten_free"],
+    "borough": "queens",
+    "neighborhood": "Jackson Heights",
+    "address": "TODO: verify (placeholder address, Jackson Heights, Queens)",
+    "lat": 40.7549,
+    "lng": -73.8846,
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a walk-up taco window worth the detour. TODO: rewrite after a visit.",
+    "timeNeededMinutes": 30,
+    "trendingScore": 68
+  }
+]

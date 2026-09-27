@@ -1,0 +1,202 @@
+[
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["rainy_day", "kid_friendly", "tourist_classic"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "a-sample-history-museum",
+    "slug": "sample-history-museum",
+    "name": "Sample History Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "TODO: verify (placeholder address, Upper West Side, Manhattan)",
+    "lat": 40.7813,
+    "lng": -73.974,
+    "priceLevel": 2,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 20,
+        "max": 30
+      },
+      "notes": "TODO: verify ticket prices and discounts."
+    },
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: a full rainy afternoon of galleries. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Weekday mornings",
+    "timeNeededMinutes": 150,
+    "trendingScore": 70
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["rainy_day", "quiet", "local_favorite", "solo_friendly"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "a-sample-free-gallery",
+    "slug": "sample-free-gallery",
+    "name": "Sample Free Gallery",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "TODO: verify (placeholder address, Chelsea, Manhattan)",
+    "lat": 40.7478,
+    "lng": -74.0048,
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: small rotating shows, no ticket needed. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Saturday afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 55
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic", "date_night"],
+    "verified": false,
+    "verificationNotes": "TODO: verify every field. Placeholder entry, not a real business.",
+    "updatedAt": "2026-09-26T00:00:00.000Z",
+    "id": "a-sample-observation-deck",
+    "slug": "sample-observation-deck",
+    "name": "Sample Observation Deck",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "TODO: verify (placeholder address, Midtown, Manhattan)",
+    "lat": 40.7527,
+    "lng": -73.9772,
+    "priceLevel": 3,
+    "isFree": false,
+    "ticketInfo": {
+      "priceRange": {
+        "min": 40,
+        "max": 65
+      },
+      "notes": "TODO: verify prices; sunset slots usually cost more."
+    },
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Placeholder take: the big-sky view for first-timers. TODO: rewrite after a visit.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 90,
+    "trendingScore": 88
+  }
+]
