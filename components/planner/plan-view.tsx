@@ -1,10 +1,12 @@
 import { CloudRain, Footprints, Shuffle, Sun, TrainFront } from "lucide-react"
 import { getLocale, getTranslations } from "next-intl/server"
 import { EmptyState } from "@/components/brand/empty-state"
+import { LineBullet } from "@/components/brand/line-bullet"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlanActions } from "@/components/planner/plan-actions"
 import { Reveal } from "@/components/planner/reveal"
 import { PlacePhoto } from "@/components/place/place-photo"
+import { RouteBullets } from "@/components/place/subway-list"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getPathname, Link } from "@/i18n/navigation"
 import { formatClockTime } from "@/lib/hours"
@@ -13,6 +15,7 @@ import { originOf } from "@/lib/planner/plan"
 import { planQuery, swapQuery } from "@/lib/planner/params"
 import type { Plan, PlanAdjustments } from "@/lib/planner/types"
 import { SITE_URL } from "@/lib/site"
+import { ROUTE_LINE, subwayLeg } from "@/lib/subway"
 import type { RainForecast } from "@/lib/weather"
 
 type PlanViewProps = {
@@ -27,6 +30,9 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
   const locale = await getLocale()
   const { input } = plan
   const time = (m: number) => formatClockTime(m, locale)
+  // Plan dates are calendar dates; noon UTC keeps the weekday stable
+  const weekday = new Date(`${input.date}T12:00:00Z`).getUTCDay()
+  const weekend = weekday === 0 || weekday === 6
   const startName = NEIGHBORHOODS.find((n) => n.slug === input.from)?.name ?? input.from
   const dateLabel = new Intl.DateTimeFormat(locale, {
     weekday: "long",
@@ -126,6 +132,12 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
 
           {plan.stops.map((stop, i) => {
             const TravelIcon = stop.travel.mode === "walk" ? Footprints : TrainFront
+            const leg =
+              stop.travel.mode === "subway"
+                ? subwayLeg(i === 0 ? originOf(input.from) : plan.stops[i - 1].place, stop.place, {
+                    weekend,
+                  })
+                : null
             const slotLabel = t(`planner.slots.${stop.slot}`)
             return (
               <Reveal
@@ -140,6 +152,30 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
                   })}
                   {stop.fare ? `, ${t("planner.fare", { fare: stop.fare })}` : null}
                 </p>
+                {leg ? (
+                  <p className="-mt-1.5 mb-3 flex flex-wrap items-center gap-x-1.5 gap-y-1 pl-14 text-sm text-muted-foreground">
+                    {leg.direct ? (
+                      <>
+                        {t("subway.take")}
+                        <LineBullet
+                          line={ROUTE_LINE[leg.direct] ?? "gray"}
+                          size="xs"
+                          label={t("subway.train", { route: leg.direct })}
+                        >
+                          {leg.direct}
+                        </LineBullet>
+                        {t("subway.fromTo", { from: leg.board.name, to: leg.alight.name })}
+                      </>
+                    ) : (
+                      <>
+                        <RouteBullets routes={leg.board.routes} size="xs" />
+                        {leg.board.name} →
+                        <RouteBullets routes={leg.alight.routes} size="xs" />
+                        {leg.alight.name}
+                      </>
+                    )}
+                  </p>
+                ) : null}
                 <div className="flex gap-4">
                   <span
                     aria-hidden

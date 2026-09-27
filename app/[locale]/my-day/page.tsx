@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { DayPresets } from "@/components/planner/day-presets"
 import { PlanView } from "@/components/planner/plan-view"
 import { PlannerForm } from "@/components/planner/planner-form"
 import { initLocale } from "@/i18n/locale"
@@ -65,8 +66,11 @@ export default async function MyDayPage({ params, searchParams }: Props) {
           {result}
         </div>
       ) : (
-        <div className="max-w-3xl rounded-3xl border bg-card p-5 sm:p-8">
-          <PlannerForm initial={input} today={today} />
+        <div className="space-y-14">
+          <div className="max-w-3xl rounded-3xl border bg-card p-5 sm:p-8">
+            <PlannerForm initial={input} today={today} />
+          </div>
+          <DayPresets places={await getPlaces()} date={today} />
         </div>
       )}
     </div>

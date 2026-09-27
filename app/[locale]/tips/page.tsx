@@ -13,6 +13,7 @@ import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { SignBand } from "@/components/brand/sign-band"
 import { SectionHeader } from "@/components/listing/section-header"
+import { TipCalculator } from "@/components/tips/tip-calculator"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
@@ -95,6 +96,7 @@ export default async function TipsPage({ params }: Props) {
                   </a>
                 </p>
               ) : null}
+              {id === "tipping" ? <TipCalculator /> : null}
               {id === "subway" ? (
                 <p className="flex items-center gap-2 text-sm text-muted-foreground">
                   <CreditCard aria-hidden className="size-4" />

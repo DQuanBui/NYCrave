@@ -12,6 +12,8 @@ import { PlaceRail } from "@/components/place/place-rail"
 import { PlanAroundButton } from "@/components/place/plan-around-button"
 import { PriceLevel } from "@/components/place/price-level"
 import { SaveButton } from "@/components/place/save-button"
+import { SubwayList } from "@/components/place/subway-list"
+import { SunToday } from "@/components/place/sun-today"
 import { ShareButton } from "@/components/place/share-button"
 import { UnverifiedTag } from "@/components/place/unverified-tag"
 import { neighborhoodByName } from "@/data/neighborhoods"
@@ -25,6 +27,7 @@ import { LINES } from "@/lib/lines"
 import { placeTagKeys } from "@/lib/place-display"
 import { getPlaceBySlug, getPlaces } from "@/lib/places"
 import { placeJsonLd } from "@/lib/structured-data"
+import { nearestStations } from "@/lib/subway"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
 import type { Place } from "@/types/place"
@@ -73,6 +76,7 @@ export default async function PlacePage({ params }: Props) {
     : null
   const photos = [...place.photos, ...(google?.photos ?? [])]
 
+  const stations = nearestStations(place)
   const similar = (await getPlaces({ category: place.category }))
     .filter((p) => p.id !== place.id)
     .sort((a, b) => distanceKm(place, a) - distanceKm(place, b))
@@ -207,6 +211,7 @@ export default async function PlacePage({ params }: Props) {
                   className="ml-auto"
                 />
               </div>
+              <SunToday at={place} heading="h3" />
             </Section>
           ) : null}
 
@@ -271,6 +276,16 @@ export default async function PlacePage({ params }: Props) {
               />
             </ul>
           </div>
+          {stations.length > 0 ? (
+            <div className="space-y-4 rounded-2xl border bg-card p-5">
+              <h2 className="flex items-center gap-2 font-bold">
+                <TrainFront aria-hidden className="size-4" />
+                {t("subway.title")}
+              </h2>
+              <SubwayList stations={stations} />
+              <p className="text-xs text-muted-foreground">{t("subway.source")}</p>
+            </div>
+          ) : null}
         </aside>
       </div>
 

@@ -13,6 +13,8 @@ type PlacePhotoProps = {
   className?: string
   /** Visual scale of the placeholder emoji. */
   emojiSize?: "md" | "lg"
+  /** Tiny thumbnails have no room for the "Illustrative" label */
+  showChip?: boolean
 }
 
 /**
@@ -25,6 +27,7 @@ export function PlacePhoto({
   priority,
   className,
   emojiSize = "md",
+  showChip = true,
 }: PlacePhotoProps) {
   const photo = place.photos[0]
   const line = LINES[CATEGORY_META[place.category].line]
@@ -42,7 +45,7 @@ export function PlacePhoto({
           unoptimized={photo.source === "google_places"}
           className="object-cover"
         />
-        {photo.illustrative ? <IllustrativeChip /> : null}
+        {photo.illustrative && showChip ? <IllustrativeChip /> : null}
       </div>
     )
   }

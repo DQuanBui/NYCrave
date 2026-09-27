@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server"
 import { ListingView } from "@/components/listing/listing-view"
 import { NeighborhoodGrid } from "@/components/listing/neighborhood-grid"
 import { SectionHeader } from "@/components/listing/section-header"
+import { SunToday } from "@/components/place/sun-today"
 import { TypeGrid } from "@/components/listing/type-grid"
 import { getPlaces } from "@/lib/places"
 import { CATEGORY_META } from "@/lib/taxonomy"
@@ -48,6 +49,7 @@ export async function CategoryPage({
         photos={prints}
       />
       <div className="mx-auto max-w-7xl space-y-12 px-4 py-8 lg:px-8 lg:py-10">
+        {category === "photo_spot" ? <SunToday /> : null}
         {kinds.map((kind) => (
           <TypeGrid key={kind} kind={kind} pool={pool} />
         ))}

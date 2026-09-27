@@ -7,12 +7,14 @@ import { LineBullet } from "@/components/brand/line-bullet"
 import { SectionHeader } from "@/components/listing/section-header"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlaceGrid } from "@/components/place/place-grid"
+import { RouteBullets } from "@/components/place/subway-list"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { distanceKm } from "@/lib/geo"
 import { placeToPoint } from "@/lib/map-points"
 import { getPlaces } from "@/lib/places"
+import { routesNear } from "@/lib/subway"
 import { BOROUGH_META, CATEGORY_META } from "@/lib/taxonomy"
 import { CATEGORIES } from "@/types/enums"
 
@@ -50,6 +52,7 @@ export default async function NeighborhoodPage({ params }: Props) {
   const all = await getPlaces({}, { sort: "trending" })
   const places = all.filter((p) => p.neighborhood === hood.name)
   const meta = BOROUGH_META[hood.borough]
+  const routes = routesNear(hood, 0.9)
 
   // Closest neighborhoods that actually have places
   const nearby = NEIGHBORHOODS.filter((n) => n.slug !== hood.slug)
@@ -97,6 +100,12 @@ export default async function NeighborhoodPage({ params }: Props) {
             {t("neighborhoods.planDay")}
           </Link>
         </div>
+        {routes.length > 0 ? (
+          <div className="flex flex-wrap items-center gap-3">
+            <h2 className="text-sm font-bold text-muted-foreground">{t("subway.linesHere")}</h2>
+            <RouteBullets routes={routes} size="md" />
+          </div>
+        ) : null}
 
         {places.length ? (
           <>

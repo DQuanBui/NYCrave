@@ -50,20 +50,22 @@ Pick a date, start and end times, a starting neighborhood, a budget, a mood (fir
 - the **total cost** stays within your budget;
 - with **weather** turned on, a rainy forecast moves indoor stops to the front.
 
+Every subway hop names the stations at each end, and the train to take when one runs straight there that day (no B or W on weekends). Not sure where to start? Six **ready-made days** (a classic first day, a food crawl, Brooklyn by the water, art and museums, date night, and a $50 day) are planned fresh for today with one tap.
+
 Then **swap** any stop you don't like, **save** the day, **share** a link that rebuilds exactly the same plan, or **add it to your calendar**. From any place page, **Plan a day around this** builds a day that includes that place at the best time for it. An optional **Refine with AI** step lets Claude re-pick stops, but only from places on NYCrave, and every pick is checked again against hours and budget.
 
 ### Place pages
 
 ![Katz's Delicatessen place page with photo gallery, live hours, must-try dishes and map links](docs/screenshots/place-desktop.jpg)
 
-A photo gallery with credits, a live "open until 11 PM" badge, the week's hours, must-try items, our own take, tickets and time needed, one-tap directions (Google Maps, Apple Maps or transit), similar places nearby, and save and share buttons.
+A photo gallery with credits, a live "open until 11 PM" badge, the week's hours, must-try items, our own take, tickets and time needed, the **nearest subway stations** with their train bullets and walking time, one-tap directions (Google Maps, Apple Maps or transit), similar places nearby, and save and share buttons. Photo spots add exact coordinates and **today's sunrise, golden hours, sunset and blue hour**, calculated for that spot.
 
 ### Neighborhood guides and tourist tips
 
 <img src="docs/screenshots/neighborhood-mobile.jpg" alt="Williamsburg neighborhood guide on a phone" width="280" align="right">
 
-- **30 neighborhood guides** across all five boroughs, each with an introduction, a map of its places, nearby neighborhoods and a *Plan a day starting here* button.
-- **Tourist tips**: getting in from JFK, LaGuardia and Newark; OMNY and the subway; tipping and sales tax; safety and etiquette; and the city through the seasons.
+- **30 neighborhood guides** across all five boroughs, each with an introduction, the subway lines that serve it, a map of its places, nearby neighborhoods and a *Plan a day starting here* button.
+- **Tourist tips**: getting in from JFK, LaGuardia and Newark; OMNY and the subway; tipping and sales tax, with a calculator that shows what dinner really costs per person; safety and etiquette; and the city through the seasons.
 
 ### Works like an app
 
@@ -102,7 +104,7 @@ NYCrave looks like a food magazine that fell for the subway map:
 
 ## Under the hood
 
-Next.js 16 and TypeScript · Tailwind CSS v4 and shadcn/ui · Motion · next-intl (English now, structured for Vietnamese, Spanish, Chinese, Korean and Japanese) · MapLibre with OpenStreetMap tiles · Open-Meteo forecasts · optional Supabase, Google Places API and Claude · data validated with zod · automated tests covering opening hours, search, filters, the planner and the place data · Lighthouse mobile scores of 100 for accessibility, best practices and SEO.
+Next.js 16 and TypeScript · Tailwind CSS v4 and shadcn/ui · Motion · next-intl (English now, structured for Vietnamese, Spanish, Chinese, Korean and Japanese) · MapLibre with OpenStreetMap tiles · Open-Meteo forecasts · MTA open data for subway stations · astronomical sun times · optional Supabase, Google Places API and Claude · data validated with zod · automated tests covering opening hours, search, filters, the planner and the place data · Lighthouse mobile scores of 100 for accessibility, best practices and SEO.
 
 To run it locally (Node.js 20.9 or later):
 

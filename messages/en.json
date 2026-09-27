@@ -281,7 +281,42 @@
     "enhance": "Refine with AI",
     "enhancing": "Refining",
     "enhanceError": "Could not refine this day. Your plan is unchanged.",
-    "enhanceHint": "Picks only from places on NYCrave, then re-checks hours and budget."
+    "enhanceHint": "Picks only from places on NYCrave, then re-checks hours and budget.",
+    "presets": {
+      "title": "Or start from a ready-made day",
+      "intro": "Each one is planned for today, around what is actually open. Tap one, then swap anything you like.",
+      "budgetLabel": "${budget} budget",
+      "classic": {
+        "bullet": "1",
+        "title": "Classic first day",
+        "blurb": "Landmarks and famous New York food for a first visit, starting in Midtown."
+      },
+      "foodie": {
+        "bullet": "F",
+        "title": "Food crawl",
+        "blurb": "As many great bites as one day allows, with coffee in between. Starts in Chinatown."
+      },
+      "waterfront": {
+        "bullet": "G",
+        "title": "Brooklyn by the water",
+        "blurb": "Parks, piers and photo spots at an easy pace, starting in DUMBO."
+      },
+      "artsy": {
+        "bullet": "A",
+        "title": "Art and museums",
+        "blurb": "The city's great collections at a slow pace, starting on the Upper East Side."
+      },
+      "date": {
+        "bullet": "D",
+        "title": "Date night",
+        "blurb": "An evening with a view, dinner and something sweet, starting in the West Village."
+      },
+      "budget": {
+        "bullet": "$",
+        "title": "Big city, small budget",
+        "blurb": "Cheap eats and free sights for about $50 all day, starting on the Lower East Side."
+      }
+    }
   },
   "listing": {
     "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",
@@ -548,6 +583,20 @@
         "Take taxis only from the official lines outside arrivals, and ignore anyone inside the terminal offering a ride."
       ],
       "source": "Airport transit and fares: panynj.gov"
+    },
+    "calculator": {
+      "title": "What will dinner really cost?",
+      "bill": "Menu total before tax",
+      "tip": "Tip",
+      "people": "People",
+      "fewer": "One person fewer",
+      "more": "One more person",
+      "tax": "Sales tax ({rate}%)",
+      "tipAmount": "Tip",
+      "total": "Total",
+      "each": "Each person pays",
+      "invalid": "Enter the menu total to see tax and tip.",
+      "note": "Tip is worked out on the pre-tax amount. Some restaurants add a service charge for groups; if so, check the bill before tipping again."
     }
   },
   "offline": {
@@ -605,5 +654,27 @@
     "home": "Home page",
     "license": "License",
     "count": "{count, plural, one {# photo} other {# photos}}"
+  },
+  "subway": {
+    "title": "Nearest subway",
+    "trains": "Trains: {routes}",
+    "walk": "{minutes} min walk",
+    "accessible": "Accessible station",
+    "source": "Stations and daytime routes from MTA open data. Check mta.info for weekend and late-night changes.",
+    "linesHere": "Subway lines here",
+    "take": "Take the",
+    "fromTo": "from {from} to {to}",
+    "train": "{route} train"
+  },
+  "sun": {
+    "title": "Today's light in New York",
+    "sunrise": "Sunrise",
+    "goldenMorning": "Morning golden hour",
+    "goldenEvening": "Evening golden hour",
+    "sunset": "Sunset",
+    "blueEvening": "Blue hour",
+    "range": "{start}–{end}",
+    "note": "Calculated for this spot's coordinates. Tall buildings can hide a low sun, so arrive a little early.",
+    "noteCity": "Calculated for Lower Manhattan; times shift by a minute or two across the city. Tall buildings can hide a low sun, so arrive a little early."
   }
 }

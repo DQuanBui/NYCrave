@@ -15,6 +15,11 @@ const SUBWAY_OVERHEAD_MINUTES = 10
 /** Average door-to-door speed once on a train, including transfers. */
 const SUBWAY_KMH = 22
 
+/** Minutes on foot along the street grid. */
+export function walkMinutes(from: LatLng, to: LatLng): number {
+  return Math.max(Math.round(((distanceKm(from, to) * DETOUR) / WALK_KMH) * 60), 1)
+}
+
 export function estimateTravel(from: LatLng, to: LatLng): Travel {
   const km = distanceKm(from, to) * DETOUR
   const walk = Math.round((km / WALK_KMH) * 60)
