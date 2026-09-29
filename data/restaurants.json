@@ -7391,5 +7391,104 @@
     "website": "https://julianaspizza.com",
     "lat": 40.70274,
     "lng": -73.99343
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/birria-landia-williamsburg-1.jpg",
+        "alt": "The Birria-Landia truck lit up at night in Williamsburg",
+        "width": 1100,
+        "height": 660,
+        "source": "other",
+        "attribution": {
+          "text": "Andre Carrotflower, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Birria-Landia_taco_truck_at_Macri_Triangle,_Williamsburg,_Brooklyn,_New_York_-_20221122.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/birria-landia-williamsburg-2.jpg",
+        "alt": "Illustrative photo: birria tacos with consomé and agua fresca",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Itissuggested, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Tacos_de_Birria_with_consom%C3%A9_and_Agua_Fresca.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Birria tacos with consomé for dipping", "Birria mulita"],
+    "vibeTags": ["cheap_eats", "late_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours for the Brooklyn location from birrialandia.com. Also at Jackson Heights, the Upper West Side, the Lower East Side and Fordham. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-birria-landia-williamsburg",
+    "slug": "birria-landia-williamsburg",
+    "name": "Birria-Landia",
+    "category": "restaurant",
+    "cuisines": ["mexican"],
+    "dishTypes": ["tacos", "street_food"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "491 Metropolitan Ave, Brooklyn, NY 11211",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "The taco truck that made Tijuana-style birria a New York craze: crisp, cheesy beef tacos with a cup of rich consomé for dunking. Open late.",
+    "bestTimeToVisit": "Late night",
+    "timeNeededMinutes": 30,
+    "trendingScore": 82,
+    "website": "https://www.birrialandia.com",
+    "lat": 40.71415,
+    "lng": -73.9537
   }
 ]

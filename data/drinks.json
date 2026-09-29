@@ -1174,5 +1174,174 @@
     "website": "https://www.dante-nyc.com",
     "lat": 40.72879,
     "lng": -74.00166
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-uncommons-1.jpg",
+        "alt": "The Uncommons' storefront on Thompson Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "MainlyTwelve, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Uncommons_(New_York_City_board_game_caf%C3%A9)_%E2%80%93_January_2023_%E2%80%93_by_MainlyTwelve.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Pick from the wall of board games", "Coffee or a beer while you play"],
+    "vibeTags": ["rainy_day", "group_friendly", "kid_friendly", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours from uncommonsnyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-the-uncommons",
+    "slug": "the-uncommons",
+    "name": "The Uncommons",
+    "category": "drink",
+    "drinkTypes": ["coffee"],
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "230 Thompson St, New York, NY 10012",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A board game café by Washington Square with a huge library of games to play at the table, plus coffee, snacks and weekly card tournaments. Perfect on a rainy day.",
+    "bestTimeToVisit": "A rainy afternoon",
+    "timeNeededMinutes": 120,
+    "trendingScore": 64,
+    "website": "https://uncommonsnyc.com",
+    "lat": 40.72942,
+    "lng": -73.99871
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/cha-cha-matcha-nomad-1.jpg",
+        "alt": "Illustrative photo: an iced matcha latte",
+        "width": 1100,
+        "height": 1461,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Andy Li, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:ICED_BLUEBERRY_MATCHA_-_T_@_The_Dials_2025-07-18.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Iced matcha latte", "Matcha soft serve"],
+    "vibeTags": ["instagrammable", "solo_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours for the NoMad café from chachamatcha.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-cha-cha-matcha-nomad",
+    "slug": "cha-cha-matcha-nomad",
+    "name": "Cha Cha Matcha",
+    "category": "drink",
+    "drinkTypes": ["matcha", "tea"],
+    "borough": "manhattan",
+    "neighborhood": "NoMad",
+    "address": "1158 Broadway, New York, NY 10001",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A pink-and-green matcha café with lattes, soft serve and a very photogenic counter. An easy pick-me-up near Madison Square Park.",
+    "bestTimeToVisit": "Morning",
+    "timeNeededMinutes": 20,
+    "trendingScore": 62,
+    "website": "https://chachamatcha.com",
+    "lat": 40.74477,
+    "lng": -73.98872
   }
 ]

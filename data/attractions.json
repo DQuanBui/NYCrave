@@ -1812,5 +1812,362 @@
     "website": "https://nysci.org",
     "lat": 40.74738,
     "lng": -73.85161
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/museum-of-the-city-of-new-york-1.jpg",
+        "alt": "The Museum of the City of New York's brick facade on Fifth Avenue",
+        "width": 1100,
+        "height": 608,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_the_City_of_New_York_1220_Fifth_Avenue_from_west.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/museum-of-the-city-of-new-york-2.jpg",
+        "alt": "The museum's entrance terrace with exhibition banners",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Mcparis27, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_City_of_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["New York at Its Core, the city's 400-year story", "The Future City Lab"],
+    "vibeTags": ["rainy_day", "quiet", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (weekdays 10 AM to 5 PM, weekends 10 AM to 6 PM) from mcny.org/visit. The museum also lists late hours on Wednesdays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-museum-of-the-city-of-new-york",
+    "slug": "museum-of-the-city-of-new-york",
+    "name": "Museum of the City of New York",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "1220 Fifth Ave, New York, NY 10029",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "The story of New York itself, from Dutch trading post to today, told through maps, photos and interactive rooms at the top of Museum Mile.",
+    "bestTimeToVisit": "A weekday afternoon",
+    "timeNeededMinutes": 120,
+    "trendingScore": 62,
+    "website": "https://www.mcny.org",
+    "lat": 40.79253,
+    "lng": -73.9518
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/noguchi-museum-1.jpg",
+        "alt": "Stone sculptures and birch trees in the Noguchi Museum's garden",
+        "width": 1100,
+        "height": 729,
+        "source": "other",
+        "attribution": {
+          "text": "Torstenkunz-Germany, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Garden_of_Noguchi_Museum.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/noguchi-museum-2.jpg",
+        "alt": "The Noguchi Museum's brick corner building",
+        "width": 1100,
+        "height": 1650,
+        "source": "other",
+        "attribution": {
+          "text": "This photo was taken by participant/team Wikist_aces as part of the Commons:Wiki, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wikist_aces_0087.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["The open-air sculpture garden", "Akari paper lamps"],
+    "vibeTags": ["quiet", "date_night", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address, hours and admission from noguchi.org/museum/visit. Last entry 5:30 PM. Closed Mondays and Tuesdays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-noguchi-museum",
+    "slug": "noguchi-museum",
+    "name": "The Noguchi Museum",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Long Island City",
+    "address": "9-01 33rd Rd, Long Island City, NY 11106",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 16,
+        "max": 16
+      },
+      "bookingUrl": "https://www.noguchi.org/museum/visit/",
+      "notes": "General admission $16; seniors and students $6; under 12 free."
+    },
+    "editorialTake": "Isamu Noguchi's own museum in a converted factory, with his stone sculptures, paper lamps and a serene garden. One of the city's most peaceful hours.",
+    "bestTimeToVisit": "A weekday afternoon",
+    "timeNeededMinutes": 90,
+    "trendingScore": 60,
+    "website": "https://www.noguchi.org",
+    "lat": 40.76699,
+    "lng": -73.93761
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/jacques-marchais-museum-of-tibetan-art-1.jpg",
+        "alt": "The museum's stone temple building, modeled on a Himalayan monastery",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Marchais_Museum_SI_west_door_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/jacques-marchais-museum-of-tibetan-art-2.jpg",
+        "alt": "The museum's gate on Lighthouse Avenue",
+        "width": 1100,
+        "height": 917,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Marchais_Museum_LH_Av_jeh.JPG",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["The stone temple building", "The terraced meditation garden"],
+    "vibeTags": ["quiet", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address, hours and admission from tibetanmuseum.org/visit. Closed Mondays, Tuesdays and major holidays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-tibetan-museum",
+    "slug": "jacques-marchais-museum-of-tibetan-art",
+    "name": "Jacques Marchais Museum of Tibetan Art",
+    "category": "attraction",
+    "borough": "staten_island",
+    "neighborhood": "Lighthouse Hill",
+    "address": "338 Lighthouse Ave, Staten Island, NY 10306",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 10,
+        "max": 10
+      },
+      "bookingUrl": "https://www.tibetanmuseum.org/visit/",
+      "notes": "General admission $10; students and seniors $7."
+    },
+    "editorialTake": "A small stone temple on a Staten Island hilltop, built to look like a Himalayan monastery and filled with Tibetan and Buddhist art. A peaceful surprise.",
+    "bestTimeToVisit": "A weekend afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 48,
+    "website": "https://www.tibetanmuseum.org",
+    "lat": 40.5763,
+    "lng": -74.13825
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/south-street-seaport-museum-1.jpg",
+        "alt": "The tall ship Wavertree moored at Pier 16",
+        "width": 1100,
+        "height": 710,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wavertree_VZ_jeh.JPG",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Boarding the tall ship Wavertree", "The Ambrose lightship at Pier 16"],
+    "vibeTags": ["kid_friendly", "outdoor", "tourist_classic"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (Wednesday to Sunday, 11 AM to 5 PM) from southstreetseaportmuseum.org. One part of the visit page says Friday to Sunday; confirm before marking verified. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-south-street-seaport-museum",
+    "slug": "south-street-seaport-museum",
+    "name": "South Street Seaport Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "12 Fulton St, New York, NY 10038",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "Historic ships and cobbled streets where New York's port began, with the 1885 tall ship Wavertree to climb aboard at Pier 16.",
+    "bestTimeToVisit": "A weekend afternoon",
+    "timeNeededMinutes": 90,
+    "trendingScore": 56,
+    "website": "https://www.southstreetseaportmuseum.org",
+    "lat": 40.70663,
+    "lng": -74.00368
   }
 ]

@@ -152,6 +152,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "mott-haven", name: "Mott Haven", borough: "bronx", lat: 40.8091, lng: -73.9229 },
   { slug: "pelham-bay", name: "Pelham Bay", borough: "bronx", lat: 40.8651, lng: -73.8078 },
   { slug: "st-george", name: "St. George", borough: "staten_island", lat: 40.6437, lng: -74.0765 },
+  {
+    slug: "lighthouse-hill",
+    name: "Lighthouse Hill",
+    borough: "staten_island",
+    lat: 40.5763,
+    lng: -74.1383,
+  },
 ]
 
 export function findNeighborhood(name: string): Neighborhood | undefined {
