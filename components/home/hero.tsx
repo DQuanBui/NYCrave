@@ -11,6 +11,7 @@ import { LineBullet } from "@/components/brand/line-bullet"
 import { RouteArt } from "@/components/brand/route-art"
 import { MoodChips } from "@/components/home/mood-chips"
 import { SmartSearch, type SearchHint } from "@/components/home/smart-search"
+import { SubwayTrack } from "@/components/home/subway-track"
 import { Link } from "@/i18n/navigation"
 import type { Holiday } from "@/lib/holidays"
 import { HERO_SCENES, type HeroScene } from "@/lib/home"
@@ -80,21 +81,52 @@ export function Hero({ hints, forecast, holiday }: HeroProps) {
     <section className="mx-auto grid max-w-7xl gap-10 overflow-x-clip px-4 pt-6 pb-14 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-16 lg:px-8 lg:pt-16 lg:pb-24">
       <div className="flex min-w-0 flex-col gap-6">
         <h1>
-          <span className="flex items-center gap-2.5 text-base font-semibold text-muted-foreground sm:text-lg">
+          <span className="block text-lg font-semibold text-muted-foreground sm:text-xl">
+            {t("welcome.lead")}
+          </span>
+          <span
+            aria-hidden
+            className="mt-1 -mb-[0.12em] block overflow-hidden pt-[0.06em] pb-[0.12em] font-display text-[clamp(4.25rem,13vw,8.75rem)] leading-[0.92]"
+          >
+            <PopLetters text={t("welcome.city")} />
+          </span>
+          <span className="sr-only">
+            {t("welcome.lead")} {t("welcome.city")}
+          </span>
+        </h1>
+
+        <SubwayTrack
+          trainKey={scene.key}
+          line={meta.line}
+          bullet={meta.bullet}
+          className="-mt-2 max-w-2xl"
+        />
+
+        <div>
+          <p className="flex items-center gap-2.5 text-base font-semibold text-muted-foreground sm:text-lg">
             <LineBullet line={meta.line} size="sm" className="transition-colors duration-500">
               {meta.bullet}
             </LineBullet>
             {t("announcement")}
             <span className="sr-only">{t("srAlt")}</span>
-          </span>
+          </p>
           <span
             aria-hidden
-            className="relative mt-3 block h-[2.2em] overflow-hidden font-display text-[clamp(3.25rem,9.5vw,6.75rem)] leading-(--hero-leading)"
+            className="relative mt-1 grid overflow-hidden font-display text-[clamp(2rem,5.5vw,3.4rem)] leading-(--hero-leading)"
           >
+            {/* Invisible copies size the box to the longest destination, so nothing jumps */}
+            {HERO_SCENES.map((s) => (
+              <span
+                key={s.key}
+                className="invisible col-start-1 row-start-1 py-[0.08em] text-balance"
+              >
+                {t(`scenes.${s.key}`)}
+              </span>
+            ))}
             <AnimatePresence initial={false}>
               <m.span
                 key={scene.key}
-                className="absolute inset-x-0 top-[0.12em] text-balance"
+                className="absolute inset-x-0 top-[0.08em] text-balance"
                 initial={{ y: "70%", opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 exit={{ y: "-70%", opacity: 0 }}
@@ -104,7 +136,7 @@ export function Hero({ hints, forecast, holiday }: HeroProps) {
               </m.span>
             </AnimatePresence>
           </span>
-        </h1>
+        </div>
         <p className="max-w-xl text-lg leading-relaxed text-pretty text-muted-foreground">
           {t("intro")}
         </p>
@@ -216,6 +248,28 @@ export function Hero({ hints, forecast, holiday }: HeroProps) {
       </div>
     </section>
   )
+}
+
+/**
+ * The city's name, each letter rising out of its slot like a sign flipping on. Letters move
+ * but never fade, so the headline paints immediately.
+ */
+function PopLetters({ text }: { text: string }) {
+  let i = 0
+  return text.split(" ").map((word, w, words) => (
+    <span key={w} className="inline-block whitespace-nowrap">
+      {Array.from(word).map((ch) => (
+        <span
+          key={i}
+          style={{ "--i": i++ } as React.CSSProperties}
+          className="inline-block origin-bottom animate-[letter-pop_0.7s_cubic-bezier(0.2,0.8,0.3,1)_both] [animation-delay:calc(var(--i)*60ms+120ms)]"
+        >
+          {ch}
+        </span>
+      ))}
+      {w < words.length - 1 ? "\u00a0" : null}
+    </span>
+  ))
 }
 
 function SceneArt({

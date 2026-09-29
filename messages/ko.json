@@ -51,7 +51,11 @@
     "weather": "오늘 뉴욕: 최고 {temp}°F, 강수 확률 {chance}%.",
     "rainyIdeas": "비 오는 날 추천",
     "hotIdeas": "더위를 피할 실내 추천",
-    "coldIdeas": "추위를 피할 실내 추천"
+    "coldIdeas": "추위를 피할 실내 추천",
+    "welcome": {
+      "lead": "어서 오세요",
+      "city": "뉴욕"
+    }
   },
   "search": {
     "label": "장소 검색",

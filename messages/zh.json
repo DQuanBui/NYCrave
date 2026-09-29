@@ -51,7 +51,11 @@
     "weather": "纽约今天：最高 {temp}°F，降雨概率 {chance}%。",
     "rainyIdeas": "雨天去处",
     "hotIdeas": "避暑室内去处",
-    "coldIdeas": "避寒室内去处"
+    "coldIdeas": "避寒室内去处",
+    "welcome": {
+      "lead": "欢迎来到",
+      "city": "纽约"
+    }
   },
   "search": {
     "label": "搜索地点",

@@ -51,7 +51,11 @@
     "weather": "Today in New York: high of {temp}°F, {chance}% chance of rain.",
     "rainyIdeas": "Rainy-day ideas",
     "hotIdeas": "Cool indoor ideas",
-    "coldIdeas": "Warm indoor ideas"
+    "coldIdeas": "Warm indoor ideas",
+    "welcome": {
+      "lead": "Welcome to",
+      "city": "New York"
+    }
   },
   "search": {
     "label": "Search places",

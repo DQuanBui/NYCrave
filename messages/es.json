@@ -51,7 +51,11 @@
     "weather": "Hoy en Nueva York: máxima de {temp}°F, {chance}% de probabilidad de lluvia.",
     "rainyIdeas": "Ideas para un día de lluvia",
     "hotIdeas": "Ideas bajo techo para el calor",
-    "coldIdeas": "Ideas bajo techo para el frío"
+    "coldIdeas": "Ideas bajo techo para el frío",
+    "welcome": {
+      "lead": "Bienvenidos a",
+      "city": "Nueva York"
+    }
   },
   "search": {
     "label": "Buscar lugares",

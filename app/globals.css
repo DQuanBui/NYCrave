@@ -290,3 +290,16 @@
       rgb(255 99 25 / 0.05) 18px 19px
     );
 }
+
+/* Home hero: each letter of the city's name rises out of its slot. Transform only, no fade. */
+@keyframes letter-pop {
+  0% {
+    transform: translateY(110%);
+  }
+  60% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: none;
+  }
+}

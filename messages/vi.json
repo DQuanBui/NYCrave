@@ -51,7 +51,11 @@
     "weather": "Hôm nay ở New York: cao nhất {temp}°F, {chance}% khả năng có mưa.",
     "rainyIdeas": "Gợi ý cho ngày mưa",
     "hotIdeas": "Gợi ý trong nhà cho ngày nóng",
-    "coldIdeas": "Gợi ý trong nhà cho ngày lạnh"
+    "coldIdeas": "Gợi ý trong nhà cho ngày lạnh",
+    "welcome": {
+      "lead": "Chào mừng bạn đến",
+      "city": "New York"
+    }
   },
   "search": {
     "label": "Tìm địa điểm",
