@@ -1,4 +1,5 @@
 import {
+  CalendarHeart,
   Camera,
   Compass,
   CupSoda,
@@ -7,6 +8,7 @@ import {
   Map as MapIcon,
   MapPinned,
   Route,
+  Stamp,
   ShoppingBag,
   Trees,
   UtensilsCrossed,
@@ -27,6 +29,8 @@ export type NavKey =
   | "tips"
   | "myDay"
   | "saved"
+  | "seasons"
+  | "passport"
 
 export type NavItem = { key: NavKey; href: string; icon: LucideIcon; line?: LineColor }
 
@@ -47,6 +51,8 @@ export const NAV: Record<NavKey, NavItem> = {
   tips: { key: "tips", href: "/tips", icon: Lightbulb },
   myDay: { key: "myDay", href: "/my-day", icon: Route },
   saved: { key: "saved", href: "/saved", icon: Heart },
+  seasons: { key: "seasons", href: "/seasons", icon: CalendarHeart, line: "orange" },
+  passport: { key: "passport", href: "/passport", icon: Stamp, line: "yellow" },
 }
 
 /** Mobile bottom tabs. */
@@ -54,7 +60,16 @@ export const TAB_BAR: NavKey[] = ["eat", "sip", "explore", "myDay", "saved"]
 /** Desktop header, left group. */
 export const TOP_NAV: NavKey[] = ["eat", "sip", "explore", "shop", "photoSpots", "parks"]
 /** Full menu (mobile sheet). */
-export const MENU: NavKey[] = [...TOP_NAV, "map", "neighborhoods", "tips", "myDay", "saved"]
+export const MENU: NavKey[] = [
+  ...TOP_NAV,
+  "map",
+  "neighborhoods",
+  "seasons",
+  "tips",
+  "myDay",
+  "saved",
+  "passport",
+]
 
 export function isActive(pathname: string, href: string): boolean {
   return pathname === href || pathname.startsWith(`${href}/`)

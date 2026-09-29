@@ -13,6 +13,7 @@ import { PlaceRail } from "@/components/place/place-rail"
 import { PlanAroundButton } from "@/components/place/plan-around-button"
 import { PriceLevel } from "@/components/place/price-level"
 import { ReportProblem } from "@/components/place/report-problem"
+import { StampButton } from "@/components/passport/stamp-button"
 import { SaveButton } from "@/components/place/save-button"
 import { SubwayList } from "@/components/place/subway-list"
 import { SunToday } from "@/components/place/sun-today"
@@ -144,6 +145,19 @@ export default async function PlacePage({ params }: Props) {
               <SaveButton slug={place.slug} name={place.name} variant="outline" />
               <ShareButton title={place.name} />
               <PlanAroundButton place={place} />
+              <StampButton
+                place={{
+                  slug: place.slug,
+                  name: place.name,
+                  borough: place.borough,
+                  category: place.category,
+                  cuisines: place.cuisines,
+                  dishTypes: place.dishTypes,
+                  drinkTypes: place.drinkTypes,
+                  vibeTags: place.vibeTags,
+                  isFree: place.isFree,
+                }}
+              />
             </div>
           </header>
 

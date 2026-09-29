@@ -24,7 +24,9 @@
     "menuDescription": "Mọi tuyến NYCrave đang chạy.",
     "homeLabel": "Trang chủ NYCrave",
     "neighborhoods": "Khu phố",
-    "map": "Bản đồ"
+    "map": "Bản đồ",
+    "seasons": "Mùa lễ hội",
+    "passport": "Hộ chiếu"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",
@@ -104,7 +106,11 @@
     },
     "surprise": "Gây bất ngờ cho tôi",
     "surpriseLabel": "Đi đến một nơi ngẫu nhiên đang mở cửa",
-    "seeMap": "Xem tất cả trên bản đồ"
+    "seeMap": "Xem tất cả trên bản đồ",
+    "comingUp": {
+      "title": "Sắp diễn ra ở New York",
+      "seeAll": "Xem cả năm ở New York"
+    }
   },
   "categories": {
     "restaurant": {
@@ -902,5 +908,150 @@
     "error": "Chưa gửi được. Vui lòng thử lại.",
     "limited": "Bạn đã gửi góp ý vài lần rồi. Vui lòng thử lại sau vài phút.",
     "privacy": "Chúng tôi chỉ lưu điểm đánh giá, lựa chọn và nội dung bạn viết, không có tên hay email."
+  },
+  "seasons": {
+    "title": "Bốn mùa ở New York",
+    "tagline": "Những ngày đáng lên kế hoạch, từ Manhattanhenge đến các ô cửa kính mùa lễ.",
+    "henge": {
+      "title": "Manhattanhenge",
+      "body": "Mỗi năm hai lần, mặt trời lặn thẳng hàng với lưới đường phố Manhattan và rực sáng ở cuối các con phố ngang, giữa hai hàng nhà chọc trời.",
+      "next": "Những buổi tối sắp tới",
+      "sunset": "Mặt trời lặn khoảng {time}",
+      "where": "Xem ở đâu",
+      "whereBody": "Đứng càng xa về phía đông càng tốt trên một con phố ngang rộng, nhìn thẳng sang New Jersey: phố 14, 23, 34, 42 hoặc 57. Hoặc nhìn xuống phố 42 từ",
+      "tudorCity": "cầu Tudor City.",
+      "note": "Ngày được ước tính từ vị trí mặt trời và có thể lệch một ngày. Bảo tàng Lịch sử Tự nhiên Hoa Kỳ công bố ngày chính xác mỗi mùa xuân. Hãy đến trước khi mặt trời lặn 30 phút."
+    },
+    "year": "Một năm ở New York",
+    "status": {
+      "now": "Đang diễn ra",
+      "countdown": "{days, plural, =0 {Hôm nay} =1 {Ngày mai} other {Còn # ngày}}"
+    },
+    "approximate": "ngày thay đổi mỗi năm",
+    "wherePlaces": "Nên đến đâu",
+    "events": {
+      "cherryBlossoms": {
+        "name": "Hoa anh đào",
+        "body": "Hoa anh đào hồng phủ kín lối Cherry Esplanade ở Vườn Bách thảo Brooklyn và khắp Central Park. Mùa hoa đẹp nhất tùy thời tiết, thường vào tháng Tư."
+      },
+      "manhattanhengeMay": {
+        "name": "Manhattanhenge tháng Năm",
+        "body": "Hoàng hôn thẳng hàng với các con phố ngang. Hãy chọn một con phố rộng nhìn về phía tây sang New Jersey."
+      },
+      "beachSeason": {
+        "name": "Mùa tắm biển",
+        "body": "Các bãi biển của thành phố có cứu hộ từ cuối tuần Memorial Day đến Labor Day. Coney Island và bãi Orchard chỉ cách một chuyến tàu điện ngầm."
+      },
+      "manhattanhengeJuly": {
+        "name": "Manhattanhenge tháng Bảy",
+        "body": "Cơ hội thứ hai trong năm để ngắm mặt trời lặn giữa các tòa nhà chọc trời."
+      },
+      "fourthOfJuly": {
+        "name": "Pháo hoa ngày 4 tháng 7",
+        "body": "Pháo hoa Macy's thắp sáng các dòng sông. Vị trí xem thay đổi mỗi năm, hãy xem thông báo và đến sớm."
+      },
+      "fallFoliage": {
+        "name": "Mùa lá vàng",
+        "body": "Các công viên chuyển sang đỏ và vàng, đẹp nhất thường từ cuối tháng Mười đến tháng Mười Một. Những cây cầu ở Central Park và công viên Fort Tryon là cảnh kinh điển."
+      },
+      "marathon": {
+        "name": "Marathon Thành phố New York",
+        "body": "Vận động viên chạy qua cả năm quận vào Chủ nhật đầu tiên của tháng Mười Một và về đích ở Central Park. Hãy cổ vũ dọc Đại lộ First hoặc ở Brooklyn."
+      },
+      "thanksgivingParade": {
+        "name": "Diễu hành Lễ Tạ ơn",
+        "body": "Những quả bóng bay khổng lồ lướt dọc Central Park West và Đại lộ Sáu đến Herald Square vào sáng Lễ Tạ ơn. Hãy đến sớm để có chỗ sát lề đường."
+      },
+      "holidayWindows": {
+        "name": "Cửa kính và chợ mùa lễ",
+        "body": "Cửa kính các cửa hàng bách hóa, cây thông Rockefeller Center và làng mùa đông ở Bryant Park thắp sáng thành phố từ Lễ Tạ ơn đến tháng Một."
+      },
+      "newYearsEve": {
+        "name": "Đêm Giao thừa",
+        "body": "Quả cầu rơi ở Quảng trường Thời đại lúc nửa đêm. Đám đông bắt đầu tụ tập từ chiều; nhiều người địa phương xem từ quán bar hoặc sân thượng."
+      }
+    }
+  },
+  "passport": {
+    "title": "Hộ chiếu NYC của tôi",
+    "tagline": "Đóng dấu những nơi bạn đã đến và sưu tầm huy hiệu khắp năm quận.",
+    "stamp": "Đóng dấu hộ chiếu",
+    "stamped": "Đã có trong hộ chiếu",
+    "stampLabel": "Đóng dấu {name} vào hộ chiếu",
+    "toast": {
+      "stamped": "Đã đóng dấu! {name} đã có trong hộ chiếu.",
+      "badge": "Huy hiệu mới: {badges}",
+      "open": "Mở hộ chiếu",
+      "close": "Đóng"
+    },
+    "stamps": "{count, plural, other {con dấu}}",
+    "boroughs": "{count, plural, =0 {Chưa có quận nào} other {# trên 5 quận}}",
+    "badgesTitle": "Huy hiệu",
+    "earned": "Đã đạt {count} trên {total}",
+    "progress": "{count} trên {goal}",
+    "badgeEarned": "Đã đạt",
+    "badgeLocked": "Chưa đạt",
+    "badges": {
+      "firstStop": {
+        "name": "Điểm dừng đầu tiên",
+        "body": "Đã đóng dấu nơi đầu tiên."
+      },
+      "fiveStops": {
+        "name": "Năm điểm dừng",
+        "body": "Đã đóng dấu 5 nơi."
+      },
+      "regular": {
+        "name": "Khách quen",
+        "body": "Đã đóng dấu 15 nơi."
+      },
+      "local": {
+        "name": "Người New York danh dự",
+        "body": "Đã đóng dấu 40 nơi."
+      },
+      "fiveBoroughs": {
+        "name": "Đủ năm quận",
+        "body": "Có dấu ở mọi quận."
+      },
+      "worldTour": {
+        "name": "Vòng quanh thế giới",
+        "body": "Đã ăn 8 nền ẩm thực khác nhau."
+      },
+      "museumGoer": {
+        "name": "Người mê văn hóa",
+        "body": "Đã đến 3 bảo tàng hoặc điểm tham quan."
+      },
+      "greenSpace": {
+        "name": "Không gian xanh",
+        "body": "Đã đến 3 công viên hoặc bến tàu."
+      },
+      "shutterbug": {
+        "name": "Tay máy ảnh",
+        "body": "Đã đến 3 điểm chụp ảnh."
+      },
+      "nightOwl": {
+        "name": "Cú đêm",
+        "body": "Đã đến 3 nơi mở khuya."
+      },
+      "freeSpirit": {
+        "name": "Tâm hồn tự do",
+        "body": "Đã đến 3 nơi miễn phí."
+      },
+      "pizzaPilgrim": {
+        "name": "Tín đồ pizza",
+        "body": "Đã ăn ở 3 tiệm pizza."
+      }
+    },
+    "visited": "Những nơi bạn đã đóng dấu",
+    "stampedOn": "Đóng dấu ngày {date}",
+    "remove": "Xóa {name} khỏi hộ chiếu",
+    "empty": {
+      "title": "Hộ chiếu của bạn còn trống",
+      "body": "Mở trang của bất kỳ nơi nào bạn đến và nhấn \"Đóng dấu hộ chiếu\". Con dấu đầu tiên sẽ mang về một huy hiệu.",
+      "cta": "Tìm một nơi"
+    },
+    "share": "Chia sẻ hộ chiếu",
+    "shareText": "Tôi đã sưu tầm {count} con dấu ở New York cùng NYCrave.",
+    "copied": "Đã sao chép",
+    "privacy": "Hộ chiếu chỉ được lưu trên thiết bị này."
   }
 }

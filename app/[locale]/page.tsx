@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server"
+import { ComingUp } from "@/components/home/coming-up"
 import { Hero } from "@/components/home/hero"
 import { LineMap } from "@/components/home/line-map"
 import { MyDayPromo } from "@/components/home/my-day-promo"
@@ -8,6 +9,7 @@ import { holidayOn } from "@/lib/holidays"
 import { getOpenStatus, isOpenLaterToday, nycClock, nycDateString } from "@/lib/hours"
 import { toCard } from "@/lib/card-place"
 import { getPlaces } from "@/lib/places"
+import { upcomingSeasons } from "@/lib/seasons"
 import { getRainForecast } from "@/lib/weather"
 import { SITE_URL } from "@/lib/site"
 import { CATEGORIES } from "@/types/enums"
@@ -83,6 +85,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <LineMap counts={counts} />
       <div className="mx-auto max-w-7xl space-y-16 px-4 pt-14 lg:space-y-20 lg:px-8 lg:pt-20">
         <PlaceRail title={t("trending")} places={all.slice(0, 8).map(toCard)} limit={8} />
+        <ComingUp seasons={upcomingSeasons(today).slice(0, 3)} />
         <PlaceRail
           title={t("openNow")}
           places={openCandidates.map(toCard)}

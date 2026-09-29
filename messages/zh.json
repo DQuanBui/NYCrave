@@ -24,7 +24,9 @@
     "menuDescription": "NYCrave 的每一条线路。",
     "homeLabel": "NYCrave 首页",
     "neighborhoods": "街区",
-    "map": "地图"
+    "map": "地图",
+    "seasons": "四季",
+    "passport": "护照"
   },
   "theme": {
     "toggle": "切换到{mode}模式",
@@ -104,7 +106,11 @@
     },
     "surprise": "给我惊喜",
     "surpriseLabel": "随机前往一个正在营业的地点",
-    "seeMap": "在地图上查看全部"
+    "seeMap": "在地图上查看全部",
+    "comingUp": {
+      "title": "纽约近期活动",
+      "seeAll": "查看纽约全年活动"
+    }
   },
   "categories": {
     "restaurant": {
@@ -902,5 +908,150 @@
     "error": "发送失败，请重试。",
     "limited": "你已经发送了几次反馈，请过几分钟再试。",
     "privacy": "我们只保存你的评分、所选项目和你写的内容，不收集姓名或邮箱。"
+  },
+  "seasons": {
+    "title": "纽约四季",
+    "tagline": "值得专程安排的日子，从曼哈顿悬日到节日橱窗。",
+    "henge": {
+      "title": "曼哈顿悬日",
+      "body": "每年有两次，落日与曼哈顿的街道网格对齐，在两侧摩天楼之间照亮横街的尽头。",
+      "next": "接下来的傍晚",
+      "sunset": "日落约 {time}",
+      "where": "观赏地点",
+      "whereBody": "在一条视野开阔、正对新泽西的宽阔横街上尽量往东站：14 街、23 街、34 街、42 街或 57 街。也可以从这里俯瞰 42 街：",
+      "tudorCity": "都铎城桥。",
+      "note": "日期根据太阳位置估算，可能相差一天。美国自然历史博物馆每年春天公布准确日期。请在日落前 30 分钟到达。"
+    },
+    "year": "纽约的一年",
+    "status": {
+      "now": "正在进行",
+      "countdown": "{days, plural, =0 {今天} =1 {明天} other {还有 # 天}}"
+    },
+    "approximate": "日期每年略有不同",
+    "wherePlaces": "推荐去处",
+    "events": {
+      "cherryBlossoms": {
+        "name": "樱花季",
+        "body": "粉色樱花开满布鲁克林植物园的樱花大道和中央公园的小径。盛花期随天气变化，通常在四月。"
+      },
+      "manhattanhengeMay": {
+        "name": "五月曼哈顿悬日",
+        "body": "落日与横街对齐。选一条向西望向新泽西的宽阔街道。"
+      },
+      "beachSeason": {
+        "name": "海滩季",
+        "body": "城市海滩从阵亡将士纪念日周末到劳动节都有救生员。科尼岛和果园海滩坐地铁就能到。"
+      },
+      "manhattanhengeJuly": {
+        "name": "七月曼哈顿悬日",
+        "body": "一年中第二次在摩天楼之间观赏落日的机会。"
+      },
+      "fourthOfJuly": {
+        "name": "七月四日烟花",
+        "body": "梅西百货烟花照亮河面。观赏地点每年不同，请查看公布的位置并提早到达。"
+      },
+      "fallFoliage": {
+        "name": "秋叶",
+        "body": "公园染上红色和金色，通常在十月下旬到十一月最美。中央公园的桥和崔恩堡公园是经典景色。"
+      },
+      "marathon": {
+        "name": "纽约城市马拉松",
+        "body": "选手在十一月的第一个星期日跑过全部五个区，终点在中央公园。可以在第一大道或布鲁克林加油。"
+      },
+      "thanksgivingParade": {
+        "name": "感恩节大游行",
+        "body": "感恩节早上，巨型气球沿中央公园西大道和第六大道一路飘到先驱广场。请早点到路边占位。"
+      },
+      "holidayWindows": {
+        "name": "节日橱窗和市集",
+        "body": "百货公司橱窗、洛克菲勒中心圣诞树和布莱恩特公园冬季村从感恩节到一月点亮全城。"
+      },
+      "newYearsEve": {
+        "name": "跨年夜",
+        "body": "午夜时分时代广场的水晶球落下。人群从下午就开始聚集；很多本地人选择在酒吧或屋顶观看。"
+      }
+    }
+  },
+  "passport": {
+    "title": "我的纽约护照",
+    "tagline": "为去过的地方盖章，在五个区收集徽章。",
+    "stamp": "在护照上盖章",
+    "stamped": "已在护照中",
+    "stampLabel": "为 {name} 在护照上盖章",
+    "toast": {
+      "stamped": "盖章成功！{name} 已加入你的护照。",
+      "badge": "新徽章：{badges}",
+      "open": "打开我的护照",
+      "close": "关闭"
+    },
+    "stamps": "{count, plural, other {个印章}}",
+    "boroughs": "{count, plural, =0 {还没有去过任何区} other {5 个区中的 # 个}}",
+    "badgesTitle": "徽章",
+    "earned": "已获得 {count}/{total}",
+    "progress": "{count}/{goal}",
+    "badgeEarned": "已获得",
+    "badgeLocked": "尚未获得",
+    "badges": {
+      "firstStop": {
+        "name": "第一站",
+        "body": "盖了第一个章。"
+      },
+      "fiveStops": {
+        "name": "五站",
+        "body": "盖了 5 个章。"
+      },
+      "regular": {
+        "name": "常客",
+        "body": "盖了 15 个章。"
+      },
+      "local": {
+        "name": "荣誉纽约客",
+        "body": "盖了 40 个章。"
+      },
+      "fiveBoroughs": {
+        "name": "五区全收",
+        "body": "每个区都有印章。"
+      },
+      "worldTour": {
+        "name": "环游世界",
+        "body": "吃过 8 种不同菜系。"
+      },
+      "museumGoer": {
+        "name": "文化探索者",
+        "body": "去过 3 个博物馆或景点。"
+      },
+      "greenSpace": {
+        "name": "绿色空间",
+        "body": "去过 3 个公园或码头。"
+      },
+      "shutterbug": {
+        "name": "摄影达人",
+        "body": "去过 3 个拍照点。"
+      },
+      "nightOwl": {
+        "name": "夜猫子",
+        "body": "去过 3 个深夜营业的地方。"
+      },
+      "freeSpirit": {
+        "name": "自由之魂",
+        "body": "去过 3 个免费的地方。"
+      },
+      "pizzaPilgrim": {
+        "name": "披萨朝圣者",
+        "body": "在 3 家披萨店吃过。"
+      }
+    },
+    "visited": "你盖过章的地方",
+    "stampedOn": "盖章于 {date}",
+    "remove": "从护照中移除 {name}",
+    "empty": {
+      "title": "你的护照还是空的",
+      "body": "打开你去过的任何地点，点“在护照上盖章”。第一个印章就能获得一枚徽章。",
+      "cta": "找一个地方"
+    },
+    "share": "分享我的护照",
+    "shareText": "我用 NYCrave 在纽约收集了 {count} 个印章。",
+    "copied": "已复制到剪贴板",
+    "privacy": "你的护照只保存在这台设备上。"
   }
 }

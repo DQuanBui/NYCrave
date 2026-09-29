@@ -147,12 +147,17 @@
    system fonts, set headlines bold (the fallback is not a poster face) and
    give them a little more room. */
 :root:lang(zh) {
-  --font-sans: var(--font-body), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
-  --font-display: var(--font-anton), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-sans:
+    var(--font-body), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC",
+    sans-serif;
+  --font-display:
+    var(--font-anton), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC",
+    sans-serif;
 }
 :root:lang(ko) {
   --font-sans: var(--font-body), "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
-  --font-display: var(--font-anton), "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  --font-display:
+    var(--font-anton), "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
 }
 :root:lang(zh),
 :root:lang(ko) {
@@ -262,4 +267,26 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Manhattanhenge art: the sun sinking at the end of the street */
+@keyframes henge-sink {
+  from {
+    transform: translateY(-8px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+/* Passport pages: fine guilloché-style rings, like the security print on a real passport */
+@utility passport-paper {
+  background-color: var(--card);
+  background-image:
+    repeating-radial-gradient(circle at 0% 0%, transparent 0 14px, rgb(0 57 166 / 0.05) 14px 15px),
+    repeating-radial-gradient(
+      circle at 100% 100%,
+      transparent 0 18px,
+      rgb(255 99 25 / 0.05) 18px 19px
+    );
 }

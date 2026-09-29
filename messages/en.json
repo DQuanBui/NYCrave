@@ -24,7 +24,9 @@
     "menuDescription": "Every line NYCrave runs.",
     "homeLabel": "NYCrave home",
     "neighborhoods": "Neighborhoods",
-    "map": "Map"
+    "map": "Map",
+    "seasons": "Seasons",
+    "passport": "Passport"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -104,7 +106,11 @@
     },
     "surprise": "Surprise me",
     "surpriseLabel": "Go to a random place that is open now",
-    "seeMap": "See them all on the map"
+    "seeMap": "See them all on the map",
+    "comingUp": {
+      "title": "Coming up in New York",
+      "seeAll": "See the year in New York"
+    }
   },
   "categories": {
     "restaurant": {
@@ -902,5 +908,150 @@
     "error": "That didn't go through. Please try again.",
     "limited": "You've sent feedback a few times already. Please try again in a few minutes.",
     "privacy": "We only store your rating, what you picked and what you write, with no name or email."
+  },
+  "seasons": {
+    "title": "Seasons in New York",
+    "tagline": "The dates worth planning a trip around, from Manhattanhenge to the holiday windows.",
+    "henge": {
+      "title": "Manhattanhenge",
+      "body": "Twice a year the setting sun lines up with Manhattan's street grid and glows at the end of the cross streets, framed by skyscrapers on both sides.",
+      "next": "Next evenings",
+      "sunset": "Sunset around {time}",
+      "where": "Where to watch",
+      "whereBody": "Stand as far east as you can on a wide cross street with a clear view to New Jersey: 14th, 23rd, 34th, 42nd or 57th Street. Or look down 42nd Street from",
+      "tudorCity": "Tudor City Bridge.",
+      "note": "Dates are estimated from the sun's position and can be a day off. The American Museum of Natural History announces the exact evenings each spring. Arrive 30 minutes before sunset."
+    },
+    "year": "The year in New York",
+    "status": {
+      "now": "Happening now",
+      "countdown": "{days, plural, =0 {Today} =1 {Tomorrow} other {In # days}}"
+    },
+    "approximate": "dates vary each year",
+    "wherePlaces": "Where to go",
+    "events": {
+      "cherryBlossoms": {
+        "name": "Cherry blossoms",
+        "body": "Pink blossoms fill the Brooklyn Botanic Garden's Cherry Esplanade and paths across Central Park. Peak bloom moves with the weather, usually in April."
+      },
+      "manhattanhengeMay": {
+        "name": "Manhattanhenge in May",
+        "body": "The sunset lines up with the cross streets. Pick a wide street with a view west to New Jersey."
+      },
+      "beachSeason": {
+        "name": "Beach season",
+        "body": "City beaches have lifeguards from Memorial Day weekend to Labor Day. Coney Island and Orchard Beach are a subway ride away."
+      },
+      "manhattanhengeJuly": {
+        "name": "Manhattanhenge in July",
+        "body": "The year's second chance to watch the sun set between the skyscrapers."
+      },
+      "fourthOfJuly": {
+        "name": "Fourth of July fireworks",
+        "body": "Macy's fireworks light up the rivers. The viewing spots change each year, so check the announced location and arrive early."
+      },
+      "fallFoliage": {
+        "name": "Fall foliage",
+        "body": "The parks turn red and gold, usually peaking from late October into November. Central Park's bridges and Fort Tryon Park are classic views."
+      },
+      "marathon": {
+        "name": "New York City Marathon",
+        "body": "Runners cross all five boroughs on the first Sunday in November and finish in Central Park. Cheer along First Avenue or in Brooklyn."
+      },
+      "thanksgivingParade": {
+        "name": "Thanksgiving Day Parade",
+        "body": "Giant balloons float down Central Park West and Sixth Avenue to Herald Square on Thanksgiving morning. Arrive early for a spot at the curb."
+      },
+      "holidayWindows": {
+        "name": "Holiday windows and markets",
+        "body": "Department store windows, the Rockefeller Center tree and Bryant Park's winter village light up the city from Thanksgiving into January."
+      },
+      "newYearsEve": {
+        "name": "New Year's Eve",
+        "body": "The ball drops in Times Square at midnight. Crowds start gathering in the afternoon; many locals watch from a bar or a rooftop instead."
+      }
+    }
+  },
+  "passport": {
+    "title": "My NYC Passport",
+    "tagline": "Stamp the places you visit and collect badges across the five boroughs.",
+    "stamp": "Stamp my passport",
+    "stamped": "In your passport",
+    "stampLabel": "Stamp {name} in your passport",
+    "toast": {
+      "stamped": "Stamped! {name} is in your passport.",
+      "badge": "New badge: {badges}",
+      "open": "Open my passport",
+      "close": "Close"
+    },
+    "stamps": "{count, plural, one {stamp} other {stamps}}",
+    "boroughs": "{count, plural, =0 {No boroughs yet} one {# of 5 boroughs} other {# of 5 boroughs}}",
+    "badgesTitle": "Badges",
+    "earned": "{count} of {total} earned",
+    "progress": "{count} of {goal}",
+    "badgeEarned": "Earned",
+    "badgeLocked": "Not earned yet",
+    "badges": {
+      "firstStop": {
+        "name": "First stop",
+        "body": "Stamped your first place."
+      },
+      "fiveStops": {
+        "name": "Five stops",
+        "body": "Stamped 5 places."
+      },
+      "regular": {
+        "name": "Regular",
+        "body": "Stamped 15 places."
+      },
+      "local": {
+        "name": "Honorary New Yorker",
+        "body": "Stamped 40 places."
+      },
+      "fiveBoroughs": {
+        "name": "All five boroughs",
+        "body": "A stamp in every borough."
+      },
+      "worldTour": {
+        "name": "World tour",
+        "body": "Ate 8 different cuisines."
+      },
+      "museumGoer": {
+        "name": "Culture seeker",
+        "body": "Visited 3 museums or attractions."
+      },
+      "greenSpace": {
+        "name": "Green space",
+        "body": "Visited 3 parks or piers."
+      },
+      "shutterbug": {
+        "name": "Shutterbug",
+        "body": "Visited 3 photo spots."
+      },
+      "nightOwl": {
+        "name": "Night owl",
+        "body": "Visited 3 late-night spots."
+      },
+      "freeSpirit": {
+        "name": "Free spirit",
+        "body": "Visited 3 free places."
+      },
+      "pizzaPilgrim": {
+        "name": "Pizza pilgrim",
+        "body": "Ate at 3 pizza places."
+      }
+    },
+    "visited": "Places you've stamped",
+    "stampedOn": "Stamped {date}",
+    "remove": "Remove {name} from your passport",
+    "empty": {
+      "title": "Your passport is empty",
+      "body": "Open any place you visit and tap \"Stamp my passport\". Your first stamp earns a badge.",
+      "cta": "Find a place"
+    },
+    "share": "Share my passport",
+    "shareText": "I've collected {count} stamps in New York City with NYCrave.",
+    "copied": "Copied to your clipboard",
+    "privacy": "Your passport is saved on this device only."
   }
 }

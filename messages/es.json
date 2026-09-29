@@ -24,7 +24,9 @@
     "menuDescription": "Todas las líneas de NYCrave.",
     "homeLabel": "Inicio de NYCrave",
     "neighborhoods": "Barrios",
-    "map": "Mapa"
+    "map": "Mapa",
+    "seasons": "Temporadas",
+    "passport": "Pasaporte"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -104,7 +106,11 @@
     },
     "surprise": "Sorpréndeme",
     "surpriseLabel": "Ir a un lugar al azar que esté abierto ahora",
-    "seeMap": "Verlos todos en el mapa"
+    "seeMap": "Verlos todos en el mapa",
+    "comingUp": {
+      "title": "Próximamente en Nueva York",
+      "seeAll": "Ver el año en Nueva York"
+    }
   },
   "categories": {
     "restaurant": {
@@ -902,5 +908,150 @@
     "error": "No se pudo enviar. Inténtalo de nuevo.",
     "limited": "Ya enviaste tu opinión varias veces. Inténtalo de nuevo en unos minutos.",
     "privacy": "Solo guardamos tu puntuación, lo que elegiste y lo que escribes, sin nombre ni correo."
+  },
+  "seasons": {
+    "title": "Temporadas en Nueva York",
+    "tagline": "Las fechas que valen un viaje, desde Manhattanhenge hasta los escaparates navideños.",
+    "henge": {
+      "title": "Manhattanhenge",
+      "body": "Dos veces al año el sol poniente se alinea con la cuadrícula de calles de Manhattan y brilla al final de las calles transversales, entre rascacielos a ambos lados.",
+      "next": "Próximas tardes",
+      "sunset": "Puesta de sol hacia las {time}",
+      "where": "Dónde verlo",
+      "whereBody": "Colócate lo más al este posible en una calle ancha con vista despejada hacia Nueva Jersey: la 14, la 23, la 34, la 42 o la 57. O mira la calle 42 desde el",
+      "tudorCity": "puente de Tudor City.",
+      "note": "Las fechas se calculan con la posición del sol y pueden variar un día. El Museo Americano de Historia Natural anuncia las tardes exactas cada primavera. Llega 30 minutos antes de la puesta de sol."
+    },
+    "year": "El año en Nueva York",
+    "status": {
+      "now": "Ahora mismo",
+      "countdown": "{days, plural, =0 {Hoy} =1 {Mañana} other {En # días}}"
+    },
+    "approximate": "las fechas varían cada año",
+    "wherePlaces": "Dónde ir",
+    "events": {
+      "cherryBlossoms": {
+        "name": "Cerezos en flor",
+        "body": "Las flores rosas llenan la Cherry Esplanade del Jardín Botánico de Brooklyn y los senderos de Central Park. La floración máxima depende del clima, normalmente en abril."
+      },
+      "manhattanhengeMay": {
+        "name": "Manhattanhenge en mayo",
+        "body": "El atardecer se alinea con las calles transversales. Elige una calle ancha con vista al oeste, hacia Nueva Jersey."
+      },
+      "beachSeason": {
+        "name": "Temporada de playa",
+        "body": "Las playas de la ciudad tienen socorristas desde el fin de semana de Memorial Day hasta Labor Day. Coney Island y Orchard Beach están a un viaje en metro."
+      },
+      "manhattanhengeJuly": {
+        "name": "Manhattanhenge en julio",
+        "body": "La segunda oportunidad del año para ver el sol ponerse entre los rascacielos."
+      },
+      "fourthOfJuly": {
+        "name": "Fuegos artificiales del 4 de julio",
+        "body": "Los fuegos de Macy's iluminan los ríos. Los puntos para verlos cambian cada año: consulta la ubicación anunciada y llega temprano."
+      },
+      "fallFoliage": {
+        "name": "Follaje de otoño",
+        "body": "Los parques se vuelven rojos y dorados, normalmente entre finales de octubre y noviembre. Los puentes de Central Park y Fort Tryon Park son vistas clásicas."
+      },
+      "marathon": {
+        "name": "Maratón de Nueva York",
+        "body": "Los corredores cruzan los cinco distritos el primer domingo de noviembre y terminan en Central Park. Anímalos en la Primera Avenida o en Brooklyn."
+      },
+      "thanksgivingParade": {
+        "name": "Desfile de Acción de Gracias",
+        "body": "Globos gigantes recorren Central Park West y la Sexta Avenida hasta Herald Square la mañana de Acción de Gracias. Llega temprano para conseguir sitio junto a la acera."
+      },
+      "holidayWindows": {
+        "name": "Escaparates y mercados navideños",
+        "body": "Los escaparates de los grandes almacenes, el árbol del Rockefeller Center y el pueblo de invierno de Bryant Park iluminan la ciudad desde Acción de Gracias hasta enero."
+      },
+      "newYearsEve": {
+        "name": "Nochevieja",
+        "body": "La bola baja en Times Square a medianoche. La multitud se reúne desde la tarde; muchos neoyorquinos prefieren verlo desde un bar o una azotea."
+      }
+    }
+  },
+  "passport": {
+    "title": "Mi pasaporte de NYC",
+    "tagline": "Sella los lugares que visitas y colecciona insignias en los cinco distritos.",
+    "stamp": "Sellar mi pasaporte",
+    "stamped": "En tu pasaporte",
+    "stampLabel": "Sellar {name} en tu pasaporte",
+    "toast": {
+      "stamped": "¡Sellado! {name} ya está en tu pasaporte.",
+      "badge": "Nueva insignia: {badges}",
+      "open": "Abrir mi pasaporte",
+      "close": "Cerrar"
+    },
+    "stamps": "{count, plural, one {sello} other {sellos}}",
+    "boroughs": "{count, plural, =0 {Ningún distrito aún} other {# de 5 distritos}}",
+    "badgesTitle": "Insignias",
+    "earned": "{count} de {total} conseguidas",
+    "progress": "{count} de {goal}",
+    "badgeEarned": "Conseguida",
+    "badgeLocked": "Aún no conseguida",
+    "badges": {
+      "firstStop": {
+        "name": "Primera parada",
+        "body": "Sellaste tu primer lugar."
+      },
+      "fiveStops": {
+        "name": "Cinco paradas",
+        "body": "Sellaste 5 lugares."
+      },
+      "regular": {
+        "name": "Habitual",
+        "body": "Sellaste 15 lugares."
+      },
+      "local": {
+        "name": "Neoyorquino honorario",
+        "body": "Sellaste 40 lugares."
+      },
+      "fiveBoroughs": {
+        "name": "Los cinco distritos",
+        "body": "Un sello en cada distrito."
+      },
+      "worldTour": {
+        "name": "Vuelta al mundo",
+        "body": "Probaste 8 cocinas distintas."
+      },
+      "museumGoer": {
+        "name": "Amante de la cultura",
+        "body": "Visitaste 3 museos o atracciones."
+      },
+      "greenSpace": {
+        "name": "Espacio verde",
+        "body": "Visitaste 3 parques o muelles."
+      },
+      "shutterbug": {
+        "name": "Fotógrafo",
+        "body": "Visitaste 3 lugares para fotos."
+      },
+      "nightOwl": {
+        "name": "Ave nocturna",
+        "body": "Visitaste 3 lugares abiertos hasta tarde."
+      },
+      "freeSpirit": {
+        "name": "Espíritu libre",
+        "body": "Visitaste 3 lugares gratis."
+      },
+      "pizzaPilgrim": {
+        "name": "Peregrino de la pizza",
+        "body": "Comiste en 3 pizzerías."
+      }
+    },
+    "visited": "Lugares que has sellado",
+    "stampedOn": "Sellado el {date}",
+    "remove": "Quitar {name} de tu pasaporte",
+    "empty": {
+      "title": "Tu pasaporte está vacío",
+      "body": "Abre cualquier lugar que visites y toca \"Sellar mi pasaporte\". Tu primer sello te da una insignia.",
+      "cta": "Buscar un lugar"
+    },
+    "share": "Compartir mi pasaporte",
+    "shareText": "He reunido {count} sellos en Nueva York con NYCrave.",
+    "copied": "Copiado al portapapeles",
+    "privacy": "Tu pasaporte se guarda solo en este dispositivo."
   }
 }

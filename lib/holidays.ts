@@ -23,10 +23,10 @@ export type Holiday = {
 }
 
 const pad = (n: number) => String(n).padStart(2, "0")
-const iso = (y: number, m: number, d: number) => `${y}-${pad(m)}-${pad(d)}`
+export const iso = (y: number, m: number, d: number) => `${y}-${pad(m)}-${pad(d)}`
 
 /** The nth given weekday (0 = Sunday) of a month; n = -1 for the last one. */
-function nthWeekday(year: number, month: number, weekday: number, n: number): string {
+export function nthWeekday(year: number, month: number, weekday: number, n: number): string {
   if (n > 0) {
     const first = new Date(Date.UTC(year, month - 1, 1)).getUTCDay()
     return iso(year, month, 1 + ((weekday - first + 7) % 7) + (n - 1) * 7)

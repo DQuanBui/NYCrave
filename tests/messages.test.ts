@@ -22,7 +22,7 @@ function leaves(tree: Tree, prefix = ""): Map<string, string | string[]> {
 // "=0 {没有地点}" is not an argument, so skip braces right after a selector.
 const args = (s: string) => [
   ...new Set(
-    [...s.matchAll(/(?<!=0 )(?<!one )(?<!other )\{([A-Za-z_]\w*)(?=[,}])/g)].map((m) => m[1]),
+    [...s.matchAll(/(?<!=\d+ )(?<!one )(?<!other )\{([A-Za-z_]\w*)(?=[,}])/g)].map((m) => m[1]),
   ),
 ]
 

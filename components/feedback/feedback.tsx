@@ -20,8 +20,12 @@ import { cn } from "@/lib/utils"
 const KEY = "nycrave:feedback:v1"
 /** The footer link asks the prompt to open the form through this event. */
 export const OPEN_FEEDBACK_EVENT = "nycrave:feedback:open"
-/** Saving a place or a day (see hooks/use-saved) counts as real use. */
-const ENGAGED_EVENTS = ["nycrave:saved:v1:change", "nycrave:days:v1:change"]
+/** Saving a place or a day, or stamping the passport, counts as real use. */
+const ENGAGED_EVENTS = [
+  "nycrave:saved:v1:change",
+  "nycrave:days:v1:change",
+  "nycrave:passport:v1:change",
+]
 /** Pages where a card would cover the page's own controls. */
 const HIDDEN_ON = ["/map", "/admin"]
 const FACES = ["😞", "🙁", "😐", "🙂", "😍"] as const
