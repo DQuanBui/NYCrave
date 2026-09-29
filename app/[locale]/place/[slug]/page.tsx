@@ -13,6 +13,7 @@ import { PlaceRail } from "@/components/place/place-rail"
 import { PlanAroundButton } from "@/components/place/plan-around-button"
 import { PriceLevel } from "@/components/place/price-level"
 import { ReportProblem } from "@/components/place/report-problem"
+import { NextNearby } from "@/components/next/next-nearby"
 import { StampButton } from "@/components/passport/stamp-button"
 import { SaveButton } from "@/components/place/save-button"
 import { SubwayList } from "@/components/place/subway-list"
@@ -309,6 +310,21 @@ export default async function PlacePage({ params }: Props) {
           ) : null}
           {reportsEnabled() ? <ReportProblem placeId={place.id} placeName={place.name} /> : null}
         </aside>
+      </div>
+
+      <div className="mx-auto max-w-7xl px-4 pb-14 lg:px-8">
+        <NextNearby
+          here={{
+            slug: place.slug,
+            name: place.name,
+            lat: place.lat,
+            lng: place.lng,
+            category: place.category,
+            drinkTypes: place.drinkTypes,
+            timeNeededMinutes: place.timeNeededMinutes,
+            neighborhoodSlug: neighborhood?.slug,
+          }}
+        />
       </div>
 
       {similar.length > 0 ? (

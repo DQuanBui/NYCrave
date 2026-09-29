@@ -26,7 +26,8 @@
     "neighborhoods": "街区",
     "map": "地图",
     "seasons": "四季",
-    "passport": "护照"
+    "passport": "护照",
+    "next": "接下来去哪"
   },
   "theme": {
     "toggle": "切换到{mode}模式",
@@ -84,7 +85,8 @@
     "kidFriendly": "带孩子",
     "instagrammable": "适合拍照",
     "freeToday": "今天免费",
-    "openNow": "正在营业"
+    "openNow": "正在营业",
+    "whatsNext": "接下来去哪？"
   },
   "home": {
     "trending": "热门",
@@ -1057,5 +1059,51 @@
     "shareText": "我用 NYCrave 在纽约收集了 {count} 个印章。",
     "copied": "已复制到剪贴板",
     "privacy": "你的护照只保存在这台设备上。"
+  },
+  "next": {
+    "title": "接下来去哪？",
+    "tagline": "步行可达、到达时仍营业的地方，根据你刚做的事来推荐。",
+    "intro": "你离开时仍营业、步行可达的地方。",
+    "afterPlace": "{name} 之后去哪",
+    "leaveAround": "大约 {time} 离开时仍营业、步行可达的地方。",
+    "whenLabel": "离开时间",
+    "whenIFinish": "结束之后",
+    "leavingNow": "现在出发",
+    "whereTitle": "你在哪里？",
+    "useLocation": "使用我的位置",
+    "locating": "正在定位…",
+    "locationDenied": "定位已关闭。请选择一个街区。",
+    "orNeighborhood": "或选择一个街区",
+    "pickNeighborhood": "选择街区",
+    "privacy": "你的位置只留在你的设备上，绝不会发送给 NYCrave。",
+    "afterTitle": "你刚刚做了什么？",
+    "after": {
+      "ate": "刚吃完饭",
+      "coffee": "喝了咖啡",
+      "drinks": "喝了酒",
+      "museum": "看了博物馆",
+      "park": "逛了公园",
+      "shopping": "逛了街",
+      "exploring": "随便逛逛"
+    },
+    "lanes": {
+      "sweet": "来点甜的",
+      "coffee": "喝杯咖啡",
+      "drinks": "喝一杯",
+      "stroll": "散散步",
+      "see": "看点什么",
+      "eat": "吃点东西",
+      "lateBite": "深夜小吃",
+      "shop": "逛逛商店"
+    },
+    "walk": "步行 {minutes} 分钟",
+    "openUntil": "营业至 {time}",
+    "openAllNight": "通宵营业",
+    "directions": "步行前往 {name} 的路线",
+    "chooseWhere": "分享位置或选择一个街区，看看接下来去哪。",
+    "emptyNear": "附近步行范围内现在没有营业的地方。试试其他街区。",
+    "emptyLater": "那时附近步行范围内没有营业的地方。试试“现在出发”。",
+    "loadError": "推荐未能加载。请检查网络后刷新页面。",
+    "more": "在“接下来去哪”查看更多"
   }
 }

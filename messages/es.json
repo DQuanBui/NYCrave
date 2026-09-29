@@ -26,7 +26,8 @@
     "neighborhoods": "Barrios",
     "map": "Mapa",
     "seasons": "Temporadas",
-    "passport": "Pasaporte"
+    "passport": "Pasaporte",
+    "next": "¿Y ahora qué?"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -84,7 +85,8 @@
     "kidFriendly": "Con niños",
     "instagrammable": "Para las fotos",
     "freeToday": "Gratis hoy",
-    "openNow": "Abierto ahora"
+    "openNow": "Abierto ahora",
+    "whatsNext": "¿Y ahora qué?"
   },
   "home": {
     "trending": "Tendencia",
@@ -1057,5 +1059,51 @@
     "shareText": "He reunido {count} sellos en Nueva York con NYCrave.",
     "copied": "Copiado al portapapeles",
     "privacy": "Tu pasaporte se guarda solo en este dispositivo."
+  },
+  "next": {
+    "title": "¿Y ahora qué?",
+    "tagline": "Lugares a poca distancia a pie, abiertos cuando llegues, elegidos según lo que acabas de hacer.",
+    "intro": "Lugares a pie que estarán abiertos cuando salgas.",
+    "afterPlace": "¿Y después de {name}?",
+    "leaveAround": "Lugares a pie que siguen abiertos si sales hacia las {time}.",
+    "whenLabel": "Cuándo sales",
+    "whenIFinish": "Cuando termine",
+    "leavingNow": "Salgo ya",
+    "whereTitle": "¿Dónde estás?",
+    "useLocation": "Usar mi ubicación",
+    "locating": "Buscándote…",
+    "locationDenied": "La ubicación está desactivada. Elige un barrio.",
+    "orNeighborhood": "O elige un barrio",
+    "pickNeighborhood": "Elige un barrio",
+    "privacy": "Tu ubicación se queda en tu dispositivo. Nunca se envía a NYCrave.",
+    "afterTitle": "¿Qué acabas de hacer?",
+    "after": {
+      "ate": "Acabo de comer",
+      "coffee": "Tomé un café",
+      "drinks": "Tomé algo",
+      "museum": "Vi un museo",
+      "park": "Paseé por un parque",
+      "shopping": "Fui de compras",
+      "exploring": "Solo explorando"
+    },
+    "lanes": {
+      "sweet": "Algo dulce",
+      "coffee": "Un café",
+      "drinks": "Una copa",
+      "stroll": "Un paseo",
+      "see": "Algo que ver",
+      "eat": "Algo de comer",
+      "lateBite": "Para comer tarde",
+      "shop": "De tiendas"
+    },
+    "walk": "{minutes} min a pie",
+    "openUntil": "Abierto hasta las {time}",
+    "openAllNight": "Abierto toda la noche",
+    "directions": "Cómo llegar a pie a {name}",
+    "chooseWhere": "Comparte tu ubicación o elige un barrio para ver qué hacer después.",
+    "emptyNear": "No hay nada abierto a poca distancia ahora mismo. Prueba otro barrio.",
+    "emptyLater": "No habrá nada abierto a poca distancia a esa hora. Prueba \"Salgo ya\".",
+    "loadError": "No se cargaron las sugerencias. Revisa tu conexión y recarga la página.",
+    "more": "Más ideas en ¿Y ahora qué?"
   }
 }

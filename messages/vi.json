@@ -26,7 +26,8 @@
     "neighborhoods": "Khu phố",
     "map": "Bản đồ",
     "seasons": "Mùa lễ hội",
-    "passport": "Hộ chiếu"
+    "passport": "Hộ chiếu",
+    "next": "Đi đâu tiếp"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",
@@ -84,7 +85,8 @@
     "kidFriendly": "Đi cùng trẻ em",
     "instagrammable": "Để chụp ảnh",
     "freeToday": "Miễn phí hôm nay",
-    "openNow": "Đang mở cửa"
+    "openNow": "Đang mở cửa",
+    "whatsNext": "Đi đâu tiếp?"
   },
   "home": {
     "trending": "Đang thịnh hành",
@@ -1057,5 +1059,51 @@
     "shareText": "Tôi đã sưu tầm {count} con dấu ở New York cùng NYCrave.",
     "copied": "Đã sao chép",
     "privacy": "Hộ chiếu chỉ được lưu trên thiết bị này."
+  },
+  "next": {
+    "title": "Đi đâu tiếp?",
+    "tagline": "Những nơi chỉ cách vài bước chân, vẫn mở cửa khi bạn đến, hợp với điều bạn vừa làm.",
+    "intro": "Những nơi đi bộ tới được và vẫn mở khi bạn rời đi.",
+    "afterPlace": "Đi đâu tiếp sau {name}",
+    "leaveAround": "Những nơi đi bộ tới được, vẫn mở khi bạn rời đi lúc khoảng {time}.",
+    "whenLabel": "Khi bạn rời đi",
+    "whenIFinish": "Khi tôi xong",
+    "leavingNow": "Đi ngay bây giờ",
+    "whereTitle": "Bạn đang ở đâu?",
+    "useLocation": "Dùng vị trí của tôi",
+    "locating": "Đang tìm vị trí…",
+    "locationDenied": "Vị trí đang tắt. Hãy chọn một khu phố.",
+    "orNeighborhood": "Hoặc chọn một khu phố",
+    "pickNeighborhood": "Chọn khu phố",
+    "privacy": "Vị trí của bạn chỉ ở trên thiết bị. Không bao giờ được gửi đến NYCrave.",
+    "afterTitle": "Bạn vừa làm gì?",
+    "after": {
+      "ate": "Vừa ăn xong",
+      "coffee": "Vừa uống cà phê",
+      "drinks": "Vừa đi nhậu",
+      "museum": "Vừa xem bảo tàng",
+      "park": "Vừa dạo công viên",
+      "shopping": "Vừa mua sắm",
+      "exploring": "Đang khám phá"
+    },
+    "lanes": {
+      "sweet": "Món ngọt",
+      "coffee": "Nghỉ uống cà phê",
+      "drinks": "Một ly",
+      "stroll": "Đi dạo",
+      "see": "Tham quan",
+      "eat": "Ăn chút gì",
+      "lateBite": "Ăn khuya",
+      "shop": "Dạo cửa hàng"
+    },
+    "walk": "{minutes} phút đi bộ",
+    "openUntil": "Mở đến {time}",
+    "openAllNight": "Mở cả đêm",
+    "directions": "Chỉ đường đi bộ đến {name}",
+    "chooseWhere": "Chia sẻ vị trí hoặc chọn một khu phố để xem nên đi đâu tiếp.",
+    "emptyNear": "Không có nơi nào gần đây đang mở. Hãy thử khu phố khác.",
+    "emptyLater": "Không có nơi nào gần đây còn mở lúc đó. Hãy thử \"Đi ngay bây giờ\".",
+    "loadError": "Không tải được gợi ý. Hãy kiểm tra kết nối và tải lại trang.",
+    "more": "Thêm gợi ý ở trang Đi đâu tiếp"
   }
 }

@@ -26,7 +26,8 @@
     "neighborhoods": "Neighborhoods",
     "map": "Map",
     "seasons": "Seasons",
-    "passport": "Passport"
+    "passport": "Passport",
+    "next": "What's next"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -84,7 +85,8 @@
     "kidFriendly": "With kids",
     "instagrammable": "For the photos",
     "freeToday": "Free today",
-    "openNow": "Open now"
+    "openNow": "Open now",
+    "whatsNext": "What's next?"
   },
   "home": {
     "trending": "Trending",
@@ -1057,5 +1059,51 @@
     "shareText": "I've collected {count} stamps in New York City with NYCrave.",
     "copied": "Copied to your clipboard",
     "privacy": "Your passport is saved on this device only."
+  },
+  "next": {
+    "title": "What's next?",
+    "tagline": "Places a short walk away, open when you get there, picked for what you just did.",
+    "intro": "Walkable places that will be open when you leave.",
+    "afterPlace": "What's next after {name}",
+    "leaveAround": "Walkable places still open when you leave around {time}.",
+    "whenLabel": "When you leave",
+    "whenIFinish": "When I finish",
+    "leavingNow": "Leaving now",
+    "whereTitle": "Where are you?",
+    "useLocation": "Use my location",
+    "locating": "Finding you…",
+    "locationDenied": "Location is off. Pick a neighborhood instead.",
+    "orNeighborhood": "Or pick a neighborhood",
+    "pickNeighborhood": "Choose a neighborhood",
+    "privacy": "Your location stays on your device. It is never sent to NYCrave.",
+    "afterTitle": "What did you just do?",
+    "after": {
+      "ate": "Just ate",
+      "coffee": "Had coffee",
+      "drinks": "Had drinks",
+      "museum": "Saw a museum",
+      "park": "Walked a park",
+      "shopping": "Went shopping",
+      "exploring": "Just exploring"
+    },
+    "lanes": {
+      "sweet": "Something sweet",
+      "coffee": "Coffee break",
+      "drinks": "A drink",
+      "stroll": "Take a walk",
+      "see": "See something",
+      "eat": "Grab a bite",
+      "lateBite": "Late-night bite",
+      "shop": "Browse the shops"
+    },
+    "walk": "{minutes} min walk",
+    "openUntil": "Open until {time}",
+    "openAllNight": "Open all night",
+    "directions": "Walking directions to {name}",
+    "chooseWhere": "Share your location or pick a neighborhood to see what's next.",
+    "emptyNear": "Nothing within a short walk is open right now. Try another neighborhood.",
+    "emptyLater": "Nothing within a short walk will be open then. Try \"Leaving now\".",
+    "loadError": "Suggestions didn't load. Check your connection and refresh the page.",
+    "more": "More ideas on What's next"
   }
 }

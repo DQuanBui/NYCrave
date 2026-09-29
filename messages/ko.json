@@ -26,7 +26,8 @@
     "neighborhoods": "동네",
     "map": "지도",
     "seasons": "계절 이벤트",
-    "passport": "여권"
+    "passport": "여권",
+    "next": "다음 행선지"
   },
   "theme": {
     "toggle": "{mode} 모드로 전환",
@@ -84,7 +85,8 @@
     "kidFriendly": "아이와 함께",
     "instagrammable": "사진 찍기 좋은 곳",
     "freeToday": "오늘 무료",
-    "openNow": "영업 중"
+    "openNow": "영업 중",
+    "whatsNext": "다음엔 어디?"
   },
   "home": {
     "trending": "인기",
@@ -1057,5 +1059,51 @@
     "shareText": "NYCrave와 함께 뉴욕에서 도장 {count}개를 모았어요.",
     "copied": "클립보드에 복사됨",
     "privacy": "여권은 이 기기에만 저장됩니다."
+  },
+  "next": {
+    "title": "다음엔 어디?",
+    "tagline": "걸어서 금방이고 도착했을 때 열려 있는 곳을, 방금 한 일에 맞춰 골라 드려요.",
+    "intro": "떠날 때 열려 있고 걸어갈 수 있는 곳.",
+    "afterPlace": "{name} 다음엔 어디로",
+    "leaveAround": "{time}쯤 떠날 때 열려 있고 걸어갈 수 있는 곳.",
+    "whenLabel": "떠나는 시간",
+    "whenIFinish": "다 끝나면",
+    "leavingNow": "지금 출발",
+    "whereTitle": "지금 어디에 있나요?",
+    "useLocation": "내 위치 사용",
+    "locating": "위치 찾는 중…",
+    "locationDenied": "위치가 꺼져 있어요. 동네를 골라 주세요.",
+    "orNeighborhood": "또는 동네 선택",
+    "pickNeighborhood": "동네를 고르세요",
+    "privacy": "위치는 기기에만 남고 NYCrave로 전송되지 않아요.",
+    "afterTitle": "방금 무엇을 했나요?",
+    "after": {
+      "ate": "식사 끝",
+      "coffee": "커피 마심",
+      "drinks": "한잔함",
+      "museum": "박물관 관람",
+      "park": "공원 산책",
+      "shopping": "쇼핑함",
+      "exploring": "그냥 둘러보는 중"
+    },
+    "lanes": {
+      "sweet": "달콤한 디저트",
+      "coffee": "커피 한잔",
+      "drinks": "한잔 더",
+      "stroll": "산책",
+      "see": "구경거리",
+      "eat": "간단히 한 끼",
+      "lateBite": "야식",
+      "shop": "쇼핑"
+    },
+    "walk": "도보 {minutes}분",
+    "openUntil": "{time}까지 영업",
+    "openAllNight": "밤새 영업",
+    "directions": "{name}까지 도보 길찾기",
+    "chooseWhere": "위치를 공유하거나 동네를 골라 다음 행선지를 확인하세요.",
+    "emptyNear": "지금 걸어갈 만한 거리에 열린 곳이 없어요. 다른 동네를 골라 보세요.",
+    "emptyLater": "그 시간에 걸어갈 만한 거리에 열린 곳이 없어요. \"지금 출발\"을 눌러 보세요.",
+    "loadError": "추천을 불러오지 못했어요. 연결을 확인하고 새로고침하세요.",
+    "more": "다음 행선지에서 더 보기"
   }
 }
