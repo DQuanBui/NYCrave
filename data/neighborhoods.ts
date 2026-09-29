@@ -17,6 +17,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lat: 40.7075,
     lng: -74.0113,
   },
+  {
+    slug: "governors-island",
+    name: "Governors Island",
+    borough: "manhattan",
+    lat: 40.6894,
+    lng: -74.0167,
+  },
   { slug: "tribeca", name: "Tribeca", borough: "manhattan", lat: 40.7163, lng: -74.0086 },
   { slug: "chinatown", name: "Chinatown", borough: "manhattan", lat: 40.7158, lng: -73.997 },
   {
@@ -114,6 +121,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "bushwick", name: "Bushwick", borough: "brooklyn", lat: 40.6944, lng: -73.9213 },
   { slug: "sunset-park", name: "Sunset Park", borough: "brooklyn", lat: 40.6455, lng: -74.0124 },
   { slug: "bay-ridge", name: "Bay Ridge", borough: "brooklyn", lat: 40.6264, lng: -74.0299 },
+  { slug: "coney-island", name: "Coney Island", borough: "brooklyn", lat: 40.5755, lng: -73.9707 },
   { slug: "flushing", name: "Flushing", borough: "queens", lat: 40.758, lng: -73.8303 },
   {
     slug: "flushing-meadows",
@@ -139,8 +147,10 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9485,
   },
   { slug: "belmont", name: "Belmont", borough: "bronx", lat: 40.8551, lng: -73.8876 },
+  { slug: "riverdale", name: "Riverdale", borough: "bronx", lat: 40.8997, lng: -73.9126 },
   { slug: "bronx-park", name: "Bronx Park", borough: "bronx", lat: 40.8575, lng: -73.8766 },
   { slug: "mott-haven", name: "Mott Haven", borough: "bronx", lat: 40.8091, lng: -73.9229 },
+  { slug: "pelham-bay", name: "Pelham Bay", borough: "bronx", lat: 40.8651, lng: -73.8078 },
   { slug: "st-george", name: "St. George", borough: "staten_island", lat: 40.6437, lng: -74.0765 },
 ]
 

@@ -64,7 +64,9 @@ describe("home page links lead somewhere", () => {
     const results = searchPlaces(places, "museums")
     expect(results.length).toBeGreaterThanOrEqual(4)
     for (const p of results) {
-      expect([p.name, ...p.mustTry].join(" ").toLowerCase(), p.slug).toContain("museum")
+      expect([p.name, p.editorialTake, ...p.mustTry].join(" ").toLowerCase(), p.slug).toContain(
+        "museum",
+      )
     }
   })
 })

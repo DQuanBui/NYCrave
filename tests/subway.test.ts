@@ -59,5 +59,6 @@ describe("service days", () => {
         expect(["B", "W", "Z"]).not.toContain(leg?.direct)
       }
     }
-  })
+    // Every pair of places: slow, and it grows with the dataset
+  }, 30_000)
 })

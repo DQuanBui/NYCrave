@@ -1202,5 +1202,802 @@
     "verificationNotes": "Checked 2026-09-27: hours (Tuesday to Sunday, 10 AM to 6 PM, plus select Monday holidays) and grounds prices from nybg.org. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.86224,
     "lng": -73.87715
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/governors-island-1.jpg",
+        "alt": "A path on The Hills with the Statue of Liberty across the water",
+        "width": 1100,
+        "height": 524,
+        "source": "other",
+        "attribution": {
+          "text": "Rhododendrites, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Governors_Island_(71986).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/governors-island-2.jpg",
+        "alt": "Governors Island from the air, with the Statue of Liberty beyond",
+        "width": 1100,
+        "height": 856,
+        "source": "other",
+        "attribution": {
+          "text": "Kailash U, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Aerial_View_Of_Governors_Island_Sunset_Statue_Of_Liberty_(256846963)_(cropped).jpeg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["The view of the Statue of Liberty from The Hills", "A lazy hour in Hammock Grove"],
+    "vibeTags": ["outdoor", "kid_friendly", "local_favorite", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: \"open daily year-round\" and today's hours (7 AM to 6 PM) from govisland.com. Hours change with the season. The ferry has a small fare; check govisland.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-governors-island",
+    "slug": "governors-island",
+    "name": "Governors Island",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Governors Island",
+    "address": "Governors Island ferry, 10 South St, Slip 7, New York, NY 10004",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "Biking on car-free paths",
+        "The Hills lookout",
+        "Hammock Grove",
+        "Public art"
+      ],
+      "amenities": ["Bike rentals", "Food vendors", "Restrooms"],
+      "seasonalNotes": "Longer hours and more events in summer."
+    },
+    "editorialTake": "A car-free island a short ferry ride from Lower Manhattan, with hammocks, bike paths, hills built for the view and old army houses. Feels like a vacation in the harbor.",
+    "bestTimeToVisit": "A sunny weekend",
+    "timeNeededMinutes": 180,
+    "trendingScore": 82,
+    "website": "https://www.govisland.com",
+    "lat": 40.6894,
+    "lng": -74.0167
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/wave-hill-1.jpg",
+        "alt": "The pergola at Wave Hill, framed by gardens",
+        "width": 1100,
+        "height": 660,
+        "source": "other",
+        "attribution": {
+          "text": "Andre Carrotflower, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wave_Hill_-_20220616_-_47_-_Monocot_Garden_and_pergola.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/wave-hill-2.jpg",
+        "alt": "Wave Hill's flower garden and conservatory",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Andre Carrotflower, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wave_Hill_-_20220616_-_59_-_Flower_Garden_and_Marco_Polo_Stufano_Conservatory.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The pergola overlooking the Hudson", "The flower garden"],
+    "vibeTags": ["quiet", "outdoor", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address, hours (Tuesday to Sunday, 10 AM to 5:30 PM) and admission from wavehill.org/visit. Last entry 30 minutes before closing. Closed Mondays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-wave-hill",
+    "slug": "wave-hill",
+    "name": "Wave Hill",
+    "category": "park_pier",
+    "borough": "bronx",
+    "neighborhood": "Riverdale",
+    "address": "4900 Independence Ave, Bronx, NY 10471",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:30"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 10,
+        "max": 10
+      },
+      "bookingUrl": "https://www.wavehill.org/visit",
+      "notes": "Adults $10; students and seniors 65+ $6; children 6+ $4."
+    },
+    "park": {
+      "activities": [
+        "Gardens and greenhouses",
+        "Art in Glyndor Gallery",
+        "Views of the Hudson and the Palisades"
+      ],
+      "amenities": ["Café", "Shop", "Restrooms"]
+    },
+    "editorialTake": "A 28-acre public garden on a Bronx estate above the Hudson, with a pergola facing the Palisades cliffs. One of the calmest places in the city.",
+    "bestTimeToVisit": "A weekday morning",
+    "timeNeededMinutes": 120,
+    "trendingScore": 58,
+    "website": "https://www.wavehill.org",
+    "lat": 40.89794,
+    "lng": -73.91122
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-battery-1.jpg",
+        "alt": "The fish-shaped SeaGlass Carousel in The Battery",
+        "width": 1100,
+        "height": 624,
+        "source": "other",
+        "attribution": {
+          "text": "Rhododendrites, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:SeaGlass_Carousel_at_Battery_Park_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/the-battery-2.jpg",
+        "alt": "Garden paths in The Battery",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Tdorante10, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Battery_Park_td_(2019-08-10)_011_-_SeaGlass_Carousel.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A ride on the fish-shaped SeaGlass Carousel", "The harbor promenade at sunset"],
+    "vibeTags": ["outdoor", "kid_friendly", "tourist_classic"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). The Battery Conservancy says the park is open every day of the year. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-the-battery",
+    "slug": "the-battery",
+    "name": "The Battery",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "State St and Battery Pl, New York, NY 10004",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "Harbor views",
+        "SeaGlass Carousel",
+        "Perennial gardens",
+        "Ferries to the Statue of Liberty"
+      ],
+      "amenities": ["Restrooms", "Food kiosks"]
+    },
+    "editorialTake": "The green tip of Manhattan, where the ferries to the Statue of Liberty leave. Gardens, a glowing fish carousel and a long waterfront promenade.",
+    "bestTimeToVisit": "Late afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 66,
+    "website": "https://www.thebattery.org",
+    "lat": 40.7033,
+    "lng": -74.017
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/riverside-park-1.jpg",
+        "alt": "The Hudson River from Riverside Park",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Riverside_Park_View.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Sunset over the Hudson", "Cherry Walk in April"],
+    "vibeTags": ["outdoor", "quiet", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-riverside-park",
+    "slug": "riverside-park",
+    "name": "Riverside Park",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "Riverside Dr from W 72nd St to W 158th St, New York, NY 10024",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "Hudson River walks and bike paths",
+        "Cherry Walk",
+        "Riverside Park South piers"
+      ],
+      "amenities": ["Playgrounds", "Restrooms", "Sports courts"]
+    },
+    "editorialTake": "Four miles of terraced park along the Hudson, quieter than Central Park, with river paths, playgrounds and big sunsets over New Jersey.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 60,
+    "trendingScore": 58,
+    "website": "https://www.nycgovparks.org/parks/riverside-park",
+    "lat": 40.8008,
+    "lng": -73.9719
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/fort-tryon-park-1.jpg",
+        "alt": "The Heather Garden in Fort Tryon Park in bloom",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:2014_Fort_Tryon_Park_Heather_Garden.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The Heather Garden", "The view from Linden Terrace"],
+    "vibeTags": ["outdoor", "quiet", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-fort-tryon-park",
+    "slug": "fort-tryon-park",
+    "name": "Fort Tryon Park",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Washington Heights",
+    "address": "Riverside Dr to Broadway, W 192nd St to Dyckman St, New York, NY 10040",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "Heather Garden",
+        "Linden Terrace views of the Hudson",
+        "Walk to The Met Cloisters"
+      ],
+      "amenities": ["Café", "Restrooms", "Playgrounds"]
+    },
+    "editorialTake": "A hilltop park at the north end of Manhattan with a famous heather garden and wide Hudson views. The Met Cloisters sits inside it.",
+    "bestTimeToVisit": "A weekend morning",
+    "timeNeededMinutes": 75,
+    "trendingScore": 56,
+    "website": "https://www.nycgovparks.org/parks/fort-tryon-park",
+    "lat": 40.8621,
+    "lng": -73.9322
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/unisphere-1.jpg",
+        "alt": "The Unisphere in Flushing Meadows Corona Park",
+        "width": 1100,
+        "height": 1143,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Unisphere_in_summer.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The Unisphere fountains in summer", "A pedal boat on Meadow Lake"],
+    "vibeTags": ["outdoor", "kid_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-flushing-meadows-corona-park",
+    "slug": "flushing-meadows-corona-park",
+    "name": "Flushing Meadows Corona Park",
+    "category": "park_pier",
+    "borough": "queens",
+    "neighborhood": "Flushing Meadows",
+    "address": "Grand Central Pkwy to Van Wyck Expy, Queens, NY 11368",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "The Unisphere",
+        "Meadow Lake boating",
+        "Biking and picnics",
+        "Queens Museum and Hall of Science"
+      ],
+      "amenities": ["Restrooms", "Sports fields", "Playgrounds"]
+    },
+    "editorialTake": "Queens' biggest park and the site of two World's Fairs, with the Unisphere, museums, a lake and fields full of weekend soccer games.",
+    "bestTimeToVisit": "A summer weekend",
+    "timeNeededMinutes": 120,
+    "trendingScore": 62,
+    "website": "https://www.nycgovparks.org/parks/flushing-meadows-corona-park",
+    "lat": 40.7397,
+    "lng": -73.8408
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/pelham-bay-park-1.jpg",
+        "alt": "Orchard Beach curving along Long Island Sound in Pelham Bay Park",
+        "width": 1100,
+        "height": 618,
+        "source": "other",
+        "attribution": {
+          "text": "Bebo2good1, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Orchard_Beach_-_Pelham_Bay_Park_-_The_Bronx.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/pelham-bay-park-2.jpg",
+        "alt": "Rocks and marsh grass on the shore of Pelham Bay Park",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Peter Romano, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Pelhambay1.jpg",
+          "license": "Public domain"
+        }
+      }
+    ],
+    "mustTry": ["Orchard Beach, the Bronx Riviera", "The Kazimiroff Nature Trail"],
+    "vibeTags": ["outdoor", "kid_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-pelham-bay-park",
+    "slug": "pelham-bay-park",
+    "name": "Pelham Bay Park",
+    "category": "park_pier",
+    "borough": "bronx",
+    "neighborhood": "Pelham Bay",
+    "address": "Bruckner Blvd and Wilkinson Ave, Bronx, NY 10461",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": ["Orchard Beach", "Hiking and birding", "Bartow-Pell Mansion", "Golf courses"],
+      "amenities": ["Restrooms", "Concessions at Orchard Beach"],
+      "seasonalNotes": "Orchard Beach has lifeguards from late May to early September."
+    },
+    "editorialTake": "The city's largest park, more than three times the size of Central Park, with the crescent-shaped Orchard Beach, salt marshes and woodland trails.",
+    "bestTimeToVisit": "A summer beach day",
+    "timeNeededMinutes": 180,
+    "trendingScore": 52,
+    "website": "https://www.nycgovparks.org/parks/pelham-bay-park",
+    "lat": 40.8651,
+    "lng": -73.8078
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/coney-island-beach-and-boardwalk-1.jpg",
+        "alt": "The Coney Island boardwalk with the Wonder Wheel in the distance",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Epicgenius, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Coney_Island_Brooklyn_Jul_2019_70.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/coney-island-beach-and-boardwalk-2.jpg",
+        "alt": "The Wonder Wheel at Coney Island",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Wonder_Wheel_Coney_Island_003.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A hot dog on the boardwalk", "The Wonder Wheel at dusk"],
+    "vibeTags": ["outdoor", "kid_friendly", "tourist_classic", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-coney-island-boardwalk",
+    "slug": "coney-island-beach-and-boardwalk",
+    "name": "Coney Island Beach & Boardwalk",
+    "category": "park_pier",
+    "borough": "brooklyn",
+    "neighborhood": "Coney Island",
+    "address": "Riegelmann Boardwalk at W 10th St, Brooklyn, NY 11224",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "Beach and swimming (summer)",
+        "The Wonder Wheel and Luna Park nearby",
+        "Walking the boardwalk"
+      ],
+      "amenities": ["Restrooms", "Food stands", "Lifeguards in summer"],
+      "seasonalNotes": "Lifeguards from late May to early September. Amusement parks keep their own seasonal hours."
+    },
+    "editorialTake": "New York's classic beach day: three miles of sand, a wooden boardwalk, old-school rides and hot dogs, at the end of four subway lines.",
+    "bestTimeToVisit": "A summer afternoon",
+    "timeNeededMinutes": 180,
+    "trendingScore": 76,
+    "website": "https://www.nycgovparks.org/parks/coney-island-beach-and-boardwalk",
+    "lat": 40.5724,
+    "lng": -73.9803
   }
 ]

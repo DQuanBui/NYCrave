@@ -937,5 +937,242 @@
     "verificationNotes": "Checked 2026-09-27: address and hours from seycoffee.com/pages/cafe. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.70542,
     "lng": -73.93238
+  },
+  {
+    "photos": [],
+    "mustTry": ["A classic martini", "Live piano in the evening"],
+    "vibeTags": ["date_night", "tourist_classic", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: hours from the Carlyle's Bemelmans Bar page on rosewoodhotels.com. There is a dress code. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-bemelmans-bar",
+    "slug": "bemelmans-bar",
+    "name": "Bemelmans Bar",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "The Carlyle, 35 E 76th St, New York, NY 10021",
+    "priceLevel": 4,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "00:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "00:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "00:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "A gilded piano bar in the Carlyle hotel, its walls painted by Madeline author Ludwig Bemelmans. Old New York at its most glamorous; dress the part.",
+    "bestTimeToVisit": "Early evening, before the music charge",
+    "timeNeededMinutes": 75,
+    "trendingScore": 80,
+    "website": "https://www.rosewoodhotels.com/en/the-carlyle-new-york/dining/bemelmans-bar",
+    "lat": 40.77425,
+    "lng": -73.96299
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-campbell-grand-central-1.jpg",
+        "alt": "The Campbell's grand room with its painted ceiling and tall leaded window",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "TheCatalyst31, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Campbell_Apartment_dining_area,_Grand_Central_Terminal_03.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/the-campbell-grand-central-2.jpg",
+        "alt": "The Campbell's entrance at 15 Vanderbilt Avenue",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "TheCatalyst31, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Campbell_Apartment_entrance,_Grand_Central_Terminal,_October_2025.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A cocktail under the painted ceiling"],
+    "vibeTags": ["date_night", "tourist_classic", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (noon to 2 AM daily; kitchen to midnight) from thecampbellnyc.com. Smart casual to business attire requested. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-the-campbell",
+    "slug": "the-campbell-grand-central",
+    "name": "The Campbell",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "15 Vanderbilt Ave, New York, NY 10017",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A 1920s tycoon's office inside Grand Central, restored as a grand cocktail lounge with a hand-painted ceiling and a leaded glass window.",
+    "bestTimeToVisit": "Before a train, or after work",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://www.thecampbellnyc.com",
+    "lat": 40.75281,
+    "lng": -73.97718
+  },
+  {
+    "photos": [],
+    "mustTry": ["A Negroni", "Garibaldi (Campari and fluffy orange juice)"],
+    "vibeTags": ["date_night", "local_favorite", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours from dante-nyc.com (MacDougal Street location page). Opens at noon on weekdays and 10 AM on weekends; food until 11 PM Sunday to Wednesday and midnight Thursday to Saturday. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-dante",
+    "slug": "dante-west-village",
+    "name": "Dante",
+    "category": "drink",
+    "drinkTypes": ["cocktails", "coffee"],
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "79-81 MacDougal St, New York, NY 10012",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A century-old Village café reborn as one of the world's best bars, famous for its Negronis and Garibaldis. Great from lunch to late.",
+    "bestTimeToVisit": "Aperitivo hour",
+    "timeNeededMinutes": 75,
+    "trendingScore": 84,
+    "website": "https://www.dante-nyc.com",
+    "lat": 40.72879,
+    "lng": -74.00166
   }
 ]

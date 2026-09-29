@@ -1455,5 +1455,362 @@
     "verificationNotes": "Checked 2026-09-27: hours from intrepidmuseum.org/plan-your-visit; ticket range from the museum's ticketing pages. Last entry one hour before closing. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.76453,
     "lng": -73.99962
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/summit-one-vanderbilt-1.jpg",
+        "alt": "SUMMIT's mirrored rooms reflecting visitors and the Empire State Building",
+        "width": 1100,
+        "height": 695,
+        "source": "other",
+        "attribution": {
+          "text": "Corsario CL, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Summit_One_Vanderbilt_0.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/summit-one-vanderbilt-2.jpg",
+        "alt": "One Vanderbilt rising above East 42nd Street",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Gaiusahala, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:One_Vanderbilt_42_Street.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "The mirrored Transcendence rooms",
+      "The glass Levitation ledges",
+      "Sunset from the outdoor terrace"
+    ],
+    "vibeTags": ["instagrammable", "date_night", "tourist_classic", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: hours (8 AM to midnight daily, last entry 10:30 PM) and address from summitov.com. Enter from the transit hall in Grand Central Terminal. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-summit-one-vanderbilt",
+    "slug": "summit-one-vanderbilt",
+    "name": "SUMMIT One Vanderbilt",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "45 E 42nd St, New York, NY 10017",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "An observation deck on top of One Vanderbilt, next to Grand Central, where mirrored rooms turn the skyline into an art installation. Wear trousers: the floors are mirrors.",
+    "bestTimeToVisit": "An hour before sunset",
+    "timeNeededMinutes": 90,
+    "trendingScore": 88,
+    "website": "https://summitov.com",
+    "lat": 40.75297,
+    "lng": -73.97854
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/one-world-observatory-1.jpg",
+        "alt": "Midtown Manhattan seen from the One World Observatory",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Midtown_Manhattan_skyline_from_the_One_World_Observatory,_New_York_City.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/one-world-observatory-2.jpg",
+        "alt": "Visitors at the observatory's floor-to-ceiling windows",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_of_the_One_World_Observatory_with_visitors_backlit_against_the_windows,_New_York_City.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "The 47-second elevator ride through the city's history",
+      "The view south over the harbor"
+    ],
+    "vibeTags": ["tourist_classic", "rainy_day", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (9 AM to 9 PM daily) from oneworldobservatory.com. Hours change seasonally. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-one-world-observatory",
+    "slug": "one-world-observatory",
+    "name": "One World Observatory",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "117 West St, New York, NY 10007",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "The observatory on floors 100 to 102 of One World Trade Center, the tallest building in the Western Hemisphere. Pair it with the 9/11 Memorial next door.",
+    "bestTimeToVisit": "A clear weekday morning",
+    "timeNeededMinutes": 75,
+    "trendingScore": 78,
+    "website": "https://www.oneworldobservatory.com",
+    "lat": 40.713,
+    "lng": -74.01319
+  },
+  {
+    "photos": [],
+    "mustTry": ["Vermeer's paintings", "The Garden Court", "The newly opened second-floor rooms"],
+    "vibeTags": ["quiet", "rainy_day", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address, hours and admission from frick.org/visit. Closed Tuesdays. Photography is not allowed in the galleries. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-frick-collection",
+    "slug": "the-frick-collection",
+    "name": "The Frick Collection",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "1 E 70th St, New York, NY 10021",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "17:30"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 30,
+        "max": 30
+      },
+      "bookingUrl": "https://www.frick.org/visit",
+      "notes": "Adults $30. Pay what you wish on Wednesdays from 1:30 to 5:30 PM."
+    },
+    "editorialTake": "Old Masters in a Gilded Age mansion on Fifth Avenue, shown as a home rather than a gallery, with no wall labels. Calm, intimate and beautifully restored.",
+    "bestTimeToVisit": "Wednesday afternoon (pay what you wish)",
+    "timeNeededMinutes": 120,
+    "trendingScore": 74,
+    "website": "https://www.frick.org",
+    "lat": 40.77126,
+    "lng": -73.96717
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/new-york-hall-of-science-1.jpg",
+        "alt": "The New York Hall of Science entrance in Flushing Meadows",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Ajay Suresh from New York, NY, USA, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_Hall_of_Science_(48613180593).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/new-york-hall-of-science-2.jpg",
+        "alt": "The mirror-lined exhibit hall inside the museum",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "MusikAnimal, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Hall_of_Mirrors_in_the_New_York_Hall_of_Science.JPG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Hands-on science exhibits", "The Science Playground (seasonal)"],
+    "vibeTags": ["kid_friendly", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: hours (Wednesday to Sunday, 10 AM to 5 PM, last entry 4 PM) from nysci.org/visit. The site noted a temporary closure until Saturday, October 3, 2026. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-new-york-hall-of-science",
+    "slug": "new-york-hall-of-science",
+    "name": "New York Hall of Science",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Flushing Meadows",
+    "address": "47-01 111th St, Corona, NY 11368",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A hands-on science museum built for the 1964 World's Fair, with hundreds of exhibits kids can touch. Easy to combine with the Unisphere.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 150,
+    "trendingScore": 60,
+    "website": "https://nysci.org",
+    "lat": 40.74738,
+    "lng": -73.85161
   }
 ]

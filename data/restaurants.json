@@ -7278,5 +7278,118 @@
     "website": "https://www.masalawala.com",
     "lat": 40.67124,
     "lng": -73.98427
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/julianas-pizza-dumbo-1.jpg",
+        "alt": "Juliana's storefront on Old Fulton Street",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "(User:Wgreaves), CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Juliana%27s_Pizza,_19_Old_Fulton_Street,_Brooklyn_NY.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Classic margherita", "White pie"],
+    "vibeTags": ["tourist_classic", "group_friendly", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (11:30 AM to 3:15 PM and 4 to 9 PM daily) from julianaspizza.com. Closed Thanksgiving Eve and Day, Christmas Eve and Day. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-julianas-pizza",
+    "slug": "julianas-pizza-dumbo",
+    "name": "Juliana's",
+    "category": "restaurant",
+    "cuisines": ["italian", "american"],
+    "dishTypes": ["pizza"],
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "19 Old Fulton St, Brooklyn, NY 11201",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "15:15"
+        },
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "15:15"
+        },
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "15:15"
+        },
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "15:15"
+        },
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "15:15"
+        },
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "15:15"
+        },
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "15:15"
+        },
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Coal-oven pizza under the Brooklyn Bridge from Patsy Grimaldi, the pizzaiolo behind the original Grimaldi's. Pair it with a walk across the bridge.",
+    "bestTimeToVisit": "Late lunch on a weekday",
+    "timeNeededMinutes": 60,
+    "trendingScore": 80,
+    "website": "https://julianaspizza.com",
+    "lat": 40.70274,
+    "lng": -73.99343
   }
 ]

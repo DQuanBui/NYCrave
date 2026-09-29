@@ -910,5 +910,594 @@
     "verificationNotes": "Checked 2026-09-27: public waterfront esplanade, open at all times. Background from the 9/11 Memorial & Museum's memorials registry. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.64394,
     "lng": -74.07303
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bow-bridge-central-park-1.jpg",
+        "alt": "Bow Bridge over the Lake in Central Park, with skyscrapers behind",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bow_Bridge_with_the_Central_Park_South_skyline,_Central_Park,_Manhattan,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/bow-bridge-central-park-2.jpg",
+        "alt": "Bow Bridge among autumn trees, with the San Remo's towers",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Superbass, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:2024-11-19-Bow_Bridge_(Central_Park)-0644.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "date_night", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: Central Park hours (6 AM to 1 AM) from NYC Parks and the Central Park Conservancy. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-bow-bridge",
+    "slug": "bow-bridge-central-park",
+    "name": "Bow Bridge",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "Central Park, near W 74th St, New York, NY 10024",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["morning", "golden_hour"],
+      "tips": [
+        "Shoot from the Lake's east shore for the bridge with the San Remo towers behind.",
+        "Early morning is quiet and often misty."
+      ]
+    },
+    "editorialTake": "Central Park's elegant cast-iron bridge over the Lake, framed by the towers of Central Park West. The park's most famous photo, and its best-known proposal spot.",
+    "bestTimeToVisit": "Early morning or autumn afternoon",
+    "timeNeededMinutes": 20,
+    "trendingScore": 72,
+    "website": "https://www.centralparknyc.org",
+    "lat": 40.7757,
+    "lng": -73.9718
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/gapstow-bridge-central-park-1.jpg",
+        "alt": "Gapstow Bridge over the Pond in autumn, with Midtown towers behind",
+        "width": 1100,
+        "height": 732,
+        "source": "other",
+        "attribution": {
+          "text": "Bryan Schorn, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Gapstow_bridge_of_central_park_in_november.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/gapstow-bridge-central-park-2.jpg",
+        "alt": "Gapstow Bridge in the snow, with the Plaza Hotel behind",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "King of Hearts, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Central_Park_New_York_January_2016_006.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "outdoor", "tourist_classic"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: Central Park hours (6 AM to 1 AM) from NYC Parks and the Central Park Conservancy. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-gapstow-bridge",
+    "slug": "gapstow-bridge-central-park",
+    "name": "Gapstow Bridge",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "Central Park, near E 62nd St and Fifth Ave, New York, NY 10065",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "morning"],
+      "tips": [
+        "Stand on the Pond's north shore to frame the stone bridge against the Midtown skyline.",
+        "Spectacular with autumn leaves or fresh snow."
+      ]
+    },
+    "editorialTake": "A stone bridge over the Pond at the park's southeast corner, with the skyscrapers of Billionaires' Row rising right behind. A classic of every season.",
+    "bestTimeToVisit": "Late afternoon in autumn",
+    "timeNeededMinutes": 20,
+    "trendingScore": 66,
+    "website": "https://www.centralparknyc.org",
+    "lat": 40.7665,
+    "lng": -73.9742
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/doyers-street-1.jpg",
+        "alt": "Doyers Street's curve lined with Chinatown shops and signs",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Doyers_Street_Chinatown.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/doyers-street-2.jpg",
+        "alt": "Looking down Doyers Street toward the bend",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Doyers_Street,_Chinatown,_Manhattan,_New_York_(7237357202).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "late_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: public street, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-doyers-street",
+    "slug": "doyers-street",
+    "name": "Doyers Street",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "Doyers St, New York, NY 10013",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["night", "blue_hour"],
+      "tips": [
+        "Stand at the bend to catch the curve and the neon signs.",
+        "Pair it with dim sum at Nom Wah, right on the street."
+      ]
+    },
+    "editorialTake": "A short, crooked Chinatown street once called the Bloody Angle, now lined with barbershops, neon and one of the city's oldest dim sum parlors.",
+    "bestTimeToVisit": "After dark",
+    "timeNeededMinutes": 15,
+    "trendingScore": 60,
+    "lat": 40.7145,
+    "lng": -73.998
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/flatiron-building-view-1.jpg",
+        "alt": "The Flatiron Building's narrow wedge at Fifth Avenue and Broadway",
+        "width": 1100,
+        "height": 1650,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_Building,_Fifth_Avenue,_Manhattan,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: public streets and pedestrian plazas, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-flatiron-building",
+    "slug": "flatiron-building-view",
+    "name": "Flatiron Building view",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "Broadway and Fifth Ave at E 23rd St, New York, NY 10010",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "blue_hour"],
+      "tips": [
+        "Shoot from the pedestrian plaza on the north side for the classic wedge shape.",
+        "A wide lens helps; stand back near Madison Square Park."
+      ]
+    },
+    "editorialTake": "The 1902 wedge-shaped skyscraper where Broadway crosses Fifth Avenue, seen best from the pedestrian plazas facing it.",
+    "bestTimeToVisit": "Blue hour",
+    "timeNeededMinutes": 15,
+    "trendingScore": 70,
+    "lat": 40.7415,
+    "lng": -73.9895
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/grand-army-plaza-brooklyn-1.jpg",
+        "alt": "The Soldiers' and Sailors' Arch at Grand Army Plaza",
+        "width": 1100,
+        "height": 880,
+        "source": "other",
+        "attribution": {
+          "text": "King of Hearts, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Grand_Army_Plaza_Brooklyn_New_York_August_2013.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/grand-army-plaza-brooklyn-2.jpg",
+        "alt": "The arch's bronze sculptures against the sky",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Soldiers_and_Sailors_Arch.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "outdoor", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: public plaza, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-grand-army-plaza",
+    "slug": "grand-army-plaza-brooklyn",
+    "name": "Grand Army Plaza",
+    "category": "photo_spot",
+    "borough": "brooklyn",
+    "neighborhood": "Prospect Heights",
+    "address": "Flatbush Ave and Prospect Park West, Brooklyn, NY 11238",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "morning"],
+      "tips": [
+        "Frame the Soldiers' and Sailors' Arch from the fountain side.",
+        "Saturday mornings bring the Grand Army Plaza Greenmarket."
+      ]
+    },
+    "editorialTake": "Brooklyn's own Arc de Triomphe at the grand entrance to Prospect Park, with a fountain, the Central Library next door and a Saturday greenmarket.",
+    "bestTimeToVisit": "Saturday morning",
+    "timeNeededMinutes": 20,
+    "trendingScore": 54,
+    "lat": 40.6743,
+    "lng": -73.9701
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/pebble-beach-dumbo-1.jpg",
+        "alt": "Pebble Beach under the Manhattan Bridge in DUMBO",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "(User:Wgreaves), CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Pebble_Beach_from_Empire_Fulton_Ferry_Park.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "outdoor", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: Brooklyn Bridge Park hours (6 AM to 1 AM). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-pebble-beach",
+    "slug": "pebble-beach-dumbo",
+    "name": "Pebble Beach",
+    "category": "photo_spot",
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "Brooklyn Bridge Park, Water St at Main St, Brooklyn, NY 11201",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["sunrise", "golden_hour", "blue_hour"],
+      "tips": [
+        "Stand on the stones for the Manhattan Bridge overhead and the skyline across the river.",
+        "Sunrise lights the bridge from behind; blue hour lights up the skyline."
+      ]
+    },
+    "editorialTake": "A small stony beach right under the Manhattan Bridge, facing Lower Manhattan across the East River. A calmer angle than the busy Washington Street shot.",
+    "bestTimeToVisit": "Sunrise or blue hour",
+    "timeNeededMinutes": 20,
+    "trendingScore": 64,
+    "website": "https://www.brooklynbridgepark.org",
+    "lat": 40.7039,
+    "lng": -73.9905
   }
 ]

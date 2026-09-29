@@ -789,5 +789,509 @@
     "verificationNotes": "Checked 2026-09-27: address and building hours (9 AM to 9 PM) from industrycity.com/visit. Individual shops keep their own hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "lat": 40.65663,
     "lng": -74.00843
+  },
+  {
+    "photos": [],
+    "mustTry": ["The fiction tables by staff pick", "Author events"],
+    "vibeTags": ["rainy_day", "quiet", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and store hours (10 AM to 9 PM daily) from mcnallyjackson.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-mcnally-jackson-soho",
+    "slug": "mcnally-jackson-soho",
+    "name": "McNally Jackson Books",
+    "category": "shopping",
+    "shopTypes": ["bookstore"],
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "134 Prince St, New York, NY 10012",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "New York's beloved independent bookstore, with thoughtful staff picks, a strong translated-fiction shelf and frequent author talks.",
+    "bestTimeToVisit": "A weekday evening",
+    "timeNeededMinutes": 45,
+    "trendingScore": 70,
+    "website": "https://www.mcnallyjackson.com",
+    "lat": 40.72549,
+    "lng": -74.00051
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/fishs-eddy-1.jpg",
+        "alt": "The Gorham Building at 889 Broadway, home of Fishs Eddy",
+        "width": 1100,
+        "height": 1439,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:889-891_Broadway_Gorham_Building.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Skyline dinnerware", "Quirky New York mugs"],
+    "vibeTags": ["local_favorite", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and Manhattan store hours from fishseddy.com/pages/contact. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-fishs-eddy",
+    "slug": "fishs-eddy",
+    "name": "Fishs Eddy",
+    "category": "shopping",
+    "shopTypes": ["boutique"],
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "889 Broadway, New York, NY 10003",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "A playful housewares shop stacked with New York-themed plates, mugs and glassware. The best place for a souvenir you will actually use.",
+    "bestTimeToVisit": "Any afternoon",
+    "timeNeededMinutes": 30,
+    "trendingScore": 58,
+    "website": "https://www.fishseddy.com",
+    "lat": 40.73871,
+    "lng": -73.99005
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/dhamaka-lower-east-side-1.jpg",
+        "alt": "Essex Market across Delancey Street",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Essex_Market_across_Delancey_St_2021_jeh.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Grazing the food stalls", "Local cheese and produce"],
+    "vibeTags": ["local_favorite", "rainy_day", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: hours from essexmarket.nyc. Individual vendor and restaurant hours may differ. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-essex-market",
+    "slug": "essex-market",
+    "name": "Essex Market",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "88 Essex St, New York, NY 10002",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "A public market since 1940, now in a bright building on Delancey Street with more than 30 vendors: produce, cheese, bakeries and quick bites.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 45,
+    "trendingScore": 66,
+    "website": "https://www.essexmarket.nyc",
+    "lat": 40.71792,
+    "lng": -73.98805
+  },
+  {
+    "photos": [],
+    "mustTry": ["Handmade jewelry and prints from local makers", "Vintage clothing racks"],
+    "vibeTags": ["local_favorite", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (Saturday and Sunday, 11 AM to 7 PM) from artistsandfleas.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-artists-and-fleas-williamsburg",
+    "slug": "artists-and-fleas-williamsburg",
+    "name": "Artists & Fleas Williamsburg",
+    "category": "shopping",
+    "shopTypes": ["market", "vintage"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "70 N 7th St, Brooklyn, NY 11249",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A weekend market of local makers, artists and vintage sellers in an old Williamsburg warehouse, running since 2003.",
+    "bestTimeToVisit": "Saturday afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 60,
+    "website": "https://www.artistsandfleas.com/williamsburg/",
+    "lat": 40.71982,
+    "lng": -73.96109
+  },
+  {
+    "photos": [],
+    "mustTry": ["Vintage and antiques", "Food vendors"],
+    "vibeTags": ["local_favorite", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (every Sunday, 10 AM to 5 PM, indoors and outdoors) from grandbazaarnyc.org. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-grand-bazaar-nyc",
+    "slug": "grand-bazaar-nyc",
+    "name": "Grand Bazaar NYC",
+    "category": "shopping",
+    "shopTypes": ["market", "vintage"],
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "100 W 77th St, New York, NY 10024",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": []
+    },
+    "editorialTake": "The city's biggest weekly flea market, every Sunday by the Natural History Museum: vintage, antiques, art and food. Proceeds support local public schools.",
+    "bestTimeToVisit": "Sunday late morning",
+    "timeNeededMinutes": 60,
+    "trendingScore": 58,
+    "website": "https://grandbazaarnyc.org",
+    "lat": 40.78072,
+    "lng": -73.97729
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/nintendo-new-york-1.jpg",
+        "alt": "Nintendo's Rockefeller Plaza store lit up at night (when it was Nintendo World Store)",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Jamal Fanaian, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Nintendo_World_Store,_nachts_20120224.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Exclusive Nintendo New York merch", "The game history displays"],
+    "vibeTags": ["kid_friendly", "rainy_day", "tourist_classic"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: store hours from nintendonyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-nintendo-new-york",
+    "slug": "nintendo-new-york",
+    "name": "Nintendo New York",
+    "category": "shopping",
+    "shopTypes": ["flagship"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "10 Rockefeller Plaza, New York, NY 10020",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "Nintendo's two-floor flagship at Rockefeller Center, with store-only merch, game demos and displays of classic consoles. A hit with kids and grown-up gamers alike.",
+    "bestTimeToVisit": "Weekday morning, before the lines",
+    "timeNeededMinutes": 45,
+    "trendingScore": 70,
+    "website": "https://www.nintendonyc.com",
+    "lat": 40.75798,
+    "lng": -73.97941
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/economy-candy-1.jpg",
+        "alt": "Economy Candy's striped awning and red sign on Rivington Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Economy_Candy_2023_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/economy-candy-2.jpg",
+        "alt": "Economy Candy's storefront on Rivington Street",
+        "width": 1100,
+        "height": 1100,
+        "source": "other",
+        "attribution": {
+          "text": "Ajay Suresh, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Economy_Candy_(55380947383).jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Halvah", "Retro candy you forgot existed"],
+    "vibeTags": ["kid_friendly", "cheap_eats", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (11 AM to 6 PM daily) from economycandy.com/pages/contact-us. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-economy-candy",
+    "slug": "economy-candy",
+    "name": "Economy Candy",
+    "category": "shopping",
+    "shopTypes": ["boutique"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "108 Rivington St, New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A floor-to-ceiling candy shop on the Lower East Side since 1937, packed with retro sweets, imported chocolate and halvah.",
+    "bestTimeToVisit": "Any afternoon",
+    "timeNeededMinutes": 20,
+    "trendingScore": 62,
+    "website": "https://www.economycandy.com",
+    "lat": 40.72012,
+    "lng": -73.98785
   }
 ]
