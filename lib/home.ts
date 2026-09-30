@@ -142,3 +142,16 @@ export const SEARCH_SUGGESTIONS: Record<"en" | "vi" | "es" | "zh" | "ko", string
   zh: ["唐人街 饺子", "免费 景点", "深夜 披萨", "东村 奶茶", "屋顶 酒吧", "韩国城"],
   ko: ["차이나타운 만두", "무료 명소", "심야 피자", "이스트 빌리지 버블티", "루프톱", "코리아타운"],
 }
+
+/**
+ * Orders a row so places the rows above have not shown come first. Places already
+ * shown stay at the end, so a short row still fills up.
+ */
+export function freshFirst<T extends { slug: string }>(list: T[], shown: Set<string>): T[] {
+  return [...list.filter((p) => !shown.has(p.slug)), ...list.filter((p) => shown.has(p.slug))]
+}
+
+/** Marks the first `count` places of a row as shown. */
+export function markShown(list: { slug: string }[], shown: Set<string>, count = 6) {
+  for (const p of list.slice(0, count)) shown.add(p.slug)
+}
