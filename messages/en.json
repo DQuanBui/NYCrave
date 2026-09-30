@@ -27,7 +27,8 @@
     "map": "Map",
     "seasons": "Seasons",
     "passport": "Passport",
-    "next": "What's next"
+    "next": "What's next",
+    "food": "Food guide"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -1105,5 +1106,102 @@
     "emptyLater": "Nothing within a short walk will be open then. Try \"Leaving now\".",
     "loadError": "Suggestions didn't load. Check your connection and refresh the page.",
     "more": "More ideas on What's next"
+  },
+  "food": {
+    "title": "The New York menu",
+    "tagline": "The foods the city is famous for, what they are, how locals eat them, and where to try each one.",
+    "board": "THE NEW YORK MENU",
+    "jump": "Jump to a dish",
+    "whereToTry": "Where to try it",
+    "localTip": "Local tip",
+    "tipsTitle": "Eat like a New Yorker",
+    "tippingLink": "How much to tip",
+    "home": {
+      "title": "The New York menu",
+      "cta": "Open the menu"
+    },
+    "dishes": {
+      "slice": {
+        "name": "The New York slice",
+        "body": "A wide, thin slice from a big round pie, sold at counters all over the city. Plain cheese is the benchmark; pepperoni is the classic upgrade.",
+        "tip": "Fold it in half lengthwise and eat it standing up, like everyone else."
+      },
+      "pastrami": {
+        "name": "Pastrami on rye",
+        "body": "Brined, smoked and steamed beef, sliced thick and piled high on rye bread with spicy brown mustard. A Jewish deli tradition from the Lower East Side.",
+        "tip": "One sandwich easily feeds two. Add a pickle."
+      },
+      "bagel": {
+        "name": "Bagel and lox",
+        "body": "Boiled, then baked, so it's chewy inside with a shiny crust. Top it with cream cheese (a schmear), smoked salmon, capers and red onion.",
+        "tip": "Get it fresh from the oven; a fresh bagel doesn't need toasting."
+      },
+      "halalCart": {
+        "name": "Chicken over rice",
+        "body": "The street-cart classic: chopped chicken or lamb over yellow rice with salad, pita, creamy white sauce and fiery red sauce.",
+        "tip": "Go easy on the red sauce. It's much hotter than it looks."
+      },
+      "dumplings": {
+        "name": "Dumplings from everywhere",
+        "body": "Soup dumplings in Flushing, dim sum in Chinatown, pierogi in Greenpoint, khinkali on the Upper East Side and momo in Jackson Heights. There's a dumpling for every tradition.",
+        "tip": "Bite a small hole in a soup dumpling and sip the broth first."
+      },
+      "pho": {
+        "name": "Pho",
+        "body": "Vietnamese beef noodle soup: a clear, long-simmered broth with rice noodles and thin slices of beef, finished with herbs and lime.",
+        "tip": "Taste the broth before adding sauces; a good pho barely needs them."
+      },
+      "ramen": {
+        "name": "Ramen",
+        "body": "Japanese noodle soup, from rich pork tonkotsu to lighter bowls, with noodle bars clustered in the East Village and Midtown.",
+        "tip": "Slurping is fine: it cools the noodles and it's how the broth is meant to be enjoyed."
+      },
+      "tacos": {
+        "name": "Tacos",
+        "body": "Corn tortillas with grilled meats, or Tijuana-style birria dipped in its own consomé, from market counters and late-night trucks.",
+        "tip": "Order a couple at a time and eat them hot."
+      },
+      "koreanBbq": {
+        "name": "Korean barbecue",
+        "body": "Marinated beef and pork grilled at your table with a spread of banchan side dishes. Koreatown's 32nd Street is lined with barbecue spots.",
+        "tip": "Banchan refills are usually free. If the staff offer to cook the meat, let them."
+      },
+      "bubbleTea": {
+        "name": "Bubble tea and matcha",
+        "body": "Milk tea with chewy tapioca pearls, brown sugar syrup or a whisked green matcha latte: the city's favorite afternoon pick-me-up.",
+        "tip": "Ask for less sugar; most shops let you choose how sweet."
+      },
+      "sweets": {
+        "name": "Sweet New York",
+        "body": "Dense cheesecake, giant cookies, the croissant-doughnut cronut and swirled babka: New York takes dessert seriously.",
+        "tip": "Portions are big. Order one and share."
+      }
+    },
+    "tips": {
+      "fold": {
+        "title": "Fold your slice",
+        "body": "Folding a slice down the middle keeps the tip from flopping and the oil off your shirt."
+      },
+      "counter": {
+        "title": "Know where to order",
+        "body": "At delis, bagel shops and slice counters you order at the counter. Some delis hand you a ticket at the door: keep it, you pay with it on the way out."
+      },
+      "bodega": {
+        "title": "Try a bodega breakfast",
+        "body": "Corner stores, called bodegas, make a bacon, egg and cheese on a roll to order for a few dollars. It's the city's unofficial breakfast."
+      },
+      "walkIns": {
+        "title": "Book, or go early",
+        "body": "Popular restaurants fill up weeks ahead. Many keep bar seats for walk-ins, so arrive right at opening or late in the evening."
+      },
+      "cash": {
+        "title": "Carry a little cash",
+        "body": "Some old-school spots, carts and bakeries are cash only, and small shops may have a card minimum."
+      },
+      "late": {
+        "title": "Eat late",
+        "body": "The city stays hungry: slice shops, halal carts and diners serve well past midnight in busy neighborhoods."
+      }
+    }
   }
 }

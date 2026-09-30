@@ -303,3 +303,29 @@
     transform: none;
   }
 }
+
+/* Food guide letter board: each letter pressed into the felt */
+@keyframes letter-press {
+  0% {
+    opacity: 0;
+    transform: translateY(-60%) scale(1.25);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* A neon sign stuttering on, then staying lit */
+@keyframes neon-on {
+  0%,
+  18%,
+  34% {
+    opacity: 0.15;
+  }
+  10%,
+  26%,
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,6 +1,7 @@
 import {
   CalendarHeart,
   Camera,
+  ChefHat,
   Compass,
   CupSoda,
   Footprints,
@@ -33,6 +34,7 @@ export type NavKey =
   | "seasons"
   | "passport"
   | "next"
+  | "food"
 
 export type NavItem = { key: NavKey; href: string; icon: LucideIcon; line?: LineColor }
 
@@ -56,6 +58,7 @@ export const NAV: Record<NavKey, NavItem> = {
   seasons: { key: "seasons", href: "/seasons", icon: CalendarHeart, line: "orange" },
   passport: { key: "passport", href: "/passport", icon: Stamp, line: "yellow" },
   next: { key: "next", href: "/next", icon: Footprints, line: "green" },
+  food: { key: "food", href: "/food", icon: ChefHat, line: "red" },
 }
 
 /** Mobile bottom tabs. */
@@ -66,6 +69,7 @@ export const TOP_NAV: NavKey[] = ["eat", "sip", "explore", "shop", "photoSpots",
 export const MENU: NavKey[] = [
   ...TOP_NAV,
   "next",
+  "food",
   "map",
   "neighborhoods",
   "seasons",

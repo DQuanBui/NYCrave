@@ -27,7 +27,8 @@
     "map": "Bản đồ",
     "seasons": "Mùa lễ hội",
     "passport": "Hộ chiếu",
-    "next": "Đi đâu tiếp"
+    "next": "Đi đâu tiếp",
+    "food": "Cẩm nang ẩm thực"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",
@@ -1105,5 +1106,102 @@
     "emptyLater": "Không có nơi nào gần đây còn mở lúc đó. Hãy thử \"Đi ngay bây giờ\".",
     "loadError": "Không tải được gợi ý. Hãy kiểm tra kết nối và tải lại trang.",
     "more": "Thêm gợi ý ở trang Đi đâu tiếp"
+  },
+  "food": {
+    "title": "Thực đơn New York",
+    "tagline": "Những món làm nên tên tuổi thành phố: món đó là gì, người địa phương ăn thế nào và thử ở đâu.",
+    "board": "THỰC ĐƠN NEW YORK",
+    "jump": "Chuyển đến món",
+    "whereToTry": "Thử ở đâu",
+    "localTip": "Mẹo địa phương",
+    "tipsTitle": "Ăn như người New York",
+    "tippingLink": "Nên tip bao nhiêu",
+    "home": {
+      "title": "Thực đơn New York",
+      "cta": "Mở thực đơn"
+    },
+    "dishes": {
+      "slice": {
+        "name": "Lát pizza New York",
+        "body": "Lát pizza to, mỏng cắt từ chiếc bánh tròn lớn, bán theo lát ở khắp thành phố. Phô mai truyền thống là chuẩn mực; pepperoni là lựa chọn kinh điển.",
+        "tip": "Gập đôi theo chiều dọc rồi đứng ăn, như mọi người vẫn làm."
+      },
+      "pastrami": {
+        "name": "Bánh mì pastrami",
+        "body": "Thịt bò ngâm muối, hun khói rồi hấp, thái dày và xếp cao trên bánh mì lúa mạch đen với mù tạt nâu cay. Món truyền thống của các tiệm deli Do Thái ở Lower East Side.",
+        "tip": "Một chiếc đủ cho hai người. Gọi thêm dưa chua."
+      },
+      "bagel": {
+        "name": "Bagel và cá hồi hun khói",
+        "body": "Được luộc rồi nướng nên bên trong dai, vỏ bóng. Phết kem phô mai, thêm cá hồi hun khói, nụ bạch hoa và hành tím.",
+        "tip": "Ăn khi còn mới ra lò; bagel mới không cần nướng lại."
+      },
+      "halalCart": {
+        "name": "Gà với cơm",
+        "body": "Món kinh điển của xe đẩy: gà hoặc cừu thái nhỏ trên cơm vàng, kèm salad, bánh pita, sốt trắng béo và sốt đỏ rất cay.",
+        "tip": "Dùng ít sốt đỏ thôi. Nó cay hơn vẻ ngoài nhiều."
+      },
+      "dumplings": {
+        "name": "Bánh bao, sủi cảo khắp thế giới",
+        "body": "Tiểu long bao ở Flushing, dim sum ở Chinatown, pierogi ở Greenpoint, khinkali ở Upper East Side và momo ở Jackson Heights. Truyền thống nào cũng có món bánh nhân của riêng mình.",
+        "tip": "Cắn một lỗ nhỏ trên tiểu long bao và húp nước dùng trước."
+      },
+      "pho": {
+        "name": "Phở",
+        "body": "Phở bò Việt Nam: nước dùng trong, hầm lâu, bánh phở và thịt bò thái mỏng, thêm rau thơm và chanh.",
+        "tip": "Nếm nước dùng trước khi cho tương; phở ngon hầu như không cần thêm."
+      },
+      "ramen": {
+        "name": "Ramen",
+        "body": "Mì nước Nhật Bản, từ tonkotsu xương heo đậm đà đến những tô nhẹ hơn, tập trung ở East Village và Midtown.",
+        "tip": "Húp mì thành tiếng là bình thường: giúp mì nguội bớt và đúng cách thưởng thức nước dùng."
+      },
+      "tacos": {
+        "name": "Tacos",
+        "body": "Bánh ngô với thịt nướng, hoặc birria kiểu Tijuana chấm nước dùng consomé, từ quầy trong chợ đến xe bán đêm khuya.",
+        "tip": "Gọi mỗi lần vài cái và ăn khi còn nóng."
+      },
+      "koreanBbq": {
+        "name": "Thịt nướng Hàn Quốc",
+        "body": "Thịt bò và heo ướp nướng ngay tại bàn, kèm nhiều món banchan. Phố 32 ở Koreatown đầy những quán thịt nướng.",
+        "tip": "Banchan thường được thêm miễn phí. Nếu nhân viên nướng giúp, cứ để họ làm."
+      },
+      "bubbleTea": {
+        "name": "Trà sữa trân châu và matcha",
+        "body": "Trà sữa với trân châu dai, siro đường nâu hay matcha latte đánh bọt: món giải khát buổi chiều được yêu thích nhất thành phố.",
+        "tip": "Hãy gọi ít đường; hầu hết các quán cho chọn độ ngọt."
+      },
+      "sweets": {
+        "name": "New York ngọt ngào",
+        "body": "Bánh phô mai đặc, bánh quy khổng lồ, cronut lai giữa croissant và donut, bánh babka xoắn: New York rất nghiêm túc với món tráng miệng.",
+        "tip": "Phần ăn rất lớn. Gọi một phần rồi chia nhau."
+      }
+    },
+    "tips": {
+      "fold": {
+        "title": "Gập đôi lát pizza",
+        "body": "Gập lát pizza ở giữa giúp đầu bánh không rũ xuống và dầu không dính áo."
+      },
+      "counter": {
+        "title": "Biết chỗ gọi món",
+        "body": "Ở tiệm deli, tiệm bagel và quầy pizza, bạn gọi món tại quầy. Một số tiệm deli phát vé ở cửa: hãy giữ vé, bạn thanh toán bằng nó khi ra về."
+      },
+      "bodega": {
+        "title": "Thử bữa sáng ở bodega",
+        "body": "Các cửa hàng góc phố, gọi là bodega, làm bánh mì thịt xông khói, trứng và phô mai theo yêu cầu với giá vài đô. Đó là bữa sáng không chính thức của thành phố."
+      },
+      "walkIns": {
+        "title": "Đặt bàn, hoặc đến sớm",
+        "body": "Nhà hàng nổi tiếng kín chỗ trước nhiều tuần. Nhiều nơi giữ ghế quầy bar cho khách vãng lai, nên hãy đến ngay giờ mở cửa hoặc muộn vào buổi tối."
+      },
+      "cash": {
+        "title": "Mang theo ít tiền mặt",
+        "body": "Một số quán lâu đời, xe đẩy và tiệm bánh chỉ nhận tiền mặt, và cửa hàng nhỏ có thể yêu cầu mức tối thiểu khi trả thẻ."
+      },
+      "late": {
+        "title": "Ăn khuya",
+        "body": "Thành phố không ngủ: tiệm pizza, xe đồ ăn halal và các quán diner mở đến quá nửa đêm ở những khu đông đúc."
+      }
+    }
   }
 }

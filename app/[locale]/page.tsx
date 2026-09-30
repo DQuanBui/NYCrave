@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server"
 import { ComingUp } from "@/components/home/coming-up"
 import { Hero } from "@/components/home/hero"
 import { LineMap } from "@/components/home/line-map"
+import { MenuTeaser } from "@/components/home/menu-teaser"
 import { MyDayPromo } from "@/components/home/my-day-promo"
 import { PlaceRail } from "@/components/place/place-rail"
 import { initLocale } from "@/i18n/locale"
@@ -86,6 +87,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <div className="mx-auto max-w-7xl space-y-16 px-4 pt-14 lg:space-y-20 lg:px-8 lg:pt-20">
         <PlaceRail title={t("trending")} places={all.slice(0, 8).map(toCard)} limit={8} />
         <ComingUp seasons={upcomingSeasons(today).slice(0, 3)} />
+        <MenuTeaser places={all} />
         <PlaceRail
           title={t("openNow")}
           places={openCandidates.map(toCard)}

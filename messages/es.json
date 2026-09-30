@@ -27,7 +27,8 @@
     "map": "Mapa",
     "seasons": "Temporadas",
     "passport": "Pasaporte",
-    "next": "¿Y ahora qué?"
+    "next": "¿Y ahora qué?",
+    "food": "Guía gastronómica"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -1105,5 +1106,102 @@
     "emptyLater": "No habrá nada abierto a poca distancia a esa hora. Prueba \"Salgo ya\".",
     "loadError": "No se cargaron las sugerencias. Revisa tu conexión y recarga la página.",
     "more": "Más ideas en ¿Y ahora qué?"
+  },
+  "food": {
+    "title": "El menú de Nueva York",
+    "tagline": "Las comidas por las que la ciudad es famosa: qué son, cómo las comen los neoyorquinos y dónde probar cada una.",
+    "board": "EL MENÚ DE NUEVA YORK",
+    "jump": "Ir a un plato",
+    "whereToTry": "Dónde probarlo",
+    "localTip": "Consejo local",
+    "tipsTitle": "Come como un neoyorquino",
+    "tippingLink": "Cuánta propina dejar",
+    "home": {
+      "title": "El menú de Nueva York",
+      "cta": "Abrir el menú"
+    },
+    "dishes": {
+      "slice": {
+        "name": "La porción neoyorquina",
+        "body": "Una porción ancha y fina de una pizza grande y redonda, vendida en mostradores por toda la ciudad. La de queso es la referencia; la de pepperoni, el clásico.",
+        "tip": "Dóblala a lo largo y cómela de pie, como todo el mundo."
+      },
+      "pastrami": {
+        "name": "Pastrami en pan de centeno",
+        "body": "Carne en salmuera, ahumada y al vapor, cortada gruesa y apilada sobre pan de centeno con mostaza picante. Una tradición de los delis judíos del Lower East Side.",
+        "tip": "Un sándwich da para dos. Pide un pepinillo."
+      },
+      "bagel": {
+        "name": "Bagel con salmón",
+        "body": "Se hierve y luego se hornea: es chicloso por dentro y brillante por fuera. Con queso crema, salmón ahumado, alcaparras y cebolla morada.",
+        "tip": "Pídelo recién salido del horno; un bagel fresco no necesita tostarse."
+      },
+      "halalCart": {
+        "name": "Pollo con arroz",
+        "body": "El clásico de los carritos: pollo o cordero picado sobre arroz amarillo con ensalada, pan pita, salsa blanca cremosa y salsa roja muy picante.",
+        "tip": "Cuidado con la salsa roja: pica mucho más de lo que parece."
+      },
+      "dumplings": {
+        "name": "Dumplings de todo el mundo",
+        "body": "Xiao long bao en Flushing, dim sum en Chinatown, pierogi en Greenpoint, khinkali en el Upper East Side y momo en Jackson Heights. Hay un dumpling para cada tradición.",
+        "tip": "Muerde un agujerito en el xiao long bao y bebe el caldo primero."
+      },
+      "pho": {
+        "name": "Pho",
+        "body": "Sopa vietnamita de fideos con ternera: caldo claro cocido durante horas, fideos de arroz y ternera en láminas finas, con hierbas y lima.",
+        "tip": "Prueba el caldo antes de añadir salsas; un buen pho casi no las necesita."
+      },
+      "ramen": {
+        "name": "Ramen",
+        "body": "Sopa japonesa de fideos, desde el intenso tonkotsu de cerdo hasta cuencos más ligeros, con bares de fideos concentrados en el East Village y Midtown.",
+        "tip": "Sorber está bien visto: enfría los fideos y es como se disfruta el caldo."
+      },
+      "tacos": {
+        "name": "Tacos",
+        "body": "Tortillas de maíz con carnes a la parrilla o birria estilo Tijuana mojada en su consomé, de puestos de mercado y camiones nocturnos.",
+        "tip": "Pide pocos cada vez y cómelos calientes."
+      },
+      "koreanBbq": {
+        "name": "Barbacoa coreana",
+        "body": "Ternera y cerdo marinados a la parrilla en tu mesa, con un surtido de banchan. La calle 32 de Koreatown está llena de restaurantes de barbacoa.",
+        "tip": "Los banchan se suelen rellenar gratis. Si el personal se ofrece a asar la carne, déjalo."
+      },
+      "bubbleTea": {
+        "name": "Bubble tea y matcha",
+        "body": "Té con leche y perlas de tapioca, sirope de azúcar moreno o un latte de matcha batido: el antojo de la tarde favorito de la ciudad.",
+        "tip": "Pide menos azúcar; casi todas las tiendas te dejan elegir el dulzor."
+      },
+      "sweets": {
+        "name": "Nueva York dulce",
+        "body": "Cheesecake denso, galletas gigantes, el cronut (mitad cruasán, mitad dónut) y el babka trenzado: Nueva York se toma el postre en serio.",
+        "tip": "Las raciones son grandes. Pide una y compártela."
+      }
+    },
+    "tips": {
+      "fold": {
+        "title": "Dobla tu porción",
+        "body": "Doblar la porción por la mitad evita que la punta se caiga y que el aceite te manche la camisa."
+      },
+      "counter": {
+        "title": "Sabe dónde pedir",
+        "body": "En delis, tiendas de bagels y pizzerías de porciones se pide en el mostrador. Algunos delis te dan un tique en la puerta: guárdalo, pagas con él al salir."
+      },
+      "bodega": {
+        "title": "Desayuna en una bodega",
+        "body": "Las tiendas de la esquina, llamadas bodegas, preparan al momento un bocadillo de bacon, huevo y queso por pocos dólares. Es el desayuno no oficial de la ciudad."
+      },
+      "walkIns": {
+        "title": "Reserva o llega temprano",
+        "body": "Los restaurantes populares se llenan con semanas de antelación. Muchos guardan la barra para quien llega sin reserva: ve justo a la apertura o tarde por la noche."
+      },
+      "cash": {
+        "title": "Lleva algo de efectivo",
+        "body": "Algunos locales de siempre, carritos y panaderías solo aceptan efectivo, y las tiendas pequeñas pueden pedir un mínimo con tarjeta."
+      },
+      "late": {
+        "title": "Cena tarde",
+        "body": "La ciudad nunca deja de comer: pizzerías, carritos halal y diners sirven pasada la medianoche en los barrios con más ambiente."
+      }
+    }
   }
 }
