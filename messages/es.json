@@ -28,7 +28,8 @@
     "seasons": "Temporadas",
     "passport": "Pasaporte",
     "next": "¿Y ahora qué?",
-    "food": "Guía gastronómica"
+    "food": "Guía gastronómica",
+    "walks": "Paseos y senderos"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -87,7 +88,8 @@
     "instagrammable": "Para las fotos",
     "freeToday": "Gratis hoy",
     "openNow": "Abierto ahora",
-    "whatsNext": "¿Y ahora qué?"
+    "whatsNext": "¿Y ahora qué?",
+    "walks": "Paseos y senderos"
   },
   "home": {
     "trending": "Tendencia",
@@ -1202,6 +1204,168 @@
       "late": {
         "title": "Cena tarde",
         "body": "La ciudad nunca deja de comer: pizzerías, carritos halal y diners sirven pasada la medianoche en los barrios con más ambiente."
+      }
+    }
+  },
+  "walks": {
+    "title": "Paseos y senderos",
+    "tagline": "Senderos en el bosque, paseos junto al agua y un puente famoso en los cinco distritos, con distancia, dificultad y cómo llegar.",
+    "filters": {
+      "all": "Todos",
+      "walk": "Paseos urbanos",
+      "hike": "Senderos",
+      "easy": "Fácil",
+      "moderate": "Moderado"
+    },
+    "filterLabel": "Filtrar paseos",
+    "boroughLabel": "Distrito",
+    "allBoroughs": "Todos los distritos",
+    "length": "{miles} mi ({km} km)",
+    "severalTrails": "Varios senderos",
+    "time": "Unos {minutes} min",
+    "difficulty": {
+      "easy": "Fácil",
+      "moderate": "Moderado",
+      "mixed": "Terreno variado"
+    },
+    "accessible": "Sendero accesible",
+    "along": "Por el camino",
+    "start": "Inicio",
+    "nearestSubway": "Metro más cercano",
+    "fromStation": "{minutes} min a pie hasta el inicio",
+    "noSubway": "No hay metro cerca: toma un autobús, o el ferry en Staten Island.",
+    "directions": "Cómo llegar al inicio",
+    "details": "Detalles del sendero: {name}",
+    "parkPage": "Página del parque",
+    "count": "{count, plural, one {# paseo} other {# paseos}}",
+    "empty": "Ningún paseo coincide. Prueba otro distrito o nivel.",
+    "home": {
+      "title": "Paseos y senderos",
+      "cta": "Buscar un sendero"
+    },
+    "items": {
+      "inwood": {
+        "title": "Inwood Hill Park",
+        "body": "El último bosque natural de Manhattan. Los senderos suben entre tulíperos, robles y arces hasta la cima de la colina, con vistas al Hudson.",
+        "highlights": [
+          "Tulíperos, robles y arces",
+          "Dos álamos más antiguos que el parque, en la cima",
+          "Vistas al río Hudson"
+        ]
+      },
+      "highbridge": {
+        "title": "Highbridge Park",
+        "body": "Senderos en el bosque sobre el río Harlem junto al High Bridge, el puente en pie más antiguo de Nueva York, siguiendo el Old Croton Aqueduct.",
+        "highlights": [
+          "El High Bridge, hoy un paseo peatonal al Bronx",
+          "El sendero del Old Croton Aqueduct",
+          "Bosque de cerezos negros y robles"
+        ]
+      },
+      "fortTryon": {
+        "title": "Fort Tryon Park",
+        "body": "Caminos arbolados junto a la mayor marmita glaciar de la ciudad y The Met Cloisters, con vistas al Hudson y a los acantilados Palisades.",
+        "highlights": [
+          "El Heather Garden",
+          "The Met Cloisters",
+          "Vistas al Hudson y a los Palisades"
+        ]
+      },
+      "brooklynBridge": {
+        "title": "Brooklyn Bridge",
+        "body": "Cruza el paseo elevado del puente de 1883 desde el Ayuntamiento hasta DUMBO: 6.016 pies con sus accesos, con el skyline a tu espalda y el puerto debajo.",
+        "highlights": [
+          "Empieza junto a City Hall Park",
+          "Las torres de granito y los cables",
+          "Termina en DUMBO con las vistas clásicas"
+        ]
+      },
+      "reservoir": {
+        "title": "La vuelta al Reservoir",
+        "body": "La pista de 1,58 millas alrededor del Jacqueline Kennedy Onassis Reservoir, de grava blanda, con algunas de las mejores vistas del skyline de Central Park.",
+        "highlights": [
+          "Grava blanda",
+          "La fuente y las torres del San Remo",
+          "En un solo sentido: antihorario"
+        ]
+      },
+      "centralParkLoop": {
+        "title": "La vuelta completa a Central Park",
+        "body": "Los caminos del parque forman un circuito de 6,1 millas con carril para corredores y peatones, desde Columbus Circle alrededor de ambos extremos del parque.",
+        "highlights": [
+          "Carril propio para caminar",
+          "Las cuestas más fuertes están en el norte",
+          "El Harlem Meer en el extremo norte"
+        ]
+      },
+      "prospectWoods": {
+        "title": "Senderos del bosque de Prospect Park",
+        "body": "Cuatro senderos cortos salen del Audubon Center en la entrada de Lincoln Road: el Midwood (0,75 mi), el bosque más antiguo de Brooklyn, el Lullwater (1 mi), y el Waterfall y el Peninsula (0,5 mi cada uno).",
+        "highlights": [
+          "El bosque más antiguo de Brooklyn",
+          "Fallkill Falls, la primera de seis cascadas",
+          "Aves en el Lullwater"
+        ]
+      },
+      "saltMarsh": {
+        "title": "Sendero de la marisma",
+        "body": "Un sendero de 0,8 millas desde el Salt Marsh Nature Center por la orilla hacia la bahía de Jamaica y luego entre hierba alta donde se esconden conejos y faisanes.",
+        "highlights": [
+          "Sale detrás del Salt Marsh Nature Center",
+          "Vistas de la orilla hacia la bahía de Jamaica",
+          "Pradera de hierba alta"
+        ]
+      },
+      "vanCortlandt": {
+        "title": "Van Cortlandt Park",
+        "body": "El tercer parque más grande de la ciudad: un sendero de 2 millas por tres bosques distintos en el norte, además de humedales, un lago para ver aves y restos del Old Croton Aqueduct.",
+        "highlights": [
+          "Tres bosques distintos",
+          "Aves en el lago Van Cortlandt",
+          "El Putnam Trail asfaltado"
+        ]
+      },
+      "pelhamBay": {
+        "title": "Pelham Bay Park",
+        "body": "Senderos entre algunos de los robles más antiguos de la ciudad en su parque más grande, hasta la costa, las Twin Islands y la marisma de Turtle Cove.",
+        "highlights": ["Bosque de robles antiguos", "Las Twin Islands", "La marisma de Turtle Cove"]
+      },
+      "soundview": {
+        "title": "Soundview Park",
+        "body": "Un sendero fácil de 1,75 millas donde el río Bronx se une al East River, junto al anfiteatro, un jardín de mariposas y praderas.",
+        "highlights": ["Vistas al agua", "Un jardín de mariposas para meditar", "Praderas"]
+      },
+      "forestPark": {
+        "title": "Forest Park",
+        "body": "El mayor bosque de robles continuo de Queens, con senderos por colores junto a lagunas glaciares: un pinar centenario en el sendero naranja y aves en Strack Pond en el rojo.",
+        "highlights": [
+          "Bosque de robles continuo",
+          "Pinar en el sendero naranja",
+          "Strack Pond en el sendero rojo"
+        ]
+      },
+      "alleyPond": {
+        "title": "Alley Pond Park",
+        "body": "Senderos entre robles y nogales y lagunas glaciares, con vistas a la marisma en el norte, junto al Environmental Center.",
+        "highlights": ["Lagunas glaciares", "Bosque de robles y nogales", "Vistas a la marisma"]
+      },
+      "greenbelt": {
+        "title": "Staten Island Greenbelt",
+        "body": "Una cadena de parques de 2.800 acres en el centro de Staten Island con más de 35 millas de senderos entre bosques y humedales. Empieza en el Greenbelt Nature Center.",
+        "highlights": [
+          "Más de 35 millas de senderos",
+          "Bosques, pantanos y fauna",
+          "El Greenbelt Nature Center"
+        ]
+      },
+      "cloveLakes": {
+        "title": "Clove Lakes Park",
+        "body": "Un sendero fácil de 3 millas junto a lagos de valle, por colinas boscosas y viejos puentes, hasta el tulípero más grande de Nueva York.",
+        "highlights": [
+          "Lagos de valle",
+          "Viejos puentes de piedra",
+          "El tulípero más grande de la ciudad"
+        ]
       }
     }
   }

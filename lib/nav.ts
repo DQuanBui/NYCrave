@@ -5,6 +5,7 @@ import {
   Compass,
   CupSoda,
   Footprints,
+  Mountain,
   Heart,
   Lightbulb,
   Map as MapIcon,
@@ -35,6 +36,7 @@ export type NavKey =
   | "passport"
   | "next"
   | "food"
+  | "walks"
 
 export type NavItem = { key: NavKey; href: string; icon: LucideIcon; line?: LineColor }
 
@@ -59,6 +61,7 @@ export const NAV: Record<NavKey, NavItem> = {
   passport: { key: "passport", href: "/passport", icon: Stamp, line: "yellow" },
   next: { key: "next", href: "/next", icon: Footprints, line: "green" },
   food: { key: "food", href: "/food", icon: ChefHat, line: "red" },
+  walks: { key: "walks", href: "/walks", icon: Mountain, line: "green" },
 }
 
 /** Mobile bottom tabs. */
@@ -70,6 +73,7 @@ export const MENU: NavKey[] = [
   ...TOP_NAV,
   "next",
   "food",
+  "walks",
   "map",
   "neighborhoods",
   "seasons",

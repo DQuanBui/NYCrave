@@ -28,7 +28,8 @@
     "seasons": "Mùa lễ hội",
     "passport": "Hộ chiếu",
     "next": "Đi đâu tiếp",
-    "food": "Cẩm nang ẩm thực"
+    "food": "Cẩm nang ẩm thực",
+    "walks": "Đi bộ và leo núi"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",
@@ -87,7 +88,8 @@
     "instagrammable": "Để chụp ảnh",
     "freeToday": "Miễn phí hôm nay",
     "openNow": "Đang mở cửa",
-    "whatsNext": "Đi đâu tiếp?"
+    "whatsNext": "Đi đâu tiếp?",
+    "walks": "Đi bộ và leo núi"
   },
   "home": {
     "trending": "Đang thịnh hành",
@@ -1202,6 +1204,164 @@
       "late": {
         "title": "Ăn khuya",
         "body": "Thành phố không ngủ: tiệm pizza, xe đồ ăn halal và các quán diner mở đến quá nửa đêm ở những khu đông đúc."
+      }
+    }
+  },
+  "walks": {
+    "title": "Đi bộ và leo núi",
+    "tagline": "Đường mòn trong rừng, lối đi ven sông và một cây cầu nổi tiếng ở cả năm quận, kèm độ dài, độ khó và cách đến.",
+    "filters": {
+      "all": "Tất cả",
+      "walk": "Đi bộ trong phố",
+      "hike": "Đường mòn",
+      "easy": "Dễ",
+      "moderate": "Vừa"
+    },
+    "filterLabel": "Lọc tuyến đi bộ",
+    "boroughLabel": "Quận",
+    "allBoroughs": "Tất cả các quận",
+    "length": "{miles} dặm ({km} km)",
+    "severalTrails": "Nhiều đường mòn",
+    "time": "Khoảng {minutes} phút",
+    "difficulty": {
+      "easy": "Dễ",
+      "moderate": "Vừa",
+      "mixed": "Địa hình đa dạng"
+    },
+    "accessible": "Có lối cho xe lăn",
+    "along": "Dọc đường",
+    "start": "Điểm bắt đầu",
+    "nearestSubway": "Ga tàu điện ngầm gần nhất",
+    "fromStation": "{minutes} phút đi bộ đến điểm bắt đầu",
+    "noSubway": "Không có tàu điện ngầm gần đó: hãy đi xe buýt, hoặc phà nếu ở Staten Island.",
+    "directions": "Chỉ đường đến điểm bắt đầu",
+    "details": "Thông tin đường mòn: {name}",
+    "parkPage": "Trang công viên",
+    "count": "{count, plural, other {# tuyến}}",
+    "empty": "Không có tuyến nào phù hợp. Hãy thử quận hoặc mức độ khác.",
+    "home": {
+      "title": "Đi bộ và leo núi",
+      "cta": "Tìm đường mòn"
+    },
+    "items": {
+      "inwood": {
+        "title": "Inwood Hill Park",
+        "body": "Khu rừng tự nhiên cuối cùng của Manhattan. Đường mòn leo qua những cây tulip, sồi và phong lên đỉnh đồi, nhìn ra sông Hudson.",
+        "highlights": [
+          "Cây tulip, sồi và phong",
+          "Hai cây dương già hơn cả công viên, trên đỉnh đồi",
+          "Cảnh sông Hudson"
+        ]
+      },
+      "highbridge": {
+        "title": "Highbridge Park",
+        "body": "Đường mòn trong rừng trên sông Harlem, cạnh High Bridge, cây cầu cổ nhất còn đứng ở New York, dọc tuyến kênh dẫn nước Old Croton.",
+        "highlights": [
+          "High Bridge, nay là lối đi bộ sang Bronx",
+          "Đường mòn Old Croton Aqueduct",
+          "Rừng anh đào đen và sồi"
+        ]
+      },
+      "fortTryon": {
+        "title": "Fort Tryon Park",
+        "body": "Lối đi trong rừng qua hố băng hà lớn nhất thành phố và bảo tàng The Met Cloisters, nhìn ra sông Hudson và vách đá Palisades.",
+        "highlights": [
+          "Vườn Heather",
+          "Bảo tàng The Met Cloisters",
+          "Cảnh sông Hudson và Palisades"
+        ]
+      },
+      "brooklynBridge": {
+        "title": "Brooklyn Bridge",
+        "body": "Đi bộ trên lối đi trên cao của cây cầu năm 1883 từ Tòa thị chính đến DUMBO: 6.016 feet tính cả đường dẫn, sau lưng là đường chân trời, bên dưới là bến cảng.",
+        "highlights": [
+          "Bắt đầu cạnh công viên City Hall",
+          "Tháp đá granite và dây cáp",
+          "Kết thúc ở DUMBO với cảnh kinh điển"
+        ]
+      },
+      "reservoir": {
+        "title": "Vòng hồ Reservoir",
+        "body": "Đường chạy 1,58 dặm quanh hồ Jacqueline Kennedy Onassis, nền sỏi mềm, với một trong những góc nhìn đẹp nhất của Central Park.",
+        "highlights": [
+          "Nền sỏi mềm",
+          "Đài phun nước và tòa tháp San Remo",
+          "Chỉ đi một chiều: ngược chiều kim đồng hồ"
+        ]
+      },
+      "centralParkLoop": {
+        "title": "Vòng lớn Central Park",
+        "body": "Các đường trong công viên tạo thành vòng 6,1 dặm có làn riêng cho người chạy và đi bộ, từ Columbus Circle vòng qua hai đầu công viên.",
+        "highlights": [
+          "Làn riêng cho người đi bộ",
+          "Những con dốc lớn nhất ở vòng phía bắc",
+          "Hồ Harlem Meer ở đầu phía bắc"
+        ]
+      },
+      "prospectWoods": {
+        "title": "Đường mòn rừng Prospect Park",
+        "body": "Bốn đường mòn ngắn bắt đầu cạnh Trung tâm Audubon ở lối vào Lincoln Road: Midwood (0,75 dặm), khu rừng cổ nhất còn lại của Brooklyn, Lullwater (1 dặm), Waterfall và Peninsula (mỗi tuyến 0,5 dặm).",
+        "highlights": [
+          "Khu rừng cổ nhất còn lại của Brooklyn",
+          "Thác Fallkill, thác đầu tiên trong sáu thác",
+          "Ngắm chim ở Lullwater"
+        ]
+      },
+      "saltMarsh": {
+        "title": "Đường mòn đầm muối",
+        "body": "Đường mòn 0,8 dặm từ Trung tâm Thiên nhiên Đầm muối dọc bờ biển hướng về vịnh Jamaica, rồi qua đồng cỏ cao nơi thỏ và gà lôi ẩn nấp.",
+        "highlights": [
+          "Bắt đầu sau Trung tâm Thiên nhiên Đầm muối",
+          "Cảnh bờ biển về phía vịnh Jamaica",
+          "Đồng cỏ cao"
+        ]
+      },
+      "vanCortlandt": {
+        "title": "Van Cortlandt Park",
+        "body": "Công viên lớn thứ ba của thành phố: đường mòn 2 dặm qua ba khu rừng khác nhau ở phía bắc, cùng đầm lầy, hồ ngắm chim và dấu tích kênh dẫn nước Old Croton.",
+        "highlights": [
+          "Ba khu rừng khác biệt",
+          "Ngắm chim ở hồ Van Cortlandt",
+          "Đường mòn Putnam trải nhựa"
+        ]
+      },
+      "pelhamBay": {
+        "title": "Pelham Bay Park",
+        "body": "Đường mòn qua những cây sồi già nhất thành phố trong công viên lớn nhất, ra đến bờ biển, quần đảo Twin Islands và đầm triều Turtle Cove.",
+        "highlights": ["Rừng sồi già", "Quần đảo Twin Islands", "Đầm Turtle Cove"]
+      },
+      "soundview": {
+        "title": "Soundview Park",
+        "body": "Đường mòn dễ 1,75 dặm nơi sông Bronx gặp sông East, qua nhà hát ngoài trời, vườn bướm và đồng cỏ.",
+        "highlights": ["Cảnh ven sông", "Vườn bướm thiền định", "Đồng cỏ"]
+      },
+      "forestPark": {
+        "title": "Forest Park",
+        "body": "Khu rừng sồi liền mạch lớn nhất Queens, với các đường mòn đánh dấu màu qua những ao băng hà: rừng thông trăm tuổi trên đường cam và ngắm chim ở ao Strack trên đường đỏ.",
+        "highlights": [
+          "Rừng sồi liền mạch",
+          "Rừng thông trên đường mòn cam",
+          "Ao Strack trên đường mòn đỏ"
+        ]
+      },
+      "alleyPond": {
+        "title": "Alley Pond Park",
+        "body": "Đường mòn qua rừng sồi và hồ đào, những ao băng hà, với cảnh đầm muối ở phía bắc gần Trung tâm Môi trường.",
+        "highlights": ["Ao băng hà", "Rừng sồi và hồ đào", "Cảnh đầm muối"]
+      },
+      "greenbelt": {
+        "title": "Staten Island Greenbelt",
+        "body": "Chuỗi công viên rộng 2.800 mẫu Anh giữa Staten Island với hơn 35 dặm đường mòn qua rừng và đầm lầy. Hãy bắt đầu ở Trung tâm Thiên nhiên Greenbelt.",
+        "highlights": [
+          "Hơn 35 dặm đường mòn",
+          "Rừng, đầm lầy và động vật hoang dã",
+          "Trung tâm Thiên nhiên Greenbelt"
+        ]
+      },
+      "cloveLakes": {
+        "title": "Clove Lakes Park",
+        "body": "Đường mòn dễ 3 dặm qua các hồ trong thung lũng, lên những ngọn đồi có rừng và qua những cây cầu cổ, đến cây tulip lớn nhất New York.",
+        "highlights": ["Hồ trong thung lũng", "Cầu đá cổ", "Cây tulip lớn nhất thành phố"]
       }
     }
   }

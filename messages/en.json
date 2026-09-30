@@ -28,7 +28,8 @@
     "seasons": "Seasons",
     "passport": "Passport",
     "next": "What's next",
-    "food": "Food guide"
+    "food": "Food guide",
+    "walks": "Walks & hikes"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -87,7 +88,8 @@
     "instagrammable": "For the photos",
     "freeToday": "Free today",
     "openNow": "Open now",
-    "whatsNext": "What's next?"
+    "whatsNext": "What's next?",
+    "walks": "Walks & hikes"
   },
   "home": {
     "trending": "Trending",
@@ -1202,6 +1204,164 @@
       "late": {
         "title": "Eat late",
         "body": "The city stays hungry: slice shops, halal carts and diners serve well past midnight in busy neighborhoods."
+      }
+    }
+  },
+  "walks": {
+    "title": "Walks & hikes",
+    "tagline": "Forest trails, waterfront paths and a famous bridge in all five boroughs, with how far, how hard and how to get there.",
+    "filters": {
+      "all": "All",
+      "walk": "City walks",
+      "hike": "Trails",
+      "easy": "Easy",
+      "moderate": "Moderate"
+    },
+    "filterLabel": "Filter walks",
+    "boroughLabel": "Borough",
+    "allBoroughs": "All boroughs",
+    "length": "{miles} mi ({km} km)",
+    "severalTrails": "Several trails",
+    "time": "About {minutes} min",
+    "difficulty": {
+      "easy": "Easy",
+      "moderate": "Moderate",
+      "mixed": "Mixed terrain"
+    },
+    "accessible": "Accessible trail",
+    "along": "Along the way",
+    "start": "Start",
+    "nearestSubway": "Nearest subway",
+    "fromStation": "{minutes} min walk to the start",
+    "noSubway": "No subway nearby: take a bus, or the ferry on Staten Island.",
+    "directions": "Directions to the start",
+    "details": "Trail details: {name}",
+    "parkPage": "Park page",
+    "count": "{count, plural, one {# walk} other {# walks}}",
+    "empty": "No walks match these filters. Try another borough or level.",
+    "home": {
+      "title": "Walks & hikes",
+      "cta": "Find a trail"
+    },
+    "items": {
+      "inwood": {
+        "title": "Inwood Hill Park",
+        "body": "Manhattan's last natural forest. Trails climb through tulip trees, oaks and maples to the top of the hill, with views over the Hudson.",
+        "highlights": [
+          "Tulip trees, oaks and maples",
+          "Two cottonwoods older than the park, at the top of the hill",
+          "Hudson River views"
+        ]
+      },
+      "highbridge": {
+        "title": "Highbridge Park",
+        "body": "Forest trails above the Harlem River beside the High Bridge, the oldest standing bridge in New York City, along the route of the Old Croton Aqueduct.",
+        "highlights": [
+          "The High Bridge, now a footpath to the Bronx",
+          "The Old Croton Aqueduct Trail",
+          "Black cherry and northern oak woods"
+        ]
+      },
+      "fortTryon": {
+        "title": "Fort Tryon Park",
+        "body": "Wooded paths past the city's largest glacial pothole and The Met Cloisters, with views out to the Hudson and the Palisades.",
+        "highlights": [
+          "The Heather Garden",
+          "The Met Cloisters",
+          "Hudson River and Palisades views"
+        ]
+      },
+      "brooklynBridge": {
+        "title": "Brooklyn Bridge",
+        "body": "Walk the raised promenade of the 1883 bridge from City Hall to DUMBO: 6,016 feet with its approaches, the skyline behind you and the harbor below.",
+        "highlights": [
+          "Start by City Hall Park",
+          "The granite towers and cables",
+          "Finish in DUMBO for the classic views"
+        ]
+      },
+      "reservoir": {
+        "title": "The Reservoir loop",
+        "body": "The 1.58-mile track around the Jacqueline Kennedy Onassis Reservoir, on soft gravel, with some of Central Park's best skyline views.",
+        "highlights": [
+          "Soft gravel underfoot",
+          "The fountain and the San Remo towers",
+          "One direction only: counterclockwise"
+        ]
+      },
+      "centralParkLoop": {
+        "title": "Central Park's full loop",
+        "body": "The park drives make a 6.1-mile loop with a lane for runners and walkers, from Columbus Circle around both ends of the park.",
+        "highlights": [
+          "A dedicated lane for walkers",
+          "The steepest hills are on the upper loop",
+          "Harlem Meer at the north end"
+        ]
+      },
+      "prospectWoods": {
+        "title": "Prospect Park woodland trails",
+        "body": "Four short trails start by the Audubon Center at the Lincoln Road entrance: the Midwood (0.75 mi), Brooklyn's oldest remaining forest, the Lullwater (1 mi), and the Waterfall and Peninsula (0.5 mi each).",
+        "highlights": [
+          "Brooklyn's oldest remaining forest",
+          "Fallkill Falls, the first of six waterfalls",
+          "Birds on the Lullwater"
+        ]
+      },
+      "saltMarsh": {
+        "title": "Salt Marsh Nature Trail",
+        "body": "A 0.8-mile trail from the Salt Marsh Nature Center along the shore toward Jamaica Bay, then through tall grass where rabbits and pheasants hide.",
+        "highlights": [
+          "Starts behind the Salt Marsh Nature Center",
+          "Shoreline views toward Jamaica Bay",
+          "Tall-grass prairie"
+        ]
+      },
+      "vanCortlandt": {
+        "title": "Van Cortlandt Park",
+        "body": "The city's third-largest park: a 2-mile trail through three different forests at the north end, plus wetlands, a lake for birding and remnants of the Old Croton Aqueduct.",
+        "highlights": [
+          "Three distinct forests",
+          "Birding at Van Cortlandt Lake",
+          "The paved Putnam Trail"
+        ]
+      },
+      "pelhamBay": {
+        "title": "Pelham Bay Park",
+        "body": "Trails through some of the city's oldest oak trees in its largest park, out to shoreline views, the Twin Islands and the tidal marsh at Turtle Cove.",
+        "highlights": ["Old oak forest", "The Twin Islands", "Turtle Cove marsh"]
+      },
+      "soundview": {
+        "title": "Soundview Park",
+        "body": "An easy 1.75-mile trail where the Bronx River meets the East River, past the amphitheater, a butterfly garden and grasslands.",
+        "highlights": ["Waterfront views", "A butterfly meditation garden", "Grasslands"]
+      },
+      "forestPark": {
+        "title": "Forest Park",
+        "body": "The largest continuous oak forest in Queens, with color-coded trails past kettle ponds: a century-old pine grove on the orange trail and birding at Strack Pond on the red.",
+        "highlights": [
+          "Continuous oak forest",
+          "Pine grove on the orange trail",
+          "Strack Pond on the red trail"
+        ]
+      },
+      "alleyPond": {
+        "title": "Alley Pond Park",
+        "body": "Trails through oak and hickory forest and glacial kettle ponds, with salt marsh views at the north end by the Environmental Center.",
+        "highlights": ["Kettle ponds", "Oak and hickory forest", "Salt marsh views"]
+      },
+      "greenbelt": {
+        "title": "Staten Island Greenbelt",
+        "body": "A 2,800-acre chain of parks in the middle of Staten Island with more than 35 miles of trails through forest and wetland. Start at the Greenbelt Nature Center.",
+        "highlights": [
+          "More than 35 miles of trails",
+          "Forests, swamps and wildlife",
+          "The Greenbelt Nature Center"
+        ]
+      },
+      "cloveLakes": {
+        "title": "Clove Lakes Park",
+        "body": "An easy 3-mile trail past valley lakes, up wooded hills and over old bridges, to New York City's largest tulip tree.",
+        "highlights": ["Valley lakes", "Old stone bridges", "The city's largest tulip tree"]
       }
     }
   }

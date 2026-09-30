@@ -21,6 +21,15 @@ export function MoodChips({ className }: { className?: string }) {
             {t("whatsNext")}
           </Link>
         </li>
+        <li className="shrink-0">
+          <Link
+            href="/walks"
+            className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-line-green bg-card px-4 text-sm font-semibold transition-colors hover:bg-line-green hover:text-white"
+          >
+            <span aria-hidden>🥾</span>
+            {t("walks")}
+          </Link>
+        </li>
         {MOODS.map((mood) => (
           <li key={mood.key} className="shrink-0">
             <Link

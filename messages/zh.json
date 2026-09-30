@@ -28,7 +28,8 @@
     "seasons": "四季",
     "passport": "护照",
     "next": "接下来去哪",
-    "food": "美食指南"
+    "food": "美食指南",
+    "walks": "徒步与步道"
   },
   "theme": {
     "toggle": "切换到{mode}模式",
@@ -87,7 +88,8 @@
     "instagrammable": "适合拍照",
     "freeToday": "今天免费",
     "openNow": "正在营业",
-    "whatsNext": "接下来去哪？"
+    "whatsNext": "接下来去哪？",
+    "walks": "徒步与步道"
   },
   "home": {
     "trending": "热门",
@@ -1202,6 +1204,124 @@
       "late": {
         "title": "吃宵夜",
         "body": "这座城市一直很饿：热闹街区的披萨店、清真餐车和小餐馆营业到午夜之后。"
+      }
+    }
+  },
+  "walks": {
+    "title": "徒步与步道",
+    "tagline": "五个区的林间步道、滨水小路和一座名桥，附上距离、难度和交通方式。",
+    "filters": {
+      "all": "全部",
+      "walk": "城市漫步",
+      "hike": "林间步道",
+      "easy": "轻松",
+      "moderate": "中等"
+    },
+    "filterLabel": "筛选路线",
+    "boroughLabel": "行政区",
+    "allBoroughs": "所有行政区",
+    "length": "{miles} 英里（{km} 公里）",
+    "severalTrails": "多条步道",
+    "time": "约 {minutes} 分钟",
+    "difficulty": {
+      "easy": "轻松",
+      "moderate": "中等",
+      "mixed": "地形多样"
+    },
+    "accessible": "无障碍步道",
+    "along": "沿途",
+    "start": "起点",
+    "nearestSubway": "最近的地铁站",
+    "fromStation": "步行 {minutes} 分钟到起点",
+    "noSubway": "附近没有地铁：请乘公交，史泰登岛可乘渡轮。",
+    "directions": "前往起点的路线",
+    "details": "步道详情：{name}",
+    "parkPage": "公园页面",
+    "count": "{count, plural, other {# 条路线}}",
+    "empty": "没有符合条件的路线，试试其他行政区或难度。",
+    "home": {
+      "title": "徒步与步道",
+      "cta": "找一条步道"
+    },
+    "items": {
+      "inwood": {
+        "title": "Inwood Hill Park",
+        "body": "曼哈顿最后的天然森林。步道穿过鹅掌楸、橡树和枫树登上山顶，可眺望哈德逊河。",
+        "highlights": ["鹅掌楸、橡树和枫树", "山顶两棵比公园还老的杨树", "哈德逊河景色"]
+      },
+      "highbridge": {
+        "title": "Highbridge Park",
+        "body": "哈莱姆河上方的林间步道，紧邻纽约现存最古老的桥梁高桥（High Bridge），沿着老克罗顿引水渠的路线。",
+        "highlights": ["高桥，如今是通往布朗克斯的步行桥", "老克罗顿引水渠步道", "黑樱桃和橡树林"]
+      },
+      "fortTryon": {
+        "title": "Fort Tryon Park",
+        "body": "林间小路经过全市最大的冰川壶穴和大都会修道院分馆，可眺望哈德逊河与帕利塞兹悬崖。",
+        "highlights": ["石楠花园", "大都会修道院分馆", "哈德逊河与帕利塞兹景色"]
+      },
+      "brooklynBridge": {
+        "title": "Brooklyn Bridge",
+        "body": "走上这座 1883 年大桥的高架步道，从市政厅走到 DUMBO：连同引桥共 6,016 英尺，身后是天际线，脚下是港湾。",
+        "highlights": ["从市政厅公园旁出发", "花岗岩桥塔和钢索", "在 DUMBO 结束，欣赏经典景色"]
+      },
+      "reservoir": {
+        "title": "水库环线",
+        "body": "杰奎琳·肯尼迪·奥纳西斯水库周围 1.58 英里的碎石跑道，能看到中央公园最美的天际线之一。",
+        "highlights": ["柔软的碎石路面", "喷泉和圣雷莫双塔", "单向行进：逆时针"]
+      },
+      "centralParkLoop": {
+        "title": "中央公园大环线",
+        "body": "公园车道组成 6.1 英里的环线，设有跑步和步行专用道，从哥伦布圆环出发绕公园两端一圈。",
+        "highlights": ["步行专用道", "北段坡最陡", "北端的哈莱姆湖"]
+      },
+      "prospectWoods": {
+        "title": "展望公园林间步道",
+        "body": "四条短步道从林肯路入口的奥杜邦中心出发：Midwood（0.75 英里，布鲁克林现存最古老的森林）、Lullwater（1 英里），以及 Waterfall 和 Peninsula（各 0.5 英里）。",
+        "highlights": [
+          "布鲁克林现存最古老的森林",
+          "Fallkill 瀑布，六个瀑布中的第一个",
+          "在 Lullwater 观鸟"
+        ]
+      },
+      "saltMarsh": {
+        "title": "盐沼自然步道",
+        "body": "0.8 英里的步道从盐沼自然中心出发，沿岸朝牙买加湾走，再穿过兔子和雉鸡藏身的高草原。",
+        "highlights": ["从盐沼自然中心后方出发", "望向牙买加湾的海岸景色", "高草原"]
+      },
+      "vanCortlandt": {
+        "title": "Van Cortlandt Park",
+        "body": "全市第三大公园：北端 2 英里的步道穿过三种不同的森林，还有湿地、观鸟湖和老克罗顿引水渠遗迹。",
+        "highlights": ["三种不同的森林", "在 Van Cortlandt 湖观鸟", "铺装的 Putnam 步道"]
+      },
+      "pelhamBay": {
+        "title": "Pelham Bay Park",
+        "body": "在全市最大的公园里穿过城中最古老的一些橡树，走到海岸、双子岛和海龟湾的潮汐沼泽。",
+        "highlights": ["古老橡树林", "双子岛", "海龟湾沼泽"]
+      },
+      "soundview": {
+        "title": "Soundview Park",
+        "body": "布朗克斯河汇入东河处 1.75 英里的轻松步道，经过露天剧场、蝴蝶花园和草地。",
+        "highlights": ["滨水景色", "蝴蝶冥想花园", "草地"]
+      },
+      "forestPark": {
+        "title": "Forest Park",
+        "body": "皇后区最大的连续橡树林，彩色标记的步道经过冰川湖：橙色步道上有百年松林，红色步道可在 Strack 池塘观鸟。",
+        "highlights": ["连续的橡树林", "橙色步道上的松林", "红色步道上的 Strack 池塘"]
+      },
+      "alleyPond": {
+        "title": "Alley Pond Park",
+        "body": "步道穿过橡树和山核桃林以及冰川湖，北端环境中心附近可以看到盐沼。",
+        "highlights": ["冰川湖", "橡树和山核桃林", "盐沼景色"]
+      },
+      "greenbelt": {
+        "title": "史泰登岛绿带",
+        "body": "史泰登岛中部 2,800 英亩的公园群，有超过 35 英里的步道穿过森林和湿地。从绿带自然中心出发。",
+        "highlights": ["超过 35 英里的步道", "森林、沼泽和野生动物", "绿带自然中心"]
+      },
+      "cloveLakes": {
+        "title": "Clove Lakes Park",
+        "body": "3 英里的轻松步道经过山谷湖泊，登上林木茂密的山丘、走过古桥，直到纽约最大的鹅掌楸。",
+        "highlights": ["山谷湖泊", "古老石桥", "全市最大的鹅掌楸"]
       }
     }
   }
