@@ -36,6 +36,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "soho", name: "SoHo", borough: "manhattan", lat: 40.7233, lng: -74.003 },
   { slug: "noho", name: "NoHo", borough: "manhattan", lat: 40.7262, lng: -73.9925 },
   { slug: "nolita", name: "Nolita", borough: "manhattan", lat: 40.7223, lng: -73.9955 },
+  { slug: "little-italy", name: "Little Italy", borough: "manhattan", lat: 40.7191, lng: -73.9973 },
   { slug: "east-village", name: "East Village", borough: "manhattan", lat: 40.7265, lng: -73.9815 },
   { slug: "west-village", name: "West Village", borough: "manhattan", lat: 40.7358, lng: -74.0036 },
   {

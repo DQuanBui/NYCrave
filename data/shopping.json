@@ -1293,5 +1293,479 @@
     "website": "https://www.economycandy.com",
     "lat": 40.72012,
     "lng": -73.98785
+  },
+  {
+    "photos": [],
+    "mustTry": ["Art, design and photography books", "The painted-ceiling rooms"],
+    "vibeTags": ["quiet", "rainy_day", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours from rizzolibookstore.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-rizzoli-bookstore",
+    "slug": "rizzoli-bookstore",
+    "name": "Rizzoli Bookstore",
+    "category": "shopping",
+    "shopTypes": ["bookstore"],
+    "borough": "manhattan",
+    "neighborhood": "NoMad",
+    "address": "1133 Broadway, New York, NY 10010",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "One of the city's most beautiful bookstores, with chandeliers and hand-painted walls, specializing in art, design and fashion books.",
+    "bestTimeToVisit": "A weekday afternoon",
+    "timeNeededMinutes": 40,
+    "trendingScore": 64,
+    "website": "https://www.rizzolibookstore.com",
+    "lat": 40.74358,
+    "lng": -73.98924
+  },
+  {
+    "photos": [],
+    "mustTry": ["Staff picks", "The kids' corner"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite", "kid_friendly"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (10 AM to 7 PM daily) for the Brooklyn store from wordbookstores.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-word-bookstore",
+    "slug": "word-bookstore-greenpoint",
+    "name": "WORD Bookstore",
+    "category": "shopping",
+    "shopTypes": ["bookstore"],
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "126 Franklin St, Brooklyn, NY 11222",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A beloved neighborhood bookstore on Franklin Street with sharp staff picks, a great kids' section and regular author events.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 30,
+    "trendingScore": 54,
+    "website": "https://www.wordbookstores.com",
+    "lat": 40.72907,
+    "lng": -73.95732
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/printed-matter-chelsea-1.jpg",
+        "alt": "Printed Matter's storefront on 11th Avenue in Chelsea",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Wil540 art, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Printed_Matter_bookstore_NYC_Jul_15_2017.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/printed-matter-chelsea-2.jpg",
+        "alt": "Inside Printed Matter, with its mezzanine of artists' books",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Wil540 art, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Inside_Printed_matter_bookstore.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Artists' books and zines", "The new-arrivals wall"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours from printedmatter.org/locations. Mondays by appointment only. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-printed-matter",
+    "slug": "printed-matter-chelsea",
+    "name": "Printed Matter",
+    "category": "shopping",
+    "shopTypes": ["bookstore"],
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "231 11th Ave, New York, NY 10001",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A nonprofit shop for artists' books, zines and prints in Chelsea's gallery district, and the team behind the NY Art Book Fair.",
+    "bestTimeToVisit": "Before a gallery walk",
+    "timeNeededMinutes": 30,
+    "trendingScore": 50,
+    "website": "https://www.printedmatter.org",
+    "lat": 40.75068,
+    "lng": -74.00593
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/brooklyn-flea-dumbo-1.jpg",
+        "alt": "A vendor's stall of vintage goods at the Brooklyn Flea",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "(User:Wgreaves), CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Vendor_display_at_Brooklyn_Flea.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Vintage clothing and records", "Handmade goods"],
+    "vibeTags": ["local_favorite", "instagrammable", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: location and hours (Saturday and Sunday, 10 AM to 5 PM) from brooklynflea.com. The market listed its season as running through December 21. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-brooklyn-flea",
+    "slug": "brooklyn-flea-dumbo",
+    "name": "Brooklyn Flea",
+    "category": "shopping",
+    "shopTypes": ["market", "vintage"],
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "DUMBO Archway, 80 Pearl St, Brooklyn, NY 11201",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A laid-back weekend market under the Manhattan Bridge archway, full of vintage finds, handmade goods and one-of-a-kind treasures.",
+    "bestTimeToVisit": "Saturday late morning",
+    "timeNeededMinutes": 60,
+    "trendingScore": 66,
+    "website": "https://www.brooklynflea.com",
+    "lat": 40.70337,
+    "lng": -73.98821
+  },
+  {
+    "photos": [],
+    "mustTry": ["Antiques and collectibles", "Vintage jewelry"],
+    "vibeTags": ["local_favorite", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (Saturday and Sunday, 8 AM to 5 PM, year-round) from brooklynflea.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-chelsea-flea",
+    "slug": "chelsea-flea",
+    "name": "Chelsea Flea",
+    "category": "shopping",
+    "shopTypes": ["market", "vintage"],
+    "borough": "manhattan",
+    "neighborhood": "NoMad",
+    "address": "29 W 25th St, New York, NY 10010",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "An open-air antiques market running every weekend, year-round, packed with rare collectibles and vintage finds.",
+    "bestTimeToVisit": "Early Saturday for the best finds",
+    "timeNeededMinutes": 45,
+    "trendingScore": 52,
+    "website": "https://www.brooklynflea.com",
+    "lat": 40.74346,
+    "lng": -73.98994
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/queens-night-market-1.jpg",
+        "alt": "Crowds and vendor tents at the Queens Night Market in Flushing Meadows",
+        "width": 1100,
+        "height": 619,
+        "source": "other",
+        "attribution": {
+          "text": "Sharon Medina-Chavez, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:QueensNightMarket_May2019.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Street food from dozens of countries", "Small-scale cultural performances"],
+    "vibeTags": ["local_favorite", "cheap_eats", "group_friendly", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: location and hours (Saturdays, 4 PM to midnight) from queensnightmarket.com. Seasonal: in 2026 it runs April 18 to August 22 and September 19 to October 31. Check the site before going. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-queens-night-market",
+    "slug": "queens-night-market",
+    "name": "Queens Night Market",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "queens",
+    "neighborhood": "Flushing Meadows",
+    "address": "Behind the New York Hall of Science, Flushing Meadows Corona Park, Queens, NY 11368",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "An open-air Saturday night market celebrating the food and cultures of Queens, with dozens of vendors cooking dishes from around the world.",
+    "bestTimeToVisit": "Early, before the lines",
+    "timeNeededMinutes": 120,
+    "trendingScore": 74,
+    "website": "https://queensnightmarket.com",
+    "lat": 40.7483,
+    "lng": -73.8508
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/eataly-flatiron-1.jpg",
+        "alt": "Eataly's gold sign on Fifth Avenue",
+        "width": 1100,
+        "height": 495,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Flatiron_District_September_2024_177.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Fresh pasta and cheese counters", "Gelato"],
+    "vibeTags": ["rainy_day", "group_friendly", "tourist_classic"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (7 AM to 11 PM daily) from eataly.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-eataly-flatiron",
+    "slug": "eataly-flatiron",
+    "name": "Eataly Flatiron",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "200 Fifth Ave, New York, NY 10010",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A huge Italian market across from the Flatiron Building, with counters for pasta, cheese, bread and gelato, plus sit-down restaurants.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 66,
+    "website": "https://www.eataly.com/us_en/stores/nyc-flatiron",
+    "lat": 40.74221,
+    "lng": -73.98958
   }
 ]

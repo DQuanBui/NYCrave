@@ -26,7 +26,9 @@ export async function TypeGrid({ kind, pool }: { kind: TypeKind; pool: Place[] }
           {k.emoji[item.value]}
         </span>
         <span className="min-w-0">
-          <span className="block truncate font-bold">{label}</span>
+          <span className="block leading-tight font-bold text-balance break-words hyphens-auto">
+            {label}
+          </span>
           <span className="block text-xs font-semibold text-muted-foreground">
             {t("listing.count", { count: item.count })}
           </span>

@@ -2169,5 +2169,94 @@
     "website": "https://www.southstreetseaportmuseum.org",
     "lat": 40.70663,
     "lng": -74.00368
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/janes-carousel-1.jpg",
+        "alt": "Jane's Carousel inside its glass pavilion",
+        "width": 1100,
+        "height": 799,
+        "source": "other",
+        "attribution": {
+          "text": "Enciclopedia1993, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Jane%27s_Carousel_in_2025.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/janes-carousel-2.jpg",
+        "alt": "Jane's Carousel with the Manhattan Bridge behind it",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "(User:Wgreaves), CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Jane%27s_Carousel_2019_(Manhattan_Bridge_in_background).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "A ride with the Manhattan skyline outside the glass",
+      "The view at dusk from Pebble Beach"
+    ],
+    "vibeTags": ["kid_friendly", "instagrammable", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: fall hours (September 14 to December 31: Wednesday to Sunday, 11 AM to 5:50 PM) from janescarousel.com. Hours change with the season: closed Tuesdays in summer, open fewer days in winter. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-janes-carousel",
+    "slug": "janes-carousel",
+    "name": "Jane's Carousel",
+    "category": "attraction",
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "Brooklyn Bridge Park, Old Dock St, Brooklyn, NY 11201",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:50"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "17:50"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "17:50"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "17:50"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:50"
+        }
+      ]
+    },
+    "editorialTake": "A restored 1922 carousel in a glass pavilion by the East River, glowing at dusk with the Brooklyn Bridge and Manhattan behind it.",
+    "bestTimeToVisit": "Late afternoon",
+    "timeNeededMinutes": 30,
+    "trendingScore": 70,
+    "website": "https://www.janescarousel.com",
+    "lat": 40.7045,
+    "lng": -73.9912
   }
 ]

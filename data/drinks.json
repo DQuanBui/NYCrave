@@ -1343,5 +1343,455 @@
     "website": "https://chachamatcha.com",
     "lat": 40.74477,
     "lng": -73.98872
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/katana-kitten-west-village-1.jpg",
+        "alt": "Illustrative photo: a gin and tonic highball with lime",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Davidnuescheler, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Gin_and_tonic_cocktail_with_wedge_of_lime.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Highballs", "Japanese-American bar snacks"],
+    "vibeTags": ["date_night", "late_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours from katanakitten.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-katana-kitten",
+    "slug": "katana-kitten-west-village",
+    "name": "Katana Kitten",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "531 Hudson St, New York, NY 10014",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "14:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "14:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A playful Japanese-American cocktail bar on Hudson Street, famous for its crisp highballs and a lively downstairs room.",
+    "bestTimeToVisit": "Early evening",
+    "timeNeededMinutes": 75,
+    "trendingScore": 76,
+    "website": "https://www.katanakitten.com",
+    "lat": 40.73425,
+    "lng": -74.00645
+  },
+  {
+    "photos": [],
+    "mustTry": ["A classic cocktail at the long counter", "The burger"],
+    "vibeTags": ["local_favorite", "date_night", "instagrammable"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours from thelongislandbar.com. Closed Mondays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-long-island-bar",
+    "slug": "the-long-island-bar",
+    "name": "The Long Island Bar",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "brooklyn",
+    "neighborhood": "Cobble Hill",
+    "address": "110 Atlantic Ave, Brooklyn, NY 11201",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "14:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "14:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A restored 1950s diner-bar on Atlantic Avenue with a glowing neon sign, a curved counter and excellent classic cocktails.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 68,
+    "website": "https://www.thelongislandbar.com",
+    "lat": 40.69064,
+    "lng": -73.99643
+  },
+  {
+    "photos": [],
+    "mustTry": ["Sakura martini", "Okonomiyaki"],
+    "vibeTags": ["date_night", "quiet", "late_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours from bargoto.com (location page). Closed Mondays; walk-ins only. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-bar-goto",
+    "slug": "bar-goto-lower-east-side",
+    "name": "Bar Goto",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "245 Eldridge St, New York, NY 10002",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "Kenta Goto's small Japanese cocktail bar, precise and serene, pairing elegant drinks with Japanese comfort food. Walk-ins only.",
+    "bestTimeToVisit": "Right at 5 PM",
+    "timeNeededMinutes": 75,
+    "trendingScore": 74,
+    "website": "https://www.bargoto.com",
+    "lat": 40.72275,
+    "lng": -73.98982
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/ninth-street-espresso-alphabet-city-1.jpg",
+        "alt": "Illustrative photo: an espresso with thick crema in a glass",
+        "width": 1100,
+        "height": 1148,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Takeaway, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Crema_espresso_Akha_Ama.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Espresso", "Cortado"],
+    "vibeTags": ["solo_friendly", "local_favorite", "quiet"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours for the Alphabet City cafe from ninthstreetespresso.com/pages/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-ninth-street-espresso",
+    "slug": "ninth-street-espresso-alphabet-city",
+    "name": "Ninth Street Espresso",
+    "category": "drink",
+    "drinkTypes": ["coffee"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "700 E 9th St, New York, NY 10009",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "An Alphabet City pioneer of New York's specialty coffee scene, pulling serious espresso in a small, no-fuss room.",
+    "bestTimeToVisit": "Morning",
+    "timeNeededMinutes": 20,
+    "trendingScore": 60,
+    "website": "https://www.ninthstreetespresso.com",
+    "lat": 40.72513,
+    "lng": -73.9779
+  },
+  {
+    "photos": [],
+    "mustTry": ["Wine by the glass", "Small plates"],
+    "vibeTags": ["date_night", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and wine bar hours from parcellewine.com. Closed Mondays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-parcelle-chinatown",
+    "slug": "parcelle-chinatown",
+    "name": "Parcelle",
+    "category": "drink",
+    "drinkTypes": ["wine_bar"],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "135 Division St, New York, NY 10002",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "15:00",
+          "close": "21:30"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "15:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "15:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A warm, candlelit wine bar on Division Street with a deep list by the glass and small plates made for sharing.",
+    "bestTimeToVisit": "Early evening",
+    "timeNeededMinutes": 75,
+    "trendingScore": 64,
+    "website": "https://www.parcellewine.com",
+    "lat": 40.71438,
+    "lng": -73.99116
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bar-pisellino-west-village-1.jpg",
+        "alt": "Illustrative photo: an Aperol spritz on an outdoor table",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "JIP, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Aperol_Spritz_aboard_Viking_Mariella.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Espresso at the bar in the morning", "A spritz at aperitivo hour"],
+    "vibeTags": ["date_night", "instagrammable", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: address and hours (8 AM to 11 PM daily) from barpisellino.com. No reservations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-bar-pisellino",
+    "slug": "bar-pisellino-west-village",
+    "name": "Bar Pisellino",
+    "category": "drink",
+    "drinkTypes": ["coffee", "cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "52 Grove St, New York, NY 10014",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "An Italian bar from the Via Carota team: espresso standing at the counter in the morning, spritzes on the sidewalk by evening.",
+    "bestTimeToVisit": "Aperitivo hour",
+    "timeNeededMinutes": 45,
+    "trendingScore": 74,
+    "website": "https://www.barpisellino.com",
+    "lat": 40.73302,
+    "lng": -74.00337
   }
 ]

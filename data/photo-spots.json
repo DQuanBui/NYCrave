@@ -1499,5 +1499,812 @@
     "website": "https://www.brooklynbridgepark.org",
     "lat": 40.7039,
     "lng": -73.9905
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/belvedere-castle-1.jpg",
+        "alt": "Belvedere Castle above Turtle Pond in Central Park",
+        "width": 1100,
+        "height": 619,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle_and_Turtle_Pond,_Central_Park,_Manhattan,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/belvedere-castle-2.jpg",
+        "alt": "Belvedere Castle on Vista Rock, reflected in the pond",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Boaventuravinicius, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle_Central_Park_2025.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "kid_friendly", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: hours (10 AM to 5 PM daily) from the Central Park Conservancy. Closed Thanksgiving, Christmas and New Year's Day. Terrace access ends at 4:55 PM. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-belvedere-castle",
+    "slug": "belvedere-castle",
+    "name": "Belvedere Castle",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "Central Park, mid-park at 79th St, New York, NY 10024",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["morning", "golden_hour"],
+      "tips": [
+        "Shoot the castle from Turtle Pond below, reflected in the water.",
+        "From the terraces, look out over the Great Lawn and the skyline."
+      ]
+    },
+    "editorialTake": "A small 1870s castle on Vista Rock, the second-highest natural point in Central Park, with terraces over Turtle Pond and the Great Lawn.",
+    "bestTimeToVisit": "Morning",
+    "timeNeededMinutes": 30,
+    "trendingScore": 66,
+    "website": "https://www.centralparknyc.org/locations/belvedere-castle",
+    "lat": 40.7794,
+    "lng": -73.9691
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bethesda-terrace-1.jpg",
+        "alt": "Bethesda Fountain and the Lake in Central Park",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bethesda_Fountain_and_the_Lake,_Central_Park,_Manhattan,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/bethesda-terrace-2.jpg",
+        "alt": "The Angel of the Waters statue atop Bethesda Fountain",
+        "width": 1100,
+        "height": 1650,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Angel_of_the_Waters,_Bethesda_Fountain,_Central_Park,_Manhattan,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic", "outdoor", "date_night"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: Central Park hours (6 AM to 1 AM) from NYC Parks and the Central Park Conservancy. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-bethesda-terrace",
+    "slug": "bethesda-terrace",
+    "name": "Bethesda Terrace and Fountain",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "Central Park, mid-park at 72nd St, New York, NY 10023",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["morning", "golden_hour"],
+      "tips": [
+        "Look up in the lower arcade at the tiled ceiling.",
+        "Frame the Angel of the Waters fountain with the lake behind it."
+      ]
+    },
+    "editorialTake": "The grand heart of Central Park: sweeping stairs, a tiled arcade and the Angel of the Waters fountain by the lake. Street musicians often play here.",
+    "bestTimeToVisit": "Early morning",
+    "timeNeededMinutes": 30,
+    "trendingScore": 76,
+    "website": "https://www.centralparknyc.org",
+    "lat": 40.774,
+    "lng": -73.9708
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/washington-square-arch-1.jpg",
+        "alt": "Washington Square Arch with the Empire State Building framed behind it",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Christian David, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Washington_Square_Arch_and_the_Empire_State_Building,_Greenwich_Village,_Manhattan,_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/washington-square-arch-2.jpg",
+        "alt": "The marble Washington Square Arch against a blue sky",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Washington_Square_Arch_September_2022.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-washington-square-arch",
+    "slug": "washington-square-arch",
+    "name": "Washington Square Arch",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "Washington Square Park at Fifth Ave, New York, NY 10011",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "blue_hour"],
+      "tips": [
+        "Stand up Fifth Avenue to frame the arch with the park behind it.",
+        "From inside the park, line up the arch with the Empire State Building to the north."
+      ]
+    },
+    "editorialTake": "The marble triumphal arch at the foot of Fifth Avenue, framing the fountain, performers and the whole life of Washington Square Park.",
+    "bestTimeToVisit": "Golden hour",
+    "timeNeededMinutes": 20,
+    "trendingScore": 70,
+    "website": "https://www.nycgovparks.org/parks/washington-square-park",
+    "lat": 40.7314,
+    "lng": -73.9971
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/stone-street-1.jpg",
+        "alt": "Stone Street's cobblestones and old brick buildings",
+        "width": 1100,
+        "height": 736,
+        "source": "other",
+        "attribution": {
+          "text": "Phillip Capper, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Stone_Street,_Manhattan,_New_York,_10_Feb._2008.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/stone-street-2.jpg",
+        "alt": "Stone Street among Financial District towers",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Gryffindor, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Stone_Street_NYC_005.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "outdoor", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: public street, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-stone-street",
+    "slug": "stone-street",
+    "name": "Stone Street",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "Stone St between Hanover Sq and Coenties Alley, New York, NY 10004",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "night"],
+      "tips": [
+        "In warm months the street fills with long outdoor tables.",
+        "Shoot low along the cobblestones toward the old brick facades."
+      ]
+    },
+    "editorialTake": "One of the oldest streets in Manhattan: a short, cobbled lane of 19th-century buildings among the Financial District's towers.",
+    "bestTimeToVisit": "Summer evening",
+    "timeNeededMinutes": 20,
+    "trendingScore": 56,
+    "lat": 40.7042,
+    "lng": -74.0105
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/charging-bull-1.jpg",
+        "alt": "The Charging Bull at Bowling Green on Broadway",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Tdorante10, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bowling_Green_td_(2018-12-13)_06_-_26_Broadway,_Charging_Bull.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["tourist_classic", "instagrammable", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: public sidewalk, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-charging-bull",
+    "slug": "charging-bull",
+    "name": "Charging Bull",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "Broadway at Bowling Green, New York, NY 10004",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["sunrise", "morning"],
+      "tips": [
+        "Come early: by mid-morning there is a long line for photos.",
+        "A wide lens gets the bull with Broadway's towers behind."
+      ]
+    },
+    "editorialTake": "Arturo Di Modica's bronze bull at Bowling Green, a symbol of Wall Street's optimism and one of the most photographed sculptures in the city.",
+    "bestTimeToVisit": "Sunrise, before the crowds",
+    "timeNeededMinutes": 15,
+    "trendingScore": 66,
+    "lat": 40.7056,
+    "lng": -74.0134
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/chrysler-building-view-1.jpg",
+        "alt": "The Chrysler Building's Art Deco crown",
+        "width": 1100,
+        "height": 1563,
+        "source": "other",
+        "attribution": {
+          "text": "Ermell, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_NYC-20090519-RM-094845.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/chrysler-building-view-2.jpg",
+        "alt": "The Chrysler Building's spire among Midtown towers",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Carlos Delgado, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_-_05.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: public street, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-chrysler-view",
+    "slug": "chrysler-building-view",
+    "name": "Chrysler Building view",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "Lexington Ave at E 43rd St, New York, NY 10017",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["blue_hour", "night"],
+      "tips": [
+        "Look straight up Lexington Avenue for the Art Deco crown.",
+        "At blue hour the crown's triangle windows light up."
+      ]
+    },
+    "editorialTake": "The best street-level view of the 1930 Art Deco Chrysler Building, its stainless-steel crown rising over Lexington Avenue.",
+    "bestTimeToVisit": "Blue hour",
+    "timeNeededMinutes": 15,
+    "trendingScore": 62,
+    "lat": 40.752,
+    "lng": -73.9751
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/mulberry-street-little-italy-1.jpg",
+        "alt": "Mulberry Street in Little Italy with restaurant awnings and flags",
+        "width": 1100,
+        "height": 938,
+        "source": "other",
+        "attribution": {
+          "text": "Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Little_Italy,_Mulberry_Street,_Manhattan,_New_York_(7237373872).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      },
+      {
+        "url": "/photos/mulberry-street-little-italy-2.jpg",
+        "alt": "Evening on Mulberry Street in Little Italy",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Little_Italy,_Mulberry_Street,_Manhattan,_New_York_(7237373650).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: public street, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-mulberry-street",
+    "slug": "mulberry-street-little-italy",
+    "name": "Mulberry Street",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Little Italy",
+    "address": "Mulberry St between Canal and Broome St, New York, NY 10013",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["blue_hour", "night"],
+      "tips": [
+        "After dark, string lights hang over the street.",
+        "The Feast of San Gennaro fills the street every September."
+      ]
+    },
+    "editorialTake": "The heart of what remains of Little Italy: red-sauce restaurants with sidewalk tables under strings of lights.",
+    "bestTimeToVisit": "Evening",
+    "timeNeededMinutes": 30,
+    "trendingScore": 58,
+    "lat": 40.7194,
+    "lng": -73.9975
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/astoria-park-hell-gate-view-1.jpg",
+        "alt": "The Hell Gate Bridge from Astoria Park in autumn",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kenneth C. Zirkel, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Hell_Gate_Bridge_from_Astoria_Park,_Queens_New_York.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/astoria-park-hell-gate-view-2.jpg",
+        "alt": "The Hell Gate Bridge arching over the East River",
+        "width": 1100,
+        "height": 382,
+        "source": "other",
+        "attribution": {
+          "text": "Rhododendrites, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Hell_Gate_Bridge_(84459)p.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "local_favorite", "quiet"],
+    "verified": false,
+    "updatedAt": "2026-09-29T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-29: NYC Parks' standard park hours (6 AM to 1 AM unless posted otherwise). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-astoria-park-hell-gate",
+    "slug": "astoria-park-hell-gate-view",
+    "name": "Hell Gate Bridge from Astoria Park",
+    "category": "photo_spot",
+    "borough": "queens",
+    "neighborhood": "Astoria",
+    "address": "Astoria Park, Shore Blvd, Queens, NY 11105",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "sunrise"],
+      "tips": [
+        "Walk the waterfront path for the steel arch of Hell Gate with the Triborough (RFK) Bridge beside it.",
+        "Sunset lights up the Manhattan skyline across the East River."
+      ]
+    },
+    "editorialTake": "A riverside park with two great bridges overhead: the steel arch of the Hell Gate Bridge and the RFK (Triborough) Bridge, with Manhattan across the water.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 45,
+    "trendingScore": 52,
+    "website": "https://www.nycgovparks.org/parks/astoria-park",
+    "lat": 40.778,
+    "lng": -73.923
   }
 ]
