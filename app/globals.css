@@ -329,3 +329,90 @@
     opacity: 1;
   }
 }
+
+/* ---------- Motion: the subway draws itself ---------- */
+
+/* Section headers: the line color draws across, the bullet rolls in, prints drop */
+@keyframes line-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes line-draw-y {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes bullet-roll {
+  from {
+    transform: translateX(-160%) rotate(-300deg);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes print-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-36px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes stop-pop {
+  0% {
+    transform: scale(0.2);
+  }
+  70% {
+    transform: scale(1.18);
+  }
+  100% {
+    transform: none;
+  }
+}
+/* A taxi riding the day's route in the My Day teaser */
+@keyframes ride {
+  0% {
+    left: 1rem;
+  }
+  100% {
+    left: calc(100% - 1rem);
+  }
+}
+
+/* Linked to scrolling where supported; elsewhere the finished state simply shows */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .draw-on-view {
+      transform-origin: left;
+      animation: line-draw linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+    }
+    .draw-on-view-y {
+      transform-origin: top;
+      animation: line-draw-y linear both;
+      animation-timeline: view();
+      animation-range: entry 10% cover 40%;
+    }
+    @media (min-width: 40rem) {
+      .draw-on-view-y {
+        transform-origin: left;
+        animation-name: line-draw;
+      }
+    }
+    .pop-on-view {
+      animation: stop-pop linear both;
+      animation-timeline: view();
+      animation-range: entry calc(15% + var(--i, 0) * 5%) cover calc(30% + var(--i, 0) * 4%);
+    }
+  }
+}

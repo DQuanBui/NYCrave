@@ -45,7 +45,10 @@ export async function LineMap({ counts }: { counts: Record<Category, number> }) 
                 >
                   <span
                     aria-hidden
-                    className={cn("absolute inset-x-0 top-0 h-1.5", LINES[meta.line].bg)}
+                    className={cn(
+                      "draw-on-view absolute inset-x-0 top-0 h-1.5",
+                      LINES[meta.line].bg,
+                    )}
                   />
                   <span className="flex items-center justify-between gap-2">
                     <LineBullet line={meta.line} size="lg">

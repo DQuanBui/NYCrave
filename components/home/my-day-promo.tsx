@@ -30,16 +30,22 @@ export async function MyDayPromo() {
         <ol className="relative grid grid-cols-1 gap-3 sm:grid-cols-7 sm:gap-0">
           <span
             aria-hidden
-            className="absolute top-2 bottom-2 left-[0.6875rem] w-1.5 rounded-full bg-taxi sm:top-[0.6875rem] sm:right-4 sm:bottom-auto sm:left-4 sm:h-1.5 sm:w-auto"
+            className="draw-on-view-y absolute top-2 bottom-2 left-[0.6875rem] w-1.5 rounded-full bg-taxi sm:top-[0.6875rem] sm:right-4 sm:bottom-auto sm:left-4 sm:h-1.5 sm:w-auto"
           />
-          {STOPS.map((stop) => (
+          {/* A taxi riding the route, on wide screens */}
+          <span
+            aria-hidden
+            className="absolute top-[0.875rem] z-10 hidden size-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white shadow-[0_0_0_4px_#1d1f21,0_0_14px_4px_rgba(252,204,10,0.9)] motion-safe:animate-[ride_7s_ease-in-out_infinite_alternate] sm:block"
+          />
+          {STOPS.map((stop, i) => (
             <li
               key={stop}
               className="relative flex items-center gap-3 sm:flex-col sm:items-start sm:gap-3"
             >
               <span
                 aria-hidden
-                className="relative size-7 shrink-0 rounded-full bg-sign ring-[5px] ring-taxi ring-inset"
+                style={{ "--i": i } as React.CSSProperties}
+                className="pop-on-view relative size-7 shrink-0 rounded-full bg-sign ring-[5px] ring-taxi ring-inset"
               />
               <span className="text-sm font-semibold sm:max-w-16 sm:text-xs sm:leading-tight">
                 {t(`myDayStops.${stop}`)}
