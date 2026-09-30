@@ -7490,5 +7490,90 @@
     "website": "https://www.birrialandia.com",
     "lat": 40.71415,
     "lng": -73.9537
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/johnnys-reef-city-island-1.jpg",
+        "alt": "Illustrative photo: a sailboat off City Island",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "illustrative": true,
+        "attribution": {
+          "text": "Unknown author, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:CUST_at_City_Island.jpg",
+          "license": "Public domain"
+        }
+      }
+    ],
+    "mustTry": ["Fried seafood by the water"],
+    "vibeTags": ["local_favorite", "outdoor", "group_friendly", "cheap_eats"],
+    "verified": false,
+    "updatedAt": "2026-09-30T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-30: address and fall hours from johnnysreefrestaurant.com. Hours change with the season. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-johnnys-reef",
+    "slug": "johnnys-reef-city-island",
+    "name": "Johnny's Reef",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["seafood"],
+    "borough": "bronx",
+    "neighborhood": "City Island",
+    "address": "2 City Island Ave, Bronx, NY 10464",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "22:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "22:30"
+        }
+      ]
+    },
+    "editorialTake": "A no-frills fried-seafood counter at the very tip of City Island, with picnic tables looking out over Long Island Sound.",
+    "bestTimeToVisit": "A summer evening",
+    "timeNeededMinutes": 60,
+    "trendingScore": 60,
+    "website": "https://www.johnnysreefrestaurant.com",
+    "lat": 40.83777,
+    "lng": -73.78266
   }
 ]

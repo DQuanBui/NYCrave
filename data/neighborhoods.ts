@@ -140,6 +140,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lat: 40.7557,
     lng: -73.8831,
   },
+  { slug: "corona", name: "Corona", borough: "queens", lat: 40.7475, lng: -73.862 },
   {
     slug: "long-island-city",
     name: "Long Island City",
@@ -151,8 +152,18 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "riverdale", name: "Riverdale", borough: "bronx", lat: 40.8997, lng: -73.9126 },
   { slug: "bronx-park", name: "Bronx Park", borough: "bronx", lat: 40.8575, lng: -73.8766 },
   { slug: "mott-haven", name: "Mott Haven", borough: "bronx", lat: 40.8091, lng: -73.9229 },
+  { slug: "concourse", name: "Concourse", borough: "bronx", lat: 40.8272, lng: -73.9223 },
+  { slug: "fordham", name: "Fordham", borough: "bronx", lat: 40.861, lng: -73.8905 },
   { slug: "pelham-bay", name: "Pelham Bay", borough: "bronx", lat: 40.8651, lng: -73.8078 },
+  { slug: "city-island", name: "City Island", borough: "bronx", lat: 40.8468, lng: -73.7867 },
   { slug: "st-george", name: "St. George", borough: "staten_island", lat: 40.6437, lng: -74.0765 },
+  {
+    slug: "new-brighton",
+    name: "New Brighton",
+    borough: "staten_island",
+    lat: 40.6425,
+    lng: -74.098,
+  },
   {
     slug: "lighthouse-hill",
     name: "Lighthouse Hill",

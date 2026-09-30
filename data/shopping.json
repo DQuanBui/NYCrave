@@ -1767,5 +1767,102 @@
     "website": "https://www.eataly.com/us_en/stores/nyc-flatiron",
     "lat": 40.74221,
     "lng": -73.98958
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/new-world-mall-flushing-1.jpg",
+        "alt": "New World Mall's glass tower on Main Street in Flushing",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Flushing_Queens_March_2022_042.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/new-world-mall-flushing-2.jpg",
+        "alt": "The New World Mall entrance on Main Street",
+        "width": 1100,
+        "height": 1592,
+        "source": "other",
+        "attribution": {
+          "text": "Morgan695, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:New_World_Mall_Main_Street_Entrance.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["The downstairs food court", "Hand-pulled noodles and dumpling stalls"],
+    "vibeTags": ["cheap_eats", "rainy_day", "group_friendly", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-30T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-30: address and hours (10 AM to 10 PM daily, holidays included) from newworldmallny.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-new-world-mall",
+    "slug": "new-world-mall-flushing",
+    "name": "New World Mall",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "136-20 Roosevelt Ave, Flushing, NY 11354",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A Flushing mall with a big basement food court of Asian stalls, from noodles and dumplings to skewers and bubble tea. Open every day of the year.",
+    "bestTimeToVisit": "Lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 60,
+    "website": "https://www.newworldmallny.com",
+    "lat": 40.75909,
+    "lng": -73.8295
   }
 ]

@@ -17,9 +17,11 @@ describe("subway stations", () => {
   })
 
   it("puts a station within a 15-minute walk of almost every place", () => {
-    const far = places.filter((p) => nearestStations(p).length === 0).map((p) => p.slug)
-    // Piers, Roosevelt Island and big parks can be a longer walk
-    expect(far.length / places.length).toBeLessThan(0.06)
+    // Staten Island has no subway (only its own railway and the ferry)
+    const served = places.filter((p) => p.borough !== "staten_island")
+    const far = served.filter((p) => nearestStations(p).length === 0).map((p) => p.slug)
+    // Piers, City Island, Roosevelt Island and big parks can be a longer walk
+    expect(far.length / served.length).toBeLessThan(0.06)
   })
 
   it("colors every route", () => {

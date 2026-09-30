@@ -2258,5 +2258,482 @@
     "website": "https://www.janescarousel.com",
     "lat": 40.7045,
     "lng": -73.9912
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bronx-museum-of-the-arts-1.jpg",
+        "alt": "The Bronx Museum's glass and metal facade on the Grand Concourse",
+        "width": 1100,
+        "height": 641,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Bronx_Museum_Art_jeh.JPG",
+          "license": "Public domain"
+        }
+      },
+      {
+        "url": "/photos/bronx-museum-of-the-arts-2.jpg",
+        "alt": "The museum's white folded wing",
+        "width": 1100,
+        "height": 640,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bronx_Museum_white_jeh.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Contemporary art by artists from the Bronx and beyond"],
+    "vibeTags": ["rainy_day", "quiet", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-30T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-30: hours (Wednesday to Sunday, 11 AM to 6 PM) and free admission from bronxmuseum.org/visit. Part of the building is being renovated; the North Wing stays open. Closed federal holidays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-bronx-museum",
+    "slug": "bronx-museum-of-the-arts",
+    "name": "The Bronx Museum",
+    "category": "attraction",
+    "borough": "bronx",
+    "neighborhood": "Concourse",
+    "address": "1040 Grand Concourse, Bronx, NY 10456",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A free contemporary art museum on the Grand Concourse, focused on artists of African, Asian and Latin American descent and on the Bronx itself.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 52,
+    "website": "https://www.bronxmuseum.org",
+    "lat": 40.83109,
+    "lng": -73.91995
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/edgar-allan-poe-cottage-1.jpg",
+        "alt": "Edgar Allan Poe Cottage, a small white farmhouse with a porch",
+        "width": 1100,
+        "height": 869,
+        "source": "other",
+        "attribution": {
+          "text": "Zoirusha at English Wikipedia, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe%27s_house_in_the_Bronx.jpg",
+          "license": "Public domain"
+        }
+      },
+      {
+        "url": "/photos/edgar-allan-poe-cottage-2.jpg",
+        "alt": "Poe Cottage in its park on the Grand Concourse",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Sponresponse, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe_Cottage_Museum.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The small rooms where Poe wrote in his last years"],
+    "vibeTags": ["quiet", "local_favorite"],
+    "verified": false,
+    "updatedAt": "2026-09-30T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-30: address, hours and suggested donations from the Bronx County Historical Society (bronxhistoricalsociety.org). Open weekends only; private tours by appointment. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-poe-cottage",
+    "slug": "edgar-allan-poe-cottage",
+    "name": "Edgar Allan Poe Cottage",
+    "category": "attraction",
+    "borough": "bronx",
+    "neighborhood": "Fordham",
+    "address": "2640 Grand Concourse, Bronx, NY 10458",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 5,
+        "max": 5
+      },
+      "bookingUrl": "https://bronxhistoricalsociety.org/poe-cottage/",
+      "notes": "Suggested donation: $5 adults, $3 children and seniors."
+    },
+    "editorialTake": "The small wooden farmhouse where Edgar Allan Poe spent his last years, 1846 to 1849, now a museum in a park on the Grand Concourse.",
+    "bestTimeToVisit": "Saturday",
+    "timeNeededMinutes": 45,
+    "trendingScore": 50,
+    "website": "https://bronxhistoricalsociety.org/poe-cottage/",
+    "lat": 40.86496,
+    "lng": -73.89488
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/bartow-pell-mansion-1.jpg",
+        "alt": "The Bartow-Pell Mansion above its formal garden",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Dmadeo, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bartow-pell-mansion.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/bartow-pell-mansion-2.jpg",
+        "alt": "A period salon inside the Bartow-Pell Mansion",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Brett Whysel, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Bartow-Pell_Mansion-_Salon.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A guided tour of the 1840s rooms", "The formal garden"],
+    "vibeTags": ["quiet", "date_night", "outdoor"],
+    "verified": false,
+    "updatedAt": "2026-09-30T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-30: hours and admission from bartowpellmansionmuseum.org (plan your visit). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-bartow-pell-mansion",
+    "slug": "bartow-pell-mansion",
+    "name": "Bartow-Pell Mansion",
+    "category": "attraction",
+    "borough": "bronx",
+    "neighborhood": "Pelham Bay",
+    "address": "895 Shore Rd, Bronx, NY 10464",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 15,
+        "max": 15
+      },
+      "bookingUrl": "https://www.bartowpellmansionmuseum.org/visit/plan-your-visit/",
+      "notes": "Adults $15; seniors and students $12. Guided tours at a quarter past each hour from 12:15."
+    },
+    "editorialTake": "A graceful 1840s stone mansion and formal garden inside Pelham Bay Park, one of the last country estates of the old Bronx shoreline.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 46,
+    "website": "https://www.bartowpellmansionmuseum.org",
+    "lat": 40.87178,
+    "lng": -73.80564
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/staten-island-museum-1.jpg",
+        "alt": "The Staten Island Museum's brick building at Snug Harbor",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Epicgenius, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Snug_Harbor_Aug_2026_154.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Natural science, art and history under one roof", "The grounds of Snug Harbor"],
+    "vibeTags": ["rainy_day", "kid_friendly", "quiet"],
+    "verified": false,
+    "updatedAt": "2026-09-30T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-30: hours (Wednesday to Sunday, 11 AM to 5 PM) from statenislandmuseum.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-staten-island-museum",
+    "slug": "staten-island-museum",
+    "name": "Staten Island Museum",
+    "category": "attraction",
+    "borough": "staten_island",
+    "neighborhood": "New Brighton",
+    "address": "1000 Richmond Terrace, Building A, Staten Island, NY 10301",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "Staten Island's museum of art, natural science and history, on the leafy campus of Snug Harbor near the ferry.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 44,
+    "website": "https://statenislandmuseum.org",
+    "lat": 40.64452,
+    "lng": -74.10275
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/national-lighthouse-museum-1.jpg",
+        "alt": "The National Lighthouse Museum's brick building by the St. George waterfront",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lighthouse_Museum_1_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/national-lighthouse-museum-2.jpg",
+        "alt": "The museum's entrance with its flag and sign",
+        "width": 960,
+        "height": 833,
+        "source": "other",
+        "attribution": {
+          "text": "Hamza Qureshi, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:National_Lighthouse_Museum_Educational_Resource_Center.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Lighthouse lenses and models", "A walk on the St. George waterfront"],
+    "vibeTags": ["kid_friendly", "quiet", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-30T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-30: hours (Thursday to Sunday, 11 AM to 4 PM) from lighthousemuseum.org. Closed Monday to Wednesday and on legal holidays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-national-lighthouse-museum",
+    "slug": "national-lighthouse-museum",
+    "name": "National Lighthouse Museum",
+    "category": "attraction",
+    "borough": "staten_island",
+    "neighborhood": "St. George",
+    "address": "200 The Promenade at Lighthouse Point, Staten Island, NY 10301",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "A small museum of lighthouses on the site of the old U.S. Lighthouse Service depot, a short walk from the Staten Island Ferry.",
+    "bestTimeToVisit": "After the ferry ride",
+    "timeNeededMinutes": 60,
+    "trendingScore": 42,
+    "website": "https://lighthousemuseum.org",
+    "lat": 40.64073,
+    "lng": -74.07341
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/louis-armstrong-house-museum-1.jpg",
+        "alt": "The Louis Armstrong House, a brick home in Corona",
+        "width": 1100,
+        "height": 718,
+        "source": "other",
+        "attribution": {
+          "text": "Joe Mabel, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_House_02.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/louis-armstrong-house-museum-2.jpg",
+        "alt": "The side garden of the Louis Armstrong House",
+        "width": 1100,
+        "height": 730,
+        "source": "other",
+        "attribution": {
+          "text": "Joe Mabel, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_House_03.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["The hourly house tour", "The Armstrongs' blue kitchen"],
+    "vibeTags": ["local_favorite", "quiet", "rainy_day"],
+    "verified": false,
+    "updatedAt": "2026-09-30T12:00:00.000Z",
+    "dietary": [],
+    "verificationNotes": "Checked 2026-09-30: hours (Thursday to Saturday, 11 AM to 4 PM; tours on the hour from 11 AM to 3 PM) from louisarmstronghouse.org/visit. Closed Sunday to Wednesday, Thanksgiving, Christmas week and New Year's week. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-louis-armstrong-house",
+    "slug": "louis-armstrong-house-museum",
+    "name": "Louis Armstrong House Museum",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Corona",
+    "address": "34-56 107th St, Corona, NY 11368",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "The modest Corona house where Louis and Lucille Armstrong lived for nearly three decades, kept as they left it, with tours on the hour.",
+    "bestTimeToVisit": "Book the 11 AM tour",
+    "timeNeededMinutes": 90,
+    "trendingScore": 58,
+    "website": "https://www.louisarmstronghouse.org",
+    "lat": 40.75457,
+    "lng": -73.86154
   }
 ]
