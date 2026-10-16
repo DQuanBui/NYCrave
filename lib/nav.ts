@@ -12,6 +12,7 @@ import {
   MapPinned,
   Route,
   Stamp,
+  Sunset,
   ShoppingBag,
   Trees,
   UtensilsCrossed,
@@ -37,6 +38,7 @@ export type NavKey =
   | "next"
   | "food"
   | "walks"
+  | "goldenHour"
 
 export type NavItem = { key: NavKey; href: string; icon: LucideIcon; line?: LineColor }
 
@@ -62,6 +64,7 @@ export const NAV: Record<NavKey, NavItem> = {
   next: { key: "next", href: "/next", icon: Footprints, line: "green" },
   food: { key: "food", href: "/food", icon: ChefHat, line: "red" },
   walks: { key: "walks", href: "/walks", icon: Mountain, line: "green" },
+  goldenHour: { key: "goldenHour", href: "/golden-hour", icon: Sunset, line: "yellow" },
 }
 
 /** Mobile bottom tabs. */
@@ -74,6 +77,7 @@ export const MENU: NavKey[] = [
   "next",
   "food",
   "walks",
+  "goldenHour",
   "map",
   "neighborhoods",
   "seasons",

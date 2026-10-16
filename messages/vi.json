@@ -29,7 +29,8 @@
     "passport": "Hộ chiếu",
     "next": "Đi đâu tiếp",
     "food": "Cẩm nang ẩm thực",
-    "walks": "Đi bộ và leo núi"
+    "walks": "Đi bộ và leo núi",
+    "goldenHour": "Giờ vàng"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",
@@ -89,7 +90,8 @@
     "freeToday": "Miễn phí hôm nay",
     "openNow": "Đang mở cửa",
     "whatsNext": "Đi đâu tiếp?",
-    "walks": "Đi bộ và leo núi"
+    "walks": "Đi bộ và leo núi",
+    "goldenHour": "Giờ vàng"
   },
   "home": {
     "trending": "Đang thịnh hành",
@@ -1382,5 +1384,55 @@
         "highlights": ["Hồ trong thung lũng", "Cầu đá cổ", "Cây tulip lớn nhất thành phố"]
       }
     }
+  },
+  "goldenHour": {
+    "title": "Giờ vàng",
+    "tagline": "Ánh sáng hôm nay theo từng phút, và những tuyến dạo chụp ảnh canh đúng thời điểm.",
+    "skyTitle": "Bầu trời hôm nay",
+    "skyBody": "Tính từ vị trí mặt trời trên New York cho ngày hôm nay. Vạch đánh dấu cho biết ánh sáng lúc này.",
+    "sunriseAt": "Bình minh {time}",
+    "sunsetAt": "Hoàng hôn {time}",
+    "now": "Bây giờ: {phase}",
+    "next": "{phase} từ {time}",
+    "legend": "Các loại ánh sáng",
+    "phase": {
+      "night": "Đêm",
+      "blue": "Giờ xanh",
+      "dawn": "Rạng đông",
+      "golden": "Giờ vàng",
+      "day": "Ban ngày",
+      "dusk": "Ráng chiều"
+    },
+    "walksTitle": "Dạo chụp ảnh",
+    "walksIntro": "Những tuyến đi bộ ngắn giữa các điểm chụp ảnh, xếp lịch theo mặt trời hôm nay. Xuất phát đúng giờ ghi và mỗi điểm dừng sẽ có ánh sáng đẹp nhất.",
+    "start": "Xuất phát {time}",
+    "walkLeg": "Đi bộ {minutes} phút",
+    "opensAt": "(khi công viên mở cửa)",
+    "distance": "{km} km, {minutes} phút đi bộ",
+    "finish": "Xong khoảng {time}",
+    "note": "Thời gian tính cho một lần dừng ngắn ở mỗi điểm. Nhà cao tầng có thể che mặt trời thấp, nên hãy đến sớm một chút, và xem dự báo thời tiết: mây có thể làm đẹp hoặc làm hỏng ánh sáng.",
+    "walks": {
+      "dumboSunrise": {
+        "title": "DUMBO lúc bình minh",
+        "body": "Đón tia nắng đầu tiên trên cầu Brooklyn, chụp khung hình cầu Manhattan kinh điển ở phố Washington trước khi đông người, rồi kết thúc bên bờ nước ở Pebble Beach."
+      },
+      "centralParkMorning": {
+        "title": "Sáng ở Central Park",
+        "body": "Nắng sớm trên hồ ở cầu Gapstow, mái vòm và đài phun nước Bethesda Terrace, rồi cầu Bow bắc qua hồ The Lake."
+      },
+      "brooklynSunset": {
+        "title": "Hoàng hôn Brooklyn",
+        "body": "Ngắm mặt trời lặn sau Hạ Manhattan từ Brooklyn Heights Promenade, rồi đi bộ đến Pebble Beach khi đường chân trời lên đèn."
+      },
+      "midtownBlueHour": {
+        "title": "Giờ xanh ở Midtown",
+        "body": "Bắt đầu trên cầu Tudor City trong nắng cuối ngày, quay sang tòa Chrysler khi trời chuyển xanh, và kết thúc trong ánh đèn Times Square."
+      },
+      "villageNight": {
+        "title": "Từ Village đến Chinatown về đêm",
+        "body": "Cổng vòm Washington Square trong nắng vàng, dây đèn trên phố Mulberry lúc chạng vạng, rồi khúc cua phố Doyers khi trời tối."
+      }
+    },
+    "cta": "Lên lịch dạo chụp ảnh đúng giờ vàng hôm nay"
   }
 }

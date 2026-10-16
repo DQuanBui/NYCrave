@@ -30,6 +30,15 @@ export function MoodChips({ className }: { className?: string }) {
             {t("walks")}
           </Link>
         </li>
+        <li className="shrink-0">
+          <Link
+            href="/golden-hour"
+            className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-line-yellow bg-card px-4 text-sm font-semibold transition-colors hover:bg-line-yellow hover:text-black"
+          >
+            <span aria-hidden>🌅</span>
+            {t("goldenHour")}
+          </Link>
+        </li>
         {MOODS.map((mood) => (
           <li key={mood.key} className="shrink-0">
             <Link

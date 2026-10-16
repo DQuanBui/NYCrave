@@ -387,6 +387,16 @@
     left: calc(100% - 1rem);
   }
 }
+/* Light drifting across the sky ribbon on the golden hour page */
+@keyframes sky-shimmer {
+  0%,
+  100% {
+    background-position: 120% 0;
+  }
+  50% {
+    background-position: -20% 0;
+  }
+}
 
 /* Linked to scrolling where supported; elsewhere the finished state simply shows */
 @media (prefers-reduced-motion: no-preference) {

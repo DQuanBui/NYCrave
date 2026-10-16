@@ -29,7 +29,8 @@
     "passport": "Passport",
     "next": "What's next",
     "food": "Food guide",
-    "walks": "Walks & hikes"
+    "walks": "Walks & hikes",
+    "goldenHour": "Golden hour"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -89,7 +90,8 @@
     "freeToday": "Free today",
     "openNow": "Open now",
     "whatsNext": "What's next?",
-    "walks": "Walks & hikes"
+    "walks": "Walks & hikes",
+    "goldenHour": "Golden hour"
   },
   "home": {
     "trending": "Trending",
@@ -1382,5 +1384,55 @@
         "highlights": ["Valley lakes", "Old stone bridges", "The city's largest tulip tree"]
       }
     }
+  },
+  "goldenHour": {
+    "title": "Golden hour",
+    "tagline": "Today's light, minute by minute, and photo walks timed to catch it.",
+    "skyTitle": "The sky today",
+    "skyBody": "Worked out from the sun's position over New York for today's date. The marker shows where the light is right now.",
+    "sunriseAt": "Sunrise {time}",
+    "sunsetAt": "Sunset {time}",
+    "now": "Now: {phase}",
+    "next": "{phase} from {time}",
+    "legend": "Kinds of light",
+    "phase": {
+      "night": "Night",
+      "blue": "Blue hour",
+      "dawn": "Dawn glow",
+      "golden": "Golden hour",
+      "day": "Daylight",
+      "dusk": "Sunset glow"
+    },
+    "walksTitle": "Photo walks",
+    "walksIntro": "Short walks between photo spots, scheduled for today's sun. Start at the time shown and each stop lands in its best light.",
+    "start": "Start {time}",
+    "walkLeg": "{minutes} min walk",
+    "opensAt": "(when the park opens)",
+    "distance": "{km} km, {minutes} min on foot",
+    "finish": "Done around {time}",
+    "note": "Times assume a short stop at each spot. Tall buildings can hide a low sun, so arrive a little early, and check the weather: clouds can make or break the light.",
+    "walks": {
+      "dumboSunrise": {
+        "title": "DUMBO at sunrise",
+        "body": "Catch first light on the Brooklyn Bridge, then the classic Manhattan Bridge frame on Washington Street before the crowds, and finish at the water on Pebble Beach."
+      },
+      "centralParkMorning": {
+        "title": "Central Park morning",
+        "body": "Low morning sun over the Pond at Gapstow Bridge, the arcade and fountain of Bethesda Terrace, then Bow Bridge across the Lake."
+      },
+      "brooklynSunset": {
+        "title": "Brooklyn sunset",
+        "body": "Watch the sun go down behind Lower Manhattan from the Brooklyn Heights Promenade, then walk to Pebble Beach as the skyline lights up."
+      },
+      "midtownBlueHour": {
+        "title": "Midtown blue hour",
+        "body": "Start on Tudor City Bridge in the last sun, turn to the Chrysler Building as the sky goes blue, and end in the glow of Times Square."
+      },
+      "villageNight": {
+        "title": "Village to Chinatown by night",
+        "body": "The Washington Square Arch in golden light, Mulberry Street's string lights at dusk, then the bend of Doyers Street after dark."
+      }
+    },
+    "cta": "Plan a photo walk timed to today's golden hour"
   }
 }

@@ -29,7 +29,8 @@
     "passport": "Pasaporte",
     "next": "¿Y ahora qué?",
     "food": "Guía gastronómica",
-    "walks": "Paseos y senderos"
+    "walks": "Paseos y senderos",
+    "goldenHour": "Hora dorada"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -89,7 +90,8 @@
     "freeToday": "Gratis hoy",
     "openNow": "Abierto ahora",
     "whatsNext": "¿Y ahora qué?",
-    "walks": "Paseos y senderos"
+    "walks": "Paseos y senderos",
+    "goldenHour": "Hora dorada"
   },
   "home": {
     "trending": "Tendencia",
@@ -1386,5 +1388,55 @@
         ]
       }
     }
+  },
+  "goldenHour": {
+    "title": "Hora dorada",
+    "tagline": "La luz de hoy, minuto a minuto, y paseos fotográficos pensados para aprovecharla.",
+    "skyTitle": "El cielo de hoy",
+    "skyBody": "Calculado a partir de la posición del sol sobre Nueva York en la fecha de hoy. El marcador muestra cómo está la luz ahora mismo.",
+    "sunriseAt": "Amanecer {time}",
+    "sunsetAt": "Atardecer {time}",
+    "now": "Ahora: {phase}",
+    "next": "{phase} desde las {time}",
+    "legend": "Tipos de luz",
+    "phase": {
+      "night": "Noche",
+      "blue": "Hora azul",
+      "dawn": "Luz del alba",
+      "golden": "Hora dorada",
+      "day": "Pleno día",
+      "dusk": "Resplandor del ocaso"
+    },
+    "walksTitle": "Paseos fotográficos",
+    "walksIntro": "Paseos cortos entre lugares para fotos, programados según el sol de hoy. Sal a la hora indicada y cada parada tendrá su mejor luz.",
+    "start": "Salida {time}",
+    "walkLeg": "{minutes} min a pie",
+    "opensAt": "(cuando abre el parque)",
+    "distance": "{km} km, {minutes} min a pie",
+    "finish": "Fin hacia las {time}",
+    "note": "Los horarios cuentan con una parada corta en cada lugar. Los edificios altos pueden tapar el sol bajo, así que llega un poco antes, y mira el tiempo: las nubes pueden mejorar o arruinar la luz.",
+    "walks": {
+      "dumboSunrise": {
+        "title": "DUMBO al amanecer",
+        "body": "Recibe la primera luz en el puente de Brooklyn, luego el clásico encuadre del puente de Manhattan en Washington Street antes de las multitudes, y termina junto al agua en Pebble Beach."
+      },
+      "centralParkMorning": {
+        "title": "Mañana en Central Park",
+        "body": "Sol bajo de la mañana sobre el estanque en el puente Gapstow, la galería y la fuente de Bethesda Terrace, y después el puente Bow sobre el lago."
+      },
+      "brooklynSunset": {
+        "title": "Atardecer en Brooklyn",
+        "body": "Mira cómo el sol se pone tras el Bajo Manhattan desde el Brooklyn Heights Promenade y camina hasta Pebble Beach mientras se encienden los rascacielos."
+      },
+      "midtownBlueHour": {
+        "title": "Hora azul en Midtown",
+        "body": "Empieza en el puente de Tudor City con el último sol, mira al edificio Chrysler cuando el cielo se vuelve azul y termina entre las luces de Times Square."
+      },
+      "villageNight": {
+        "title": "Del Village a Chinatown de noche",
+        "body": "El arco de Washington Square con luz dorada, las guirnaldas de Mulberry Street al anochecer y la curva de Doyers Street ya de noche."
+      }
+    },
+    "cta": "Planea un paseo fotográfico para la hora dorada de hoy"
   }
 }

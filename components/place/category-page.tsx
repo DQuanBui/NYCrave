@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react"
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { ListingView } from "@/components/listing/listing-view"
@@ -5,6 +6,7 @@ import { NeighborhoodGrid } from "@/components/listing/neighborhood-grid"
 import { SectionHeader } from "@/components/listing/section-header"
 import { SunToday } from "@/components/place/sun-today"
 import { TypeGrid } from "@/components/listing/type-grid"
+import { Link } from "@/i18n/navigation"
 import { getPlaces } from "@/lib/places"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { CATEGORY_TYPE_KINDS } from "@/lib/type-browse"
@@ -49,7 +51,24 @@ export async function CategoryPage({
         photos={prints}
       />
       <div className="mx-auto max-w-7xl space-y-12 px-4 py-8 lg:px-8 lg:py-10">
-        {category === "photo_spot" ? <SunToday /> : null}
+        {category === "photo_spot" ? (
+          <div className="space-y-3">
+            <SunToday />
+            <Link
+              href="/golden-hour"
+              className="group flex items-center justify-between gap-3 rounded-2xl bg-line-yellow px-5 py-4 font-semibold text-black"
+            >
+              <span className="flex items-center gap-2">
+                <span aria-hidden>🌅</span>
+                {t("goldenHour.cta")}
+              </span>
+              <ArrowRight
+                aria-hidden
+                className="size-5 shrink-0 transition-transform group-hover:translate-x-1"
+              />
+            </Link>
+          </div>
+        ) : null}
         {kinds.map((kind) => (
           <TypeGrid key={kind} kind={kind} pool={pool} />
         ))}

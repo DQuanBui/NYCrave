@@ -29,7 +29,8 @@
     "passport": "护照",
     "next": "接下来去哪",
     "food": "美食指南",
-    "walks": "徒步与步道"
+    "walks": "徒步与步道",
+    "goldenHour": "黄金时刻"
   },
   "theme": {
     "toggle": "切换到{mode}模式",
@@ -89,7 +90,8 @@
     "freeToday": "今天免费",
     "openNow": "正在营业",
     "whatsNext": "接下来去哪？",
-    "walks": "徒步与步道"
+    "walks": "徒步与步道",
+    "goldenHour": "黄金时刻"
   },
   "home": {
     "trending": "热门",
@@ -1342,5 +1344,55 @@
         "highlights": ["山谷湖泊", "古老石桥", "全市最大的鹅掌楸"]
       }
     }
+  },
+  "goldenHour": {
+    "title": "黄金时刻",
+    "tagline": "今天的光线，精确到分钟，以及按时出发的摄影步行路线。",
+    "skyTitle": "今天的天空",
+    "skyBody": "根据今天太阳在纽约上空的位置计算。标记显示此刻的光线。",
+    "sunriseAt": "日出 {time}",
+    "sunsetAt": "日落 {time}",
+    "now": "现在：{phase}",
+    "next": "{time} 起：{phase}",
+    "legend": "光线类型",
+    "phase": {
+      "night": "夜晚",
+      "blue": "蓝调时刻",
+      "dawn": "晨曦",
+      "golden": "黄金时刻",
+      "day": "白天",
+      "dusk": "晚霞"
+    },
+    "walksTitle": "摄影步行",
+    "walksIntro": "在拍照地点之间的短途步行，按今天的太阳安排时间。按显示的时间出发，每一站都能赶上最好的光线。",
+    "start": "{time} 出发",
+    "walkLeg": "步行 {minutes} 分钟",
+    "opensAt": "（公园开门后）",
+    "distance": "{km} 公里，步行 {minutes} 分钟",
+    "finish": "约 {time} 结束",
+    "note": "时间按每站短暂停留计算。高楼可能挡住低角度的太阳，请稍早到达，并留意天气：云层可能成就也可能毁掉光线。",
+    "walks": {
+      "dumboSunrise": {
+        "title": "DUMBO 日出",
+        "body": "在布鲁克林大桥迎接第一缕阳光，趁人少在华盛顿街拍下经典的曼哈顿大桥画面，最后在 Pebble Beach 水边收尾。"
+      },
+      "centralParkMorning": {
+        "title": "中央公园的早晨",
+        "body": "Gapstow 桥上池塘的晨光，Bethesda 露台的拱廊与喷泉，再到横跨湖面的弓桥。"
+      },
+      "brooklynSunset": {
+        "title": "布鲁克林日落",
+        "body": "在布鲁克林高地长廊看太阳落到下曼哈顿身后，然后步行到 Pebble Beach，看天际线亮起灯光。"
+      },
+      "midtownBlueHour": {
+        "title": "中城蓝调时刻",
+        "body": "从都铎城桥上的最后一缕阳光开始，天空转蓝时望向克莱斯勒大厦，最后在时代广场的灯光中结束。"
+      },
+      "villageNight": {
+        "title": "从格林威治村到唐人街的夜晚",
+        "body": "金色光线中的华盛顿广场拱门，黄昏时桑树街的彩灯，入夜后再走进勿街的转弯处。"
+      }
+    },
+    "cta": "按今天的黄金时刻规划摄影步行路线"
   }
 }
