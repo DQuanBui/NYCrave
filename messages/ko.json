@@ -388,7 +388,14 @@
     "photoCredit": "사진: {credit}",
     "distanceWalk": "{distance}마일, 도보 {minutes}분",
     "distanceSubway": "{distance}마일, 지하철 {minutes}분",
-    "planAround": "이곳을 중심으로 하루 계획하기"
+    "planAround": "이곳을 중심으로 하루 계획하기",
+    "gallery": {
+      "open": "사진 {total}장 중 {n}번째 열기: {alt}",
+      "count": "{n} / {total}",
+      "close": "사진 닫기",
+      "previous": "이전 사진",
+      "next": "다음 사진"
+    }
   },
   "hours": {
     "open": "영업 중",

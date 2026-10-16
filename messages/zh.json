@@ -388,7 +388,14 @@
     "photoCredit": "照片：{credit}",
     "distanceWalk": "{distance} 英里，步行 {minutes} 分钟",
     "distanceSubway": "{distance} 英里，地铁 {minutes} 分钟",
-    "planAround": "围绕这里规划一天"
+    "planAround": "围绕这里规划一天",
+    "gallery": {
+      "open": "打开第 {n} 张照片（共 {total} 张）：{alt}",
+      "count": "{n} / {total}",
+      "close": "关闭照片",
+      "previous": "上一张",
+      "next": "下一张"
+    }
   },
   "hours": {
     "open": "营业中",

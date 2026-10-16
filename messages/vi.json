@@ -388,7 +388,14 @@
     "photoCredit": "Ảnh: {credit}",
     "distanceWalk": "{distance} dặm, {minutes} phút đi bộ",
     "distanceSubway": "{distance} dặm, {minutes} phút đi tàu điện",
-    "planAround": "Lên lịch một ngày quanh nơi này"
+    "planAround": "Lên lịch một ngày quanh nơi này",
+    "gallery": {
+      "open": "Mở ảnh {n}/{total}: {alt}",
+      "count": "{n}/{total}",
+      "close": "Đóng ảnh",
+      "previous": "Ảnh trước",
+      "next": "Ảnh sau"
+    }
   },
   "hours": {
     "open": "Đang mở",

@@ -388,7 +388,14 @@
     "photoCredit": "Foto: {credit}",
     "distanceWalk": "{distance} mi, {minutes} min a pie",
     "distanceSubway": "{distance} mi, {minutes} min en metro",
-    "planAround": "Planear un día alrededor de este lugar"
+    "planAround": "Planear un día alrededor de este lugar",
+    "gallery": {
+      "open": "Abrir foto {n} de {total}: {alt}",
+      "count": "{n} de {total}",
+      "close": "Cerrar fotos",
+      "previous": "Foto anterior",
+      "next": "Foto siguiente"
+    }
   },
   "hours": {
     "open": "Abierto",
