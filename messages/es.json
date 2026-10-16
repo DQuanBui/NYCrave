@@ -997,7 +997,8 @@
       "stamped": "¡Sellado! {name} ya está en tu pasaporte.",
       "badge": "Nueva insignia: {badges}",
       "open": "Abrir mi pasaporte",
-      "close": "Cerrar"
+      "close": "Cerrar",
+      "next": "¿Qué hay cerca?"
     },
     "stamps": "{count, plural, one {sello} other {sellos}}",
     "boroughs": "{count, plural, =0 {Ningún distrito aún} other {# de 5 distritos}}",

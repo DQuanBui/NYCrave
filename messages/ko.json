@@ -997,7 +997,8 @@
       "stamped": "도장 완료! {name}이(가) 여권에 추가됐어요.",
       "badge": "새 배지: {badges}",
       "open": "내 여권 열기",
-      "close": "닫기"
+      "close": "닫기",
+      "next": "근처 다음 행선지는?"
     },
     "stamps": "{count, plural, other {개의 도장}}",
     "boroughs": "{count, plural, =0 {아직 방문한 자치구 없음} other {5개 자치구 중 #곳}}",

@@ -1,11 +1,12 @@
 "use client"
 
-import { Check, Stamp as StampIcon, X } from "lucide-react"
+import { Check, Footprints, Stamp as StampIcon, X } from "lucide-react"
 import { AnimatePresence } from "motion/react"
 import * as m from "motion/react-m"
 import { useTranslations } from "next-intl"
 import { useEffect, useRef, useState } from "react"
 import { Confetti } from "@/components/fx/confetti"
+import { WHATS_NEXT_NOW_EVENT } from "@/components/next/next-nearby"
 import { useHydrated } from "@/hooks/use-now"
 import { usePassport } from "@/hooks/use-passport"
 import { Link } from "@/i18n/navigation"
@@ -107,12 +108,25 @@ export function StampButton({ place }: { place: StampPlace }) {
                     })}
                   </p>
                 ) : null}
-                <Link
-                  href="/passport"
-                  className="inline-block text-sm font-semibold underline underline-offset-4"
-                >
-                  {t("toast.open")}
-                </Link>
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-2 pt-1">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setToast(null)
+                      window.dispatchEvent(new Event(WHATS_NEXT_NOW_EVENT))
+                    }}
+                    className="inline-flex h-8 items-center gap-1.5 rounded-full bg-taxi px-3 text-sm font-bold text-taxi-foreground"
+                  >
+                    <Footprints aria-hidden className="size-4" />
+                    {t("toast.next")}
+                  </button>
+                  <Link
+                    href="/passport"
+                    className="inline-block text-sm font-semibold underline underline-offset-4"
+                  >
+                    {t("toast.open")}
+                  </Link>
+                </div>
               </div>
               <button
                 type="button"

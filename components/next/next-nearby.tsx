@@ -25,6 +25,9 @@ const loadPlaces = () =>
       throw e
     }))
 
+/** Fired by the passport stamp: you have been here, so show what is next from now. */
+export const WHATS_NEXT_NOW_EVENT = "nycrave:whats-next-now"
+
 /** "What's next after this place": walkable picks open when you would leave. */
 export function NextNearby({ here }: { here: Here }) {
   const t = useTranslations("next")
@@ -49,6 +52,15 @@ export function NextNearby({ here }: { here: Here }) {
     )
     io.observe(el)
     return () => io.disconnect()
+  }, [])
+
+  useEffect(() => {
+    const show = () => {
+      setLeavingNow(true)
+      box.current?.scrollIntoView({ behavior: "smooth", block: "start" })
+    }
+    window.addEventListener(WHATS_NEXT_NOW_EVENT, show)
+    return () => window.removeEventListener(WHATS_NEXT_NOW_EVENT, show)
   }, [])
 
   const stay = here.timeNeededMinutes ?? 60

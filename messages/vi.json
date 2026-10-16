@@ -997,7 +997,8 @@
       "stamped": "Đã đóng dấu! {name} đã có trong hộ chiếu.",
       "badge": "Huy hiệu mới: {badges}",
       "open": "Mở hộ chiếu",
-      "close": "Đóng"
+      "close": "Đóng",
+      "next": "Đi đâu tiếp gần đây?"
     },
     "stamps": "{count, plural, other {con dấu}}",
     "boroughs": "{count, plural, =0 {Chưa có quận nào} other {# trên 5 quận}}",

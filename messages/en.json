@@ -997,7 +997,8 @@
       "stamped": "Stamped! {name} is in your passport.",
       "badge": "New badge: {badges}",
       "open": "Open my passport",
-      "close": "Close"
+      "close": "Close",
+      "next": "What's next nearby?"
     },
     "stamps": "{count, plural, one {stamp} other {stamps}}",
     "boroughs": "{count, plural, =0 {No boroughs yet} one {# of 5 boroughs} other {# of 5 boroughs}}",

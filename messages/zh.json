@@ -997,7 +997,8 @@
       "stamped": "盖章成功！{name} 已加入你的护照。",
       "badge": "新徽章：{badges}",
       "open": "打开我的护照",
-      "close": "关闭"
+      "close": "关闭",
+      "next": "附近接下来去哪？"
     },
     "stamps": "{count, plural, other {个印章}}",
     "boroughs": "{count, plural, =0 {还没有去过任何区} other {5 个区中的 # 个}}",
