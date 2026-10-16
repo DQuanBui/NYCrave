@@ -30,7 +30,8 @@
     "next": "What's next",
     "food": "Food guide",
     "walks": "Walks & hikes",
-    "goldenHour": "Golden hour"
+    "goldenHour": "Golden hour",
+    "guides": "Guides"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -1434,5 +1435,76 @@
       }
     },
     "cta": "Plan a photo walk timed to today's golden hour"
+  },
+  "guides": {
+    "title": "Guides",
+    "tagline": "Everything on NYCrave for a kind of day: free, rainy, with kids, late or romantic.",
+    "count": "{count, plural, one {# place} other {# places}}",
+    "tips": "Good to know",
+    "jump": "Jump to a section",
+    "more": "More guides",
+    "mapLabel": "Map of places in {name}",
+    "list": {
+      "free": {
+        "title": "Free NYC",
+        "tagline": "Parks, piers, bridges, views and museums that cost nothing.",
+        "intro": "Some of New York's best moments are free: walking a bridge at sunset, a ferry past the Statue of Liberty, a pier at dusk. Every place here is free to enter.",
+        "tips": [
+          "The Staten Island Ferry is free and sails past the Statue of Liberty, around the clock.",
+          "Some museums have free or pay-what-you-wish times; check each museum's own site before you go.",
+          "Parks and piers keep their own hours, and many close at 1 AM."
+        ]
+      },
+      "rainyDay": {
+        "title": "Rainy day",
+        "tagline": "Museums, food halls, cafés and shops to wait out the weather.",
+        "intro": "When it pours, head indoors: big museums take hours, food halls feed everyone, and a good café or bookstore makes a gray afternoon feel planned.",
+        "tips": [
+          "Museums get busier on wet weekends, so go early in the day.",
+          "Pay the subway fare by tapping a contactless card or phone at the turnstile (OMNY).",
+          "Check a place's hours before you go; the hours on each page come from official sources."
+        ]
+      },
+      "withKids": {
+        "title": "With kids",
+        "tagline": "Places that work for families, from museums to carousels and parks.",
+        "intro": "Places where kids are welcome and have room to be kids: hands-on museums, parks with space to run, and food everyone will eat.",
+        "tips": [
+          "Up to three children 44 inches (112 cm) tall or shorter ride the subway free with a paying adult.",
+          "Not every subway station has an elevator; the MTA's map shows the accessible ones if you have a stroller.",
+          "Many museums are free for young children; check each ticket page for the ages."
+        ]
+      },
+      "lateNight": {
+        "title": "Late night",
+        "tagline": "Bars, slices and spots that keep going after dark.",
+        "intro": "New York keeps going after dark. These are the places tagged for late nights, from old saloons to rooftop bars and food that tastes best after midnight.",
+        "tips": [
+          "The subway runs 24 hours a day, though trains come less often late at night.",
+          "Kitchens often close before the bar does; check the hours on each page.",
+          "Many bars are 21+ and check ID at the door, so bring a photo ID."
+        ]
+      },
+      "dateNight": {
+        "title": "Date night",
+        "tagline": "Candlelit dinners, cocktail bars, views and walks for two.",
+        "intro": "For a night out together: restaurants worth dressing up for, cocktail bars with atmosphere, and views to walk to afterward.",
+        "tips": [
+          "Book popular restaurants ahead, especially Thursday to Saturday.",
+          "Pair dinner with a walk: the waterfront and bridges are lit up at night.",
+          "Some cocktail bars have dress codes or age limits; check the place's own site."
+        ]
+      },
+      "cheapEats": {
+        "title": "Cheap eats",
+        "tagline": "Slices, dumplings, bagels and more for a few dollars.",
+        "intro": "Eating well in New York doesn't have to cost much. These places are tagged as cheap eats or sit at the lowest price level.",
+        "tips": [
+          "Some classic spots are cash only; carry a little cash.",
+          "New York sales tax (8.875%) is added at the register, not shown on most menus.",
+          "At sit-down restaurants a tip of 18 to 20% is expected; at a counter it's optional."
+        ]
+      }
+    }
   }
 }

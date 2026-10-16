@@ -30,7 +30,8 @@
     "next": "¿Y ahora qué?",
     "food": "Guía gastronómica",
     "walks": "Paseos y senderos",
-    "goldenHour": "Hora dorada"
+    "goldenHour": "Hora dorada",
+    "guides": "Guías"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -1438,5 +1439,76 @@
       }
     },
     "cta": "Planea un paseo fotográfico para la hora dorada de hoy"
+  },
+  "guides": {
+    "title": "Guías",
+    "tagline": "Todo NYCrave para cada tipo de día: gratis, con lluvia, con niños, de noche o en pareja.",
+    "count": "{count, plural, one {# lugar} other {# lugares}}",
+    "tips": "Conviene saber",
+    "jump": "Ir a una sección",
+    "more": "Más guías",
+    "mapLabel": "Mapa de los lugares de {name}",
+    "list": {
+      "free": {
+        "title": "Nueva York gratis",
+        "tagline": "Parques, muelles, puentes, vistas y museos que no cuestan nada.",
+        "intro": "Algunos de los mejores momentos de Nueva York son gratis: cruzar un puente al atardecer, un ferry junto a la Estatua de la Libertad, un muelle al anochecer. Todos estos lugares tienen entrada gratuita.",
+        "tips": [
+          "El ferry de Staten Island es gratis y pasa junto a la Estatua de la Libertad, a todas horas.",
+          "Algunos museos tienen horarios gratuitos o de pago voluntario; consulta la web de cada museo antes de ir.",
+          "Los parques y muelles tienen su propio horario, y muchos cierran a la 1 de la madrugada."
+        ]
+      },
+      "rainyDay": {
+        "title": "Día de lluvia",
+        "tagline": "Museos, mercados gastronómicos, cafés y tiendas para esperar a que escampe.",
+        "intro": "Cuando llueve fuerte, a cubierto: los grandes museos llenan horas, los mercados gastronómicos tienen algo para todos, y un buen café o una librería salvan una tarde gris.",
+        "tips": [
+          "Los museos se llenan más los fines de semana de lluvia, así que ve temprano.",
+          "Paga el metro acercando una tarjeta sin contacto o el móvil al torniquete (OMNY).",
+          "Revisa el horario antes de ir; los de cada página vienen de fuentes oficiales."
+        ]
+      },
+      "withKids": {
+        "title": "Con niños",
+        "tagline": "Lugares para ir en familia, de museos a carruseles y parques.",
+        "intro": "Lugares donde los niños son bienvenidos y tienen espacio para ser niños: museos interactivos, parques para correr y comida que gusta a todos.",
+        "tips": [
+          "Hasta tres niños de 44 pulgadas (112 cm) o menos viajan gratis en el metro con un adulto que paga.",
+          "No todas las estaciones de metro tienen ascensor; el mapa de la MTA muestra las accesibles si llevas cochecito.",
+          "Muchos museos son gratis para niños pequeños; mira las edades en cada página de entradas."
+        ]
+      },
+      "lateNight": {
+        "title": "De noche",
+        "tagline": "Bares, porciones de pizza y lugares que siguen abiertos de madrugada.",
+        "intro": "Nueva York no para al anochecer. Estos son los lugares para trasnochar, de viejas tabernas a bares en azoteas y comida que sabe mejor pasada la medianoche.",
+        "tips": [
+          "El metro funciona las 24 horas, aunque de madrugada pasan menos trenes.",
+          "La cocina suele cerrar antes que la barra; revisa el horario en cada página.",
+          "Muchos bares son solo para mayores de 21 y piden identificación en la puerta."
+        ]
+      },
+      "dateNight": {
+        "title": "Cita romántica",
+        "tagline": "Cenas a la luz de las velas, cócteles, vistas y paseos para dos.",
+        "intro": "Para una noche juntos: restaurantes que merecen arreglarse, bares de cócteles con ambiente y vistas para pasear después.",
+        "tips": [
+          "Reserva con antelación en los restaurantes populares, sobre todo de jueves a sábado.",
+          "Combina la cena con un paseo: la costa y los puentes se iluminan de noche.",
+          "Algunos bares de cócteles tienen código de vestimenta o límite de edad; consulta su web."
+        ]
+      },
+      "cheapEats": {
+        "title": "Comer barato",
+        "tagline": "Pizza, dumplings, bagels y más por pocos dólares.",
+        "intro": "Comer bien en Nueva York no tiene por qué ser caro. Estos lugares están marcados como baratos o tienen el nivel de precio más bajo.",
+        "tips": [
+          "Algunos clásicos solo aceptan efectivo; lleva algo encima.",
+          "El impuesto de ventas de Nueva York (8,875 %) se suma al pagar y no suele aparecer en la carta.",
+          "En restaurantes con servicio de mesa se espera una propina del 18 al 20 %; en el mostrador es opcional."
+        ]
+      }
+    }
   }
 }

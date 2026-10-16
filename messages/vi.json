@@ -30,7 +30,8 @@
     "next": "Đi đâu tiếp",
     "food": "Cẩm nang ẩm thực",
     "walks": "Đi bộ và leo núi",
-    "goldenHour": "Giờ vàng"
+    "goldenHour": "Giờ vàng",
+    "guides": "Cẩm nang"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",
@@ -1434,5 +1435,76 @@
       }
     },
     "cta": "Lên lịch dạo chụp ảnh đúng giờ vàng hôm nay"
+  },
+  "guides": {
+    "title": "Cẩm nang",
+    "tagline": "Mọi địa điểm trên NYCrave cho từng kiểu ngày: miễn phí, trời mưa, đi cùng trẻ em, về khuya hay hẹn hò.",
+    "count": "{count} địa điểm",
+    "tips": "Nên biết",
+    "jump": "Chuyển đến mục",
+    "more": "Cẩm nang khác",
+    "mapLabel": "Bản đồ các địa điểm trong {name}",
+    "list": {
+      "free": {
+        "title": "New York miễn phí",
+        "tagline": "Công viên, bến tàu, cầu, cảnh đẹp và bảo tàng không tốn tiền.",
+        "intro": "Nhiều khoảnh khắc đẹp nhất ở New York lại miễn phí: đi bộ qua cầu lúc hoàng hôn, đi phà ngang tượng Nữ thần Tự do, ngồi trên bến tàu lúc chạng vạng. Mọi địa điểm ở đây đều vào cửa miễn phí.",
+        "tips": [
+          "Phà Staten Island miễn phí và chạy ngang tượng Nữ thần Tự do, suốt ngày đêm.",
+          "Một số bảo tàng có giờ miễn phí hoặc trả tùy ý; hãy xem trang web của từng bảo tàng trước khi đi.",
+          "Công viên và bến tàu có giờ riêng, nhiều nơi đóng cửa lúc 1 giờ sáng."
+        ]
+      },
+      "rainyDay": {
+        "title": "Ngày mưa",
+        "tagline": "Bảo tàng, khu ẩm thực, quán cà phê và cửa hàng để tránh mưa.",
+        "intro": "Khi trời mưa to, hãy vào trong nhà: bảo tàng lớn có thể đi cả buổi, khu ẩm thực đủ món cho mọi người, và một quán cà phê hay hiệu sách hay giúp buổi chiều xám xịt trở nên thú vị.",
+        "tips": [
+          "Bảo tàng đông hơn vào cuối tuần mưa, nên hãy đến sớm.",
+          "Trả tiền tàu điện ngầm bằng cách chạm thẻ không tiếp xúc hoặc điện thoại vào cửa soát vé (OMNY).",
+          "Xem giờ mở cửa trước khi đi; giờ trên mỗi trang lấy từ nguồn chính thức."
+        ]
+      },
+      "withKids": {
+        "title": "Đi cùng trẻ em",
+        "tagline": "Những nơi phù hợp cho gia đình, từ bảo tàng đến vòng quay ngựa gỗ và công viên.",
+        "intro": "Những nơi chào đón trẻ em và cho các bé không gian vui chơi: bảo tàng tương tác, công viên rộng để chạy nhảy, và đồ ăn ai cũng thích.",
+        "tips": [
+          "Tối đa ba trẻ cao từ 44 inch (112 cm) trở xuống được đi tàu điện ngầm miễn phí cùng một người lớn trả vé.",
+          "Không phải ga tàu điện ngầm nào cũng có thang máy; bản đồ của MTA cho biết các ga có lối đi cho xe đẩy.",
+          "Nhiều bảo tàng miễn phí cho trẻ nhỏ; hãy xem độ tuổi trên trang bán vé."
+        ]
+      },
+      "lateNight": {
+        "title": "Về khuya",
+        "tagline": "Quán bar, pizza và những nơi mở cửa đến khuya.",
+        "intro": "New York vẫn sôi động khi trời tối. Đây là những nơi dành cho đêm khuya, từ quán rượu lâu đời đến quầy bar trên sân thượng và món ăn ngon nhất sau nửa đêm.",
+        "tips": [
+          "Tàu điện ngầm chạy 24 giờ mỗi ngày, nhưng về khuya tàu thưa hơn.",
+          "Bếp thường đóng trước quầy bar; hãy xem giờ trên từng trang.",
+          "Nhiều quán bar chỉ cho người từ 21 tuổi và kiểm tra giấy tờ ở cửa, nên hãy mang theo giấy tờ có ảnh."
+        ]
+      },
+      "dateNight": {
+        "title": "Hẹn hò",
+        "tagline": "Bữa tối lãng mạn, quầy cocktail, cảnh đẹp và những cuộc dạo bộ cho hai người.",
+        "intro": "Cho một buổi tối bên nhau: nhà hàng đáng để diện đẹp, quầy cocktail có không khí riêng, và cảnh đẹp để dạo bộ sau đó.",
+        "tips": [
+          "Đặt bàn trước ở nhà hàng nổi tiếng, nhất là từ thứ Năm đến thứ Bảy.",
+          "Kết hợp bữa tối với dạo bộ: bờ sông và các cây cầu lên đèn vào ban đêm.",
+          "Một số quầy cocktail có quy định trang phục hoặc độ tuổi; hãy xem trang web của quán."
+        ]
+      },
+      "cheapEats": {
+        "title": "Ăn ngon giá rẻ",
+        "tagline": "Pizza, sủi cảo, bánh bagel và nhiều món chỉ vài đô.",
+        "intro": "Ăn ngon ở New York không nhất thiết phải đắt. Những nơi này được gắn nhãn ăn rẻ hoặc thuộc mức giá thấp nhất.",
+        "tips": [
+          "Một số quán lâu đời chỉ nhận tiền mặt; hãy mang theo một ít.",
+          "Thuế bán hàng New York (8,875%) được cộng khi thanh toán, phần lớn thực đơn không ghi sẵn.",
+          "Ở nhà hàng có phục vụ bàn, tiền tip 18 đến 20% là thông lệ; ở quầy thì tùy bạn."
+        ]
+      }
+    }
   }
 }

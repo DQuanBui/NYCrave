@@ -1,4 +1,5 @@
 import {
+  BookOpen,
   CalendarHeart,
   Camera,
   ChefHat,
@@ -39,6 +40,7 @@ export type NavKey =
   | "food"
   | "walks"
   | "goldenHour"
+  | "guides"
 
 export type NavItem = { key: NavKey; href: string; icon: LucideIcon; line?: LineColor }
 
@@ -64,6 +66,7 @@ export const NAV: Record<NavKey, NavItem> = {
   next: { key: "next", href: "/next", icon: Footprints, line: "green" },
   food: { key: "food", href: "/food", icon: ChefHat, line: "red" },
   walks: { key: "walks", href: "/walks", icon: Mountain, line: "green" },
+  guides: { key: "guides", href: "/guides", icon: BookOpen, line: "purple" },
   goldenHour: { key: "goldenHour", href: "/golden-hour", icon: Sunset, line: "yellow" },
 }
 
@@ -75,6 +78,7 @@ export const TOP_NAV: NavKey[] = ["eat", "sip", "explore", "shop", "photoSpots",
 export const MENU: NavKey[] = [
   ...TOP_NAV,
   "next",
+  "guides",
   "food",
   "walks",
   "goldenHour",

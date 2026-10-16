@@ -100,16 +100,18 @@ export type Mood = {
     | "openNow"
   emoji: string
   query: string
+  /** Opens this themed guide instead of a search. */
+  guide?: string
 }
 
 export const MOODS: Mood[] = [
   { key: "openNow", emoji: "🟢", query: "open now" },
-  { key: "dateNight", emoji: "🕯️", query: "date night" },
-  { key: "cheapEats", emoji: "💸", query: "cheap eats" },
-  { key: "lateNight", emoji: "🌙", query: "late night" },
-  { key: "rainyDay", emoji: "☔", query: "rainy day" },
+  { key: "dateNight", emoji: "🕯️", query: "date night", guide: "date-night" },
+  { key: "cheapEats", emoji: "💸", query: "cheap eats", guide: "cheap-eats" },
+  { key: "lateNight", emoji: "🌙", query: "late night", guide: "late-night" },
+  { key: "rainyDay", emoji: "☔", query: "rainy day", guide: "rainy-day" },
   { key: "freeToday", emoji: "🎟️", query: "free today" },
-  { key: "kidFriendly", emoji: "🧸", query: "kid friendly" },
+  { key: "kidFriendly", emoji: "🧸", query: "kid friendly", guide: "with-kids" },
   { key: "instagrammable", emoji: "📸", query: "instagrammable" },
 ]
 

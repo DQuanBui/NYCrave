@@ -42,7 +42,11 @@ export function MoodChips({ className }: { className?: string }) {
         {MOODS.map((mood) => (
           <li key={mood.key} className="shrink-0">
             <Link
-              href={{ pathname: "/search", query: { q: mood.query } }}
+              href={
+                mood.guide
+                  ? `/guides/${mood.guide}`
+                  : { pathname: "/search", query: { q: mood.query } }
+              }
               className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-foreground/15 bg-card px-4 text-sm font-semibold transition-colors hover:border-foreground"
             >
               <span aria-hidden>{mood.emoji}</span>
