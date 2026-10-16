@@ -462,7 +462,8 @@
     "polish": "Polaca",
     "georgian": "Georgiana",
     "west_african": "De África Occidental",
-    "nepali": "Nepalí"
+    "nepali": "Nepalí",
+    "ukrainian": "Ucraniana"
   },
   "dish": {
     "bbq": "Barbacoa",
@@ -703,7 +704,8 @@
       "fordham": "La casa de Poe, el campus de la Universidad Fordham y la animada Fordham Road, cerca del zoológico y el jardín botánico.",
       "city-island": "Un pequeño pueblo pesquero al estilo de Nueva Inglaterra en el Bronx, con marisquerías y astilleros junto al estrecho de Long Island.",
       "new-brighton": "Los jardines y museos de Snug Harbor en la costa norte de Staten Island, cerca del ferry.",
-      "corona": "La casa de Louis Armstrong, panaderías latinoamericanas y el borde de Flushing Meadows."
+      "corona": "La casa de Louis Armstrong, panaderías latinoamericanas y el borde de Flushing Meadows.",
+      "downtown-brooklyn": "El animado centro de Brooklyn alrededor de Fulton Street, con un asador de 1879 restaurado y los puentes a un paseo."
     }
   },
   "credits": {

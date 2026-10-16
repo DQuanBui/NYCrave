@@ -462,7 +462,8 @@
     "polish": "Ba Lan",
     "georgian": "Gruzia",
     "west_african": "Tây Phi",
-    "nepali": "Nepal"
+    "nepali": "Nepal",
+    "ukrainian": "Ukraina"
   },
   "dish": {
     "bbq": "Thịt nướng",
@@ -703,7 +704,8 @@
       "fordham": "Nhà Poe, khuôn viên Đại học Fordham và phố Fordham sôi động, gần vườn thú và vườn bách thảo.",
       "city-island": "Một làng chài kiểu New England nhỏ bé ở Bronx, với quán hải sản và bến thuyền bên eo biển Long Island.",
       "new-brighton": "Vườn và bảo tàng ở Snug Harbor trên bờ bắc Staten Island, gần bến phà.",
-      "corona": "Nhà của Louis Armstrong, tiệm bánh Mỹ Latinh và rìa công viên Flushing Meadows."
+      "corona": "Nhà của Louis Armstrong, tiệm bánh Mỹ Latinh và rìa công viên Flushing Meadows.",
+      "downtown-brooklyn": "Trung tâm sôi động của Brooklyn quanh phố Fulton, có nhà hàng thịt nướng năm 1879 được hồi sinh và gần các cây cầu."
     }
   },
   "credits": {

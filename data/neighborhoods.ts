@@ -101,6 +101,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9936,
   },
   {
+    slug: "downtown-brooklyn",
+    name: "Downtown Brooklyn",
+    borough: "brooklyn",
+    lat: 40.6928,
+    lng: -73.9874,
+  },
+  {
     slug: "carroll-gardens",
     name: "Carroll Gardens",
     borough: "brooklyn",

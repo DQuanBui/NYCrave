@@ -48,6 +48,7 @@ export const CUISINE_EMOJI: Record<Cuisine, string> = {
   georgian: "🧀",
   west_african: "🍲",
   nepali: "🥟",
+  ukrainian: "🌻",
 }
 
 export const DISH_EMOJI: Record<DishType, string> = {

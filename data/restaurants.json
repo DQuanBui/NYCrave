@@ -7575,5 +7575,1030 @@
     "website": "https://www.johnnysreefrestaurant.com",
     "lat": 40.83777,
     "lng": -73.78266
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/veselka-east-village-1.jpg",
+        "alt": "A plate of pierogi with sour cream and fried onions at Veselka",
+        "width": 1100,
+        "height": 1100,
+        "source": "other",
+        "attribution": {
+          "text": "Laurentius, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Vegetarian_plate_at_Veselka_restaurant_1.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/veselka-east-village-2.jpg",
+        "alt": "A combination plate of pierogi and stuffed cabbage at Veselka",
+        "width": 1100,
+        "height": 619,
+        "source": "other",
+        "attribution": {
+          "text": "Antanana, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Veselka-Vegetarian_Combo_Plate-20250309_191410.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["Pierogi", "Borscht", "Stuffed cabbage"],
+    "vibeTags": ["late_night", "local_favorite", "tourist_classic", "cheap_eats"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours for the East Village location from veselka.com/pages/locations. Open overnight from Friday morning to Sunday night. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-veselka",
+    "slug": "veselka-east-village",
+    "name": "Veselka",
+    "category": "restaurant",
+    "cuisines": ["ukrainian"],
+    "dishTypes": ["dumplings", "noodle_soup", "brunch"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "144 2nd Ave, New York, NY 10003",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A Ukrainian diner on Second Avenue since 1954, serving pierogi, borscht and stuffed cabbage, open around the clock on weekends.",
+    "bestTimeToVisit": "Late night on a weekend",
+    "timeNeededMinutes": 60,
+    "trendingScore": 80,
+    "website": "https://www.veselka.com",
+    "lat": 40.72898,
+    "lng": -73.987
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/lombardis-pizza-nolita-1.jpg",
+        "alt": "Lombardi's red awnings on Spring Street",
+        "width": 1100,
+        "height": 743,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lombardi%27s_Pizza.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/lombardis-pizza-nolita-2.jpg",
+        "alt": "Lombardi's on its corner in Nolita",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Leonard J. DeFrancisci, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lombardi%27s_Pizza_(Manhattan,_New_York)_001.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Coal-oven margherita", "Clam pie"],
+    "vibeTags": ["tourist_classic", "group_friendly", "kid_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from firstpizza.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-lombardis",
+    "slug": "lombardis-pizza-nolita",
+    "name": "Lombardi's",
+    "category": "restaurant",
+    "cuisines": ["italian", "american"],
+    "dishTypes": ["pizza"],
+    "borough": "manhattan",
+    "neighborhood": "Nolita",
+    "address": "30 Spring St, New York, NY 10012",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "The pizzeria that calls itself America's first, baking coal-oven pies on Spring Street. A classic stop for pizza history.",
+    "bestTimeToVisit": "Weekday late lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 72,
+    "website": "https://www.firstpizza.com",
+    "lat": 40.72161,
+    "lng": -73.99566
+  },
+  {
+    "photos": [],
+    "mustTry": ["A bialy, warm", "Bagel with schmear"],
+    "vibeTags": ["local_favorite", "cheap_eats", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (6 AM to 4 PM daily) for the Lower East Side store from kossars.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-kossars",
+    "slug": "kossars-bagels-lower-east-side",
+    "name": "Kossar's Bagels & Bialys",
+    "category": "restaurant",
+    "cuisines": ["jewish_deli"],
+    "dishTypes": ["bagels", "bakery"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "367 Grand St, New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "16:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "16:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "The Lower East Side bakery famous for bialys, the flatter, onion-filled cousin of the bagel, baked here since the 1930s.",
+    "bestTimeToVisit": "Early morning",
+    "timeNeededMinutes": 20,
+    "trendingScore": 64,
+    "website": "https://www.kossars.com",
+    "lat": 40.71641,
+    "lng": -73.98879
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/yonah-schimmel-knish-bakery-1.jpg",
+        "alt": "Yonah Schimmel Knish Bakery's storefront on East Houston Street",
+        "width": 1100,
+        "height": 797,
+        "source": "other",
+        "attribution": {
+          "text": "Tessa Bury, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Yonah_Schimmel%27s_Knish_Bakery_Storefront.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/yonah-schimmel-knish-bakery-2.jpg",
+        "alt": "A Yonah Schimmel knish, cut open",
+        "width": 1024,
+        "height": 768,
+        "source": "other",
+        "attribution": {
+          "text": "Eric Hunt, CC BY-SA 2.5",
+          "url": "https://commons.wikimedia.org/wiki/File:Lower_East_Side_-_Schimmel_Knish_2.jpg",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        }
+      }
+    ],
+    "mustTry": ["Classic potato knish", "Seasonal knishes"],
+    "vibeTags": ["local_favorite", "cheap_eats", "tourist_classic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (10:30 AM to 6 PM daily) from knishery.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-yonah-schimmel",
+    "slug": "yonah-schimmel-knish-bakery",
+    "name": "Yonah Schimmel Knish Bakery",
+    "category": "restaurant",
+    "cuisines": ["jewish_deli"],
+    "dishTypes": ["bakery", "street_food"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "137 E Houston St, New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A knish bakery on East Houston Street since 1910, baking every knish fresh daily in a room that has barely changed.",
+    "bestTimeToVisit": "Afternoon",
+    "timeNeededMinutes": 20,
+    "trendingScore": 58,
+    "website": "https://www.knishery.com",
+    "lat": 40.72319,
+    "lng": -73.99013
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/xian-famous-foods-chinatown-1.jpg",
+        "alt": "Hand-ripped noodles with spicy cumin lamb from Xi'an Famous Foods",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Mack Male from Edmonton, AB, Canada, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Xi%27an_Famous_Foods_(11599370115).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      },
+      {
+        "url": "/photos/xian-famous-foods-chinatown-2.jpg",
+        "alt": "A Xi'an Famous Foods shop front",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "ajay_suresh, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Xi%E2%80%99an_Famous_Foods_(54878056424).jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Spicy cumin lamb hand-ripped noodles", "Liang pi cold-skin noodles"],
+    "vibeTags": ["cheap_eats", "solo_friendly", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (11 AM to 9 PM daily) for the Chinatown shop from xianfoods.com/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-xian-famous-chinatown",
+    "slug": "xian-famous-foods-chinatown",
+    "name": "Xi'an Famous Foods",
+    "category": "restaurant",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dry_noodles", "noodle_soup", "street_food"],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "45 Bayard St, New York, NY 10013",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "The New York chain that started in a Flushing basement, known for hand-ripped noodles with spicy cumin lamb from Xi'an.",
+    "bestTimeToVisit": "Early lunch",
+    "timeNeededMinutes": 30,
+    "trendingScore": 74,
+    "website": "https://www.xianfoods.com",
+    "lat": 40.71505,
+    "lng": -73.99737
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/superiority-burger-east-village-1.jpg",
+        "alt": "Superiority Burger under the old Restaurant sign on Avenue A",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Transpoman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Superiority_Burger_NYC.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The Superiority Burger", "Daily specials"],
+    "vibeTags": ["local_favorite", "group_friendly"],
+    "dietary": ["vegetarian"],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from superiorityburger.com/contact. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-superiority-burger",
+    "slug": "superiority-burger-east-village",
+    "name": "Superiority Burger",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["burgers", "vegetarian_plates"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "119 Avenue A, New York, NY 10009",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A vegetarian diner in the old Odessa space on Avenue A, famous for its veggie burger and inventive daily specials.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 60,
+    "trendingScore": 76,
+    "website": "https://www.superiorityburger.com",
+    "lat": 40.7265,
+    "lng": -73.98356
+  },
+  {
+    "photos": [],
+    "mustTry": ["Honey butter pancakes", "Chicken katsu club"],
+    "vibeTags": ["local_favorite", "group_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (9 AM to 10 PM daily) from goldendinerny.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-golden-diner",
+    "slug": "golden-diner-two-bridges",
+    "name": "Golden Diner",
+    "category": "restaurant",
+    "cuisines": ["american", "chinese"],
+    "dishTypes": ["brunch", "burgers"],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "123 Madison St, New York, NY 10002",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "An Asian American diner under the Manhattan Bridge, known for its honey butter pancakes and a menu that mixes Chinatown and diner classics.",
+    "bestTimeToVisit": "Weekday breakfast",
+    "timeNeededMinutes": 60,
+    "trendingScore": 70,
+    "website": "https://www.goldendinerny.com",
+    "lat": 40.71242,
+    "lng": -73.99412
+  },
+  {
+    "photos": [],
+    "mustTry": ["Fried yardbird", "Weekend gospel brunch"],
+    "vibeTags": ["group_friendly", "local_favorite", "date_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and dining room hours from redroosterharlem.com. The bar stays open later. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-red-rooster",
+    "slug": "red-rooster-harlem",
+    "name": "Red Rooster",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["fried_chicken", "brunch"],
+    "borough": "manhattan",
+    "neighborhood": "Harlem",
+    "address": "310 Lenox Ave, New York, NY 10027",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "21:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "22:30"
+        }
+      ]
+    },
+    "editorialTake": "Marcus Samuelsson's lively Harlem restaurant on Lenox Avenue, cooking comfort food with soul and Swedish touches, with music downstairs.",
+    "bestTimeToVisit": "Sunday brunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 74,
+    "website": "https://www.redroosterharlem.com",
+    "lat": 40.80797,
+    "lng": -73.94491
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/cosme-flatiron-1.jpg",
+        "alt": "Duck carnitas at Cosme",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Gothelf95, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cosme_Duck_Carnitas.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/cosme-flatiron-2.jpg",
+        "alt": "Cosme's entrance on East 21st Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Transpoman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cosme_NYC.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Duck carnitas", "Husk meringue"],
+    "vibeTags": ["date_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from cosmenyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-cosme",
+    "slug": "cosme-flatiron",
+    "name": "Cosme",
+    "category": "restaurant",
+    "cuisines": ["mexican"],
+    "dishTypes": ["seafood", "desserts"],
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "35 E 21st St, New York, NY 10010",
+    "priceLevel": 4,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Enrique Olvera's modern Mexican restaurant in Flatiron, famous for duck carnitas to share and a corn husk meringue for dessert.",
+    "bestTimeToVisit": "Dinner (book ahead)",
+    "timeNeededMinutes": 120,
+    "trendingScore": 80,
+    "website": "https://www.cosmenyc.com",
+    "lat": 40.73958,
+    "lng": -73.98838
+  },
+  {
+    "photos": [],
+    "mustTry": ["Cheese slice", "Hotboi slice"],
+    "vibeTags": ["cheap_eats", "late_night", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from scarrspizza.com (location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-scarrs-pizza",
+    "slug": "scarrs-pizza-lower-east-side",
+    "name": "Scarr's Pizza",
+    "category": "restaurant",
+    "cuisines": ["italian", "american"],
+    "dishTypes": ["pizza"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "35 Orchard St, New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A retro slice shop on Orchard Street that mills its own flour, serving some of the city's best slices until 2 AM on weekends.",
+    "bestTimeToVisit": "Late night",
+    "timeNeededMinutes": 25,
+    "trendingScore": 78,
+    "website": "https://www.scarrspizza.com",
+    "lat": 40.71574,
+    "lng": -73.99157
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/gage-and-tollner-downtown-brooklyn-1.jpg",
+        "alt": "Gage & Tollner's 1879 entrance at 372 Fulton Street",
+        "width": 1100,
+        "height": 1650,
+        "source": "other",
+        "attribution": {
+          "text": "Epicgenius, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Downtown_Brooklyn_Jul_2024_88.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Clam bellies", "Baked Alaska"],
+    "vibeTags": ["date_night", "tourist_classic", "instagrammable"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from gageandtollner.com. Upstairs, Sunken Harbor Club keeps later hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-gage-and-tollner",
+    "slug": "gage-and-tollner-downtown-brooklyn",
+    "name": "Gage & Tollner",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["seafood"],
+    "borough": "brooklyn",
+    "neighborhood": "Downtown Brooklyn",
+    "address": "372 Fulton St, Brooklyn, NY 11201",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "An 1879 chophouse on Fulton Street, revived with its gas lamps and mirrored walls, serving seafood and steaks. A tiki bar sits upstairs.",
+    "bestTimeToVisit": "Weekend lunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 74,
+    "website": "https://www.gageandtollner.com",
+    "lat": 40.69147,
+    "lng": -73.98777
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/ugly-baby-williamsburg-1.jpg",
+        "alt": "Illustrative photo: a spread of northern Thai dishes with chili dips",
+        "width": 1100,
+        "height": 1100,
+        "source": "other",
+        "attribution": {
+          "text": "Takeaway, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Lanna_cuisine_starters.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        "illustrative": true
+      }
+    ],
+    "mustTry": ["Fiery regional Thai curries"],
+    "vibeTags": ["local_favorite", "date_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from uglybabynyc.com. Closed Mondays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-ugly-baby",
+    "slug": "ugly-baby-williamsburg",
+    "name": "Ugly Baby",
+    "category": "restaurant",
+    "cuisines": ["thai"],
+    "dishTypes": ["curry", "noodle_soup"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "364 Grand St, Brooklyn, NY 11211",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "21:30"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "22:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "22:30"
+        }
+      ]
+    },
+    "editorialTake": "A small, much-loved Thai restaurant that does not tame its spice: regional dishes, many of them very hot. Reservations through Resy.",
+    "bestTimeToVisit": "Early dinner",
+    "timeNeededMinutes": 75,
+    "trendingScore": 72,
+    "website": "https://www.uglybabynyc.com",
+    "lat": 40.71223,
+    "lng": -73.95567
   }
 ]

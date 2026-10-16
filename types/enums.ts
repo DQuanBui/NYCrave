@@ -41,6 +41,7 @@ export const CUISINES = [
   "georgian",
   "west_african",
   "nepali",
+  "ukrainian",
 ] as const
 
 export const DISH_TYPES = [

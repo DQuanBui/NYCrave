@@ -462,7 +462,8 @@
     "polish": "Polish",
     "georgian": "Georgian",
     "west_african": "West African",
-    "nepali": "Nepali"
+    "nepali": "Nepali",
+    "ukrainian": "Ukrainian"
   },
   "dish": {
     "bbq": "BBQ",
@@ -703,7 +704,8 @@
       "fordham": "Poe Cottage, Fordham University's campus and busy Fordham Road, near the Zoo and the Botanical Garden.",
       "city-island": "A little New England fishing village in the Bronx, with seafood shacks and boatyards on Long Island Sound.",
       "new-brighton": "Snug Harbor's gardens and museums on the north shore of Staten Island, near the ferry.",
-      "corona": "Louis Armstrong's home, Latin American bakeries and the edge of Flushing Meadows."
+      "corona": "Louis Armstrong's home, Latin American bakeries and the edge of Flushing Meadows.",
+      "downtown-brooklyn": "Brooklyn's busy center around Fulton Street, with a revived 1879 chophouse and the bridges a short walk away."
     }
   },
   "credits": {
