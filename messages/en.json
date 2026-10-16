@@ -497,7 +497,8 @@
     "cocktails": "Cocktails",
     "rooftop_bar": "Rooftop bar",
     "wine_bar": "Wine bar",
-    "juice": "Juice"
+    "juice": "Juice",
+    "beer": "Beer"
   },
   "shopType": {
     "flagship": "Flagship",
@@ -705,7 +706,9 @@
       "city-island": "A little New England fishing village in the Bronx, with seafood shacks and boatyards on Long Island Sound.",
       "new-brighton": "Snug Harbor's gardens and museums on the north shore of Staten Island, near the ferry.",
       "corona": "Louis Armstrong's home, Latin American bakeries and the edge of Flushing Meadows.",
-      "downtown-brooklyn": "Brooklyn's busy center around Fulton Street, with a revived 1879 chophouse and the bridges a short walk away."
+      "downtown-brooklyn": "Brooklyn's busy center around Fulton Street, with a revived 1879 chophouse and the bridges a short walk away.",
+      "morningside-heights": "Columbia University, the vast Cathedral of St. John the Divine and student cafés above Riverside Park.",
+      "roosevelt-island": "A narrow island in the East River, reached by tram, with skyline views and Four Freedoms Park at its tip."
     }
   },
   "credits": {

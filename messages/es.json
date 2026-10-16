@@ -497,7 +497,8 @@
     "cocktails": "Cócteles",
     "rooftop_bar": "Bar en azotea",
     "wine_bar": "Bar de vinos",
-    "juice": "Jugos"
+    "juice": "Jugos",
+    "beer": "Cerveza"
   },
   "shopType": {
     "flagship": "Tienda insignia",
@@ -705,7 +706,9 @@
       "city-island": "Un pequeño pueblo pesquero al estilo de Nueva Inglaterra en el Bronx, con marisquerías y astilleros junto al estrecho de Long Island.",
       "new-brighton": "Los jardines y museos de Snug Harbor en la costa norte de Staten Island, cerca del ferry.",
       "corona": "La casa de Louis Armstrong, panaderías latinoamericanas y el borde de Flushing Meadows.",
-      "downtown-brooklyn": "El animado centro de Brooklyn alrededor de Fulton Street, con un asador de 1879 restaurado y los puentes a un paseo."
+      "downtown-brooklyn": "El animado centro de Brooklyn alrededor de Fulton Street, con un asador de 1879 restaurado y los puentes a un paseo.",
+      "morningside-heights": "La Universidad de Columbia, la enorme catedral de St. John the Divine y cafés estudiantiles sobre Riverside Park.",
+      "roosevelt-island": "Una isla estrecha en el East River a la que se llega en teleférico, con vistas al skyline y el Four Freedoms Park en la punta."
     }
   },
   "credits": {

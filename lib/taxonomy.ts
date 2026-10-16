@@ -85,6 +85,7 @@ export const DRINK_EMOJI: Record<DrinkType, string> = {
   rooftop_bar: "🌆",
   wine_bar: "🍷",
   juice: "🧃",
+  beer: "🍺",
 }
 
 /** Rough per-person spend by price level, for planner cost estimates (USD). */

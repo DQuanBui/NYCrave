@@ -714,7 +714,7 @@
     "slug": "bohemian-hall-beer-garden",
     "name": "Bohemian Hall & Beer Garden",
     "category": "drink",
-    "drinkTypes": ["cocktails"],
+    "drinkTypes": ["beer", "cocktails"],
     "dietary": [],
     "borough": "queens",
     "neighborhood": "Astoria",
@@ -1793,5 +1793,777 @@
     "website": "https://www.barpisellino.com",
     "lat": 40.73302,
     "lng": -74.00337
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/mcsorleys-old-ale-house-1.jpg",
+        "alt": "McSorley's Old Ale House's green sign and storefront on East 7th Street",
+        "width": 1100,
+        "height": 770,
+        "source": "other",
+        "attribution": {
+          "text": "Leonard J. DeFrancisci, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:McSorley%27s_Old_Ale_House_001_crop.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/mcsorleys-old-ale-house-2.jpg",
+        "alt": "The bartender behind McSorley's crowded, memorabilia-covered bar",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "ingawh, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:McSorley%27s_Old_Ale_House_-_panoramio.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Light or dark ale, served two mugs at a time", "Cheese, crackers and raw onion"],
+    "vibeTags": ["tourist_classic", "local_favorite", "late_night", "cheap_eats"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from mcsorleysoldalehouse.nyc. Cash only. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-mcsorleys",
+    "slug": "mcsorleys-old-ale-house",
+    "name": "McSorley's Old Ale House",
+    "category": "drink",
+    "drinkTypes": ["beer"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "15 E 7th St, New York, NY 10003",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "One of New York's oldest saloons, with sawdust on the floor and walls full of history. Two kinds of house ale, light or dark, and cash only.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 74,
+    "website": "https://www.mcsorleysoldalehouse.nyc",
+    "lat": 40.72876,
+    "lng": -73.9897
+  },
+  {
+    "photos": [],
+    "mustTry": ["A pint at the old wooden bar", "The booth where O. Henry is said to have written"],
+    "vibeTags": ["tourist_classic", "local_favorite", "late_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (noon to 2 AM daily) from petestavern.com. Kitchen closes at 11 PM Sunday to Thursday, midnight on weekends. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-petes-tavern",
+    "slug": "petes-tavern",
+    "name": "Pete's Tavern",
+    "category": "drink",
+    "drinkTypes": ["beer", "cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Union Square",
+    "address": "129 E 18th St, New York, NY 10003",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A Gramercy tavern from 1864 with a long carved bar and a story that O. Henry wrote The Gift of the Magi in one of its booths.",
+    "bestTimeToVisit": "Happy hour, 4 to 6 PM weekdays",
+    "timeNeededMinutes": 60,
+    "trendingScore": 60,
+    "website": "https://www.petestavern.com",
+    "lat": 40.73646,
+    "lng": -73.98673
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/caffe-reggio-greenwich-village-1.jpg",
+        "alt": "Caffe Reggio's dark wood room, hung with old paintings",
+        "width": 1100,
+        "height": 730,
+        "source": "other",
+        "attribution": {
+          "text": "Joe Mabel, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Caffe_Reggio_01.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/caffe-reggio-greenwich-village-2.jpg",
+        "alt": "Tables by the window at Caffe Reggio",
+        "width": 1100,
+        "height": 730,
+        "source": "other",
+        "attribution": {
+          "text": "Joe Mabel, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Caffe_Reggio_02.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Cappuccino", "Cannoli"],
+    "vibeTags": ["late_night", "date_night", "tourist_classic", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from caffereggio.com (location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-caffe-reggio",
+    "slug": "caffe-reggio-greenwich-village",
+    "name": "Caffe Reggio",
+    "category": "drink",
+    "drinkTypes": ["coffee"],
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "119 MacDougal St, New York, NY 10012",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "03:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "03:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "03:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "03:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "03:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "04:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "04:30"
+        }
+      ]
+    },
+    "editorialTake": "A dim, art-filled Village coffeehouse open since 1927, with a towering antique espresso machine, open into the small hours.",
+    "bestTimeToVisit": "Late at night",
+    "timeNeededMinutes": 45,
+    "trendingScore": 68,
+    "website": "https://www.caffereggio.com",
+    "lat": 40.73032,
+    "lng": -74.00036
+  },
+  {
+    "photos": [],
+    "mustTry": ["Coffee with a slice of pastry", "Linzer torte"],
+    "vibeTags": ["quiet", "solo_friendly", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from hungarianpastryshop.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-hungarian-pastry-shop",
+    "slug": "hungarian-pastry-shop",
+    "name": "Hungarian Pastry Shop",
+    "category": "drink",
+    "drinkTypes": ["coffee", "tea"],
+    "borough": "manhattan",
+    "neighborhood": "Morningside Heights",
+    "address": "1030 Amsterdam Ave, New York, NY 10025",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:30",
+          "close": "20:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:30",
+          "close": "20:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:30",
+          "close": "20:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:30",
+          "close": "20:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:30",
+          "close": "20:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:30",
+          "close": "20:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:30",
+          "close": "20:30"
+        }
+      ]
+    },
+    "editorialTake": "A beloved, unhurried pastry café across from the Cathedral of St. John the Divine, full of Columbia students with books and bottomless coffee.",
+    "bestTimeToVisit": "A slow afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 56,
+    "website": "https://www.hungarianpastryshop.com",
+    "lat": 40.80356,
+    "lng": -73.96368
+  },
+  {
+    "photos": [],
+    "mustTry": ["Beer brewed on site", "Coffee from the in-house café by day"],
+    "vibeTags": ["group_friendly", "local_favorite", "outdoor"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours for the Gowanus location from threesbrewing.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-threes-brewing-gowanus",
+    "slug": "threes-brewing-gowanus",
+    "name": "Threes Brewing",
+    "category": "drink",
+    "drinkTypes": ["beer"],
+    "borough": "brooklyn",
+    "neighborhood": "Gowanus",
+    "address": "333 Douglass St, Brooklyn, NY 11217",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A brewery and big taproom in a Gowanus warehouse, with a garden, house beers on tap and a laid-back neighborhood crowd.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 90,
+    "trendingScore": 64,
+    "website": "https://www.threesbrewing.com",
+    "lat": 40.67972,
+    "lng": -73.98216
+  },
+  {
+    "photos": [],
+    "mustTry": ["Cocktails served in teacups, Prohibition style", "Monday jazz night"],
+    "vibeTags": ["date_night", "late_night", "instagrammable"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from backroomnyc.com. Dress code; 21+ (25+ on Fridays and Saturdays). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-the-back-room",
+    "slug": "the-back-room-lower-east-side",
+    "name": "The Back Room",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "102 Norfolk St, New York, NY 10002",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "18:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "18:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "18:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "18:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "18:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "18:00",
+          "close": "03:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "18:00",
+          "close": "03:00"
+        }
+      ]
+    },
+    "editorialTake": "A Prohibition-themed speakeasy reached through a back alley, pouring cocktails in teacups. Monday nights bring free live jazz.",
+    "bestTimeToVisit": "Monday jazz night",
+    "timeNeededMinutes": 75,
+    "trendingScore": 62,
+    "website": "https://www.backroomnyc.com",
+    "lat": 40.71875,
+    "lng": -73.98697
+  },
+  {
+    "photos": [],
+    "mustTry": ["Gin cocktails", "The copper bathtub in the middle of the room"],
+    "vibeTags": ["date_night", "late_night", "instagrammable", "group_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from bathtubginnyc.com (location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-bathtub-gin",
+    "slug": "bathtub-gin-chelsea",
+    "name": "Bathtub Gin",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "132 9th Ave, New York, NY 10011",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ]
+    },
+    "editorialTake": "A hidden speakeasy behind a coffee-shop front on Ninth Avenue, with a copper bathtub at its center and gin-focused cocktails.",
+    "bestTimeToVisit": "Early evening",
+    "timeNeededMinutes": 75,
+    "trendingScore": 64,
+    "website": "https://www.bathtubginnyc.com",
+    "lat": 40.74356,
+    "lng": -74.00314
+  },
+  {
+    "photos": [],
+    "mustTry": ["Sunset over the downtown skyline", "The pool deck in summer"],
+    "vibeTags": ["instagrammable", "late_night", "date_night", "outdoor"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours from mrpurplenyc.com (location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-mr-purple",
+    "slug": "mr-purple-rooftop",
+    "name": "Mr. Purple",
+    "category": "drink",
+    "drinkTypes": ["rooftop_bar", "cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "180 Orchard St, 15th Floor, New York, NY 10002",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "14:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "03:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:00",
+          "close": "04:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "14:00",
+          "close": "04:00"
+        }
+      ]
+    },
+    "editorialTake": "A rooftop bar 15 floors above Orchard Street, with wide views over downtown and a lively crowd late into the night.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 75,
+    "trendingScore": 66,
+    "website": "https://www.mrpurplenyc.com",
+    "lat": 40.72176,
+    "lng": -73.98798
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/panorama-room-roosevelt-island-1.jpg",
+        "alt": "The Graduate hotel tower on Roosevelt Island, home of the Panorama Room",
+        "width": 1100,
+        "height": 1375,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Graduate_Hotel_and_The_House_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The Midtown skyline across the East River", "Weekend afternoon drinks"],
+    "vibeTags": ["date_night", "instagrammable"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: hours from panoramaroomnyc.com. Hours are listed Wednesday to Sunday. Dress code; 21+. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-panorama-room",
+    "slug": "panorama-room-roosevelt-island",
+    "name": "Panorama Room",
+    "category": "drink",
+    "drinkTypes": ["rooftop_bar", "cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Roosevelt Island",
+    "address": "Graduate New York, 22 N Loop Rd, New York, NY 10044",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A glass-walled rooftop on Roosevelt Island facing the Midtown skyline head-on. Take the tram there for the full experience.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 75,
+    "trendingScore": 60,
+    "website": "https://www.panoramaroomnyc.com",
+    "lat": 40.75645,
+    "lng": -73.95586
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/black-fox-coffee-financial-district-1.jpg",
+        "alt": "The Art Deco lobby of 70 Pine Street, where Black Fox Coffee is",
+        "width": 1100,
+        "height": 801,
+        "source": "other",
+        "attribution": {
+          "text": "Steven Bornholtz, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:OHNY_70_Pine_Street_3.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Pour-over from a rotating list of roasters"],
+    "vibeTags": ["solo_friendly", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours for 70 Pine Street from blackfoxcoffee.com/pages/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-black-fox-coffee",
+    "slug": "black-fox-coffee-financial-district",
+    "name": "Black Fox Coffee",
+    "category": "drink",
+    "drinkTypes": ["coffee"],
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "70 Pine St, New York, NY 10005",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "A polished specialty coffee bar in the Art Deco 70 Pine tower, pouring beans from roasters around the world. A calm stop near Wall Street.",
+    "bestTimeToVisit": "Morning",
+    "timeNeededMinutes": 20,
+    "trendingScore": 52,
+    "website": "https://www.blackfoxcoffee.com",
+    "lat": 40.70647,
+    "lng": -74.00774
   }
 ]

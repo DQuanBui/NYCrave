@@ -67,6 +67,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9918,
   },
   { slug: "midtown-east", name: "Midtown East", borough: "manhattan", lat: 40.7527, lng: -73.9727 },
+  {
+    slug: "roosevelt-island",
+    name: "Roosevelt Island",
+    borough: "manhattan",
+    lat: 40.762,
+    lng: -73.95,
+  },
   { slug: "murray-hill", name: "Murray Hill", borough: "manhattan", lat: 40.7479, lng: -73.9757 },
   {
     slug: "upper-west-side",
@@ -74,6 +81,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     borough: "manhattan",
     lat: 40.787,
     lng: -73.9754,
+  },
+  {
+    slug: "morningside-heights",
+    name: "Morningside Heights",
+    borough: "manhattan",
+    lat: 40.809,
+    lng: -73.962,
   },
   {
     slug: "upper-east-side",

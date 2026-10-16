@@ -497,7 +497,8 @@
     "cocktails": "Cocktail",
     "rooftop_bar": "Bar sân thượng",
     "wine_bar": "Quán rượu vang",
-    "juice": "Nước ép"
+    "juice": "Nước ép",
+    "beer": "Bia"
   },
   "shopType": {
     "flagship": "Cửa hàng flagship",
@@ -705,7 +706,9 @@
       "city-island": "Một làng chài kiểu New England nhỏ bé ở Bronx, với quán hải sản và bến thuyền bên eo biển Long Island.",
       "new-brighton": "Vườn và bảo tàng ở Snug Harbor trên bờ bắc Staten Island, gần bến phà.",
       "corona": "Nhà của Louis Armstrong, tiệm bánh Mỹ Latinh và rìa công viên Flushing Meadows.",
-      "downtown-brooklyn": "Trung tâm sôi động của Brooklyn quanh phố Fulton, có nhà hàng thịt nướng năm 1879 được hồi sinh và gần các cây cầu."
+      "downtown-brooklyn": "Trung tâm sôi động của Brooklyn quanh phố Fulton, có nhà hàng thịt nướng năm 1879 được hồi sinh và gần các cây cầu.",
+      "morningside-heights": "Đại học Columbia, nhà thờ lớn St. John the Divine và những quán cà phê sinh viên bên trên công viên Riverside.",
+      "roosevelt-island": "Hòn đảo hẹp giữa sông East, đi bằng cáp treo, nhìn ra đường chân trời và công viên Four Freedoms ở mũi đảo."
     }
   },
   "credits": {

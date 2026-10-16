@@ -78,6 +78,7 @@ export const DRINK_TYPES = [
   "rooftop_bar",
   "wine_bar",
   "juice",
+  "beer",
 ] as const
 
 export const BOROUGHS = ["manhattan", "brooklyn", "queens", "bronx", "staten_island"] as const
