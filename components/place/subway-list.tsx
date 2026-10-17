@@ -67,7 +67,7 @@ export function SubwayList({ stations }: { stations: NearbyStation[] }) {
                 />
               ) : null}
             </p>
-            <RouteBullets routes={s.routes} />
+            <RouteBullets routes={s.routes} linked />
           </div>
           <p className="shrink-0 pt-0.5 text-sm text-muted-foreground">
             {t("walk", { minutes: s.walkMinutes })}
