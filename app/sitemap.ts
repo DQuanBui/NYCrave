@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getPathname } from "@/i18n/navigation"
 import { routing } from "@/i18n/routing"
+import { GUIDES } from "@/lib/guides"
 import { toSlug } from "@/lib/place-filters"
 import { getPlaces } from "@/lib/places"
 import { SITE_URL } from "@/lib/site"
@@ -32,6 +33,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/neighborhoods",
     "/map",
     "/privacy",
+    "/food",
+    "/walks",
+    "/seasons",
+    "/golden-hour",
+    "/guides",
+    ...GUIDES.map((g) => `/guides/${g.slug}`),
     ...Object.values(CATEGORY_META).map((m) => m.href),
     ...NEIGHBORHOODS.map((n) => `/neighborhoods/${n.slug}`),
   ]
