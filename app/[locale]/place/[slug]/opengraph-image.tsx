@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og"
 import { LINES } from "@/lib/lines"
-import { loadAnton, OG } from "@/lib/og"
+import { OG, ogFonts } from "@/lib/og"
 import { getPlaceBySlug } from "@/lib/places"
 import { CATEGORY_META } from "@/lib/taxonomy"
 
@@ -13,7 +13,8 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const name = place?.name ?? "NYCrave"
   const meta = place ? CATEGORY_META[place.category] : CATEGORY_META.restaurant
   const color = LINES[meta.line].hex
-  const font = await loadAnton(`${name}NYCrave`)
+  const where = place ? `${place.neighborhood}, New York` : "New York"
+  const { fonts, display, body } = await ogFonts(`${name}NYCrave`, where)
 
   return new ImageResponse(
     <div
@@ -27,6 +28,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
         color: OG.ink,
         borderTop: `24px solid ${color}`,
         padding: 72,
+        fontFamily: body,
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
@@ -46,13 +48,9 @@ export default async function Image({ params }: { params: Promise<{ slug: string
         >
           {meta.bullet}
         </div>
-        <div style={{ fontSize: 34, fontWeight: 600 }}>
-          {place ? `${place.neighborhood}, New York` : "New York"}
-        </div>
+        <div style={{ fontSize: 34, fontWeight: 600 }}>{where}</div>
       </div>
-      <div style={{ fontSize: 120, lineHeight: 0.95, fontFamily: font ? "Anton" : undefined }}>
-        {name}
-      </div>
+      <div style={{ fontSize: 120, lineHeight: 0.95, fontFamily: display }}>{name}</div>
       <div style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 32 }}>
         <div
           style={{
@@ -69,9 +67,9 @@ export default async function Image({ params }: { params: Promise<{ slug: string
         >
           NY
         </div>
-        <div style={{ fontFamily: font ? "Anton" : undefined }}>NYCrave</div>
+        <div style={{ fontFamily: display }}>NYCrave</div>
       </div>
     </div>,
-    { ...size, fonts: font ? [{ name: "Anton", data: font, style: "normal" }] : undefined },
+    { ...size, fonts },
   )
 }
