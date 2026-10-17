@@ -31,7 +31,8 @@
     "food": "Guía gastronómica",
     "walks": "Paseos y senderos",
     "goldenHour": "Hora dorada",
-    "guides": "Guías"
+    "guides": "Guías",
+    "subway": "En metro"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -1517,5 +1518,17 @@
       "title": "Elige tu tipo de día",
       "cta": "Todas las guías"
     }
+  },
+  "ride": {
+    "title": "Viaja en metro",
+    "tagline": "Elige un tren y mira qué hay a pocos pasos de cada parada.",
+    "lineTitle": "El tren {route}",
+    "lineTagline": "{count, plural, one {# lugar} other {# lugares}} a menos de {minutes} minutos a pie de sus paradas, de {from} a {to}.",
+    "fromTo": "De {from} a {to}",
+    "count": "{count, plural, one {# lugar cerca} other {# lugares cerca}}",
+    "walk": "{minutes} min a pie",
+    "moreStops": "{count, plural, one {# parada más} other {# paradas más}}",
+    "sameLine": "Misma línea",
+    "note": "Las estaciones vienen de los datos abiertos de la MTA, con los trenes que paran allí entre semana. Las paradas se ordenan según su posición en el mapa, así que en las líneas con ramales un ramal va antes que el otro. Consulta la MTA por cambios de servicio."
   }
 }

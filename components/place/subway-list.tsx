@@ -2,27 +2,49 @@ import { Accessibility } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { ROUTE_LINE, type NearbyStation } from "@/lib/subway"
+import { Link } from "@/i18n/navigation"
+import { RIDE_ROUTES, routeSlug } from "@/lib/ride"
 import { cn } from "@/lib/utils"
 
 /** Route bullets in MTA order, the way station signs show them. */
 export function RouteBullets({
   routes,
   size = "sm",
+  linked = false,
   className,
 }: {
   routes: string[]
   size?: "xs" | "sm" | "md"
+  /** Each bullet opens its train's page. */
+  linked?: boolean
   className?: string
 }) {
   const t = useTranslations("subway")
+  const ride = useTranslations("ride")
   return (
     <span className={cn("inline-flex flex-wrap gap-1", className)}>
-      <span className="sr-only">{t("trains", { routes: routes.join(", ") })}</span>
-      {routes.map((r) => (
-        <LineBullet key={r} line={ROUTE_LINE[r] ?? "gray"} size={size}>
-          {r}
-        </LineBullet>
-      ))}
+      {linked ? null : (
+        <span className="sr-only">{t("trains", { routes: routes.join(", ") })}</span>
+      )}
+      {routes.map((r) => {
+        const bullet = (
+          <LineBullet key={r} line={ROUTE_LINE[r] ?? "gray"} size={size}>
+            {r}
+          </LineBullet>
+        )
+        return linked && RIDE_ROUTES.includes(r) ? (
+          <Link
+            key={r}
+            href={`/subway/${routeSlug(r)}`}
+            aria-label={ride("lineTitle", { route: r })}
+            className="rounded-full transition-transform hover:-translate-y-0.5"
+          >
+            {bullet}
+          </Link>
+        ) : (
+          bullet
+        )
+      })}
     </span>
   )
 }

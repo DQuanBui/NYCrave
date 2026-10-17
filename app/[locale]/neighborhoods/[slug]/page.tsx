@@ -103,7 +103,7 @@ export default async function NeighborhoodPage({ params }: Props) {
         {routes.length > 0 ? (
           <div className="flex flex-wrap items-center gap-3">
             <h2 className="text-sm font-bold text-muted-foreground">{t("subway.linesHere")}</h2>
-            <RouteBullets routes={routes} size="md" />
+            <RouteBullets routes={routes} size="md" linked />
           </div>
         ) : null}
 

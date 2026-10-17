@@ -31,7 +31,8 @@
     "food": "美食指南",
     "walks": "徒步与步道",
     "goldenHour": "黄金时刻",
-    "guides": "主题指南"
+    "guides": "主题指南",
+    "subway": "按地铁"
   },
   "theme": {
     "toggle": "切换到{mode}模式",
@@ -1473,5 +1474,17 @@
       "title": "选择你的一天",
       "cta": "全部指南"
     }
+  },
+  "ride": {
+    "title": "坐地铁逛纽约",
+    "tagline": "选一条地铁线，看看每一站步行可达的去处。",
+    "lineTitle": "{route} 线",
+    "lineTagline": "距车站步行 {minutes} 分钟内的 {count} 个地点，从 {from} 到 {to}。",
+    "fromTo": "从 {from} 到 {to}",
+    "count": "附近 {count} 个地点",
+    "walk": "步行 {minutes} 分钟",
+    "moreStops": "另外 {count} 站",
+    "sameLine": "同一干线",
+    "note": "车站来自 MTA 开放数据，显示工作日停靠的列车。车站按地图位置排序，因此有支线的线路会先列完一条支线再列下一条。服务变更请以 MTA 为准。"
   }
 }

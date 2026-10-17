@@ -4,6 +4,7 @@ import { getPathname } from "@/i18n/navigation"
 import { routing } from "@/i18n/routing"
 import { GUIDES } from "@/lib/guides"
 import { toSlug } from "@/lib/place-filters"
+import { RIDE_ROUTES, routeSlug } from "@/lib/ride"
 import { getPlaces } from "@/lib/places"
 import { SITE_URL } from "@/lib/site"
 import { CATEGORY_META } from "@/lib/taxonomy"
@@ -38,6 +39,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/seasons",
     "/golden-hour",
     "/guides",
+    "/subway",
+    ...RIDE_ROUTES.map((r) => `/subway/${routeSlug(r)}`),
     ...GUIDES.map((g) => `/guides/${g.slug}`),
     ...Object.values(CATEGORY_META).map((m) => m.href),
     ...NEIGHBORHOODS.map((n) => `/neighborhoods/${n.slug}`),

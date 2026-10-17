@@ -31,7 +31,8 @@
     "food": "Cẩm nang ẩm thực",
     "walks": "Đi bộ và leo núi",
     "goldenHour": "Giờ vàng",
-    "guides": "Cẩm nang"
+    "guides": "Cẩm nang",
+    "subway": "Theo tàu điện ngầm"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",
@@ -1513,5 +1514,17 @@
       "title": "Chọn kiểu ngày của bạn",
       "cta": "Tất cả cẩm nang"
     }
+  },
+  "ride": {
+    "title": "Đi tàu điện ngầm",
+    "tagline": "Chọn một tuyến tàu và xem có gì gần mỗi ga, chỉ vài bước chân.",
+    "lineTitle": "Tuyến {route}",
+    "lineTagline": "{count} địa điểm cách các ga không quá {minutes} phút đi bộ, từ {from} đến {to}.",
+    "fromTo": "{from} đến {to}",
+    "count": "{count} địa điểm gần đây",
+    "walk": "Đi bộ {minutes} phút",
+    "moreStops": "{count} ga khác",
+    "sameLine": "Cùng tuyến",
+    "note": "Danh sách ga lấy từ dữ liệu mở của MTA, kèm các tàu dừng ở đó vào ngày thường. Các ga được xếp theo vị trí trên bản đồ, nên với tuyến có nhánh, hết nhánh này mới đến nhánh kia. Hãy kiểm tra MTA để biết thay đổi lịch chạy."
   }
 }

@@ -31,7 +31,8 @@
     "food": "Food guide",
     "walks": "Walks & hikes",
     "goldenHour": "Golden hour",
-    "guides": "Guides"
+    "guides": "Guides",
+    "subway": "By subway"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -1513,5 +1514,17 @@
       "title": "Pick your kind of day",
       "cta": "All guides"
     }
+  },
+  "ride": {
+    "title": "Ride the subway",
+    "tagline": "Pick a train and see what's a short walk from each stop.",
+    "lineTitle": "The {route} train",
+    "lineTagline": "{count, plural, one {# place} other {# places}} within a {minutes}-minute walk of its stops, from {from} to {to}.",
+    "fromTo": "{from} to {to}",
+    "count": "{count, plural, one {# place nearby} other {# places nearby}}",
+    "walk": "{minutes} min walk",
+    "moreStops": "{count, plural, one {# more stop} other {# more stops}}",
+    "sameLine": "Same line",
+    "note": "Stations come from MTA open data, with the trains that stop there on weekdays. Stops are put in order by their place on the map, so on lines with branches one branch comes before the next. Check the MTA for service changes."
   }
 }

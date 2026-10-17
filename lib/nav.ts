@@ -14,6 +14,7 @@ import {
   Route,
   Stamp,
   Sunset,
+  TrainFront,
   ShoppingBag,
   Trees,
   UtensilsCrossed,
@@ -41,6 +42,7 @@ export type NavKey =
   | "walks"
   | "goldenHour"
   | "guides"
+  | "subway"
 
 export type NavItem = { key: NavKey; href: string; icon: LucideIcon; line?: LineColor }
 
@@ -66,6 +68,7 @@ export const NAV: Record<NavKey, NavItem> = {
   next: { key: "next", href: "/next", icon: Footprints, line: "green" },
   food: { key: "food", href: "/food", icon: ChefHat, line: "red" },
   walks: { key: "walks", href: "/walks", icon: Mountain, line: "green" },
+  subway: { key: "subway", href: "/subway", icon: TrainFront, line: "blue" },
   guides: { key: "guides", href: "/guides", icon: BookOpen, line: "purple" },
   goldenHour: { key: "goldenHour", href: "/golden-hour", icon: Sunset, line: "yellow" },
 }
@@ -79,6 +82,7 @@ export const MENU: NavKey[] = [
   ...TOP_NAV,
   "next",
   "guides",
+  "subway",
   "food",
   "walks",
   "goldenHour",
