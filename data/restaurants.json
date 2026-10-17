@@ -8600,5 +8600,425 @@
     "website": "https://www.uglybabynyc.com",
     "lat": 40.71223,
     "lng": -73.95567
+  },
+  {
+    "photos": [],
+    "mustTry": ["Sturgeon, eggs and onions", "Nova lox on a bagel"],
+    "vibeTags": ["local_favorite", "tourist_classic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and restaurant hours (Tuesday to Friday 8:30 AM to 4 PM, weekends 8:30 AM to 5 PM) from barneygreengrass.com. Closed Monday. The take-out store keeps slightly longer hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-barney-greengrass",
+    "slug": "barney-greengrass",
+    "name": "Barney Greengrass",
+    "category": "restaurant",
+    "cuisines": ["jewish_deli"],
+    "dishTypes": ["bagels", "brunch", "seafood"],
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "541 Amsterdam Ave, New York, NY 10024",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:30",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "08:30",
+          "close": "16:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:30",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:30",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:30",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "The self-styled Sturgeon King, an Upper West Side appetizing shop and dining room famous for smoked fish, served with bagels and plenty of attitude.",
+    "bestTimeToVisit": "Weekday breakfast",
+    "timeNeededMinutes": 60,
+    "trendingScore": 64,
+    "website": "https://www.barneygreengrass.com",
+    "lat": 40.78797,
+    "lng": -73.97455
+  },
+  {
+    "photos": [],
+    "mustTry": ["Brisket by the pound", "Beef rib"],
+    "vibeTags": ["group_friendly", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and hours (Sunday and Tuesday to Thursday noon to 9 PM, Friday and Saturday noon to 10 PM) from hometownbarbque.com. Closed Monday. Meats can sell out before closing. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-hometown-bbq",
+    "slug": "hometown-bar-b-que",
+    "name": "Hometown Bar-B-Que",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["bbq"],
+    "borough": "brooklyn",
+    "neighborhood": "Red Hook",
+    "address": "454 Van Brunt St, Brooklyn, NY 11231",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "Texas-style barbecue in a big Red Hook warehouse, ordered by the pound at the counter, with live music on weekend nights.",
+    "bestTimeToVisit": "Early, before the meats sell out",
+    "timeNeededMinutes": 75,
+    "trendingScore": 66,
+    "website": "https://www.hometownbarbque.com",
+    "lat": 40.67492,
+    "lng": -74.01613
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/doughnut-plant-brooklyn-1.jpg",
+        "alt": "Illustrative photo: a square glazed doughnut on a Doughnut Plant box",
+        "width": 1100,
+        "height": 1100,
+        "source": "other",
+        "attribution": {
+          "text": "Bex Walton from London, England, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:PBJ_doughnut_from_Doughnut_Plant_(17101818745).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        "illustrative": true
+      }
+    ],
+    "mustTry": ["A square jelly-filled doughnut", "Crème brûlée doughnut"],
+    "vibeTags": ["cheap_eats", "late_night", "kid_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and hours (daily 7 AM to midnight) for the Brooklyn location from doughnutplant.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-doughnut-plant-brooklyn",
+    "slug": "doughnut-plant-brooklyn",
+    "name": "Doughnut Plant",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["bakery", "desserts"],
+    "borough": "brooklyn",
+    "neighborhood": "Prospect Heights",
+    "address": "245 Flatbush Ave, Brooklyn, NY 11217",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "The New York doughnut shop known for square, jelly-filled yeast doughnuts and seasonal flavors, open from breakfast until midnight.",
+    "bestTimeToVisit": "Morning, when the trays are full",
+    "timeNeededMinutes": 20,
+    "trendingScore": 58,
+    "website": "https://www.doughnutplant.com",
+    "lat": 40.68064,
+    "lng": -73.97474
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/totonnos-pizzeria-napolitana-1.jpg",
+        "alt": "Totonno's storefront on Neptune Avenue in Coney Island, shutters down between openings",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Totonno%27s_HDR_2022_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A coal-oven plain pie"],
+    "vibeTags": ["local_favorite", "tourist_classic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and hours (Saturday and Sunday noon to 5:30 PM, closed Monday to Friday) from totonnosconeyisland.com. Takeout and delivery only for now, with no indoor seating. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-totonnos",
+    "slug": "totonnos-pizzeria-napolitana",
+    "name": "Totonno's Pizzeria Napolitana",
+    "category": "restaurant",
+    "cuisines": ["italian"],
+    "dishTypes": ["pizza"],
+    "borough": "brooklyn",
+    "neighborhood": "Coney Island",
+    "address": "1524 Neptune Ave, Brooklyn, NY 11224",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "17:30"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "17:30"
+        }
+      ]
+    },
+    "editorialTake": "A coal-oven pizzeria in Coney Island since 1924, one of the oldest in the country, baking whole pies only.",
+    "bestTimeToVisit": "Saturday lunch, with a walk on the boardwalk",
+    "timeNeededMinutes": 45,
+    "trendingScore": 60,
+    "website": "https://www.totonnosconeyisland.com",
+    "lat": 40.57879,
+    "lng": -73.9838
+  },
+  {
+    "photos": [],
+    "mustTry": ["Cannoli", "Sfogliatella with an espresso"],
+    "vibeTags": ["tourist_classic", "date_night", "late_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and café hours (Sunday to Thursday 9 AM to 10 PM, Friday and Saturday 9 AM to 11 PM) from ferraranyc.com. Table service ends half an hour before closing. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-ferrara",
+    "slug": "ferrara-bakery",
+    "name": "Ferrara Bakery & Cafe",
+    "category": "restaurant",
+    "cuisines": ["italian"],
+    "dishTypes": ["bakery", "desserts"],
+    "borough": "manhattan",
+    "neighborhood": "Little Italy",
+    "address": "195 Grand St, New York, NY 10013",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A Little Italy pastry shop and café on Grand Street since 1892, for cannoli, Italian cookies and espresso at the tables.",
+    "bestTimeToVisit": "After dinner in Little Italy",
+    "timeNeededMinutes": 40,
+    "trendingScore": 62,
+    "website": "https://www.ferraranyc.com",
+    "lat": 40.7191,
+    "lng": -73.99706
+  },
+  {
+    "photos": [],
+    "mustTry": ["Har gow and siu mai", "Rice noodle rolls"],
+    "vibeTags": ["group_friendly", "local_favorite", "kid_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and hours (daily 10:30 AM to 9 PM) from jingfongny.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-jing-fong",
+    "slug": "jing-fong-centre-street",
+    "name": "Jing Fong",
+    "category": "restaurant",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dumplings"],
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "202 Centre St, New York, NY 10013",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:30",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "A Chinatown dim sum institution, now on Centre Street, with a long menu of dumplings, buns and noodle rolls.",
+    "bestTimeToVisit": "Weekend late morning",
+    "timeNeededMinutes": 75,
+    "trendingScore": 60,
+    "website": "https://www.jingfongny.com",
+    "lat": 40.71889,
+    "lng": -73.99906
   }
 ]

@@ -129,6 +129,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lat: 40.6795,
     lng: -73.9992,
   },
+  { slug: "red-hook", name: "Red Hook", borough: "brooklyn", lat: 40.6759, lng: -74.011 },
   { slug: "cobble-hill", name: "Cobble Hill", borough: "brooklyn", lat: 40.6862, lng: -73.9962 },
   { slug: "fort-greene", name: "Fort Greene", borough: "brooklyn", lat: 40.6897, lng: -73.9745 },
   { slug: "park-slope", name: "Park Slope", borough: "brooklyn", lat: 40.671, lng: -73.9814 },

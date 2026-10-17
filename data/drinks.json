@@ -2565,5 +2565,340 @@
     "website": "https://www.blackfoxcoffee.com",
     "lat": 40.70647,
     "lng": -74.00774
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/attaboy-lower-east-side-1.jpg",
+        "alt": "Attaboy's unmarked door on Eldridge Street",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Transpoman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Attaboy_NYC.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A drink made to order from your mood: there's no menu"],
+    "vibeTags": ["date_night", "late_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and hours (daily 5 PM to 3 AM) from attaboy.us/visit-us. 21+ with physical ID. Parties of 6 or fewer; mostly first come, first served. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-attaboy",
+    "slug": "attaboy-lower-east-side",
+    "name": "Attaboy",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "134 Eldridge St, New York, NY 10002",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "03:00"
+        }
+      ]
+    },
+    "editorialTake": "A tiny, menu-less cocktail bar behind an unmarked door: tell the bartender what you like and they make it.",
+    "bestTimeToVisit": "Early evening, before the line",
+    "timeNeededMinutes": 60,
+    "trendingScore": 66,
+    "website": "https://www.attaboy.us",
+    "lat": 40.71888,
+    "lng": -73.99138
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/white-horse-tavern-1.jpg",
+        "alt": "The White Horse Tavern's wooden corner building on Hudson Street",
+        "width": 1024,
+        "height": 685,
+        "source": "other",
+        "attribution": {
+          "text": "Elisa.rolle, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:016_White_Horse_Tavern.JPG",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/white-horse-tavern-2.jpg",
+        "alt": "The White Horse Tavern's hanging sign",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:White_Horse_Tavern.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A pint at the old wooden bar"],
+    "vibeTags": ["tourist_classic", "local_favorite", "late_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and hours from the structured data on whitehorsetavern1880.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-white-horse-tavern",
+    "slug": "white-horse-tavern",
+    "name": "White Horse Tavern",
+    "category": "drink",
+    "drinkTypes": ["beer"],
+    "borough": "manhattan",
+    "neighborhood": "West Village",
+    "address": "567 Hudson St, New York, NY 10014",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "02:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "03:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "03:30"
+        }
+      ]
+    },
+    "editorialTake": "A West Village tavern from 1880, long a hangout for writers, with its wood-paneled rooms and sidewalk tables on Hudson Street.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 60,
+    "website": "https://www.whitehorsetavern1880.com",
+    "lat": 40.73569,
+    "lng": -74.00618
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/brooklyn-brewery-1.jpg",
+        "alt": "Brooklyn Brewery's building in Williamsburg, painted with the brewing process",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "FaceMePLS from The Hague, The Netherlands, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Brooklyn_Brewery_-_N_11th_St._Williamsburg_NYC_(40005953335).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Brooklyn Lager at the source", "Beers you can only get in the taproom"],
+    "vibeTags": ["group_friendly", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and taproom hours from the structured data on brooklynbrewery.com/visit-us. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-brooklyn-brewery",
+    "slug": "brooklyn-brewery",
+    "name": "Brooklyn Brewery",
+    "category": "drink",
+    "drinkTypes": ["beer"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "79 N 11th St, Brooklyn, NY 11249",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "14:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "The Williamsburg brewery behind Brooklyn Lager, with a taproom pouring house beers next to the brewhouse.",
+    "bestTimeToVisit": "Saturday afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 64,
+    "website": "https://brooklynbrewery.com",
+    "lat": 40.72162,
+    "lng": -73.95761
+  },
+  {
+    "photos": [],
+    "mustTry": ["Oysters at the horseshoe bar", "An absinthe drip"],
+    "vibeTags": ["date_night", "instagrammable", "late_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-17T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-17: address and bar hours from maisonpremiere.com. The oyster menu stops earlier than the bar. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-maison-premiere",
+    "slug": "maison-premiere",
+    "name": "Maison Premiere",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "298 Bedford Ave, Brooklyn, NY 11249",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A New Orleans-style oyster and cocktail bar with a marble horseshoe bar, absinthe fountains and a leafy back garden.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 66,
+    "website": "https://www.maisonpremiere.com",
+    "lat": 40.71426,
+    "lng": -73.96165
   }
 ]
