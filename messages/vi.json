@@ -718,7 +718,9 @@
       "corona": "Nhà của Louis Armstrong, tiệm bánh Mỹ Latinh và rìa công viên Flushing Meadows.",
       "downtown-brooklyn": "Trung tâm sôi động của Brooklyn quanh phố Fulton, có nhà hàng thịt nướng năm 1879 được hồi sinh và gần các cây cầu.",
       "morningside-heights": "Đại học Columbia, nhà thờ lớn St. John the Divine và những quán cà phê sinh viên bên trên công viên Riverside.",
-      "roosevelt-island": "Hòn đảo hẹp giữa sông East, đi bằng cáp treo, nhìn ra đường chân trời và công viên Four Freedoms ở mũi đảo."
+      "roosevelt-island": "Hòn đảo hẹp giữa sông East, đi bằng cáp treo, nhìn ra đường chân trời và công viên Four Freedoms ở mũi đảo.",
+      "east-harlem": "El Barrio, trái tim của cộng đồng Puerto Rico ở New York, với tranh tường, bảo tàng El Museo del Barrio và đầu phía bắc của Museum Mile.",
+      "crown-heights": "Những dãy nhà brownstone phía đông Prospect Park, có tiệm bánh Caribe và bảo tàng trẻ em đầu tiên trên thế giới."
     }
   },
   "credits": {
@@ -1007,7 +1009,6 @@
     "tagline": "Đóng dấu những nơi bạn đã đến và sưu tầm huy hiệu khắp năm quận.",
     "stamp": "Đóng dấu hộ chiếu",
     "stamped": "Đã có trong hộ chiếu",
-    "stampLabel": "Đóng dấu {name} vào hộ chiếu",
     "toast": {
       "stamped": "Đã đóng dấu! {name} đã có trong hộ chiếu.",
       "badge": "Huy hiệu mới: {badges}",

@@ -718,7 +718,9 @@
       "corona": "Louis Armstrong's home, Latin American bakeries and the edge of Flushing Meadows.",
       "downtown-brooklyn": "Brooklyn's busy center around Fulton Street, with a revived 1879 chophouse and the bridges a short walk away.",
       "morningside-heights": "Columbia University, the vast Cathedral of St. John the Divine and student cafés above Riverside Park.",
-      "roosevelt-island": "A narrow island in the East River, reached by tram, with skyline views and Four Freedoms Park at its tip."
+      "roosevelt-island": "A narrow island in the East River, reached by tram, with skyline views and Four Freedoms Park at its tip.",
+      "east-harlem": "El Barrio, the heart of Puerto Rican New York, with murals, El Museo del Barrio and the top of Museum Mile.",
+      "crown-heights": "Brownstone blocks east of Prospect Park, home to Caribbean bakeries and the world's first children's museum."
     }
   },
   "credits": {
@@ -1007,7 +1009,6 @@
     "tagline": "Stamp the places you visit and collect badges across the five boroughs.",
     "stamp": "Stamp my passport",
     "stamped": "In your passport",
-    "stampLabel": "Stamp {name} in your passport",
     "toast": {
       "stamped": "Stamped! {name} is in your passport.",
       "badge": "New badge: {badges}",

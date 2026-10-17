@@ -2735,5 +2735,883 @@
     "website": "https://www.louisarmstronghouse.org",
     "lat": 40.75457,
     "lng": -73.86154
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/brooklyn-museum-1.jpg",
+        "alt": "The Brooklyn Museum's Beaux-Arts facade and entrance plaza on Eastern Parkway",
+        "width": 1024,
+        "height": 768,
+        "source": "other",
+        "attribution": {
+          "text": "Elisa.rolle, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum-905.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/brooklyn-museum-2.jpg",
+        "alt": "The Brooklyn Museum's domed facade in evening light",
+        "width": 1100,
+        "height": 669,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_June_2008_sunset_jeh.JPG",
+          "license": "Public domain"
+        }
+      }
+    ],
+    "mustTry": [
+      "Egyptian galleries",
+      "The Dinner Party by Judy Chicago",
+      "First Saturday evenings"
+    ],
+    "vibeTags": ["rainy_day", "local_favorite", "kid_friendly", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (Wednesday to Sunday, 11 AM to 6 PM) from brooklynmuseum.org/visit. Closed Monday, Tuesday, Thanksgiving, Christmas and New Year's Day. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-brooklyn-museum",
+    "slug": "brooklyn-museum",
+    "name": "Brooklyn Museum",
+    "category": "attraction",
+    "borough": "brooklyn",
+    "neighborhood": "Prospect Heights",
+    "address": "200 Eastern Pkwy, Brooklyn, NY 11238",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "One of the city's largest art museums, in a Beaux-Arts building on Eastern Parkway, with Egyptian art, American paintings and a landmark feminist installation. Pairs well with the Botanic Garden next door.",
+    "bestTimeToVisit": "Wednesday afternoon",
+    "timeNeededMinutes": 150,
+    "trendingScore": 70,
+    "website": "https://www.brooklynmuseum.org",
+    "lat": 40.67124,
+    "lng": -73.96365
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-met-cloisters-1.jpg",
+        "alt": "Looking through the arcade of the Cuxa Cloister into its garden at The Met Cloisters",
+        "width": 1100,
+        "height": 866,
+        "source": "other",
+        "attribution": {
+          "text": "Unknown author, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cuxa_Cloister_MET_DT210665.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      },
+      {
+        "url": "/photos/the-met-cloisters-2.jpg",
+        "alt": "The Cuxa Cloister garden beneath The Met Cloisters' tower",
+        "width": 1100,
+        "height": 1100,
+        "source": "other",
+        "attribution": {
+          "text": "Unknown author, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cuxa_Cloister_MET_DP132222.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": [
+      "The Unicorn Tapestries",
+      "The cloister gardens",
+      "Hudson River views from Fort Tryon Park"
+    ],
+    "vibeTags": ["quiet", "date_night", "instagrammable", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (10 AM to 5 PM, closed Wednesdays) from metmuseum.org. Closed Thanksgiving, December 25 and January 1. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-met-cloisters",
+    "slug": "the-met-cloisters",
+    "name": "The Met Cloisters",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Washington Heights",
+    "address": "99 Margaret Corbin Dr, New York, NY 10040",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "The Met's branch for medieval art, built from pieces of European monasteries on a hilltop in Fort Tryon Park. Quiet gardens, tapestries and views over the Hudson.",
+    "bestTimeToVisit": "A weekday morning",
+    "timeNeededMinutes": 120,
+    "trendingScore": 68,
+    "website": "https://www.metmuseum.org/plan-your-visit/met-cloisters",
+    "lat": 40.86488,
+    "lng": -73.93179
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/tenement-museum-1.jpg",
+        "alt": "The landmark tenement at 97 Orchard Street, now part of the Tenement Museum",
+        "width": 1100,
+        "height": 1686,
+        "source": "other",
+        "attribution": {
+          "text": "Fletcher6, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:97_Orchard_Street_Front.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/tenement-museum-2.jpg",
+        "alt": "The Tenement Museum's visitor center and shop on Orchard Street",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Jay manday, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Tenement_Museum_New.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A guided tour of restored immigrant apartments", "A neighborhood walking tour"],
+    "vibeTags": ["rainy_day", "local_favorite", "tourist_classic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and visitor center hours (daily 10 AM to 6 PM) from tenement.org. Apartments are seen on timed guided tours; book on the museum's site. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-tenement-museum",
+    "slug": "tenement-museum",
+    "name": "Tenement Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "103 Orchard St, New York, NY 10002",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "Restored apartments in a real Lower East Side tenement tell the stories of the immigrant families who lived there. Visits are by guided tour, so book ahead.",
+    "bestTimeToVisit": "Book a morning tour",
+    "timeNeededMinutes": 90,
+    "trendingScore": 66,
+    "website": "https://www.tenement.org",
+    "lat": 40.71878,
+    "lng": -73.99003
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/top-of-the-rock-1.jpg",
+        "alt": "Visitors silhouetted against the sunset and the Empire State Building at Top of the Rock",
+        "width": 1100,
+        "height": 732,
+        "source": "other",
+        "attribution": {
+          "text": "Ralph Hockens, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_at_Night_Viewed_from_Rockefeller_Center.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/top-of-the-rock-2.jpg",
+        "alt": "The Empire State Building lit up at night, seen from Top of the Rock",
+        "width": 1100,
+        "height": 730,
+        "source": "other",
+        "attribution": {
+          "text": "InSapphoWeTrust from Los Angeles, California, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Top_of_the_Rock_(6335599162).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["The Empire State Building view south", "Central Park view north"],
+    "vibeTags": ["tourist_classic", "instagrammable", "date_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: hours (daily 8 AM to midnight, last entry 11:10 PM) and entrance from rockefellercenter.com. Timed tickets; sunset slots sell out first. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-top-of-the-rock",
+    "slug": "top-of-the-rock",
+    "name": "Top of the Rock",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "30 Rockefeller Plaza (entrance on W 50th St), New York, NY 10112",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "The observation decks atop 30 Rockefeller Plaza, with open-air terraces and the classic view of the Empire State Building, plus Central Park stretching north.",
+    "bestTimeToVisit": "An hour before sunset",
+    "timeNeededMinutes": 75,
+    "trendingScore": 82,
+    "website": "https://www.rockefellercenter.com/attractions/top-of-the-rock-observation-deck/",
+    "lat": 40.75906,
+    "lng": -73.97928
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/new-york-transit-museum-1.jpg",
+        "alt": "Vintage subway cars along the platform of the New York Transit Museum",
+        "width": 1100,
+        "height": 732,
+        "source": "other",
+        "attribution": {
+          "text": "Marcin Wichary, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_Transit_Museum_Court_Street_platform.jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      },
+      {
+        "url": "/photos/new-york-transit-museum-2.jpg",
+        "alt": "An old subway car at the museum's Court Street platform",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Mark Hogan from San Francisco, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:NY_Transit_Museum_(8079320733).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Vintage subway cars you can walk through", "Old turnstiles and signs"],
+    "vibeTags": ["kid_friendly", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address, hours (Wednesday to Sunday, 10 AM to 4 PM) and admission from nytransitmuseum.org/visit. Closed Juneteenth, Thanksgiving, Christmas and New Year's Day. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-ny-transit-museum",
+    "slug": "new-york-transit-museum",
+    "name": "New York Transit Museum",
+    "category": "attraction",
+    "borough": "brooklyn",
+    "neighborhood": "Downtown Brooklyn",
+    "address": "99 Schermerhorn St, Brooklyn, NY 11201",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 15,
+        "max": 15
+      },
+      "bookingUrl": "https://www.nytransitmuseum.org/visit/",
+      "notes": "Adults $15; children 2 to 17 and seniors $10."
+    },
+    "editorialTake": "A museum inside a decommissioned 1936 subway station, with a platform of vintage trains to board, from wicker seats to the cars of the 1970s.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 90,
+    "trendingScore": 64,
+    "website": "https://www.nytransitmuseum.org",
+    "lat": 40.69057,
+    "lng": -73.99007
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/el-museo-del-barrio-1.jpg",
+        "alt": "El Museo del Barrio's building on Fifth Avenue",
+        "width": 1100,
+        "height": 620,
+        "source": "other",
+        "attribution": {
+          "text": "Image credit to Cristian Redondo, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:El_Museo_del_Barrio%27s_exterior.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Latin American and Caribbean art", "La Tienda, the museum shop"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (Thursday to Sunday, 11 AM to 5 PM) from elmuseo.org/plan-your-visit. Closed New Year's Day, Juneteenth, July 4, Thanksgiving and Christmas. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-el-museo-del-barrio",
+    "slug": "el-museo-del-barrio",
+    "name": "El Museo del Barrio",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "East Harlem",
+    "address": "1230 5th Ave, New York, NY 10029",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "New York's museum of Puerto Rican, Caribbean and Latin American art, founded in East Harlem in 1969 and now on Museum Mile. Admission also covers the Museum of the City of New York next door.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 52,
+    "website": "https://www.elmuseo.org",
+    "lat": 40.79316,
+    "lng": -73.95156
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/cooper-hewitt-1.jpg",
+        "alt": "The Carnegie Mansion, home of Cooper Hewitt, on Fifth Avenue",
+        "width": 1024,
+        "height": 899,
+        "source": "other",
+        "attribution": {
+          "text": "Matt Flynn, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Cooper-Hewitt-MattFlynnAHHP.jpg",
+          "license": "Public domain"
+        }
+      },
+      {
+        "url": "/photos/cooper-hewitt-2.jpg",
+        "alt": "Cooper Hewitt's mansion and garden fence seen from the corner",
+        "width": 1100,
+        "height": 805,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cooper-Hewitt_5th_90_jeh.jpg",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      }
+    ],
+    "mustTry": ["The garden", "Pay-what-you-wish hour, 5 to 6 PM"],
+    "vibeTags": ["quiet", "rainy_day", "kid_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (museum, shop and garden daily 10 AM to 6 PM) from cooperhewitt.org/visit. Pay what you wish 5 to 6 PM daily. Closed Thanksgiving and Christmas. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-cooper-hewitt",
+    "slug": "cooper-hewitt",
+    "name": "Cooper Hewitt, Smithsonian Design Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "2 E 91st St, New York, NY 10128",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "The Smithsonian's design museum, in Andrew Carnegie's mansion on Museum Mile, with a garden and hands-on design exhibits. Pay what you wish from 5 to 6 PM daily.",
+    "bestTimeToVisit": "Late afternoon",
+    "timeNeededMinutes": 90,
+    "trendingScore": 54,
+    "website": "https://www.cooperhewitt.org",
+    "lat": 40.78427,
+    "lng": -73.95786
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/queens-museum-1.jpg",
+        "alt": "The Panorama of the City of New York at the Queens Museum",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "OptimumPx, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Panorama_of_New_York_City.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/queens-museum-2.jpg",
+        "alt": "Lower Manhattan in miniature on the Queens Museum's Panorama",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Jeremy Neiman, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Queens_Museum_Panorama_with_Never_Built_New_York.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The Panorama of the City of New York", "The Unisphere just outside"],
+    "vibeTags": ["kid_friendly", "rainy_day", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (Wednesday to Friday noon to 5 PM, weekends 11 AM to 5 PM) from queensmuseum.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-queens-museum",
+    "slug": "queens-museum",
+    "name": "Queens Museum",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Flushing Meadows",
+    "address": "New York City Building, Flushing Meadows Corona Park, Queens, NY 11368",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "Home of the Panorama, a room-sized scale model of all five boroughs built for the 1964 World's Fair, in a building that once hosted the United Nations.",
+    "bestTimeToVisit": "Weekend, with a walk to the Unisphere",
+    "timeNeededMinutes": 75,
+    "trendingScore": 56,
+    "website": "https://queensmuseum.org",
+    "lat": 40.74584,
+    "lng": -73.84679
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/brooklyn-childrens-museum-1.jpg",
+        "alt": "The yellow-tiled entrance of the Brooklyn Children's Museum",
+        "width": 1100,
+        "height": 1271,
+        "source": "other",
+        "attribution": {
+          "text": "Collin Knopp-Schwyn, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Children%27s_Museum%2BBrower_Park_at_BCM_front_entrance,_June_2021.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Three floors of hands-on exhibits"],
+    "vibeTags": ["kid_friendly", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address, hours (Wednesday to Sunday, 10 AM to 5 PM) and admission from brooklynkids.org/visit. Last entry 4:50 PM. Some holiday Mondays have special hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-brooklyn-childrens-museum",
+    "slug": "brooklyn-childrens-museum",
+    "name": "Brooklyn Children's Museum",
+    "category": "attraction",
+    "borough": "brooklyn",
+    "neighborhood": "Crown Heights",
+    "address": "145 Brooklyn Ave, Brooklyn, NY 11213",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 15,
+        "max": 15
+      },
+      "bookingUrl": "https://www.brooklynkids.org/visit/",
+      "notes": "General admission $15 per person."
+    },
+    "editorialTake": "Open since 1899, the world's first children's museum, with three floors of hands-on exhibits and programs for kids from six months to ten years old.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 120,
+    "trendingScore": 50,
+    "website": "https://www.brooklynkids.org",
+    "lat": 40.6744,
+    "lng": -73.94405
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/childrens-museum-of-manhattan-1.jpg",
+        "alt": "The Children's Museum of Manhattan on West 83rd Street",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Ajay Suresh, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Children%27s_Museum_of_Manhattan_(55466392496).jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": ["PlayWorks, for the youngest visitors", "Daily themed activities"],
+    "vibeTags": ["kid_friendly", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (Tuesday to Sunday, 10 AM to 5 PM) from cmom.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-childrens-museum-of-manhattan",
+    "slug": "childrens-museum-of-manhattan",
+    "name": "Children's Museum of Manhattan",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "212 W 83rd St, New York, NY 10024",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A museum of play and learning for young children on the Upper West Side, with all-day tickets so families can come and go.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 120,
+    "trendingScore": 48,
+    "website": "https://cmom.org",
+    "lat": 40.78588,
+    "lng": -73.97726
   }
 ]

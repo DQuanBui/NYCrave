@@ -97,6 +97,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.9566,
   },
   { slug: "harlem", name: "Harlem", borough: "manhattan", lat: 40.8116, lng: -73.9465 },
+  { slug: "east-harlem", name: "East Harlem", borough: "manhattan", lat: 40.7957, lng: -73.9389 },
   {
     slug: "washington-heights",
     name: "Washington Heights",
@@ -139,6 +140,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     borough: "brooklyn",
     lat: 40.6746,
     lng: -73.9656,
+  },
+  {
+    slug: "crown-heights",
+    name: "Crown Heights",
+    borough: "brooklyn",
+    lat: 40.6694,
+    lng: -73.9422,
   },
   { slug: "bushwick", name: "Bushwick", borough: "brooklyn", lat: 40.6944, lng: -73.9213 },
   { slug: "sunset-park", name: "Sunset Park", borough: "brooklyn", lat: 40.6455, lng: -74.0124 },

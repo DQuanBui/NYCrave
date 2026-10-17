@@ -74,7 +74,6 @@ export function StampButton({ place }: { place: StampPlace }) {
           ref={button}
           type="button"
           onClick={onStamp}
-          aria-label={t("stampLabel", { name: place.name })}
           className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-foreground px-4 text-sm font-bold transition-colors hover:bg-accent"
         >
           <StampIcon aria-hidden className="size-4" />

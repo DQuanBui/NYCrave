@@ -188,7 +188,8 @@ const ALIASES: Record<string, string> = {
 function placeKeys(p: Place): string[] {
   const full = normalizeQuery(p.name)
   const words = full.split(" ").filter((w) => !GENERIC.has(w))
-  return [...new Set([full, words.join(" ")])].filter((k) => k.length >= 4)
+  // "Queens Museum" minus "museum" is just a borough, so it can't name the place
+  return [...new Set([full, words.join(" ")])].filter((k) => k.length >= 4 && !COMMON.has(k))
 }
 
 /** Everyday words and area names that must not stand in for a whole place. */

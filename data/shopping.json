@@ -1864,5 +1864,447 @@
     "website": "https://www.newworldmallny.com",
     "lat": 40.75909,
     "lng": -73.8295
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/books-of-wonder-1.jpg",
+        "alt": "Illustrative photo: a Books of Wonder storefront window full of children's books",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Smallboulderthesizeofalargeboulder, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Books_of_wonder_NYC_facade.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        "illustrative": true
+      }
+    ],
+    "mustTry": ["Signed children's books", "The gallery of original illustration art"],
+    "vibeTags": ["kid_friendly", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (daily 11 AM to 7 PM) from booksofwonder.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-books-of-wonder",
+    "slug": "books-of-wonder",
+    "name": "Books of Wonder",
+    "category": "shopping",
+    "shopTypes": ["bookstore"],
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "42 W 17th St, New York, NY 10011",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "New York's best-known children's bookstore, open since 1980, with signed editions, author events and original illustration art on the walls.",
+    "bestTimeToVisit": "Weekend morning",
+    "timeNeededMinutes": 40,
+    "trendingScore": 52,
+    "website": "https://booksofwonder.com",
+    "lat": 40.73869,
+    "lng": -73.99438
+  },
+  {
+    "photos": [],
+    "mustTry": ["Floors of fabric by the yard", "Swatches to take home"],
+    "vibeTags": ["local_favorite", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and New York store hours (Monday to Friday 9 AM to 6 PM, Saturday 10 AM to 5 PM, closed Sunday) from moodfabrics.com/new-york-store. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-mood-fabrics",
+    "slug": "mood-fabrics",
+    "name": "Mood Fabrics",
+    "category": "shopping",
+    "shopTypes": ["flagship"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "225 W 37th St, 3rd Floor, New York, NY 10018",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "The Garment District fabric store made famous by Project Runway, packed with silks, wools and prints sold by the yard.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 45,
+    "trendingScore": 48,
+    "website": "https://www.moodfabrics.com",
+    "lat": 40.75364,
+    "lng": -73.99042
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/zabars-1.jpg",
+        "alt": "Zabar's orange signs along Broadway on the Upper West Side",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Fuzheado, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Zabars-2016-front-wide.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Smoked fish counter", "Coffee beans", "The housewares mezzanine"],
+    "vibeTags": ["local_favorite", "tourist_classic", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and store hours (Monday to Saturday 8 AM to 7:30 PM, Sunday 9 AM to 6 PM) from zabars.com/directions. Open 365 days a year, with shorter hours on some holidays. The café and mezzanine keep shorter hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-zabars",
+    "slug": "zabars",
+    "name": "Zabar's",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "2245 Broadway, New York, NY 10024",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "19:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "19:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "19:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "19:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "19:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "19:30"
+        }
+      ]
+    },
+    "editorialTake": "An Upper West Side food emporium since 1934: smoked fish, cheese, coffee and bread downstairs, cookware upstairs, and crowds of regulars at every counter.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 40,
+    "trendingScore": 62,
+    "website": "https://www.zabars.com",
+    "lat": 40.7849,
+    "lng": -73.97967
+  },
+  {
+    "photos": [],
+    "mustTry": ["Manga and anime art books", "Japanese stationery"],
+    "vibeTags": ["rainy_day", "solo_friendly", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (Monday to Saturday 10 AM to 8 PM, Sunday 11 AM to 7:30 PM) from usa.kinokuniya.com/pages/stores. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-kinokuniya-new-york",
+    "slug": "kinokuniya-new-york",
+    "name": "Kinokuniya New York",
+    "category": "shopping",
+    "shopTypes": ["bookstore"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "1073 Avenue of the Americas, New York, NY 10018",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "A big Japanese bookstore across from Bryant Park, with manga, art books, magazines and Japanese stationery.",
+    "bestTimeToVisit": "Weekday evening",
+    "timeNeededMinutes": 45,
+    "trendingScore": 58,
+    "website": "https://usa.kinokuniya.com",
+    "lat": 40.75406,
+    "lng": -73.98491
+  },
+  {
+    "photos": [],
+    "mustTry": [
+      "Nuts and dried fruit from the bulk bins",
+      "Olives, spices and prepared Middle Eastern foods"
+    ],
+    "vibeTags": ["local_favorite", "cheap_eats"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and hours (daily 10 AM to 7 PM) from sahadis.com/pages/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-sahadis",
+    "slug": "sahadis-atlantic-avenue",
+    "name": "Sahadi's",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "brooklyn",
+    "neighborhood": "Brooklyn Heights",
+    "address": "187 Atlantic Ave, Brooklyn, NY 11201",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "The original Atlantic Avenue store of a Middle Eastern grocery family business, with bulk bins of nuts, spices and dried fruit and a counter of prepared foods.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 30,
+    "trendingScore": 54,
+    "website": "https://sahadis.com",
+    "lat": 40.6902,
+    "lng": -73.99337
+  },
+  {
+    "photos": [],
+    "mustTry": ["Hands-on cameras and lenses", "The overhead conveyor that carries orders"],
+    "vibeTags": ["local_favorite", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-16T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-16: address and store hours (Monday to Thursday 10 AM to 7 PM, Friday 10 AM to 2 PM, Sunday 10 AM to 6 PM, closed Saturday) from bhphotovideo.com. Friday hours can change with the season and holidays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-bh-photo",
+    "slug": "bh-photo-video",
+    "name": "B&H Photo Video",
+    "category": "shopping",
+    "shopTypes": ["flagship"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "420 9th Ave, New York, NY 10001",
+    "priceLevel": 3,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "14:00"
+        }
+      ],
+      "sat": []
+    },
+    "editorialTake": "A vast camera and electronics superstore where purchases ride overhead conveyors to the checkout. Closed Friday afternoons and Saturdays for the Sabbath.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 45,
+    "trendingScore": 56,
+    "website": "https://www.bhphotovideo.com",
+    "lat": 40.75313,
+    "lng": -73.99614
   }
 ]
