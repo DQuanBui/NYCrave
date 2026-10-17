@@ -1435,7 +1435,8 @@
         "body": "Cổng vòm Washington Square trong nắng vàng, dây đèn trên phố Mulberry lúc chạng vạng, rồi khúc cua phố Doyers khi trời tối."
       }
     },
-    "cta": "Lên lịch dạo chụp ảnh đúng giờ vàng hôm nay"
+    "cta": "Lên lịch dạo chụp ảnh đúng giờ vàng hôm nay",
+    "tonight": "Từ {time} tối nay"
   },
   "guides": {
     "title": "Cẩm nang",
@@ -1506,6 +1507,10 @@
           "Ở nhà hàng có phục vụ bàn, tiền tip 18 đến 20% là thông lệ; ở quầy thì tùy bạn."
         ]
       }
+    },
+    "home": {
+      "title": "Chọn kiểu ngày của bạn",
+      "cta": "Tất cả cẩm nang"
     }
   }
 }

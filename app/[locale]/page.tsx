@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server"
 import { ComingUp } from "@/components/home/coming-up"
+import { GuidesTeaser } from "@/components/home/guides-teaser"
 import { Hero } from "@/components/home/hero"
 import { LineMap } from "@/components/home/line-map"
 import { MenuTeaser } from "@/components/home/menu-teaser"
@@ -12,6 +13,7 @@ import { getOpenStatus, isOpenLaterToday, nycClock, nycDateString } from "@/lib/
 import { toCard } from "@/lib/card-place"
 import { getPlaces } from "@/lib/places"
 import { upcomingSeasons } from "@/lib/seasons"
+import { sunDay } from "@/lib/sun"
 import { getRainForecast } from "@/lib/weather"
 import { SITE_URL } from "@/lib/site"
 import { CATEGORIES } from "@/types/enums"
@@ -106,6 +108,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           emptyText={t("openNowEmpty")}
         />
         <MyDayPromo />
+        <GuidesTeaser places={all} sun={sunDay(today)} />
         <PlaceRail
           title={t("freeToday")}
           places={freeCandidates.map(toCard)}

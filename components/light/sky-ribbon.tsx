@@ -140,7 +140,7 @@ export function SkyRibbon({
           <li key={phase} className="flex items-center gap-1.5">
             <span
               aria-hidden
-              className={cn("size-3 rounded-full ring-1 ring-black/10")}
+              className={cn("size-3 rounded-full ring-1 ring-foreground/25")}
               style={{ background: PHASE_COLOR[phase] }}
             />
             {t(`phase.${phase}`)}

@@ -1439,7 +1439,8 @@
         "body": "El arco de Washington Square con luz dorada, las guirnaldas de Mulberry Street al anochecer y la curva de Doyers Street ya de noche."
       }
     },
-    "cta": "Planea un paseo fotográfico para la hora dorada de hoy"
+    "cta": "Planea un paseo fotográfico para la hora dorada de hoy",
+    "tonight": "Desde las {time} esta tarde"
   },
   "guides": {
     "title": "Guías",
@@ -1510,6 +1511,10 @@
           "En restaurantes con servicio de mesa se espera una propina del 18 al 20 %; en el mostrador es opcional."
         ]
       }
+    },
+    "home": {
+      "title": "Elige tu tipo de día",
+      "cta": "Todas las guías"
     }
   }
 }

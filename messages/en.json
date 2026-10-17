@@ -1435,7 +1435,8 @@
         "body": "The Washington Square Arch in golden light, Mulberry Street's string lights at dusk, then the bend of Doyers Street after dark."
       }
     },
-    "cta": "Plan a photo walk timed to today's golden hour"
+    "cta": "Plan a photo walk timed to today's golden hour",
+    "tonight": "From {time} tonight"
   },
   "guides": {
     "title": "Guides",
@@ -1506,6 +1507,10 @@
           "At sit-down restaurants a tip of 18 to 20% is expected; at a counter it's optional."
         ]
       }
+    },
+    "home": {
+      "title": "Pick your kind of day",
+      "cta": "All guides"
     }
   }
 }
