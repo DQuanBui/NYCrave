@@ -26,6 +26,7 @@ NYCrave is a mobile-first guide to New York City for locals and visitors: where 
 | **Ready-made days** | A classic first day, a food crawl, Brooklyn by the water, art and museums, date night, and a $50 day |
 | **Ask NYCrave** | A free helper on every page, in every language, that answers "where can I get…", "is … open now?", "plan a day in …" and "how do I get from JFK…" from NYCrave's own places and tips |
 | **What's next?** | Places a short walk away that are open when you get there, picked for what you just did |
+| **Ride the subway** | Every train as a strip map, with the places a short walk from each stop |
 | **Guides** | Free NYC, rainy day, with kids, late night, date night and cheap eats, each with tips and a map |
 | **The New York menu** | The city's signature foods, from the slice to pastrami on rye, and where to try each one |
 | **Walks & hikes** | Forest trails, waterfront paths and bridges in all five boroughs, with distance, difficulty and the nearest subway |
