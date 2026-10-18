@@ -32,7 +32,8 @@
     "walks": "Paseos y senderos",
     "goldenHour": "Hora dorada",
     "guides": "Guías",
-    "subway": "En metro"
+    "subway": "En metro",
+    "crawls": "Rutas gastronómicas"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -1534,5 +1535,25 @@
     "note": "Las estaciones vienen de los datos abiertos de la MTA, con los trenes que paran allí entre semana. Las paradas se ordenan según su posición en el mapa, así que en las líneas con ramales un ramal va antes que el otro. Consulta la MTA por cambios de servicio.",
     "mapLabel": "Mapa de las estaciones del tren {route} y los lugares cercanos",
     "accessibleNote": "♿ marca las estaciones con ascensor o rampa."
+  },
+  "crawls": {
+    "title": "Rutas gastronómicas",
+    "tagline": "Un antojo, tres o cuatro lugares estupendos, a pocos minutos a pie. Comparte un plato en cada parada.",
+    "jump": "Ir a una ruta",
+    "around": "Por {area}",
+    "meta": "{stops} paradas, unos {minutes} min a pie",
+    "leg": "{minutes} min a pie",
+    "directions": "Recórrela en Google Maps",
+    "note": "Cada ruta une lugares de NYCrave separados por un paseo corto, así que cambia cuando se añaden lugares. Comprueba que cada parada esté abierta antes de salir.",
+    "kinds": {
+      "pizza": "Ruta de pizza",
+      "dumplings": "Ruta de dumplings",
+      "noodles": "Ruta de fideos",
+      "bagels": "Ruta de bagels",
+      "bakeries": "Ruta de panaderías",
+      "tacos": "Ruta de tacos",
+      "coffee": "Ruta de café",
+      "cocktails": "Ruta de cócteles"
+    }
   }
 }

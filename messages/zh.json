@@ -32,7 +32,8 @@
     "walks": "徒步与步道",
     "goldenHour": "黄金时刻",
     "guides": "主题指南",
-    "subway": "按地铁"
+    "subway": "按地铁",
+    "crawls": "美食步行路线"
   },
   "theme": {
     "toggle": "切换到{mode}模式",
@@ -1490,5 +1491,25 @@
     "note": "车站来自 MTA 开放数据，显示工作日停靠的列车。车站按地图位置排序，因此有支线的线路会先列完一条支线再列下一条。服务变更请以 MTA 为准。",
     "mapLabel": "{route} 线车站及附近地点地图",
     "accessibleNote": "♿ 表示有电梯或坡道的车站。"
+  },
+  "crawls": {
+    "title": "美食步行路线",
+    "tagline": "一种渴望，三四家好店，彼此步行几分钟。每站点一份分着吃。",
+    "jump": "跳转到路线",
+    "around": "{area}一带",
+    "meta": "{stops} 站，步行约 {minutes} 分钟",
+    "leg": "步行 {minutes} 分钟",
+    "directions": "在 Google 地图中步行",
+    "note": "每条路线连接 NYCrave 上步行可达的地点，新增地点后会随之变化。出发前请确认每一站都在营业。",
+    "kinds": {
+      "pizza": "披萨路线",
+      "dumplings": "饺子点心路线",
+      "noodles": "面条路线",
+      "bagels": "贝果路线",
+      "bakeries": "烘焙店路线",
+      "tacos": "塔可路线",
+      "coffee": "咖啡路线",
+      "cocktails": "鸡尾酒路线"
+    }
   }
 }

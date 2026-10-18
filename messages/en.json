@@ -32,7 +32,8 @@
     "walks": "Walks & hikes",
     "goldenHour": "Golden hour",
     "guides": "Guides",
-    "subway": "By subway"
+    "subway": "By subway",
+    "crawls": "Food crawls"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
@@ -1530,5 +1531,25 @@
     "note": "Stations come from MTA open data, with the trains that stop there on weekdays. Stops are put in order by their place on the map, so on lines with branches one branch comes before the next. Check the MTA for service changes.",
     "mapLabel": "Map of the {route} train's stations and nearby places",
     "accessibleNote": "♿ marks stations with elevators or ramps."
+  },
+  "crawls": {
+    "title": "Food crawls",
+    "tagline": "One craving, three or four great places, a short walk apart. Share a plate at each stop.",
+    "jump": "Jump to a crawl",
+    "around": "Around {area}",
+    "meta": "{stops} stops, about {minutes} min on foot",
+    "leg": "{minutes} min walk",
+    "directions": "Walk it in Google Maps",
+    "note": "Each crawl links places from NYCrave that a short walk joins, so they change as new places are added. Check that each stop is open before you set off.",
+    "kinds": {
+      "pizza": "Pizza crawl",
+      "dumplings": "Dumpling crawl",
+      "noodles": "Noodle crawl",
+      "bagels": "Bagel crawl",
+      "bakeries": "Bakery crawl",
+      "tacos": "Taco crawl",
+      "coffee": "Coffee crawl",
+      "cocktails": "Cocktail crawl"
+    }
   }
 }

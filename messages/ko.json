@@ -32,7 +32,8 @@
     "walks": "산책과 하이킹",
     "goldenHour": "골든아워",
     "guides": "테마 가이드",
-    "subway": "지하철로"
+    "subway": "지하철로",
+    "crawls": "먹거리 투어"
   },
   "theme": {
     "toggle": "{mode} 모드로 전환",
@@ -1506,5 +1507,25 @@
     "note": "역 정보는 MTA 공개 데이터이며 평일에 정차하는 열차를 표시합니다. 역은 지도상 위치로 순서를 정하므로, 지선이 있는 노선은 한 지선을 마친 뒤 다음 지선이 이어집니다. 운행 변경은 MTA에서 확인하세요.",
     "mapLabel": "{route} 노선 역과 주변 장소 지도",
     "accessibleNote": "♿ 표시는 엘리베이터나 경사로가 있는 역입니다."
+  },
+  "crawls": {
+    "title": "먹거리 투어",
+    "tagline": "한 가지 메뉴, 걸어서 몇 분 거리의 맛집 서너 곳. 가게마다 한 접시씩 나눠 드세요.",
+    "jump": "코스로 이동",
+    "around": "{area} 일대",
+    "meta": "{stops}곳, 도보 약 {minutes}분",
+    "leg": "도보 {minutes}분",
+    "directions": "Google 지도로 걷기",
+    "note": "각 코스는 NYCrave의 장소 중 가까운 곳을 이은 것이라 새 장소가 추가되면 바뀝니다. 출발 전에 각 가게가 영업 중인지 확인하세요.",
+    "kinds": {
+      "pizza": "피자 투어",
+      "dumplings": "만두 투어",
+      "noodles": "면 요리 투어",
+      "bagels": "베이글 투어",
+      "bakeries": "빵집 투어",
+      "tacos": "타코 투어",
+      "coffee": "커피 투어",
+      "cocktails": "칵테일 투어"
+    }
   }
 }

@@ -32,7 +32,8 @@
     "walks": "Đi bộ và leo núi",
     "goldenHour": "Giờ vàng",
     "guides": "Cẩm nang",
-    "subway": "Theo tàu điện ngầm"
+    "subway": "Theo tàu điện ngầm",
+    "crawls": "Ăn một vòng"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",
@@ -1530,5 +1531,25 @@
     "note": "Danh sách ga lấy từ dữ liệu mở của MTA, kèm các tàu dừng ở đó vào ngày thường. Các ga được xếp theo vị trí trên bản đồ, nên với tuyến có nhánh, hết nhánh này mới đến nhánh kia. Hãy kiểm tra MTA để biết thay đổi lịch chạy.",
     "mapLabel": "Bản đồ các ga tuyến {route} và địa điểm lân cận",
     "accessibleNote": "♿ đánh dấu ga có thang máy hoặc lối dốc."
+  },
+  "crawls": {
+    "title": "Ăn một vòng",
+    "tagline": "Một món thèm, ba bốn quán ngon, đi bộ vài phút là tới. Gọi một món chia nhau ở mỗi điểm.",
+    "jump": "Chuyển đến tuyến",
+    "around": "Quanh {area}",
+    "meta": "{stops} điểm, khoảng {minutes} phút đi bộ",
+    "leg": "Đi bộ {minutes} phút",
+    "directions": "Đi theo Google Maps",
+    "note": "Mỗi tuyến nối các địa điểm trên NYCrave cách nhau một quãng đi bộ ngắn, nên sẽ thay đổi khi có địa điểm mới. Hãy kiểm tra giờ mở cửa của từng điểm trước khi đi.",
+    "kinds": {
+      "pizza": "Vòng pizza",
+      "dumplings": "Vòng sủi cảo",
+      "noodles": "Vòng mì",
+      "bagels": "Vòng bagel",
+      "bakeries": "Vòng tiệm bánh",
+      "tacos": "Vòng taco",
+      "coffee": "Vòng cà phê",
+      "cocktails": "Vòng cocktail"
+    }
   }
 }
