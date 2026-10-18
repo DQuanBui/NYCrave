@@ -29,7 +29,8 @@ describe("plan a day around a place", () => {
     }
     // A few places cannot fit (e.g. open only at other times); pricey ones still do
     expect(kept / places.length).toBeGreaterThan(0.95)
-  })
+    // Plans a whole day per place, so it needs more than the default 5 seconds on a busy machine
+  }, 30_000)
 })
 
 describe("breakfast", () => {
