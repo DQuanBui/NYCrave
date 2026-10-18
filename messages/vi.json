@@ -1511,6 +1511,26 @@
           "Thuế bán hàng New York (8,875%) được cộng khi thanh toán, phần lớn thực đơn không ghi sẵn.",
           "Ở nhà hàng có phục vụ bàn, tiền tip 18 đến 20% là thông lệ; ở quầy thì tùy bạn."
         ]
+      },
+      "solo": {
+        "title": "Đi một mình",
+        "tagline": "Quầy bar, quán cà phê, bảo tàng và những cuộc dạo bộ dễ tận hưởng một mình.",
+        "intro": "New York là một trong những thành phố dễ khám phá một mình nhất. Những nơi này được gắn nhãn phù hợp khi đi một mình: ghế quầy, quán cà phê yên tĩnh, bảo tàng và những cuộc dạo bộ theo nhịp của bạn.",
+        "tips": [
+          "Ngồi ở quầy bar hoặc quầy bếp: thường là cách nhanh nhất để có chỗ mà không cần đặt bàn.",
+          "Bảo tàng, hiệu sách và quán cà phê là những nơi dễ dành thời gian một mình mà không phải theo nhịp ai.",
+          "Ban đêm, hãy đi trên những con phố đông người, nhiều ánh đèn và giữ điện thoại còn pin."
+        ]
+      },
+      "outdoors": {
+        "title": "Ngoài trời",
+        "tagline": "Công viên, bến tàu, vườn, chợ và cảnh đẹp dưới bầu trời.",
+        "intro": "Cho những ngày muốn có bầu trời trên đầu: công viên và bến tàu, vườn, chợ ngoài trời, chỗ ngồi ngoài trời và cảnh đẹp. Mọi địa điểm ở đây đều được gắn nhãn ngoài trời.",
+        "tips": [
+          "Phần lớn công viên thành phố theo giờ tiêu chuẩn của NYC Parks, từ 6 giờ sáng đến 1 giờ sáng, trừ khi có ghi khác.",
+          "Mùa hè thường nóng ẩm: hãy mang nước và tìm bóng râm vào buổi chiều.",
+          "Trang chủ hiển thị dự báo thời tiết và khả năng mưa hôm nay trước khi bạn ra ngoài."
+        ]
       }
     },
     "home": {

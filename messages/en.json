@@ -1511,6 +1511,26 @@
           "New York sales tax (8.875%) is added at the register, not shown on most menus.",
           "At sit-down restaurants a tip of 18 to 20% is expected; at a counter it's optional."
         ]
+      },
+      "solo": {
+        "title": "Solo",
+        "tagline": "Counters, cafés, museums and walks that are easy to enjoy on your own.",
+        "intro": "New York is one of the easiest cities to explore alone. These places are tagged as good on your own: counter seats, quiet cafés, museums and walks at your own pace.",
+        "tips": [
+          "Sit at the bar or counter: it is often the quickest way to get a seat without a reservation.",
+          "Museums, bookstores and cafés are easy places to spend time alone, with no one to keep up with.",
+          "At night, stick to busy, well-lit streets and keep your phone charged."
+        ]
+      },
+      "outdoors": {
+        "title": "Outdoors",
+        "tagline": "Parks, piers, gardens, markets and views in the open air.",
+        "intro": "For days when you want sky overhead: parks and piers, gardens, open-air markets, outdoor seating and views. Every place here is tagged as outdoors.",
+        "tips": [
+          "Most city parks follow NYC Parks' standard hours, 6 AM to 1 AM, unless posted otherwise.",
+          "Summer days are often hot and humid: bring water and look for shade in the afternoon.",
+          "The home page shows today's forecast and rain chance before you head out."
+        ]
       }
     },
     "home": {

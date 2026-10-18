@@ -8,7 +8,8 @@ import type { Category, Place } from "@/types/place"
  * price), so a guide grows on its own as places are added.
  */
 
-export type GuideKey = "free" | "rainyDay" | "withKids" | "lateNight" | "dateNight" | "cheapEats"
+export type GuideKey =
+  "free" | "rainyDay" | "withKids" | "lateNight" | "dateNight" | "cheapEats" | "solo" | "outdoors"
 
 export type Guide = {
   key: GuideKey
@@ -47,6 +48,8 @@ export const GUIDES: Guide[] = [
       p.vibeTags.includes("cheap_eats") ||
       ((p.category === "restaurant" || p.category === "drink") && p.priceLevel === 1),
   },
+  { key: "solo", slug: "solo", emoji: "🎧", line: "gray", matches: tagged("solo_friendly") },
+  { key: "outdoors", slug: "outdoors", emoji: "🌳", line: "lime", matches: tagged("outdoor") },
 ]
 
 export const guideBySlug = (slug: string) => GUIDES.find((g) => g.slug === slug)

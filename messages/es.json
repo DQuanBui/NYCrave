@@ -1515,6 +1515,26 @@
           "El impuesto de ventas de Nueva York (8,875 %) se suma al pagar y no suele aparecer en la carta.",
           "En restaurantes con servicio de mesa se espera una propina del 18 al 20 %; en el mostrador es opcional."
         ]
+      },
+      "solo": {
+        "title": "En solitario",
+        "tagline": "Barras, cafés, museos y paseos fáciles de disfrutar a solas.",
+        "intro": "Nueva York es de las ciudades más fáciles de explorar a solas. Estos lugares están marcados como buenos para ir solo: asientos en barra, cafés tranquilos, museos y paseos a tu ritmo.",
+        "tips": [
+          "Siéntate en la barra: suele ser la forma más rápida de conseguir sitio sin reserva.",
+          "Museos, librerías y cafés son lugares fáciles para pasar el rato solo, sin tener que seguir el ritmo de nadie.",
+          "De noche, ve por calles concurridas e iluminadas y lleva el móvil cargado."
+        ]
+      },
+      "outdoors": {
+        "title": "Al aire libre",
+        "tagline": "Parques, muelles, jardines, mercados y vistas al aire libre.",
+        "intro": "Para los días en que quieres cielo sobre la cabeza: parques y muelles, jardines, mercados al aire libre, terrazas y vistas. Todos estos lugares están marcados como al aire libre.",
+        "tips": [
+          "La mayoría de los parques siguen el horario estándar de NYC Parks, de 6 de la mañana a 1 de la madrugada, salvo que se indique otro.",
+          "Los días de verano suelen ser calurosos y húmedos: lleva agua y busca sombra por la tarde.",
+          "La página de inicio muestra la previsión y la probabilidad de lluvia de hoy antes de salir."
+        ]
       }
     },
     "home": {
