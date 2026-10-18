@@ -1527,6 +1527,8 @@
     "walk": "{minutes} min walk",
     "moreStops": "{count, plural, one {# more stop} other {# more stops}}",
     "sameLine": "Same line",
-    "note": "Stations come from MTA open data, with the trains that stop there on weekdays. Stops are put in order by their place on the map, so on lines with branches one branch comes before the next. Check the MTA for service changes."
+    "note": "Stations come from MTA open data, with the trains that stop there on weekdays. Stops are put in order by their place on the map, so on lines with branches one branch comes before the next. Check the MTA for service changes.",
+    "mapLabel": "Map of the {route} train's stations and nearby places",
+    "accessibleNote": "♿ marks stations with elevators or ramps."
   }
 }

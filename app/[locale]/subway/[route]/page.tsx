@@ -1,14 +1,16 @@
-import { Footprints } from "lucide-react"
+import { Accessibility, Footprints } from "lucide-react"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { SectionHeader } from "@/components/listing/section-header"
+import { LazyMap } from "@/components/map/lazy-map"
 import { PlacePhoto } from "@/components/place/place-photo"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { toCard } from "@/lib/card-place"
 import { LINES } from "@/lib/lines"
+import { placeToPoint } from "@/lib/map-points"
 import { getPlaces } from "@/lib/places"
 import { MAX_WALK, RIDE_ROUTES, rideLine, routeFromSlug, routeSlug } from "@/lib/ride"
 import { ROUTE_LINE } from "@/lib/subway"
@@ -77,6 +79,24 @@ export default async function RidePage({ params }: Props) {
         back={{ href: "/subway", label: r("title") }}
       />
       <div className="mx-auto max-w-5xl space-y-10 px-4 py-10 lg:px-8">
+        <LazyMap
+          ariaLabel={r("mapLabel", { route })}
+          className="h-72 sm:h-96"
+          points={[
+            ...ride.stops.map((stop) => ({
+              id: `station-${stop.station.name}-${stop.station.lat}`,
+              lat: stop.station.lat,
+              lng: stop.station.lng,
+              name: stop.station.name,
+              subtitle: stop.places.length
+                ? t("ride.count", { count: stop.places.length })
+                : undefined,
+              line: color,
+              label: route,
+            })),
+            ...ride.stops.flatMap((stop) => stop.places.map(({ place }) => placeToPoint(place))),
+          ]}
+        />
         <ol className="relative">
           <span
             aria-hidden
@@ -117,6 +137,13 @@ export default async function RidePage({ params }: Props) {
                     )}
                   >
                     {row.stop.station.name}
+                    {row.stop.station.ada ? (
+                      <Accessibility
+                        role="img"
+                        aria-label={t("subway.accessible")}
+                        className="ml-2 inline size-5 align-middle text-line-blue dark:text-sky-300"
+                      />
+                    ) : null}
                     {row.stop.places.length ? (
                       <span className="ml-2 align-middle font-sans text-sm font-semibold text-muted-foreground">
                         {t("ride.count", { count: row.stop.places.length })}
@@ -159,7 +186,9 @@ export default async function RidePage({ params }: Props) {
             ),
           )}
         </ol>
-        <p className="max-w-prose text-sm text-muted-foreground">{r("note")}</p>
+        <p className="max-w-prose text-sm text-muted-foreground">
+          {r("accessibleNote")} {r("note")}
+        </p>
         {others.length ? (
           <nav aria-label={r("sameLine")} className="flex flex-wrap items-center gap-3">
             <span className="text-sm font-bold">{r("sameLine")}</span>

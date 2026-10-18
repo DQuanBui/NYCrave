@@ -1531,6 +1531,8 @@
     "walk": "{minutes} min a pie",
     "moreStops": "{count, plural, one {# parada más} other {# paradas más}}",
     "sameLine": "Misma línea",
-    "note": "Las estaciones vienen de los datos abiertos de la MTA, con los trenes que paran allí entre semana. Las paradas se ordenan según su posición en el mapa, así que en las líneas con ramales un ramal va antes que el otro. Consulta la MTA por cambios de servicio."
+    "note": "Las estaciones vienen de los datos abiertos de la MTA, con los trenes que paran allí entre semana. Las paradas se ordenan según su posición en el mapa, así que en las líneas con ramales un ramal va antes que el otro. Consulta la MTA por cambios de servicio.",
+    "mapLabel": "Mapa de las estaciones del tren {route} y los lugares cercanos",
+    "accessibleNote": "♿ marca las estaciones con ascensor o rampa."
   }
 }
