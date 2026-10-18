@@ -80,7 +80,8 @@
     "openNow": "영업 중",
     "openToday": "오늘 영업",
     "free": "무료",
-    "suggestPlaces": "추천 장소"
+    "suggestPlaces": "추천 장소",
+    "corrected": "“{query}” 검색 결과를 표시합니다"
   },
   "moods": {
     "title": "기분 고르기",

@@ -11,7 +11,7 @@ import {
 import { parsePlanParams, planQuery } from "@/lib/planner/params"
 import { planDay } from "@/lib/planner/plan"
 import { INTERESTS, MOODS, type Interest, type Mood } from "@/lib/planner/types"
-import { searchPlaces } from "@/lib/search"
+import { searchWithCorrection } from "@/lib/search"
 import { nearestStations } from "@/lib/subway"
 import { WEEKDAYS } from "@/types/enums"
 import type { Place } from "@/types/place"
@@ -65,7 +65,7 @@ const summary = (p: Place, now: Date) => ({
 })
 
 export function searchTool(places: Place[], query: string, now: Date, limit = 6) {
-  const results = searchPlaces(places, query, nycClock(now)).slice(0, limit)
+  const results = searchWithCorrection(places, query, nycClock(now)).places.slice(0, limit)
   return {
     query,
     results: results.map((p) => summary(p, now)),

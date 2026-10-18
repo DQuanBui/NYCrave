@@ -80,7 +80,8 @@
     "openNow": "abierto ahora",
     "openToday": "abierto hoy",
     "free": "gratis",
-    "suggestPlaces": "Lugares sugeridos"
+    "suggestPlaces": "Lugares sugeridos",
+    "corrected": "Mostrando resultados de «{query}»"
   },
   "moods": {
     "title": "Elige un plan",

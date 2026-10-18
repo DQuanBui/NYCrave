@@ -80,7 +80,8 @@
     "openNow": "正在营业",
     "openToday": "今天营业",
     "free": "免费",
-    "suggestPlaces": "推荐地点"
+    "suggestPlaces": "推荐地点",
+    "corrected": "显示“{query}”的结果"
   },
   "moods": {
     "title": "选个心情",

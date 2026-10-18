@@ -80,7 +80,8 @@
     "openNow": "open now",
     "openToday": "open today",
     "free": "free",
-    "suggestPlaces": "Suggested places"
+    "suggestPlaces": "Suggested places",
+    "corrected": "Showing results for “{query}”"
   },
   "moods": {
     "title": "Pick a mood",

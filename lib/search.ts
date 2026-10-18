@@ -401,3 +401,83 @@ export function searchPlaces(places: Place[], query: string, clock?: NycClock): 
     )
     .map((r) => r.place)
 }
+
+// ---------- Typos ----------
+
+/** Edit distance where swapping two neighboring letters counts as one edit. */
+export function editDistance(a: string, b: string): number {
+  const d: number[][] = Array.from({ length: a.length + 1 }, (_, i) =>
+    Array.from({ length: b.length + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0)),
+  )
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost)
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1])
+        d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1)
+    }
+  }
+  return d[a.length][b.length]
+}
+
+const vocabCache = new WeakMap<Place[], Set<string>>()
+
+/** Words search understands: single-word phrases plus words from place and area names. */
+function vocabulary(places: Place[]): Set<string> {
+  let vocab = vocabCache.get(places)
+  if (vocab) return vocab
+  vocab = new Set(PHRASE_LIST.filter((p) => !p.includes(" ")))
+  for (const p of places)
+    for (const w of normalizeQuery(`${p.name} ${p.neighborhood}`).split(" "))
+      if (w.length >= 4) vocab.add(w)
+  vocabCache.set(places, vocab)
+  return vocab
+}
+
+// Chinese, Japanese and Korean queries go through their own synonyms, not spelling fixes
+const CJK = /[぀-ヿ㐀-鿿가-힯]/
+
+/**
+ * The query with likely typos fixed ("dumplins in chinatwon" becomes "dumplings
+ * in chinatown"), or null when every word is already known. Only words of five
+ * letters or more are corrected, by one edit (two for long words).
+ */
+export function correctQuery(query: string, places: Place[]): string | null {
+  if (CJK.test(query)) return null
+  const vocab = vocabulary(places)
+  let changed = false
+  const words = normalizeQuery(query)
+    .split(" ")
+    .map((w) => {
+      if (w.length < 5 || STOPWORDS.has(w) || vocab.has(w)) return w
+      const limit = w.length >= 8 ? 2 : 1
+      let best: string | null = null
+      let bestDistance = limit + 1
+      for (const v of vocab) {
+        if (Math.abs(v.length - w.length) > limit) continue
+        const d = editDistance(w, v)
+        if (d < bestDistance) {
+          best = v
+          bestDistance = d
+        }
+      }
+      if (!best) return w
+      changed = true
+      return best
+    })
+  return changed ? words.join(" ") : null
+}
+
+/** Search, retrying with typos fixed when nothing matches. */
+export function searchWithCorrection(
+  places: Place[],
+  query: string,
+  clock?: NycClock,
+): { places: Place[]; correctedQuery?: string } {
+  const results = searchPlaces(places, query, clock)
+  if (results.length) return { places: results }
+  const fixed = correctQuery(query, places)
+  if (!fixed) return { places: results }
+  const retry = searchPlaces(places, fixed, clock)
+  return retry.length ? { places: retry, correctedQuery: fixed } : { places: results }
+}

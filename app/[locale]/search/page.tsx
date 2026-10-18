@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation"
 import { SEARCH_SUGGESTIONS } from "@/lib/home"
 import { nycClock } from "@/lib/hours"
 import { getPlaces } from "@/lib/places"
-import { parseQuery, searchPlaces, type SearchIntent } from "@/lib/search"
+import { parseQuery, searchWithCorrection, type SearchIntent } from "@/lib/search"
 
 type Props = PageProps<"/[locale]/search">
 
@@ -52,14 +52,16 @@ export default async function SearchPage({ params, searchParams }: Props) {
   const tf = await getTranslations("filters")
   const query = await readQuery(searchParams)
   const all = await getPlaces()
-  const results = query ? searchPlaces(all, query, nycClock(new Date())) : []
+  const found = query ? searchWithCorrection(all, query, nycClock(new Date())) : null
+  const results = found?.places ?? []
+  const corrected = found?.correctedQuery
   const hints = all.map((p) => ({
     slug: p.slug,
     name: p.name,
     neighborhood: p.neighborhood,
     category: p.category,
   }))
-  const labels = query ? await intentLabels(parseQuery(query)) : []
+  const labels = query ? await intentLabels(parseQuery(corrected ?? query)) : []
 
   return (
     <div className="mx-auto max-w-7xl space-y-8 px-4 py-8 lg:px-8 lg:py-12">
@@ -90,6 +92,11 @@ export default async function SearchPage({ params, searchParams }: Props) {
 
       {query ? (
         <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
+          {corrected ? (
+            <span className="mr-2 inline-block rounded-full bg-taxi px-2.5 py-0.5 text-taxi-foreground">
+              {t("corrected", { query: corrected })}
+            </span>
+          ) : null}
           {t("count", { count: results.length })}
         </p>
       ) : null}

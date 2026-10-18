@@ -80,7 +80,8 @@
     "openNow": "đang mở cửa",
     "openToday": "mở cửa hôm nay",
     "free": "miễn phí",
-    "suggestPlaces": "Địa điểm gợi ý"
+    "suggestPlaces": "Địa điểm gợi ý",
+    "corrected": "Đang hiện kết quả cho “{query}”"
   },
   "moods": {
     "title": "Chọn tâm trạng",
