@@ -1999,5 +1999,110 @@
     "website": "https://www.nycgovparks.org/parks/coney-island-beach-and-boardwalk",
     "lat": 40.5724,
     "lng": -73.9803
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/madison-square-park-1.jpg",
+        "alt": "Madison Square Park's green square among the towers, seen from above",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Alistair McMillan from Glasgow, Scotland, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Madison_Square_and_the_Flatiron_building.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      },
+      {
+        "url": "/photos/madison-square-park-2.jpg",
+        "alt": "The Met Life Tower and Madison Square Park's trees from Madison Avenue",
+        "width": 1100,
+        "height": 1521,
+        "source": "other",
+        "attribution": {
+          "text": "DavFace, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:View_of_Madison_Square_Park_and_Flatiron_skyscrapers_from_the_west.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "local_favorite", "kid_friendly", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: hours (6 AM to 11 PM from November 1 to May 31, 6 AM to midnight from June 1 to October 31) and lawn hours from madisonsquarepark.org/visit. Closing shown as 11 PM year-round to be safe. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-madison-square-park",
+    "slug": "madison-square-park",
+    "name": "Madison Square Park",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "Madison Ave to Fifth Ave, E 23rd to E 26th St, New York, NY 10010",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "Public art installations",
+        "Views of the Flatiron and Empire State buildings",
+        "A burger at the original Shake Shack"
+      ],
+      "amenities": ["Benches", "Lawns", "Playground", "Dog run"],
+      "seasonalNotes": "Open until midnight from June 1 to October 31. The lawns open 10 AM to 5 PM, weather permitting."
+    },
+    "editorialTake": "A leafy square between the Flatiron Building and the Empire State Building, with rotating public art and the kiosk where Shake Shack began.",
+    "bestTimeToVisit": "Lunchtime on a sunny day",
+    "timeNeededMinutes": 40,
+    "trendingScore": 68,
+    "website": "https://madisonsquarepark.org",
+    "lat": 40.74205,
+    "lng": -73.98794
   }
 ]

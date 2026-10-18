@@ -2306,5 +2306,333 @@
     "website": "https://www.nycgovparks.org/parks/astoria-park",
     "lat": 40.778,
     "lng": -73.923
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/gay-street-greenwich-village-1.jpg",
+        "alt": "Gay Street's bend lined with brick row houses and trees",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Jean-Christophe BENOIST, CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC_-_Greenwich_Village_-_Gay_Street.JPG",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: public street, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-gay-street",
+    "slug": "gay-street-greenwich-village",
+    "name": "Gay Street",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "Gay St, New York, NY 10014",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["morning", "golden_hour"],
+      "tips": [
+        "Shoot from the Christopher Street end to catch the bend.",
+        "It is a residential street: keep doorways and stoops clear."
+      ]
+    },
+    "editorialTake": "A one-block Greenwich Village street that bends between Christopher Street and Waverly Place, lined with small brick row houses and colorful doors.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 10,
+    "trendingScore": 58,
+    "lat": 40.73359,
+    "lng": -74.00045
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: public alley, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-freeman-alley",
+    "slug": "freeman-alley",
+    "name": "Freeman Alley",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "Freeman Alley (off Rivington St), New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["midday", "morning"],
+      "tips": [
+        "The alley is narrow and shaded, so come when the sun is high.",
+        "The art changes often: every visit looks different."
+      ]
+    },
+    "editorialTake": "A narrow dead-end alley off Rivington Street, covered top to bottom in layers of street art and stickers, with Freemans restaurant at the end.",
+    "bestTimeToVisit": "Late morning",
+    "timeNeededMinutes": 15,
+    "trendingScore": 60,
+    "lat": 40.72167,
+    "lng": -73.99259
+  },
+  {
+    "photos": [],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: public street, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-joralemon-street",
+    "slug": "joralemon-street-cobblestones",
+    "name": "Joralemon Street cobblestones",
+    "category": "photo_spot",
+    "borough": "brooklyn",
+    "neighborhood": "Brooklyn Heights",
+    "address": "Joralemon St between Hicks St and Furman St, Brooklyn, NY 11201",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["golden_hour", "morning"],
+      "tips": [
+        "Stand at the top near Hicks Street and look downhill toward the harbor.",
+        "The stones are uneven and slick when wet: wear good shoes."
+      ]
+    },
+    "editorialTake": "A steep block of Belgian-block paving running down from Brooklyn Heights to the waterfront, lined with 19th-century row houses.",
+    "bestTimeToVisit": "Late afternoon",
+    "timeNeededMinutes": 15,
+    "trendingScore": 52,
+    "lat": 40.69275,
+    "lng": -73.9982
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/fearless-girl-1.jpg",
+        "alt": "The Fearless Girl statue on its plinth",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "This image is a work by Wikipedia and Wikimedia Commons user C.Suthorn. When reu, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Fearless_Girl_at_Paternoster_Square_01.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["instagrammable", "tourist_classic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: public sidewalk, open at all times. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "p-fearless-girl",
+    "slug": "fearless-girl",
+    "name": "Fearless Girl",
+    "category": "photo_spot",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "Broad St at Wall St, New York, NY 10005",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "photoSpot": {
+      "bestLight": ["sunrise", "morning"],
+      "tips": [
+        "Come early: by mid-morning there is a line for photos.",
+        "Step back to fit the New York Stock Exchange's columns in the frame."
+      ]
+    },
+    "editorialTake": "Kristen Visbal's bronze statue of a girl, hands on hips, standing on Broad Street facing the New York Stock Exchange.",
+    "bestTimeToVisit": "Early morning",
+    "timeNeededMinutes": 10,
+    "trendingScore": 70,
+    "lat": 40.70661,
+    "lng": -74.01126
   }
 ]
