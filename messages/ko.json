@@ -33,7 +33,8 @@
     "goldenHour": "골든아워",
     "guides": "테마 가이드",
     "subway": "지하철로",
-    "crawls": "먹거리 투어"
+    "crawls": "먹거리 투어",
+    "searchShortcut": "검색 (/ 키)"
   },
   "theme": {
     "toggle": "{mode} 모드로 전환",

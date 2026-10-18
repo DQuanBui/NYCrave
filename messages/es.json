@@ -33,7 +33,8 @@
     "goldenHour": "Hora dorada",
     "guides": "Guías",
     "subway": "En metro",
-    "crawls": "Rutas gastronómicas"
+    "crawls": "Rutas gastronómicas",
+    "searchShortcut": "Buscar (pulsa /)"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",

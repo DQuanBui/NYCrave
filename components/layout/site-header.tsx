@@ -15,6 +15,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { useSaved } from "@/hooks/use-saved"
+import { useSearchShortcut } from "@/hooks/use-search-shortcut"
 import { Link, usePathname } from "@/i18n/navigation"
 import { LINES } from "@/lib/lines"
 import { MENU, NAV, TOP_NAV, isActive } from "@/lib/nav"
@@ -24,6 +25,7 @@ export function SiteHeader() {
   const t = useTranslations("nav")
   const pathname = usePathname()
   const { slugs } = useSaved()
+  useSearchShortcut()
 
   return (
     <header className="sticky top-0 z-40 border-b bg-background/90 backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
@@ -71,7 +73,12 @@ export function SiteHeader() {
 
         <div className="ml-auto flex items-center gap-1">
           <Button asChild variant="ghost" size="icon" className="rounded-full">
-            <Link href="/search" aria-label={t("search")}>
+            <Link
+              href="/search"
+              aria-label={t("search")}
+              aria-keyshortcuts="/"
+              title={t("searchShortcut")}
+            >
               <Search aria-hidden />
             </Link>
           </Button>

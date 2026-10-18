@@ -33,7 +33,8 @@
     "goldenHour": "Giờ vàng",
     "guides": "Cẩm nang",
     "subway": "Theo tàu điện ngầm",
-    "crawls": "Ăn một vòng"
+    "crawls": "Ăn một vòng",
+    "searchShortcut": "Tìm kiếm (nhấn /)"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",

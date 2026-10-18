@@ -33,7 +33,8 @@
     "goldenHour": "黄金时刻",
     "guides": "主题指南",
     "subway": "按地铁",
-    "crawls": "美食步行路线"
+    "crawls": "美食步行路线",
+    "searchShortcut": "搜索（按 /）"
   },
   "theme": {
     "toggle": "切换到{mode}模式",

@@ -33,7 +33,8 @@
     "goldenHour": "Golden hour",
     "guides": "Guides",
     "subway": "By subway",
-    "crawls": "Food crawls"
+    "crawls": "Food crawls",
+    "searchShortcut": "Search (press /)"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",
