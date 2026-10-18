@@ -9020,5 +9020,445 @@
     "website": "https://www.jingfongny.com",
     "lat": 40.71889,
     "lng": -73.99906
+  },
+  {
+    "photos": [],
+    "mustTry": ["A wood-fired sesame bagel", "Smoked salmon sandwich"],
+    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: address and hours (seven days a week, 7 AM to 4 PM) for the Nolita shop from blackseedbagels.com/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-black-seed-nolita",
+    "slug": "black-seed-bagels-nolita",
+    "name": "Black Seed Bagels",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["bagels", "sandwiches"],
+    "borough": "manhattan",
+    "neighborhood": "Nolita",
+    "address": "170 Elizabeth St, New York, NY 10012",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "16:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "16:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "Hand-rolled bagels baked in a wood-fired oven, a cross between Montreal and New York styles. The Nolita shop bakes on site.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 25,
+    "trendingScore": 60,
+    "website": "https://www.blackseedbagels.com",
+    "lat": 40.7209,
+    "lng": -73.99469
+  },
+  {
+    "photos": [],
+    "mustTry": ["Hand-rolled bagel with lox and cream cheese", "Whitefish salad"],
+    "vibeTags": ["cheap_eats", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: address and hours (Monday to Friday 6:30 AM to 5:30 PM, weekends 6:30 AM to 4 PM) for the Tribeca shop from zuckersbagels.com/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-zuckers-tribeca",
+    "slug": "zuckers-bagels-tribeca",
+    "name": "Zucker's Bagels & Smoked Fish",
+    "category": "restaurant",
+    "cuisines": ["jewish_deli"],
+    "dishTypes": ["bagels", "sandwiches", "seafood"],
+    "borough": "manhattan",
+    "neighborhood": "Tribeca",
+    "address": "143 Chambers St, New York, NY 10007",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:30",
+          "close": "16:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:30",
+          "close": "17:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:30",
+          "close": "17:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:30",
+          "close": "17:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:30",
+          "close": "17:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:30",
+          "close": "17:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:30",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "A Tribeca bagel and appetizing shop with hand-rolled, kettle-boiled bagels and a counter of smoked fish, open early for the commute.",
+    "bestTimeToVisit": "Early morning",
+    "timeNeededMinutes": 25,
+    "trendingScore": 54,
+    "website": "https://www.zuckersbagels.com",
+    "lat": 40.71579,
+    "lng": -74.00956
+  },
+  {
+    "photos": [],
+    "mustTry": ["Baja fish taco", "Esquites"],
+    "vibeTags": ["group_friendly", "instagrammable", "date_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: address and hours (daily 11 AM to 11 PM) for the Nolita location from tacombi.com/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-tacombi-nolita",
+    "slug": "tacombi-nolita",
+    "name": "Tacombi",
+    "category": "restaurant",
+    "cuisines": ["mexican"],
+    "dishTypes": ["tacos"],
+    "borough": "manhattan",
+    "neighborhood": "Nolita",
+    "address": "267 Elizabeth St, New York, NY 10012",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "Tacos served from a vintage Volkswagen bus parked inside a former Nolita garage, with a festive, beach-shack feel.",
+    "bestTimeToVisit": "Early dinner",
+    "timeNeededMinutes": 60,
+    "trendingScore": 58,
+    "website": "https://www.tacombi.com",
+    "lat": 40.72398,
+    "lng": -73.99376
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/venieros-pasticceria-1.jpg",
+        "alt": "Coffee and a sfogliatella at a table in Veniero's café",
+        "width": 1024,
+        "height": 683,
+        "source": "other",
+        "attribution": {
+          "text": "Paul Stein, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Coffee_and_Sfogliatella_at_Veniero%27st,_East_Village,_New_York.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": ["Cannoli", "Italian cheesecake", "Rainbow cookies"],
+    "vibeTags": ["tourist_classic", "local_favorite", "late_night", "date_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: address and hours (Sunday to Thursday 8 AM to 10 PM, Friday and Saturday 8 AM to 11 PM) from venierospastry.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-venieros",
+    "slug": "venieros-pasticceria",
+    "name": "Veniero's Pasticceria & Caffè",
+    "category": "restaurant",
+    "cuisines": ["italian"],
+    "dishTypes": ["bakery", "desserts"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "342 E 11th St, New York, NY 10003",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "An East Village Italian pastry shop and café since 1894, with long glass cases of cookies, cannoli and cakes and an old-world dining room.",
+    "bestTimeToVisit": "After dinner",
+    "timeNeededMinutes": 40,
+    "trendingScore": 58,
+    "website": "https://www.venierospastry.com",
+    "lat": 40.72938,
+    "lng": -73.98455
+  },
+  {
+    "photos": [],
+    "mustTry": ["A plain cheesecake", "A seasonal flavor"],
+    "vibeTags": ["cheap_eats", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: address and hours from the structured data on eileenscheesecake.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-eileens-cheesecake",
+    "slug": "eileens-special-cheesecake",
+    "name": "Eileen's Special Cheesecake",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["desserts", "bakery"],
+    "borough": "manhattan",
+    "neighborhood": "Nolita",
+    "address": "17 Cleveland Pl, New York, NY 10012",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "A tiny Nolita shop baking a light, creamy New York cheesecake in individual sizes and dozens of flavors.",
+    "bestTimeToVisit": "Afternoon",
+    "timeNeededMinutes": 15,
+    "trendingScore": 54,
+    "website": "https://www.eileenscheesecake.com",
+    "lat": 40.72154,
+    "lng": -73.99712
+  },
+  {
+    "photos": [],
+    "mustTry": ["A seasonal vegan doughnut", "Coffee from the barista bar"],
+    "vibeTags": ["cheap_eats", "local_favorite"],
+    "dietary": ["vegan", "vegetarian"],
+    "verified": false,
+    "updatedAt": "2026-10-18T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-18: address and hours (daily 8 AM to 6 PM) for the East Williamsburg shop from dunwelldoughnuts.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-dun-well-doughnuts",
+    "slug": "dun-well-doughnuts",
+    "name": "Dun-Well Doughnuts",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["bakery", "desserts"],
+    "borough": "brooklyn",
+    "neighborhood": "Williamsburg",
+    "address": "222 Montrose Ave, Brooklyn, NY 11206",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "An all-vegan doughnut shop in East Williamsburg, frying small batches daily in rotating flavors.",
+    "bestTimeToVisit": "Morning",
+    "timeNeededMinutes": 20,
+    "trendingScore": 50,
+    "website": "https://www.dunwelldoughnuts.com",
+    "lat": 40.7074,
+    "lng": -73.94025
   }
 ]
