@@ -4,17 +4,8 @@ import { Sunrise, Sunset } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
 import { useNow } from "@/hooks/use-now"
 import { formatClockTime, nycClock } from "@/lib/hours"
-import type { LightBand, LightPhase } from "@/lib/photo-walks"
+import { PHASE_COLOR, type LightBand } from "@/lib/photo-walks"
 import { cn } from "@/lib/utils"
-
-export const PHASE_COLOR: Record<LightPhase, string> = {
-  night: "#0d1b3d",
-  blue: "#2456b8",
-  dawn: "#f27d72",
-  golden: "#f7b538",
-  day: "#8fd0f5",
-  dusk: "#e8607a",
-}
 
 const pct = (minute: number) => `${(minute / 1440) * 100}%`
 

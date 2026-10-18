@@ -15,6 +15,16 @@ export type LightPhase = "night" | "blue" | "dawn" | "golden" | "day" | "dusk"
 
 export type LightBand = { phase: LightPhase; start: number; end: number }
 
+/** A color for each kind of light, shared by the sky ribbon and the walk stops. */
+export const PHASE_COLOR: Record<LightPhase, string> = {
+  night: "#0d1b3d",
+  blue: "#2456b8",
+  dawn: "#f27d72",
+  golden: "#f7b538",
+  day: "#8fd0f5",
+  dusk: "#e8607a",
+}
+
 /** The light at a minute of the day. Dawn and dusk: the sun just below the horizon. */
 export function phaseAt(minute: number, sun: SunDay): LightPhase {
   if (minute < sun.blueMorning.start) return "night"
@@ -50,7 +60,12 @@ export function lightBands(sun: SunDay): LightBand[] {
 }
 
 export type PhotoWalkKey =
-  "dumboSunrise" | "centralParkMorning" | "brooklynSunset" | "midtownBlueHour" | "villageNight"
+  | "dumboSunrise"
+  | "centralParkMorning"
+  | "brooklynSunset"
+  | "midtownBlueHour"
+  | "villageNight"
+  | "fidiSunrise"
 
 export type PhotoWalk = {
   key: PhotoWalkKey
@@ -103,6 +118,14 @@ export const PHOTO_WALKS: PhotoWalk[] = [
     stops: ["washington-square-arch", "mulberry-street-little-italy", "doyers-street"],
     anchor: "sunset",
     offset: -30,
+  },
+  {
+    key: "fidiSunrise",
+    emoji: "🗽",
+    line: "green",
+    stops: ["fearless-girl", "charging-bull", "stone-street"],
+    anchor: "sunrise",
+    offset: -10,
   },
 ]
 
