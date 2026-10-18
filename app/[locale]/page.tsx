@@ -5,6 +5,7 @@ import { Hero } from "@/components/home/hero"
 import { LineMap } from "@/components/home/line-map"
 import { MenuTeaser } from "@/components/home/menu-teaser"
 import { MyDayPromo } from "@/components/home/my-day-promo"
+import { RecentlyViewed } from "@/components/home/recently-viewed"
 import { PlaceRail } from "@/components/place/place-rail"
 import { initLocale } from "@/i18n/locale"
 import { holidayOn } from "@/lib/holidays"
@@ -96,6 +97,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <Hero hints={hints} forecast={forecast} holiday={holidayOn(today)} />
       <LineMap counts={counts} />
       <div className="mx-auto max-w-7xl space-y-16 px-4 pt-14 lg:space-y-20 lg:px-8 lg:pt-20">
+        <RecentlyViewed />
         <PlaceRail title={t("trending")} places={trending.map(toCard)} limit={8} />
         <ComingUp seasons={upcomingSeasons(today).slice(0, 3)} />
         <MenuTeaser places={all} />

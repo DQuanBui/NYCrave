@@ -123,7 +123,9 @@
     "comingUp": {
       "title": "Próximamente en Nueva York",
       "seeAll": "Ver el año en Nueva York"
-    }
+    },
+    "recent": "Vistos recientemente",
+    "recentClear": "Borrar historial"
   },
   "categories": {
     "restaurant": {

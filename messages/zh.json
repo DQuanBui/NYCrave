@@ -123,7 +123,9 @@
     "comingUp": {
       "title": "纽约近期活动",
       "seeAll": "查看纽约全年活动"
-    }
+    },
+    "recent": "最近浏览",
+    "recentClear": "清除记录"
   },
   "categories": {
     "restaurant": {

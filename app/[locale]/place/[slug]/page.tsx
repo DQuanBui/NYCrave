@@ -14,6 +14,7 @@ import { PlanAroundButton } from "@/components/place/plan-around-button"
 import { PriceLevel } from "@/components/place/price-level"
 import { ReportProblem } from "@/components/place/report-problem"
 import { NextNearby } from "@/components/next/next-nearby"
+import { RecordVisit } from "@/components/place/record-visit"
 import { StampButton } from "@/components/passport/stamp-button"
 import { SaveButton } from "@/components/place/save-button"
 import { SubwayList } from "@/components/place/subway-list"
@@ -312,6 +313,7 @@ export default async function PlacePage({ params }: Props) {
         </aside>
       </div>
 
+      <RecordVisit slug={place.slug} />
       <div className="mx-auto max-w-7xl px-4 pb-14 lg:px-8">
         <NextNearby
           here={{

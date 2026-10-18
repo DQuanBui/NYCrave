@@ -123,7 +123,9 @@
     "comingUp": {
       "title": "Coming up in New York",
       "seeAll": "See the year in New York"
-    }
+    },
+    "recent": "Recently viewed",
+    "recentClear": "Clear history"
   },
   "categories": {
     "restaurant": {

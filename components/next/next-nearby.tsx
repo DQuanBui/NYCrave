@@ -5,6 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react"
 import { NextLanes } from "@/components/next/next-lanes"
 import { useNow } from "@/hooks/use-now"
 import { Link } from "@/i18n/navigation"
+import { loadCards } from "@/lib/cards-client"
 import { formatClockTime, nycClock } from "@/lib/hours"
 import { cn } from "@/lib/utils"
 import { afterFor, whatsNext, type NextPlace } from "@/lib/whats-next"
@@ -14,16 +15,6 @@ type Here = Pick<
   Place,
   "slug" | "name" | "lat" | "lng" | "category" | "drinkTypes" | "timeNeededMinutes"
 > & { neighborhoodSlug?: string }
-
-/** Shared by every place page: the card list is fetched once per visit. */
-let cache: Promise<NextPlace[]> | null = null
-const loadPlaces = () =>
-  (cache ??= fetch("/api/places/cards")
-    .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-    .catch((e) => {
-      cache = null
-      throw e
-    }))
 
 /** Fired by the passport stamp: you have been here, so show what is next from now. */
 export const WHATS_NEXT_NOW_EVENT = "nycrave:whats-next-now"
@@ -46,7 +37,7 @@ export function NextNearby({ here }: { here: Here }) {
       ([entry]) => {
         if (!entry.isIntersecting) return
         io.disconnect()
-        loadPlaces().then(setPlaces, () => setFailed(true))
+        loadCards().then(setPlaces, () => setFailed(true))
       },
       { rootMargin: "400px" },
     )

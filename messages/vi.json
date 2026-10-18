@@ -123,7 +123,9 @@
     "comingUp": {
       "title": "Sắp diễn ra ở New York",
       "seeAll": "Xem cả năm ở New York"
-    }
+    },
+    "recent": "Đã xem gần đây",
+    "recentClear": "Xóa lịch sử"
   },
   "categories": {
     "restaurant": {
