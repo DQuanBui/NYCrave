@@ -153,6 +153,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "sunset-park", name: "Sunset Park", borough: "brooklyn", lat: 40.6455, lng: -74.0124 },
   { slug: "bay-ridge", name: "Bay Ridge", borough: "brooklyn", lat: 40.6264, lng: -74.0299 },
   { slug: "coney-island", name: "Coney Island", borough: "brooklyn", lat: 40.5755, lng: -73.9707 },
+  {
+    slug: "sheepshead-bay",
+    name: "Sheepshead Bay",
+    borough: "brooklyn",
+    lat: 40.5858,
+    lng: -73.9516,
+  },
   { slug: "flushing", name: "Flushing", borough: "queens", lat: 40.758, lng: -73.8303 },
   {
     slug: "flushing-meadows",
@@ -194,6 +201,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lat: 40.6425,
     lng: -74.098,
   },
+  { slug: "rosebank", name: "Rosebank", borough: "staten_island", lat: 40.615, lng: -74.07 },
   {
     slug: "lighthouse-hill",
     name: "Lighthouse Hill",

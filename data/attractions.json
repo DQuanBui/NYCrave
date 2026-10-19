@@ -3613,5 +3613,220 @@
     "website": "https://cmom.org",
     "lat": 40.78588,
     "lng": -73.97726
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/museum-of-arts-and-design-1.jpg",
+        "alt": "The Museum of Arts and Design's white facade on Columbus Circle",
+        "width": 1100,
+        "height": 1415,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Museum_of_Arts_and_Design.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Craft and design exhibitions", "Artists at work in the open studios"],
+    "vibeTags": ["rainy_day", "quiet", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: hours (closed Monday; Tuesday and Thursday to Sunday 10 AM to 6 PM; Wednesday noon to 8 PM) and admission from madmuseum.org/visit. Closed Thanksgiving and Christmas. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-museum-of-arts-and-design",
+    "slug": "museum-of-arts-and-design",
+    "name": "Museum of Arts and Design (MAD)",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "2 Columbus Circle, New York, NY 10019",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 20,
+        "max": 20
+      },
+      "bookingUrl": "https://madmuseum.org/visit",
+      "notes": "Adults $20, seniors $16, students $14, 12 and under free. Pay what you wish 5 to 8 PM on the first Wednesday of the month (in person)."
+    },
+    "editorialTake": "A museum of contemporary craft and design on Columbus Circle, with artists working in open studios and windows over Central Park's corner.",
+    "bestTimeToVisit": "Wednesday evening",
+    "timeNeededMinutes": 75,
+    "trendingScore": 54,
+    "website": "https://madmuseum.org",
+    "lat": 40.76733,
+    "lng": -73.98194
+  },
+  {
+    "photos": [],
+    "mustTry": [
+      "Alice Austen's photographs of 1890s New York",
+      "The lawn's view of the Narrows and the Verrazzano Bridge"
+    ],
+    "vibeTags": ["quiet", "outdoor", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: address and hours (Wednesday to Friday noon to 5 PM, Saturday 11 AM to 5 PM, closed Sunday to Tuesday) from aliceausten.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-alice-austen-house",
+    "slug": "alice-austen-house",
+    "name": "Alice Austen House",
+    "category": "attraction",
+    "borough": "staten_island",
+    "neighborhood": "Rosebank",
+    "address": "2 Hylan Blvd, Staten Island, NY 10305",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "The waterfront cottage of pioneering photographer Alice Austen, with her images of turn-of-the-century New York and a lawn looking out over the Narrows.",
+    "bestTimeToVisit": "Saturday afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 46,
+    "website": "https://aliceausten.org",
+    "lat": 40.61512,
+    "lng": -74.06304
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/weeksville-heritage-center-1.jpg",
+        "alt": "The historic Hunterfly Road Houses at Weeksville Heritage Center",
+        "width": 1000,
+        "height": 600,
+        "source": "other",
+        "attribution": {
+          "text": "Anonitect (talk), Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Hunterfly_road_houses.jpg",
+          "license": "Public domain"
+        }
+      }
+    ],
+    "mustTry": ["A guided tour of the historic Hunterfly Road Houses"],
+    "vibeTags": ["quiet", "local_favorite", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: address and hours (Tuesday to Friday 10 AM to 5 PM, Saturday 11 AM to 5 PM, closed Sunday and Monday) from weeksvillesociety.org/visit. Tours must be booked 24 hours ahead. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-weeksville-heritage-center",
+    "slug": "weeksville-heritage-center",
+    "name": "Weeksville Heritage Center",
+    "category": "attraction",
+    "borough": "brooklyn",
+    "neighborhood": "Crown Heights",
+    "address": "158 Buffalo Ave, Brooklyn, NY 11213",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "The preserved houses of Weeksville, one of the largest free Black communities in pre-Civil War America, with tours, exhibitions and programs.",
+    "bestTimeToVisit": "Book a weekday tour",
+    "timeNeededMinutes": 75,
+    "trendingScore": 44,
+    "website": "https://www.weeksvillesociety.org",
+    "lat": 40.67423,
+    "lng": -73.92523
   }
 ]

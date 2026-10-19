@@ -9460,5 +9460,76 @@
     "website": "https://www.dunwelldoughnuts.com",
     "lat": 40.7074,
     "lng": -73.94025
+  },
+  {
+    "photos": [],
+    "mustTry": ["Fried calamari with the house red sauce", "Clams on the half shell"],
+    "vibeTags": ["local_favorite", "group_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: address and hours from randazzosclambar.nyc and its structured data. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-randazzos-clam-bar",
+    "slug": "randazzos-clam-bar",
+    "name": "Randazzo's Clam Bar",
+    "category": "restaurant",
+    "cuisines": ["italian"],
+    "dishTypes": ["seafood"],
+    "borough": "brooklyn",
+    "neighborhood": "Sheepshead Bay",
+    "address": "2017 Emmons Ave, Brooklyn, NY 11235",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A Sheepshead Bay seafood counter across from the fishing boats, known for fried calamari in its spicy red sauce.",
+    "bestTimeToVisit": "Summer evening by the bay",
+    "timeNeededMinutes": 60,
+    "trendingScore": 52,
+    "website": "https://www.randazzosclambar.nyc",
+    "lat": 40.5839,
+    "lng": -73.94765
   }
 ]

@@ -2104,5 +2104,101 @@
     "website": "https://madisonsquarepark.org",
     "lat": 40.74205,
     "lng": -73.98794
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/queens-botanical-garden-1.jpg",
+        "alt": "Queens Botanical Garden's visitor center beside a pond",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Epicgenius, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Queens_Botanical_Garden_Mar_2025_10.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/queens-botanical-garden-2.jpg",
+        "alt": "Garden beds and paths at Queens Botanical Garden",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Epicgenius, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Queens_Botanical_Garden_Mar_2025_06.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "quiet", "kid_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: hours (Tuesday to Sunday, 8 AM to 6 PM April to October and 8 AM to 4:30 PM November to March) from queensbotanical.org/visit. Closing shown as 4:30 PM year-round to be safe. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-queens-botanical-garden",
+    "slug": "queens-botanical-garden",
+    "name": "Queens Botanical Garden",
+    "category": "park_pier",
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "43-50 Main St, Flushing, NY 11355",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "16:30"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "16:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "16:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "16:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "16:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "16:30"
+        }
+      ]
+    },
+    "park": {
+      "activities": ["Themed gardens", "The rose garden", "Seasonal programs for kids"],
+      "amenities": ["Benches", "Visitor center", "Shop"],
+      "seasonalNotes": "Open until 6 PM from April to October; 4:30 PM from November to March. Closed Mondays."
+    },
+    "editorialTake": "Thirty-nine acres of gardens a short walk from Flushing's Main Street, with roses, a bee garden and an eco-friendly visitor center.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 75,
+    "trendingScore": 48,
+    "website": "https://queensbotanical.org",
+    "lat": 40.7515,
+    "lng": -73.8271
   }
 ]
