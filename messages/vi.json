@@ -1557,7 +1557,13 @@
     },
     "openNow": "Đang mở cửa",
     "openCount": "{count} địa điểm đang mở",
-    "noneOpen": "Hiện không có địa điểm nào trong cẩm nang này mở cửa. Tắt bộ lọc để xem tất cả."
+    "noneOpen": "Hiện không có địa điểm nào trong cẩm nang này mở cửa. Tắt bộ lọc để xem tất cả.",
+    "related": {
+      "lateNight": "Xem nơi nào còn mở lúc nửa đêm hay 2 giờ sáng tối nay",
+      "cheapEats": "Thử ăn một vòng: ba điểm rẻ, đi bộ vài phút",
+      "outdoors": "Tìm tuyến đi bộ hoặc leo núi ở cả năm quận",
+      "dateNight": "Canh giờ dạo hoàng hôn theo giờ vàng tối nay"
+    }
   },
   "ride": {
     "title": "Đi tàu điện ngầm",

@@ -22,3 +22,14 @@ describe("guides", () => {
     for (const mood of MOODS) if (mood.guide) expect(guideBySlug(mood.guide)).toBeDefined()
   })
 })
+
+describe("related pages", () => {
+  it("has a link text in every language for each guide that links somewhere", async () => {
+    for (const locale of ["en", "vi", "es", "zh", "ko"]) {
+      const messages = (await import(`@/messages/${locale}.json`)).default
+      for (const guide of GUIDES)
+        if (guide.related)
+          expect(messages.guides.related[guide.key], `${locale} ${guide.key}`).toBeTruthy()
+    }
+  })
+})

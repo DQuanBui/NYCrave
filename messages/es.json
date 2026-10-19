@@ -1561,7 +1561,13 @@
     },
     "openNow": "Abierto ahora",
     "openCount": "{count, plural, one {# lugar abierto ahora} other {# lugares abiertos ahora}}",
-    "noneOpen": "Nada de esta guía está abierto ahora. Quita el filtro para verlo todo."
+    "noneOpen": "Nada de esta guía está abierto ahora. Quita el filtro para verlo todo.",
+    "related": {
+      "lateNight": "Mira qué está abierto a medianoche o a las 2 de esta noche",
+      "cheapEats": "Prueba una ruta: tres paradas baratas a pocos minutos a pie",
+      "outdoors": "Encuentra un paseo o una caminata en los cinco distritos",
+      "dateNight": "Planea un paseo al atardecer con la hora dorada de hoy"
+    }
   },
   "ride": {
     "title": "Viaja en metro",

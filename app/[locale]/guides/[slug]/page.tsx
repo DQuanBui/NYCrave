@@ -1,4 +1,4 @@
-import { Lightbulb } from "lucide-react"
+import { ArrowRight, Lightbulb } from "lucide-react"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
@@ -63,6 +63,17 @@ export default async function GuidePage({ params }: Props) {
         <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
           <div className="space-y-4">
             <p className="max-w-prose text-lg leading-relaxed">{g("intro")}</p>
+            {guide.related ? (
+              <Link
+                href={guide.related}
+                className="inline-flex items-center gap-2 rounded-full bg-foreground px-4 py-2 text-sm font-bold text-background"
+              >
+                {t(
+                  `guides.related.${guide.key as "lateNight" | "cheapEats" | "outdoors" | "dateNight"}`,
+                )}
+                <ArrowRight aria-hidden className="size-4" />
+              </Link>
+            ) : null}
             <nav aria-label={t("guides.jump")}>
               <ul className="flex flex-wrap gap-2">
                 {sections.map(({ category, places }) => (

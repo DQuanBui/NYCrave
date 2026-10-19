@@ -1557,7 +1557,13 @@
     },
     "openNow": "Open now",
     "openCount": "{count, plural, one {# place open now} other {# places open now}}",
-    "noneOpen": "Nothing in this guide is open right now. Turn off the filter to see everything."
+    "noneOpen": "Nothing in this guide is open right now. Turn off the filter to see everything.",
+    "related": {
+      "lateNight": "See what's open at midnight or 2 AM tonight",
+      "cheapEats": "Try a food crawl: three cheap stops a short walk apart",
+      "outdoors": "Find a walk or hike in all five boroughs",
+      "dateNight": "Time a sunset walk with tonight's golden hour"
+    }
   },
   "ride": {
     "title": "Ride the subway",

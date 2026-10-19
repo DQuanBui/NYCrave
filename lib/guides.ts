@@ -17,6 +17,8 @@ export type Guide = {
   emoji: string
   line: LineColor
   matches: (p: Place) => boolean
+  /** A page that goes with this guide, linked under its intro. */
+  related?: "/tonight" | "/crawls" | "/walks" | "/golden-hour"
 }
 
 const tagged = (tag: Place["vibeTags"][number]) => (p: Place) => p.vibeTags.includes(tag)
@@ -37,8 +39,16 @@ export const GUIDES: Guide[] = [
     emoji: "🌙",
     line: "purple",
     matches: tagged("late_night"),
+    related: "/tonight",
   },
-  { key: "dateNight", slug: "date-night", emoji: "🕯️", line: "red", matches: tagged("date_night") },
+  {
+    key: "dateNight",
+    slug: "date-night",
+    emoji: "🕯️",
+    line: "red",
+    matches: tagged("date_night"),
+    related: "/golden-hour",
+  },
   {
     key: "cheapEats",
     slug: "cheap-eats",
@@ -47,9 +57,17 @@ export const GUIDES: Guide[] = [
     matches: (p) =>
       p.vibeTags.includes("cheap_eats") ||
       ((p.category === "restaurant" || p.category === "drink") && p.priceLevel === 1),
+    related: "/crawls",
   },
   { key: "solo", slug: "solo", emoji: "🎧", line: "gray", matches: tagged("solo_friendly") },
-  { key: "outdoors", slug: "outdoors", emoji: "🌳", line: "lime", matches: tagged("outdoor") },
+  {
+    key: "outdoors",
+    slug: "outdoors",
+    emoji: "🌳",
+    line: "lime",
+    matches: tagged("outdoor"),
+    related: "/walks",
+  },
 ]
 
 export const guideBySlug = (slug: string) => GUIDES.find((g) => g.slug === slug)
