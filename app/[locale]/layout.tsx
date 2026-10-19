@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next"
 import { notFound } from "next/navigation"
 import { hasLocale, NextIntlClientProvider } from "next-intl"
-import { getTranslations } from "next-intl/server"
+import { getMessages, getTranslations } from "next-intl/server"
 import { BottomTabBar } from "@/components/layout/bottom-tab-bar"
 import { Assistant } from "@/components/assistant/assistant"
 import { FeedbackPrompt } from "@/components/feedback/feedback"
@@ -10,6 +10,7 @@ import { SiteHeader } from "@/components/layout/site-header"
 import { ServiceWorker } from "@/components/providers/service-worker"
 import { Providers } from "@/components/providers/theme-provider"
 import { initLocale } from "@/i18n/locale"
+import { clientMessages } from "@/lib/client-messages"
 import { routing } from "@/i18n/routing"
 import { feedbackEnabled } from "@/lib/feedback-store"
 import { body, display } from "@/lib/fonts"
@@ -47,11 +48,12 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   if (!hasLocale(routing.locales, (await params).locale)) notFound()
   const locale = await initLocale(params)
   const t = await getTranslations("nav")
+  const messages = clientMessages(await getMessages())
 
   return (
     <html lang={locale} suppressHydrationWarning className={`${display.variable} ${body.variable}`}>
       <body className="flex min-h-dvh flex-col">
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
           <Providers>
             <a
               href="#main"
