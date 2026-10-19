@@ -64,7 +64,8 @@
     "welcome": {
       "lead": "어서 오세요",
       "city": "뉴욕"
-    }
+    },
+    "niceIdeas": "밖에 나가기 좋은 날"
   },
   "search": {
     "label": "장소 검색",

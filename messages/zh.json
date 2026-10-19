@@ -64,7 +64,8 @@
     "welcome": {
       "lead": "欢迎来到",
       "city": "纽约"
-    }
+    },
+    "niceIdeas": "适合户外的好天气"
   },
   "search": {
     "label": "搜索地点",

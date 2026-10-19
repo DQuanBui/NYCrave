@@ -151,20 +151,23 @@ export function Hero({ hints, forecast, holiday }: HeroProps) {
             )}
             <span>
               {t("weather", { temp: forecast.tempMaxF, chance: forecast.chance })}{" "}
-              {forecast.rainLikely || forecast.extreme ? (
-                <Link
-                  href={{ pathname: "/search", query: { q: "rainy day" } }}
-                  className="font-semibold text-foreground underline underline-offset-4"
-                >
-                  {t(
-                    forecast.rainLikely
-                      ? "rainyIdeas"
-                      : forecast.extreme === "hot"
-                        ? "hotIdeas"
-                        : "coldIdeas",
-                  )}
-                </Link>
-              ) : null}
+              {/* Bad weather: things to do indoors; a fine day: get outside */}
+              <Link
+                href={
+                  forecast.rainLikely || forecast.extreme ? "/guides/rainy-day" : "/guides/outdoors"
+                }
+                className="font-semibold text-foreground underline underline-offset-4"
+              >
+                {t(
+                  forecast.rainLikely
+                    ? "rainyIdeas"
+                    : forecast.extreme === "hot"
+                      ? "hotIdeas"
+                      : forecast.extreme === "cold"
+                        ? "coldIdeas"
+                        : "niceIdeas",
+                )}
+              </Link>
             </span>
           </p>
         ) : null}

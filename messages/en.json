@@ -64,7 +64,8 @@
     "welcome": {
       "lead": "Welcome to",
       "city": "New York"
-    }
+    },
+    "niceIdeas": "A good day to be outside"
   },
   "search": {
     "label": "Search places",

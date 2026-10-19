@@ -64,7 +64,8 @@
     "welcome": {
       "lead": "Bienvenidos a",
       "city": "Nueva York"
-    }
+    },
+    "niceIdeas": "Un buen día para estar al aire libre"
   },
   "search": {
     "label": "Buscar lugares",

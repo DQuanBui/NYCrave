@@ -64,7 +64,8 @@
     "welcome": {
       "lead": "Chào mừng bạn đến",
       "city": "New York"
-    }
+    },
+    "niceIdeas": "Một ngày đẹp để ra ngoài"
   },
   "search": {
     "label": "Tìm địa điểm",
