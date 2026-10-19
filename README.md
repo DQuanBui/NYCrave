@@ -26,14 +26,15 @@ NYCrave is a mobile-first guide to New York City for locals and visitors: where 
 | **Ready-made days** | A classic first day, a food crawl, Brooklyn by the water, art and museums, date night, and a $50 day |
 | **Ask NYCrave** | A free helper on every page, in every language, that answers "where can I get…", "is … open now?", "plan a day in …" and "how do I get from JFK…" from NYCrave's own places and tips |
 | **What's next?** | Places a short walk away that are open when you get there, picked for what you just did |
+| **Open late** | Pick 10 PM, midnight, 2 AM or 4 AM and see what is still open tonight, with closing times |
 | **Ride the subway** | Every train as a strip map and a map, with the places a short walk from each stop and accessible stations marked |
-| **Food crawls** | Pizza, dumplings, bagels, noodles, bakeries, coffee and cocktails: three or four places a short walk apart, with a walking route |
-| **Guides** | Free NYC, rainy day, with kids, late night, date night, cheap eats, solo and outdoors, each with tips and a map |
+| **Food crawls** | Pizza, dumplings, bagels, noodles, bakeries, coffee and cocktails: three or four places a short walk apart, with a walking route and how far each starts from you |
+| **Guides** | Free NYC, rainy day, with kids, late night, date night, cheap eats, solo and outdoors, each with tips, a map and an *Open now* switch; the home forecast suggests one for the weather |
 | **The New York menu** | The city's signature foods, from the slice to pastrami on rye, and where to try each one |
 | **Walks & hikes** | Forest trails, waterfront paths and bridges in all five boroughs, with distance, difficulty and the nearest subway |
 | **Golden hour** | Today's light as a live sky ribbon, and photo walks timed so every stop lands in its best light |
 | **Seasons** | Manhattanhenge, cherry blossoms, the marathon and the holiday windows, with countdowns |
-| **NYC Passport** | Stamp the places you visit and earn badges across the five boroughs |
+| **NYC Passport** | Stamp the places you visit and earn 14 badges, from Pizza pilgrim to Line hopper |
 | **Place pages** | Full-screen photos, live hours, must-try items, tickets, nearest subway stations, directions, and today's golden hour for photo spots |
 | **Neighborhood guides** | Every neighborhood with its places, subway lines and a *Plan a day starting here* button |
 | **Tourist tips** | Airports, the subway and OMNY, tipping with a bill calculator, safety, and the city through the seasons |
