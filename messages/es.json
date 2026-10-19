@@ -1080,6 +1080,14 @@
       "pizzaPilgrim": {
         "name": "Peregrino de la pizza",
         "body": "Comiste en 3 pizzerías."
+      },
+      "sweetTooth": {
+        "name": "Goloso",
+        "body": "Visitaste 3 panaderías o lugares de postres."
+      },
+      "lineHopper": {
+        "name": "Saltalíneas",
+        "body": "Sellaste lugares cerca de 12 líneas de metro distintas."
       }
     },
     "visited": "Lugares que has sellado",

@@ -1080,6 +1080,14 @@
       "pizzaPilgrim": {
         "name": "Tín đồ pizza",
         "body": "Đã ăn ở 3 tiệm pizza."
+      },
+      "sweetTooth": {
+        "name": "Hảo ngọt",
+        "body": "Đã ghé 3 tiệm bánh hoặc quán tráng miệng."
+      },
+      "lineHopper": {
+        "name": "Nhảy tuyến",
+        "body": "Đóng dấu những nơi gần 12 tuyến tàu điện ngầm khác nhau."
       }
     },
     "visited": "Những nơi bạn đã đóng dấu",

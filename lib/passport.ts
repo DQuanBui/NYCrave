@@ -15,6 +15,8 @@ export type Stamp = {
   drinkTypes: DrinkType[]
   lateNight: boolean
   free: boolean
+  /** Trains at the stations nearest the place, when known. */
+  routes: string[]
 }
 
 export type Stamps = Record<string, Stamp>
@@ -32,6 +34,8 @@ export type BadgeKey =
   | "nightOwl"
   | "freeSpirit"
   | "pizzaPilgrim"
+  | "sweetTooth"
+  | "lineHopper"
 
 export type Badge = {
   key: BadgeKey
@@ -58,6 +62,13 @@ export const BADGES: Badge[] = [
   { key: "nightOwl", emoji: "🦉", goal: 3, count: where((x) => x.lateNight) },
   { key: "freeSpirit", emoji: "🎈", goal: 3, count: where((x) => x.free) },
   { key: "pizzaPilgrim", emoji: "🍕", goal: 3, count: where((x) => x.dishTypes.includes("pizza")) },
+  {
+    key: "sweetTooth",
+    emoji: "🧁",
+    goal: 3,
+    count: where((x) => x.dishTypes.some((d) => d === "bakery" || d === "desserts")),
+  },
+  { key: "lineHopper", emoji: "🚆", goal: 12, count: (s) => distinct(s.flatMap((x) => x.routes)) },
 ]
 
 export type BadgeProgress = { badge: Badge; count: number; earned: boolean }
@@ -92,6 +103,7 @@ export function stampFor(
     drinkTypes?: DrinkType[]
     vibeTags: string[]
     isFree: boolean
+    routes?: string[]
   },
   at: number,
 ): Stamp {
@@ -104,6 +116,7 @@ export function stampFor(
     drinkTypes: place.drinkTypes ?? [],
     lateNight: place.vibeTags.includes("late_night"),
     free: place.isFree,
+    routes: place.routes ?? [],
   }
 }
 
@@ -124,6 +137,8 @@ export function parseStamps(raw: unknown): Stamps {
       drinkTypes: Array.isArray(s.drinkTypes) ? s.drinkTypes : [],
       lateNight: s.lateNight === true,
       free: s.free === true,
+      // Stamps saved before trains were recorded have none
+      routes: Array.isArray(s.routes) ? s.routes.filter((r) => typeof r === "string") : [],
     }
   }
   return out

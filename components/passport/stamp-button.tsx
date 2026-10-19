@@ -25,7 +25,7 @@ export type StampPlace = Pick<
   | "drinkTypes"
   | "vibeTags"
   | "isFree"
->
+> & { routes?: string[] }
 
 /** "Stamp my passport": marks a place as visited, with a stamp, confetti and any new badge. */
 export function StampButton({ place }: { place: StampPlace }) {

@@ -1080,6 +1080,14 @@
       "pizzaPilgrim": {
         "name": "披萨朝圣者",
         "body": "在 3 家披萨店吃过。"
+      },
+      "sweetTooth": {
+        "name": "甜食爱好者",
+        "body": "去过 3 家烘焙店或甜品店。"
+      },
+      "lineHopper": {
+        "name": "换乘达人",
+        "body": "盖章的地点靠近 12 条不同的地铁线。"
       }
     },
     "visited": "你盖过章的地方",

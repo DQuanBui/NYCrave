@@ -1080,6 +1080,14 @@
       "pizzaPilgrim": {
         "name": "Pizza pilgrim",
         "body": "Ate at 3 pizza places."
+      },
+      "sweetTooth": {
+        "name": "Sweet tooth",
+        "body": "Visited 3 bakeries or dessert spots."
+      },
+      "lineHopper": {
+        "name": "Line hopper",
+        "body": "Stamped places near 12 different subway lines."
       }
     },
     "visited": "Places you've stamped",

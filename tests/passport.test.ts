@@ -8,18 +8,17 @@ import {
   stampFor,
   type Stamps,
 } from "@/lib/passport"
+import { nearestStations } from "@/lib/subway"
 
 const places = await getPlaces()
+// Stamped the way the place page does it, with the trains at the nearest stations
+const stampOf = (slug: string, at: number) => {
+  const place = places.find((p) => p.slug === slug)!
+  const routes = [...new Set(nearestStations(place).flatMap((s) => s.routes))]
+  return stampFor({ ...place, routes }, at)
+}
 const stampsOf = (slugs: string[]): Stamps =>
-  Object.fromEntries(
-    slugs.map((slug, i) => [
-      slug,
-      stampFor(
-        places.find((p) => p.slug === slug)!,
-        1000 + i,
-      ),
-    ]),
-  )
+  Object.fromEntries(slugs.map((slug, i) => [slug, stampOf(slug, 1000 + i)]))
 const earned = (stamps: Stamps) =>
   badgeProgress(stamps)
     .filter((b) => b.earned)
@@ -74,5 +73,34 @@ describe("passport badges", () => {
     expect(parseStamps({ a: { at: "x" }, b: null })).toEqual({})
     const ok = parseStamps({ a: { at: 1, borough: "queens", category: "restaurant" } })
     expect(ok.a).toMatchObject({ borough: "queens", cuisines: [], lateNight: false, free: false })
+  })
+})
+
+describe("sweet tooth and line hopper", () => {
+  it("counts bakeries and dessert spots", () => {
+    const sweets = stampsOf([
+      "ferrara-bakery",
+      "venieros-pasticceria",
+      "levain-bakery-west-74th-street",
+    ])
+    expect(earned(sweets)).toContain("sweetTooth")
+  })
+
+  it("counts the different trains near stamped places", () => {
+    const at = (routes: string[], i: number) =>
+      stampFor({ ...places.find((p) => p.slug === "katzs-delicatessen")!, routes }, i)
+    const stamps: Stamps = {
+      a: at(["1", "2", "3"], 1),
+      b: at(["4", "5", "6", "7"], 2),
+      c: at(["A", "C", "E", "1"], 3),
+    }
+    expect(badgeProgress(stamps).find((b) => b.badge.key === "lineHopper")!.count).toBe(10)
+    stamps.d = at(["N", "Q"], 4)
+    expect(earned(stamps)).toContain("lineHopper")
+  })
+
+  it("reads stamps saved before trains were recorded", () => {
+    const old = parseStamps({ x: { at: 1, borough: "manhattan", category: "restaurant" } })
+    expect(old.x.routes).toEqual([])
   })
 })

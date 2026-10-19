@@ -158,6 +158,7 @@ export default async function PlacePage({ params }: Props) {
                   drinkTypes: place.drinkTypes,
                   vibeTags: place.vibeTags,
                   isFree: place.isFree,
+                  routes: [...new Set(stations.flatMap((s) => s.routes))],
                 }}
               />
             </div>
