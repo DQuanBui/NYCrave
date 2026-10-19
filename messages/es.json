@@ -1585,7 +1585,13 @@
       "tacos": "Ruta de tacos",
       "coffee": "Ruta de café",
       "cocktails": "Ruta de cócteles"
-    }
+    },
+    "nearMe": "Cerca de mí",
+    "locating": "Buscándote…",
+    "nearMeOn": "Mostrando a qué distancia empieza cada ruta.",
+    "denied": "La ubicación está desactivada, así que no se pueden mostrar distancias.",
+    "fromYouWalk": "A unos {minutes} min a pie de ti",
+    "fromYouSubway": "A unos {minutes} min en metro de ti"
   },
   "tonight": {
     "title": "Abierto tarde",

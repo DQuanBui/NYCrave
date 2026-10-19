@@ -1557,7 +1557,13 @@
       "tacos": "타코 투어",
       "coffee": "커피 투어",
       "cocktails": "칵테일 투어"
-    }
+    },
+    "nearMe": "내 주변",
+    "locating": "위치 찾는 중…",
+    "nearMeOn": "각 코스의 출발점까지 거리를 표시합니다.",
+    "denied": "위치 정보가 꺼져 있어 거리를 표시할 수 없습니다.",
+    "fromYouWalk": "도보 약 {minutes}분 거리",
+    "fromYouSubway": "지하철로 약 {minutes}분 거리"
   },
   "tonight": {
     "title": "늦게까지 영업",

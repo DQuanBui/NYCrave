@@ -1581,7 +1581,13 @@
       "tacos": "Vòng taco",
       "coffee": "Vòng cà phê",
       "cocktails": "Vòng cocktail"
-    }
+    },
+    "nearMe": "Gần tôi",
+    "locating": "Đang tìm vị trí…",
+    "nearMeOn": "Đang hiện khoảng cách từ bạn đến điểm đầu của mỗi tuyến.",
+    "denied": "Vị trí đang tắt nên không hiện được khoảng cách.",
+    "fromYouWalk": "Cách bạn khoảng {minutes} phút đi bộ",
+    "fromYouSubway": "Cách bạn khoảng {minutes} phút đi tàu điện ngầm"
   },
   "tonight": {
     "title": "Mở khuya",

@@ -1581,7 +1581,13 @@
       "tacos": "Taco crawl",
       "coffee": "Coffee crawl",
       "cocktails": "Cocktail crawl"
-    }
+    },
+    "nearMe": "Near me",
+    "locating": "Finding you…",
+    "nearMeOn": "Showing how far each crawl starts from you.",
+    "denied": "Location is off, so distances can't be shown.",
+    "fromYouWalk": "About {minutes} min walk from you",
+    "fromYouSubway": "About {minutes} min by subway from you"
   },
   "tonight": {
     "title": "Open late",
