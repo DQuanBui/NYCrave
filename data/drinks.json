@@ -2900,5 +2900,312 @@
     "website": "https://www.maisonpremiere.com",
     "lat": 40.71426,
     "lng": -73.96165
+  },
+  {
+    "photos": [],
+    "mustTry": ["Filter coffee from light-roasted beans", "A cardamom bun"],
+    "vibeTags": ["solo_friendly", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: address and hours (Monday to Friday 7 AM to 8 PM, weekends 8 AM to 8 PM) for the SoHo café from lacabra.dk/pages/new-york. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-la-cabra-soho",
+    "slug": "la-cabra-soho",
+    "name": "La Cabra",
+    "category": "drink",
+    "drinkTypes": ["coffee"],
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "284 Lafayette St, New York, NY 10012",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "20:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "The New York café of a Danish roaster from Aarhus, known for light-roasted filter coffee and Scandinavian pastries in a calm, pale room.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 30,
+    "trendingScore": 62,
+    "website": "https://www.lacabra.dk",
+    "lat": 40.72428,
+    "lng": -73.99616
+  },
+  {
+    "photos": [],
+    "mustTry": ["A flat white", "Breakfast sandwich"],
+    "vibeTags": ["solo_friendly", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: address and hours (Monday 7 AM to 4 PM, Tuesday to Friday 7 AM to 6 PM, weekends 7:30 AM to 6 PM) from littlecollinsnyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-little-collins",
+    "slug": "little-collins-midtown-east",
+    "name": "Little Collins",
+    "category": "drink",
+    "drinkTypes": ["coffee"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "708 3rd Ave, New York, NY 10017",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:30",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "16:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:30",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "An Australian-style café near Grand Central, serving flat whites and a short breakfast and lunch menu to Midtown's morning rush.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 30,
+    "trendingScore": 52,
+    "website": "https://www.littlecollinsnyc.com",
+    "lat": 40.75231,
+    "lng": -73.97355
+  },
+  {
+    "photos": [],
+    "mustTry": ["A stirred drink built on amaro and bitters"],
+    "vibeTags": ["date_night", "late_night", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: address and hours (Sunday to Thursday 5 PM to midnight, Friday and Saturday 5 PM to 1 AM) from amoryamargony.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-amor-y-amargo",
+    "slug": "amor-y-amargo",
+    "name": "Amor y Amargo",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "443 E 6th St, New York, NY 10009",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "17:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "editorialTake": "A tiny East Village bar devoted to bitters, with stirred cocktails built on amaro and vermouth.",
+    "bestTimeToVisit": "Early evening",
+    "timeNeededMinutes": 60,
+    "trendingScore": 56,
+    "website": "https://www.amoryamargony.com",
+    "lat": 40.72573,
+    "lng": -73.98427
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/overstory-financial-district-1.jpg",
+        "alt": "The Art Deco tower at 70 Pine Street, home of Overstory on its 64th floor",
+        "width": 1100,
+        "height": 1372,
+        "source": "other",
+        "attribution": {
+          "text": "Clément Bardot, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:American_International_Building3.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/overstory-financial-district-2.jpg",
+        "alt": "The Art Deco entrance of 70 Pine Street",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:70_Pine_Street_entrance.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Cocktails with a view over Lower Manhattan"],
+    "vibeTags": ["date_night", "instagrammable"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: address and hours from overstory-nyc.com. The bar recommends checking its Instagram for the latest hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-overstory",
+    "slug": "overstory-financial-district",
+    "name": "Overstory",
+    "category": "drink",
+    "drinkTypes": ["cocktails", "rooftop_bar"],
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "70 Pine St, 64th Floor, New York, NY 10005",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "16:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "17:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A cocktail bar on the 64th floor of the Art Deco 70 Pine Street, one floor above SAGA, with sweeping views of Lower Manhattan.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 75,
+    "trendingScore": 64,
+    "website": "https://www.overstory-nyc.com",
+    "lat": 40.70647,
+    "lng": -74.00774
   }
 ]

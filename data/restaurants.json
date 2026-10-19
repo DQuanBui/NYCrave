@@ -9531,5 +9531,76 @@
     "website": "https://www.randazzosclambar.nyc",
     "lat": 40.5839,
     "lng": -73.94765
+  },
+  {
+    "photos": [],
+    "mustTry": ["Cardamom bun", "Coffee to go"],
+    "vibeTags": ["local_favorite", "cheap_eats", "instagrammable"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-19T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-19: address and hours (Monday to Friday 7 AM to 6 PM, weekends 8 AM to 6 PM) for the East Village bakery from lacabra.dk/pages/new-york. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-la-cabra-bakery-east-village",
+    "slug": "la-cabra-bakery-east-village",
+    "name": "La Cabra Bakery",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["bakery"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "152 2nd Ave, New York, NY 10003",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "La Cabra's East Village bakery, where the lines are for Scandinavian cardamom buns and other pastries baked through the morning.",
+    "bestTimeToVisit": "Early morning, before they sell out",
+    "timeNeededMinutes": 20,
+    "trendingScore": 64,
+    "website": "https://www.lacabra.dk",
+    "lat": 40.72935,
+    "lng": -73.98669
   }
 ]
