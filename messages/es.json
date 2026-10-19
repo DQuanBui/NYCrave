@@ -34,7 +34,8 @@
     "guides": "Guías",
     "subway": "En metro",
     "crawls": "Rutas gastronómicas",
-    "searchShortcut": "Buscar (pulsa /)"
+    "searchShortcut": "Buscar (pulsa /)",
+    "tonight": "Abierto tarde"
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",
@@ -1581,5 +1582,16 @@
       "coffee": "Ruta de café",
       "cocktails": "Ruta de cócteles"
     }
+  },
+  "tonight": {
+    "title": "Abierto tarde",
+    "tagline": "Elige una hora esta noche y mira qué sigue abierto: comida, bares, cafés, museos y tiendas.",
+    "pick": "Abierto a las",
+    "count": "{count, plural, =0 {Nada abierto} one {# lugar abierto} other {# lugares abiertos}} a las {time}",
+    "until": "Hasta las {time}",
+    "allNight": "Abierto toda la noche",
+    "empty": "Nada en NYCrave abre tan tarde esta noche. Prueba una hora más temprana.",
+    "note": "Comprobado con el horario semanal de la web oficial de cada lugar; la cocina puede cerrar antes que la barra y los festivos cambian horarios. Las calles, los puentes y las vistas nunca cierran:",
+    "photoSpots": "mira Lugares para fotos"
   }
 }
