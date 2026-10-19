@@ -1548,7 +1548,10 @@
     "home": {
       "title": "Elige tu tipo de día",
       "cta": "Todas las guías"
-    }
+    },
+    "openNow": "Abierto ahora",
+    "openCount": "{count, plural, one {# lugar abierto ahora} other {# lugares abiertos ahora}}",
+    "noneOpen": "Nada de esta guía está abierto ahora. Quita el filtro para verlo todo."
   },
   "ride": {
     "title": "Viaja en metro",

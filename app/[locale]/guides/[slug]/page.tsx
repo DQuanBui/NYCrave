@@ -3,9 +3,9 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { GuideSections } from "@/components/guides/guide-sections"
 import { SectionHeader } from "@/components/listing/section-header"
 import { LazyMap } from "@/components/map/lazy-map"
-import { PlaceGrid } from "@/components/place/place-grid"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { toCard } from "@/lib/card-place"
@@ -101,25 +101,9 @@ export default async function GuidePage({ params }: Props) {
           </aside>
         </div>
 
-        {sections.map(({ category, places }) => (
-          <section
-            key={category}
-            id={category}
-            aria-labelledby={`${category}-title`}
-            className="scroll-mt-24 space-y-5"
-          >
-            <h2
-              id={`${category}-title`}
-              className="flex items-center gap-3 font-display text-display-sm sm:text-display-md"
-            >
-              <LineBullet line={CATEGORY_META[category].line} size="md">
-                {CATEGORY_META[category].bullet}
-              </LineBullet>
-              {t(`categories.${category}.title`)}
-            </h2>
-            <PlaceGrid places={places.map(toCard)} />
-          </section>
-        ))}
+        <GuideSections
+          sections={sections.map((s) => ({ category: s.category, places: s.places.map(toCard) }))}
+        />
 
         <LazyMap
           points={places.map((p) => placeToPoint(toCard(p)))}

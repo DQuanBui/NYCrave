@@ -1544,7 +1544,10 @@
     "home": {
       "title": "Pick your kind of day",
       "cta": "All guides"
-    }
+    },
+    "openNow": "Open now",
+    "openCount": "{count, plural, one {# place open now} other {# places open now}}",
+    "noneOpen": "Nothing in this guide is open right now. Turn off the filter to see everything."
   },
   "ride": {
     "title": "Ride the subway",

@@ -1544,7 +1544,10 @@
     "home": {
       "title": "Chọn kiểu ngày của bạn",
       "cta": "Tất cả cẩm nang"
-    }
+    },
+    "openNow": "Đang mở cửa",
+    "openCount": "{count} địa điểm đang mở",
+    "noneOpen": "Hiện không có địa điểm nào trong cẩm nang này mở cửa. Tắt bộ lọc để xem tất cả."
   },
   "ride": {
     "title": "Đi tàu điện ngầm",
