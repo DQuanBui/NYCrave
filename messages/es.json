@@ -1634,5 +1634,9 @@
     "body": "Algo salió mal al cargar esta página. Inténtalo de nuevo o vuelve al inicio.",
     "retry": "Reintentar",
     "home": "Volver al inicio"
+  },
+  "breadcrumb": {
+    "label": "Ruta de navegación",
+    "home": "Inicio"
   }
 }

@@ -1630,5 +1630,9 @@
     "body": "Something went wrong loading this page. Try again, or head back to the home page.",
     "retry": "Try again",
     "home": "Back to home"
+  },
+  "breadcrumb": {
+    "label": "Breadcrumb",
+    "home": "Home"
   }
 }

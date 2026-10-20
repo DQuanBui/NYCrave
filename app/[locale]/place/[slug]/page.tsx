@@ -3,7 +3,6 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
 import { HolidayNote } from "@/components/brand/holiday-note"
-import { LineBullet } from "@/components/brand/line-bullet"
 import { CopyButton } from "@/components/place/copy-button"
 import { HoursBadge } from "@/components/place/hours-badge"
 import { HoursTable } from "@/components/place/hours-table"
@@ -14,6 +13,7 @@ import { PlanAroundButton } from "@/components/place/plan-around-button"
 import { PriceLevel } from "@/components/place/price-level"
 import { ReportProblem } from "@/components/place/report-problem"
 import { NextNearby } from "@/components/next/next-nearby"
+import { Breadcrumbs, type Crumb } from "@/components/place/breadcrumbs"
 import { RecordVisit } from "@/components/place/record-visit"
 import { StampButton } from "@/components/passport/stamp-button"
 import { SaveButton } from "@/components/place/save-button"
@@ -23,7 +23,7 @@ import { ShareButton } from "@/components/place/share-button"
 import { UnverifiedTag } from "@/components/place/unverified-tag"
 import { neighborhoodByName } from "@/data/neighborhoods"
 import { initLocale } from "@/i18n/locale"
-import { Link } from "@/i18n/navigation"
+import { getPathname, Link } from "@/i18n/navigation"
 import { toCard } from "@/lib/card-place"
 import { formatPriceRange } from "@/lib/format"
 import { appleMapsUrl, distanceKm, googleMapsUrl, transitDirectionsUrl } from "@/lib/geo"
@@ -34,7 +34,8 @@ import { LINES } from "@/lib/lines"
 import { placeTagKeys } from "@/lib/place-display"
 import { getPlaceBySlug, getPlaces } from "@/lib/places"
 import { reportsEnabled } from "@/lib/report-store"
-import { placeJsonLd } from "@/lib/structured-data"
+import { breadcrumbJsonLd, placeJsonLd } from "@/lib/structured-data"
+import { SITE_URL } from "@/lib/site"
 import { nearestStations } from "@/lib/subway"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { cn } from "@/lib/utils"
@@ -64,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function PlacePage({ params }: Props) {
-  await initLocale(params)
+  const locale = await initLocale(params)
   const place = await getPlaceBySlug((await params).slug)
   if (!place) notFound()
 
@@ -73,6 +74,21 @@ export default async function PlacePage({ params }: Props) {
   const line = LINES[meta.line]
   const jsonLd = placeJsonLd(place)
   const neighborhood = neighborhoodByName(place.neighborhood)
+  const crumbs: Crumb[] = [
+    { label: t("breadcrumb.home"), href: "/" },
+    { label: t(`categories.${place.category}.title`), href: meta.href },
+    ...(neighborhood
+      ? [{ label: place.neighborhood, href: `/neighborhoods/${neighborhood.slug}` }]
+      : []),
+  ]
+  const absolute = (href: string) => `${SITE_URL}${getPathname({ href, locale })}`
+  // Like the place data, only for verified places (the rest are kept out of indexes)
+  const breadcrumbLd = jsonLd
+    ? breadcrumbJsonLd([
+        ...crumbs.map((c) => ({ name: c.label, url: absolute(c.href) })),
+        { name: place.name, url: absolute(`/place/${place.slug}`) },
+      ])
+    : null
   const coordinates = `${place.lat.toFixed(5)}, ${place.lng.toFixed(5)}`
   const tags = [
     ...placeTagKeys(place, 12),
@@ -99,6 +115,14 @@ export default async function PlacePage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
         />
       ) : null}
+      {breadcrumbLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(breadcrumbLd).replace(/</g, "\\u003c"),
+          }}
+        />
+      ) : null}
 
       <div className="relative">
         <PhotoGallery
@@ -118,13 +142,9 @@ export default async function PlacePage({ params }: Props) {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-8 lg:grid-cols-[1fr_22rem] lg:gap-14 lg:px-8 lg:py-12">
         <div className="min-w-0 space-y-10">
           <header className="space-y-4">
-            <p className="flex items-center gap-2 text-sm font-semibold">
-              <LineBullet line={meta.line} size="sm">
-                {meta.bullet}
-              </LineBullet>
-              {t(`categories.${place.category}.label`)}
-              {!place.verified ? <UnverifiedTag className="ml-1" /> : null}
-            </p>
+            <Breadcrumbs crumbs={crumbs} line={meta.line} bullet={meta.bullet}>
+              {!place.verified ? <UnverifiedTag /> : null}
+            </Breadcrumbs>
             <h1 className="font-display text-display-lg text-balance">{place.name}</h1>
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
               <span className="text-muted-foreground">

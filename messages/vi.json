@@ -1630,5 +1630,9 @@
     "body": "Đã có lỗi khi tải trang này. Hãy thử lại, hoặc quay về trang chủ.",
     "retry": "Thử lại",
     "home": "Về trang chủ"
+  },
+  "breadcrumb": {
+    "label": "Đường dẫn",
+    "home": "Trang chủ"
   }
 }
