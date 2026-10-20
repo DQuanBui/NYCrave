@@ -57,30 +57,37 @@ export function ListingClient({ places, params, options }: ListingClientProps) {
 
   return (
     <div className="space-y-5">
-      <FilterBar params={params} options={options} onChange={update} onClear={clear} />
-      <div className="flex flex-wrap items-center gap-2">
-        {origin ? (
-          <button type="button" onClick={geo.reset} aria-pressed className={pillClass(true)}>
-            <LocateFixed aria-hidden className="size-4" />
-            {t("nearMe")}
-            <X aria-hidden className="size-3.5 opacity-70" />
-          </button>
-        ) : (
-          <button
-            type="button"
-            onClick={geo.locate}
-            aria-pressed={false}
-            disabled={geo.state.status === "locating"}
-            className={pillClass(false)}
-          >
-            <LocateFixed aria-hidden className="size-4" />
-            {geo.state.status === "locating" ? t("locating") : t("nearMe")}
-          </button>
-        )}
+      <FilterBar
+        params={params}
+        options={options}
+        onChange={update}
+        onClear={clear}
+        toggles={
+          origin ? (
+            <button type="button" onClick={geo.reset} aria-pressed className={pillClass(true)}>
+              <LocateFixed aria-hidden className="size-4" />
+              {t("nearMe")}
+              <X aria-hidden className="size-3.5 opacity-70" />
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={geo.locate}
+              aria-pressed={false}
+              disabled={geo.state.status === "locating"}
+              className={pillClass(false)}
+            >
+              <LocateFixed aria-hidden className="size-4" />
+              {geo.state.status === "locating" ? t("locating") : t("nearMe")}
+            </button>
+          )
+        }
+      />
+      {geo.state.status === "denied" || farAway ? (
         <p aria-live="polite" className="text-sm text-muted-foreground">
-          {geo.state.status === "denied" ? t("locationDenied") : farAway ? t("locationFar") : null}
+          {geo.state.status === "denied" ? t("locationDenied") : t("locationFar")}
         </p>
-      </div>
+      ) : null}
       <h2 className="sr-only">{t("resultsHeading")}</h2>
       <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
         {t("results", { count: places.length })}

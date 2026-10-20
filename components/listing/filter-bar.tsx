@@ -14,9 +14,11 @@ type FilterBarProps = {
   options: FilterOptions
   onChange: (patch: Partial<ListingParams>) => void
   onClear: () => void
+  /** More toggles shown next to the built-in ones (the listing's "Near me"). */
+  toggles?: React.ReactNode
 }
 
-export function FilterBar({ params, options, onChange, onClear }: FilterBarProps) {
+export function FilterBar({ params, options, onChange, onClear, toggles }: FilterBarProps) {
   const t = useTranslations()
   const hoods = options.neighborhoods.filter((n) => !params.borough || n.borough === params.borough)
 
@@ -60,6 +62,11 @@ export function FilterBar({ params, options, onChange, onClear }: FilterBarProps
           <Accessibility aria-hidden className="size-4" />
           {t("filters.stepFree")}
         </button>
+
+        {toggles}
+
+        {/* Toggles on the left of the divider, menus on the right */}
+        <span aria-hidden className="mx-1 hidden h-6 w-px shrink-0 bg-foreground/15 sm:block" />
 
         {options.boroughs.length > 1 ? (
           <FilterMenu
@@ -124,17 +131,6 @@ export function FilterBar({ params, options, onChange, onClear }: FilterBarProps
           />
         ) : null}
 
-        <FilterMenu
-          label={t("filters.sort")}
-          anyLabel={t("filters.sortTrending")}
-          value={params.sort === "trending" ? undefined : params.sort}
-          options={[
-            { value: "name", label: t("filters.sortName") },
-            { value: "price", label: t("filters.sortPrice") },
-          ]}
-          onSelect={(v) => onChange({ sort: (v as ListingParams["sort"]) ?? "trending" })}
-        />
-
         {hasActiveFilters(params) ? (
           <button
             type="button"
@@ -147,30 +143,43 @@ export function FilterBar({ params, options, onChange, onClear }: FilterBarProps
         ) : null}
       </div>
 
-      <div
-        role="group"
-        aria-label={t("filters.view")}
-        className="ml-auto flex shrink-0 rounded-full border-2 border-foreground/15 bg-card p-0.5"
-      >
-        {(["list", "map"] as const).map((view) => {
-          const Icon = view === "list" ? List : MapIcon
-          const active = params.view === view
-          return (
-            <button
-              key={view}
-              type="button"
-              aria-pressed={active}
-              onClick={() => onChange({ view })}
-              className={cn(
-                "inline-flex h-8 items-center gap-1.5 rounded-full px-3 text-sm font-semibold transition-colors",
-                active ? "bg-foreground text-background" : "hover:bg-accent",
-              )}
-            >
-              <Icon aria-hidden className="size-4" />
-              {t(`filters.${view}`)}
-            </button>
-          )
-        })}
+      {/* How results are shown: order and list or map */}
+      <div className="ml-auto flex shrink-0 items-center gap-2">
+        <FilterMenu
+          label={t("filters.sort")}
+          anyLabel={t("filters.sortTrending")}
+          value={params.sort === "trending" ? undefined : params.sort}
+          options={[
+            { value: "name", label: t("filters.sortName") },
+            { value: "price", label: t("filters.sortPrice") },
+          ]}
+          onSelect={(v) => onChange({ sort: (v as ListingParams["sort"]) ?? "trending" })}
+        />
+        <div
+          role="group"
+          aria-label={t("filters.view")}
+          className="flex shrink-0 rounded-full border-2 border-foreground/15 bg-card p-0.5"
+        >
+          {(["list", "map"] as const).map((view) => {
+            const Icon = view === "list" ? List : MapIcon
+            const active = params.view === view
+            return (
+              <button
+                key={view}
+                type="button"
+                aria-pressed={active}
+                onClick={() => onChange({ view })}
+                className={cn(
+                  "inline-flex h-8 items-center gap-1.5 rounded-full px-3 text-sm font-semibold transition-colors",
+                  active ? "bg-foreground text-background" : "hover:bg-accent",
+                )}
+              >
+                <Icon aria-hidden className="size-4" />
+                {t(`filters.${view}`)}
+              </button>
+            )
+          })}
+        </div>
       </div>
     </div>
   )
