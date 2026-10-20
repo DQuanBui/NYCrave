@@ -15,8 +15,11 @@ import type { Category } from "@/types/place"
 /** A guide's places by category, with a switch to show only what is open now. */
 export function GuideSections({
   sections,
+  heading: Heading = "h2",
 }: {
   sections: { category: Category; places: CardPlace[] }[]
+  /** Heading level for each category, so sections nest under the page's own headings. */
+  heading?: "h2" | "h3"
 }) {
   const t = useTranslations()
   const now = useNow()
@@ -68,7 +71,7 @@ export function GuideSections({
           aria-labelledby={`${category}-title`}
           className="scroll-mt-24 space-y-5"
         >
-          <h2
+          <Heading
             id={`${category}-title`}
             className="flex items-center gap-3 font-display text-display-sm sm:text-display-md"
           >
@@ -76,7 +79,7 @@ export function GuideSections({
               {CATEGORY_META[category].bullet}
             </LineBullet>
             {t(`categories.${category}.title`)}
-          </h2>
+          </Heading>
           <PlaceGrid places={places} />
         </section>
       ))}

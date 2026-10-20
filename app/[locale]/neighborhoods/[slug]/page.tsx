@@ -6,11 +6,12 @@ import { EmptyState } from "@/components/brand/empty-state"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { SectionHeader } from "@/components/listing/section-header"
 import { LazyMap } from "@/components/map/lazy-map"
-import { PlaceGrid } from "@/components/place/place-grid"
+import { GuideSections } from "@/components/guides/guide-sections"
 import { RouteBullets } from "@/components/place/subway-list"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
+import { toCard } from "@/lib/card-place"
 import { distanceKm } from "@/lib/geo"
 import { placeToPoint } from "@/lib/map-points"
 import { getPlaces } from "@/lib/places"
@@ -73,6 +74,10 @@ export default async function NeighborhoodPage({ params }: Props) {
         title={hood.name}
         tagline={t(blurbKey(hood.slug))}
         back={{ href: "/neighborhoods", label: t("neighborhoods.title") }}
+        photos={places
+          .flatMap((p) => p.photos.slice(0, 1))
+          .filter((p) => !p.illustrative)
+          .slice(0, 3)}
       />
       <div className="mx-auto max-w-7xl space-y-10 px-4 py-8 lg:px-8 lg:py-10">
         <div className="flex flex-wrap items-center gap-3">
@@ -81,14 +86,16 @@ export default async function NeighborhoodPage({ params }: Props) {
           </p>
           <ul className="flex flex-wrap gap-1.5">
             {CATEGORIES.filter((c) => places.some((p) => p.category === c)).map((c) => (
-              <li
-                key={c}
-                className="flex items-center gap-1.5 rounded-full bg-muted py-0.5 pr-3 pl-1 text-sm font-semibold"
-              >
-                <LineBullet line={CATEGORY_META[c].line} size="xs">
-                  {CATEGORY_META[c].bullet}
-                </LineBullet>
-                {places.filter((p) => p.category === c).length} {t(`categories.${c}.title`)}
+              <li key={c}>
+                <a
+                  href={`#${c}`}
+                  className="flex items-center gap-1.5 rounded-full border-2 border-transparent bg-muted py-0.5 pr-3 pl-1 text-sm font-semibold hover:border-foreground"
+                >
+                  <LineBullet line={CATEGORY_META[c].line} size="xs">
+                    {CATEGORY_META[c].bullet}
+                  </LineBullet>
+                  {places.filter((p) => p.category === c).length} {t(`categories.${c}.title`)}
+                </a>
               </li>
             ))}
           </ul>
@@ -113,7 +120,13 @@ export default async function NeighborhoodPage({ params }: Props) {
               <h2 id="places-in" className="font-display text-display-md">
                 {t("neighborhoods.placesIn", { name: hood.name })}
               </h2>
-              <PlaceGrid places={places} />
+              <GuideSections
+                heading="h3"
+                sections={CATEGORIES.map((category) => ({
+                  category,
+                  places: places.filter((p) => p.category === category).map(toCard),
+                })).filter((s) => s.places.length > 0)}
+              />
             </section>
             <LazyMap
               points={places.map((p) => placeToPoint(p))}
