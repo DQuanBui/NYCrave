@@ -9,6 +9,7 @@ import { UnverifiedTag } from "@/components/place/unverified-tag"
 import { Link } from "@/i18n/navigation"
 import { placeTagKeys } from "@/lib/place-display"
 import { CATEGORY_META } from "@/lib/taxonomy"
+import { LINES } from "@/lib/lines"
 import { cn } from "@/lib/utils"
 import type { Travel } from "@/lib/planner/types"
 import type { CardPlace } from "@/lib/card-place"
@@ -33,7 +34,7 @@ export function PlaceCard({ place, className, priority, travel }: PlaceCardProps
   return (
     <article
       className={cn(
-        "group relative flex flex-col overflow-hidden rounded-2xl border bg-card text-card-foreground transition-shadow hover:shadow-[0_10px_30px_-12px_rgba(29,31,33,0.35)]",
+        "group relative flex flex-col overflow-hidden rounded-2xl border bg-card text-card-foreground transition-[box-shadow,translate,border-color] duration-300 hover:border-foreground/20 hover:shadow-[0_10px_30px_-12px_rgba(29,31,33,0.35)] motion-safe:hover:-translate-y-0.5 dark:hover:shadow-[0_12px_32px_-10px_rgba(0,0,0,0.85)]",
         className,
       )}
     >
@@ -53,6 +54,14 @@ export function PlaceCard({ place, className, priority, travel }: PlaceCardProps
           {meta.bullet}
         </LineBullet>
         <SaveButton slug={place.slug} name={place.name} className="absolute top-3 right-3 z-10" />
+        {/* The line's color lights up along the photo's edge, like a train line on a map */}
+        <span
+          aria-hidden
+          className={cn(
+            "absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 transition-transform duration-300 ease-(--ease-out-quint) group-focus-within:scale-x-100 group-hover:scale-x-100",
+            LINES[meta.line].bg,
+          )}
+        />
       </div>
 
       <div className="flex flex-1 flex-col gap-2 p-4">
