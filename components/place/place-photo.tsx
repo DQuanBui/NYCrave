@@ -50,17 +50,29 @@ export function PlacePhoto({
     )
   }
 
+  // A small, stable tilt per place so a row of placeholders doesn't look stamped out
+  const tilt = ([...place.slug].reduce((n, c) => n + c.charCodeAt(0), 0) % 13) - 6
+
+  // Like a station's mosaic name tablet: the line's tiles, the dish, and the name
   return (
-    <div aria-hidden className={cn("relative overflow-hidden", line.bg, line.fg, className)}>
+    <div
+      aria-hidden
+      className={cn("@container relative overflow-hidden", line.bg, line.fg, className)}
+    >
       <div className="absolute inset-0 tile-pattern" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-white/10" />
       <span
         className={cn(
-          "absolute inset-0 grid place-items-center drop-shadow-[0_6px_10px_rgba(0,0,0,0.25)]",
-          emojiSize === "lg" ? "text-8xl sm:text-9xl" : "text-6xl",
+          "absolute inset-0 grid place-items-center drop-shadow-[0_6px_10px_rgba(0,0,0,0.25)] @[12rem]:pb-[14%]",
+          emojiSize === "lg"
+            ? "text-6xl @[24rem]:text-8xl @[40rem]:text-9xl"
+            : "text-4xl @[12rem]:text-6xl",
         )}
       >
-        {placeEmoji(place)}
+        <span style={{ rotate: `${tilt}deg` }}>{placeEmoji(place)}</span>
+      </span>
+      <span className="absolute inset-x-[8%] bottom-[9%] hidden truncate rounded-sm border-2 border-white/85 bg-[#1d1f21]/90 px-2 py-1 text-center font-display text-base tracking-wide text-white uppercase shadow-md @[12rem]:block @[28rem]:text-2xl">
+        {place.name}
       </span>
     </div>
   )
