@@ -90,7 +90,8 @@
     "openToday": "open today",
     "free": "free",
     "suggestPlaces": "Suggested places",
-    "corrected": "Showing results for “{query}”"
+    "corrected": "Showing results for “{query}”",
+    "loading": "Searching…"
   },
   "moods": {
     "title": "Pick a mood",
@@ -452,7 +453,9 @@
   "notFound": {
     "title": "This stop is not in service",
     "body": "The page you are looking for does not exist or has moved.",
-    "cta": "Back to home"
+    "cta": "Back to home",
+    "search": "Search NYCrave",
+    "lines": "Or pick a line"
   },
   "rail": {
     "previous": "Scroll {title} back",
@@ -1621,5 +1624,11 @@
     "empty": "Nothing on NYCrave is open that late tonight. Try an earlier hour.",
     "note": "Checked against each place's weekly hours from its official site; kitchens can close before the bar, and holidays change hours. Streets, bridges and views never close:",
     "photoSpots": "see Photo spots"
+  },
+  "errorPage": {
+    "title": "This train is having trouble",
+    "body": "Something went wrong loading this page. Try again, or head back to the home page.",
+    "retry": "Try again",
+    "home": "Back to home"
   }
 }

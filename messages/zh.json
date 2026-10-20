@@ -90,7 +90,8 @@
     "openToday": "今天营业",
     "free": "免费",
     "suggestPlaces": "推荐地点",
-    "corrected": "显示“{query}”的结果"
+    "corrected": "显示“{query}”的结果",
+    "loading": "正在搜索…"
   },
   "moods": {
     "title": "选个心情",
@@ -452,7 +453,9 @@
   "notFound": {
     "title": "本站暂停服务",
     "body": "你要找的页面不存在或已移动。",
-    "cta": "返回首页"
+    "cta": "返回首页",
+    "search": "搜索 NYCrave",
+    "lines": "或选择一条线路"
   },
   "rail": {
     "previous": "向前滚动{title}",
@@ -1581,5 +1584,11 @@
     "empty": "今晚 NYCrave 上没有地方营业到这么晚。试试早一点的时间。",
     "note": "依据各地点官网的每周营业时间核对；厨房可能比酒吧更早关闭，节假日时间也会变化。街道、桥梁和观景点从不关闭：",
     "photoSpots": "查看拍照地点"
+  },
+  "errorPage": {
+    "title": "这班车出了点问题",
+    "body": "加载此页面时出错。请重试，或返回首页。",
+    "retry": "重试",
+    "home": "返回首页"
   }
 }

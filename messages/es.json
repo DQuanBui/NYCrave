@@ -90,7 +90,8 @@
     "openToday": "abierto hoy",
     "free": "gratis",
     "suggestPlaces": "Lugares sugeridos",
-    "corrected": "Mostrando resultados de «{query}»"
+    "corrected": "Mostrando resultados de «{query}»",
+    "loading": "Buscando…"
   },
   "moods": {
     "title": "Elige un plan",
@@ -452,7 +453,9 @@
   "notFound": {
     "title": "Esta parada está fuera de servicio",
     "body": "La página que buscas no existe o se movió.",
-    "cta": "Volver al inicio"
+    "cta": "Volver al inicio",
+    "search": "Buscar en NYCrave",
+    "lines": "O elige una línea"
   },
   "rail": {
     "previous": "Desplazar {title} hacia atrás",
@@ -1625,5 +1628,11 @@
     "empty": "Nada en NYCrave abre tan tarde esta noche. Prueba una hora más temprana.",
     "note": "Comprobado con el horario semanal de la web oficial de cada lugar; la cocina puede cerrar antes que la barra y los festivos cambian horarios. Las calles, los puentes y las vistas nunca cierran:",
     "photoSpots": "mira Lugares para fotos"
+  },
+  "errorPage": {
+    "title": "Este tren tiene problemas",
+    "body": "Algo salió mal al cargar esta página. Inténtalo de nuevo o vuelve al inicio.",
+    "retry": "Reintentar",
+    "home": "Volver al inicio"
   }
 }
