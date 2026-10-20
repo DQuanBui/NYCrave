@@ -2,7 +2,8 @@ import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { EmptyState } from "@/components/brand/empty-state"
 import { SmartSearch } from "@/components/home/smart-search"
-import { PlaceGrid } from "@/components/place/place-grid"
+import { SearchResults } from "@/components/search/search-results"
+import { toCard } from "@/lib/card-place"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { SEARCH_SUGGESTIONS } from "@/lib/home"
@@ -106,7 +107,7 @@ export default async function SearchPage({ params, searchParams }: Props) {
           <h2 id="results" className="sr-only">
             {tf("resultsHeading")}
           </h2>
-          <PlaceGrid places={results} />
+          <SearchResults key={query} places={results.map(toCard)} />
         </section>
       ) : (
         <EmptyState

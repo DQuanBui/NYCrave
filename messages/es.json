@@ -92,7 +92,9 @@
     "free": "gratis",
     "suggestPlaces": "Lugares sugeridos",
     "corrected": "Mostrando resultados de «{query}»",
-    "loading": "Buscando…"
+    "loading": "Buscando…",
+    "all": "Todo",
+    "byKind": "Resultados por tipo de lugar"
   },
   "moods": {
     "title": "Elige un plan",

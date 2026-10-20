@@ -92,7 +92,9 @@
     "free": "무료",
     "suggestPlaces": "추천 장소",
     "corrected": "“{query}” 검색 결과를 표시합니다",
-    "loading": "검색 중…"
+    "loading": "검색 중…",
+    "all": "전체",
+    "byKind": "장소 종류별 결과"
   },
   "moods": {
     "title": "기분 고르기",

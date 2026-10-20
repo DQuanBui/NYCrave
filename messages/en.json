@@ -92,7 +92,9 @@
     "free": "free",
     "suggestPlaces": "Suggested places",
     "corrected": "Showing results for “{query}”",
-    "loading": "Searching…"
+    "loading": "Searching…",
+    "all": "All",
+    "byKind": "Results by kind of place"
   },
   "moods": {
     "title": "Pick a mood",

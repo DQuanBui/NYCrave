@@ -92,7 +92,9 @@
     "free": "免费",
     "suggestPlaces": "推荐地点",
     "corrected": "显示“{query}”的结果",
-    "loading": "正在搜索…"
+    "loading": "正在搜索…",
+    "all": "全部",
+    "byKind": "按地点类型查看结果"
   },
   "moods": {
     "title": "选个心情",

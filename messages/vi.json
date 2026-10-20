@@ -92,7 +92,9 @@
     "free": "miễn phí",
     "suggestPlaces": "Địa điểm gợi ý",
     "corrected": "Đang hiện kết quả cho “{query}”",
-    "loading": "Đang tìm…"
+    "loading": "Đang tìm…",
+    "all": "Tất cả",
+    "byKind": "Kết quả theo loại địa điểm"
   },
   "moods": {
     "title": "Chọn tâm trạng",
