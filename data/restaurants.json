@@ -9602,5 +9602,218 @@
     "website": "https://www.lacabra.dk",
     "lat": 40.72935,
     "lng": -73.98669
+  },
+  {
+    "photos": [],
+    "mustTry": ["A bowl of pho", "Banh mi"],
+    "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Monday to Sunday 11 AM to 9 PM) from saigonshack.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-saigon-shack",
+    "slug": "saigon-shack-greenwich-village",
+    "name": "Saigon Shack",
+    "category": "restaurant",
+    "cuisines": ["vietnamese"],
+    "dishTypes": ["noodle_soup", "sandwiches"],
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "114 MacDougal St, New York, NY 10012",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "A busy, no-frills Vietnamese spot on MacDougal Street, long a go-to for cheap pho and banh mi near Washington Square.",
+    "bestTimeToVisit": "Weekday lunch",
+    "timeNeededMinutes": 40,
+    "trendingScore": 54,
+    "website": "https://www.saigonshack.com",
+    "lat": 40.72963,
+    "lng": -74.00052
+  },
+  {
+    "photos": [],
+    "mustTry": ["Galbi grilled over charcoal at the table", "The banchan spread"],
+    "vibeTags": ["group_friendly", "late_night", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (every day 10 AM to 5 AM) from newwonjo.com. The kitchen closes at 4 AM. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-new-wonjo",
+    "slug": "new-wonjo-koreatown",
+    "name": "New Wonjo",
+    "category": "restaurant",
+    "cuisines": ["korean"],
+    "dishTypes": ["bbq"],
+    "borough": "manhattan",
+    "neighborhood": "Koreatown",
+    "address": "23 W 32nd St, New York, NY 10001",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "05:00"
+        }
+      ]
+    },
+    "editorialTake": "A Koreatown barbecue house on 32nd Street since 1993, grilling marinated meats over charcoal at the table until the small hours.",
+    "bestTimeToVisit": "Late dinner with friends",
+    "timeNeededMinutes": 90,
+    "trendingScore": 58,
+    "website": "https://www.newwonjo.com",
+    "lat": 40.74786,
+    "lng": -73.98668
+  },
+  {
+    "photos": [],
+    "mustTry": ["Soondubu, bubbling soft tofu stew, with rice", "Fried croaker from the banchan"],
+    "vibeTags": ["late_night", "cheap_eats", "group_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours for the Manhattan location (Sunday to Thursday 10:30 AM to 1 AM, Friday and Saturday to 5 AM) from bcdtofuhouse.com/locations. The kitchen closes an hour before the doors. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-bcd-tofu-house",
+    "slug": "bcd-tofu-house-koreatown",
+    "name": "BCD Tofu House",
+    "category": "restaurant",
+    "cuisines": ["korean"],
+    "dishTypes": ["rice_dishes"],
+    "borough": "manhattan",
+    "neighborhood": "Koreatown",
+    "address": "5 W 32nd St, New York, NY 10001",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:30",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "05:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "05:00"
+        }
+      ]
+    },
+    "editorialTake": "The Koreatown branch of the soft tofu stew chain, serving bubbling soondubu with rice and banchan late into the night.",
+    "bestTimeToVisit": "After a late night out",
+    "timeNeededMinutes": 45,
+    "trendingScore": 52,
+    "website": "https://www.bcdtofuhouse.com",
+    "lat": 40.74751,
+    "lng": -73.98606
   }
 ]
