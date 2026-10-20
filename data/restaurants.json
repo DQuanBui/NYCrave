@@ -9815,5 +9815,76 @@
     "website": "https://www.bcdtofuhouse.com",
     "lat": 40.74751,
     "lng": -73.98606
+  },
+  {
+    "photos": [],
+    "mustTry": ["Jerk chicken", "Rasta pasta"],
+    "vibeTags": ["cheap_eats", "late_night", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Monday to Sunday 11 AM to 4 AM) from peppasjerkchicken.com. Closed on major holidays. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-peppas-jerk-chicken",
+    "slug": "peppas-jerk-chicken-laurelton",
+    "name": "Peppa's Jerk Chicken",
+    "category": "restaurant",
+    "cuisines": ["caribbean"],
+    "dishTypes": [],
+    "borough": "queens",
+    "neighborhood": "Laurelton",
+    "address": "226-08A Merrick Blvd, Laurelton, NY 11413",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "04:00"
+        }
+      ]
+    },
+    "editorialTake": "A Jamaican takeout counter for smoky jerk chicken, curries and seafood, open until 4 AM.",
+    "bestTimeToVisit": "Late night",
+    "timeNeededMinutes": 20,
+    "trendingScore": 50,
+    "website": "https://www.peppasjerkchicken.com",
+    "lat": 40.67703,
+    "lng": -73.74366
   }
 ]

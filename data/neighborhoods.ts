@@ -178,6 +178,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     lng: -73.8831,
   },
   { slug: "corona", name: "Corona", borough: "queens", lat: 40.7475, lng: -73.862 },
+  { slug: "laurelton", name: "Laurelton", borough: "queens", lat: 40.671, lng: -73.745 },
   {
     slug: "long-island-city",
     name: "Long Island City",

@@ -2306,5 +2306,256 @@
     "website": "https://www.bhphotovideo.com",
     "lat": 40.75313,
     "lng": -73.99614
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/time-out-market-new-york-1.jpg",
+        "alt": "Time Out Market New York's entrance and terrace at Empire Stores",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "(User:Wgreaves), CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Time_Out_Market,_55_Water_Street,_Brooklyn_NY.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/time-out-market-new-york-2.jpg",
+        "alt": "Long communal tables inside Time Out Market New York",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "(User:Wgreaves), CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Time_Out_Market,_opening_day_(May_31,_2019).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Picking dishes from several kitchens", "The rooftop view of the bridges"],
+    "vibeTags": ["group_friendly", "instagrammable", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Sunday to Thursday 8 AM to 10 PM, Friday and Saturday 8 AM to 11 PM) from timeoutmarket.com/newyork. Individual kitchens keep their own hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-time-out-market-new-york",
+    "slug": "time-out-market-new-york",
+    "name": "Time Out Market New York",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "brooklyn",
+    "neighborhood": "DUMBO",
+    "address": "55 Water St, Brooklyn, NY 11201",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A food hall in DUMBO's Empire Stores warehouse with counters from local restaurants and a rooftop looking out at the Brooklyn and Manhattan bridges.",
+    "bestTimeToVisit": "Late afternoon, before sunset on the roof",
+    "timeNeededMinutes": 75,
+    "trendingScore": 64,
+    "website": "https://www.timeoutmarket.com/newyork/",
+    "lat": 40.70354,
+    "lng": -73.99199
+  },
+  {
+    "photos": [],
+    "mustTry": ["A quick lunch from one of the vendor stalls"],
+    "vibeTags": ["cheap_eats", "solo_friendly", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Monday to Friday 7:30 AM to 9 PM, weekends 11 AM to 7 PM) from the structured data on urbanspacenyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-vanderbilt-market",
+    "slug": "vanderbilt-market",
+    "name": "Vanderbilt Market (Urbanspace)",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "230 Park Ave, New York, NY 10169",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:30",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:30",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:30",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:30",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:30",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A food hall next to Grand Central with a couple dozen vendor stalls, handy for a fast lunch or a coffee between trains.",
+    "bestTimeToVisit": "Before or after the lunch rush",
+    "timeNeededMinutes": 40,
+    "trendingScore": 52,
+    "website": "https://www.urbanspacenyc.com/vanderbilt",
+    "lat": 40.75439,
+    "lng": -73.9761
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/moynihan-food-hall-1.jpg",
+        "alt": "The skylit Moynihan Train Hall, next to the food hall in the Farley Building",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Epicgenius, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Farley_Building_Moynihan_Jan_2021_58.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A meal before a train from Moynihan Train Hall"],
+    "vibeTags": ["solo_friendly", "rainy_day", "group_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (food hall daily 10 AM to 10 PM) from moynihanfoodhall.com. The bar stays open until 12:30 AM. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-moynihan-food-hall",
+    "slug": "moynihan-food-hall",
+    "name": "Moynihan Food Hall",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "421 8th Ave, New York, NY 10001",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ]
+    },
+    "editorialTake": "A food hall in the landmark Farley post office building, across from Penn Station and beside the skylit Moynihan Train Hall.",
+    "bestTimeToVisit": "Before a train",
+    "timeNeededMinutes": 45,
+    "trendingScore": 54,
+    "website": "https://www.moynihanfoodhall.com",
+    "lat": 40.75112,
+    "lng": -73.99485
   }
 ]
