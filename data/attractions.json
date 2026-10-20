@@ -3828,5 +3828,308 @@
     "website": "https://www.weeksvillesociety.org",
     "lat": 40.67423,
     "lng": -73.92523
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/fraunces-tavern-museum-1.jpg",
+        "alt": "Fraunces Tavern's brick corner building on Pearl Street",
+        "width": 1100,
+        "height": 844,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Frauncestavern.JPG",
+          "license": "Public domain"
+        }
+      }
+    ],
+    "mustTry": ["The Long Room, where Washington bid farewell to his officers in 1783"],
+    "vibeTags": ["rainy_day", "tourist_classic", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (open daily, noon to 5 PM) from frauncestavernmuseum.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-fraunces-tavern-museum",
+    "slug": "fraunces-tavern-museum",
+    "name": "Fraunces Tavern Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Financial District",
+    "address": "54 Pearl St, 2nd Floor, New York, NY 10004",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A museum of the Revolutionary era above the historic Fraunces Tavern, where George Washington said farewell to his officers at the end of the war.",
+    "bestTimeToVisit": "Afternoon, then a drink downstairs",
+    "timeNeededMinutes": 60,
+    "trendingScore": 52,
+    "website": "https://www.frauncestavernmuseum.org",
+    "lat": 40.70339,
+    "lng": -74.01134
+  },
+  {
+    "photos": [],
+    "mustTry": ["A self-guided tour of the 1832 rooms, still with the family's furniture"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (self-guided tours Wednesday to Sunday, 1 to 5 PM, last entry 4:30 PM) from merchantshouse.org/visit. During restoration, enter via Manuel Plaza at 35 East 4th Street. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-merchants-house-museum",
+    "slug": "merchants-house-museum",
+    "name": "Merchant's House Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "NoHo",
+    "address": "29 E 4th St, New York, NY 10003",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "An 1832 rowhouse kept as the Tredwell family lived in it, with original furniture and a famously preserved 19th-century interior.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 46,
+    "website": "https://merchantshouse.org",
+    "lat": 40.72766,
+    "lng": -73.99234
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/general-grant-national-memorial-1.jpg",
+        "alt": "The domed granite mausoleum of Grant's Tomb on its plaza",
+        "width": 1100,
+        "height": 735,
+        "source": "other",
+        "attribution": {
+          "text": "Martin Furtschegger, CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:General_Grant_National_Memorial_(Grant%27s_Tomb)_am_Riverside_Drive,_Harlem_-_panoramio.jpg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      },
+      {
+        "url": "/photos/general-grant-national-memorial-2.jpg",
+        "alt": "Grant's Tomb hung with flag bunting",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Shoobydooba, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:General_Grant_National_Memorial_by_Riverside_Park.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "The domed mausoleum of Ulysses and Julia Grant",
+      "The mosaic benches around the plaza"
+    ],
+    "vibeTags": ["quiet", "tourist_classic", "outdoor"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: hours (mausoleum and visitor center Wednesday to Sunday, 10 AM to 4 PM) and location from nps.gov/gegr. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-general-grant-national-memorial",
+    "slug": "general-grant-national-memorial",
+    "name": "General Grant National Memorial (Grant's Tomb)",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Morningside Heights",
+    "address": "Riverside Dr & W 122nd St, New York, NY 10027",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "The largest mausoleum in North America, overlooking the Hudson in Riverside Park, where President Ulysses S. Grant and Julia Grant rest. Free, with park rangers on hand.",
+    "bestTimeToVisit": "Late morning, with a walk in Riverside Park",
+    "timeNeededMinutes": 45,
+    "trendingScore": 50,
+    "website": "https://www.nps.gov/gegr/",
+    "lat": 40.81337,
+    "lng": -73.96297
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/hamilton-grange-national-memorial-1.jpg",
+        "alt": "The restored porch and front steps of Hamilton Grange",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "olekinderhook, CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Hamilton_Grange,_Alexander_Hamilton%27s_country_estate,_in_St_Nicholas_Park._-_panoramio.jpg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      }
+    ],
+    "mustTry": ["A free tour of Alexander Hamilton's restored home"],
+    "vibeTags": ["quiet", "tourist_classic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (visitor center Wednesday to Sunday, 10 AM to 4 PM; free tours at 11:30 AM, 1:30 PM and 3:30 PM, first come first served) from nps.gov/hagr. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-hamilton-grange",
+    "slug": "hamilton-grange-national-memorial",
+    "name": "Hamilton Grange National Memorial",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Harlem",
+    "address": "414 W 141st St, New York, NY 10031",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "Alexander Hamilton's only home, moved twice and now in St. Nicholas Park, with free ranger-led tours of the restored rooms.",
+    "bestTimeToVisit": "Arrive for a tour (11:30 AM, 1:30 PM or 3:30 PM)",
+    "timeNeededMinutes": 60,
+    "trendingScore": 52,
+    "website": "https://www.nps.gov/hagr/",
+    "lat": 40.82136,
+    "lng": -73.9473
   }
 ]
