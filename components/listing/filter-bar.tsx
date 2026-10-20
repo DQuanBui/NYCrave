@@ -1,6 +1,6 @@
 "use client"
 
-import { List, Map as MapIcon, X } from "lucide-react"
+import { Accessibility, List, Map as MapIcon, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { FilterMenu, pillClass } from "@/components/listing/filter-menu"
 import type { FilterOptions } from "@/lib/listing"
@@ -49,6 +49,17 @@ export function FilterBar({ params, options, onChange, onClear }: FilterBarProps
             {t("filters.free")}
           </button>
         ) : null}
+
+        <button
+          type="button"
+          aria-pressed={Boolean(params.step)}
+          onClick={() => onChange({ step: params.step ? undefined : true })}
+          className={pillClass(Boolean(params.step))}
+          title={t("filters.stepFreeHint")}
+        >
+          <Accessibility aria-hidden className="size-4" />
+          {t("filters.stepFree")}
+        </button>
 
         {options.boroughs.length > 1 ? (
           <FilterMenu

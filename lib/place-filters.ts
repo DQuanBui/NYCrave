@@ -79,6 +79,8 @@ export type ListingParams = {
   price?: 1 | 2 | 3 | 4
   open?: boolean
   free?: boolean
+  /** Only places with a step-free subway station a short walk away. */
+  step?: boolean
   vibe?: VibeTag
   diet?: DietaryOption
   light?: LightTime
@@ -100,6 +102,7 @@ export function parseListingParams(raw: RawParams): ListingParams {
     price: price >= 1 && price <= 4 ? (price as 1 | 2 | 3 | 4) : undefined,
     open: first(raw.open) === "1" || undefined,
     free: first(raw.free) === "1" || undefined,
+    step: first(raw.step) === "1" || undefined,
     vibe: oneOf(VIBE_TAGS, first(raw.vibe)),
     diet: oneOf(DIETARY_OPTIONS, first(raw.diet)),
     light: oneOf(LIGHT_TIMES, first(raw.light)),
@@ -116,6 +119,7 @@ export function listingQuery(p: Partial<ListingParams>): Record<string, string> 
   if (p.price) q.price = String(p.price)
   if (p.open) q.open = "1"
   if (p.free) q.free = "1"
+  if (p.step) q.step = "1"
   if (p.vibe) q.vibe = p.vibe
   if (p.diet) q.diet = p.diet
   if (p.light) q.light = p.light

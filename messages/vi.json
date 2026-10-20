@@ -212,7 +212,9 @@
     "nearMe": "Gần tôi",
     "locating": "Đang tìm vị trí",
     "locationDenied": "Vị trí đang tắt. Hãy cho phép trong trình duyệt để sắp xếp theo khoảng cách.",
-    "locationFar": "Có vẻ bạn đang ở ngoài thành phố New York, nên khoảng cách sẽ khá xa."
+    "locationFar": "Có vẻ bạn đang ở ngoài thành phố New York, nên khoảng cách sẽ khá xa.",
+    "stepFree": "Ga không bậc thang",
+    "stepFreeHint": "Có ga tàu điện ngầm có thang máy hoặc lối dốc trong vòng 10 phút đi bộ"
   },
   "browse": {
     "cuisine": "Duyệt theo ẩm thực",

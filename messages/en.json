@@ -212,7 +212,9 @@
     "nearMe": "Near me",
     "locating": "Finding you",
     "locationDenied": "Location is off. Allow it in your browser to sort by distance.",
-    "locationFar": "You seem to be outside New York City, so distances are long."
+    "locationFar": "You seem to be outside New York City, so distances are long.",
+    "stepFree": "Step-free subway",
+    "stepFreeHint": "A subway station with elevators or ramps within a 10-minute walk"
   },
   "browse": {
     "cuisine": "Browse by cuisine",

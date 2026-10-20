@@ -51,5 +51,7 @@ export function applyListing(pool: Place[], params: ListingParams, now = new Dat
 }
 
 export function hasActiveFilters(p: ListingParams): boolean {
-  return Boolean(p.borough || p.hood || p.price || p.open || p.free || p.vibe || p.diet || p.light)
+  return Boolean(
+    p.borough || p.hood || p.price || p.open || p.free || p.step || p.vibe || p.diet || p.light,
+  )
 }

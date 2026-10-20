@@ -212,7 +212,9 @@
     "nearMe": "Cerca de mí",
     "locating": "Buscando tu ubicación",
     "locationDenied": "La ubicación está desactivada. Actívala en tu navegador para ordenar por distancia.",
-    "locationFar": "Parece que estás fuera de la ciudad de Nueva York, así que las distancias son largas."
+    "locationFar": "Parece que estás fuera de la ciudad de Nueva York, así que las distancias son largas.",
+    "stepFree": "Metro sin escalones",
+    "stepFreeHint": "Una estación de metro con ascensor o rampa a menos de 10 minutos a pie"
   },
   "browse": {
     "cuisine": "Explora por cocina",
