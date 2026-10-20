@@ -35,7 +35,13 @@
     "subway": "By subway",
     "crawls": "Food crawls",
     "searchShortcut": "Search (press /)",
-    "tonight": "Open late"
+    "tonight": "Open late",
+    "groups": {
+      "lines": "The lines",
+      "plan": "Plan your day",
+      "discover": "Discover",
+      "more": "More"
+    }
   },
   "theme": {
     "toggle": "Switch to {mode} mode",

@@ -35,7 +35,13 @@
     "subway": "En metro",
     "crawls": "Rutas gastronómicas",
     "searchShortcut": "Buscar (pulsa /)",
-    "tonight": "Abierto tarde"
+    "tonight": "Abierto tarde",
+    "groups": {
+      "lines": "Las líneas",
+      "plan": "Planea tu día",
+      "discover": "Descubre",
+      "more": "Más"
+    }
   },
   "theme": {
     "toggle": "Cambiar a modo {mode}",

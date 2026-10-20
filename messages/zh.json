@@ -35,7 +35,13 @@
     "subway": "按地铁",
     "crawls": "美食步行路线",
     "searchShortcut": "搜索（按 /）",
-    "tonight": "深夜营业"
+    "tonight": "深夜营业",
+    "groups": {
+      "lines": "主线路",
+      "plan": "规划行程",
+      "discover": "发现",
+      "more": "更多"
+    }
   },
   "theme": {
     "toggle": "切换到{mode}模式",

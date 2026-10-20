@@ -83,25 +83,18 @@ export const NAV: Record<NavKey, NavItem> = {
 export const TAB_BAR: NavKey[] = ["eat", "sip", "explore", "myDay", "saved"]
 /** Desktop header, left group. */
 export const TOP_NAV: NavKey[] = ["eat", "sip", "explore", "shop", "photoSpots", "parks"]
-/** Full menu (mobile sheet). */
-export const MENU: NavKey[] = [
-  ...TOP_NAV,
-  "next",
-  "tonight",
-  "guides",
-  "subway",
-  "food",
-  "crawls",
-  "walks",
-  "goldenHour",
-  "map",
-  "neighborhoods",
-  "seasons",
-  "tips",
-  "myDay",
-  "saved",
-  "passport",
+/** The full menu (mobile sheet and footer), grouped so it scans quickly. */
+export type MenuGroupKey = "lines" | "plan" | "discover" | "more"
+export const MENU_GROUPS: { key: MenuGroupKey; items: NavKey[] }[] = [
+  { key: "lines", items: TOP_NAV },
+  { key: "plan", items: ["myDay", "next", "tonight", "map", "saved", "passport"] },
+  {
+    key: "discover",
+    items: ["guides", "food", "crawls", "subway", "walks", "goldenHour", "seasons"],
+  },
+  { key: "more", items: ["neighborhoods", "tips"] },
 ]
+export const MENU: NavKey[] = MENU_GROUPS.flatMap((g) => g.items)
 
 export function isActive(pathname: string, href: string): boolean {
   return pathname === href || pathname.startsWith(`${href}/`)

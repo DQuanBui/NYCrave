@@ -18,7 +18,7 @@ import { useSaved } from "@/hooks/use-saved"
 import { useSearchShortcut } from "@/hooks/use-search-shortcut"
 import { Link, usePathname } from "@/i18n/navigation"
 import { LINES } from "@/lib/lines"
-import { MENU, NAV, TOP_NAV, isActive } from "@/lib/nav"
+import { MENU_GROUPS, NAV, TOP_NAV, isActive } from "@/lib/nav"
 import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
@@ -139,37 +139,77 @@ function MobileMenu() {
             {t("menuDescription")}
           </SheetDescription>
         </SheetHeader>
-        <nav aria-label={t("main")} className="overflow-y-auto p-2">
-          <ul>
-            {MENU.map((key) => {
-              const item = NAV[key]
-              const Icon = item.icon
-              const active = isActive(pathname, item.href)
-              return (
-                <li key={key}>
-                  <Link
-                    href={item.href}
-                    aria-current={active ? "page" : undefined}
-                    className={cn(
-                      "flex items-center gap-3 rounded-lg px-3 py-3 text-base font-semibold",
-                      active ? "bg-accent" : "hover:bg-accent/60",
-                    )}
-                  >
-                    {item.line ? (
-                      <LineBullet line={item.line} size="sm">
-                        <Icon className="size-3.5" aria-hidden />
-                      </LineBullet>
-                    ) : (
-                      <span className="grid size-6 place-items-center rounded-full bg-muted">
-                        <Icon className="size-3.5" aria-hidden />
-                      </span>
-                    )}
-                    {t(key)}
-                  </Link>
-                </li>
-              )
-            })}
-          </ul>
+        <nav aria-label={t("main")} className="space-y-5 overflow-y-auto p-3 pb-8">
+          {MENU_GROUPS.map((group) => (
+            <section key={group.key} aria-labelledby={`menu-${group.key}`}>
+              <h2
+                id={`menu-${group.key}`}
+                className="px-2 pb-2 text-xs font-bold tracking-wider text-muted-foreground uppercase"
+              >
+                {t(`groups.${group.key}`)}
+              </h2>
+              {group.key === "lines" ? (
+                // The six lines as tiles, like a station's line map
+                <ul className="grid grid-cols-3 gap-2">
+                  {group.items.map((key) => {
+                    const item = NAV[key]
+                    const Icon = item.icon
+                    const active = isActive(pathname, item.href)
+                    return (
+                      <li key={key}>
+                        <Link
+                          href={item.href}
+                          aria-current={active ? "page" : undefined}
+                          className={cn(
+                            "flex h-full flex-col items-center gap-1.5 rounded-xl border-2 px-1 py-3 text-center text-sm font-semibold transition-colors",
+                            active
+                              ? "border-foreground bg-accent"
+                              : "border-transparent bg-muted/60 hover:border-foreground/30",
+                          )}
+                        >
+                          <LineBullet line={item.line ?? "gray"} size="md">
+                            <Icon className="size-4" aria-hidden />
+                          </LineBullet>
+                          {t(key)}
+                        </Link>
+                      </li>
+                    )
+                  })}
+                </ul>
+              ) : (
+                <ul>
+                  {group.items.map((key) => {
+                    const item = NAV[key]
+                    const Icon = item.icon
+                    const active = isActive(pathname, item.href)
+                    return (
+                      <li key={key}>
+                        <Link
+                          href={item.href}
+                          aria-current={active ? "page" : undefined}
+                          className={cn(
+                            "flex items-center gap-3 rounded-lg px-2 py-2.5 text-base font-semibold",
+                            active ? "bg-accent" : "hover:bg-accent/60",
+                          )}
+                        >
+                          {item.line ? (
+                            <LineBullet line={item.line} size="sm">
+                              <Icon className="size-3.5" aria-hidden />
+                            </LineBullet>
+                          ) : (
+                            <span className="grid size-6 place-items-center rounded-full bg-muted">
+                              <Icon className="size-3.5" aria-hidden />
+                            </span>
+                          )}
+                          {t(key)}
+                        </Link>
+                      </li>
+                    )
+                  })}
+                </ul>
+              )}
+            </section>
+          ))}
         </nav>
       </SheetContent>
     </Sheet>

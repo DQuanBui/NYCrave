@@ -35,7 +35,13 @@
     "subway": "Theo tàu điện ngầm",
     "crawls": "Ăn một vòng",
     "searchShortcut": "Tìm kiếm (nhấn /)",
-    "tonight": "Mở khuya"
+    "tonight": "Mở khuya",
+    "groups": {
+      "lines": "Các tuyến",
+      "plan": "Lên kế hoạch",
+      "discover": "Khám phá",
+      "more": "Thêm"
+    }
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",

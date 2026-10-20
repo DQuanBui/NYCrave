@@ -35,7 +35,13 @@
     "subway": "지하철로",
     "crawls": "먹거리 투어",
     "searchShortcut": "검색 (/ 키)",
-    "tonight": "늦게까지 영업"
+    "tonight": "늦게까지 영업",
+    "groups": {
+      "lines": "주요 노선",
+      "plan": "하루 계획",
+      "discover": "둘러보기",
+      "more": "더 보기"
+    }
   },
   "theme": {
     "toggle": "{mode} 모드로 전환",
