@@ -216,7 +216,8 @@
     "locationDenied": "Location is off. Allow it in your browser to sort by distance.",
     "locationFar": "You seem to be outside New York City, so distances are long.",
     "stepFree": "Step-free subway",
-    "stepFreeHint": "A subway station with elevators or ramps within a 10-minute walk"
+    "stepFreeHint": "A subway station with elevators or ramps within a 10-minute walk",
+    "clusterLabel": "{count} places here: zoom in"
   },
   "browse": {
     "cuisine": "Browse by cuisine",

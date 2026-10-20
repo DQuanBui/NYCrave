@@ -216,7 +216,8 @@
     "locationDenied": "위치 사용이 꺼져 있어요. 거리순 정렬을 하려면 브라우저에서 허용해 주세요.",
     "locationFar": "뉴욕시 밖에 계신 것 같아 거리가 멀게 표시됩니다.",
     "stepFree": "계단 없는 지하철역",
-    "stepFreeHint": "도보 10분 이내에 엘리베이터나 경사로가 있는 지하철역"
+    "stepFreeHint": "도보 10분 이내에 엘리베이터나 경사로가 있는 지하철역",
+    "clusterLabel": "이곳에 장소 {count}곳: 확대"
   },
   "browse": {
     "cuisine": "요리별로 둘러보기",

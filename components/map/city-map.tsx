@@ -122,6 +122,7 @@ export function CityMap({ places }: { places: CardPlace[] }) {
         selectedId={selectedId}
         onSelect={setSelectedId}
         cooperative={false}
+        cluster
         padding={{ top: 150, bottom: selected ? 190 : 50, left: 40, right: 40 }}
         controlsPosition="bottom-right"
         initialView={{ longitude: -73.975, latitude: 40.728, zoom: 11.6 }}

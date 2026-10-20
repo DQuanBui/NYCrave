@@ -114,6 +114,7 @@ export function ListingClient({ places, params, options }: ListingClientProps) {
               <LazyMap
                 points={sorted.map((p) => placeToPoint(p))}
                 ariaLabel={t("mapLabel", { count: places.length })}
+                cluster
                 className="h-[60vh] min-h-80"
               />
             ) : null}

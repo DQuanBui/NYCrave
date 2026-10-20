@@ -15,7 +15,7 @@ import Map, {
 } from "react-map-gl/maplibre"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { Link } from "@/i18n/navigation"
-import type { LineColor } from "@/lib/lines"
+import { LINES, type LineColor } from "@/lib/lines"
 import { cn } from "@/lib/utils"
 
 export type MapPoint = {
@@ -48,6 +48,53 @@ export type MapViewProps = {
   controlsPosition?: "top-right" | "bottom-right"
   /** Start here instead of fitting every point (the fit still runs on later changes). */
   initialView?: { longitude: number; latitude: number; zoom: number }
+  /** Merge markers that would overlap into a count bubble (for maps with many places). */
+  cluster?: boolean
+}
+
+/** A conic gradient with each line's share of the points, in line order. */
+function lineRing(points: MapPoint[]): string {
+  const counts = new globalThis.Map<LineColor, number>()
+  for (const p of points) counts.set(p.line, (counts.get(p.line) ?? 0) + 1)
+  let at = 0
+  const stops = [...counts].map(([line, n]) => {
+    const from = at
+    at += (n / points.length) * 360
+    return `${LINES[line].hex} ${from}deg ${at}deg`
+  })
+  return `conic-gradient(${stops.join(", ")})`
+}
+
+/** Markers closer than this on screen are merged into one bubble. */
+const CLUSTER_PX = 44
+
+type Group = { id: string; lat: number; lng: number; points: MapPoint[] }
+
+/** Greedy screen-space clustering: each point joins the first group within reach. */
+function clusterPoints(
+  points: MapPoint[],
+  project: (p: MapPoint) => { x: number; y: number },
+  keep: string | null,
+): Group[] {
+  const groups: (Group & { x: number; y: number })[] = []
+  for (const p of points) {
+    const { x, y } = project(p)
+    const near =
+      p.id === keep
+        ? undefined
+        : groups.find(
+            (g) =>
+              !g.points.some((q) => q.id === keep) && Math.hypot(g.x - x, g.y - y) < CLUSTER_PX,
+          )
+    if (near) near.points.push(p)
+    else groups.push({ id: p.id, lat: p.lat, lng: p.lng, x, y, points: [p] })
+  }
+  return groups.map((g) => ({
+    id: g.points.length > 1 ? `cluster-${g.id}` : g.id,
+    lat: g.points.reduce((n, q) => n + q.lat, 0) / g.points.length,
+    lng: g.points.reduce((n, q) => n + q.lng, 0) / g.points.length,
+    points: g.points,
+  }))
 }
 
 // Served from public/ (see scripts/copy-maplibre-worker.mjs)
@@ -96,6 +143,7 @@ export default function MapView({
   padding = { top: 60, bottom: 60, left: 60, right: 60 },
   controlsPosition = "top-right",
   initialView,
+  cluster = false,
 }: MapViewProps) {
   const t = useTranslations("filters")
   const { resolvedTheme } = useTheme()
@@ -105,6 +153,16 @@ export default function MapView({
   const selectedId = controlled ? (controlledId ?? null) : ownId
   const setSelectedId = controlled ? onSelect : setOwnId
   const selected = points.find((p) => p.id === selectedId)
+
+  // Clusters depend on the zoom, so they are recomputed whenever the map settles
+  const [groups, setGroups] = useState<Group[] | null>(null)
+  const regroup = () => {
+    const map = mapRef.current
+    if (!cluster || !map) return
+    setGroups(clusterPoints(points, (p) => map.project([p.lng, p.lat]), selectedId))
+  }
+  // Points or selection changed: regroup against the current view
+  useEffect(regroup, [cluster, points, selectedId])
 
   const initialViewState = useMemo(() => {
     if (initialView) return initialView
@@ -157,6 +215,8 @@ export default function MapView({
         style={{ width: "100%", height: "100%" }}
         cooperativeGestures={cooperative}
         onClick={() => controlled && setSelectedId(null)}
+        onLoad={regroup}
+        onMoveEnd={regroup}
       >
         <NavigationControl position={controlsPosition} showCompass={false} />
         {route && points.length > 1 ? (
@@ -183,7 +243,37 @@ export default function MapView({
             </span>
           </Marker>
         ) : null}
-        {points.map((p) => (
+        {cluster
+          ? (groups ?? [])
+              .filter((g) => g.points.length > 1)
+              .map((g) => (
+                <Marker key={g.id} longitude={g.lng} latitude={g.lat} anchor="center">
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation()
+                      mapRef.current?.fitBounds(boundsOf(g.points), {
+                        padding: 80,
+                        maxZoom: 16,
+                        duration: 500,
+                      })
+                    }}
+                    aria-label={t("clusterLabel", { count: g.points.length })}
+                    // A ring split by the lines of the places inside, like a small pie chart
+                    style={{ background: lineRing(g.points) }}
+                    className="grid size-12 place-items-center rounded-full p-[5px] shadow-lg transition-transform hover:scale-110 focus-visible:scale-110"
+                  >
+                    <span className="grid size-full place-items-center rounded-full bg-foreground text-sm font-bold text-background">
+                      {g.points.length}
+                    </span>
+                  </button>
+                </Marker>
+              ))
+          : null}
+        {(cluster
+          ? (groups ?? []).filter((g) => g.points.length === 1).map((g) => g.points[0])
+          : points
+        ).map((p) => (
           <Marker
             key={p.id}
             longitude={p.lng}
