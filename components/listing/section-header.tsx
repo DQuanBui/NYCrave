@@ -56,8 +56,11 @@ export function SectionHeader({
             >
               {bullet}
             </LineBullet>
-            <div className="min-w-0 space-y-2">
-              <h1 className="font-display text-display-xl text-balance">{title}</h1>
+            <div className="@container min-w-0 flex-1 space-y-2">
+              {/* Capped by the column's width so a long one-word name never runs under the photos */}
+              <h1 className="font-display text-display-xl [font-size:min(var(--text-display-xl),17cqi)] text-balance">
+                {title}
+              </h1>
               <p className="max-w-xl text-lg text-muted-foreground">{tagline}</p>
             </div>
           </div>
