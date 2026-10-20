@@ -447,7 +447,7 @@
     "saveAll": "Lưu cả {count}",
     "allSaved": "Đã lưu hết",
     "yours": "Địa điểm bạn đã lưu",
-    "planDay": "Lên kế hoạch một ngày với những nơi này",
+    "planDay": "Lên kế hoạch một ngày với {count} địa điểm này",
     "mapLabel": "Bản đồ các địa điểm đã lưu"
   },
   "footer": {

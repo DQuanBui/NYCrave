@@ -447,7 +447,7 @@
     "saveAll": "全部收藏（{count} 个）",
     "allSaved": "已全部收藏",
     "yours": "你收藏的地点",
-    "planDay": "用这些地点规划一天",
+    "planDay": "用这 {count} 个地点规划一天",
     "mapLabel": "已收藏地点地图"
   },
   "footer": {

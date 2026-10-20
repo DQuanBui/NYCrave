@@ -447,7 +447,7 @@
     "saveAll": "{count}곳 모두 저장",
     "allSaved": "모두 저장됨",
     "yours": "내가 저장한 장소",
-    "planDay": "이 장소들로 하루 계획하기",
+    "planDay": "이 장소 {count}곳으로 하루 계획하기",
     "mapLabel": "저장한 장소 지도"
   },
   "footer": {
