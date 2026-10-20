@@ -41,7 +41,8 @@
       "plan": "Lên kế hoạch",
       "discover": "Khám phá",
       "more": "Thêm"
-    }
+    },
+    "backToTop": "Lên đầu trang"
   },
   "theme": {
     "toggle": "Chuyển sang chế độ {mode}",

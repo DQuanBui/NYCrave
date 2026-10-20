@@ -41,7 +41,8 @@
       "plan": "하루 계획",
       "discover": "둘러보기",
       "more": "더 보기"
-    }
+    },
+    "backToTop": "맨 위로"
   },
   "theme": {
     "toggle": "{mode} 모드로 전환",

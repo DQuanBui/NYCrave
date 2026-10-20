@@ -8,6 +8,7 @@ import { FeedbackPrompt } from "@/components/feedback/feedback"
 import { SiteFooter } from "@/components/layout/site-footer"
 import { SiteHeader } from "@/components/layout/site-header"
 import { ServiceWorker } from "@/components/providers/service-worker"
+import { BackToTop } from "@/components/layout/back-to-top"
 import { Providers } from "@/components/providers/theme-provider"
 import { initLocale } from "@/i18n/locale"
 import { clientMessages } from "@/lib/client-messages"
@@ -62,12 +63,13 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
               {t("skipToContent")}
             </a>
             <SiteHeader />
-            <main id="main" className="flex-1">
+            <main id="main" tabIndex={-1} className="flex-1 outline-none">
               {children}
             </main>
             <SiteFooter />
             <BottomTabBar />
             <Assistant ai={Boolean(process.env.ANTHROPIC_API_KEY)} />
+            <BackToTop />
             {feedbackEnabled() ? <FeedbackPrompt /> : null}
             <ServiceWorker />
           </Providers>

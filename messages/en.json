@@ -41,7 +41,8 @@
       "plan": "Plan your day",
       "discover": "Discover",
       "more": "More"
-    }
+    },
+    "backToTop": "Back to top"
   },
   "theme": {
     "toggle": "Switch to {mode} mode",

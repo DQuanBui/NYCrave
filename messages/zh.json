@@ -41,7 +41,8 @@
       "plan": "规划行程",
       "discover": "发现",
       "more": "更多"
-    }
+    },
+    "backToTop": "回到顶部"
   },
   "theme": {
     "toggle": "切换到{mode}模式",
