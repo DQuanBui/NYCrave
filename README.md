@@ -19,7 +19,7 @@ NYCrave is a mobile-first guide to New York City for locals and visitors: where 
 
 | | |
 | --- | --- |
-| 🔴 **Eat** · 🟠 **Sip** · 🔵 **Explore** · 🟣 **Shop** · 🟡 **Photo spots** · 🟢 **Parks & piers** | Browse by cuisine, dish, drink or shop type, with filters for open now, free, borough, neighborhood, price, vibe and dietary needs, as a list or a map |
+| 🔴 **Eat** · 🟠 **Sip** · 🔵 **Explore** · 🟣 **Shop** · 🟡 **Photo spots** · 🟢 **Parks & piers** | Browse by cuisine, dish, drink or shop type, with filters for open now, free, step-free subway nearby, borough, neighborhood, price, vibe and dietary needs, as a list or a map |
 | **Smart search** | Plain phrases in any of the five languages: "dumplings in Chinatown", "late night pizza", "trà sữa", "atracciones gratis", "唐人街 饺子", "차이나타운 만두". Forgives typos, and <kbd>/</kbd> jumps to it from any page |
 | **City map** | Every place on one map, with line toggles, *Open now*, *Free* and *Near me* |
 | **Design My Day** | A timed day from breakfast to a nightcap, within budget, with the train to take between stops; swap stops, share, add to calendar or open the route in Google Maps |
@@ -35,7 +35,7 @@ NYCrave is a mobile-first guide to New York City for locals and visitors: where 
 | **Golden hour** | Today's light as a live sky ribbon, and photo walks timed so every stop lands in its best light |
 | **Seasons** | Manhattanhenge, cherry blossoms, the marathon and the holiday windows, with countdowns |
 | **NYC Passport** | Stamp the places you visit and earn 14 badges, from Pizza pilgrim to Line hopper |
-| **Place pages** | Full-screen photos, live hours, must-try items, tickets, nearest subway stations, directions, and today's golden hour for photo spots |
+| **Place pages** | Breadcrumbs, full-screen photos, live hours, must-try items, tickets, nearest subway stations, directions, and today's golden hour for photo spots |
 | **Neighborhood guides** | Every neighborhood with its places, subway lines and a *Plan a day starting here* button |
 | **Tourist tips** | Airports, the subway and OMNY, tipping with a bill calculator, safety, and the city through the seasons |
 | **Five languages** | English, Vietnamese, Spanish, Simplified Chinese and Korean, switched in the footer |
