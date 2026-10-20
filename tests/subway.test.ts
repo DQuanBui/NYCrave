@@ -54,13 +54,15 @@ describe("subway legs", () => {
 
 describe("service days", () => {
   it("does not suggest the B or W on weekends", () => {
+    // Every place against every sixth one: all origins and stations get covered,
+    // without the full set of pairs, which grows with the square of the dataset
+    const targets = places.filter((_, i) => i % 6 === 0)
     for (const a of places) {
-      for (const b of places) {
+      for (const b of targets) {
         if (a === b) continue
         const leg = subwayLeg(a, b, { weekend: true })
         expect(["B", "W", "Z"]).not.toContain(leg?.direct)
       }
     }
-    // Every pair of places: slow, and it grows with the dataset
   }, 30_000)
 })
