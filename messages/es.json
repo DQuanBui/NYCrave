@@ -446,7 +446,9 @@
     "sharedBody": "Alguien te envió estos lugares. Guárdalos todos para tenerlos en este dispositivo.",
     "saveAll": "Guardar los {count}",
     "allSaved": "Todos guardados",
-    "yours": "Tus lugares guardados"
+    "yours": "Tus lugares guardados",
+    "planDay": "{count, plural, one {Planea un día con este lugar} other {Planea un día con estos}}",
+    "mapLabel": "Mapa de tus lugares guardados"
   },
   "footer": {
     "dataNote": "Los lugares marcados Sin verificar se investigaron en fuentes oficiales, pero aún no se confirmaron con el lugar. Los horarios y precios cambian, así que verifica antes de ir. Las descripciones de los lugares están en inglés por ahora.",

@@ -446,7 +446,9 @@
     "sharedBody": "Someone sent you these places. Save them all to keep them on this device.",
     "saveAll": "Save all {count}",
     "allSaved": "All saved",
-    "yours": "Your saved places"
+    "yours": "Your saved places",
+    "planDay": "{count, plural, one {Plan a day around it} other {Plan a day with these}}",
+    "mapLabel": "Map of your saved places"
   },
   "footer": {
     "dataNote": "Places marked Unverified were researched from official sources but not yet confirmed with the venue. Hours and prices change, so check before you go.",

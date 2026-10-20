@@ -1,9 +1,10 @@
 "use client"
 
-import { Heart } from "lucide-react"
+import { Heart, Route } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { EmptyState } from "@/components/brand/empty-state"
 import { PlaceCardSkeleton } from "@/components/place/place-card-skeleton"
+import { LazyMap } from "@/components/map/lazy-map"
 import { PlaceGrid } from "@/components/place/place-grid"
 import { ShareButton } from "@/components/place/share-button"
 import { Button } from "@/components/ui/button"
@@ -11,6 +12,8 @@ import { useHydrated } from "@/hooks/use-now"
 import { useSaved } from "@/hooks/use-saved"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
+import { placeToPoint } from "@/lib/map-points"
+import { planSavedQuery } from "@/lib/planner/around"
 import { MAX_SHARED } from "@/lib/shared-list"
 
 /** A link that opens this list on anyone's device, ready to save. */
@@ -40,6 +43,8 @@ export function SavedList({ places }: { places: CardPlace[] }) {
     .map((slug) => places.find((p) => p.slug === slug))
     .filter((p): p is CardPlace => p !== undefined)
 
+  const plan = planSavedQuery(saved)
+
   if (saved.length === 0) {
     return (
       <EmptyState
@@ -62,13 +67,27 @@ export function SavedList({ places }: { places: CardPlace[] }) {
         <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
           {t("count", { count: saved.length })}
         </p>
-        <ShareButton
-          title={t("shareTitle")}
-          url={shareListUrl(saved.map((p) => p.slug))}
-          label={t("shareList")}
-        />
+        <div className="flex flex-wrap items-center gap-2">
+          <Link
+            href={{ pathname: "/my-day", query: plan.query }}
+            className="inline-flex h-10 items-center gap-2 rounded-full bg-taxi px-4 text-sm font-bold text-taxi-foreground"
+          >
+            <Route aria-hidden className="size-4" />
+            {t("planDay", { count: plan.pinned.length })}
+          </Link>
+          <ShareButton
+            title={t("shareTitle")}
+            url={shareListUrl(saved.map((p) => p.slug))}
+            label={t("shareList")}
+          />
+        </div>
       </div>
       <PlaceGrid places={saved} />
+      <LazyMap
+        points={saved.map((p) => placeToPoint(p))}
+        ariaLabel={t("mapLabel")}
+        className="h-72 sm:h-96"
+      />
     </div>
   )
 }

@@ -5,8 +5,13 @@ import { estimateCost } from "./estimates"
 import { defaultInput, planQuery } from "./params"
 import type { Mood, Slot } from "./types"
 
+/** What slotForPlace needs to know, so the slim place cards work too. */
+type SlotPlace = Pick<Place, "category" | "hours" | "dishTypes" | "drinkTypes" | "vibeTags"> & {
+  photoSpot?: Pick<NonNullable<Place["photoSpot"]>, "bestLight">
+}
+
 /** The part of the day a place fits best, used to pin it into a generated plan. */
-export function slotForPlace(p: Place): Slot {
+export function slotForPlace(p: SlotPlace): Slot {
   switch (p.category) {
     case "restaurant": {
       const opens = Object.values(p.hours)
@@ -57,4 +62,41 @@ export function planAroundQuery(p: Place, now = new Date()): Record<string, stri
     },
     { locks: { [slot]: p.id } },
   )
+}
+
+type PlannablePlace = SlotPlace &
+  Pick<Place, "id" | "slug" | "neighborhood" | "isFree" | "ticketInfo" | "priceLevel">
+
+/**
+ * A My Day query that fits as many saved places as possible into today, each
+ * pinned to its natural slot; when two want the same slot, the one saved first
+ * wins. Starts in the first pinned place's neighborhood.
+ */
+export function planSavedQuery(
+  places: PlannablePlace[],
+  now = new Date(),
+): { query: Record<string, string>; pinned: string[] } {
+  const input = defaultInput(now)
+  const locks: Partial<Record<Slot, string>> = {}
+  const pinned: PlannablePlace[] = []
+  for (const p of places) {
+    const slot = slotForPlace(p)
+    if (locks[slot]) continue
+    locks[slot] = p.id
+    pinned.push(p)
+  }
+  const cost = pinned.reduce((n, p) => n + estimateCost(p, slotForPlace(p)), 0)
+  const hood = pinned[0] ? neighborhoodByName(pinned[0].neighborhood) : undefined
+  return {
+    query: planQuery(
+      {
+        ...input,
+        from: hood?.slug ?? input.from,
+        budget: Math.max(input.budget, Math.ceil((cost + 60) / 10) * 10),
+        end: locks.night ? 24 * 60 : input.end,
+      },
+      { locks },
+    ),
+    pinned: pinned.map((p) => p.slug),
+  }
 }

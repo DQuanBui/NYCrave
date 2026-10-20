@@ -32,7 +32,10 @@ export function estimateTravel(from: LatLng, to: LatLng): Travel {
 }
 
 /** Rough per-person spend for one visit, in whole dollars. */
-export function estimateCost(place: Place, slot: Slot): number {
+export function estimateCost(
+  place: Pick<Place, "isFree" | "ticketInfo" | "priceLevel" | "category">,
+  slot: Slot,
+): number {
   if (place.isFree) return 0
   if (place.ticketInfo) {
     return Math.round((place.ticketInfo.priceRange.min + place.ticketInfo.priceRange.max) / 2)
