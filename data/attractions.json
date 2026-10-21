@@ -4731,5 +4731,414 @@
     "website": "https://www.latimernow.org",
     "lat": 40.76611,
     "lng": -73.82938
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/green-wood-cemetery-1.jpg",
+        "alt": "Green-Wood Cemetery's main gate at Fifth Avenue and 25th Street",
+        "width": 1100,
+        "height": 605,
+        "source": "other",
+        "attribution": {
+          "text": "Rhododendrites, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Green-Wood_Cemetery_gate_(53753p).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Nineteenth-century statuary and mausoleums", "The glacial ponds"],
+    "vibeTags": ["quiet", "outdoor", "instagrammable"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-21: address and hours (main entrance at Fifth Avenue and 25th Street open every day 7 AM to 7 PM, admission always free) from green-wood.com/visit; history from green-wood.com/our-story. Other entrances keep shorter hours; take the R train to 25th Street. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-green-wood-cemetery",
+    "slug": "green-wood-cemetery",
+    "name": "Green-Wood Cemetery",
+    "category": "attraction",
+    "borough": "brooklyn",
+    "neighborhood": "Greenwood Heights",
+    "address": "500 25th St, Brooklyn, NY 11232",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A 478-acre cemetery founded in 1838 and now a National Historic Landmark, with rolling hills, glacial ponds and grand monuments, free to wander.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 90,
+    "trendingScore": 50,
+    "website": "https://www.green-wood.com",
+    "lat": 40.65811,
+    "lng": -73.99425
+  },
+  {
+    "photos": [],
+    "mustTry": ["Ocean Wonders: Sharks!", "Sea lions and penguins along the Sea Cliffs"],
+    "vibeTags": ["kid_friendly", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-21: address, winter hours (November 1, 2026 to March 2027: daily 10 AM to 3:30 PM) and admission from nyaquarium.com/plan-your-visit. Until October 31, 2026 it stays open until 4 PM. The grounds close an hour after the aquarium. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-new-york-aquarium",
+    "slug": "new-york-aquarium",
+    "name": "New York Aquarium",
+    "category": "attraction",
+    "borough": "brooklyn",
+    "neighborhood": "Coney Island",
+    "address": "602 Surf Ave, Brooklyn, NY 11224",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "15:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "15:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "15:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "15:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "15:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "15:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "15:30"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 25.95,
+        "max": 32.95
+      },
+      "bookingUrl": "https://nyaquarium.com/plan-your-visit",
+      "notes": "Adults $29.95 off-peak, $32.95 peak; seniors $27.95 to $29.95; children 3 to 12 $25.95 to $27.95."
+    },
+    "editorialTake": "The Wildlife Conservation Society's aquarium on the Coney Island boardwalk, with sharks, sea lions and penguins a few steps from the beach.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 120,
+    "trendingScore": 56,
+    "website": "https://nyaquarium.com",
+    "lat": 40.57489,
+    "lng": -73.97453
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/historic-richmond-town-1.jpg",
+        "alt": "A historic building on the grounds of Historic Richmond Town",
+        "width": 1024,
+        "height": 768,
+        "source": "other",
+        "attribution": {
+          "text": "GK tramrunner229, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:RIchmondTownSI.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      }
+    ],
+    "mustTry": ["A guided tour of the historic houses", "The Historical Museum"],
+    "vibeTags": ["kid_friendly", "quiet", "outdoor"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-21: address and hours (April to December, Wednesday to Sunday 11 AM to 4 PM) from historicrichmondtown.org/visit. January to March it opens Friday to Sunday only, and it closes the first two weeks of January. Free admission hours Thursdays 2 to 4 PM, May to December. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-historic-richmond-town",
+    "slug": "historic-richmond-town",
+    "name": "Historic Richmond Town",
+    "category": "attraction",
+    "borough": "staten_island",
+    "neighborhood": "Richmond Town",
+    "address": "441 Clarke Ave, Staten Island, NY 10306",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "New York City's open-air museum: a living history village in the middle of Staten Island, with centuries-old houses, a county courthouse and a historical museum.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 120,
+    "trendingScore": 44,
+    "website": "https://www.historicrichmondtown.org",
+    "lat": 40.57118,
+    "lng": -74.14588
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/queens-county-farm-museum-1.jpg",
+        "alt": "The red farmhouse and windmill at the Queens County Farm Museum",
+        "width": 1100,
+        "height": 986,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:QFM_farmhouse_jeh.jpg",
+          "license": "Public domain"
+        }
+      }
+    ],
+    "mustTry": ["Heritage-breed livestock", "Fresh eggs from the Farm Store"],
+    "vibeTags": ["kid_friendly", "outdoor", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-21: address and hours (grounds open daily 10 AM to 5 PM, free except on ticketed event days) from queensfarm.org/visit. Closed New Year's Day, Labor Day, Thanksgiving and Christmas; closes at 3 PM on Christmas Eve. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-queens-county-farm-museum",
+    "slug": "queens-county-farm-museum",
+    "name": "Queens County Farm Museum",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Glen Oaks",
+    "address": "73-50 Little Neck Pkwy, Floral Park, NY 11004",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A working farm at the eastern edge of Queens, farmed continuously for more than 300 years, with livestock, growing fields and 47 acres free to explore.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 90,
+    "trendingScore": 44,
+    "website": "https://www.queensfarm.org",
+    "lat": 40.74546,
+    "lng": -73.72471
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/van-cortlandt-house-museum-1.jpg",
+        "alt": "The stone front of the Van Cortlandt House in Van Cortlandt Park",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Dmadeo, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Van-cortland-house-bronx.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      },
+      {
+        "url": "/photos/van-cortlandt-house-museum-2.jpg",
+        "alt": "A period room with a hearth inside the Van Cortlandt House Museum",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "ElectricSeeker, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Inside_Van_Cortlandt_House_Museum.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A self-guided tour of the 18th-century rooms"],
+    "vibeTags": ["quiet", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-21: address, hours (Wednesday to Sunday 11 AM to 4 PM, last entry 3:30 PM) and admission from vchm.org/visit. Take the 1 train to 242nd Street and walk north on Broadway to the path into the park. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-van-cortlandt-house-museum",
+    "slug": "van-cortlandt-house-museum",
+    "name": "Van Cortlandt House Museum",
+    "category": "attraction",
+    "borough": "bronx",
+    "neighborhood": "Riverdale",
+    "address": "6036 Broadway, Bronx, NY 10471",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 3,
+        "max": 5
+      },
+      "bookingUrl": "https://www.vchm.org/visit",
+      "notes": "Adults $5; seniors and students $3; children 12 and under free. Self-guided visits are always free for Bronx residents."
+    },
+    "editorialTake": "The manor house Frederick Van Cortlandt built in 1748 and 1749 on his family's land, now a museum inside Van Cortlandt Park, open for self-guided tours.",
+    "bestTimeToVisit": "Weekend afternoon, with a walk in the park",
+    "timeNeededMinutes": 45,
+    "trendingScore": 40,
+    "website": "https://www.vchm.org",
+    "lat": 40.89113,
+    "lng": -73.89481
   }
 ]

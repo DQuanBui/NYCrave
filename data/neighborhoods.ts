@@ -151,6 +151,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   { slug: "bushwick", name: "Bushwick", borough: "brooklyn", lat: 40.6944, lng: -73.9213 },
   { slug: "sunset-park", name: "Sunset Park", borough: "brooklyn", lat: 40.6455, lng: -74.0124 },
+  {
+    slug: "greenwood-heights",
+    name: "Greenwood Heights",
+    borough: "brooklyn",
+    lat: 40.658,
+    lng: -73.993,
+  },
   { slug: "bay-ridge", name: "Bay Ridge", borough: "brooklyn", lat: 40.6264, lng: -74.0299 },
   { slug: "coney-island", name: "Coney Island", borough: "brooklyn", lat: 40.5755, lng: -73.9707 },
   {
@@ -180,6 +187,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "corona", name: "Corona", borough: "queens", lat: 40.7475, lng: -73.862 },
   { slug: "laurelton", name: "Laurelton", borough: "queens", lat: 40.671, lng: -73.745 },
   { slug: "jamaica", name: "Jamaica", borough: "queens", lat: 40.7027, lng: -73.789 },
+  { slug: "glen-oaks", name: "Glen Oaks", borough: "queens", lat: 40.747, lng: -73.713 },
   {
     slug: "long-island-city",
     name: "Long Island City",
@@ -210,6 +218,13 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     borough: "staten_island",
     lat: 40.5763,
     lng: -74.1383,
+  },
+  {
+    slug: "richmond-town",
+    name: "Richmond Town",
+    borough: "staten_island",
+    lat: 40.5712,
+    lng: -74.146,
   },
 ]
 
