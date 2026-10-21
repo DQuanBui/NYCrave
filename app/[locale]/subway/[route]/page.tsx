@@ -5,6 +5,7 @@ import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { SectionHeader } from "@/components/listing/section-header"
 import { LazyMap } from "@/components/map/lazy-map"
+import { HoursBadge } from "@/components/place/hours-badge"
 import { PlacePhoto } from "@/components/place/place-photo"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
@@ -175,6 +176,7 @@ export default async function RidePage({ params }: Props) {
                                 <Footprints aria-hidden className="size-3.5" />
                                 {r("walk", { minutes: walk })}
                               </span>
+                              <HoursBadge hours={place.hours} className="mt-0.5 text-xs" />
                             </span>
                           </Link>
                         </li>
