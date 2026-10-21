@@ -2641,5 +2641,75 @@
     "website": "https://foodsofnations.com",
     "lat": 40.74276,
     "lng": -73.9821
+  },
+  {
+    "photos": [],
+    "mustTry": ["A sandwich to eat in or take to Prospect Park", "Advice from the cheesemongers"],
+    "vibeTags": ["local_favorite", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-21: address and hours (open daily 10 AM to 7 PM) from bklynlarder.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-bklyn-larder",
+    "slug": "bklyn-larder",
+    "name": "BKLYN Larder",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "brooklyn",
+    "neighborhood": "Prospect Heights",
+    "address": "228 Flatbush Ave, Brooklyn, NY 11217",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A cheese shop and specialty grocer on Flatbush Avenue with sandwiches, prepared foods, provisions and craft beer, and cheesemongers happy to help you choose.",
+    "bestTimeToVisit": "Before a picnic in Prospect Park",
+    "timeNeededMinutes": 20,
+    "trendingScore": 46,
+    "website": "https://www.bklynlarder.com",
+    "lat": 40.68053,
+    "lng": -73.97521
   }
 ]
