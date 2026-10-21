@@ -4,6 +4,7 @@ import { ArrowRight, LocateFixed, Navigation, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useMemo, useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { OpenAtMenu } from "@/components/listing/open-at-menu"
 import { pillClass } from "@/components/listing/filter-menu"
 import { LazyMap } from "@/components/map/lazy-map"
 import { HoursBadge } from "@/components/place/hours-badge"
@@ -13,7 +14,8 @@ import { useGeolocation } from "@/hooks/use-geolocation"
 import { useNow } from "@/hooks/use-now"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
-import { getOpenStatus, isOpen } from "@/lib/hours"
+import { getOpenStatus, getStatusAt, isOpen } from "@/lib/hours"
+import { atClock } from "@/lib/place-filters"
 import { placeToPoint } from "@/lib/map-points"
 import { estimateTravel } from "@/lib/planner/estimates"
 import { CATEGORY_META } from "@/lib/taxonomy"
@@ -28,19 +30,22 @@ export function CityMap({ places }: { places: CardPlace[] }) {
   const geo = useGeolocation()
   const [lines, setLines] = useState<Set<Category>>(() => new Set(CATEGORIES))
   const [openNow, setOpenNow] = useState(false)
+  /** "Open at" a chosen weekday and time instead of now, as "sat-2100". */
+  const [at, setAt] = useState<string | undefined>()
   const [freeOnly, setFreeOnly] = useState(false)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
-  const visible = useMemo(
-    () =>
-      places.filter(
-        (p) =>
-          lines.has(p.category) &&
-          (!freeOnly || p.isFree) &&
-          (!openNow || !now || isOpen(getOpenStatus(p.hours, now))),
-      ),
-    [places, lines, freeOnly, openNow, now],
-  )
+  const visible = useMemo(() => {
+    const clock = at ? atClock(at) : undefined
+    return places.filter(
+      (p) =>
+        lines.has(p.category) &&
+        (!freeOnly || p.isFree) &&
+        (clock
+          ? isOpen(getStatusAt(p.hours, clock))
+          : !openNow || !now || isOpen(getOpenStatus(p.hours, now))),
+    )
+  }, [places, lines, freeOnly, openNow, at, now])
   const points = useMemo(() => visible.map((p) => placeToPoint(p)), [visible])
   const selected = visible.find((p) => p.id === selectedId)
   const origin = geo.state.status === "ready" ? geo.state.position : null
@@ -84,11 +89,21 @@ export function CityMap({ places }: { places: CardPlace[] }) {
           <button
             type="button"
             aria-pressed={openNow}
-            onClick={() => setOpenNow((v) => !v)}
+            onClick={() => {
+              setOpenNow((v) => !v)
+              setAt(undefined)
+            }}
             className={cn(pillClass(openNow), "shrink-0")}
           >
             {t("cityMap.openNow")}
           </button>
+          <OpenAtMenu
+            value={at}
+            onChange={(v) => {
+              setAt(v)
+              setOpenNow(false)
+            }}
+          />
           <button
             type="button"
             aria-pressed={freeOnly}
