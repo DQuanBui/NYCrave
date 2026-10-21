@@ -382,7 +382,9 @@
     "cold": "Hace frío (máxima de {temp}°F), así que primero van los lugares bajo techo.",
     "openRoute": "Abrir toda la ruta en Google Maps",
     "newTab": "(se abre en una pestaña nueva)",
-    "print": "Imprimir"
+    "print": "Imprimir",
+    "copyText": "Copiar como texto",
+    "copiedText": "Copiado"
   },
   "listing": {
     "count": "{count, plural, =0 {Todavía no hay lugares} one {# lugar} other {# lugares}}",

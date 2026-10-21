@@ -24,6 +24,7 @@ import { formatClockTime } from "@/lib/hours"
 import { placeToPoint } from "@/lib/map-points"
 import { originOf } from "@/lib/planner/plan"
 import { planQuery, swapQuery } from "@/lib/planner/params"
+import { planText } from "@/lib/planner/plan-text"
 import type { Plan, PlanAdjustments } from "@/lib/planner/types"
 import { SITE_URL } from "@/lib/site"
 import { ROUTE_LINE, subwayLeg } from "@/lib/subway"
@@ -126,6 +127,14 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
           shareUrl={`${SITE_URL}${path}`}
           icsHref={icsHref}
           label={label}
+          text={planText({
+            label,
+            stops: plan.stops,
+            costLine: t("planner.summaryCost", { amount: plan.totalCost }),
+            url: `${SITE_URL}${path}`,
+            locale,
+            slotName: (slot) => t(`planner.slots.${slot}`),
+          })}
           aiEnabled={aiEnabled}
           query={planQuery(input, adjustments)}
         />

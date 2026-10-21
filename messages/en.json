@@ -382,7 +382,9 @@
     "cold": "A cold one (high of {temp}°F), so indoor stops come first.",
     "openRoute": "Open the whole route in Google Maps",
     "newTab": "(opens in a new tab)",
-    "print": "Print"
+    "print": "Print",
+    "copyText": "Copy as text",
+    "copiedText": "Copied"
   },
   "listing": {
     "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",

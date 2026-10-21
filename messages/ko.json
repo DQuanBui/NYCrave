@@ -382,7 +382,9 @@
     "cold": "추운 날이라(최고 {temp}°F) 실내 장소를 먼저 넣었어요.",
     "openRoute": "Google 지도에서 전체 경로 열기",
     "newTab": "(새 탭에서 열림)",
-    "print": "인쇄"
+    "print": "인쇄",
+    "copyText": "텍스트로 복사",
+    "copiedText": "복사됨"
   },
   "listing": {
     "count": "{count, plural, =0 {아직 장소 없음} other {장소 #곳}}",

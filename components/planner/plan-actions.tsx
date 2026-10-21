@@ -1,6 +1,14 @@
 "use client"
 
-import { BookmarkCheck, BookmarkPlus, CalendarPlus, Printer, Sparkles } from "lucide-react"
+import {
+  BookmarkCheck,
+  BookmarkPlus,
+  CalendarPlus,
+  Check,
+  ClipboardList,
+  Printer,
+  Sparkles,
+} from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useState, useTransition } from "react"
 import { ShareButton } from "@/components/place/share-button"
@@ -15,6 +23,8 @@ type PlanActionsProps = {
   shareUrl: string
   icsHref: string
   label: string
+  /** The whole day as plain text, for "Copy as text". */
+  text: string
   aiEnabled: boolean
   query: Record<string, string>
 }
@@ -27,6 +37,7 @@ export function PlanActions({
   shareUrl,
   icsHref,
   label,
+  text,
   aiEnabled,
   query,
 }: PlanActionsProps) {
@@ -56,6 +67,7 @@ export function PlanActions({
           <CalendarPlus aria-hidden className="size-4" />
           {t("export")}
         </a>
+        <CopyTextButton text={text} />
         <button type="button" onClick={() => window.print()} className={button}>
           <Printer aria-hidden className="size-4" />
           {t("print")}
@@ -63,6 +75,31 @@ export function PlanActions({
         {aiEnabled ? <EnhanceButton query={query} /> : null}
       </div>
     </div>
+  )
+}
+
+/** Copies the day as plain text, for a group chat or notes. */
+function CopyTextButton({ text }: { text: string }) {
+  const t = useTranslations("planner")
+  const [copied, setCopied] = useState(false)
+  async function copy() {
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch {
+      // Clipboard blocked: nothing else to do
+    }
+  }
+  return (
+    <button type="button" onClick={copy} className={button}>
+      {copied ? (
+        <Check aria-hidden className="size-4" />
+      ) : (
+        <ClipboardList aria-hidden className="size-4" />
+      )}
+      <span aria-live="polite">{copied ? t("copiedText") : t("copyText")}</span>
+    </button>
   )
 }
 

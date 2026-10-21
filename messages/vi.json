@@ -382,7 +382,9 @@
     "cold": "Hôm nay lạnh (cao nhất {temp}°F), nên các điểm trong nhà được ưu tiên trước.",
     "openRoute": "Mở toàn bộ lộ trình trên Google Maps",
     "newTab": "(mở trong thẻ mới)",
-    "print": "In"
+    "print": "In",
+    "copyText": "Sao chép dạng văn bản",
+    "copiedText": "Đã sao chép"
   },
   "listing": {
     "count": "{count, plural, =0 {Chưa có địa điểm} other {# địa điểm}}",
