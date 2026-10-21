@@ -2557,5 +2557,89 @@
     "website": "https://www.moynihanfoodhall.com",
     "lat": 40.75112,
     "lng": -73.99485
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/kalustyans-1.jpg",
+        "alt": "Kalustyan's storefront and signs on Lexington Avenue",
+        "width": 1100,
+        "height": 619,
+        "source": "other",
+        "attribution": {
+          "text": "Yerevantsi, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Kalustyan%27s.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Spices, chilies and teas from around the world", "Hard-to-find pantry staples"],
+    "vibeTags": ["local_favorite", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Monday to Saturday 10 AM to 8 PM, Sunday and holidays 11 AM to 7 PM) from foodsofnations.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-kalustyans",
+    "slug": "kalustyans",
+    "name": "Kalustyan's",
+    "category": "shopping",
+    "shopTypes": ["market"],
+    "borough": "manhattan",
+    "neighborhood": "Murray Hill",
+    "address": "123 Lexington Ave, New York, NY 10016",
+    "priceLevel": 2,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "A packed specialty food store in Curry Hill, its shelves stacked with spices, dried chilies, rice, teas and pantry goods from around the world.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 30,
+    "trendingScore": 52,
+    "website": "https://foodsofnations.com",
+    "lat": 40.74276,
+    "lng": -73.9821
   }
 ]

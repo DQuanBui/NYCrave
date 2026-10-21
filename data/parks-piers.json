@@ -2200,5 +2200,109 @@
     "website": "https://queensbotanical.org",
     "lat": 40.7515,
     "lng": -73.8271
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/pier-57-rooftop-park-1.jpg",
+        "alt": "Hudson Yards towers seen from the Pier 57 Rooftop Park",
+        "width": 1100,
+        "height": 495,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Pier_57_Rooftop_Park_View.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      },
+      {
+        "url": "/photos/pier-57-rooftop-park-2.jpg",
+        "alt": "Autumn plantings on the Pier 57 Rooftop Park",
+        "width": 1100,
+        "height": 495,
+        "source": "other",
+        "attribution": {
+          "text": "Kidfly182, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Pier_57_Rooftop_Park_002.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      }
+    ],
+    "mustTry": [],
+    "vibeTags": ["outdoor", "instagrammable", "date_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and rooftop park hours (6 AM to 1 AM) from pier57nyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "g-pier-57-rooftop-park",
+    "slug": "pier-57-rooftop-park",
+    "name": "Pier 57 Rooftop Park",
+    "category": "park_pier",
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "25 11th Ave, New York, NY 10011",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "06:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "park": {
+      "activities": [
+        "Hudson River views",
+        "Sunset over New Jersey",
+        "Rooftop film screenings in season"
+      ],
+      "amenities": ["Lawn", "Benches", "Food hall downstairs"]
+    },
+    "editorialTake": "A public rooftop park on a Hudson River pier next to Little Island, with a lawn, wide river views and the Market 57 food hall downstairs.",
+    "bestTimeToVisit": "Sunset",
+    "timeNeededMinutes": 30,
+    "trendingScore": 56,
+    "website": "https://pier57nyc.com",
+    "lat": 40.7431,
+    "lng": -74.00929
   }
 ]
