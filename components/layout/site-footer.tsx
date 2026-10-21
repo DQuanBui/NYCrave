@@ -3,6 +3,7 @@ import { LineBullet } from "@/components/brand/line-bullet"
 import { Wordmark } from "@/components/brand/wordmark"
 import { FeedbackLink } from "@/components/feedback/feedback"
 import { LocaleSwitcher } from "@/components/layout/locale-switcher"
+import { ShortcutsLink } from "@/components/layout/shortcuts-dialog"
 import { Link } from "@/i18n/navigation"
 import { feedbackEnabled } from "@/lib/feedback-store"
 import { MENU_GROUPS, NAV } from "@/lib/nav"
@@ -56,6 +57,10 @@ export async function SiteFooter() {
           <Link href="/privacy" className="underline underline-offset-4 hover:text-sign-foreground">
             {t("footer.privacy")}
           </Link>
+          <ShortcutsLink
+            label={t("shortcuts.title")}
+            className="hidden underline underline-offset-4 hover:text-sign-foreground md:inline"
+          />
           {feedbackEnabled() ? (
             <FeedbackLink className="underline underline-offset-4 hover:text-sign-foreground" />
           ) : null}

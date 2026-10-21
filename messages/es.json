@@ -1650,5 +1650,13 @@
   "breadcrumb": {
     "label": "Ruta de navegación",
     "home": "Inicio"
+  },
+  "shortcuts": {
+    "title": "Atajos de teclado",
+    "intro": "Púlsalos en cualquier parte de NYCrave (salvo mientras escribes en un campo).",
+    "search": "Buscar",
+    "help": "Mostrar esta lista",
+    "photos": "Foto anterior o siguiente en el visor",
+    "close": "Cerrar un diálogo, un menú o el visor de fotos"
   }
 }

@@ -9,6 +9,7 @@ import { SiteFooter } from "@/components/layout/site-footer"
 import { SiteHeader } from "@/components/layout/site-header"
 import { ServiceWorker } from "@/components/providers/service-worker"
 import { BackToTop } from "@/components/layout/back-to-top"
+import { ShortcutsDialog } from "@/components/layout/shortcuts-dialog"
 import { Providers } from "@/components/providers/theme-provider"
 import { initLocale } from "@/i18n/locale"
 import { clientMessages } from "@/lib/client-messages"
@@ -70,6 +71,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             <BottomTabBar />
             <Assistant ai={Boolean(process.env.ANTHROPIC_API_KEY)} />
             <BackToTop />
+            <ShortcutsDialog />
             {feedbackEnabled() ? <FeedbackPrompt /> : null}
             <ServiceWorker />
           </Providers>

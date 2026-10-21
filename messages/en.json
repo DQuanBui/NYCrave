@@ -1646,5 +1646,13 @@
   "breadcrumb": {
     "label": "Breadcrumb",
     "home": "Home"
+  },
+  "shortcuts": {
+    "title": "Keyboard shortcuts",
+    "intro": "Press these anywhere on NYCrave (not while typing in a box).",
+    "search": "Search",
+    "help": "Show this list",
+    "photos": "Previous or next photo in the photo viewer",
+    "close": "Close a dialog, menu or the photo viewer"
   }
 }

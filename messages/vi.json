@@ -1646,5 +1646,13 @@
   "breadcrumb": {
     "label": "Đường dẫn",
     "home": "Trang chủ"
+  },
+  "shortcuts": {
+    "title": "Phím tắt",
+    "intro": "Nhấn ở bất kỳ đâu trên NYCrave (trừ khi đang gõ trong ô nhập).",
+    "search": "Tìm kiếm",
+    "help": "Hiện danh sách này",
+    "photos": "Ảnh trước hoặc sau trong trình xem ảnh",
+    "close": "Đóng hộp thoại, menu hoặc trình xem ảnh"
   }
 }
