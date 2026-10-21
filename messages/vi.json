@@ -471,7 +471,10 @@
     "allSaved": "Đã lưu hết",
     "yours": "Địa điểm bạn đã lưu",
     "planDay": "Lên kế hoạch một ngày với {count} địa điểm này",
-    "mapLabel": "Bản đồ các địa điểm đã lưu"
+    "mapLabel": "Bản đồ các địa điểm đã lưu",
+    "byKind": "Địa điểm đã lưu theo loại",
+    "openNow": "Đang mở cửa",
+    "noneOpen": "Hiện không có nơi nào đang mở. Tắt Đang mở cửa để xem tất cả."
   },
   "footer": {
     "dataNote": "Các địa điểm ghi Chưa xác minh đã được tra cứu từ nguồn chính thức nhưng chưa được xác nhận với địa điểm. Giờ mở cửa và giá có thể thay đổi, nên hãy kiểm tra trước khi đi. Mô tả địa điểm hiện chỉ có bằng tiếng Anh.",

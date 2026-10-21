@@ -1,20 +1,24 @@
 "use client"
 
-import { Heart, Route } from "lucide-react"
+import { Clock, Heart, Route } from "lucide-react"
 import { useTranslations } from "next-intl"
+import { useState } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
+import { inKind, KindTabs, type KindTab } from "@/components/place/kind-tabs"
 import { PlaceCardSkeleton } from "@/components/place/place-card-skeleton"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlaceGrid } from "@/components/place/place-grid"
 import { ShareButton } from "@/components/place/share-button"
 import { Button } from "@/components/ui/button"
-import { useHydrated } from "@/hooks/use-now"
+import { useHydrated, useNow } from "@/hooks/use-now"
 import { useSaved } from "@/hooks/use-saved"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
+import { getOpenStatus, isOpen } from "@/lib/hours"
 import { placeToPoint } from "@/lib/map-points"
 import { planSavedQuery } from "@/lib/planner/around"
 import { MAX_SHARED } from "@/lib/shared-list"
+import { cn } from "@/lib/utils"
 
 /** A link that opens this list on anyone's device, ready to save. */
 function shareListUrl(slugs: string[]) {
@@ -27,6 +31,9 @@ export function SavedList({ places }: { places: CardPlace[] }) {
   const t = useTranslations("saved")
   const hydrated = useHydrated()
   const { slugs } = useSaved()
+  const now = useNow()
+  const [tab, setTab] = useState<KindTab>("all")
+  const [openOnly, setOpenOnly] = useState(false)
 
   if (!hydrated) {
     return (
@@ -44,6 +51,9 @@ export function SavedList({ places }: { places: CardPlace[] }) {
     .filter((p): p is CardPlace => p !== undefined)
 
   const plan = planSavedQuery(saved)
+  const shown = inKind(saved, tab).filter(
+    (p) => !openOnly || !now || isOpen(getOpenStatus(p.hours, now)),
+  )
 
   if (saved.length === 0) {
     return (
@@ -82,9 +92,32 @@ export function SavedList({ places }: { places: CardPlace[] }) {
           />
         </div>
       </div>
-      <PlaceGrid places={saved} />
+      <div className="flex flex-wrap items-center gap-2">
+        <button
+          type="button"
+          aria-pressed={openOnly}
+          onClick={() => setOpenOnly((v) => !v)}
+          className={cn(
+            "inline-flex h-10 shrink-0 items-center gap-2 rounded-full border-2 px-4 text-sm font-semibold transition-colors",
+            openOnly
+              ? "border-foreground bg-foreground text-background"
+              : "border-foreground/15 bg-card hover:border-foreground",
+          )}
+        >
+          <Clock aria-hidden className="size-4" />
+          {t("openNow")}
+        </button>
+        <KindTabs places={saved} value={tab} onChange={setTab} label={t("byKind")} />
+      </div>
+      {shown.length === 0 ? (
+        <p aria-live="polite" className="rounded-2xl border bg-card p-6 text-muted-foreground">
+          {t("noneOpen")}
+        </p>
+      ) : (
+        <PlaceGrid places={shown} />
+      )}
       <LazyMap
-        points={saved.map((p) => placeToPoint(p))}
+        points={(shown.length ? shown : saved).map((p) => placeToPoint(p))}
         ariaLabel={t("mapLabel")}
         className="h-72 sm:h-96"
       />

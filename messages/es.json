@@ -471,7 +471,10 @@
     "allSaved": "Todos guardados",
     "yours": "Tus lugares guardados",
     "planDay": "{count, plural, one {Planea un día con este lugar} other {Planea un día con estos}}",
-    "mapLabel": "Mapa de tus lugares guardados"
+    "mapLabel": "Mapa de tus lugares guardados",
+    "byKind": "Tus lugares guardados por tipo",
+    "openNow": "Abierto ahora",
+    "noneOpen": "Ahora mismo no hay nada abierto aquí. Desactiva Abierto ahora para verlos todos."
   },
   "footer": {
     "dataNote": "Los lugares marcados Sin verificar se investigaron en fuentes oficiales, pero aún no se confirmaron con el lugar. Los horarios y precios cambian, así que verifica antes de ir. Las descripciones de los lugares están en inglés por ahora.",

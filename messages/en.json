@@ -471,7 +471,10 @@
     "allSaved": "All saved",
     "yours": "Your saved places",
     "planDay": "{count, plural, one {Plan a day around it} other {Plan a day with these}}",
-    "mapLabel": "Map of your saved places"
+    "mapLabel": "Map of your saved places",
+    "byKind": "Your saved places by kind",
+    "openNow": "Open now",
+    "noneOpen": "Nothing here is open right now. Turn off Open now to see them all."
   },
   "footer": {
     "dataNote": "Places marked Unverified were researched from official sources but not yet confirmed with the venue. Hours and prices change, so check before you go.",
