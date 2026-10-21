@@ -237,7 +237,8 @@
     "stepFree": "Ga không bậc thang",
     "stepFreeHint": "Có ga tàu điện ngầm có thang máy hoặc lối dốc trong vòng 10 phút đi bộ",
     "clusterLabel": "{count} địa điểm ở đây: phóng to",
-    "share": "Chia sẻ kết quả này"
+    "share": "Chia sẻ kết quả này",
+    "pickOne": "Chọn giúp tôi"
   },
   "browse": {
     "cuisine": "Duyệt theo ẩm thực",

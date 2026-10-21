@@ -1,6 +1,6 @@
 "use client"
 
-import { LocateFixed, X } from "lucide-react"
+import { LocateFixed, Shuffle, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useMemo, useTransition } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
@@ -94,13 +94,27 @@ export function ListingClient({ places, params, options }: ListingClientProps) {
         <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
           {t("results", { count: places.length })}
         </p>
-        {/* Filters live in the URL, so a filtered view can be passed on as is */}
-        {hasActiveFilters(params) && places.length > 0 ? (
-          <ShareButton
-            label={t("share")}
-            className="h-8 border-foreground/15 px-3 hover:border-foreground"
-          />
-        ) : null}
+        <div className="flex flex-wrap items-center gap-2">
+          {places.length > 1 ? (
+            <button
+              type="button"
+              onClick={() =>
+                router.push(`/place/${places[Math.floor(Math.random() * places.length)].slug}`)
+              }
+              className="inline-flex h-8 items-center gap-1.5 rounded-full bg-taxi px-3 text-sm font-bold text-taxi-foreground"
+            >
+              <Shuffle aria-hidden className="size-4" />
+              {t("pickOne")}
+            </button>
+          ) : null}
+          {/* Filters live in the URL, so a filtered view can be passed on as is */}
+          {hasActiveFilters(params) && places.length > 0 ? (
+            <ShareButton
+              label={t("share")}
+              className="h-8 border-foreground/15 px-3 hover:border-foreground"
+            />
+          ) : null}
+        </div>
       </div>
 
       <div
