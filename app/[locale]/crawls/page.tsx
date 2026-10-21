@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server"
 import { SignBand } from "@/components/brand/sign-band"
 import { SectionHeader } from "@/components/listing/section-header"
 import { CrawlDistance, NearMeButton, NearMeProvider } from "@/components/crawls/near-me"
+import { RouteSketch } from "@/components/crawls/route-sketch"
 import { HoursBadge } from "@/components/place/hours-badge"
 import { PlacePhoto } from "@/components/place/place-photo"
 import { initLocale } from "@/i18n/locale"
@@ -97,6 +98,10 @@ export default async function CrawlsPage({ params }: Props) {
                           </span>
                         </p>
                         <CrawlDistance start={{ lat: first.lat, lng: first.lng }} />
+                        <RouteSketch
+                          stops={crawl.stops.map(({ place }) => place)}
+                          color={line.hex}
+                        />
                         <ol className="space-y-1">
                           {cards.map(({ card, walk }, i) => (
                             <li key={card.slug}>
