@@ -2,6 +2,7 @@ import { Search } from "lucide-react"
 import { getTranslations } from "next-intl/server"
 import { EmptyState } from "@/components/brand/empty-state"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { GuessSearch } from "@/components/layout/guess-search"
 import { Button } from "@/components/ui/button"
 import { Link } from "@/i18n/navigation"
 import { NAV, TOP_NAV } from "@/lib/nav"
@@ -10,26 +11,31 @@ export default async function NotFound() {
   const t = await getTranslations()
   return (
     <div className="mx-auto max-w-3xl space-y-10 px-4 py-20">
-      <EmptyState
-        bullet="?"
-        line="gray"
-        title={t("notFound.title")}
-        body={t("notFound.body")}
-        action={
-          <div className="flex flex-wrap justify-center gap-3">
-            <Button asChild size="lg" className="rounded-full">
-              <Link href="/">{t("notFound.cta")}</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="rounded-full">
-              <Link href="/search">
-                <Search aria-hidden />
-                {t("notFound.search")}
-              </Link>
-            </Button>
-          </div>
-        }
-        as="h1"
-      />
+      <div className="space-y-6">
+        <EmptyState
+          bullet="?"
+          line="gray"
+          title={t("notFound.title")}
+          body={t("notFound.body")}
+          action={
+            <div className="flex flex-wrap justify-center gap-3">
+              <Button asChild size="lg" className="rounded-full">
+                <Link href="/">{t("notFound.cta")}</Link>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="rounded-full">
+                <Link href="/search">
+                  <Search aria-hidden />
+                  {t("notFound.search")}
+                </Link>
+              </Button>
+            </div>
+          }
+          as="h1"
+        />
+        <p className="text-center">
+          <GuessSearch label={t("notFound.searchFor", { query: "{query}" })} />
+        </p>
+      </div>
       <nav aria-labelledby="other-lines" className="space-y-3">
         <h2 id="other-lines" className="text-center font-semibold text-muted-foreground">
           {t("notFound.lines")}

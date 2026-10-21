@@ -489,7 +489,8 @@
     "body": "Trang bạn tìm không tồn tại hoặc đã được chuyển đi.",
     "cta": "Về trang chủ",
     "search": "Tìm trên NYCrave",
-    "lines": "Hoặc chọn một tuyến"
+    "lines": "Hoặc chọn một tuyến",
+    "searchFor": "Tìm “{query}”"
   },
   "rail": {
     "previous": "Cuộn {title} về trước",

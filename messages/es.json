@@ -489,7 +489,8 @@
     "body": "La página que buscas no existe o se movió.",
     "cta": "Volver al inicio",
     "search": "Buscar en NYCrave",
-    "lines": "O elige una línea"
+    "lines": "O elige una línea",
+    "searchFor": "Buscar «{query}»"
   },
   "rail": {
     "previous": "Desplazar {title} hacia atrás",

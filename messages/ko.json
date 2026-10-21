@@ -489,7 +489,8 @@
     "body": "찾으시는 페이지가 없거나 이동했어요.",
     "cta": "홈으로 돌아가기",
     "search": "NYCrave 검색",
-    "lines": "또는 노선 선택"
+    "lines": "또는 노선 선택",
+    "searchFor": "“{query}” 검색"
   },
   "rail": {
     "previous": "{title} 이전으로 스크롤",

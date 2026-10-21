@@ -489,7 +489,8 @@
     "body": "你要找的页面不存在或已移动。",
     "cta": "返回首页",
     "search": "搜索 NYCrave",
-    "lines": "或选择一条线路"
+    "lines": "或选择一条线路",
+    "searchFor": "搜索“{query}”"
   },
   "rail": {
     "previous": "向前滚动{title}",

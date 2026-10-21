@@ -489,7 +489,8 @@
     "body": "The page you are looking for does not exist or has moved.",
     "cta": "Back to home",
     "search": "Search NYCrave",
-    "lines": "Or pick a line"
+    "lines": "Or pick a line",
+    "searchFor": "Search for “{query}”"
   },
   "rail": {
     "previous": "Scroll {title} back",
