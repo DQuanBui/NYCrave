@@ -475,7 +475,9 @@
     "mapLabel": "Map of your saved places",
     "byKind": "Your saved places by kind",
     "openNow": "Open now",
-    "noneOpen": "Nothing here is open right now. Turn off Open now to see them all."
+    "noneOpen": "Nothing here is open right now. Turn off Open now to see them all.",
+    "copyText": "Copy as text",
+    "copiedText": "Copied"
   },
   "footer": {
     "dataNote": "Places marked Unverified were researched from official sources but not yet confirmed with the venue. Hours and prices change, so check before you go.",

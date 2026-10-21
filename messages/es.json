@@ -475,7 +475,9 @@
     "mapLabel": "Mapa de tus lugares guardados",
     "byKind": "Tus lugares guardados por tipo",
     "openNow": "Abierto ahora",
-    "noneOpen": "Ahora mismo no hay nada abierto aquí. Desactiva Abierto ahora para verlos todos."
+    "noneOpen": "Ahora mismo no hay nada abierto aquí. Desactiva Abierto ahora para verlos todos.",
+    "copyText": "Copiar como texto",
+    "copiedText": "Copiado"
   },
   "footer": {
     "dataNote": "Los lugares marcados Sin verificar se investigaron en fuentes oficiales, pero aún no se confirmaron con el lugar. Los horarios y precios cambian, así que verifica antes de ir. Las descripciones de los lugares están en inglés por ahora.",

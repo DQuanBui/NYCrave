@@ -4,6 +4,7 @@ import { Clock, Heart, Route } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
+import { CopyButton } from "@/components/place/copy-button"
 import { inKind, KindTabs, type KindTab } from "@/components/place/kind-tabs"
 import { PlaceCardSkeleton } from "@/components/place/place-card-skeleton"
 import { LazyMap } from "@/components/map/lazy-map"
@@ -25,6 +26,14 @@ function shareListUrl(slugs: string[]) {
   const url = new URL("/saved", window.location.origin)
   url.searchParams.set("list", slugs.slice(0, MAX_SHARED).join(","))
   return url.toString()
+}
+
+/** The list as plain text, one place per line with its link, for notes or a chat. */
+function listText(title: string, places: CardPlace[]) {
+  const lines = places.map(
+    (p) => `• ${p.name}, ${p.neighborhood}: ${window.location.origin}/place/${p.slug}`,
+  )
+  return [title, "", ...lines].join("\n")
 }
 
 export function SavedList({ places }: { places: CardPlace[] }) {
@@ -89,6 +98,12 @@ export function SavedList({ places }: { places: CardPlace[] }) {
             title={t("shareTitle")}
             url={shareListUrl(saved.map((p) => p.slug))}
             label={t("shareList")}
+          />
+          <CopyButton
+            value={listText(t("shareTitle"), saved)}
+            label={t("copyText")}
+            copiedLabel={t("copiedText")}
+            className="h-10 border-foreground px-4 text-sm hover:bg-accent [&_svg]:size-4"
           />
         </div>
       </div>
