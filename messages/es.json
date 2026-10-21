@@ -45,9 +45,11 @@
     "backToTop": "Volver arriba"
   },
   "theme": {
-    "toggle": "Cambiar a modo {mode}",
-    "light": "claro",
-    "dark": "oscuro"
+    "label": "Apariencia",
+    "current": "Apariencia: {mode}",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Según el dispositivo"
   },
   "hero": {
     "announcement": "La próxima parada es",

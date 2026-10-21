@@ -45,9 +45,11 @@
     "backToTop": "맨 위로"
   },
   "theme": {
-    "toggle": "{mode} 모드로 전환",
+    "label": "화면 모드",
+    "current": "화면 모드: {mode}",
     "light": "라이트",
-    "dark": "다크"
+    "dark": "다크",
+    "system": "기기 설정 따르기"
   },
   "hero": {
     "announcement": "다음 정거장은",

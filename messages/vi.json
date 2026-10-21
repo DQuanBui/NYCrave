@@ -45,9 +45,11 @@
     "backToTop": "Lên đầu trang"
   },
   "theme": {
-    "toggle": "Chuyển sang chế độ {mode}",
-    "light": "sáng",
-    "dark": "tối"
+    "label": "Giao diện",
+    "current": "Giao diện: {mode}",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Theo thiết bị"
   },
   "hero": {
     "announcement": "Điểm dừng tiếp theo là",

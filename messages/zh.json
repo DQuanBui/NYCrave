@@ -45,9 +45,11 @@
     "backToTop": "回到顶部"
   },
   "theme": {
-    "toggle": "切换到{mode}模式",
+    "label": "外观",
+    "current": "外观：{mode}",
     "light": "浅色",
-    "dark": "深色"
+    "dark": "深色",
+    "system": "跟随设备"
   },
   "hero": {
     "announcement": "下一站是",
