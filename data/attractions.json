@@ -5140,5 +5140,155 @@
     "website": "https://www.vchm.org",
     "lat": 40.89113,
     "lng": -73.89481
+  },
+  {
+    "photos": [],
+    "mustTry": ["Studio Sundays: free admission and family programs every Sunday"],
+    "vibeTags": ["rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-21: address, hours (Wednesday, Thursday, Saturday and Sunday 11 AM to 6 PM, Friday 11 AM to 9 PM, closed Monday and Tuesday) and suggested admission from studiomuseum.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-studio-museum-in-harlem",
+    "slug": "studio-museum-in-harlem",
+    "name": "The Studio Museum in Harlem",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Harlem",
+    "address": "144 W 125th St, New York, NY 10027",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 9,
+        "max": 16
+      },
+      "bookingUrl": "https://studiomuseum.org/visit",
+      "notes": "Suggested prices: adults $16; seniors, students and visitors with disabilities $9; 16 and under free. Pay what you can, and free for everyone on Studio Sundays."
+    },
+    "editorialTake": "A museum devoted to artists of African descent, in its new building on 125th Street, open late on Fridays and free on Sundays.",
+    "bestTimeToVisit": "Sunday, when it is free",
+    "timeNeededMinutes": 75,
+    "trendingScore": 52,
+    "website": "https://studiomuseum.org",
+    "lat": 40.80842,
+    "lng": -73.94762
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/cathedral-of-st-john-the-divine-1.jpg",
+        "alt": "The west front and rose window of the Cathedral of St. John the Divine on Amsterdam Avenue",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Another Believer, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Saint_John_the_Divine,_NYC_(2014)_-_01.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["A public guided tour", "American Poets Corner"],
+    "vibeTags": ["quiet", "rainy_day", "instagrammable"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-21T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-21: address and hours (Monday to Saturday 9:30 AM to 5 PM, Sunday noon to 5 PM) from stjohndivine.org/visit. Sightseeing visits are ticketed; take the 1, B or C train to 110th Street–Cathedral Parkway. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-cathedral-of-st-john-the-divine",
+    "slug": "cathedral-of-st-john-the-divine",
+    "name": "Cathedral of St. John the Divine",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Morningside Heights",
+    "address": "1047 Amsterdam Ave, New York, NY 10025",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:30",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:30",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:30",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:30",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:30",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:30",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A vast cathedral on Amsterdam Avenue at 112th Street, with soaring stone architecture, quiet chapels and gardens; anyone coming to pray gets in free.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 60,
+    "trendingScore": 50,
+    "website": "https://www.stjohndivine.org",
+    "lat": 40.80377,
+    "lng": -73.96178
   }
 ]
