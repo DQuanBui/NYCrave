@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { SectionHeader } from "@/components/listing/section-header"
+import { LazyMap } from "@/components/map/lazy-map"
 import { PlacePhoto } from "@/components/place/place-photo"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { initLocale } from "@/i18n/locale"
@@ -55,6 +56,22 @@ export default async function NeighborhoodsPage({ params }: Props) {
         tagline={t("neighborhoods.tagline")}
       />
       <div className="mx-auto max-w-7xl space-y-12 px-4 py-10 lg:px-8">
+        <LazyMap
+          ariaLabel={t("neighborhoods.allMap")}
+          className="h-80 sm:h-[28rem]"
+          cluster
+          points={NEIGHBORHOODS.filter((n) => count(n.name) > 0).map((n) => ({
+            id: n.slug,
+            lat: n.lat,
+            lng: n.lng,
+            name: n.name,
+            subtitle: t("neighborhoods.count", { count: count(n.name) }),
+            href: `/neighborhoods/${n.slug}`,
+            cta: t("neighborhoods.open"),
+            line: BOROUGH_META[n.borough].line,
+            label: BOROUGH_META[n.borough].bullet,
+          }))}
+        />
         {BOROUGHS.map((borough) => {
           const meta = BOROUGH_META[borough]
           const hoods = NEIGHBORHOODS.filter((n) => n.borough === borough).sort(

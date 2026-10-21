@@ -751,7 +751,9 @@
       "rosebank": "A quiet Staten Island shore neighborhood on the Narrows, home to the Alice Austen House and views of the Verrazzano Bridge.",
       "sheepshead-bay": "A south Brooklyn bay lined with fishing boats, seafood counters and the Emmons Avenue waterfront.",
       "laurelton": "A leafy southeast Queens neighborhood with a large Caribbean community and late-night Jamaican cooking along Merrick Boulevard."
-    }
+    },
+    "allMap": "Map of every neighborhood",
+    "open": "Open neighborhood"
   },
   "credits": {
     "title": "Photo credits",

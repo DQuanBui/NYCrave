@@ -28,6 +28,8 @@ export type MapPoint = {
   line: LineColor
   /** Text inside the marker bullet: a category letter or a stop number. */
   label: string
+  /** The popup's link text, when the link is not to a place. */
+  cta?: string
 }
 
 export type MapViewProps = {
@@ -327,7 +329,7 @@ export default function MapView({
                   href={selected.href}
                   className="text-sm font-semibold underline underline-offset-2"
                 >
-                  {t("viewPlace")}
+                  {selected.cta ?? t("viewPlace")}
                 </Link>
               ) : null}
             </div>

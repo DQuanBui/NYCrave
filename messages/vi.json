@@ -751,7 +751,9 @@
       "rosebank": "Một khu ven biển yên tĩnh của Staten Island bên eo Narrows, có nhà Alice Austen và tầm nhìn ra cầu Verrazzano.",
       "sheepshead-bay": "Một vịnh ở nam Brooklyn với thuyền câu, quầy hải sản và bờ sông đại lộ Emmons.",
       "laurelton": "Một khu phố nhiều cây xanh ở đông nam Queens với cộng đồng Caribe đông đúc và món Jamaica mở khuya dọc đại lộ Merrick."
-    }
+    },
+    "allMap": "Bản đồ tất cả khu phố",
+    "open": "Mở khu phố"
   },
   "credits": {
     "title": "Nguồn ảnh",
