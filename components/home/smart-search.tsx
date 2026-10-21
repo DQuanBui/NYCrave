@@ -1,6 +1,6 @@
 "use client"
 
-import { Search } from "lucide-react"
+import { History, Search, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useId, useMemo, useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
@@ -22,10 +22,32 @@ type SmartSearchProps = {
 }
 
 const MAX_SUGGESTIONS = 5
+const MAX_RECENT = 5
+const RECENT_KEY = "nycrave:recent-searches"
+
+function readRecent(): string[] {
+  try {
+    const list = JSON.parse(localStorage.getItem(RECENT_KEY) ?? "[]")
+    return Array.isArray(list) ? list.filter((q) => typeof q === "string").slice(0, MAX_RECENT) : []
+  } catch {
+    return []
+  }
+}
+
+function saveRecent(q: string) {
+  try {
+    const list = [q, ...readRecent().filter((r) => normalizeQuery(r) !== normalizeQuery(q))]
+    localStorage.setItem(RECENT_KEY, JSON.stringify(list.slice(0, MAX_RECENT)))
+  } catch {}
+}
+
+type Option =
+  { kind: "place"; hint: SearchHint } | { kind: "recent"; query: string } | { kind: "clear" }
 
 /**
  * Free-text search with place suggestions (ARIA combobox): arrow keys move through
  * the list, Enter opens the highlighted place or runs the search, Escape closes it.
+ * With the box empty, the list offers this browser's recent searches instead.
  */
 export function SmartSearch({
   defaultValue = "",
@@ -40,6 +62,7 @@ export function SmartSearch({
   const [query, setQuery] = useState(defaultValue)
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState(-1)
+  const [recent, setRecent] = useState<string[]>([])
 
   const suggestions = useMemo(() => {
     const q = normalizeQuery(query)
@@ -55,10 +78,35 @@ export function SmartSearch({
     )
   }, [query, hints])
 
-  const expanded = open && suggestions.length > 0
-  const go = (hint: SearchHint) => {
+  const options: Option[] =
+    query.trim() === ""
+      ? recent.length > 0
+        ? [...recent.map((q) => ({ kind: "recent" as const, query: q })), { kind: "clear" }]
+        : []
+      : suggestions.map((hint) => ({ kind: "place", hint }))
+  const showingRecent = options[0]?.kind === "recent"
+  const expanded = open && options.length > 0
+
+  const search = (q: string) => {
     setOpen(false)
-    router.push(`/place/${hint.slug}`)
+    saveRecent(q)
+    router.push({ pathname: "/search", query: { q } })
+  }
+  const choose = (option: Option) => {
+    if (option.kind === "clear") {
+      try {
+        localStorage.removeItem(RECENT_KEY)
+      } catch {}
+      setRecent([])
+      setActive(-1)
+      return
+    }
+    if (option.kind === "recent") {
+      setQuery(option.query)
+      return search(option.query)
+    }
+    setOpen(false)
+    router.push(`/place/${option.hint.slug}`)
   }
 
   return (
@@ -68,9 +116,9 @@ export function SmartSearch({
         className="flex h-14 items-center gap-2 rounded-full border-2 border-foreground bg-card pr-1.5 pl-5 shadow-[4px_4px_0_0_var(--foreground)] transition-shadow focus-within:ring-4 focus-within:ring-taxi sm:h-16"
         onSubmit={(e) => {
           e.preventDefault()
-          if (expanded && active >= 0) return go(suggestions[active])
+          if (expanded && active >= 0) return choose(options[active])
           const q = query.trim()
-          if (q) router.push({ pathname: "/search", query: { q } })
+          if (q) search(q)
         }}
       >
         <label htmlFor={id} className="sr-only">
@@ -95,16 +143,19 @@ export function SmartSearch({
             setOpen(true)
             setActive(-1)
           }}
-          onFocus={() => setOpen(true)}
+          onFocus={() => {
+            setRecent(readRecent())
+            setOpen(true)
+          }}
           onBlur={() => setTimeout(() => setOpen(false), 120)}
           onKeyDown={(e) => {
             if (!expanded) return
             if (e.key === "ArrowDown") {
               e.preventDefault()
-              setActive((i) => (i + 1) % suggestions.length)
+              setActive((i) => (i + 1) % options.length)
             } else if (e.key === "ArrowUp") {
               e.preventDefault()
-              setActive((i) => (i <= 0 ? suggestions.length - 1 : i - 1))
+              setActive((i) => (i <= 0 ? options.length - 1 : i - 1))
             } else if (e.key === "Escape") {
               setOpen(false)
             }
@@ -123,35 +174,55 @@ export function SmartSearch({
       <ul
         id={listId}
         role="listbox"
-        aria-label={t("suggestPlaces")}
+        aria-label={showingRecent ? t("recent") : t("suggestPlaces")}
         hidden={!expanded}
         className="absolute inset-x-0 top-full z-30 mt-2 overflow-hidden rounded-2xl border-2 border-foreground bg-card py-1 shadow-xl"
       >
-        {suggestions.map((hint, i) => {
-          const meta = CATEGORY_META[hint.category]
+        {options.map((option, i) => {
+          const key =
+            option.kind === "place"
+              ? option.hint.slug
+              : option.kind === "recent"
+                ? `recent-${option.query}`
+                : "clear"
           return (
             <li
-              key={hint.slug}
+              key={key}
               id={`${listId}-${i}`}
               role="option"
               aria-selected={i === active}
               onMouseDown={(e) => e.preventDefault()}
-              onClick={() => go(hint)}
+              onClick={() => choose(option)}
               onMouseEnter={() => setActive(i)}
               className={cn(
                 "flex cursor-pointer items-center gap-3 px-4 py-2.5",
+                option.kind === "clear" && "border-t py-2 text-sm text-muted-foreground",
                 i === active && "bg-accent",
               )}
             >
-              <LineBullet line={meta.line} size="sm">
-                {meta.bullet}
-              </LineBullet>
-              <span className="min-w-0">
-                <span className="block truncate font-semibold">{hint.name}</span>
-                <span className="block truncate text-xs text-muted-foreground">
-                  {hint.neighborhood}
-                </span>
-              </span>
+              {option.kind === "place" ? (
+                <>
+                  <LineBullet line={CATEGORY_META[option.hint.category].line} size="sm">
+                    {CATEGORY_META[option.hint.category].bullet}
+                  </LineBullet>
+                  <span className="min-w-0">
+                    <span className="block truncate font-semibold">{option.hint.name}</span>
+                    <span className="block truncate text-xs text-muted-foreground">
+                      {option.hint.neighborhood}
+                    </span>
+                  </span>
+                </>
+              ) : option.kind === "recent" ? (
+                <>
+                  <History aria-hidden className="size-4 shrink-0 text-muted-foreground" />
+                  <span className="truncate font-semibold">{option.query}</span>
+                </>
+              ) : (
+                <>
+                  <X aria-hidden className="size-4 shrink-0" />
+                  {t("clearRecent")}
+                </>
+              )}
             </li>
           )
         })}

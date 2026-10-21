@@ -91,6 +91,8 @@
     "openToday": "今天营业",
     "free": "免费",
     "suggestPlaces": "推荐地点",
+    "recent": "最近搜索",
+    "clearRecent": "清除最近搜索",
     "corrected": "显示“{query}”的结果",
     "loading": "正在搜索…",
     "all": "全部",

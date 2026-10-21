@@ -91,6 +91,8 @@
     "openToday": "오늘 영업",
     "free": "무료",
     "suggestPlaces": "추천 장소",
+    "recent": "최근 검색",
+    "clearRecent": "최근 검색 지우기",
     "corrected": "“{query}” 검색 결과를 표시합니다",
     "loading": "검색 중…",
     "all": "전체",

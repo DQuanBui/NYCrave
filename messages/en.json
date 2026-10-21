@@ -91,6 +91,8 @@
     "openToday": "open today",
     "free": "free",
     "suggestPlaces": "Suggested places",
+    "recent": "Recent searches",
+    "clearRecent": "Clear recent searches",
     "corrected": "Showing results for “{query}”",
     "loading": "Searching…",
     "all": "All",

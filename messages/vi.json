@@ -91,6 +91,8 @@
     "openToday": "mở cửa hôm nay",
     "free": "miễn phí",
     "suggestPlaces": "Địa điểm gợi ý",
+    "recent": "Tìm kiếm gần đây",
+    "clearRecent": "Xóa lịch sử tìm kiếm",
     "corrected": "Đang hiện kết quả cho “{query}”",
     "loading": "Đang tìm…",
     "all": "Tất cả",
