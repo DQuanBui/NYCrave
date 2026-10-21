@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { HoodFinder } from "@/components/listing/hood-finder"
 import { SectionHeader } from "@/components/listing/section-header"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlacePhoto } from "@/components/place/place-photo"
@@ -56,6 +57,16 @@ export default async function NeighborhoodsPage({ params }: Props) {
         tagline={t("neighborhoods.tagline")}
       />
       <div className="mx-auto max-w-7xl space-y-12 px-4 py-10 lg:px-8">
+        <HoodFinder
+          hoods={NEIGHBORHOODS.filter((n) => count(n.name) > 0).map(({ slug, name }) => ({
+            slug,
+            name,
+          }))}
+          label={t("neighborhoods.find")}
+          placeholder={t("neighborhoods.findPlaceholder")}
+          go={t("neighborhoods.findGo")}
+          notFound={t("neighborhoods.findNone", { query: "{query}" })}
+        />
         <LazyMap
           ariaLabel={t("neighborhoods.allMap")}
           className="h-80 sm:h-[28rem]"

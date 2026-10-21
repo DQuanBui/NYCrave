@@ -781,7 +781,11 @@
       "glen-oaks": "皇后区东部紧邻拿骚县的宁静角落，皇后县农场博物馆至今仍在耕种。"
     },
     "allMap": "所有街区地图",
-    "open": "打开街区"
+    "open": "打开街区",
+    "find": "查找街区",
+    "findPlaceholder": "输入名称，例如 Astoria",
+    "findGo": "前往",
+    "findNone": "还没有名为“{query}”的街区。换个名称试试，或在下方选择。"
   },
   "credits": {
     "title": "照片来源",

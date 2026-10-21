@@ -781,7 +781,11 @@
       "glen-oaks": "A quiet corner of eastern Queens on the Nassau County line, where the Queens County Farm Museum still works its fields."
     },
     "allMap": "Map of every neighborhood",
-    "open": "Open neighborhood"
+    "open": "Open neighborhood",
+    "find": "Find a neighborhood",
+    "findPlaceholder": "Type a name, like Astoria",
+    "findGo": "Go",
+    "findNone": "No neighborhood called “{query}” yet. Try another name, or pick one below."
   },
   "credits": {
     "title": "Photo credits",

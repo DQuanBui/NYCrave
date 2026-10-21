@@ -781,7 +781,11 @@
       "glen-oaks": "Un rincón tranquilo del este de Queens, junto al condado de Nassau, donde el Queens County Farm Museum aún cultiva sus campos."
     },
     "allMap": "Mapa de todos los barrios",
-    "open": "Abrir barrio"
+    "open": "Abrir barrio",
+    "find": "Busca un barrio",
+    "findPlaceholder": "Escribe un nombre, como Astoria",
+    "findGo": "Ir",
+    "findNone": "Aún no hay ningún barrio llamado «{query}». Prueba otro nombre o elige uno abajo."
   },
   "credits": {
     "title": "Créditos de fotos",

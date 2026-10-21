@@ -781,7 +781,11 @@
       "glen-oaks": "Một góc yên tĩnh ở phía đông Queens giáp hạt Nassau, nơi Bảo tàng Nông trại Quận Queens vẫn còn canh tác."
     },
     "allMap": "Bản đồ tất cả khu phố",
-    "open": "Mở khu phố"
+    "open": "Mở khu phố",
+    "find": "Tìm khu phố",
+    "findPlaceholder": "Nhập tên, ví dụ Astoria",
+    "findGo": "Đi",
+    "findNone": "Chưa có khu phố nào tên “{query}”. Thử tên khác hoặc chọn bên dưới."
   },
   "credits": {
     "title": "Nguồn ảnh",
