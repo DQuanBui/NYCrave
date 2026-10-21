@@ -6,6 +6,7 @@ import { HolidayNote } from "@/components/brand/holiday-note"
 import { CopyButton } from "@/components/place/copy-button"
 import { HoursBadge } from "@/components/place/hours-badge"
 import { HoursTable } from "@/components/place/hours-table"
+import { WeekChart } from "@/components/place/week-chart"
 import { GoogleReviews } from "@/components/place/google-reviews"
 import { PhotoGallery } from "@/components/place/photo-gallery"
 import { PlaceRail } from "@/components/place/place-rail"
@@ -29,7 +30,7 @@ import { formatPriceRange } from "@/lib/format"
 import { appleMapsUrl, distanceKm, googleMapsUrl, transitDirectionsUrl } from "@/lib/geo"
 import { getGooglePlaceDetails } from "@/lib/google-places"
 import { holidayOn } from "@/lib/holidays"
-import { nycDateString } from "@/lib/hours"
+import { isAlwaysOpen, nycDateString } from "@/lib/hours"
 import { LINES } from "@/lib/lines"
 import { placeTagKeys } from "@/lib/place-display"
 import { getPlaceBySlug, getPlaces } from "@/lib/places"
@@ -301,6 +302,8 @@ export default async function PlacePage({ params }: Props) {
               <Clock aria-hidden className="size-4" />
               {t("place.hours")}
             </h2>
+            {/* Open around the clock: a chart of seven full bars would say nothing */}
+            {isAlwaysOpen(place.hours) ? null : <WeekChart hours={place.hours} line={meta.line} />}
             <HoursTable hours={place.hours} />
             {holiday ? <HolidayNote holiday={holiday} /> : null}
           </div>
