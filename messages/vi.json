@@ -191,6 +191,13 @@
   "filters": {
     "label": "Bộ lọc",
     "open": "Đang mở cửa",
+    "openAt": "Mở lúc…",
+    "openAtTitle": "Mở cửa vào ngày và giờ",
+    "openAtActive": "Mở {when}",
+    "day": "Ngày",
+    "time": "Giờ",
+    "openAtApply": "Xem địa điểm",
+    "openAtClear": "Bất kỳ lúc nào",
     "free": "Miễn phí",
     "borough": "Quận",
     "anyBorough": "Tất cả các quận",

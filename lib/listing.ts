@@ -1,6 +1,12 @@
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { getStatusAt, isOpen, nycClock } from "@/lib/hours"
-import { matchesFilter, paramsToFilter, sortPlaces, type ListingParams } from "@/lib/place-filters"
+import {
+  atClock,
+  matchesFilter,
+  paramsToFilter,
+  sortPlaces,
+  type ListingParams,
+} from "@/lib/place-filters"
 import { BOROUGHS, DIETARY_OPTIONS, LIGHT_TIMES, VIBE_TAGS } from "@/types/enums"
 import type { Borough, DietaryOption, LightTime, Place, VibeTag } from "@/types/place"
 
@@ -40,11 +46,15 @@ export function filterOptions(pool: Place[]): FilterOptions {
   }
 }
 
-/** Applies URL filters (including "open now" against New York time) and sorting. */
+/**
+ * Applies URL filters (including "open now" against New York time, or open at
+ * a chosen day and time) and sorting.
+ */
 export function applyListing(pool: Place[], params: ListingParams, now = new Date()): Place[] {
   let results = pool.filter((p) => matchesFilter(p, paramsToFilter(params)))
-  if (params.open) {
-    const clock = nycClock(now)
+  const at = params.at ? atClock(params.at) : undefined
+  if (at || params.open) {
+    const clock = at ?? nycClock(now)
     results = results.filter((p) => isOpen(getStatusAt(p.hours, clock)))
   }
   return sortPlaces(results, params.sort)
@@ -52,6 +62,15 @@ export function applyListing(pool: Place[], params: ListingParams, now = new Dat
 
 export function hasActiveFilters(p: ListingParams): boolean {
   return Boolean(
-    p.borough || p.hood || p.price || p.open || p.free || p.step || p.vibe || p.diet || p.light,
+    p.borough ||
+    p.hood ||
+    p.price ||
+    p.open ||
+    p.at ||
+    p.free ||
+    p.step ||
+    p.vibe ||
+    p.diet ||
+    p.light,
   )
 }

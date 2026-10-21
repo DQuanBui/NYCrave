@@ -191,6 +191,13 @@
   "filters": {
     "label": "筛选",
     "open": "正在营业",
+    "openAt": "指定时间营业…",
+    "openAtTitle": "选择日期和时间",
+    "openAtActive": "{when} 营业",
+    "day": "星期",
+    "time": "时间",
+    "openAtApply": "查看地点",
+    "openAtClear": "任何时间",
     "free": "免费",
     "borough": "行政区",
     "anyBorough": "所有行政区",

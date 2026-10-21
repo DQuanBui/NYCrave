@@ -3,6 +3,7 @@
 import { Accessibility, List, Map as MapIcon, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { FilterMenu, pillClass } from "@/components/listing/filter-menu"
+import { OpenAtMenu } from "@/components/listing/open-at-menu"
 import type { FilterOptions } from "@/lib/listing"
 import { hasActiveFilters } from "@/lib/listing"
 import type { ListingParams } from "@/lib/place-filters"
@@ -28,7 +29,7 @@ export function FilterBar({ params, options, onChange, onClear, toggles }: Filte
         <button
           type="button"
           aria-pressed={Boolean(params.open)}
-          onClick={() => onChange({ open: params.open ? undefined : true })}
+          onClick={() => onChange({ open: params.open ? undefined : true, at: undefined })}
           className={pillClass(Boolean(params.open))}
         >
           <span
@@ -40,6 +41,8 @@ export function FilterBar({ params, options, onChange, onClear, toggles }: Filte
           />
           {t("filters.open")}
         </button>
+
+        <OpenAtMenu value={params.at} onChange={(at) => onChange({ at, open: undefined })} />
 
         {options.showFree ? (
           <button

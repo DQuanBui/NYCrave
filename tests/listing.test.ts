@@ -1,6 +1,14 @@
 import { describe, expect, it } from "vitest"
+import { getStatusAt, isOpen } from "@/lib/hours"
 import { applyListing, filterOptions, hasActiveFilters } from "@/lib/listing"
-import { fromSlug, listingQuery, parseListingParams, toSlug } from "@/lib/place-filters"
+import {
+  atClock,
+  fromSlug,
+  listingQuery,
+  parseListingParams,
+  toAt,
+  toSlug,
+} from "@/lib/place-filters"
 import { fixturePlaces } from "./fixtures"
 import { countByType } from "@/lib/type-browse"
 import { CUISINES } from "@/types/place"
@@ -81,5 +89,34 @@ describe("countByType", () => {
     expect(counts).toHaveLength(CUISINES.length)
     expect(counts[0].count).toBeGreaterThan(0)
     expect(counts.find((c) => c.value === "vietnamese")?.count).toBe(1)
+  })
+})
+
+describe("open at a chosen time", () => {
+  it("round-trips a weekday and time through the URL", () => {
+    expect(toAt(6, 21 * 60)).toBe("sat-2100")
+    expect(atClock("sat-2100")).toEqual({ weekday: 6, minutes: 21 * 60 })
+    expect(atClock("sun-0030")).toEqual({ weekday: 0, minutes: 30 })
+    expect(listingQuery(parseListingParams({ at: "fri-2330" }))).toEqual({ at: "fri-2330" })
+  })
+
+  it("drops malformed values", () => {
+    for (const at of ["sat-2500", "sat-9pm", "funday-1200", "sat-1260", ""])
+      expect(parseListingParams({ at }).at).toBeUndefined()
+  })
+
+  it("keeps only places open then, whatever the time now", () => {
+    const params = parseListingParams({ at: "tue-0400" })
+    const clock = atClock("tue-0400")!
+    const res = applyListing(all, params, new Date("2026-07-04T16:00:00Z"))
+    expect(hasActiveFilters(params)).toBe(true)
+    expect(res.length).toBeGreaterThan(0)
+    expect(res.length).toBeLessThan(all.length)
+    expect(res.map((p) => p.id).sort()).toEqual(
+      all
+        .filter((p) => isOpen(getStatusAt(p.hours, clock)))
+        .map((p) => p.id)
+        .sort(),
+    )
   })
 })

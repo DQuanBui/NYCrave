@@ -191,6 +191,13 @@
   "filters": {
     "label": "Filtros",
     "open": "Abierto ahora",
+    "openAt": "Abierto el…",
+    "openAtTitle": "Abierto un día a una hora",
+    "openAtActive": "Abierto {when}",
+    "day": "Día",
+    "time": "Hora",
+    "openAtApply": "Ver lugares",
+    "openAtClear": "Cualquier hora",
     "free": "Gratis",
     "borough": "Distrito",
     "anyBorough": "Todos los distritos",

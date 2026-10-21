@@ -7,6 +7,7 @@ import {
   LIGHT_TIMES,
   SHOP_TYPES,
   VIBE_TAGS,
+  WEEKDAYS,
 } from "@/types/enums"
 import type {
   Borough,
@@ -78,6 +79,8 @@ export type ListingParams = {
   hood?: string
   price?: 1 | 2 | 3 | 4
   open?: boolean
+  /** Open on a weekday at a time, as "sat-2100" (New York time). */
+  at?: string
   free?: boolean
   /** Only places with a step-free subway station a short walk away. */
   step?: boolean
@@ -101,6 +104,7 @@ export function parseListingParams(raw: RawParams): ListingParams {
     hood: first(raw.hood) || undefined,
     price: price >= 1 && price <= 4 ? (price as 1 | 2 | 3 | 4) : undefined,
     open: first(raw.open) === "1" || undefined,
+    at: atClock(first(raw.at) ?? "") ? first(raw.at) : undefined,
     free: first(raw.free) === "1" || undefined,
     step: first(raw.step) === "1" || undefined,
     vibe: oneOf(VIBE_TAGS, first(raw.vibe)),
@@ -111,6 +115,24 @@ export function parseListingParams(raw: RawParams): ListingParams {
   }
 }
 
+const AT = /^(sun|mon|tue|wed|thu|fri|sat)-([01]\d|2[0-3])([0-5]\d)$/
+
+/** "sat-2100" as a weekday (0 = Sunday) and minutes after midnight. */
+export function atClock(at: string): { weekday: number; minutes: number } | undefined {
+  const m = AT.exec(at)
+  if (!m) return undefined
+  return {
+    weekday: WEEKDAYS.indexOf(m[1] as (typeof WEEKDAYS)[number]),
+    minutes: Number(m[2]) * 60 + Number(m[3]),
+  }
+}
+
+export function toAt(weekday: number, minutes: number): string {
+  const hh = String(Math.floor(minutes / 60)).padStart(2, "0")
+  const mm = String(minutes % 60).padStart(2, "0")
+  return `${WEEKDAYS[weekday]}-${hh}${mm}`
+}
+
 /** Serializes only non-default values, so clean URLs stay clean. */
 export function listingQuery(p: Partial<ListingParams>): Record<string, string> {
   const q: Record<string, string> = {}
@@ -118,6 +140,7 @@ export function listingQuery(p: Partial<ListingParams>): Record<string, string> 
   if (p.hood) q.hood = p.hood
   if (p.price) q.price = String(p.price)
   if (p.open) q.open = "1"
+  if (p.at) q.at = p.at
   if (p.free) q.free = "1"
   if (p.step) q.step = "1"
   if (p.vibe) q.vibe = p.vibe

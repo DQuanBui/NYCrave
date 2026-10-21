@@ -191,6 +191,13 @@
   "filters": {
     "label": "Filters",
     "open": "Open now",
+    "openAt": "Open at…",
+    "openAtTitle": "Open on a day and time",
+    "openAtActive": "Open {when}",
+    "day": "Day",
+    "time": "Time",
+    "openAtApply": "Show places",
+    "openAtClear": "Any time",
     "free": "Free",
     "borough": "Borough",
     "anyBorough": "All boroughs",
