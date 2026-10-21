@@ -4293,5 +4293,443 @@
     "website": "https://www.nyhistory.org",
     "lat": 40.77925,
     "lng": -73.9743
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/museum-at-eldridge-street-1.jpg",
+        "alt": "The Eldridge Street Synagogue's facade and rose window",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Alexisrael, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Eldridge_Street_Synagogue_Front.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["The restored main sanctuary", "The east window's stained glass"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address, hours (Sunday to Friday 10 AM to 5 PM, closed Saturday) and admission from eldridgestreet.org/visit. Some days and spaces close for renovation work; check the site's special hours before going. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-museum-at-eldridge-street",
+    "slug": "museum-at-eldridge-street",
+    "name": "Museum at Eldridge Street",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "12 Eldridge St, New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": []
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 15,
+        "max": 15
+      },
+      "bookingUrl": "https://www.eldridgestreet.org/visit/",
+      "notes": "Adults $15; students and seniors $10; children 5 to 17 $8."
+    },
+    "editorialTake": "A restored 1887 synagogue on the Lower East Side, one of the first built by Eastern European Jews in America, now a museum with a soaring sanctuary.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 60,
+    "trendingScore": 52,
+    "website": "https://www.eldridgestreet.org",
+    "lat": 40.71473,
+    "lng": -73.99346
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/museum-of-chinese-in-america-1.jpg",
+        "alt": "The Museum of Chinese in America's entrance on Centre Street",
+        "width": 1100,
+        "height": 879,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:MOCA_Centre_St_sunny_morn_jeh.JPG",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Exhibitions on Chinese American history and life"],
+    "vibeTags": ["quiet", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Wednesday to Saturday 11 AM to 6 PM, Sunday 11 AM to 4 PM, no public hours Monday and Tuesday) from mocanyc.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-museum-of-chinese-in-america",
+    "slug": "museum-of-chinese-in-america",
+    "name": "Museum of Chinese in America (MOCA)",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Chinatown",
+    "address": "215 Centre St, New York, NY 10013",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A museum of Chinese American history and culture on the edge of Chinatown, with exhibitions drawn from family stories and community archives.",
+    "bestTimeToVisit": "Weekend afternoon, before dim sum",
+    "timeNeededMinutes": 60,
+    "trendingScore": 48,
+    "website": "https://www.mocanyc.org",
+    "lat": 40.71944,
+    "lng": -73.99908
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/hispanic-society-museum-1.jpg",
+        "alt": "The Hispanic Society's Beaux-Arts museum building on Audubon Terrace",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Asaavedra32, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:HispanicSocietyofAmerica.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Sorolla's room of murals of the regions of Spain", "Goya and Velázquez paintings"],
+    "vibeTags": ["quiet", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and museum hours (Thursday to Sunday noon to 5 PM, closed Monday to Wednesday) from hispanicsociety.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-hispanic-society-museum",
+    "slug": "hispanic-society-museum",
+    "name": "Hispanic Society Museum & Library",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Washington Heights",
+    "address": "3741 Broadway (Audubon Terrace), New York, NY 10032",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A grand Beaux-Arts museum on Audubon Terrace with art from Spain, Portugal and Latin America, including a gallery of Joaquín Sorolla's huge murals.",
+    "bestTimeToVisit": "Thursday afternoon",
+    "timeNeededMinutes": 75,
+    "trendingScore": 46,
+    "website": "https://hispanicsociety.org",
+    "lat": 40.83307,
+    "lng": -73.94593
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/noble-maritime-collection-1.jpg",
+        "alt": "The Noble Maritime Collection's entrance at Snug Harbor",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Noble_Maritime_Collection_entrance_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["John A. Noble's houseboat studio", "Paintings and lithographs of New York harbor"],
+    "vibeTags": ["quiet", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Wednesday to Sunday, noon to 5 PM) from noblemaritime.org/visit. Children under 10 visit free. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-noble-maritime-collection",
+    "slug": "noble-maritime-collection",
+    "name": "Noble Maritime Collection",
+    "category": "attraction",
+    "borough": "staten_island",
+    "neighborhood": "New Brighton",
+    "address": "1000 Richmond Terrace, Building D, Staten Island, NY 10301",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A maritime museum at Snug Harbor devoted to artist John A. Noble and New York's working harbor, with his houseboat studio rebuilt inside.",
+    "bestTimeToVisit": "With a walk around Snug Harbor",
+    "timeNeededMinutes": 60,
+    "trendingScore": 42,
+    "website": "https://www.noblemaritime.org",
+    "lat": 40.64188,
+    "lng": -74.10194
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/king-manor-museum-1.jpg",
+        "alt": "King Manor's white farmhouse in King Park",
+        "width": 1000,
+        "height": 651,
+        "source": "other",
+        "attribution": {
+          "text": "Dmadeo, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Rufus-king-house.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The house of Rufus King, a signer of the Constitution"],
+    "vibeTags": ["quiet", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Tuesday to Saturday noon to 5 PM, closed Sunday and Monday) from kingmanor.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-king-manor-museum",
+    "slug": "king-manor-museum",
+    "name": "King Manor Museum",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Jamaica",
+    "address": "150-03 Jamaica Ave, Jamaica, NY 11432",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [],
+      "mon": [],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "The farmhouse home of Rufus King, a signer of the Constitution and early opponent of slavery, in King Park in the middle of Jamaica, Queens.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 40,
+    "website": "https://www.kingmanor.org",
+    "lat": 40.70316,
+    "lng": -73.80375
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/lewis-latimer-house-museum-1.jpg",
+        "alt": "The Lewis Latimer House, a red-trimmed Victorian house in Flushing",
+        "width": 1100,
+        "height": 733,
+        "source": "other",
+        "attribution": {
+          "text": "Tdorante10, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Leavitt_Park_td_(2022-04-22)_03_-_Lewis_H._Latimer_House.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "The story of the Black inventor who drafted patents for Bell and worked with Edison"
+    ],
+    "vibeTags": ["quiet", "kid_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address and hours (Fridays, Saturdays and Sundays, 11 AM to 5 PM) from latimernow.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-lewis-latimer-house",
+    "slug": "lewis-latimer-house-museum",
+    "name": "Lewis Latimer House Museum",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "34-41 137th St, Flushing, NY 11354",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "The Flushing home of Lewis Latimer, the Black inventor and draftsman who improved the carbon filament for electric light, now a museum of his life and work.",
+    "bestTimeToVisit": "Saturday",
+    "timeNeededMinutes": 45,
+    "trendingScore": 42,
+    "website": "https://www.latimernow.org",
+    "lat": 40.76611,
+    "lng": -73.82938
   }
 ]
