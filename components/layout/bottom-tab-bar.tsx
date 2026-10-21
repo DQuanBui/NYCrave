@@ -15,7 +15,7 @@ export function BottomTabBar() {
   return (
     <nav
       aria-label={t("tabs")}
-      className="fixed inset-x-0 bottom-0 z-40 sign-band pb-safe md:hidden"
+      className="fixed inset-x-0 bottom-0 z-40 sign-band pb-safe md:hidden print:hidden"
     >
       <ul className="grid h-16 grid-cols-5 pt-1.5">
         {TAB_BAR.map((key) => {

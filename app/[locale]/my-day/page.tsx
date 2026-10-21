@@ -57,7 +57,7 @@ export default async function MyDayPage({ params, searchParams }: Props) {
 
       {submitted ? (
         <div className="space-y-10">
-          <details className="group rounded-2xl border bg-card p-5">
+          <details className="group rounded-2xl border bg-card p-5 print:hidden">
             <summary className="cursor-pointer font-bold">{t("edit")}</summary>
             <div className="pt-6">
               <PlannerForm key={JSON.stringify(input)} initial={input} today={today} />

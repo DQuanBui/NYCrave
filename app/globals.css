@@ -426,3 +426,12 @@
     }
   }
 }
+
+/* Printing a plan or a place: plain paper, no street-grid background */
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}

@@ -32,7 +32,7 @@ export function BackToTop() {
       tabIndex={show ? 0 : -1}
       aria-hidden={!show}
       className={cn(
-        "fixed bottom-[calc(5rem+env(safe-area-inset-bottom))] left-4 z-40 grid size-12 place-items-center rounded-full border-2 border-foreground bg-background shadow-lg transition-all duration-300 hover:-translate-y-0.5 md:bottom-6",
+        "fixed bottom-[calc(5rem+env(safe-area-inset-bottom))] left-4 z-40 grid size-12 place-items-center rounded-full border-2 border-foreground bg-background shadow-lg transition-all duration-300 hover:-translate-y-0.5 md:bottom-6 print:hidden",
         show ? "opacity-100" : "pointer-events-none translate-y-3 opacity-0",
       )}
     >

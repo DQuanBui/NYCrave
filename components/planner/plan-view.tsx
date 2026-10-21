@@ -230,14 +230,15 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
                     <Link
                       href={{ pathname: "/my-day", query: swapQuery(plan, stop.slot, adjustments) }}
                       scroll={false}
-                      aria-label={t("planner.swapLabel", {
-                        slot: slotLabel,
-                        name: stop.place.name,
-                      })}
-                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-muted-foreground hover:text-foreground"
+                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-muted-foreground hover:text-foreground print:hidden"
                     >
                       <Shuffle aria-hidden className="size-4" />
                       {t("planner.swap")}
+                      {/* The visible words first, then which stop, for screen readers */}
+                      <span className="sr-only">
+                        {" "}
+                        ({slotLabel}: {stop.place.name})
+                      </span>
                     </Link>
                   </div>
                 </div>
@@ -261,7 +262,7 @@ export async function PlanView({ plan, adjustments, forecast, aiEnabled }: PlanV
               )}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 rounded-full border-2 border-foreground px-4 py-2.5 text-sm font-bold hover:bg-accent"
+              className="flex items-center justify-center gap-2 rounded-full border-2 border-foreground px-4 py-2.5 text-sm font-bold hover:bg-accent print:hidden"
             >
               <Navigation aria-hidden className="size-4" />
               {t("planner.openRoute")}

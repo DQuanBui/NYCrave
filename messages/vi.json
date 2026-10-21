@@ -301,7 +301,6 @@
     "free": "Miễn phí",
     "until": "đến {time}",
     "swap": "Đổi điểm dừng này",
-    "swapLabel": "Đổi {slot}, {name}",
     "summaryStops": "{count, plural, other {# điểm dừng}}",
     "summaryCost": "Khoảng ${amount} mỗi người",
     "summaryTravel": "{duration} di chuyển",
@@ -363,7 +362,8 @@
     "hot": "Hôm nay nóng (cao nhất {temp}°F), nên các điểm trong nhà được ưu tiên trước.",
     "cold": "Hôm nay lạnh (cao nhất {temp}°F), nên các điểm trong nhà được ưu tiên trước.",
     "openRoute": "Mở toàn bộ lộ trình trên Google Maps",
-    "newTab": "(mở trong thẻ mới)"
+    "newTab": "(mở trong thẻ mới)",
+    "print": "In"
   },
   "listing": {
     "count": "{count, plural, =0 {Chưa có địa điểm} other {# địa điểm}}",

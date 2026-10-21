@@ -1,6 +1,6 @@
 "use client"
 
-import { BookmarkCheck, BookmarkPlus, CalendarPlus, Sparkles } from "lucide-react"
+import { BookmarkCheck, BookmarkPlus, CalendarPlus, Printer, Sparkles } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useState, useTransition } from "react"
 import { ShareButton } from "@/components/place/share-button"
@@ -36,7 +36,7 @@ export function PlanActions({
   const saved = hydrated && has(path)
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 print:hidden">
       <div className="flex flex-wrap gap-2">
         <button
           type="button"
@@ -56,6 +56,10 @@ export function PlanActions({
           <CalendarPlus aria-hidden className="size-4" />
           {t("export")}
         </a>
+        <button type="button" onClick={() => window.print()} className={button}>
+          <Printer aria-hidden className="size-4" />
+          {t("print")}
+        </button>
         {aiEnabled ? <EnhanceButton query={query} /> : null}
       </div>
     </div>

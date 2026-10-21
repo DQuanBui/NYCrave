@@ -301,7 +301,6 @@
     "free": "Gratis",
     "until": "hasta las {time}",
     "swap": "Cambiar esta parada",
-    "swapLabel": "Cambiar {slot}, {name}",
     "summaryStops": "{count, plural, one {# parada} other {# paradas}}",
     "summaryCost": "Unos ${amount} por persona",
     "summaryTravel": "{duration} de traslados",
@@ -363,7 +362,8 @@
     "hot": "Hace calor (máxima de {temp}°F), así que primero van los lugares bajo techo.",
     "cold": "Hace frío (máxima de {temp}°F), así que primero van los lugares bajo techo.",
     "openRoute": "Abrir toda la ruta en Google Maps",
-    "newTab": "(se abre en una pestaña nueva)"
+    "newTab": "(se abre en una pestaña nueva)",
+    "print": "Imprimir"
   },
   "listing": {
     "count": "{count, plural, =0 {Todavía no hay lugares} one {# lugar} other {# lugares}}",

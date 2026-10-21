@@ -301,7 +301,6 @@
     "free": "免费",
     "until": "营业至 {time}",
     "swap": "换掉这一站",
-    "swapLabel": "换掉{slot}：{name}",
     "summaryStops": "{count, plural, other {# 站}}",
     "summaryCost": "人均约 ${amount}",
     "summaryTravel": "路上共 {duration}",
@@ -363,7 +362,8 @@
     "hot": "今天很热（最高 {temp}°F），所以优先安排室内地点。",
     "cold": "今天很冷（最高 {temp}°F），所以优先安排室内地点。",
     "openRoute": "在 Google 地图中打开完整路线",
-    "newTab": "（在新标签页中打开）"
+    "newTab": "（在新标签页中打开）",
+    "print": "打印"
   },
   "listing": {
     "count": "{count, plural, =0 {暂无地点} other {# 个地点}}",

@@ -301,7 +301,6 @@
     "free": "Free",
     "until": "until {time}",
     "swap": "Swap this stop",
-    "swapLabel": "Swap {slot}, {name}",
     "summaryStops": "{count, plural, one {# stop} other {# stops}}",
     "summaryCost": "About ${amount} per person",
     "summaryTravel": "{duration} getting around",
@@ -363,7 +362,8 @@
     "hot": "A hot one (high of {temp}°F), so indoor stops come first.",
     "cold": "A cold one (high of {temp}°F), so indoor stops come first.",
     "openRoute": "Open the whole route in Google Maps",
-    "newTab": "(opens in a new tab)"
+    "newTab": "(opens in a new tab)",
+    "print": "Print"
   },
   "listing": {
     "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",

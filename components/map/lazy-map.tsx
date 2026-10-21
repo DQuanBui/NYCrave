@@ -36,7 +36,7 @@ export function LazyMap({ className, ...props }: MapViewProps) {
   }, [])
 
   return (
-    <div ref={ref} className={cn("relative", className)}>
+    <div ref={ref} className={cn("relative print:hidden", className)}>
       {visible ? (
         <MapView {...props} className="size-full" />
       ) : (

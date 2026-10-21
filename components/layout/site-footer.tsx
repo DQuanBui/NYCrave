@@ -11,7 +11,7 @@ export async function SiteFooter() {
   const t = await getTranslations()
 
   return (
-    <footer className="mt-24 sign-band pb-28 text-sign-foreground md:pb-0">
+    <footer className="mt-24 sign-band pb-28 text-sign-foreground md:pb-0 print:hidden">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 pt-16 pb-12 md:grid-cols-[1fr_2fr] lg:px-8">
         <div className="space-y-4">
           <Wordmark />

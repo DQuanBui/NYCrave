@@ -28,7 +28,7 @@ export function SiteHeader() {
   useSearchShortcut()
 
   return (
-    <header className="sticky top-0 z-40 border-b bg-background/90 backdrop-blur-md supports-[backdrop-filter]:bg-background/75">
+    <header className="sticky top-0 z-40 border-b bg-background/90 backdrop-blur-md supports-[backdrop-filter]:bg-background/75 print:hidden">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-2 px-4 lg:gap-6 lg:px-8">
         <Link href="/" className="-ml-1 rounded-full p-1" aria-label={t("homeLabel")}>
           <Wordmark />

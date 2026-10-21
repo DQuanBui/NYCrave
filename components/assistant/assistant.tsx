@@ -119,7 +119,7 @@ export function Assistant({ ai }: { ai: boolean }) {
       <SheetTrigger asChild>
         <button
           type="button"
-          className="fixed right-4 bottom-[calc(5rem+env(safe-area-inset-bottom))] z-40 inline-flex h-12 items-center gap-2 rounded-full bg-foreground pr-5 pl-4 font-bold text-background shadow-xl transition-transform hover:-translate-y-0.5 md:bottom-6"
+          className="fixed right-4 bottom-[calc(5rem+env(safe-area-inset-bottom))] z-40 inline-flex h-12 items-center gap-2 rounded-full bg-foreground pr-5 pl-4 font-bold text-background shadow-xl transition-transform hover:-translate-y-0.5 md:bottom-6 print:hidden"
         >
           <Sparkles aria-hidden className="size-5 text-taxi" />
           {t("open")}
