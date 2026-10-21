@@ -6,7 +6,8 @@ import { useState } from "react"
 import { cn } from "@/lib/utils"
 
 type ShareButtonProps = {
-  title: string
+  /** Defaults to the page title. */
+  title?: string
   /** Defaults to the current page. */
   url?: string
   /** Button text; defaults to "Share". */
@@ -22,7 +23,7 @@ export function ShareButton({ title, url: shareUrl, label, className }: ShareBut
     const url = shareUrl ?? window.location.href
     if (navigator.share) {
       try {
-        await navigator.share({ title, url })
+        await navigator.share({ title: title ?? document.title, url })
       } catch {
         // Dismissed share sheet: nothing to do.
       }

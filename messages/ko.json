@@ -234,7 +234,8 @@
     "locationFar": "뉴욕시 밖에 계신 것 같아 거리가 멀게 표시됩니다.",
     "stepFree": "계단 없는 지하철역",
     "stepFreeHint": "도보 10분 이내에 엘리베이터나 경사로가 있는 지하철역",
-    "clusterLabel": "이곳에 장소 {count}곳: 확대"
+    "clusterLabel": "이곳에 장소 {count}곳: 확대",
+    "share": "이 결과 공유"
   },
   "browse": {
     "cuisine": "요리별로 둘러보기",

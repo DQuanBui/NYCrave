@@ -234,7 +234,8 @@
     "locationFar": "You seem to be outside New York City, so distances are long.",
     "stepFree": "Step-free subway",
     "stepFreeHint": "A subway station with elevators or ramps within a 10-minute walk",
-    "clusterLabel": "{count} places here: zoom in"
+    "clusterLabel": "{count} places here: zoom in",
+    "share": "Share these results"
   },
   "browse": {
     "cuisine": "Browse by cuisine",

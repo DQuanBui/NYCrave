@@ -8,11 +8,12 @@ import { FilterBar } from "@/components/listing/filter-bar"
 import { pillClass } from "@/components/listing/filter-menu"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlaceGrid } from "@/components/place/place-grid"
+import { ShareButton } from "@/components/place/share-button"
 import { Button } from "@/components/ui/button"
 import { useGeolocation } from "@/hooks/use-geolocation"
 import { usePathname, useRouter } from "@/i18n/navigation"
 import { distanceKm } from "@/lib/geo"
-import type { FilterOptions } from "@/lib/listing"
+import { hasActiveFilters, type FilterOptions } from "@/lib/listing"
 import { placeToPoint } from "@/lib/map-points"
 import { listingQuery, type ListingParams } from "@/lib/place-filters"
 import { estimateTravel } from "@/lib/planner/estimates"
@@ -89,9 +90,18 @@ export function ListingClient({ places, params, options }: ListingClientProps) {
         </p>
       ) : null}
       <h2 className="sr-only">{t("resultsHeading")}</h2>
-      <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
-        {t("results", { count: places.length })}
-      </p>
+      <div className="flex min-h-8 flex-wrap items-center justify-between gap-2">
+        <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
+          {t("results", { count: places.length })}
+        </p>
+        {/* Filters live in the URL, so a filtered view can be passed on as is */}
+        {hasActiveFilters(params) && places.length > 0 ? (
+          <ShareButton
+            label={t("share")}
+            className="h-8 border-foreground/15 px-3 hover:border-foreground"
+          />
+        ) : null}
+      </div>
 
       <div
         aria-busy={pending}

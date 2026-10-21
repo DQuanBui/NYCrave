@@ -234,7 +234,8 @@
     "locationFar": "你似乎不在纽约市内，所以距离会比较远。",
     "stepFree": "无障碍地铁站",
     "stepFreeHint": "步行 10 分钟内有设电梯或坡道的地铁站",
-    "clusterLabel": "此处有 {count} 个地点：放大"
+    "clusterLabel": "此处有 {count} 个地点：放大",
+    "share": "分享这些结果"
   },
   "browse": {
     "cuisine": "按菜系浏览",
