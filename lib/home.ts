@@ -157,3 +157,16 @@ export function freshFirst<T extends { slug: string }>(list: T[], shown: Set<str
 export function markShown(list: { slug: string }[], shown: Set<string>, count = 6) {
   for (const p of list.slice(0, count)) shown.add(p.slug)
 }
+
+/** The most recently added or updated places, newest first (trending breaks ties). */
+export function newest<P extends { updatedAt: string; trendingScore?: number }>(
+  places: P[],
+  limit = 12,
+): P[] {
+  return [...places]
+    .sort(
+      (a, b) =>
+        b.updatedAt.localeCompare(a.updatedAt) || (b.trendingScore ?? 0) - (a.trendingScore ?? 0),
+    )
+    .slice(0, limit)
+}

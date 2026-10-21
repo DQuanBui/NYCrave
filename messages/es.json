@@ -140,7 +140,8 @@
       "seeAll": "Ver el año en Nueva York"
     },
     "recent": "Vistos recientemente",
-    "recentClear": "Borrar historial"
+    "recentClear": "Borrar historial",
+    "newest": "Novedades en NYCrave"
   },
   "categories": {
     "restaurant": {

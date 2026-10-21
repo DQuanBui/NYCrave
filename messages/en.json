@@ -140,7 +140,8 @@
       "seeAll": "See the year in New York"
     },
     "recent": "Recently viewed",
-    "recentClear": "Clear history"
+    "recentClear": "Clear history",
+    "newest": "New on NYCrave"
   },
   "categories": {
     "restaurant": {

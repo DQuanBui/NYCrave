@@ -9,7 +9,7 @@ import { RecentlyViewed } from "@/components/home/recently-viewed"
 import { PlaceRail } from "@/components/place/place-rail"
 import { initLocale } from "@/i18n/locale"
 import { holidayOn } from "@/lib/holidays"
-import { freshFirst, markShown } from "@/lib/home"
+import { freshFirst, markShown, newest } from "@/lib/home"
 import { getOpenStatus, isOpenLaterToday, nycClock, nycDateString } from "@/lib/hours"
 import { toCard } from "@/lib/card-place"
 import { getPlaces } from "@/lib/places"
@@ -99,6 +99,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <div className="mx-auto max-w-7xl space-y-16 px-4 pt-14 lg:space-y-20 lg:px-8 lg:pt-20">
         <RecentlyViewed />
         <PlaceRail title={t("trending")} places={trending.map(toCard)} limit={8} />
+        <PlaceRail title={t("newest")} places={newest(all).map(toCard)} limit={12} />
         <ComingUp seasons={upcomingSeasons(today).slice(0, 3)} />
         <MenuTeaser places={all} />
         <PlaceRail
