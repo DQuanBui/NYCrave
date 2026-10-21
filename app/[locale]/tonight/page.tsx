@@ -10,7 +10,7 @@ import { lateCandidates } from "@/lib/tonight"
 
 type Props = PageProps<"/[locale]/tonight">
 
-export const revalidate = 300
+export const revalidate = 86400
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   await initLocale(params)

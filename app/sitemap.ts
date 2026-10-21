@@ -10,7 +10,7 @@ import { SITE_URL } from "@/lib/site"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { countByType, TYPE_KINDS, type TypeKind } from "@/lib/type-browse"
 
-export const revalidate = 3600
+export const revalidate = 86400
 
 const url = (href: string) => {
   const languages = Object.fromEntries(

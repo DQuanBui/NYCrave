@@ -16,7 +16,7 @@ import { CATEGORY_META } from "@/lib/taxonomy"
 
 type Props = PageProps<"/[locale]/guides/[slug]">
 
-export const revalidate = 300
+export const revalidate = 86400
 
 export function generateStaticParams() {
   return GUIDES.map((g) => ({ slug: g.slug }))

@@ -10,7 +10,7 @@ import type { Photo } from "@/types/place"
 
 type Props = PageProps<"/[locale]/credits">
 
-export const revalidate = 3600
+export const revalidate = 86400
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   await initLocale(params)

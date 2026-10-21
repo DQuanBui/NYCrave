@@ -21,7 +21,7 @@ import { CATEGORIES } from "@/types/enums"
 
 type Props = PageProps<"/[locale]/neighborhoods/[slug]">
 
-export const revalidate = 300
+export const revalidate = 86400
 
 export function generateStaticParams() {
   return NEIGHBORHOODS.map((n) => ({ slug: n.slug }))

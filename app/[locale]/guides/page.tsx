@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils"
 
 type Props = PageProps<"/[locale]/guides">
 
-export const revalidate = 300
+export const revalidate = 86400
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   await initLocale(params)

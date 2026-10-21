@@ -1,9 +1,9 @@
 import { toCard } from "@/lib/card-place"
 import { getPlaces } from "@/lib/places"
 
-// Built once and refreshed every few minutes: the same list for every visitor
+// Built once and refreshed hourly: the same list for every visitor
 export const dynamic = "force-static"
-export const revalidate = 300
+export const revalidate = 3600
 
 /**
  * Every place as a card, for "What's next" on place pages. Suggestions are worked

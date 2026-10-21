@@ -19,7 +19,7 @@ import { cn } from "@/lib/utils"
 
 type Props = PageProps<"/[locale]/subway/[route]">
 
-export const revalidate = 300
+export const revalidate = 86400
 
 export function generateStaticParams() {
   return RIDE_ROUTES.map((r) => ({ route: routeSlug(r) }))

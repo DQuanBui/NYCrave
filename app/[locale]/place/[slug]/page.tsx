@@ -2,7 +2,7 @@ import { ArrowLeft, Clock, ExternalLink, MapPin, Ticket, TrainFront } from "luci
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
-import { HolidayNote } from "@/components/brand/holiday-note"
+import { TodayHoliday } from "@/components/brand/today-holiday"
 import { CopyButton } from "@/components/place/copy-button"
 import { HoursBadge } from "@/components/place/hours-badge"
 import { HoursTable } from "@/components/place/hours-table"
@@ -29,8 +29,7 @@ import { toCard } from "@/lib/card-place"
 import { formatPriceRange } from "@/lib/format"
 import { appleMapsUrl, distanceKm, googleMapsUrl, transitDirectionsUrl } from "@/lib/geo"
 import { getGooglePlaceDetails } from "@/lib/google-places"
-import { holidayOn } from "@/lib/holidays"
-import { isAlwaysOpen, nycDateString } from "@/lib/hours"
+import { isAlwaysOpen } from "@/lib/hours"
 import { LINES } from "@/lib/lines"
 import { placeTagKeys } from "@/lib/place-display"
 import { getPlaceBySlug, getPlaces } from "@/lib/places"
@@ -44,8 +43,10 @@ import type { Place } from "@/types/place"
 
 type Props = PageProps<"/[locale]/place/[slug]">
 
-// New places from the database render on first request; Google data refreshes hourly
-export const revalidate = 3600
+// New places from the database render on first request. Admin edits refresh
+// pages right away, and Google data is cached for a day, so a daily rebuild is
+// enough (each rebuild counts against the hosting plan's ISR quota)
+export const revalidate = 86400
 
 export async function generateStaticParams() {
   return (await getPlaces()).map((p) => ({ slug: p.slug }))
@@ -102,7 +103,6 @@ export default async function PlacePage({ params }: Props) {
   const photos = [...place.photos, ...(google?.photos ?? [])]
 
   const stations = nearestStations(place)
-  const holiday = holidayOn(nycDateString(new Date()))
   const similar = (await getPlaces({ category: place.category }))
     .filter((p) => p.id !== place.id)
     .sort((a, b) => distanceKm(place, a) - distanceKm(place, b))
@@ -305,7 +305,7 @@ export default async function PlacePage({ params }: Props) {
             {/* Open around the clock: a chart of seven full bars would say nothing */}
             {isAlwaysOpen(place.hours) ? null : <WeekChart hours={place.hours} line={meta.line} />}
             <HoursTable hours={place.hours} />
-            {holiday ? <HolidayNote holiday={holiday} /> : null}
+            <TodayHoliday />
           </div>
           <div className="space-y-4 rounded-2xl border bg-card p-5">
             <h2 className="flex items-center gap-2 font-bold">
