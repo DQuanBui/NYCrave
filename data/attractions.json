@@ -4131,5 +4131,167 @@
     "website": "https://www.nps.gov/hagr/",
     "lat": 40.82136,
     "lng": -73.9473
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/african-burial-ground-national-monument-1.jpg",
+        "alt": "The National Park Service sign on the lawn of the African Burial Ground memorial",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:African_Burial_Grounds_National_Monument,_Manhattan,_New_York_(7237328170).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "The visitor center's exhibits",
+      "The outdoor memorial at Duane Street and African Burial Ground Way"
+    ],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: hours (visitor center and outdoor memorial Wednesday to Sunday, 10 AM to 4 PM) and location from nps.gov/afbg. The visitor center is on the first floor of the Ted Weiss Federal Building; expect a security screening. The outdoor memorial is at Duane Street and African Burial Ground Way. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-african-burial-ground",
+    "slug": "african-burial-ground-national-monument",
+    "name": "African Burial Ground National Monument",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Tribeca",
+    "address": "290 Broadway (visitor center), New York, NY 10007",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "A national monument honoring the free and enslaved Africans buried here in the 17th and 18th centuries, with a museum in the federal building and an outdoor memorial around the corner. Free.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 60,
+    "trendingScore": 50,
+    "website": "https://www.nps.gov/afbg/",
+    "lat": 40.71472,
+    "lng": -74.00514
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/new-york-historical-1.jpg",
+        "alt": "New-York Historical's columned facade on Central Park West",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "David Shankbone, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:170_Central_Park_West_(New_York_Historical_Society)_by_David_Shankbone.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      }
+    ],
+    "mustTry": ["Free daily tours at 1 PM and 2:30 PM", "Friday evenings"],
+    "vibeTags": ["rainy_day", "quiet", "kid_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-20T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-20: address, hours (closed Monday; Tuesday to Thursday 11 AM to 5 PM; Friday 11 AM to 8 PM; weekends 11 AM to 5 PM) and admission from nyhistory.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-new-york-historical",
+    "slug": "new-york-historical",
+    "name": "New-York Historical",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper West Side",
+    "address": "170 Central Park West, New York, NY 10024",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 24,
+        "max": 24
+      },
+      "bookingUrl": "https://www.nyhistory.org/visit",
+      "notes": "Adults $24; seniors, educators and active military $19; students $13."
+    },
+    "editorialTake": "New York's oldest museum, across from Central Park, telling the city's and the nation's history through art, objects and changing exhibitions.",
+    "bestTimeToVisit": "Friday evening",
+    "timeNeededMinutes": 120,
+    "trendingScore": 58,
+    "website": "https://www.nyhistory.org",
+    "lat": 40.77925,
+    "lng": -73.9743
   }
 ]
