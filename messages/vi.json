@@ -481,7 +481,8 @@
     "copyright": "© {year} NYCrave",
     "language": "Ngôn ngữ",
     "credits": "Nguồn ảnh",
-    "privacy": "Quyền riêng tư"
+    "privacy": "Quyền riêng tư",
+    "stats": "{count} địa điểm, kiểm tra lần cuối ngày {date}"
   },
   "notFound": {
     "title": "Điểm dừng này không phục vụ",

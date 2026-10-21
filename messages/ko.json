@@ -481,7 +481,8 @@
     "copyright": "© {year} NYCrave",
     "language": "언어",
     "credits": "사진 출처",
-    "privacy": "개인정보"
+    "privacy": "개인정보",
+    "stats": "장소 {count}곳, 마지막 확인 {date}"
   },
   "notFound": {
     "title": "운행하지 않는 정거장입니다",

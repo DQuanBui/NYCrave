@@ -481,7 +481,8 @@
     "copyright": "© {year} NYCrave",
     "language": "Idioma",
     "credits": "Créditos de fotos",
-    "privacy": "Privacidad"
+    "privacy": "Privacidad",
+    "stats": "{count} lugares, revisados por última vez el {date}"
   },
   "notFound": {
     "title": "Esta parada está fuera de servicio",

@@ -481,7 +481,8 @@
     "copyright": "© {year} NYCrave",
     "language": "Language",
     "credits": "Photo credits",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "stats": "{count} places, last checked {date}"
   },
   "notFound": {
     "title": "This stop is not in service",

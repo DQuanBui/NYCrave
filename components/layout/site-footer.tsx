@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server"
+import { getLocale, getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { Wordmark } from "@/components/brand/wordmark"
 import { FeedbackLink } from "@/components/feedback/feedback"
@@ -7,9 +7,14 @@ import { ShortcutsLink } from "@/components/layout/shortcuts-dialog"
 import { Link } from "@/i18n/navigation"
 import { feedbackEnabled } from "@/lib/feedback-store"
 import { MENU_GROUPS, NAV } from "@/lib/nav"
+import { getPlaces } from "@/lib/places"
 
 export async function SiteFooter() {
   const t = await getTranslations()
+  const locale = await getLocale()
+  const places = await getPlaces()
+  // The newest check across all places: when the data was last looked over
+  const checked = places.reduce((max, p) => (p.updatedAt > max ? p.updatedAt : max), "")
 
   return (
     <footer className="mt-24 sign-band pb-28 text-sign-foreground md:pb-0 print:hidden">
@@ -22,6 +27,17 @@ export async function SiteFooter() {
             </LineBullet>
             {t("footer.dataNote")}
           </p>
+          {checked ? (
+            <p className="text-xs font-semibold text-sign-foreground/75">
+              {t("footer.stats", {
+                count: places.length,
+                date: new Intl.DateTimeFormat(locale, {
+                  dateStyle: "long",
+                  timeZone: "America/New_York",
+                }).format(new Date(checked)),
+              })}
+            </p>
+          ) : null}
         </div>
         <nav
           aria-label={t("nav.menuTitle")}
