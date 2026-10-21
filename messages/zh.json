@@ -141,7 +141,14 @@
     },
     "recent": "最近浏览",
     "recentClear": "清除记录",
-    "newest": "NYCrave 新增"
+    "newest": "NYCrave 新增",
+    "now": {
+      "label": "纽约此刻",
+      "time": "纽约现在是 {time}",
+      "open": "约 {count} 个地点正在营业",
+      "sunrise": "日出 {time}",
+      "sunset": "日落 {time}"
+    }
   },
   "categories": {
     "restaurant": {

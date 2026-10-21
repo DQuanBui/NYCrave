@@ -141,7 +141,14 @@
     },
     "recent": "Đã xem gần đây",
     "recentClear": "Xóa lịch sử",
-    "newest": "Mới trên NYCrave"
+    "newest": "Mới trên NYCrave",
+    "now": {
+      "label": "Ngay lúc này ở New York",
+      "time": "Bây giờ là {time} ở New York",
+      "open": "Khoảng {count} địa điểm đang mở",
+      "sunrise": "Bình minh {time}",
+      "sunset": "Hoàng hôn {time}"
+    }
   },
   "categories": {
     "restaurant": {

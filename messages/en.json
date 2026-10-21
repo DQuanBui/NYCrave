@@ -141,7 +141,14 @@
     },
     "recent": "Recently viewed",
     "recentClear": "Clear history",
-    "newest": "New on NYCrave"
+    "newest": "New on NYCrave",
+    "now": {
+      "label": "Right now in New York",
+      "time": "It's {time} in New York",
+      "open": "About {count} places open now",
+      "sunrise": "Sunrise {time}",
+      "sunset": "Sunset {time}"
+    }
   },
   "categories": {
     "restaurant": {

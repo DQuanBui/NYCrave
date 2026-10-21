@@ -141,7 +141,14 @@
     },
     "recent": "최근 본 장소",
     "recentClear": "기록 지우기",
-    "newest": "NYCrave 신규 장소"
+    "newest": "NYCrave 신규 장소",
+    "now": {
+      "label": "지금 뉴욕",
+      "time": "뉴욕은 지금 {time}",
+      "open": "지금 영업 중인 장소 약 {count}곳",
+      "sunrise": "일출 {time}",
+      "sunset": "일몰 {time}"
+    }
   },
   "categories": {
     "restaurant": {

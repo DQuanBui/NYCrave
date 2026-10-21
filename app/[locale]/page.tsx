@@ -5,12 +5,13 @@ import { Hero } from "@/components/home/hero"
 import { LineMap } from "@/components/home/line-map"
 import { MenuTeaser } from "@/components/home/menu-teaser"
 import { MyDayPromo } from "@/components/home/my-day-promo"
+import { NycNow } from "@/components/home/nyc-now"
 import { RecentlyViewed } from "@/components/home/recently-viewed"
 import { PlaceRail } from "@/components/place/place-rail"
 import { initLocale } from "@/i18n/locale"
 import { holidayOn } from "@/lib/holidays"
 import { freshFirst, markShown, newest } from "@/lib/home"
-import { getOpenStatus, isOpenLaterToday, nycClock, nycDateString } from "@/lib/hours"
+import { getOpenStatus, isOpen, isOpenLaterToday, nycClock, nycDateString } from "@/lib/hours"
 import { toCard } from "@/lib/card-place"
 import { getPlaces } from "@/lib/places"
 import { upcomingSeasons } from "@/lib/seasons"
@@ -40,6 +41,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   }))
   const now = new Date()
   const today = nycDateString(now)
+  const sun = sunDay(today)
   // The live rails re-check against the viewer's clock. The server sends a short
   // list of likely matches (the page is regenerated every few minutes), so the
   // home page does not carry every place's weekly hours.
@@ -95,6 +97,11 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
       <Hero hints={hints} forecast={forecast} holiday={holidayOn(today)} />
+      <NycNow
+        openCount={all.filter((p) => isOpen(getOpenStatus(p.hours, now))).length}
+        sunrise={sun.sunrise}
+        sunset={sun.sunset}
+      />
       <LineMap counts={counts} />
       <div className="mx-auto max-w-7xl space-y-16 px-4 pt-14 lg:space-y-20 lg:px-8 lg:pt-20">
         <RecentlyViewed />
@@ -111,7 +118,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           emptyText={t("openNowEmpty")}
         />
         <MyDayPromo />
-        <GuidesTeaser places={all} sun={sunDay(today)} />
+        <GuidesTeaser places={all} sun={sun} />
         <PlaceRail
           title={t("freeToday")}
           places={freeCandidates.map(toCard)}

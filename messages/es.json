@@ -141,7 +141,14 @@
     },
     "recent": "Vistos recientemente",
     "recentClear": "Borrar historial",
-    "newest": "Novedades en NYCrave"
+    "newest": "Novedades en NYCrave",
+    "now": {
+      "label": "Ahora mismo en Nueva York",
+      "time": "En Nueva York es {time}",
+      "open": "Unos {count} lugares abiertos ahora",
+      "sunrise": "Amanecer {time}",
+      "sunset": "Atardecer {time}"
+    }
   },
   "categories": {
     "restaurant": {
