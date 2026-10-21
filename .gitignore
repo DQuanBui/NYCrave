@@ -48,6 +48,9 @@ CLAUDE.md
 # copied from node_modules by scripts/copy-maplibre-worker.mjs
 /public/maplibre
 
+# resized from public/photos by scripts/photo-variants.mjs
+/public/img
+
 # Visitor reports written in local development
 /data/reports.json
 /data/feedback.json
