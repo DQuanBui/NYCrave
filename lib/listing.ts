@@ -3,6 +3,7 @@ import { getStatusAt, isOpen, nycClock } from "@/lib/hours"
 import {
   atClock,
   matchesFilter,
+  type FilterablePlace,
   paramsToFilter,
   sortPlaces,
   type ListingParams,
@@ -50,7 +51,11 @@ export function filterOptions(pool: Place[]): FilterOptions {
  * Applies URL filters (including "open now" against New York time, or open at
  * a chosen day and time) and sorting.
  */
-export function applyListing(pool: Place[], params: ListingParams, now = new Date()): Place[] {
+export function applyListing<P extends FilterablePlace & Pick<Place, "hours">>(
+  pool: P[],
+  params: ListingParams,
+  now = new Date(),
+): P[] {
   let results = pool.filter((p) => matchesFilter(p, paramsToFilter(params)))
   const at = params.at ? atClock(params.at) : undefined
   if (at || params.open) {

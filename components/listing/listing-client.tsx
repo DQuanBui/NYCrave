@@ -2,7 +2,8 @@
 
 import { LocateFixed, Shuffle, X } from "lucide-react"
 import { useTranslations } from "next-intl"
-import { useMemo, useTransition } from "react"
+import { useSearchParams } from "next/navigation"
+import { useMemo } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
 import { FilterBar } from "@/components/listing/filter-bar"
 import { pillClass } from "@/components/listing/filter-menu"
@@ -11,36 +12,48 @@ import { PlaceGrid } from "@/components/place/place-grid"
 import { ShareButton } from "@/components/place/share-button"
 import { Button } from "@/components/ui/button"
 import { useGeolocation } from "@/hooks/use-geolocation"
-import { usePathname, useRouter } from "@/i18n/navigation"
+import { useRouter } from "@/i18n/navigation"
 import { distanceKm } from "@/lib/geo"
-import { hasActiveFilters, type FilterOptions } from "@/lib/listing"
+import { useNow } from "@/hooks/use-now"
+import { applyListing, hasActiveFilters, type FilterOptions } from "@/lib/listing"
 import { placeToPoint } from "@/lib/map-points"
-import { listingQuery, type ListingParams } from "@/lib/place-filters"
+import { listingQuery, parseListingParams, type ListingParams } from "@/lib/place-filters"
 import { estimateTravel } from "@/lib/planner/estimates"
 import type { Travel } from "@/lib/planner/types"
-import { cn } from "@/lib/utils"
 import type { CardPlace } from "@/lib/card-place"
 
+/** A place card plus what the server worked out for filtering. */
+export type ListingCard = CardPlace & { stepFree: boolean }
+
 type ListingClientProps = {
-  places: CardPlace[]
-  params: ListingParams
+  /** Every place in the listing; the URL's filters are applied here. */
+  pool: ListingCard[]
   options: FilterOptions
 }
 
 /**
- * Filters live in the URL: changing one replaces the query string and the server
- * re-renders the results, so every filtered view can be shared or bookmarked.
+ * Filters live in the URL, so every filtered view can be shared or bookmarked.
+ * Changing one rewrites the query string in place (no request to the server)
+ * and the list is filtered right here.
  */
-export function ListingClient({ places, params, options }: ListingClientProps) {
+export function ListingClient({ pool, options }: ListingClientProps) {
   const t = useTranslations("filters")
   const router = useRouter()
-  const pathname = usePathname()
-  const [pending, startTransition] = useTransition()
+  const searchParams = useSearchParams()
+  const now = useNow()
+  const params = useMemo(
+    () => parseListingParams(Object.fromEntries(searchParams.entries())),
+    [searchParams],
+  )
+  const places = useMemo(() => {
+    const shown = applyListing(pool, params, now ?? undefined)
+    return params.step ? shown.filter((p) => p.stepFree) : shown
+  }, [pool, params, now])
 
-  const navigate = (next: Partial<ListingParams>) =>
-    startTransition(() =>
-      router.replace({ pathname, query: listingQuery(next) }, { scroll: false }),
-    )
+  const navigate = (next: Partial<ListingParams>) => {
+    const query = new URLSearchParams(listingQuery(next)).toString()
+    window.history.replaceState(null, "", `${window.location.pathname}${query ? `?${query}` : ""}`)
+  }
 
   const update = (patch: Partial<ListingParams>) => navigate({ ...params, ...patch })
   const clear = () => navigate({ sort: params.sort, view: params.view })
@@ -117,10 +130,7 @@ export function ListingClient({ places, params, options }: ListingClientProps) {
         </div>
       </div>
 
-      <div
-        aria-busy={pending}
-        className={cn("space-y-6 transition-opacity", pending && "pointer-events-none opacity-60")}
-      >
+      <div className="space-y-6">
         {places.length === 0 ? (
           <EmptyState
             line="orange"

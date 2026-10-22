@@ -1,6 +1,9 @@
 import { TypePage, typeMetadata, typeStaticParams } from "@/components/listing/type-page"
 import { initLocale } from "@/i18n/locale"
 
+// Built once and cached; filters are applied in the browser (see ListingView)
+export const revalidate = 86400
+
 type Props = PageProps<"/[locale]/sip/[type]">
 
 export function generateStaticParams() {
@@ -12,7 +15,7 @@ export async function generateMetadata({ params }: Props) {
   return typeMetadata("drink", (await params).type)
 }
 
-export default async function Page({ params, searchParams }: Props) {
+export default async function Page({ params }: Props) {
   await initLocale(params)
-  return <TypePage kind="drink" slug={(await params).type} searchParams={searchParams} />
+  return <TypePage kind="drink" slug={(await params).type} />
 }

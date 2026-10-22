@@ -40,8 +40,26 @@ export type PlaceFilter = {
 export const SORTS = ["trending", "name", "price"] as const
 export type PlaceSort = (typeof SORTS)[number]
 
+/** The fields filtering and sorting read, so slim place cards can be filtered in the browser. */
+export type FilterablePlace = Pick<
+  Place,
+  | "category"
+  | "borough"
+  | "neighborhood"
+  | "cuisines"
+  | "dishTypes"
+  | "drinkTypes"
+  | "shopTypes"
+  | "vibeTags"
+  | "dietary"
+  | "isFree"
+  | "priceLevel"
+  | "name"
+  | "trendingScore"
+> & { photoSpot?: { bestLight: LightTime[] } }
+
 /** Pure predicate so the same filtering runs on the server and in client components. */
-export function matchesFilter(place: Place, f: PlaceFilter): boolean {
+export function matchesFilter(place: FilterablePlace, f: PlaceFilter): boolean {
   if (f.category) {
     const cats = Array.isArray(f.category) ? f.category : [f.category]
     if (!cats.includes(place.category)) return false
@@ -61,7 +79,10 @@ export function matchesFilter(place: Place, f: PlaceFilter): boolean {
   return true
 }
 
-export function sortPlaces(places: Place[], sort: PlaceSort = "trending"): Place[] {
+export function sortPlaces<P extends FilterablePlace>(
+  places: P[],
+  sort: PlaceSort = "trending",
+): P[] {
   const copy = [...places]
   switch (sort) {
     case "name":

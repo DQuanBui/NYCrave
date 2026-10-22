@@ -7,8 +7,6 @@ import { fromSlug, toSlug } from "@/lib/place-filters"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { TYPE_KINDS, typeMessageKey, type TypeKind } from "@/lib/type-browse"
 
-type RawParams = Record<string, string | string[] | undefined>
-
 export function typeStaticParams(kind: TypeKind) {
   return TYPE_KINDS[kind].values.map((v) => ({ slug: toSlug(v) }))
 }
@@ -26,15 +24,7 @@ export async function typeMetadata(kind: TypeKind, slug: string): Promise<Metada
 }
 
 /** Listing for one cuisine, dish, drink or shop type. */
-export async function TypePage({
-  kind,
-  slug,
-  searchParams,
-}: {
-  kind: TypeKind
-  slug: string
-  searchParams: Promise<RawParams>
-}) {
+export async function TypePage({ kind, slug }: { kind: TypeKind; slug: string }) {
   const k = TYPE_KINDS[kind]
   const value = fromSlug(k.values, slug)
   if (!value) notFound()
@@ -56,10 +46,7 @@ export async function TypePage({
         }}
       />
       <div className="mx-auto max-w-7xl px-4 py-8 lg:px-8 lg:py-10">
-        <ListingView
-          base={{ category: k.category, ...k.filter(value) }}
-          searchParams={searchParams}
-        />
+        <ListingView base={{ category: k.category, ...k.filter(value) }} />
       </div>
     </div>
   )

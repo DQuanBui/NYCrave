@@ -16,6 +16,8 @@ export type CardPlace = Pick<
   | "drinkTypes"
   | "shopTypes"
   | "vibeTags"
+  | "dietary"
+  | "trendingScore"
   | "neighborhood"
   | "borough"
   | "lat"
@@ -44,6 +46,8 @@ export function toCard(p: Place): CardPlace {
     drinkTypes: p.drinkTypes,
     shopTypes: p.shopTypes,
     vibeTags: p.vibeTags,
+    dietary: p.dietary,
+    trendingScore: p.trendingScore,
     neighborhood: p.neighborhood,
     borough: p.borough,
     lat: p.lat,

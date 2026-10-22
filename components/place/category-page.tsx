@@ -12,8 +12,6 @@ import { CATEGORY_META } from "@/lib/taxonomy"
 import { CATEGORY_TYPE_KINDS } from "@/lib/type-browse"
 import type { Category } from "@/types/place"
 
-type RawParams = Record<string, string | string[] | undefined>
-
 export async function categoryMetadata(category: Category): Promise<Metadata> {
   const t = await getTranslations(`categories.${category}`)
   return {
@@ -24,13 +22,7 @@ export async function categoryMetadata(category: Category): Promise<Metadata> {
 }
 
 /** Shared page for every category line: browse grids, then the filterable listing. */
-export async function CategoryPage({
-  category,
-  searchParams,
-}: {
-  category: Category
-  searchParams: Promise<RawParams>
-}) {
+export async function CategoryPage({ category }: { category: Category }) {
   const t = await getTranslations()
   const meta = CATEGORY_META[category]
   const kinds = CATEGORY_TYPE_KINDS[category] ?? []
@@ -86,7 +78,7 @@ export async function CategoryPage({
               {t("browse.all")}
             </h2>
           ) : null}
-          <ListingView base={{ category }} searchParams={searchParams} />
+          <ListingView base={{ category }} />
         </section>
       </div>
     </div>
