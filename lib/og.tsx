@@ -8,6 +8,16 @@ export const OG = {
 } as const
 
 /**
+ * Social images are drawn on request, which costs function time. These headers
+ * let the CDN keep each one after the first request (Vercel clears its cache
+ * on every deploy, so a changed image shows up with the next deploy).
+ */
+export const OG_HEADERS = {
+  "Cache-Control": "public, max-age=86400",
+  "CDN-Cache-Control": "public, max-age=31536000, immutable",
+}
+
+/**
  * Loads a Google font for generated images, subset to the text drawn. Returns
  * null if Google Fonts is unreachable at render time, so the default font is used.
  */
@@ -88,7 +98,7 @@ export function iconResponse(size: number, opts: { maskable?: boolean } = {}) {
         NY
       </div>
     </div>,
-    { width: size, height: size },
+    { width: size, height: size, headers: OG_HEADERS },
   )
 }
 
@@ -183,6 +193,6 @@ export async function sectionImage({
       </div>
       {band ? <div style={{ height: 56, display: "flex", backgroundImage: band }} /> : null}
     </div>,
-    { width: 1200, height: 630, fonts },
+    { width: 1200, height: 630, fonts, headers: OG_HEADERS },
   )
 }

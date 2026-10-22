@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og"
 import { LINES } from "@/lib/lines"
-import { OG, ogFonts } from "@/lib/og"
+import { OG, OG_HEADERS, ogFonts } from "@/lib/og"
 import { getPlaceBySlug } from "@/lib/places"
 import { CATEGORY_META } from "@/lib/taxonomy"
 
@@ -70,6 +70,6 @@ export default async function Image({ params }: { params: Promise<{ slug: string
         <div style={{ fontFamily: display }}>NYCrave</div>
       </div>
     </div>,
-    { ...size, fonts },
+    { ...size, fonts, headers: OG_HEADERS },
   )
 }

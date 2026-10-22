@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og"
 import { LINES } from "@/lib/lines"
-import { loadAnton, OG } from "@/lib/og"
+import { loadAnton, OG, OG_HEADERS } from "@/lib/og"
 import { CATEGORY_META } from "@/lib/taxonomy"
 
 export const alt = "NYCrave: New York, by craving"
@@ -76,6 +76,10 @@ export default async function Image() {
         ))}
       </div>
     </div>,
-    { ...size, fonts: font ? [{ name: "Anton", data: font, style: "normal" }] : undefined },
+    {
+      ...size,
+      fonts: font ? [{ name: "Anton", data: font, style: "normal" }] : undefined,
+      headers: OG_HEADERS,
+    },
   )
 }
