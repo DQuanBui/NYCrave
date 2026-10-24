@@ -1,9 +1,10 @@
 "use client"
 
-import { Heart, Route } from "lucide-react"
+import { Heart, LocateFixed, Route } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
+import { pillClass } from "@/components/listing/filter-menu"
 import { CopyButton } from "@/components/place/copy-button"
 import { inKind, KindTabs, type KindTab } from "@/components/place/kind-tabs"
 import { OpenNowToggle, keepOpen } from "@/components/place/open-now-toggle"
@@ -13,11 +14,14 @@ import { PlaceGrid } from "@/components/place/place-grid"
 import { ShareButton } from "@/components/place/share-button"
 import { Button } from "@/components/ui/button"
 import { useHydrated, useNow } from "@/hooks/use-now"
+import { useGeolocation } from "@/hooks/use-geolocation"
 import { useSaved } from "@/hooks/use-saved"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
 import { placeToPoint } from "@/lib/map-points"
 import { planSavedQuery } from "@/lib/planner/around"
+import { estimateTravel } from "@/lib/planner/estimates"
+import type { Travel } from "@/lib/planner/types"
 import { MAX_SHARED } from "@/lib/shared-list"
 
 /** A link that opens this list on anyone's device, ready to save. */
@@ -37,6 +41,10 @@ function listText(title: string, places: CardPlace[]) {
 
 export function SavedList({ places }: { places: CardPlace[] }) {
   const t = useTranslations("saved")
+  const tFilters = useTranslations("filters")
+  // "Near me" sorts by distance on the device; the position is never sent
+  const geo = useGeolocation()
+  const origin = geo.state.status === "ready" ? geo.state.position : null
   const hydrated = useHydrated()
   const { slugs } = useSaved()
   const now = useNow()
@@ -59,7 +67,11 @@ export function SavedList({ places }: { places: CardPlace[] }) {
     .filter((p): p is CardPlace => p !== undefined)
 
   const plan = planSavedQuery(saved)
-  const shown = keepOpen(inKind(saved, tab), openOnly, now)
+  const open = keepOpen(inKind(saved, tab), openOnly, now)
+  const travel: Record<string, Travel> | undefined = origin
+    ? Object.fromEntries(open.map((p) => [p.id, estimateTravel(origin, p)]))
+    : undefined
+  const shown = travel ? [...open].sort((a, b) => travel[a.id].km - travel[b.id].km) : open
 
   if (saved.length === 0) {
     return (
@@ -110,6 +122,16 @@ export function SavedList({ places }: { places: CardPlace[] }) {
           onToggle={() => setOpenOnly((v) => !v)}
           label={t("openNow")}
         />
+        <button
+          type="button"
+          aria-pressed={Boolean(origin)}
+          onClick={origin ? geo.reset : geo.locate}
+          disabled={geo.state.status === "locating"}
+          className={pillClass(Boolean(origin))}
+        >
+          <LocateFixed aria-hidden className="size-4" />
+          {geo.state.status === "locating" ? tFilters("locating") : tFilters("nearMe")}
+        </button>
         <KindTabs places={saved} value={tab} onChange={setTab} label={t("byKind")} />
       </div>
       {shown.length === 0 ? (
@@ -117,7 +139,7 @@ export function SavedList({ places }: { places: CardPlace[] }) {
           {t("noneOpen")}
         </p>
       ) : (
-        <PlaceGrid places={shown} />
+        <PlaceGrid places={shown} travel={travel} />
       )}
       <LazyMap
         points={(shown.length ? shown : saved).map((p) => placeToPoint(p))}
