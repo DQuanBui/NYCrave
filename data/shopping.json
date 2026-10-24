@@ -2410,8 +2410,8 @@
     "vibeTags": ["cheap_eats", "solo_friendly", "rainy_day"],
     "dietary": [],
     "verified": false,
-    "updatedAt": "2026-10-20T12:00:00.000Z",
-    "verificationNotes": "Checked 2026-10-20: address and hours (Monday to Friday 7:30 AM to 9 PM, weekends 11 AM to 7 PM) from the structured data on urbanspacenyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "updatedAt": "2026-10-24T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-24: address and hours (Monday to Friday 7 AM to 9 PM, Saturday and Sunday 10 AM to 7 PM) from hfbrandsandmarkets.com/vanderbilt-market (Urban Space is now HF Brands & Markets; the earlier check on 2026-10-20 had 7:30 AM and 11 AM openings). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "id": "s-vanderbilt-market",
     "slug": "vanderbilt-market",
     "name": "Vanderbilt Market (Urbanspace)",
@@ -2425,43 +2425,43 @@
     "hours": {
       "sun": [
         {
-          "open": "11:00",
+          "open": "10:00",
           "close": "19:00"
         }
       ],
       "mon": [
         {
-          "open": "07:30",
+          "open": "07:00",
           "close": "21:00"
         }
       ],
       "tue": [
         {
-          "open": "07:30",
+          "open": "07:00",
           "close": "21:00"
         }
       ],
       "wed": [
         {
-          "open": "07:30",
+          "open": "07:00",
           "close": "21:00"
         }
       ],
       "thu": [
         {
-          "open": "07:30",
+          "open": "07:00",
           "close": "21:00"
         }
       ],
       "fri": [
         {
-          "open": "07:30",
+          "open": "07:00",
           "close": "21:00"
         }
       ],
       "sat": [
         {
-          "open": "11:00",
+          "open": "10:00",
           "close": "19:00"
         }
       ]
@@ -2470,7 +2470,7 @@
     "bestTimeToVisit": "Before or after the lunch rush",
     "timeNeededMinutes": 40,
     "trendingScore": 52,
-    "website": "https://www.urbanspacenyc.com/vanderbilt",
+    "website": "https://www.hfbrandsandmarkets.com/vanderbilt-market/",
     "lat": 40.75439,
     "lng": -73.9761
   },

@@ -2772,8 +2772,7 @@
     "bestTimeToVisit": "Evening, before a walk down 37th Avenue",
     "timeNeededMinutes": 30,
     "trendingScore": 72,
-    "website": "https://www.thearepalady.com",
-    "verificationNotes": "Checked 2026-09-27: address and hours from the Jackson Heights page of thearepalady.com (via search; the site did not load directly). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "verificationNotes": "Checked 2026-09-27: address and hours from the Jackson Heights page of thearepalady.com (via search; the site did not load directly). Price level is an editorial estimate. Confirm details with the venue before marking verified. The official site (thearepalady.com) was offline when checked on 2026-10-24; confirm hours before going.",
     "lat": 40.74952,
     "lng": -73.88837
   },
@@ -9315,7 +9314,7 @@
     "bestTimeToVisit": "After dinner",
     "timeNeededMinutes": 40,
     "trendingScore": 58,
-    "website": "https://www.venierospastry.com",
+    "website": "https://www.venieros.com",
     "lat": 40.72938,
     "lng": -73.98455
   },
