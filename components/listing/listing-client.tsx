@@ -37,14 +37,26 @@ type ListingClientProps = {
  * and the list is filtered right here.
  */
 export function ListingClient({ pool, options }: ListingClientProps) {
-  const t = useTranslations("filters")
-  const router = useRouter()
   const searchParams = useSearchParams()
-  const now = useNow()
   const params = useMemo(
     () => parseListingParams(Object.fromEntries(searchParams.entries())),
     [searchParams],
   )
+  return <Listing pool={pool} options={options} params={params} />
+}
+
+/**
+ * The same listing with no filters, for the cached HTML: it shows until the
+ * URL's filters are read, and matches the real one so nothing jumps.
+ */
+export function ListingFallback({ pool, options }: ListingClientProps) {
+  return <Listing pool={pool} options={options} params={parseListingParams({})} />
+}
+
+function Listing({ pool, options, params }: ListingClientProps & { params: ListingParams }) {
+  const t = useTranslations("filters")
+  const router = useRouter()
+  const now = useNow()
   const places = useMemo(() => {
     const shown = applyListing(pool, params, now ?? undefined)
     return params.step ? shown.filter((p) => p.stepFree) : shown
