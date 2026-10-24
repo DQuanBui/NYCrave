@@ -22,14 +22,14 @@ NYCrave is a mobile-first guide to New York City for locals and visitors: where 
 | 🔴 **Eat** · 🟠 **Sip** · 🔵 **Explore** · 🟣 **Shop** · 🟡 **Photo spots** · 🟢 **Parks & piers** | Browse by cuisine, dish, drink or shop type, with filters for open now or open at any day and time, free, step-free subway nearby, borough, neighborhood, price, vibe and dietary needs, as a list or a clustered map; share any filtered view, or let it pick one for you |
 | **Smart search** | Plain phrases in any of the five languages: "dumplings in Chinatown", "late night pizza", "trà sữa", "atracciones gratis", "唐人街 饺子", "차이나타운 만두". Forgives typos, remembers recent searches, sorts results by kind, and <kbd>/</kbd> jumps to it from any page |
 | **City map** | Every place on one map, grouped into line-colored clusters, with line toggles, *Open now*, *Open at…*, *Free* and *Near me* |
-| **Design My Day** | A timed day from breakfast to a nightcap, within budget, with the train to take between stops; swap stops, share, copy as text, print, add to calendar or open the route in Google Maps; saved places can become a day too |
+| **Design My Day** | A timed day from breakfast to a nightcap, within budget, starting from any neighborhood or near you, with the train to take between stops; swap stops, share, copy as text, print, add to calendar or open the route in Google Maps; saved places can become a day too |
 | **Ready-made days** | A classic first day, a food crawl, Brooklyn by the water, art and museums, date night, and a $50 day |
 | **Ask NYCrave** | A free helper on every page, in every language, that answers "where can I get…", "is … open now?", "plan a day in …" and "how do I get from JFK…" from NYCrave's own places and tips |
 | **What's next?** | Places a short walk away that are open when you get there, picked for what you just did |
 | **Open late** | Pick 10 PM, midnight, 2 AM or 4 AM and see what is still open tonight, with closing times |
 | **Ride the subway** | Every train as a strip map and a map, with the places a short walk from each stop, whether each is open, and accessible stations marked |
 | **Food crawls** | Pizza, dumplings, bagels, noodles, bakeries, coffee and cocktails: three or four places a short walk apart, drawn as a strip map, with a walking route and how far each starts from you |
-| **Guides** | Free NYC, rainy day, with kids, late night, date night, cheap eats, solo and outdoors, each with tips, a map and an *Open now* switch; the home forecast suggests one for the weather |
+| **Guides** | Free NYC, rainy day, with kids, late night, date night, cheap eats, solo, outdoors and history, each with tips, a map, an *Open now* switch and a one-tap day planned around its nearest places; the home forecast suggests one for the weather |
 | **The New York menu** | The city's signature foods, from the slice to pastrami on rye, and where to try each one |
 | **Walks & hikes** | Forest trails, waterfront paths and bridges in all five boroughs, with distance, difficulty and the nearest subway |
 | **Golden hour** | Today's light as a live sky ribbon, and photo walks timed so every stop lands in its best light |
@@ -66,7 +66,7 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-Everything runs without keys; optional services are listed in [.env.example](.env.example). Photos are resized to WebP at build time (`scripts/photo-variants.mjs`), so hosting needs no image optimizer.
+Everything runs without keys; optional services are listed in [.env.example](.env.example). Photos are resized to WebP at build time (`scripts/photo-variants.mjs`), and listings are cached pages filtered in the browser, so the site runs comfortably on a free hosting plan.
 
 ---
 
