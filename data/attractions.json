@@ -5418,5 +5418,153 @@
     "website": "https://theoldstonehouse.org",
     "lat": 40.67301,
     "lng": -73.9846
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/ukrainian-museum-1.jpg",
+        "alt": "The Ukrainian Museum building on East 6th Street in the snow",
+        "width": 1100,
+        "height": 797,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Ukrainian_Museum_in_winter.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Exhibitions of Ukrainian art and folk traditions"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-23T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-23: address, hours (Wednesday to Sunday noon to 6 PM, closed Monday and Tuesday) and admission from ukrainianmuseum.org/visit. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-ukrainian-museum",
+    "slug": "ukrainian-museum",
+    "name": "The Ukrainian Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "222 E 6th St, New York, NY 10003",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 10,
+        "max": 15
+      },
+      "bookingUrl": "https://www.ukrainianmuseum.org/visit",
+      "notes": "General $15; seniors and full-time students $10; children 12 and under free. Free on the last Thursday of the month, 6 to 9 PM."
+    },
+    "editorialTake": "A museum in the East Village devoted to the art and cultural heritage of Ukraine and its diaspora, with exhibitions, talks and workshops.",
+    "bestTimeToVisit": "Last Thursday of the month, when it is free",
+    "timeNeededMinutes": 60,
+    "trendingScore": 44,
+    "website": "https://www.ukrainianmuseum.org",
+    "lat": 40.72765,
+    "lng": -73.98977
+  },
+  {
+    "photos": [],
+    "mustTry": ["The current exhibition", "Evening talks and performances"],
+    "vibeTags": ["quiet", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-23T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-23: address, hours (Wednesday to Sunday noon to 6 PM, closed Monday and Tuesday) and suggested donation from leslielohman.org/visit. Closed on some holidays, including Juneteenth, NYC Pride Sunday and Thanksgiving. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-leslie-lohman-museum",
+    "slug": "leslie-lohman-museum-of-art",
+    "name": "Leslie-Lohman Museum of Art",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "26 Wooster St, New York, NY 10013",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 10,
+        "max": 10
+      },
+      "bookingUrl": "https://www.leslielohman.org/visit",
+      "notes": "Suggested donation $10."
+    },
+    "editorialTake": "A SoHo museum on Wooster Street whose exhibitions, talks and performances center queer art and artists.",
+    "bestTimeToVisit": "Weekend afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 42,
+    "website": "https://www.leslielohman.org",
+    "lat": 40.72177,
+    "lng": -74.00303
   }
 ]
