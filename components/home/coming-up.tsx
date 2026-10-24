@@ -1,4 +1,5 @@
 import { getLocale, getTranslations } from "next-intl/server"
+import { SeasonCountdown } from "@/components/home/season-countdown"
 import { Link } from "@/i18n/navigation"
 import { LINES } from "@/lib/lines"
 import { formatWindow, type SeasonStatus } from "@/lib/seasons"
@@ -41,14 +42,11 @@ export async function ComingUp({ seasons }: { seasons: SeasonStatus[] }) {
                 <span className="block text-sm text-muted-foreground">
                   {formatWindow(window, locale)}
                 </span>
-                <span
-                  className={cn(
-                    "inline-block rounded-full px-2 py-0.5 text-xs font-bold",
-                    happening ? "bg-taxi text-taxi-foreground" : "bg-muted",
-                  )}
-                >
-                  {happening ? t("status.now") : t("status.countdown", { days: daysUntil })}
-                </span>
+                <SeasonCountdown
+                  start={window.start}
+                  end={window.end}
+                  fallback={{ happening, daysUntil }}
+                />
               </span>
             </Link>
           </li>

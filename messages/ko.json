@@ -141,7 +141,9 @@
     "seeMap": "지도에서 모두 보기",
     "comingUp": {
       "title": "곧 열리는 뉴욕 이벤트",
-      "seeAll": "뉴욕의 1년 보기"
+      "seeAll": "뉴욕의 1년 보기",
+      "now": "진행 중",
+      "countdown": "{days, plural, =0 {오늘} =1 {내일} other {#일 후}}"
     },
     "recent": "최근 본 장소",
     "recentClear": "기록 지우기",

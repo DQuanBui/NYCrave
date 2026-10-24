@@ -141,7 +141,9 @@
     "seeMap": "See them all on the map",
     "comingUp": {
       "title": "Coming up in New York",
-      "seeAll": "See the year in New York"
+      "seeAll": "See the year in New York",
+      "now": "Happening now",
+      "countdown": "{days, plural, =0 {Today} =1 {Tomorrow} other {In # days}}"
     },
     "recent": "Recently viewed",
     "recentClear": "Clear history",

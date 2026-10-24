@@ -141,7 +141,9 @@
     "seeMap": "在地图上查看全部",
     "comingUp": {
       "title": "纽约近期活动",
-      "seeAll": "查看纽约全年活动"
+      "seeAll": "查看纽约全年活动",
+      "now": "正在进行",
+      "countdown": "{days, plural, =0 {今天} =1 {明天} other {还有 # 天}}"
     },
     "recent": "最近浏览",
     "recentClear": "清除记录",

@@ -141,7 +141,9 @@
     "seeMap": "Verlos todos en el mapa",
     "comingUp": {
       "title": "Próximamente en Nueva York",
-      "seeAll": "Ver el año en Nueva York"
+      "seeAll": "Ver el año en Nueva York",
+      "now": "Ahora mismo",
+      "countdown": "{days, plural, =0 {Hoy} =1 {Mañana} other {En # días}}"
     },
     "recent": "Vistos recientemente",
     "recentClear": "Borrar historial",

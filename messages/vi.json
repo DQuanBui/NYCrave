@@ -141,7 +141,9 @@
     "seeMap": "Xem tất cả trên bản đồ",
     "comingUp": {
       "title": "Sắp diễn ra ở New York",
-      "seeAll": "Xem cả năm ở New York"
+      "seeAll": "Xem cả năm ở New York",
+      "now": "Đang diễn ra",
+      "countdown": "{days, plural, =0 {Hôm nay} =1 {Ngày mai} other {Còn # ngày}}"
     },
     "recent": "Đã xem gần đây",
     "recentClear": "Xóa lịch sử",
