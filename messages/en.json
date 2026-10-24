@@ -387,7 +387,12 @@
     "newTab": "(opens in a new tab)",
     "print": "Print",
     "copyText": "Copy as text",
-    "copiedText": "Copied"
+    "copiedText": "Copied",
+    "useLocation": "Start near me",
+    "locating": "Finding you…",
+    "nearest": "Starting from {name}, the nearest neighborhood to you.",
+    "locationDenied": "Location is off, so pick a neighborhood instead.",
+    "locationFar": "You seem to be outside New York City, so pick a neighborhood instead."
   },
   "listing": {
     "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",

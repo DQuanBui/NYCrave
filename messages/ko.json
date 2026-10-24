@@ -387,7 +387,12 @@
     "newTab": "(새 탭에서 열림)",
     "print": "인쇄",
     "copyText": "텍스트로 복사",
-    "copiedText": "복사됨"
+    "copiedText": "복사됨",
+    "useLocation": "내 근처에서 시작",
+    "locating": "위치 찾는 중…",
+    "nearest": "가장 가까운 동네인 {name}에서 시작합니다.",
+    "locationDenied": "위치 서비스가 꺼져 있으니 동네를 선택하세요.",
+    "locationFar": "뉴욕시 밖에 계신 것 같으니 동네를 선택하세요."
   },
   "listing": {
     "count": "{count, plural, =0 {아직 장소 없음} other {장소 #곳}}",

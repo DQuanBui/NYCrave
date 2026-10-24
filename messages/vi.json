@@ -387,7 +387,12 @@
     "newTab": "(mở trong thẻ mới)",
     "print": "In",
     "copyText": "Sao chép dạng văn bản",
-    "copiedText": "Đã sao chép"
+    "copiedText": "Đã sao chép",
+    "useLocation": "Bắt đầu gần tôi",
+    "locating": "Đang tìm vị trí…",
+    "nearest": "Bắt đầu từ {name}, khu phố gần bạn nhất.",
+    "locationDenied": "Định vị đang tắt, hãy chọn một khu phố.",
+    "locationFar": "Có vẻ bạn đang ở ngoài thành phố New York, hãy chọn một khu phố."
   },
   "listing": {
     "count": "{count, plural, =0 {Chưa có địa điểm} other {# địa điểm}}",

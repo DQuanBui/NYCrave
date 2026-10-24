@@ -387,7 +387,12 @@
     "newTab": "（在新标签页中打开）",
     "print": "打印",
     "copyText": "复制为文字",
-    "copiedText": "已复制"
+    "copiedText": "已复制",
+    "useLocation": "从我附近出发",
+    "locating": "正在定位…",
+    "nearest": "从离你最近的街区 {name} 出发。",
+    "locationDenied": "定位已关闭，请选择一个街区。",
+    "locationFar": "你似乎不在纽约市内，请选择一个街区。"
   },
   "listing": {
     "count": "{count, plural, =0 {暂无地点} other {# 个地点}}",

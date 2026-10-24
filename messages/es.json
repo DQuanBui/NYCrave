@@ -387,7 +387,12 @@
     "newTab": "(se abre en una pestaña nueva)",
     "print": "Imprimir",
     "copyText": "Copiar como texto",
-    "copiedText": "Copiado"
+    "copiedText": "Copiado",
+    "useLocation": "Empezar cerca de mí",
+    "locating": "Buscándote…",
+    "nearest": "Empiezas en {name}, el barrio más cercano a ti.",
+    "locationDenied": "La ubicación está desactivada; elige un barrio.",
+    "locationFar": "Parece que estás fuera de la ciudad de Nueva York; elige un barrio."
   },
   "listing": {
     "count": "{count, plural, =0 {Todavía no hay lugares} one {# lugar} other {# lugares}}",

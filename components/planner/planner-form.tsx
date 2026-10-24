@@ -1,8 +1,10 @@
 "use client"
 
+import { LocateFixed } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useState, useTransition } from "react"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
+import { distanceKm } from "@/lib/geo"
 import { useRouter } from "@/i18n/navigation"
 import { formatHHMM, planQuery } from "@/lib/planner/params"
 import {
@@ -45,6 +47,32 @@ export function PlannerForm({ initial, today }: { initial: PlanInput; today: str
   const router = useRouter()
   const [pending, startTransition] = useTransition()
   const [input, setInput] = useState(initial)
+  // "Use my location": the nearest neighborhood becomes the start; the
+  // position is only compared on the device, never sent anywhere
+  const [locating, setLocating] = useState(false)
+  const [nearNote, setNearNote] = useState("")
+  const startNearMe = () => {
+    if (!("geolocation" in navigator)) return setNearNote(t("planner.locationDenied"))
+    setLocating(true)
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setLocating(false)
+        const here = { lat: pos.coords.latitude, lng: pos.coords.longitude }
+        const nearest = NEIGHBORHOODS.reduce((best, n) =>
+          distanceKm(here, n) < distanceKm(here, best) ? n : best,
+        )
+        if (distanceKm(here, nearest) > 25) return setNearNote(t("planner.locationFar"))
+        set("from", nearest.slug)
+        setNearNote(t("planner.nearest", { name: nearest.name }))
+      },
+      () => {
+        setLocating(false)
+        setNearNote(t("planner.locationDenied"))
+      },
+      { enableHighAccuracy: false, timeout: 10_000, maximumAge: 5 * 60_000 },
+    )
+  }
+
   const set = <K extends keyof PlanInput>(key: K, value: PlanInput[K]) =>
     setInput((prev) => ({ ...prev, [key]: value }))
 
@@ -138,6 +166,20 @@ export function PlannerForm({ initial, today }: { initial: PlanInput; today: str
               </optgroup>
             ))}
           </select>
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            <button
+              type="button"
+              onClick={startNearMe}
+              disabled={locating}
+              className="inline-flex h-9 items-center gap-1.5 rounded-full px-1 text-sm font-semibold underline-offset-4 hover:underline disabled:opacity-60"
+            >
+              <LocateFixed aria-hidden className="size-4" />
+              {locating ? t("planner.locating") : t("planner.useLocation")}
+            </button>
+            <p aria-live="polite" className="text-sm text-muted-foreground">
+              {nearNote}
+            </p>
+          </div>
         </div>
         <div className="space-y-1.5">
           <div className="flex items-baseline justify-between">
