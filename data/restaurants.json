@@ -9886,5 +9886,76 @@
     "website": "https://www.peppasjerkchicken.com",
     "lat": 40.67703,
     "lng": -73.74366
+  },
+  {
+    "photos": [],
+    "mustTry": ["Shrimp and pork wonton soup", "Noodles"],
+    "vibeTags": ["cheap_eats", "group_friendly", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-24T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-24: address and hours (Monday to Sunday 7 AM to 10:30 PM) from wuswontonking.com. Beer and wine are available. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-wus-wonton-king",
+    "slug": "wus-wonton-king-lower-east-side",
+    "name": "Wu's Wonton King",
+    "category": "restaurant",
+    "cuisines": ["chinese"],
+    "dishTypes": ["dumplings", "noodle_soup"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "165 E Broadway, New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "22:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "22:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "22:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "22:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "22:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "22:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "22:30"
+        }
+      ]
+    },
+    "editorialTake": "A big Chinese restaurant on East Broadway known for its wontons, open from 7 in the morning until late, with beer and wine.",
+    "bestTimeToVisit": "Early, for wonton soup",
+    "timeNeededMinutes": 45,
+    "trendingScore": 48,
+    "website": "https://www.wuswontonking.com",
+    "lat": 40.71395,
+    "lng": -73.98996
   }
 ]
