@@ -1,4 +1,5 @@
 import { Accessibility, Footprints } from "lucide-react"
+import { ShareButton } from "@/components/place/share-button"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
@@ -80,6 +81,7 @@ export default async function RidePage({ params }: Props) {
         back={{ href: "/subway", label: r("title") }}
       />
       <div className="mx-auto max-w-5xl space-y-10 px-4 py-10 lg:px-8">
+        <ShareButton className="-mb-4" />
         <LazyMap
           ariaLabel={r("mapLabel", { route })}
           className="h-72 sm:h-96"

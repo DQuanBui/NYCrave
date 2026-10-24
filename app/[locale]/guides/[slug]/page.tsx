@@ -1,4 +1,5 @@
 import { ArrowRight, Lightbulb } from "lucide-react"
+import { ShareButton } from "@/components/place/share-button"
 import { WithMessages } from "@/components/providers/with-messages"
 import { PlanGuideLink } from "@/components/guides/plan-guide-link"
 import type { Metadata } from "next"
@@ -69,6 +70,7 @@ export default async function GuidePage({ params }: Props) {
             <p className="max-w-prose text-lg leading-relaxed">{g("intro")}</p>
             <div className="flex flex-wrap gap-2">
               <PlanGuideLink places={[...cards.values()]} />
+              <ShareButton className="h-9" />
               {guide.related ? (
                 <Link
                   href={guide.related}

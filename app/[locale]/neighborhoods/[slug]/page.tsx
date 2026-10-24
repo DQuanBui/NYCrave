@@ -1,4 +1,5 @@
 import { Route } from "lucide-react"
+import { ShareButton } from "@/components/place/share-button"
 import { WithMessages } from "@/components/providers/with-messages"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
@@ -100,13 +101,16 @@ export default async function NeighborhoodPage({ params }: Props) {
               </li>
             ))}
           </ul>
-          <Link
-            href={{ pathname: "/my-day", query: { from: hood.slug } }}
-            className="ml-auto inline-flex h-10 items-center gap-2 rounded-full bg-taxi px-5 text-sm font-bold text-taxi-foreground"
-          >
-            <Route aria-hidden className="size-4" />
-            {t("neighborhoods.planDay")}
-          </Link>
+          <div className="ml-auto flex flex-wrap gap-2">
+            <Link
+              href={{ pathname: "/my-day", query: { from: hood.slug } }}
+              className="inline-flex h-10 items-center gap-2 rounded-full bg-taxi px-5 text-sm font-bold text-taxi-foreground"
+            >
+              <Route aria-hidden className="size-4" />
+              {t("neighborhoods.planDay")}
+            </Link>
+            <ShareButton />
+          </div>
         </div>
         {routes.length > 0 ? (
           <div className="flex flex-wrap items-center gap-3">
