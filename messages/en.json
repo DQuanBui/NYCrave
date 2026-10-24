@@ -495,7 +495,8 @@
     "language": "Language",
     "credits": "Photo credits",
     "privacy": "Privacy",
-    "stats": "{count} places, last checked {date}"
+    "stats": "{count} places, last checked {date}",
+    "install": "Install the app"
   },
   "notFound": {
     "title": "This stop is not in service",

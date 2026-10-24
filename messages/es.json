@@ -495,7 +495,8 @@
     "language": "Idioma",
     "credits": "Créditos de fotos",
     "privacy": "Privacidad",
-    "stats": "{count} lugares, revisados por última vez el {date}"
+    "stats": "{count} lugares, revisados por última vez el {date}",
+    "install": "Instalar la app"
   },
   "notFound": {
     "title": "Esta parada está fuera de servicio",

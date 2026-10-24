@@ -2,6 +2,7 @@ import { getLocale, getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { Wordmark } from "@/components/brand/wordmark"
 import { FeedbackLink } from "@/components/feedback/feedback"
+import { InstallButton } from "@/components/layout/install-button"
 import { LocaleSwitcher } from "@/components/layout/locale-switcher"
 import { ShortcutsLink } from "@/components/layout/shortcuts-dialog"
 import { Link } from "@/i18n/navigation"
@@ -27,6 +28,10 @@ export async function SiteFooter() {
             </LineBullet>
             {t("footer.dataNote")}
           </p>
+          <InstallButton
+            label={t("footer.install")}
+            className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-sign-foreground/40 px-4 text-sm font-bold text-sign-foreground hover:border-sign-foreground"
+          />
           {checked ? (
             <p className="text-xs font-semibold text-sign-foreground/75">
               {t("footer.stats", {

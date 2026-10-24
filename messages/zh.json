@@ -495,7 +495,8 @@
     "language": "语言",
     "credits": "照片来源",
     "privacy": "隐私",
-    "stats": "共 {count} 个地点，最近核对于 {date}"
+    "stats": "共 {count} 个地点，最近核对于 {date}",
+    "install": "安装应用"
   },
   "notFound": {
     "title": "本站暂停服务",

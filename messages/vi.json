@@ -495,7 +495,8 @@
     "language": "Ngôn ngữ",
     "credits": "Nguồn ảnh",
     "privacy": "Quyền riêng tư",
-    "stats": "{count} địa điểm, kiểm tra lần cuối ngày {date}"
+    "stats": "{count} địa điểm, kiểm tra lần cuối ngày {date}",
+    "install": "Cài ứng dụng"
   },
   "notFound": {
     "title": "Điểm dừng này không phục vụ",
