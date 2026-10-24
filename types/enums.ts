@@ -96,6 +96,7 @@ export const VIBE_TAGS = [
   "solo_friendly",
   "outdoor",
   "quiet",
+  "historic",
 ] as const
 
 export const DIETARY_OPTIONS = ["vegetarian", "vegan", "halal", "kosher", "gluten_free"] as const

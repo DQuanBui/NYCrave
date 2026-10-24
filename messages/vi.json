@@ -586,7 +586,8 @@
     "group_friendly": "Hợp đi nhóm",
     "solo_friendly": "Hợp đi một mình",
     "outdoor": "Ngoài trời",
-    "quiet": "Yên tĩnh"
+    "quiet": "Yên tĩnh",
+    "historic": "Di tích lịch sử"
   },
   "dietary": {
     "vegetarian": "Ăn chay",
@@ -1607,6 +1608,16 @@
           "Phần lớn công viên thành phố theo giờ tiêu chuẩn của NYC Parks, từ 6 giờ sáng đến 1 giờ sáng, trừ khi có ghi khác.",
           "Mùa hè thường nóng ẩm: hãy mang nước và tìm bóng râm vào buổi chiều.",
           "Trang chủ hiển thị dự báo thời tiết và khả năng mưa hôm nay trước khi bạn ra ngoài."
+        ]
+      },
+      "history": {
+        "title": "Lịch sử",
+        "tagline": "Bảo tàng nhà cổ, di tích và câu chuyện New York đã trở thành New York như thế nào.",
+        "intro": "Những ngôi nhà thời thuộc địa, một quán rượu từ thời Cách mạng, một khu nhà trọ của người nhập cư và nhà của một nhà phát minh cùng một huyền thoại nhạc jazz: quá khứ của New York vẫn còn ở cả năm quận, thường chỉ cách một chuyến tàu điện ngầm ngắn.",
+        "tips": [
+          "Nhiều bảo tàng nhà cổ chỉ mở vài ngày mỗi tuần, thường vào buổi chiều. Hãy xem giờ mở cửa trên từng trang trước khi đi.",
+          "Một số nơi chỉ tham quan theo tour có hướng dẫn vào giờ cố định; hãy đặt trước nếu trang của họ yêu cầu.",
+          "Kết hợp bảo tàng nhà cổ với một vòng đi bộ quanh khu phố; phần lớn chỉ cách ga tàu điện ngầm vài bước chân."
         ]
       }
     },

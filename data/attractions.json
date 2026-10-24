@@ -715,7 +715,7 @@
       }
     ],
     "mustTry": ["Liberty Island grounds", "Ellis Island National Museum of Immigration"],
-    "vibeTags": ["tourist_classic", "kid_friendly", "outdoor", "instagrammable"],
+    "vibeTags": ["tourist_classic", "kid_friendly", "outdoor", "instagrammable", "historic"],
     "verified": false,
     "updatedAt": "2026-09-27T12:00:00.000Z",
     "id": "a-statue-of-liberty",
@@ -1843,7 +1843,7 @@
       }
     ],
     "mustTry": ["New York at Its Core, the city's 400-year story", "The Future City Lab"],
-    "vibeTags": ["rainy_day", "quiet", "kid_friendly"],
+    "vibeTags": ["rainy_day", "quiet", "kid_friendly", "historic"],
     "verified": false,
     "updatedAt": "2026-09-29T12:00:00.000Z",
     "dietary": [],
@@ -2114,7 +2114,7 @@
       }
     ],
     "mustTry": ["Boarding the tall ship Wavertree", "The Ambrose lightship at Pier 16"],
-    "vibeTags": ["kid_friendly", "outdoor", "tourist_classic"],
+    "vibeTags": ["kid_friendly", "outdoor", "tourist_classic", "historic"],
     "verified": false,
     "updatedAt": "2026-09-29T12:00:00.000Z",
     "dietary": [],
@@ -2373,7 +2373,7 @@
       }
     ],
     "mustTry": ["The small rooms where Poe wrote in his last years"],
-    "vibeTags": ["quiet", "local_favorite"],
+    "vibeTags": ["quiet", "local_favorite", "historic"],
     "verified": false,
     "updatedAt": "2026-09-30T12:00:00.000Z",
     "dietary": [],
@@ -2452,7 +2452,7 @@
       }
     ],
     "mustTry": ["A guided tour of the 1840s rooms", "The formal garden"],
-    "vibeTags": ["quiet", "date_night", "outdoor"],
+    "vibeTags": ["quiet", "date_night", "outdoor", "historic"],
     "verified": false,
     "updatedAt": "2026-09-30T12:00:00.000Z",
     "dietary": [],
@@ -2690,7 +2690,7 @@
       }
     ],
     "mustTry": ["The hourly house tour", "The Armstrongs' blue kitchen"],
-    "vibeTags": ["local_favorite", "quiet", "rainy_day"],
+    "vibeTags": ["local_favorite", "quiet", "rainy_day", "historic"],
     "verified": false,
     "updatedAt": "2026-09-30T12:00:00.000Z",
     "dietary": [],
@@ -2950,7 +2950,7 @@
       }
     ],
     "mustTry": ["A guided tour of restored immigrant apartments", "A neighborhood walking tour"],
-    "vibeTags": ["rainy_day", "local_favorite", "tourist_classic"],
+    "vibeTags": ["rainy_day", "local_favorite", "tourist_classic", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-16T12:00:00.000Z",
@@ -3706,7 +3706,7 @@
       "Alice Austen's photographs of 1890s New York",
       "The lawn's view of the Narrows and the Verrazzano Bridge"
     ],
-    "vibeTags": ["quiet", "outdoor", "local_favorite"],
+    "vibeTags": ["quiet", "outdoor", "local_favorite", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-19T12:00:00.000Z",
@@ -3773,7 +3773,7 @@
       }
     ],
     "mustTry": ["A guided tour of the historic Hunterfly Road Houses"],
-    "vibeTags": ["quiet", "local_favorite", "rainy_day"],
+    "vibeTags": ["quiet", "local_favorite", "rainy_day", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-19T12:00:00.000Z",
@@ -3845,7 +3845,7 @@
       }
     ],
     "mustTry": ["The Long Room, where Washington bid farewell to his officers in 1783"],
-    "vibeTags": ["rainy_day", "tourist_classic", "quiet"],
+    "vibeTags": ["rainy_day", "tourist_classic", "quiet", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -3914,7 +3914,7 @@
   {
     "photos": [],
     "mustTry": ["A self-guided tour of the 1832 rooms, still with the family's furniture"],
-    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -4003,7 +4003,7 @@
       "The domed mausoleum of Ulysses and Julia Grant",
       "The mosaic benches around the plaza"
     ],
-    "vibeTags": ["quiet", "tourist_classic", "outdoor"],
+    "vibeTags": ["quiet", "tourist_classic", "outdoor", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -4076,7 +4076,7 @@
       }
     ],
     "mustTry": ["A free tour of Alexander Hamilton's restored home"],
-    "vibeTags": ["quiet", "tourist_classic"],
+    "vibeTags": ["quiet", "tourist_classic", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -4152,7 +4152,7 @@
       "The visitor center's exhibits",
       "The outdoor memorial at Duane Street and African Burial Ground Way"
     ],
-    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -4225,7 +4225,7 @@
       }
     ],
     "mustTry": ["Free daily tours at 1 PM and 2:30 PM", "Friday evenings"],
-    "vibeTags": ["rainy_day", "quiet", "kid_friendly"],
+    "vibeTags": ["rainy_day", "quiet", "kid_friendly", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -4311,7 +4311,7 @@
       }
     ],
     "mustTry": ["The restored main sanctuary", "The east window's stained glass"],
-    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -4611,7 +4611,7 @@
       }
     ],
     "mustTry": ["The house of Rufus King, a signer of the Constitution"],
-    "vibeTags": ["quiet", "local_favorite"],
+    "vibeTags": ["quiet", "local_favorite", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -4686,7 +4686,7 @@
     "mustTry": [
       "The story of the Black inventor who drafted patents for Bell and worked with Edison"
     ],
-    "vibeTags": ["quiet", "kid_friendly"],
+    "vibeTags": ["quiet", "kid_friendly", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-20T12:00:00.000Z",
@@ -4909,7 +4909,7 @@
       }
     ],
     "mustTry": ["A guided tour of the historic houses", "The Historical Museum"],
-    "vibeTags": ["kid_friendly", "quiet", "outdoor"],
+    "vibeTags": ["kid_friendly", "quiet", "outdoor", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-21T12:00:00.000Z",
@@ -4981,7 +4981,7 @@
       }
     ],
     "mustTry": ["Heritage-breed livestock", "Fresh eggs from the Farm Store"],
-    "vibeTags": ["kid_friendly", "outdoor", "quiet"],
+    "vibeTags": ["kid_friendly", "outdoor", "quiet", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-21T12:00:00.000Z",
@@ -5077,7 +5077,7 @@
       }
     ],
     "mustTry": ["A self-guided tour of the 18th-century rooms"],
-    "vibeTags": ["quiet", "rainy_day"],
+    "vibeTags": ["quiet", "rainy_day", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-21T12:00:00.000Z",
@@ -5373,7 +5373,7 @@
       "The story of the 1776 Battle of Brooklyn",
       "Exhibits on the early Brooklyn Dodgers"
     ],
-    "vibeTags": ["kid_friendly", "quiet", "local_favorite"],
+    "vibeTags": ["kid_friendly", "quiet", "local_favorite", "historic"],
     "dietary": [],
     "verified": false,
     "updatedAt": "2026-10-23T12:00:00.000Z",

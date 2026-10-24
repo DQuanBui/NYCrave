@@ -9,7 +9,15 @@ import type { Category, Place } from "@/types/place"
  */
 
 export type GuideKey =
-  "free" | "rainyDay" | "withKids" | "lateNight" | "dateNight" | "cheapEats" | "solo" | "outdoors"
+  | "free"
+  | "rainyDay"
+  | "withKids"
+  | "lateNight"
+  | "dateNight"
+  | "cheapEats"
+  | "solo"
+  | "outdoors"
+  | "history"
 
 export type Guide = {
   key: GuideKey
@@ -68,6 +76,7 @@ export const GUIDES: Guide[] = [
     matches: tagged("outdoor"),
     related: "/walks",
   },
+  { key: "history", slug: "history", emoji: "🏛️", line: "brown", matches: tagged("historic") },
 ]
 
 export const guideBySlug = (slug: string) => GUIDES.find((g) => g.slug === slug)

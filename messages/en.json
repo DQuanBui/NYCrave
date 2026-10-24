@@ -586,7 +586,8 @@
     "group_friendly": "Good for groups",
     "solo_friendly": "Good solo",
     "outdoor": "Outdoors",
-    "quiet": "Quiet"
+    "quiet": "Quiet",
+    "historic": "Historic"
   },
   "dietary": {
     "vegetarian": "Vegetarian",
@@ -1607,6 +1608,16 @@
           "Most city parks follow NYC Parks' standard hours, 6 AM to 1 AM, unless posted otherwise.",
           "Summer days are often hot and humid: bring water and look for shade in the afternoon.",
           "The home page shows today's forecast and rain chance before you head out."
+        ]
+      },
+      "history": {
+        "title": "History",
+        "tagline": "House museums, landmarks and the stories of how New York became New York.",
+        "intro": "Colonial-era houses, a Revolutionary-era tavern, an immigrant tenement and the homes of an inventor and a jazz legend: New York's past is still standing in all five boroughs, often a short subway ride away.",
+        "tips": [
+          "Many house museums open only a few days a week, often in the afternoon. Check the hours on each page before you go.",
+          "Some sites are seen on guided tours at set times; book ahead where the site asks you to.",
+          "Pair a house museum with a walk around its neighborhood; most are a short walk from the subway."
         ]
       }
     },

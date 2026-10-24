@@ -24,7 +24,7 @@ export async function GuidesTeaser({ places, sun }: { places: Place[]; sun: SunD
           {t("home.cta")}
         </Link>
       </div>
-      <ul className="-mx-4 scrollbar-none flex gap-3 overflow-x-auto px-4 pb-2 lg:mx-0 lg:grid lg:grid-cols-5 lg:px-0 xl:grid-cols-9">
+      <ul className="-mx-4 scrollbar-none flex gap-3 overflow-x-auto px-4 pb-2 lg:mx-0 lg:grid lg:grid-cols-5 lg:px-0">
         {GUIDES.map((guide) => {
           const line = LINES[guide.line]
           const count = guideSections(guide, places).reduce((n, s) => n + s.places.length, 0)

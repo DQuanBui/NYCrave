@@ -586,7 +586,8 @@
     "group_friendly": "Para grupos",
     "solo_friendly": "Para ir solo",
     "outdoor": "Al aire libre",
-    "quiet": "Tranquilo"
+    "quiet": "Tranquilo",
+    "historic": "Histórico"
   },
   "dietary": {
     "vegetarian": "Vegetariano",
@@ -1611,6 +1612,16 @@
           "La mayoría de los parques siguen el horario estándar de NYC Parks, de 6 de la mañana a 1 de la madrugada, salvo que se indique otro.",
           "Los días de verano suelen ser calurosos y húmedos: lleva agua y busca sombra por la tarde.",
           "La página de inicio muestra la previsión y la probabilidad de lluvia de hoy antes de salir."
+        ]
+      },
+      "history": {
+        "title": "Historia",
+        "tagline": "Casas museo, monumentos y la historia de cómo Nueva York llegó a ser Nueva York.",
+        "intro": "Casas de la época colonial, una taberna de la época de la Revolución, una casa de vecindad de inmigrantes y los hogares de un inventor y de una leyenda del jazz: el pasado de Nueva York sigue en pie en los cinco distritos, casi siempre a un corto viaje en metro.",
+        "tips": [
+          "Muchas casas museo abren solo unos días a la semana, a menudo por la tarde. Consulta el horario en cada página antes de ir.",
+          "Algunos lugares se visitan con visitas guiadas a horas fijas; reserva con antelación si el sitio lo pide.",
+          "Combina una casa museo con un paseo por su barrio; la mayoría está a poca distancia del metro."
         ]
       }
     },
