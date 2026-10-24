@@ -1,11 +1,12 @@
 "use client"
 
-import { Clock, Heart, Route } from "lucide-react"
+import { Heart, Route } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
 import { CopyButton } from "@/components/place/copy-button"
 import { inKind, KindTabs, type KindTab } from "@/components/place/kind-tabs"
+import { OpenNowToggle, keepOpen } from "@/components/place/open-now-toggle"
 import { PlaceCardSkeleton } from "@/components/place/place-card-skeleton"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlaceGrid } from "@/components/place/place-grid"
@@ -15,11 +16,9 @@ import { useHydrated, useNow } from "@/hooks/use-now"
 import { useSaved } from "@/hooks/use-saved"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
-import { getOpenStatus, isOpen } from "@/lib/hours"
 import { placeToPoint } from "@/lib/map-points"
 import { planSavedQuery } from "@/lib/planner/around"
 import { MAX_SHARED } from "@/lib/shared-list"
-import { cn } from "@/lib/utils"
 
 /** A link that opens this list on anyone's device, ready to save. */
 function shareListUrl(slugs: string[]) {
@@ -60,9 +59,7 @@ export function SavedList({ places }: { places: CardPlace[] }) {
     .filter((p): p is CardPlace => p !== undefined)
 
   const plan = planSavedQuery(saved)
-  const shown = inKind(saved, tab).filter(
-    (p) => !openOnly || !now || isOpen(getOpenStatus(p.hours, now)),
-  )
+  const shown = keepOpen(inKind(saved, tab), openOnly, now)
 
   if (saved.length === 0) {
     return (
@@ -108,20 +105,11 @@ export function SavedList({ places }: { places: CardPlace[] }) {
         </div>
       </div>
       <div className="flex flex-wrap items-center gap-2">
-        <button
-          type="button"
-          aria-pressed={openOnly}
-          onClick={() => setOpenOnly((v) => !v)}
-          className={cn(
-            "inline-flex h-10 shrink-0 items-center gap-2 rounded-full border-2 px-4 text-sm font-semibold transition-colors",
-            openOnly
-              ? "border-foreground bg-foreground text-background"
-              : "border-foreground/15 bg-card hover:border-foreground",
-          )}
-        >
-          <Clock aria-hidden className="size-4" />
-          {t("openNow")}
-        </button>
+        <OpenNowToggle
+          pressed={openOnly}
+          onToggle={() => setOpenOnly((v) => !v)}
+          label={t("openNow")}
+        />
         <KindTabs places={saved} value={tab} onChange={setTab} label={t("byKind")} />
       </div>
       {shown.length === 0 ? (

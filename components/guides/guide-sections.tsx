@@ -1,15 +1,14 @@
 "use client"
 
-import { Clock } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { OpenNowToggle } from "@/components/place/open-now-toggle"
 import { PlaceGrid } from "@/components/place/place-grid"
 import { useNow } from "@/hooks/use-now"
 import type { CardPlace } from "@/lib/card-place"
 import { getOpenStatus, isOpen } from "@/lib/hours"
 import { CATEGORY_META } from "@/lib/taxonomy"
-import { cn } from "@/lib/utils"
 import type { Category } from "@/types/place"
 
 /** A guide's places by category, with a switch to show only what is open now. */
@@ -37,20 +36,12 @@ export function GuideSections({
   return (
     <div className="space-y-12">
       <div className="flex flex-wrap items-center gap-3">
-        <button
-          type="button"
-          aria-pressed={openOnly}
-          onClick={() => setOpenOnly((v) => !v)}
-          className={cn(
-            "inline-flex h-11 items-center gap-2 rounded-full border-2 px-5 font-semibold transition-colors",
-            openOnly
-              ? "border-foreground bg-foreground text-background"
-              : "border-foreground/15 bg-card hover:border-foreground",
-          )}
-        >
-          <Clock aria-hidden className="size-4" />
-          {t("guides.openNow")}
-        </button>
+        <OpenNowToggle
+          pressed={openOnly}
+          onToggle={() => setOpenOnly((v) => !v)}
+          label={t("guides.openNow")}
+          className="h-11 px-5 text-base"
+        />
         {filtering ? (
           <p aria-live="polite" className="text-sm font-semibold text-muted-foreground">
             {t("guides.openCount", { count: total })}

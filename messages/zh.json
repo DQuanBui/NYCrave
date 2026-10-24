@@ -98,7 +98,9 @@
     "corrected": "显示“{query}”的结果",
     "loading": "正在搜索…",
     "all": "全部",
-    "byKind": "按地点类型查看结果"
+    "byKind": "按地点类型查看结果",
+    "openNowToggle": "正在营业",
+    "noneOpen": "这些地点现在都没有营业。关闭“正在营业”即可查看全部。"
   },
   "moods": {
     "title": "选个心情",

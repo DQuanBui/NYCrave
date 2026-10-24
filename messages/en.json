@@ -98,7 +98,9 @@
     "corrected": "Showing results for “{query}”",
     "loading": "Searching…",
     "all": "All",
-    "byKind": "Results by kind of place"
+    "byKind": "Results by kind of place",
+    "openNowToggle": "Open now",
+    "noneOpen": "None of these are open right now. Turn off Open now to see them all."
   },
   "moods": {
     "title": "Pick a mood",

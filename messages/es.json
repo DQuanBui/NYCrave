@@ -98,7 +98,9 @@
     "corrected": "Mostrando resultados de «{query}»",
     "loading": "Buscando…",
     "all": "Todo",
-    "byKind": "Resultados por tipo de lugar"
+    "byKind": "Resultados por tipo de lugar",
+    "openNowToggle": "Abierto ahora",
+    "noneOpen": "Ahora mismo no hay nada abierto. Desactiva Abierto ahora para verlos todos."
   },
   "moods": {
     "title": "Elige un plan",

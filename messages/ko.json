@@ -98,7 +98,9 @@
     "corrected": "“{query}” 검색 결과를 표시합니다",
     "loading": "검색 중…",
     "all": "전체",
-    "byKind": "장소 종류별 결과"
+    "byKind": "장소 종류별 결과",
+    "openNowToggle": "지금 영업 중",
+    "noneOpen": "지금 영업 중인 곳이 없습니다. 모두 보려면 '지금 영업 중'을 끄세요."
   },
   "moods": {
     "title": "기분 고르기",
