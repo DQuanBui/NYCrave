@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { WithMessages } from "@/components/providers/with-messages"
 import { getTranslations } from "next-intl/server"
 import { SectionHeader } from "@/components/listing/section-header"
 import { WhatsNextView } from "@/components/next/whats-next-view"
@@ -26,7 +27,9 @@ export default async function WhatsNextPage({ params }: Props) {
   return (
     <div>
       <SectionHeader line="green" bullet="→" title={t("title")} tagline={t("tagline")} />
-      <WhatsNextView places={places} />
+      <WithMessages namespaces={["next"]}>
+        <WhatsNextView places={places} />
+      </WithMessages>
     </div>
   )
 }

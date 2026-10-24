@@ -1,4 +1,5 @@
 import { ArrowLeft, Clock, ExternalLink, MapPin, Ticket, TrainFront } from "lucide-react"
+import { WithMessages } from "@/components/providers/with-messages"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
@@ -168,20 +169,22 @@ export default async function PlacePage({ params }: Props) {
               <SaveButton slug={place.slug} name={place.name} variant="outline" />
               <ShareButton title={place.name} />
               <PlanAroundButton place={place} />
-              <StampButton
-                place={{
-                  slug: place.slug,
-                  name: place.name,
-                  borough: place.borough,
-                  category: place.category,
-                  cuisines: place.cuisines,
-                  dishTypes: place.dishTypes,
-                  drinkTypes: place.drinkTypes,
-                  vibeTags: place.vibeTags,
-                  isFree: place.isFree,
-                  routes: [...new Set(stations.flatMap((s) => s.routes))],
-                }}
-              />
+              <WithMessages namespaces={["passport"]}>
+                <StampButton
+                  place={{
+                    slug: place.slug,
+                    name: place.name,
+                    borough: place.borough,
+                    category: place.category,
+                    cuisines: place.cuisines,
+                    dishTypes: place.dishTypes,
+                    drinkTypes: place.drinkTypes,
+                    vibeTags: place.vibeTags,
+                    isFree: place.isFree,
+                    routes: [...new Set(stations.flatMap((s) => s.routes))],
+                  }}
+                />
+              </WithMessages>
             </div>
           </header>
 
@@ -339,18 +342,20 @@ export default async function PlacePage({ params }: Props) {
 
       <RecordVisit slug={place.slug} />
       <div className="mx-auto max-w-7xl px-4 pb-14 lg:px-8">
-        <NextNearby
-          here={{
-            slug: place.slug,
-            name: place.name,
-            lat: place.lat,
-            lng: place.lng,
-            category: place.category,
-            drinkTypes: place.drinkTypes,
-            timeNeededMinutes: place.timeNeededMinutes,
-            neighborhoodSlug: neighborhood?.slug,
-          }}
-        />
+        <WithMessages namespaces={["next"]}>
+          <NextNearby
+            here={{
+              slug: place.slug,
+              name: place.name,
+              lat: place.lat,
+              lng: place.lng,
+              category: place.category,
+              drinkTypes: place.drinkTypes,
+              timeNeededMinutes: place.timeNeededMinutes,
+              neighborhoodSlug: neighborhood?.slug,
+            }}
+          />
+        </WithMessages>
       </div>
 
       {similar.length > 0 ? (

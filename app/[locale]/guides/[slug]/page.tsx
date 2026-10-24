@@ -1,4 +1,5 @@
 import { ArrowRight, Lightbulb } from "lucide-react"
+import { WithMessages } from "@/components/providers/with-messages"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
@@ -112,9 +113,11 @@ export default async function GuidePage({ params }: Props) {
           </aside>
         </div>
 
-        <GuideSections
-          sections={sections.map((s) => ({ category: s.category, places: s.places.map(toCard) }))}
-        />
+        <WithMessages namespaces={["guides"]}>
+          <GuideSections
+            sections={sections.map((s) => ({ category: s.category, places: s.places.map(toCard) }))}
+          />
+        </WithMessages>
 
         <LazyMap
           points={places.map((p) => placeToPoint(toCard(p)))}

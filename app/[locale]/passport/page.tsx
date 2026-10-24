@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { WithMessages } from "@/components/providers/with-messages"
 import { getTranslations } from "next-intl/server"
 import { PassportView } from "@/components/passport/passport-view"
 import { initLocale } from "@/i18n/locale"
@@ -27,5 +28,9 @@ export default async function PassportPage({ params }: Props) {
     category: p.category,
     borough: p.borough,
   }))
-  return <PassportView places={places} />
+  return (
+    <WithMessages namespaces={["passport"]}>
+      <PassportView places={places} />
+    </WithMessages>
+  )
 }

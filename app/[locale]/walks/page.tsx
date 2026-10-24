@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { WithMessages } from "@/components/providers/with-messages"
 import { getTranslations } from "next-intl/server"
 import { SectionHeader } from "@/components/listing/section-header"
 import { WalksView, type WalkCard } from "@/components/walks/walks-view"
@@ -42,7 +43,9 @@ export default async function WalksPage({ params }: Props) {
   return (
     <div>
       <SectionHeader line="green" bullet="🥾" title={t("title")} tagline={t("tagline")} />
-      <WalksView walks={cards} />
+      <WithMessages namespaces={["walks"]}>
+        <WalksView walks={cards} />
+      </WithMessages>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import { Clock, Footprints } from "lucide-react"
+import { WithMessages } from "@/components/providers/with-messages"
 import type { Metadata } from "next"
 import Image from "next/image"
 import { getLocale, getTranslations } from "next-intl/server"
@@ -63,7 +64,9 @@ export default async function GoldenHourPage({ params }: Props) {
             </h2>
             <p className="max-w-prose text-muted-foreground">{t("skyBody")}</p>
           </div>
-          <SkyRibbon bands={lightBands(sun)} sunrise={sun.sunrise} sunset={sun.sunset} />
+          <WithMessages namespaces={["goldenHour"]}>
+            <SkyRibbon bands={lightBands(sun)} sunrise={sun.sunrise} sunset={sun.sunset} />
+          </WithMessages>
         </section>
 
         <SunToday />

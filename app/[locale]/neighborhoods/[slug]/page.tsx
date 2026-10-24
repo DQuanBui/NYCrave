@@ -1,4 +1,5 @@
 import { Route } from "lucide-react"
+import { WithMessages } from "@/components/providers/with-messages"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
@@ -120,13 +121,15 @@ export default async function NeighborhoodPage({ params }: Props) {
               <h2 id="places-in" className="font-display text-display-md">
                 {t("neighborhoods.placesIn", { name: hood.name })}
               </h2>
-              <GuideSections
-                heading="h3"
-                sections={CATEGORIES.map((category) => ({
-                  category,
-                  places: places.filter((p) => p.category === category).map(toCard),
-                })).filter((s) => s.places.length > 0)}
-              />
+              <WithMessages namespaces={["guides"]}>
+                <GuideSections
+                  heading="h3"
+                  sections={CATEGORIES.map((category) => ({
+                    category,
+                    places: places.filter((p) => p.category === category).map(toCard),
+                  })).filter((s) => s.places.length > 0)}
+                />
+              </WithMessages>
             </section>
             <LazyMap
               points={places.map((p) => placeToPoint(p))}
