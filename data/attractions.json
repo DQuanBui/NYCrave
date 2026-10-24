@@ -5290,5 +5290,133 @@
     "website": "https://www.stjohndivine.org",
     "lat": 40.80377,
     "lng": -73.96178
+  },
+  {
+    "photos": [],
+    "mustTry": ["The current exhibition", "The Tim Hetherington Photobook Library upstairs"],
+    "vibeTags": ["quiet", "rainy_day", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-23T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-23: address, gallery hours (Thursday and Friday 3 to 7 PM, Saturday 1 to 5 PM) and free admission from bronxdoc.org/visit. Check the current exhibitions before going; take the 2 or 5 to 3rd Ave–149th St. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-bronx-documentary-center",
+    "slug": "bronx-documentary-center",
+    "name": "Bronx Documentary Center",
+    "category": "attraction",
+    "borough": "bronx",
+    "neighborhood": "Melrose",
+    "address": "614 Courtlandt Ave, Bronx, NY 10451",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "15:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "15:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "editorialTake": "A nonprofit gallery and education space in the South Bronx showing documentary photography and film, always free to visit.",
+    "bestTimeToVisit": "Saturday afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 42,
+    "website": "https://www.bronxdoc.org",
+    "lat": 40.81803,
+    "lng": -73.91866
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/old-stone-house-brooklyn-1.jpg",
+        "alt": "The stone walls and red roof of the Old Stone House in Park Slope",
+        "width": 1100,
+        "height": 594,
+        "source": "other",
+        "attribution": {
+          "text": "Jim alfano, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Old_Stone_House_Brooklyn_NY.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/old-stone-house-brooklyn-2.jpg",
+        "alt": "The garden beside the Old Stone House",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Wil540 art, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:05_21_2022_Old_Stone_House_Garden_Brooklyn_NY_Washington_Park_2.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": [
+      "The story of the 1776 Battle of Brooklyn",
+      "Exhibits on the early Brooklyn Dodgers"
+    ],
+    "vibeTags": ["kid_friendly", "quiet", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-23T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-23: address and hours (Friday, Saturday and Sunday noon to 4 PM, or by appointment) from theoldstonehouse.org/visit. A farmers' market runs outside on Sundays, 10 AM to 4 PM, year round. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-old-stone-house",
+    "slug": "old-stone-house-brooklyn",
+    "name": "The Old Stone House",
+    "category": "attraction",
+    "borough": "brooklyn",
+    "neighborhood": "Park Slope",
+    "address": "336 3rd St, Brooklyn, NY 11215",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "A stone house beside the J.J. Byrne playground in Park Slope that tells the story of colonial Brooklyn, the Battle of Brooklyn and the early Brooklyn Dodgers.",
+    "bestTimeToVisit": "Sunday, with the farmers' market",
+    "timeNeededMinutes": 40,
+    "trendingScore": 40,
+    "website": "https://theoldstonehouse.org",
+    "lat": 40.67301,
+    "lng": -73.9846
   }
 ]
