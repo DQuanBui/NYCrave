@@ -142,6 +142,7 @@ export function SavedList({ places }: { places: CardPlace[] }) {
         <PlaceGrid places={shown} travel={travel} />
       )}
       <LazyMap
+        cluster
         points={(shown.length ? shown : saved).map((p) => placeToPoint(p))}
         ariaLabel={t("mapLabel")}
         className="h-72 sm:h-96"

@@ -131,6 +131,7 @@ export default async function GuidePage({ params }: Props) {
         </WithMessages>
 
         <LazyMap
+          cluster
           points={places.map((p) => placeToPoint(toCard(p)))}
           ariaLabel={t("guides.mapLabel", { name: g("title") })}
           className="h-72 sm:h-96"

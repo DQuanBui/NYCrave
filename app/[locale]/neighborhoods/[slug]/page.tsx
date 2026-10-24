@@ -136,6 +136,7 @@ export default async function NeighborhoodPage({ params }: Props) {
               </WithMessages>
             </section>
             <LazyMap
+              cluster
               points={places.map((p) => placeToPoint(p))}
               ariaLabel={t("neighborhoods.mapLabel", { name: hood.name })}
               className="h-72 sm:h-96"
