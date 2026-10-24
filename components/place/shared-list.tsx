@@ -1,11 +1,13 @@
 "use client"
 
 import { Check, HeartPlus } from "lucide-react"
+import { useSearchParams } from "next/navigation"
 import { useTranslations } from "next-intl"
 import { PlaceGrid } from "@/components/place/place-grid"
 import { useHydrated } from "@/hooks/use-now"
 import { useSaved } from "@/hooks/use-saved"
 import type { CardPlace } from "@/lib/card-place"
+import { MAX_SHARED } from "@/lib/shared-list"
 
 /** Places someone shared by link, with one tap to save them all. */
 export function SharedList({ places }: { places: CardPlace[] }) {
@@ -45,5 +47,24 @@ export function SharedList({ places }: { places: CardPlace[] }) {
       </div>
       <PlaceGrid places={places} />
     </section>
+  )
+}
+
+/**
+ * The list from a shared link (/saved?list=slug,slug), read in the browser so
+ * the Saved page itself can be cached. Unknown slugs are ignored.
+ */
+export function SharedFromLink({ places }: { places: CardPlace[] }) {
+  const t = useTranslations("saved")
+  const wanted = useSearchParams().get("list")?.split(",").slice(0, MAX_SHARED) ?? []
+  const shared = wanted
+    .map((slug) => places.find((p) => p.slug === slug))
+    .filter((p): p is CardPlace => p !== undefined)
+  if (shared.length === 0) return null
+  return (
+    <>
+      <SharedList places={shared} />
+      <h2 className="font-display text-display-md">{t("yours")}</h2>
+    </>
   )
 }
