@@ -14,12 +14,12 @@ type SlotPlace = Pick<Place, "category" | "hours" | "dishTypes" | "drinkTypes" |
 
 /** The part of the day a place fits best, used to pin it into a generated plan. */
 export function slotForPlace(p: SlotPlace): Slot {
+  const opens = Object.values(p.hours)
+    .flat()
+    .map((r) => toMinutes(r.open))
+  const earliest = opens.length ? Math.min(...opens) : 12 * 60
   switch (p.category) {
     case "restaurant": {
-      const opens = Object.values(p.hours)
-        .flat()
-        .map((r) => toMinutes(r.open))
-      const earliest = opens.length ? Math.min(...opens) : 12 * 60
       // Brunch and bakeries fit breakfast only when they open in time for it
       const morning = p.dishTypes?.some((d) => d === "bakery" || d === "brunch")
       if (morning && earliest <= 10.5 * 60) return "breakfast"
@@ -34,7 +34,8 @@ export function slotForPlace(p: SlotPlace): Slot {
         ? "night"
         : "morning"
     case "attraction":
-      return "morning"
+      // House museums and galleries that open after lunch belong in the afternoon
+      return earliest >= 12 * 60 ? "afternoon" : "morning"
     default:
       return "afternoon"
   }
