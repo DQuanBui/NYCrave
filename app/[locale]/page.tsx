@@ -33,12 +33,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
     getPlaces({ isFree: true }, { sort: "trending" }),
     getPlaces({ vibe: "local_favorite" }, { sort: "trending" }),
   ])
-  const hints = all.map((p) => ({
-    slug: p.slug,
-    name: p.name,
-    neighborhood: p.neighborhood,
-    category: p.category,
-  }))
   const now = new Date()
   const today = nycDateString(now)
   const sun = sunDay(today)
@@ -96,7 +90,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
-      <Hero hints={hints} forecast={forecast} holiday={holidayOn(today)} />
+      <Hero forecast={forecast} holiday={holidayOn(today)} />
       <NycNow
         openCount={all.filter((p) => isOpen(getOpenStatus(p.hours, now))).length}
         sunrise={sun.sunrise}

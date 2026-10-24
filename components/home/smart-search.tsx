@@ -17,7 +17,7 @@ type SmartSearchProps = {
   defaultValue?: string
   autoFocus?: boolean
   className?: string
-  /** Places to suggest by name as the user types. */
+  /** Places to suggest by name; loaded from /api/places/hints when not given. */
   hints?: SearchHint[]
 }
 
@@ -41,6 +41,18 @@ function saveRecent(q: string) {
   } catch {}
 }
 
+// One request per visit, shared by every search box
+let hintsRequest: Promise<SearchHint[]> | undefined
+function loadHints(): Promise<SearchHint[]> {
+  hintsRequest ??= fetch("/api/places/hints")
+    .then((r) => (r.ok ? (r.json() as Promise<SearchHint[]>) : []))
+    .catch(() => {
+      hintsRequest = undefined
+      return []
+    })
+  return hintsRequest
+}
+
 type Option =
   { kind: "place"; hint: SearchHint } | { kind: "recent"; query: string } | { kind: "clear" }
 
@@ -53,7 +65,7 @@ export function SmartSearch({
   defaultValue = "",
   autoFocus,
   className,
-  hints = [],
+  hints: given,
 }: SmartSearchProps) {
   const t = useTranslations("search")
   const router = useRouter()
@@ -63,6 +75,8 @@ export function SmartSearch({
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState(-1)
   const [recent, setRecent] = useState<string[]>([])
+  const [loaded, setLoaded] = useState<SearchHint[]>([])
+  const hints = given ?? loaded
 
   const suggestions = useMemo(() => {
     const q = normalizeQuery(query)
@@ -144,6 +158,7 @@ export function SmartSearch({
             setActive(-1)
           }}
           onFocus={() => {
+            if (!given && loaded.length === 0) loadHints().then(setLoaded)
             setRecent(readRecent())
             setOpen(true)
           }}

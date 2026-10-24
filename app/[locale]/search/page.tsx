@@ -56,12 +56,6 @@ export default async function SearchPage({ params, searchParams }: Props) {
   const found = query ? searchWithCorrection(all, query, nycClock(new Date())) : null
   const results = found?.places ?? []
   const corrected = found?.correctedQuery
-  const hints = all.map((p) => ({
-    slug: p.slug,
-    name: p.name,
-    neighborhood: p.neighborhood,
-    category: p.category,
-  }))
   const labels = query ? await intentLabels(parseQuery(corrected ?? query)) : []
 
   return (
@@ -70,13 +64,7 @@ export default async function SearchPage({ params, searchParams }: Props) {
         <h1 className="font-display text-display-lg text-balance">
           {query ? t("resultsFor", { query }) : t("startTitle")}
         </h1>
-        <SmartSearch
-          key={query}
-          defaultValue={query}
-          autoFocus={!query}
-          className="max-w-2xl"
-          hints={hints}
-        />
+        <SmartSearch key={query} defaultValue={query} autoFocus={!query} className="max-w-2xl" />
         {labels.length > 0 ? (
           <div className="flex flex-wrap items-center gap-2 text-sm">
             <span className="font-semibold text-muted-foreground">{t("understood")}</span>
