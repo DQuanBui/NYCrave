@@ -18,7 +18,7 @@ import type { CardPlace } from "@/lib/card-place"
 /** Time-dependent filters run on the client, against the viewer's current time. */
 export type LiveFilter = "open-now" | "free-today"
 
-type PlaceRailProps = {
+export type PlaceRailProps = {
   title: string
   places: CardPlace[]
   seeAllHref?: string
@@ -27,6 +27,8 @@ type PlaceRailProps = {
   limit?: number
   /** Adds a button that jumps to a random place from the (live-filtered) list. */
   surprise?: boolean
+  /** The places are still on their way; shows placeholders meanwhile. */
+  loading?: boolean
 }
 
 function applyLive(places: CardPlace[], live: LiveFilter, now: Date) {
@@ -43,13 +45,14 @@ export function PlaceRail({
   emptyText,
   limit = 10,
   surprise = false,
+  loading = false,
 }: PlaceRailProps) {
   const t = useTranslations()
   const headingId = useId()
   const scroller = useRef<HTMLUListElement>(null)
   const now = useNow()
 
-  const pending = live !== undefined && now === null
+  const pending = loading || (live !== undefined && now === null)
   const router = useRouter()
   const matching = live && now ? applyLive(places, live, now) : places
   const visible = matching.slice(0, limit)

@@ -15,8 +15,8 @@ export function NycNow({
   sunrise,
   sunset,
 }: {
-  /** Counted on the server when the page was last built (every few minutes). */
-  openCount: number
+  /** From /api/now (refreshed every 10 minutes); null while it loads. */
+  openCount: number | null
   sunrise: number
   sunset: number
 }) {
@@ -48,13 +48,20 @@ export function NycNow({
           )}
         </li>
         <li>
-          <Link
-            href="/search?q=open+now"
-            className="flex items-center gap-2 underline-offset-4 hover:underline"
-          >
-            <Store aria-hidden className="size-4 text-line-green dark:text-green-400" />
-            {t("open", { count: openCount })}
-          </Link>
+          {openCount === null ? (
+            <span className="flex items-center gap-2">
+              <Store aria-hidden className="size-4 text-line-green dark:text-green-400" />
+              <span className="h-4 w-36 animate-pulse rounded bg-muted" />
+            </span>
+          ) : (
+            <Link
+              href="/search?q=open+now"
+              className="flex items-center gap-2 underline-offset-4 hover:underline"
+            >
+              <Store aria-hidden className="size-4 text-line-green dark:text-green-400" />
+              {t("open", { count: openCount })}
+            </Link>
+          )}
         </li>
         <li className="flex items-center gap-2">
           {beforeSunrise || afterSunset ? (

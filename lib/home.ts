@@ -1,4 +1,5 @@
-import type { Category } from "@/types/place"
+import { getOpenStatus, isOpen, isOpenLaterToday, nycClock } from "@/lib/hours"
+import type { Category, Place } from "@/types/place"
 
 export type HeroScene = {
   key: "dumplings" | "rooftop" | "museum" | "vintage" | "skyline" | "pier"
@@ -169,4 +170,38 @@ export function newest<P extends { updatedAt: string; trendingScore?: number }>(
         b.updatedAt.localeCompare(a.updatedAt) || (b.trendingScore ?? 0) - (a.trendingScore ?? 0),
     )
     .slice(0, limit)
+}
+
+/** How many likely matches the live rails get; the browser re-checks each one. */
+export const LIVE_CANDIDATES = 20
+
+/**
+ * The time-dependent parts of the home page at one moment: how many places
+ * are open, and the places for the "Open now" and "Free today" rows (each row
+ * leads with places the trending row has not shown).
+ */
+export function liveHome<P extends Pick<Place, "slug" | "hours" | "isFree">>(
+  all: P[],
+  now: Date,
+  trendingCount = 8,
+) {
+  const shown = new Set(all.slice(0, trendingCount).map((p) => p.slug))
+  const open = freshFirst(
+    all.filter((p) => {
+      const { state } = getOpenStatus(p.hours, now)
+      return state !== "closed" && state !== "closed_indefinitely"
+    }),
+    shown,
+  ).slice(0, LIVE_CANDIDATES)
+  markShown(open, shown)
+  const clock = nycClock(now)
+  const free = freshFirst(
+    all.filter((p) => p.isFree && isOpenLaterToday(p.hours, clock)),
+    shown,
+  ).slice(0, LIVE_CANDIDATES)
+  return {
+    openCount: all.filter((p) => isOpen(getOpenStatus(p.hours, now))).length,
+    open,
+    free,
+  }
 }
