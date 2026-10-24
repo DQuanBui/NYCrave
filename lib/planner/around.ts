@@ -1,8 +1,10 @@
 import { neighborhoodByName } from "@/data/neighborhoods"
+import { distanceKm } from "@/lib/geo"
 import { toMinutes } from "@/lib/hours"
 import type { Place } from "@/types/place"
 import { estimateCost } from "./estimates"
 import { defaultInput, planQuery } from "./params"
+import { ACTIVITY_SLOTS } from "./scoring"
 import type { Mood, Slot } from "./types"
 
 /** What slotForPlace needs to know, so the slim place cards work too. */
@@ -70,7 +72,8 @@ type PlannablePlace = SlotPlace &
 /**
  * A My Day query that fits as many saved places as possible into today, each
  * pinned to its natural slot; when two want the same slot, the one saved first
- * wins. Starts in the first pinned place's neighborhood.
+ * wins. Sights and parks can move to another daytime slot instead (the third
+ * one makes the day packed). Starts in the first pinned place's neighborhood.
  */
 export function planSavedQuery(
   places: PlannablePlace[],
@@ -78,15 +81,19 @@ export function planSavedQuery(
 ): { query: Record<string, string>; pinned: string[] } {
   const input = defaultInput(now)
   const locks: Partial<Record<Slot, string>> = {}
-  const pinned: PlannablePlace[] = []
+  const pinned: { place: PlannablePlace; slot: Slot }[] = []
   for (const p of places) {
-    const slot = slotForPlace(p)
-    if (locks[slot]) continue
+    const want = slotForPlace(p)
+    const options = ACTIVITY_SLOTS.includes(want)
+      ? [want, ...ACTIVITY_SLOTS.filter((s) => s !== want)]
+      : [want]
+    const slot = options.find((s) => !locks[s])
+    if (!slot) continue
     locks[slot] = p.id
-    pinned.push(p)
+    pinned.push({ place: p, slot })
   }
-  const cost = pinned.reduce((n, p) => n + estimateCost(p, slotForPlace(p)), 0)
-  const hood = pinned[0] ? neighborhoodByName(pinned[0].neighborhood) : undefined
+  const cost = pinned.reduce((n, { place, slot }) => n + estimateCost(place, slot), 0)
+  const hood = pinned[0] ? neighborhoodByName(pinned[0].place.neighborhood) : undefined
   return {
     query: planQuery(
       {
@@ -94,9 +101,37 @@ export function planSavedQuery(
         from: hood?.slug ?? input.from,
         budget: Math.max(input.budget, Math.ceil((cost + 60) / 10) * 10),
         end: locks.night ? 24 * 60 : input.end,
+        // The late-afternoon slot is only planned at a packed pace
+        pace: locks.afternoon2 ? "packed" : input.pace,
       },
       { locks },
     ),
-    pinned: pinned.map((p) => p.slug),
+    pinned: pinned.map(({ place }) => place.slug),
   }
+}
+
+/** How far from the day's anchor a guide's places may be to join it. */
+const NEARBY_KM = 2.5
+
+/**
+ * A day from a long list spread across the city (a guide): anchor on the place
+ * with the most others within a short distance (the earlier one on ties, so
+ * the more popular), then pin the nearest ones, so the day stays in one part
+ * of town instead of crossing boroughs.
+ */
+export function planNearbyQuery(
+  places: (PlannablePlace & Pick<Place, "lat" | "lng">)[],
+  now = new Date(),
+): { query: Record<string, string>; pinned: string[] } {
+  const around = (a: (typeof places)[number]) =>
+    places.filter((b) => b !== a && distanceKm(a, b) <= NEARBY_KM)
+  let anchor = places[0]
+  let best = -1
+  for (const p of places) {
+    const n = around(p).length
+    if (n > best) [anchor, best] = [p, n]
+  }
+  if (!anchor) return planSavedQuery([], now)
+  const near = around(anchor).sort((a, b) => distanceKm(anchor, a) - distanceKm(anchor, b))
+  return planSavedQuery([anchor, ...near], now)
 }

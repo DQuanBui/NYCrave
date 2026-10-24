@@ -1,5 +1,6 @@
 import { ArrowRight, Lightbulb } from "lucide-react"
 import { WithMessages } from "@/components/providers/with-messages"
+import { PlanGuideLink } from "@/components/guides/plan-guide-link"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getTranslations } from "next-intl/server"
@@ -45,6 +46,8 @@ export default async function GuidePage({ params }: Props) {
   const all = await getPlaces({}, { sort: "trending" })
   const sections = guideSections(guide, all)
   const places = sections.flatMap((s) => s.places)
+  // One card per place, shared by the plan link and the sections (sent once)
+  const cards = new Map(places.map((p) => [p.slug, toCard(p)]))
   const prints = places
     .flatMap((p) => p.photos.slice(0, 1))
     .filter((p) => !p.illustrative)
@@ -64,17 +67,20 @@ export default async function GuidePage({ params }: Props) {
         <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
           <div className="space-y-4">
             <p className="max-w-prose text-lg leading-relaxed">{g("intro")}</p>
-            {guide.related ? (
-              <Link
-                href={guide.related}
-                className="inline-flex items-center gap-2 rounded-full bg-foreground px-4 py-2 text-sm font-bold text-background"
-              >
-                {t(
-                  `guides.related.${guide.key as "lateNight" | "cheapEats" | "outdoors" | "dateNight"}`,
-                )}
-                <ArrowRight aria-hidden className="size-4" />
-              </Link>
-            ) : null}
+            <div className="flex flex-wrap gap-2">
+              <PlanGuideLink places={[...cards.values()]} />
+              {guide.related ? (
+                <Link
+                  href={guide.related}
+                  className="inline-flex items-center gap-2 rounded-full bg-foreground px-4 py-2 text-sm font-bold text-background"
+                >
+                  {t(
+                    `guides.related.${guide.key as "lateNight" | "cheapEats" | "outdoors" | "dateNight"}`,
+                  )}
+                  <ArrowRight aria-hidden className="size-4" />
+                </Link>
+              ) : null}
+            </div>
             <nav aria-label={t("guides.jump")}>
               <ul className="flex flex-wrap gap-2">
                 {sections.map(({ category, places }) => (
@@ -115,7 +121,10 @@ export default async function GuidePage({ params }: Props) {
 
         <WithMessages namespaces={["guides"]}>
           <GuideSections
-            sections={sections.map((s) => ({ category: s.category, places: s.places.map(toCard) }))}
+            sections={sections.map((s) => ({
+              category: s.category,
+              places: s.places.map((p) => cards.get(p.slug)!),
+            }))}
           />
         </WithMessages>
 

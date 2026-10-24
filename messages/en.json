@@ -392,7 +392,8 @@
     "locating": "Finding you…",
     "nearest": "Starting from {name}, the nearest neighborhood to you.",
     "locationDenied": "Location is off, so pick a neighborhood instead.",
-    "locationFar": "You seem to be outside New York City, so pick a neighborhood instead."
+    "locationFar": "You seem to be outside New York City, so pick a neighborhood instead.",
+    "fromGuide": "Plan a day with {count} of these"
   },
   "listing": {
     "count": "{count, plural, =0 {No places yet} one {# place} other {# places}}",
