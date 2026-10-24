@@ -238,7 +238,9 @@
     "stepFreeHint": "A subway station with elevators or ramps within a 10-minute walk",
     "clusterLabel": "{count} places here: zoom in",
     "share": "Share these results",
-    "pickOne": "Pick one for me"
+    "pickOne": "Pick one for me",
+    "showMore": "Show {count} more",
+    "showing": "Showing {shown} of {total}"
   },
   "browse": {
     "cuisine": "Browse by cuisine",

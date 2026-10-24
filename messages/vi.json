@@ -238,7 +238,9 @@
     "stepFreeHint": "Có ga tàu điện ngầm có thang máy hoặc lối dốc trong vòng 10 phút đi bộ",
     "clusterLabel": "{count} địa điểm ở đây: phóng to",
     "share": "Chia sẻ kết quả này",
-    "pickOne": "Chọn giúp tôi"
+    "pickOne": "Chọn giúp tôi",
+    "showMore": "Xem thêm {count}",
+    "showing": "Đang hiện {shown}/{total}"
   },
   "browse": {
     "cuisine": "Duyệt theo ẩm thực",

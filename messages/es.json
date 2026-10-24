@@ -238,7 +238,9 @@
     "stepFreeHint": "Una estación de metro con ascensor o rampa a menos de 10 minutos a pie",
     "clusterLabel": "{count} lugares aquí: acercar",
     "share": "Compartir estos resultados",
-    "pickOne": "Elige uno por mí"
+    "pickOne": "Elige uno por mí",
+    "showMore": "Ver {count} más",
+    "showing": "Mostrando {shown} de {total}"
   },
   "browse": {
     "cuisine": "Explora por cocina",

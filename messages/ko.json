@@ -238,7 +238,9 @@
     "stepFreeHint": "도보 10분 이내에 엘리베이터나 경사로가 있는 지하철역",
     "clusterLabel": "이곳에 장소 {count}곳: 확대",
     "share": "이 결과 공유",
-    "pickOne": "하나 골라 줘"
+    "pickOne": "하나 골라 줘",
+    "showMore": "{count}곳 더 보기",
+    "showing": "{total}곳 중 {shown}곳 표시"
   },
   "browse": {
     "cuisine": "요리별로 둘러보기",

@@ -8,7 +8,7 @@ import { EmptyState } from "@/components/brand/empty-state"
 import { FilterBar } from "@/components/listing/filter-bar"
 import { pillClass } from "@/components/listing/filter-menu"
 import { LazyMap } from "@/components/map/lazy-map"
-import { PlaceGrid } from "@/components/place/place-grid"
+import { PagedGrid } from "@/components/listing/paged-grid"
 import { ShareButton } from "@/components/place/share-button"
 import { Button } from "@/components/ui/button"
 import { useGeolocation } from "@/hooks/use-geolocation"
@@ -164,7 +164,12 @@ function Listing({ pool, options, params }: ListingClientProps & { params: Listi
                 className="h-[60vh] min-h-80"
               />
             ) : null}
-            <PlaceGrid places={sorted} travel={travel} />
+            {/* A new filter or order starts again from the first page */}
+            <PagedGrid
+              key={`${JSON.stringify(listingQuery(params))}-${origin ? "near" : ""}`}
+              places={sorted}
+              travel={travel}
+            />
           </>
         )}
       </div>

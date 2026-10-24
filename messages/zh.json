@@ -238,7 +238,9 @@
     "stepFreeHint": "步行 10 分钟内有设电梯或坡道的地铁站",
     "clusterLabel": "此处有 {count} 个地点：放大",
     "share": "分享这些结果",
-    "pickOne": "帮我选一个"
+    "pickOne": "帮我选一个",
+    "showMore": "再显示 {count} 个",
+    "showing": "已显示 {shown}/{total}"
   },
   "browse": {
     "cuisine": "按菜系浏览",
