@@ -826,7 +826,8 @@
     "linesHere": "Líneas de metro aquí",
     "take": "Toma el",
     "fromTo": "de {from} a {to}",
-    "train": "tren {route}"
+    "train": "tren {route}",
+    "openNow": "Abierto ahora"
   },
   "sun": {
     "title": "La luz de hoy en Nueva York",

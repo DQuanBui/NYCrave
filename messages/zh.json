@@ -826,7 +826,8 @@
     "linesHere": "这里的地铁线路",
     "take": "乘坐",
     "fromTo": "从 {from} 到 {to}",
-    "train": "{route} 线"
+    "train": "{route} 线",
+    "openNow": "正在营业"
   },
   "sun": {
     "title": "今天纽约的光线",

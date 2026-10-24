@@ -826,7 +826,8 @@
     "linesHere": "이곳의 지하철 노선",
     "take": "탑승:",
     "fromTo": "{from}에서 {to}까지",
-    "train": "{route} 노선"
+    "train": "{route} 노선",
+    "openNow": "지금 영업 중"
   },
   "sun": {
     "title": "오늘 뉴욕의 빛",

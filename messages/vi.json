@@ -826,7 +826,8 @@
     "linesHere": "Các tuyến tàu điện ở đây",
     "take": "Đi tàu",
     "fromTo": "từ {from} đến {to}",
-    "train": "tàu {route}"
+    "train": "tàu {route}",
+    "openNow": "Đang mở cửa"
   },
   "sun": {
     "title": "Ánh sáng hôm nay ở New York",

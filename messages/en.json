@@ -826,7 +826,8 @@
     "linesHere": "Subway lines here",
     "take": "Take the",
     "fromTo": "from {from} to {to}",
-    "train": "{route} train"
+    "train": "{route} train",
+    "openNow": "Open now"
   },
   "sun": {
     "title": "Today's light in New York",
