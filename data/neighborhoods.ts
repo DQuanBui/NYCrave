@@ -202,6 +202,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   { slug: "melrose", name: "Melrose", borough: "bronx", lat: 40.82, lng: -73.914 },
   { slug: "concourse", name: "Concourse", borough: "bronx", lat: 40.8272, lng: -73.9223 },
   { slug: "fordham", name: "Fordham", borough: "bronx", lat: 40.861, lng: -73.8905 },
+  { slug: "norwood", name: "Norwood", borough: "bronx", lat: 40.877, lng: -73.879 },
   { slug: "pelham-bay", name: "Pelham Bay", borough: "bronx", lat: 40.8651, lng: -73.8078 },
   { slug: "city-island", name: "City Island", borough: "bronx", lat: 40.8468, lng: -73.7867 },
   { slug: "st-george", name: "St. George", borough: "staten_island", lat: 40.6437, lng: -74.0765 },

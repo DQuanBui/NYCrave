@@ -5566,5 +5566,126 @@
     "website": "https://www.leslielohman.org",
     "lat": 40.72177,
     "lng": -74.00303
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/kingsland-homestead-1.jpg",
+        "alt": "The Kingsland Homestead, a clapboard house with a front porch, in Flushing",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Epicgenius, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Flushing_Queens_May_2025_64.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A guided tour of the house and its exhibitions on Queens history"],
+    "vibeTags": ["quiet", "historic", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-24T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-24: address and guided-tour hours (Wednesday, Saturday and Sunday 2:30 to 4:30 PM) from queenshistoricalsociety.org/visit. Entry is by advance timed ticket only; book on the society's site. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-kingsland-homestead",
+    "slug": "kingsland-homestead",
+    "name": "Kingsland Homestead (Queens Historical Society)",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Flushing",
+    "address": "143-35 37th Ave, Flushing, NY 11354",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "14:30",
+          "close": "16:30"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "14:30",
+          "close": "16:30"
+        }
+      ],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "14:30",
+          "close": "16:30"
+        }
+      ]
+    },
+    "editorialTake": "The home of the Queens Historical Society in Flushing's Weeping Beech Park, with exhibitions, book talks and guided tours on the borough's past.",
+    "bestTimeToVisit": "Sunday afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 38,
+    "website": "https://www.queenshistoricalsociety.org",
+    "lat": 40.76363,
+    "lng": -73.82415
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/museum-of-bronx-history-1.jpg",
+        "alt": "The stone Valentine-Varian House, home of the Museum of Bronx History",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Dmadeo, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Valentine-varian-house.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Exhibitions on the history of the Bronx"],
+    "vibeTags": ["quiet", "historic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-24T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-24: address and hours (Saturday 10 AM to 4 PM, Sunday 1 to 5 PM) from bronxhistoricalsociety.org. Closed on some holidays; Poe Cottage, run by the same society, keeps the same weekend hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-museum-of-bronx-history",
+    "slug": "museum-of-bronx-history",
+    "name": "Museum of Bronx History (Valentine-Varian House)",
+    "category": "attraction",
+    "borough": "bronx",
+    "neighborhood": "Norwood",
+    "address": "3266 Bainbridge Ave, Bronx, NY 10467",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [],
+      "fri": [],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ]
+    },
+    "editorialTake": "The Bronx County Historical Society's museum, in the Valentine-Varian House on Bainbridge Avenue, telling the story of the borough.",
+    "bestTimeToVisit": "Saturday, with Poe Cottage",
+    "timeNeededMinutes": 45,
+    "trendingScore": 36,
+    "website": "https://bronxhistoricalsociety.org",
+    "lat": 40.87738,
+    "lng": -73.87943
   }
 ]
