@@ -18,8 +18,10 @@ import { SITE_URL } from "@/lib/site"
 import { CATEGORIES } from "@/types/enums"
 import type { Category } from "@/types/place"
 
-// Refresh listings from the database every few minutes
-export const revalidate = 300
+// Rebuilt a few times a day: what changes by the minute (open now, free today,
+// the forecast, countdowns, holidays) is filled in the browser, and admin edits
+// refresh the page right away
+export const revalidate = 21600
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   await initLocale(params)
