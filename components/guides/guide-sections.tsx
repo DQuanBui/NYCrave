@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { OpenNowToggle } from "@/components/place/open-now-toggle"
-import { PlaceGrid } from "@/components/place/place-grid"
+import { PagedGrid } from "@/components/listing/paged-grid"
 import { useNow } from "@/hooks/use-now"
 import type { CardPlace } from "@/lib/card-place"
 import { getOpenStatus, isOpen } from "@/lib/hours"
@@ -71,7 +71,7 @@ export function GuideSections({
             </LineBullet>
             {t(`categories.${category}.title`)}
           </Heading>
-          <PlaceGrid places={places} />
+          <PagedGrid key={String(filtering)} places={places} pageSize={8} />
         </section>
       ))}
     </div>

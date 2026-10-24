@@ -17,12 +17,15 @@ export const PAGE_SIZE = 24
 export function PagedGrid({
   places,
   travel,
+  pageSize = PAGE_SIZE,
 }: {
   places: CardPlace[]
   travel?: Record<string, Travel>
+  /** Cards per step; a guide's sections use fewer than a listing. */
+  pageSize?: number
 }) {
   const t = useTranslations("filters")
-  const [limit, setLimit] = useState(PAGE_SIZE)
+  const [limit, setLimit] = useState(pageSize)
   const [focusFrom, setFocusFrom] = useState<number | null>(null)
   const root = useRef<HTMLDivElement>(null)
   const rest = places.length - limit
@@ -43,11 +46,11 @@ export function PagedGrid({
             type="button"
             onClick={() => {
               setFocusFrom(limit)
-              setLimit((n) => n + PAGE_SIZE)
+              setLimit((n) => n + pageSize)
             }}
             className="inline-flex h-12 items-center gap-2 rounded-full border-2 border-foreground px-6 font-bold transition-colors hover:bg-foreground hover:text-background"
           >
-            {t("showMore", { count: Math.min(PAGE_SIZE, rest) })}
+            {t("showMore", { count: Math.min(pageSize, rest) })}
             <ChevronDown aria-hidden className="size-4" />
           </button>
           <p className="text-sm text-muted-foreground">
