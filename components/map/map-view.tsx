@@ -187,6 +187,16 @@ export default function MapView({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key])
 
+  // A place picked from outside the map (a list, "Nearest open") may be off screen
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || !selected) return
+    if (!map.getBounds().contains([selected.lng, selected.lat]))
+      map.easeTo({ center: [selected.lng, selected.lat], zoom: Math.max(map.getZoom(), 14) })
+    // Only when the selection changes, not when the points list is rebuilt
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedId])
+
   const hasUser = Boolean(userLocation)
   useEffect(() => {
     if (userLocation)

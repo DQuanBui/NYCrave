@@ -889,7 +889,8 @@
     "count": "{count, plural, =0 {Không có địa điểm phù hợp} other {# địa điểm}}",
     "openNow": "Đang mở cửa",
     "open": "Mở địa điểm",
-    "close": "Đóng xem trước"
+    "close": "Đóng xem trước",
+    "nearestOpen": "Nơi gần nhất đang mở"
   },
   "privacy": {
     "title": "Quyền riêng tư",

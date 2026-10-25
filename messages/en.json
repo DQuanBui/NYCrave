@@ -889,7 +889,8 @@
     "count": "{count, plural, =0 {No places match} one {# place} other {# places}}",
     "openNow": "Open now",
     "open": "Open place",
-    "close": "Close preview"
+    "close": "Close preview",
+    "nearestOpen": "Nearest open"
   },
   "privacy": {
     "title": "Privacy",

@@ -889,7 +889,8 @@
     "count": "{count, plural, =0 {Ningún lugar coincide} one {# lugar} other {# lugares}}",
     "openNow": "Abierto ahora",
     "open": "Abrir lugar",
-    "close": "Cerrar vista previa"
+    "close": "Cerrar vista previa",
+    "nearestOpen": "Lo más cercano abierto"
   },
   "privacy": {
     "title": "Privacidad",

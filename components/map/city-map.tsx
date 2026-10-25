@@ -14,6 +14,7 @@ import { useGeolocation } from "@/hooks/use-geolocation"
 import { useNow } from "@/hooks/use-now"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
+import { distanceKm } from "@/lib/geo"
 import { getOpenStatus, getStatusAt, isOpen } from "@/lib/hours"
 import { atClock } from "@/lib/place-filters"
 import { placeToPoint } from "@/lib/map-points"
@@ -50,6 +51,16 @@ export function CityMap({ places }: { places: CardPlace[] }) {
   const selected = visible.find((p) => p.id === selectedId)
   const origin = geo.state.status === "ready" ? geo.state.position : null
   const travel = selected && origin ? estimateTravel(origin, selected) : null
+  // The closest place on the map that is open right now, once we know where you are
+  const nearestOpen =
+    origin && now
+      ? visible
+          .filter((p) => isOpen(getOpenStatus(p.hours, now)))
+          .reduce<(typeof visible)[number] | null>(
+            (best, p) => (!best || distanceKm(origin, p) < distanceKm(origin, best) ? p : best),
+            null,
+          )
+      : null
 
   const toggleLine = (c: Category) =>
     setLines((prev) => {
@@ -123,12 +134,24 @@ export function CityMap({ places }: { places: CardPlace[] }) {
             {geo.state.status === "locating" ? t("filters.locating") : t("filters.nearMe")}
           </button>
         </div>
-        <p
-          aria-live="polite"
-          className="mt-2 ml-1 inline-block rounded-full bg-background/90 px-3 py-1 text-sm font-semibold shadow"
-        >
-          {t("cityMap.count", { count: visible.length })}
-        </p>
+        <div className="mt-2 ml-1 flex flex-wrap items-center gap-2">
+          <p
+            aria-live="polite"
+            className="inline-block rounded-full bg-background/90 px-3 py-1 text-sm font-semibold shadow"
+          >
+            {t("cityMap.count", { count: visible.length })}
+          </p>
+          {origin && nearestOpen ? (
+            <button
+              type="button"
+              onClick={() => setSelectedId(nearestOpen.id)}
+              className="inline-flex items-center gap-1.5 rounded-full bg-foreground px-3 py-1 text-sm font-bold text-background shadow"
+            >
+              <Navigation aria-hidden className="size-3.5" />
+              {t("cityMap.nearestOpen")}
+            </button>
+          ) : null}
+        </div>
       </div>
 
       <LazyMap

@@ -889,7 +889,8 @@
     "count": "{count, plural, =0 {맞는 장소 없음} other {장소 #곳}}",
     "openNow": "영업 중",
     "open": "장소 열기",
-    "close": "미리보기 닫기"
+    "close": "미리보기 닫기",
+    "nearestOpen": "가장 가까운 영업 중 장소"
   },
   "privacy": {
     "title": "개인정보",

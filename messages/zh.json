@@ -889,7 +889,8 @@
     "count": "{count, plural, =0 {没有符合条件的地点} other {# 个地点}}",
     "openNow": "正在营业",
     "open": "打开地点",
-    "close": "关闭预览"
+    "close": "关闭预览",
+    "nearestOpen": "最近的营业地点"
   },
   "privacy": {
     "title": "隐私",
