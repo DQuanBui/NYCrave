@@ -806,7 +806,8 @@
     "find": "Tìm khu phố",
     "findPlaceholder": "Nhập tên, ví dụ Astoria",
     "findGo": "Đi",
-    "findNone": "Chưa có khu phố nào tên “{query}”. Thử tên khác hoặc chọn bên dưới."
+    "findNone": "Chưa có khu phố nào tên “{query}”. Thử tên khác hoặc chọn bên dưới.",
+    "jump": "Chuyển đến một quận"
   },
   "credits": {
     "title": "Nguồn ảnh",

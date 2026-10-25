@@ -806,7 +806,8 @@
     "find": "동네 찾기",
     "findPlaceholder": "이름을 입력하세요 (예: Astoria)",
     "findGo": "이동",
-    "findNone": "아직 “{query}”라는 동네가 없습니다. 다른 이름을 입력하거나 아래에서 고르세요."
+    "findNone": "아직 “{query}”라는 동네가 없습니다. 다른 이름을 입력하거나 아래에서 고르세요.",
+    "jump": "자치구로 이동"
   },
   "credits": {
     "title": "사진 출처",

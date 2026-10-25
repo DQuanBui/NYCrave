@@ -67,6 +67,26 @@ export default async function NeighborhoodsPage({ params }: Props) {
           go={t("neighborhoods.findGo")}
           notFound={t("neighborhoods.findNone", { query: "{query}" })}
         />
+        <nav aria-label={t("neighborhoods.jump")}>
+          <ul className="flex flex-wrap gap-2">
+            {BOROUGHS.map((borough) => (
+              <li key={borough}>
+                <a
+                  href={`#borough-${borough}`}
+                  className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-foreground/15 bg-card pr-4 pl-1.5 text-sm font-semibold hover:border-foreground"
+                >
+                  <LineBullet line={BOROUGH_META[borough].line} size="sm">
+                    {BOROUGH_META[borough].bullet}
+                  </LineBullet>
+                  {t(`borough.${borough}`)}
+                  <span className="text-muted-foreground tabular-nums">
+                    {NEIGHBORHOODS.filter((n) => n.borough === borough).length}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
         <LazyMap
           ariaLabel={t("neighborhoods.allMap")}
           className="h-80 sm:h-[28rem]"
@@ -89,10 +109,14 @@ export default async function NeighborhoodsPage({ params }: Props) {
             (a, b) => count(b.name) - count(a.name) || a.name.localeCompare(b.name),
           )
           return (
-            <section key={borough} aria-labelledby={`borough-${borough}`} className="space-y-4">
+            <section
+              key={borough}
+              aria-labelledby={`borough-${borough}`}
+              className="scroll-mt-24 space-y-4"
+            >
               <h2
                 id={`borough-${borough}`}
-                className="flex items-center gap-3 font-display text-display-md"
+                className="flex scroll-mt-24 items-center gap-3 font-display text-display-md"
               >
                 <LineBullet line={meta.line} size="md">
                   {meta.bullet}

@@ -806,7 +806,8 @@
     "find": "Busca un barrio",
     "findPlaceholder": "Escribe un nombre, como Astoria",
     "findGo": "Ir",
-    "findNone": "Aún no hay ningún barrio llamado «{query}». Prueba otro nombre o elige uno abajo."
+    "findNone": "Aún no hay ningún barrio llamado «{query}». Prueba otro nombre o elige uno abajo.",
+    "jump": "Ir a un distrito"
   },
   "credits": {
     "title": "Créditos de fotos",

@@ -806,7 +806,8 @@
     "find": "查找街区",
     "findPlaceholder": "输入名称，例如 Astoria",
     "findGo": "前往",
-    "findNone": "还没有名为“{query}”的街区。换个名称试试，或在下方选择。"
+    "findNone": "还没有名为“{query}”的街区。换个名称试试，或在下方选择。",
+    "jump": "跳转到行政区"
   },
   "credits": {
     "title": "照片来源",

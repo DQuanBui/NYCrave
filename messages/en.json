@@ -806,7 +806,8 @@
     "find": "Find a neighborhood",
     "findPlaceholder": "Type a name, like Astoria",
     "findGo": "Go",
-    "findNone": "No neighborhood called “{query}” yet. Try another name, or pick one below."
+    "findNone": "No neighborhood called “{query}” yet. Try another name, or pick one below.",
+    "jump": "Jump to a borough"
   },
   "credits": {
     "title": "Photo credits",
