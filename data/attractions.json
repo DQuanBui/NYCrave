@@ -5687,5 +5687,222 @@
     "website": "https://bronxhistoricalsociety.org",
     "lat": 40.87738,
     "lng": -73.87943
+  },
+  {
+    "photos": [],
+    "mustTry": ["The current photography exhibitions", "The photobook shop"],
+    "vibeTags": ["rainy_day", "solo_friendly", "quiet"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-25T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-25: address, museum hours (daily 10:30 AM to 6:30 PM, Thursday until 8 PM) and admission from icp.org/visit. Last tickets 30 minutes before closing; closed Thanksgiving, Christmas and New Year's Day. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-international-center-of-photography",
+    "slug": "international-center-of-photography",
+    "name": "International Center of Photography (ICP)",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "84 Ludlow St, New York, NY 10002",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "18:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "18:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:30",
+          "close": "18:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "18:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "18:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "18:30"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 12,
+        "max": 18
+      },
+      "bookingUrl": "https://www.icp.org/visit",
+      "notes": "Adults $18; seniors 62 and over $14; students $12; 14 and under free. $5 on Thursdays from 5 to 8 PM."
+    },
+    "editorialTake": "The International Center of Photography's museum, shop, café, school and library on Ludlow Street, open every day with late hours on Thursdays.",
+    "bestTimeToVisit": "Thursday evening, when admission is $5",
+    "timeNeededMinutes": 75,
+    "trendingScore": 50,
+    "website": "https://www.icp.org",
+    "lat": 40.71815,
+    "lng": -73.98879
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-drawing-center-1.jpg",
+        "alt": "The cast-iron building at 35 Wooster Street, home of The Drawing Center",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Beyond My Ken, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:35_Wooster_Street.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["The current exhibition"],
+    "vibeTags": ["quiet", "rainy_day", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-25T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-25: address, hours (Wednesday to Sunday noon to 6 PM) and free admission from drawingcenter.org/visit. It closes between exhibitions for installation; check the site before going. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-drawing-center",
+    "slug": "the-drawing-center",
+    "name": "The Drawing Center",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "SoHo",
+    "address": "35 Wooster St, New York, NY 10013",
+    "priceLevel": 1,
+    "isFree": true,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A free SoHo museum devoted to drawing, with changing exhibitions in a long, high-ceilinged gallery on Wooster Street.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 40,
+    "trendingScore": 44,
+    "website": "https://drawingcenter.org",
+    "lat": 40.72244,
+    "lng": -74.00289
+  },
+  {
+    "photos": [],
+    "mustTry": ["Hands-on exhibits", "Workshops and events on the calendar"],
+    "vibeTags": ["kid_friendly", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-25T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-25: address, hours (Wednesday to Sunday 10 AM to 5 PM) and admission from sichildrensmuseum.org/visit. Closed on major holidays and for some members-only events; check the calendar. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-staten-island-childrens-museum",
+    "slug": "staten-island-childrens-museum",
+    "name": "Staten Island Children's Museum",
+    "category": "attraction",
+    "borough": "staten_island",
+    "neighborhood": "New Brighton",
+    "address": "1000 Richmond Terrace, Building M, Staten Island, NY 10301",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "ticketInfo": {
+      "priceRange": {
+        "min": 10,
+        "max": 10
+      },
+      "bookingUrl": "https://sichildrensmuseum.org/visit/",
+      "notes": "Adults and children $10; under 1 free."
+    },
+    "editorialTake": "A hands-on children's museum on the grounds of Snug Harbor, with exhibits to play in and art and science workshops.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 120,
+    "trendingScore": 42,
+    "website": "https://sichildrensmuseum.org",
+    "lat": 40.64271,
+    "lng": -74.10189
   }
 ]
