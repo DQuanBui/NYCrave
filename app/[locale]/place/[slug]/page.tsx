@@ -134,7 +134,7 @@ export default async function PlacePage({ params }: Props) {
         />
         <Link
           href={meta.href}
-          className="absolute top-4 left-4 inline-flex h-10 items-center gap-2 rounded-full bg-white/90 px-4 text-sm font-semibold text-[#1d1f21] shadow-sm backdrop-blur hover:bg-white"
+          className="absolute top-4 left-4 inline-flex h-10 items-center gap-2 rounded-full bg-white/90 px-4 text-sm font-semibold text-[#1d1f21] shadow-sm backdrop-blur hover:bg-white print:hidden"
         >
           <ArrowLeft aria-hidden className="size-4" />
           {t(`categories.${place.category}.nav`)}
@@ -165,7 +165,7 @@ export default async function PlacePage({ params }: Props) {
               <PriceLevel place={place} />
               <HoursBadge hours={place.hours} />
             </div>
-            <div className="flex flex-wrap gap-2 pt-1">
+            <div className="flex flex-wrap gap-2 pt-1 print:hidden">
               <SaveButton slug={place.slug} name={place.name} variant="outline" />
               <ShareButton title={place.name} />
               <PlanAroundButton place={place} />
@@ -316,7 +316,13 @@ export default async function PlacePage({ params }: Props) {
               {t("place.location")}
             </h2>
             <address className="text-sm text-muted-foreground not-italic">{place.address}</address>
-            <ul className="space-y-2 text-sm font-semibold">
+            {/* Links do nothing on paper: print the official site instead */}
+            {place.website ? (
+              <p className="hidden text-sm print:block">
+                {place.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}
+              </p>
+            ) : null}
+            <ul className="space-y-2 text-sm font-semibold print:hidden">
               <MapLink href={googleMapsUrl(place)} label={t("place.openInGoogleMaps")} />
               <MapLink href={appleMapsUrl(place)} label={t("place.openInAppleMaps")} />
               <MapLink
@@ -336,12 +342,16 @@ export default async function PlacePage({ params }: Props) {
               <p className="text-xs text-muted-foreground">{t("subway.source")}</p>
             </div>
           ) : null}
-          {reportsEnabled() ? <ReportProblem placeId={place.id} placeName={place.name} /> : null}
+          {reportsEnabled() ? (
+            <div className="print:hidden">
+              <ReportProblem placeId={place.id} placeName={place.name} />
+            </div>
+          ) : null}
         </aside>
       </div>
 
       <RecordVisit slug={place.slug} />
-      <div className="mx-auto max-w-7xl px-4 pb-14 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 pb-14 lg:px-8 print:hidden">
         <WithMessages namespaces={["next"]}>
           <NextNearby
             here={{
@@ -359,7 +369,7 @@ export default async function PlacePage({ params }: Props) {
       </div>
 
       {similar.length > 0 ? (
-        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8 print:hidden">
           <PlaceRail title={t("place.similar")} places={similar.map(toCard)} />
         </div>
       ) : null}
