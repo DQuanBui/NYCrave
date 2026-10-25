@@ -1,14 +1,17 @@
 "use client"
 
-import { Moon } from "lucide-react"
+import { LocateFixed, Moon } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
 import { useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { pillClass } from "@/components/listing/filter-menu"
 import { PlacePhoto } from "@/components/place/place-photo"
+import { useGeolocation } from "@/hooks/use-geolocation"
 import { useNow } from "@/hooks/use-now"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
 import { formatClockTime, isOpen, nycClock } from "@/lib/hours"
+import { estimateTravel } from "@/lib/planner/estimates"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import { eveningWeekday, LATE_CATEGORIES, LATE_SLOTS, statusAt } from "@/lib/tonight"
 import { cn } from "@/lib/utils"
@@ -17,6 +20,10 @@ import { cn } from "@/lib/utils"
 export function TonightView({ places }: { places: CardPlace[] }) {
   const t = useTranslations("tonight")
   const tc = useTranslations("categories")
+  const tAll = useTranslations()
+  // "Near me" sorts each group by distance on the device; nothing is sent
+  const geo = useGeolocation()
+  const origin = geo.state.status === "ready" ? geo.state.position : null
   const locale = useLocale()
   const now = useNow()
   const [chosen, setChosen] = useState<number | null>(null)
@@ -34,8 +41,10 @@ export function TonightView({ places }: { places: CardPlace[] }) {
 
   const open = places.flatMap((place) => {
     const status = statusAt(place.hours, evening, slot)
-    return isOpen(status) ? [{ place, status }] : []
+    if (!isOpen(status)) return []
+    return [{ place, status, travel: origin ? estimateTravel(origin, place) : undefined }]
   })
+  if (origin) open.sort((a, b) => a.travel!.km - b.travel!.km)
   const groups = LATE_CATEGORIES.map((c) => ({
     category: c,
     items: open.filter((o) => o.place.category === c),
@@ -70,9 +79,26 @@ export function TonightView({ places }: { places: CardPlace[] }) {
         })}
       </div>
 
-      <p aria-live="polite" className="font-semibold">
-        {t("count", { count: open.length, time: formatClockTime(slot, locale) })}
-      </p>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p aria-live="polite" className="font-semibold">
+          {t("count", { count: open.length, time: formatClockTime(slot, locale) })}
+        </p>
+        <button
+          type="button"
+          aria-pressed={Boolean(origin)}
+          onClick={origin ? geo.reset : geo.locate}
+          disabled={geo.state.status === "locating"}
+          className={pillClass(Boolean(origin))}
+        >
+          <LocateFixed aria-hidden className="size-4" />
+          {geo.state.status === "locating" ? tAll("filters.locating") : tAll("filters.nearMe")}
+        </button>
+      </div>
+      {geo.state.status === "denied" ? (
+        <p aria-live="polite" className="text-sm text-muted-foreground">
+          {tAll("filters.locationDenied")}
+        </p>
+      ) : null}
 
       {groups.length === 0 ? (
         <p className="rounded-2xl border-2 border-dashed border-foreground/30 px-5 py-6 text-muted-foreground">
@@ -88,7 +114,7 @@ export function TonightView({ places }: { places: CardPlace[] }) {
               {tc(`${category}.title`)}
             </h2>
             <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {items.map(({ place, status }) => (
+              {items.map(({ place, status, travel }) => (
                 <li key={place.slug}>
                   <Link
                     href={`/place/${place.slug}`}
@@ -112,6 +138,17 @@ export function TonightView({ places }: { places: CardPlace[] }) {
                             ? t("until", { time: formatClockTime(status.closesAt.minutes, locale) })
                             : null}
                       </span>
+                      {travel ? (
+                        <span className="block text-xs text-muted-foreground">
+                          {tAll(
+                            travel.mode === "walk" ? "place.distanceWalk" : "place.distanceSubway",
+                            {
+                              distance: (travel.km / 1.609).toFixed(1),
+                              minutes: travel.minutes,
+                            },
+                          )}
+                        </span>
+                      ) : null}
                     </span>
                   </Link>
                 </li>
