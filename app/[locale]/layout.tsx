@@ -17,6 +17,7 @@ import { routing } from "@/i18n/routing"
 import { feedbackEnabled } from "@/lib/feedback-store"
 import { body, display } from "@/lib/fonts"
 import { SITE_URL } from "@/lib/site"
+import { THEME_COLORS } from "@/lib/theme-colors"
 import "../globals.css"
 
 export function generateStaticParams() {
@@ -40,8 +41,8 @@ export async function generateMetadata({ params }: LayoutProps<"/[locale]">): Pr
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f5f5f0" },
-    { media: "(prefers-color-scheme: dark)", color: "#1a1c1e" },
+    { media: "(prefers-color-scheme: light)", color: THEME_COLORS.light },
+    { media: "(prefers-color-scheme: dark)", color: THEME_COLORS.dark },
   ],
   viewportFit: "cover",
 }
