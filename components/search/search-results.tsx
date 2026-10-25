@@ -2,9 +2,9 @@
 
 import { useTranslations } from "next-intl"
 import { useState } from "react"
+import { PagedGrid } from "@/components/listing/paged-grid"
 import { inKind, KindTabs, type KindTab } from "@/components/place/kind-tabs"
 import { OpenNowToggle, keepOpen } from "@/components/place/open-now-toggle"
-import { PlaceGrid } from "@/components/place/place-grid"
 import { useNow } from "@/hooks/use-now"
 import type { CardPlace } from "@/lib/card-place"
 
@@ -31,7 +31,7 @@ export function SearchResults({ places }: { places: CardPlace[] }) {
           {t("noneOpen")}
         </p>
       ) : (
-        <PlaceGrid places={shown} />
+        <PagedGrid key={`${tab}-${openOnly}`} places={shown} />
       )}
     </div>
   )
