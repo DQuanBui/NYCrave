@@ -5504,11 +5504,11 @@
     "mustTry": ["Shawarma", "Mansaf", "Maklouba"],
     "vibeTags": ["group_friendly", "local_favorite"],
     "verified": false,
-    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "updatedAt": "2026-10-25T12:00:00.000Z",
     "category": "restaurant",
     "isFree": false,
     "dietary": ["halal"],
-    "verificationNotes": "Checked 2026-09-27: address and hours (11 AM to 10 PM daily) from ayatnyc.com (Bay Ridge page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "verificationNotes": "Checked 2026-09-27: hours (11 AM to 10 PM daily) from ayatnyc.com (Bay Ridge page). Rechecked 2026-10-25: the Bay Ridge page gives the address as 8504 3rd Ave (corrected from 8501) but no longer lists hours, so confirm them with the venue. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
     "id": "r-ayat-bay-ridge",
     "slug": "ayat-bay-ridge",
     "name": "Ayat",
@@ -5516,7 +5516,7 @@
     "dishTypes": ["rice_dishes", "sandwiches"],
     "borough": "brooklyn",
     "neighborhood": "Bay Ridge",
-    "address": "8501 3rd Ave, Brooklyn, NY 11209",
+    "address": "8504 3rd Ave, Brooklyn, NY 11209",
     "priceLevel": 2,
     "hours": {
       "sun": [
@@ -5567,8 +5567,8 @@
     "timeNeededMinutes": 75,
     "trendingScore": 70,
     "website": "https://www.ayatnyc.com",
-    "lat": 40.62416,
-    "lng": -74.0306
+    "lat": 40.62419,
+    "lng": -74.03093
   },
   {
     "photos": [],
