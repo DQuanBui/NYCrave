@@ -14,7 +14,8 @@
     "test:watch": "vitest",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "check:websites": "node scripts/check-websites.mjs"
+    "check:websites": "node scripts/check-websites.mjs",
+    "check:hours": "node scripts/check-hours.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.128.0",
