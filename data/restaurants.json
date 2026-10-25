@@ -1087,7 +1087,7 @@
     ],
     "vibeTags": ["cheap_eats", "local_favorite", "solo_friendly"],
     "verified": false,
-    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "updatedAt": "2026-10-25T12:00:00.000Z",
     "id": "r-ess-a-bagel",
     "slug": "ess-a-bagel-third-avenue",
     "name": "Ess-a-Bagel",
@@ -1097,7 +1097,7 @@
     "dietary": ["vegetarian"],
     "borough": "manhattan",
     "neighborhood": "Midtown East",
-    "address": "831 3rd Ave, New York, NY 10022",
+    "address": "770 3rd Ave, New York, NY 10017",
     "priceLevel": 1,
     "isFree": false,
     "hours": {
@@ -1150,9 +1150,9 @@
     "trendingScore": 82,
     "website": "https://www.ess-a-bagel.com",
     "phone": "(212) 980-1010",
-    "verificationNotes": "Checked 2026-09-27: address and hours from ess-a-bagel.com (3rd Avenue location page). Price level is an editorial estimate. Confirm details with the venue before marking verified.",
-    "lat": 40.75616,
-    "lng": -73.97017
+    "verificationNotes": "Checked 2026-10-25: the shop moved from 51st Street to 770 3rd Ave at 47th Street; address and hours (Monday to Friday 6 AM to 6 PM, Saturday and Sunday 6 AM to 5 PM) from ess-a-bagel.com/hours-and-locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "lat": 40.7543,
+    "lng": -73.9721
   },
   {
     "photos": [

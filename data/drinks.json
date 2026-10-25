@@ -613,7 +613,7 @@
     "mustTry": ["Cocktails on the terrace"],
     "vibeTags": ["date_night", "instagrammable", "late_night"],
     "verified": false,
-    "updatedAt": "2026-09-27T12:00:00.000Z",
+    "updatedAt": "2026-10-25T12:00:00.000Z",
     "id": "d-westlight",
     "slug": "westlight-williamsburg",
     "name": "Westlight",
@@ -659,7 +659,7 @@
       "fri": [
         {
           "open": "16:00",
-          "close": "02:00"
+          "close": "01:00"
         }
       ],
       "sat": [
@@ -674,7 +674,7 @@
     "timeNeededMinutes": 90,
     "trendingScore": 81,
     "website": "https://www.westlightnyc.com",
-    "verificationNotes": "Checked 2026-09-27: hours from westlightnyc.com location page and listings. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "verificationNotes": "Checked 2026-09-27: hours from westlightnyc.com location page and listings. Price level is an editorial estimate. Confirm details with the venue before marking verified. Rechecked 2026-10-25 on westlightnyc.com: Monday to Thursday 4 PM to midnight, Friday 4 PM to 1 AM, Saturday noon to 2 AM, Sunday noon to midnight.",
     "lat": 40.72241,
     "lng": -73.95692
   },
