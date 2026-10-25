@@ -1,4 +1,4 @@
-import { CalendarDays, MapPin, Sunset } from "lucide-react"
+import { CalendarDays, CalendarPlus, MapPin, Sunset } from "lucide-react"
 import type { Metadata } from "next"
 import { getLocale, getTranslations } from "next-intl/server"
 import { SignBand } from "@/components/brand/sign-band"
@@ -8,6 +8,8 @@ import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { formatClockTime, nycDateString } from "@/lib/hours"
 import { getPlaces } from "@/lib/places"
+import { seasonIcs, icsDataUrl } from "@/lib/season-ics"
+import { SITE_URL } from "@/lib/site"
 import { formatWindow, sunsetMinutes, upcomingSeasons } from "@/lib/seasons"
 import { LINES } from "@/lib/lines"
 import { cn } from "@/lib/utils"
@@ -147,6 +149,24 @@ export default async function SeasonsPage({ params }: Props) {
                       {event.approximate ? ` (${t("approximate")})` : null}
                     </p>
                     <p className="max-w-prose leading-relaxed">{t(`events.${event.key}.body`)}</p>
+                    <a
+                      href={icsDataUrl(
+                        seasonIcs({
+                          uid: `${event.key}-${window.start}`,
+                          name: t(`events.${event.key}.name`),
+                          start: window.start,
+                          end: window.end,
+                          description: t(`events.${event.key}.body`),
+                          url: `${SITE_URL}/seasons#${event.key}`,
+                          stamp: new Date(`${today}T12:00:00Z`),
+                        }),
+                      )}
+                      download={`nycrave-${event.key}.ics`}
+                      className="inline-flex h-9 items-center gap-1.5 rounded-full border-2 border-foreground/15 px-3 text-sm font-semibold hover:border-foreground"
+                    >
+                      <CalendarPlus aria-hidden className="size-4" />
+                      {t("addToCalendar")}
+                    </a>
                     {linked.length ? (
                       <ul className="flex flex-wrap gap-2" aria-label={t("wherePlaces")}>
                         {linked.map((p) => (

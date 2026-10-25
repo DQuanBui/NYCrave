@@ -1088,7 +1088,8 @@
         "name": "Nochevieja",
         "body": "La bola baja en Times Square a medianoche. La multitud se reúne desde la tarde; muchos neoyorquinos prefieren verlo desde un bar o una azotea."
       }
-    }
+    },
+    "addToCalendar": "Añadir al calendario"
   },
   "passport": {
     "title": "Mi pasaporte de NYC",

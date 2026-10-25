@@ -1088,7 +1088,8 @@
         "name": "New Year's Eve",
         "body": "The ball drops in Times Square at midnight. Crowds start gathering in the afternoon; many locals watch from a bar or a rooftop instead."
       }
-    }
+    },
+    "addToCalendar": "Add to calendar"
   },
   "passport": {
     "title": "My NYC Passport",
