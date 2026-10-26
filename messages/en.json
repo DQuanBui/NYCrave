@@ -1485,7 +1485,8 @@
         "body": "An easy 3-mile trail past valley lakes, up wooded hills and over old bridges, to New York City's largest tulip tree.",
         "highlights": ["Valley lakes", "Old stone bridges", "The city's largest tulip tree"]
       }
-    }
+    },
+    "away": "{distance} mi away"
   },
   "goldenHour": {
     "title": "Golden hour",

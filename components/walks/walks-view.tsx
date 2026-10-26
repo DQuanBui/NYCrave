@@ -1,11 +1,21 @@
 "use client"
 
-import { Accessibility, Clock, ExternalLink, MapPin, Navigation, Ruler } from "lucide-react"
+import {
+  Accessibility,
+  Clock,
+  ExternalLink,
+  LocateFixed,
+  MapPin,
+  Navigation,
+  Ruler,
+} from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { RouteBullets } from "@/components/place/subway-list"
+import { useGeolocation } from "@/hooks/use-geolocation"
 import { Link } from "@/i18n/navigation"
+import { distanceKm } from "@/lib/geo"
 import { LINES } from "@/lib/lines"
 import { cn } from "@/lib/utils"
 import { kmFromMiles, type Walk } from "@/lib/walks"
@@ -42,13 +52,20 @@ export function WalksView({ walks }: { walks: WalkCard[] }) {
   const [kind, setKind] = useState<Kind>("all")
   const [level, setLevel] = useState<Level>("all")
   const [borough, setBorough] = useState<Borough | "all">("all")
+  // "Near me" puts the closest trailheads first; the position stays on the device
+  const geo = useGeolocation()
+  const tFilters = useTranslations("filters")
+  const origin = geo.state.status === "ready" ? geo.state.position : null
 
-  const shown = walks.filter(
+  const matching = walks.filter(
     (w) =>
       (kind === "all" || w.kind === kind) &&
       (level === "all" || w.difficulty === level) &&
       (borough === "all" || w.borough === borough),
   )
+  const shown = origin
+    ? [...matching].sort((a, b) => distanceKm(origin, a.start) - distanceKm(origin, b.start))
+    : matching
   const chip = (active: boolean) =>
     cn(
       "h-9 rounded-full border-2 px-4 text-sm font-semibold transition-colors",
@@ -83,6 +100,17 @@ export function WalksView({ walks }: { walks: WalkCard[] }) {
             {t(`filters.${l}`)}
           </button>
         ))}
+        <span aria-hidden className="mx-1 h-6 w-px bg-border" />
+        <button
+          type="button"
+          aria-pressed={Boolean(origin)}
+          onClick={origin ? geo.reset : geo.locate}
+          disabled={geo.state.status === "locating"}
+          className={cn(chip(Boolean(origin)), "inline-flex items-center gap-1.5")}
+        >
+          <LocateFixed aria-hidden className="size-4" />
+          {geo.state.status === "locating" ? tFilters("locating") : tFilters("nearMe")}
+        </button>
         <label className="ml-auto flex items-center gap-2 text-sm font-semibold">
           <span className="sr-only">{t("boroughLabel")}</span>
           <select
@@ -112,7 +140,10 @@ export function WalksView({ walks }: { walks: WalkCard[] }) {
         <ul className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {shown.map((w) => (
             <li key={w.key}>
-              <WalkCardView walk={w} />
+              <WalkCardView
+                walk={w}
+                awayMiles={origin ? distanceKm(origin, w.start) / 1.609 : undefined}
+              />
             </li>
           ))}
         </ul>
@@ -121,7 +152,7 @@ export function WalksView({ walks }: { walks: WalkCard[] }) {
   )
 }
 
-function WalkCardView({ walk }: { walk: WalkCard }) {
+function WalkCardView({ walk, awayMiles }: { walk: WalkCard; awayMiles?: number }) {
   const t = useTranslations("walks")
   const tBorough = useTranslations("borough")
   const line = LINES[walk.line]
@@ -186,6 +217,7 @@ function WalkCardView({ walk }: { walk: WalkCard }) {
           <p className="text-sm text-muted-foreground">
             {walk.park !== title ? `${walk.park}, ` : ""}
             {tBorough(walk.borough)}
+            {awayMiles !== undefined ? ` · ${t("away", { distance: awayMiles.toFixed(1) })}` : null}
           </p>
         </div>
 

@@ -1489,7 +1489,8 @@
           "El tulípero más grande de la ciudad"
         ]
       }
-    }
+    },
+    "away": "a {distance} mi"
   },
   "goldenHour": {
     "title": "Hora dorada",

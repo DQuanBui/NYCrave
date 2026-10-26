@@ -1485,7 +1485,8 @@
         "body": "Đường mòn dễ 3 dặm qua các hồ trong thung lũng, lên những ngọn đồi có rừng và qua những cây cầu cổ, đến cây tulip lớn nhất New York.",
         "highlights": ["Hồ trong thung lũng", "Cầu đá cổ", "Cây tulip lớn nhất thành phố"]
       }
-    }
+    },
+    "away": "cách {distance} dặm"
   },
   "goldenHour": {
     "title": "Giờ vàng",
