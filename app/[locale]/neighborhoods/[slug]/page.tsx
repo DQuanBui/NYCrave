@@ -1,4 +1,5 @@
 import { Route } from "lucide-react"
+import { PlanGuideLink } from "@/components/guides/plan-guide-link"
 import { ShareButton } from "@/components/place/share-button"
 import { WithMessages } from "@/components/providers/with-messages"
 import type { Metadata } from "next"
@@ -54,6 +55,8 @@ export default async function NeighborhoodPage({ params }: Props) {
   const t = await getTranslations()
   const all = await getPlaces({}, { sort: "trending" })
   const places = all.filter((p) => p.neighborhood === hood.name)
+  // One card per place, shared by the plan link and the sections (sent once)
+  const cards = new Map(places.map((p) => [p.slug, toCard(p)]))
   const meta = BOROUGH_META[hood.borough]
   const routes = routesNear(hood, 0.6)
 
@@ -102,9 +105,10 @@ export default async function NeighborhoodPage({ params }: Props) {
             ))}
           </ul>
           <div className="ml-auto flex flex-wrap gap-2">
+            <PlanGuideLink places={[...cards.values()]} />
             <Link
               href={{ pathname: "/my-day", query: { from: hood.slug } }}
-              className="inline-flex h-10 items-center gap-2 rounded-full bg-taxi px-5 text-sm font-bold text-taxi-foreground"
+              className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-foreground px-4 text-sm font-bold hover:bg-accent"
             >
               <Route aria-hidden className="size-4" />
               {t("neighborhoods.planDay")}
@@ -130,7 +134,9 @@ export default async function NeighborhoodPage({ params }: Props) {
                   heading="h3"
                   sections={CATEGORIES.map((category) => ({
                     category,
-                    places: places.filter((p) => p.category === category).map(toCard),
+                    places: places
+                      .filter((p) => p.category === category)
+                      .map((p) => cards.get(p.slug)!),
                   })).filter((s) => s.places.length > 0)}
                 />
               </WithMessages>
