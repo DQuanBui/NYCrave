@@ -455,7 +455,8 @@
       "close": "Đóng ảnh",
       "previous": "Ảnh trước",
       "next": "Ảnh sau"
-    }
+    },
+    "copyAddress": "Sao chép địa chỉ"
   },
   "hours": {
     "open": "Đang mở",

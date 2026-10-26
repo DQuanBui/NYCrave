@@ -455,7 +455,8 @@
       "close": "Cerrar fotos",
       "previous": "Foto anterior",
       "next": "Foto siguiente"
-    }
+    },
+    "copyAddress": "Copiar dirección"
   },
   "hours": {
     "open": "Abierto",

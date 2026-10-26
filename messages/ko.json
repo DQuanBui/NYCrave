@@ -455,7 +455,8 @@
       "close": "사진 닫기",
       "previous": "이전 사진",
       "next": "다음 사진"
-    }
+    },
+    "copyAddress": "주소 복사"
   },
   "hours": {
     "open": "영업 중",

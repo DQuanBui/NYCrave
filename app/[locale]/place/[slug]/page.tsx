@@ -315,7 +315,17 @@ export default async function PlacePage({ params }: Props) {
               <MapPin aria-hidden className="size-4" />
               {t("place.location")}
             </h2>
-            <address className="text-sm text-muted-foreground not-italic">{place.address}</address>
+            <div className="flex items-start justify-between gap-3">
+              <address className="text-sm text-muted-foreground not-italic">
+                {place.address}
+              </address>
+              <CopyButton
+                value={place.address}
+                label={t("place.copyAddress")}
+                copiedLabel={t("place.copied")}
+                className="shrink-0 print:hidden"
+              />
+            </div>
             {/* Links do nothing on paper: print the official site instead */}
             {place.website ? (
               <p className="hidden text-sm print:block">

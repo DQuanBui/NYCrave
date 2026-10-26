@@ -455,7 +455,8 @@
       "close": "Close photos",
       "previous": "Previous photo",
       "next": "Next photo"
-    }
+    },
+    "copyAddress": "Copy address"
   },
   "hours": {
     "open": "Open",

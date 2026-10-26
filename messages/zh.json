@@ -455,7 +455,8 @@
       "close": "关闭照片",
       "previous": "上一张",
       "next": "下一张"
-    }
+    },
+    "copyAddress": "复制地址"
   },
   "hours": {
     "open": "营业中",
