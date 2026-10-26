@@ -1,4 +1,5 @@
 import { Footprints, Navigation } from "lucide-react"
+import { ShareButton } from "@/components/place/share-button"
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { SignBand } from "@/components/brand/sign-band"
@@ -64,7 +65,10 @@ export default async function CrawlsPage({ params }: Props) {
               ))}
             </ul>
           </nav>
-          <NearMeButton />
+          <div className="flex flex-wrap items-center gap-3">
+            <NearMeButton />
+            <ShareButton />
+          </div>
 
           {kinds.map(({ kind, crawls }) => {
             const line = LINES[kind.line]

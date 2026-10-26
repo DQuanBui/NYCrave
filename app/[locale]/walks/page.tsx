@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { ShareButton } from "@/components/place/share-button"
 import { WithMessages } from "@/components/providers/with-messages"
 import { getTranslations } from "next-intl/server"
 import { SectionHeader } from "@/components/listing/section-header"
@@ -44,6 +45,9 @@ export default async function WalksPage({ params }: Props) {
     <div>
       <SectionHeader line="green" bullet="🥾" title={t("title")} tagline={t("tagline")} />
       <WithMessages namespaces={["walks"]}>
+        <div className="mx-auto max-w-7xl px-4 pt-8 lg:px-8">
+          <ShareButton />
+        </div>
         <WalksView walks={cards} />
       </WithMessages>
     </div>

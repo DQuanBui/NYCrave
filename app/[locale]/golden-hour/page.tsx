@@ -1,4 +1,5 @@
 import { CalendarPlus, Clock, Footprints } from "lucide-react"
+import { ShareButton } from "@/components/place/share-button"
 import { icsDataUrl, timedIcs } from "@/lib/season-ics"
 import { SITE_URL } from "@/lib/site"
 import { WithMessages } from "@/components/providers/with-messages"
@@ -96,6 +97,7 @@ export default async function GoldenHourPage({ params }: Props) {
         </section>
 
         <SunToday />
+        <ShareButton />
 
         <section aria-labelledby="walks" className="space-y-6">
           <SignBand id="walks" title={t("walksTitle")} />

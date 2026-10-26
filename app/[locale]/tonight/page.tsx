@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { ShareButton } from "@/components/place/share-button"
 import { getTranslations } from "next-intl/server"
 import { SectionHeader } from "@/components/listing/section-header"
 import { TonightView } from "@/components/tonight/tonight-view"
@@ -27,6 +28,7 @@ export default async function TonightPage({ params }: Props) {
     <div>
       <SectionHeader line="purple" bullet="🌙" title={t("title")} tagline={t("tagline")} />
       <div className="mx-auto max-w-7xl space-y-10 px-4 py-10 lg:px-8">
+        <ShareButton className="-mb-4" />
         <TonightView places={places} />
         <p className="max-w-prose text-sm text-muted-foreground">
           {t("note")}{" "}
