@@ -1,5 +1,6 @@
 "use client"
 
+import { Shuffle } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
@@ -7,11 +8,17 @@ import { OpenAtMenu } from "@/components/listing/open-at-menu"
 import { OpenNowToggle } from "@/components/place/open-now-toggle"
 import { PagedGrid } from "@/components/listing/paged-grid"
 import { useNow } from "@/hooks/use-now"
+import { useRouter } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
 import { getOpenStatus, getStatusAt, isOpen } from "@/lib/hours"
 import { atClock } from "@/lib/place-filters"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import type { Category } from "@/types/place"
+
+/** Picked when the button is pressed, never while rendering. */
+function randomItem<T>(list: T[]): T {
+  return list[Math.floor(Math.random() * list.length)]
+}
 
 /** A guide's places by category, with switches for what is open now or at a chosen time. */
 export function GuideSections({
@@ -23,6 +30,7 @@ export function GuideSections({
   heading?: "h2" | "h3"
 }) {
   const t = useTranslations()
+  const router = useRouter()
   const now = useNow()
   const [openOnly, setOpenOnly] = useState(false)
   /** "Open at" a chosen weekday and time instead of now, as "sat-2100". */
@@ -56,6 +64,19 @@ export function GuideSections({
             setOpenOnly(false)
           }}
         />
+        {total > 1 ? (
+          <button
+            type="button"
+            onClick={() => {
+              const all = shown.flatMap((sec) => sec.places)
+              router.push(`/place/${randomItem(all).slug}`)
+            }}
+            className="inline-flex h-11 items-center gap-2 rounded-full bg-taxi px-5 font-bold text-taxi-foreground"
+          >
+            <Shuffle aria-hidden className="size-4" />
+            {t("filters.pickOne")}
+          </button>
+        ) : null}
         {filtering ? (
           <p aria-live="polite" className="text-sm font-semibold text-muted-foreground">
             {clock
