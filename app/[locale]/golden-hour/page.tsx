@@ -1,4 +1,6 @@
-import { Clock, Footprints } from "lucide-react"
+import { CalendarPlus, Clock, Footprints } from "lucide-react"
+import { icsDataUrl, timedIcs } from "@/lib/season-ics"
+import { SITE_URL } from "@/lib/site"
 import { WithMessages } from "@/components/providers/with-messages"
 import type { Metadata } from "next"
 import Image from "next/image"
@@ -36,7 +38,8 @@ export default async function GoldenHourPage({ params }: Props) {
   const t = await getTranslations("goldenHour")
   const locale = await getLocale()
   const now = new Date()
-  const sun = sunDay(nycDateString(now))
+  const today = nycDateString(now)
+  const sun = sunDay(today)
   const { weekday } = nycClock(now)
   const spots = await getPlaces({ category: "photo_spot" })
   const bySlug = new Map(spots.map((p) => [p.slug, p]))
@@ -67,6 +70,29 @@ export default async function GoldenHourPage({ params }: Props) {
           <WithMessages namespaces={["goldenHour"]}>
             <SkyRibbon bands={lightBands(sun)} sunrise={sun.sunrise} sunset={sun.sunset} />
           </WithMessages>
+          <a
+            href={icsDataUrl(
+              timedIcs({
+                uid: `golden-hour-${today}`,
+                name: t("calendarTitle"),
+                date: today,
+                start: sun.goldenEvening.start,
+                end: sun.blueEvening.end,
+                description: t("calendarBody", {
+                  start: time(sun.goldenEvening.start),
+                  sunset: time(sun.sunset),
+                  end: time(sun.blueEvening.end),
+                }),
+                url: `${SITE_URL}/golden-hour`,
+                stamp: new Date(`${today}T12:00:00Z`),
+              }),
+            )}
+            download={`nycrave-golden-hour-${today}.ics`}
+            className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-foreground px-4 text-sm font-bold hover:bg-accent"
+          >
+            <CalendarPlus aria-hidden className="size-4" />
+            {t("calendarLink", { time: time(sun.goldenEvening.start) })}
+          </a>
         </section>
 
         <SunToday />

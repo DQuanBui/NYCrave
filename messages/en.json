@@ -1541,7 +1541,10 @@
       }
     },
     "cta": "Plan a photo walk timed to today's golden hour",
-    "tonight": "From {time} tonight"
+    "tonight": "From {time} tonight",
+    "calendarLink": "Add tonight's golden hour ({time}) to your calendar",
+    "calendarTitle": "Golden hour in New York",
+    "calendarBody": "Golden hour from {start}, sunset at {sunset}, blue hour until {end}."
   },
   "guides": {
     "title": "Guides",

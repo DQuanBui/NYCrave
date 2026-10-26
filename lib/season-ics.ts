@@ -1,4 +1,4 @@
-import { escapeText, fold } from "@/lib/planner/ics"
+import { escapeText, fold, localStamp, VTIMEZONE } from "@/lib/planner/ics"
 
 const compact = (date: string) => date.replaceAll("-", "")
 
@@ -8,6 +8,11 @@ function nextDay(date: string): string {
   d.setUTCDate(d.getUTCDate() + 1)
   return d.toISOString().slice(0, 10)
 }
+
+const stampOf = (date: Date) => `${date.toISOString().replace(/[-:]/g, "").slice(0, 15)}Z`
+
+/** Calendar file lines, folded and joined with CRLF as RFC 5545 asks. */
+const toIcs = (lines: string[]) => lines.map(fold).join("\r\n") + "\r\n"
 
 /**
  * One all-day calendar event for a New York date window (the marathon, the
@@ -22,14 +27,14 @@ export function seasonIcs(event: {
   url: string
   stamp: Date
 }): string {
-  const lines = [
+  return toIcs([
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
     "PRODID:-//NYCrave//Seasons//EN",
     "CALSCALE:GREGORIAN",
     "BEGIN:VEVENT",
     `UID:${event.uid}@nycrave`,
-    `DTSTAMP:${event.stamp.toISOString().replace(/[-:]/g, "").slice(0, 15)}Z`,
+    `DTSTAMP:${stampOf(event.stamp)}`,
     `DTSTART;VALUE=DATE:${compact(event.start)}`,
     `DTEND;VALUE=DATE:${compact(nextDay(event.end))}`,
     `SUMMARY:${escapeText(event.name)}`,
@@ -37,8 +42,41 @@ export function seasonIcs(event: {
     `URL:${event.url}`,
     "END:VEVENT",
     "END:VCALENDAR",
-  ]
-  return lines.map(fold).join("\r\n") + "\r\n"
+  ])
+}
+
+/**
+ * One timed event on a New York date (minutes after midnight, local time),
+ * such as tonight's golden hour, with the time zone embedded so every
+ * calendar places it right.
+ */
+export function timedIcs(event: {
+  uid: string
+  name: string
+  date: string
+  start: number
+  end: number
+  description: string
+  url: string
+  stamp: Date
+}): string {
+  return toIcs([
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//NYCrave//Light//EN",
+    "CALSCALE:GREGORIAN",
+    ...VTIMEZONE,
+    "BEGIN:VEVENT",
+    `UID:${event.uid}@nycrave`,
+    `DTSTAMP:${stampOf(event.stamp)}`,
+    `DTSTART;TZID=America/New_York:${localStamp(event.date, event.start)}`,
+    `DTEND;TZID=America/New_York:${localStamp(event.date, event.end)}`,
+    `SUMMARY:${escapeText(event.name)}`,
+    `DESCRIPTION:${escapeText(event.description)}`,
+    `URL:${event.url}`,
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ])
 }
 
 /** A link target that downloads the file without a request to the server. */

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest"
-import { icsDataUrl, seasonIcs } from "@/lib/season-ics"
+import { icsDataUrl, seasonIcs, timedIcs } from "@/lib/season-ics"
 
 const ics = seasonIcs({
   uid: "marathon-2026-11-01",
@@ -39,5 +39,24 @@ describe("seasonIcs", () => {
 
   it("makes a downloadable link", () => {
     expect(decodeURIComponent(icsDataUrl(ics).split(",").slice(1).join(","))).toBe(ics)
+  })
+})
+
+describe("timedIcs", () => {
+  const ics = timedIcs({
+    uid: "golden-hour-2026-10-26",
+    name: "Golden hour in New York",
+    date: "2026-10-26",
+    start: 17 * 60 + 2,
+    end: 18 * 60 + 30,
+    description: "Golden hour",
+    url: "https://example.com/golden-hour",
+    stamp: new Date("2026-10-26T12:00:00Z"),
+  })
+
+  it("is a New York local-time event with its time zone", () => {
+    expect(ics).toContain("BEGIN:VTIMEZONE\r\n")
+    expect(ics).toContain("DTSTART;TZID=America/New_York:20261026T170200\r\n")
+    expect(ics).toContain("DTEND;TZID=America/New_York:20261026T183000\r\n")
   })
 })

@@ -1545,7 +1545,10 @@
       }
     },
     "cta": "Planea un paseo fotográfico para la hora dorada de hoy",
-    "tonight": "Desde las {time} esta tarde"
+    "tonight": "Desde las {time} esta tarde",
+    "calendarLink": "Añade la hora dorada de esta tarde ({time}) a tu calendario",
+    "calendarTitle": "Hora dorada en Nueva York",
+    "calendarBody": "Hora dorada desde las {start}, puesta de sol a las {sunset}, hora azul hasta las {end}."
   },
   "guides": {
     "title": "Guías",

@@ -5,7 +5,7 @@ import type { Plan } from "./types"
  * VTIMEZONE (US rules since 2007), so every calendar app places stops correctly.
  */
 
-const VTIMEZONE = [
+export const VTIMEZONE = [
   "BEGIN:VTIMEZONE",
   "TZID:America/New_York",
   "BEGIN:DAYLIGHT",

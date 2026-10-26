@@ -1517,7 +1517,10 @@
       }
     },
     "cta": "오늘 골든아워에 맞춘 사진 산책 계획하기",
-    "tonight": "오늘 {time}부터"
+    "tonight": "오늘 {time}부터",
+    "calendarLink": "오늘 저녁 골든아워({time})를 캘린더에 추가",
+    "calendarTitle": "뉴욕의 골든아워",
+    "calendarBody": "골든아워는 {start}부터, 일몰은 {sunset}, 블루아워는 {end}까지."
   },
   "guides": {
     "title": "테마 가이드",

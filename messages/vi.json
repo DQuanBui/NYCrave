@@ -1541,7 +1541,10 @@
       }
     },
     "cta": "Lên lịch dạo chụp ảnh đúng giờ vàng hôm nay",
-    "tonight": "Từ {time} tối nay"
+    "tonight": "Từ {time} tối nay",
+    "calendarLink": "Thêm giờ vàng tối nay ({time}) vào lịch",
+    "calendarTitle": "Giờ vàng ở New York",
+    "calendarBody": "Giờ vàng từ {start}, mặt trời lặn lúc {sunset}, giờ xanh đến {end}."
   },
   "guides": {
     "title": "Cẩm nang",
