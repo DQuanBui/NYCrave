@@ -9956,5 +9956,147 @@
     "website": "https://www.wuswontonking.com",
     "lat": 40.71395,
     "lng": -73.98996
+  },
+  {
+    "photos": [],
+    "mustTry": ["Pastries made as edible art"],
+    "vibeTags": ["instagrammable", "date_night", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-26T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-26: address and hours (Monday to Thursday 11 AM to 6 PM, Friday and Saturday 11 AM to 8 PM, Sunday 11 AM to 7 PM) from lyseenyc.com; description from lyseenyc.com/about. There is no phone; questions go to the email on the site. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-lysee",
+    "slug": "lysee-flatiron",
+    "name": "Lysée",
+    "category": "restaurant",
+    "cuisines": ["french", "korean"],
+    "dishTypes": ["desserts", "bakery"],
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "44 E 21st St, New York, NY 10010",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "Chef Eunji Lee's pastry boutique in the Flatiron District, with desserts shaped by French, Korean and New York influences.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 30,
+    "trendingScore": 58,
+    "website": "https://www.lyseenyc.com",
+    "lat": 40.73909,
+    "lng": -73.98825
+  },
+  {
+    "photos": [],
+    "mustTry": ["The day's pastries and breads"],
+    "vibeTags": ["local_favorite", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-26T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-26: address and hours (open daily 7:30 AM to 3:30 PM, or until sold out) from radiobakery.nyc. Things often sell out before closing; the Prospect Heights shop is at 186 Underhill Ave. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-radio-bakery-greenpoint",
+    "slug": "radio-bakery-greenpoint",
+    "name": "Radio Bakery",
+    "category": "restaurant",
+    "cuisines": [],
+    "dishTypes": ["bakery"],
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "135 India St, Brooklyn, NY 11222",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:30",
+          "close": "15:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:30",
+          "close": "15:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:30",
+          "close": "15:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:30",
+          "close": "15:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:30",
+          "close": "15:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:30",
+          "close": "15:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:30",
+          "close": "15:30"
+        }
+      ]
+    },
+    "editorialTake": "A Greenpoint bakery open every morning into the afternoon, until it sells out; there is a second shop in Prospect Heights.",
+    "bestTimeToVisit": "Early morning, before things sell out",
+    "timeNeededMinutes": 20,
+    "trendingScore": 56,
+    "website": "https://www.radiobakery.nyc",
+    "lat": 40.73239,
+    "lng": -73.955
   }
 ]
