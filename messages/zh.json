@@ -263,7 +263,8 @@
     "cuisineTitle": "纽约的{name}餐厅",
     "dishTitle": "纽约的{name}",
     "drinkTitle": "纽约的{name}",
-    "shopTitle": "纽约的{name}店铺"
+    "shopTitle": "纽约的{name}店铺",
+    "jumpToList": "跳到全部 {count} 个地点"
   },
   "planner": {
     "title": "规划我的一天",

@@ -263,7 +263,8 @@
     "cuisineTitle": "Nhà hàng {name} ở NYC",
     "dishTitle": "{name} ở NYC",
     "drinkTitle": "{name} ở NYC",
-    "shopTitle": "Cửa hàng {name} ở NYC"
+    "shopTitle": "Cửa hàng {name} ở NYC",
+    "jumpToList": "Đến danh sách {count} địa điểm"
   },
   "planner": {
     "title": "Lên lịch cho ngày của tôi",

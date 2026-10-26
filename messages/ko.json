@@ -263,7 +263,8 @@
     "cuisineTitle": "뉴욕의 {name} 식당",
     "dishTitle": "뉴욕의 {name}",
     "drinkTitle": "뉴욕의 {name}",
-    "shopTitle": "뉴욕의 {name} 매장"
+    "shopTitle": "뉴욕의 {name} 매장",
+    "jumpToList": "{count}곳 전체 목록으로"
   },
   "planner": {
     "title": "나의 하루 설계하기",

@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react"
+import { ArrowDown, ArrowRight } from "lucide-react"
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { ListingView } from "@/components/listing/listing-view"
@@ -43,6 +43,16 @@ export async function CategoryPage({ category }: { category: Category }) {
         photos={prints}
       />
       <div className="mx-auto max-w-7xl space-y-12 px-4 py-8 lg:px-8 lg:py-10">
+        {kinds.length || showHoods ? (
+          // The browse tiles come first; this skips straight to the full list
+          <a
+            href="#all-places"
+            className="-mb-6 inline-flex items-center gap-2 rounded-full border-2 border-foreground/15 bg-card px-4 py-2 text-sm font-bold hover:border-foreground"
+          >
+            <ArrowDown aria-hidden className="size-4" />
+            {t("browse.jumpToList", { count: pool.length })}
+          </a>
+        ) : null}
         {category === "photo_spot" ? (
           <div className="space-y-3">
             <SunToday />
@@ -72,9 +82,12 @@ export async function CategoryPage({ category }: { category: Category }) {
             title={t("browse.shoppingNeighborhoods")}
           />
         ) : null}
-        <section aria-labelledby={kinds.length ? "all-places" : undefined} className="space-y-5">
-          {kinds.length ? (
-            <h2 id="all-places" className="font-display text-display-md">
+        <section
+          aria-labelledby={kinds.length || showHoods ? "all-places" : undefined}
+          className="scroll-mt-24 space-y-5"
+        >
+          {kinds.length || showHoods ? (
+            <h2 id="all-places" className="scroll-mt-24 font-display text-display-md">
               {t("browse.all")}
             </h2>
           ) : null}

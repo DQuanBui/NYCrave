@@ -263,7 +263,8 @@
     "cuisineTitle": "Restaurantes de cocina {name} en NYC",
     "dishTitle": "{name} en NYC",
     "drinkTitle": "{name} en NYC",
-    "shopTitle": "Tiendas de {name} en NYC"
+    "shopTitle": "Tiendas de {name} en NYC",
+    "jumpToList": "Ir a los {count} lugares"
   },
   "planner": {
     "title": "Diseña mi día",
