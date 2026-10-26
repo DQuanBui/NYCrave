@@ -5904,5 +5904,123 @@
     "website": "https://sichildrensmuseum.org",
     "lat": 40.64271,
     "lng": -74.10189
+  },
+  {
+    "photos": [],
+    "mustTry": ["The current exhibitions and commissions"],
+    "vibeTags": ["quiet", "rainy_day", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-26T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-26: address and hours (Thursday to Monday noon to 6 PM) from sculpture-center.org/visit. Closed Tuesday and Wednesday; check the site for what is on. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-sculpturecenter",
+    "slug": "sculpturecenter-long-island-city",
+    "name": "SculptureCenter",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Long Island City",
+    "address": "44-19 Purves St, Long Island City, NY 11101",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A Long Island City exhibition space for contemporary sculpture, with new works made through its commissioning program.",
+    "bestTimeToVisit": "With a visit to MoMA PS1 nearby",
+    "timeNeededMinutes": 45,
+    "trendingScore": 42,
+    "website": "https://www.sculpture-center.org",
+    "lat": 40.74691,
+    "lng": -73.94086
+  },
+  {
+    "photos": [],
+    "mustTry": ["The gallery's current show", "Classes and performances on the calendar"],
+    "vibeTags": ["local_favorite", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-26T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-26: address and gallery hours (Tuesday to Saturday 10 AM to 9 PM) from jcal.org/visit; history from jcal.org/about. Performances are at the Jamaica Performing Arts Center, 153-10 Jamaica Ave. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-jamaica-center-for-arts-and-learning",
+    "slug": "jamaica-center-for-arts-and-learning",
+    "name": "Jamaica Center for Arts & Learning (JCAL)",
+    "category": "attraction",
+    "borough": "queens",
+    "neighborhood": "Jamaica",
+    "address": "161-04 Jamaica Ave, Jamaica, NY 11432",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [],
+      "mon": [],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Southeast Queens' multidisciplinary arts center since 1972, with gallery shows, classes in visual art, music and dance, and performances.",
+    "bestTimeToVisit": "Weekday evening",
+    "timeNeededMinutes": 45,
+    "trendingScore": 38,
+    "website": "https://jcal.org",
+    "lat": 40.70392,
+    "lng": -73.79817
   }
 ]
