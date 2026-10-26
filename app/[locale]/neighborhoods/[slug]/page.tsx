@@ -1,4 +1,6 @@
 import { Route } from "lucide-react"
+import { SITE_URL } from "@/lib/site"
+import { breadcrumbJsonLd } from "@/lib/structured-data"
 import { PlanGuideLink } from "@/components/guides/plan-guide-link"
 import { ShareButton } from "@/components/place/share-button"
 import { WithMessages } from "@/components/providers/with-messages"
@@ -13,7 +15,7 @@ import { GuideSections } from "@/components/guides/guide-sections"
 import { RouteBullets } from "@/components/place/subway-list"
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
 import { initLocale } from "@/i18n/locale"
-import { Link } from "@/i18n/navigation"
+import { getPathname, Link } from "@/i18n/navigation"
 import { toCard } from "@/lib/card-place"
 import { distanceKm } from "@/lib/geo"
 import { placeToPoint } from "@/lib/map-points"
@@ -47,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function NeighborhoodPage({ params }: Props) {
-  await initLocale(params)
+  const locale = await initLocale(params)
   const { slug } = await params
   const hood = NEIGHBORHOODS.find((n) => n.slug === slug)
   if (!hood) notFound()
@@ -71,8 +73,19 @@ export default async function NeighborhoodPage({ params }: Props) {
     .sort((a, b) => a.km - b.km)
     .slice(0, 4)
 
+  const absolute = (href: string) => `${SITE_URL}${getPathname({ href, locale })}`
+  const crumbs = breadcrumbJsonLd([
+    { name: t("nav.home"), url: absolute("/") },
+    { name: t("neighborhoods.title"), url: absolute("/neighborhoods") },
+    { name: hood.name, url: absolute(`/neighborhoods/${hood.slug}`) },
+  ])
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
       <SectionHeader
         line={meta.line}
         bullet={meta.bullet}

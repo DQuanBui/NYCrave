@@ -1,4 +1,6 @@
 import { ArrowRight, Lightbulb } from "lucide-react"
+import { SITE_URL } from "@/lib/site"
+import { breadcrumbJsonLd } from "@/lib/structured-data"
 import { ShareButton } from "@/components/place/share-button"
 import { WithMessages } from "@/components/providers/with-messages"
 import { PlanGuideLink } from "@/components/guides/plan-guide-link"
@@ -10,7 +12,7 @@ import { GuideSections } from "@/components/guides/guide-sections"
 import { SectionHeader } from "@/components/listing/section-header"
 import { LazyMap } from "@/components/map/lazy-map"
 import { initLocale } from "@/i18n/locale"
-import { Link } from "@/i18n/navigation"
+import { getPathname, Link } from "@/i18n/navigation"
 import { toCard } from "@/lib/card-place"
 import { GUIDE_TIPS, GUIDES, guideBySlug, guideSections } from "@/lib/guides"
 import { placeToPoint } from "@/lib/map-points"
@@ -38,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function GuidePage({ params }: Props) {
-  await initLocale(params)
+  const locale = await initLocale(params)
   const guide = guideBySlug((await params).slug)
   if (!guide) notFound()
 
@@ -54,8 +56,19 @@ export default async function GuidePage({ params }: Props) {
     .filter((p) => !p.illustrative)
     .slice(0, 3)
 
+  const absolute = (href: string) => `${SITE_URL}${getPathname({ href, locale })}`
+  const crumbs = breadcrumbJsonLd([
+    { name: t("nav.home"), url: absolute("/") },
+    { name: t("guides.title"), url: absolute("/guides") },
+    { name: g("title"), url: absolute(`/guides/${guide.slug}`) },
+  ])
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
       <SectionHeader
         line={guide.line}
         bullet={guide.emoji}
