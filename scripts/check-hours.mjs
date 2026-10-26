@@ -3,13 +3,22 @@
 // differ. Many sites publish none; those are skipped. Run with
 // `npm run check:hours`; it only reads, so fix what it finds by hand after
 // checking the site.
-import { readFileSync } from "node:fs"
+//
+// Structured data often lags behind a site's visible hours or describes
+// another branch. Differences checked by hand go in scripts/hours-reviewed.json
+// with a fingerprint of what the site published; they stay quiet until that
+// changes. `npm run check:hours -- --accept` records the current ones there.
+import { readFileSync, writeFileSync } from "node:fs"
 
 const FILES = ["restaurants", "drinks", "attractions", "shopping", "photo-spots", "parks-piers"]
 const DAYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
 const NAMES = { su: 0, mo: 1, tu: 2, we: 3, th: 4, fr: 5, sa: 6 }
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+
+const REVIEWED_FILE = "scripts/hours-reviewed.json"
+const reviewed = JSON.parse(readFileSync(REVIEWED_FILE, "utf8"))
+const accept = process.argv.includes("--accept")
 
 const places = FILES.flatMap((f) => JSON.parse(readFileSync(`data/${f}.json`, "utf8"))).filter(
   (p) => p.website,
@@ -127,8 +136,10 @@ async function check(p) {
         ([day, ranges]) =>
           `${DAYS[day]} ours ${ours(p, day).join(",") || "closed"} / site ${ranges.join(",")}`,
       )
-  const differences = weeks.map(diff).sort((a, b) => a.length - b.length)[0]
-  return { p, differences }
+  const [closest] = weeks
+    .map((week) => ({ week, differences: diff(week) }))
+    .sort((a, b) => a.differences.length - b.differences.length)
+  return { p, differences: closest.differences, site: JSON.stringify(closest.week) }
 }
 
 const results = []
@@ -143,10 +154,20 @@ await Promise.all(
 )
 
 const differing = results.filter((r) => r.differences.length)
+const isReviewed = (r) => reviewed[r.p.slug]?.site === r.site
+const fresh = differing.filter((r) => !isReviewed(r))
 console.log(
-  `${places.length} sites, ${results.length} publish hours, ${differing.length} differ from ours`,
+  `${places.length} sites, ${results.length} publish hours, ${differing.length} differ from ours ` +
+    `(${differing.length - fresh.length} reviewed earlier, ${fresh.length} new)`,
 )
-for (const { p, differences } of differing.sort((a, b) => a.p.slug.localeCompare(b.p.slug))) {
+for (const { p, differences } of fresh.sort((a, b) => a.p.slug.localeCompare(b.p.slug))) {
   console.log(`- ${p.slug} (${p.website})`)
   for (const d of differences) console.log(`    ${d}`)
+}
+if (accept) {
+  const today = new Date().toISOString().slice(0, 10)
+  for (const r of fresh)
+    reviewed[r.p.slug] = { site: r.site, note: `Checked by hand ${today}: keep NYCrave's hours.` }
+  writeFileSync(REVIEWED_FILE, JSON.stringify(reviewed, null, 2) + "\n")
+  console.log(`Recorded ${fresh.length} as reviewed in ${REVIEWED_FILE}`)
 }
