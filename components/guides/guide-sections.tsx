@@ -3,15 +3,17 @@
 import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
+import { OpenAtMenu } from "@/components/listing/open-at-menu"
 import { OpenNowToggle } from "@/components/place/open-now-toggle"
 import { PagedGrid } from "@/components/listing/paged-grid"
 import { useNow } from "@/hooks/use-now"
 import type { CardPlace } from "@/lib/card-place"
-import { getOpenStatus, isOpen } from "@/lib/hours"
+import { getOpenStatus, getStatusAt, isOpen } from "@/lib/hours"
+import { atClock } from "@/lib/place-filters"
 import { CATEGORY_META } from "@/lib/taxonomy"
 import type { Category } from "@/types/place"
 
-/** A guide's places by category, with a switch to show only what is open now. */
+/** A guide's places by category, with switches for what is open now or at a chosen time. */
 export function GuideSections({
   sections,
   heading: Heading = "h2",
@@ -23,13 +25,15 @@ export function GuideSections({
   const t = useTranslations()
   const now = useNow()
   const [openOnly, setOpenOnly] = useState(false)
-  const filtering = openOnly && now !== null
+  /** "Open at" a chosen weekday and time instead of now, as "sat-2100". */
+  const [at, setAt] = useState<string | undefined>()
+  const clock = at ? atClock(at) : undefined
+  const filtering = Boolean(clock) || (openOnly && now !== null)
+  const openThen = (p: CardPlace) =>
+    clock ? isOpen(getStatusAt(p.hours, clock)) : isOpen(getOpenStatus(p.hours, now!))
 
   const shown = sections
-    .map((s) => ({
-      ...s,
-      places: filtering ? s.places.filter((p) => isOpen(getOpenStatus(p.hours, now))) : s.places,
-    }))
+    .map((s) => ({ ...s, places: filtering ? s.places.filter(openThen) : s.places }))
     .filter((s) => s.places.length > 0)
   const total = shown.reduce((n, s) => n + s.places.length, 0)
 
@@ -38,20 +42,32 @@ export function GuideSections({
       <div className="flex flex-wrap items-center gap-3">
         <OpenNowToggle
           pressed={openOnly}
-          onToggle={() => setOpenOnly((v) => !v)}
+          onToggle={() => {
+            setOpenOnly((v) => !v)
+            setAt(undefined)
+          }}
           label={t("guides.openNow")}
           className="h-11 px-5 text-base"
         />
+        <OpenAtMenu
+          value={at}
+          onChange={(v) => {
+            setAt(v)
+            setOpenOnly(false)
+          }}
+        />
         {filtering ? (
           <p aria-live="polite" className="text-sm font-semibold text-muted-foreground">
-            {t("guides.openCount", { count: total })}
+            {clock
+              ? t("filters.results", { count: total })
+              : t("guides.openCount", { count: total })}
           </p>
         ) : null}
       </div>
 
       {shown.length === 0 ? (
         <p className="rounded-2xl border-2 border-dashed border-foreground/30 px-5 py-6 text-muted-foreground">
-          {t("guides.noneOpen")}
+          {clock ? t("guides.noneOpenAt") : t("guides.noneOpen")}
         </p>
       ) : null}
 
@@ -71,7 +87,7 @@ export function GuideSections({
             </LineBullet>
             {t(`categories.${category}.title`)}
           </Heading>
-          <PagedGrid key={String(filtering)} places={places} pageSize={8} />
+          <PagedGrid key={`${filtering}-${at}`} places={places} pageSize={8} />
         </section>
       ))}
     </div>

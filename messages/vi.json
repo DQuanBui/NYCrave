@@ -1654,7 +1654,8 @@
       "cheapEats": "Thử ăn một vòng: ba điểm rẻ, đi bộ vài phút",
       "outdoors": "Tìm tuyến đi bộ hoặc leo núi ở cả năm quận",
       "dateNight": "Canh giờ dạo hoàng hôn theo giờ vàng tối nay"
-    }
+    },
+    "noneOpenAt": "Không có nơi nào mở vào lúc đó. Hãy chọn giờ khác, hoặc chọn Bất kỳ lúc nào để xem tất cả."
   },
   "ride": {
     "title": "Đi tàu điện ngầm",

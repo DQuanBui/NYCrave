@@ -1654,7 +1654,8 @@
       "cheapEats": "Try a food crawl: three cheap stops a short walk apart",
       "outdoors": "Find a walk or hike in all five boroughs",
       "dateNight": "Time a sunset walk with tonight's golden hour"
-    }
+    },
+    "noneOpenAt": "Nothing here is open then. Pick another time, or choose Any time to see everything."
   },
   "ride": {
     "title": "Ride the subway",

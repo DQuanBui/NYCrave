@@ -1658,7 +1658,8 @@
       "cheapEats": "Prueba una ruta: tres paradas baratas a pocos minutos a pie",
       "outdoors": "Encuentra un paseo o una caminata en los cinco distritos",
       "dateNight": "Planea un paseo al atardecer con la hora dorada de hoy"
-    }
+    },
+    "noneOpenAt": "No hay nada abierto a esa hora. Elige otra hora o Cualquier hora para verlo todo."
   },
   "ride": {
     "title": "Viaja en metro",
