@@ -491,7 +491,9 @@
     "openNow": "Đang mở cửa",
     "noneOpen": "Hiện không có nơi nào đang mở. Tắt Đang mở cửa để xem tất cả.",
     "copyText": "Sao chép dạng văn bản",
-    "copiedText": "Đã sao chép"
+    "copiedText": "Đã sao chép",
+    "clearAll": "Xóa tất cả",
+    "clearConfirm": "Nhấn lần nữa để xóa tất cả"
   },
   "footer": {
     "dataNote": "Các địa điểm ghi Chưa xác minh đã được tra cứu từ nguồn chính thức nhưng chưa được xác nhận với địa điểm. Giờ mở cửa và giá có thể thay đổi, nên hãy kiểm tra trước khi đi. Mô tả địa điểm hiện chỉ có bằng tiếng Anh.",

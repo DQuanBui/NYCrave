@@ -26,7 +26,9 @@ export function useSaved() {
 
   const isSaved = useCallback((slug: string) => slugs.includes(slug), [slugs])
 
-  return { slugs, toggle, saveMany, isSaved }
+  const clear = useCallback(() => store.write([]), [])
+
+  return { slugs, toggle, saveMany, isSaved, clear }
 }
 
 export type SavedDay = { url: string; label: string; savedAt: number }

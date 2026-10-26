@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
 import { pillClass } from "@/components/listing/filter-menu"
+import { ClearSaved } from "@/components/place/clear-saved"
 import { CopyButton } from "@/components/place/copy-button"
 import { inKind, KindTabs, type KindTab } from "@/components/place/kind-tabs"
 import { OpenNowToggle, keepOpen } from "@/components/place/open-now-toggle"
@@ -114,6 +115,7 @@ export function SavedList({ places }: { places: CardPlace[] }) {
             copiedLabel={t("copiedText")}
             className="h-10 border-foreground px-4 text-sm hover:bg-accent [&_svg]:size-4"
           />
+          <ClearSaved />
         </div>
       </div>
       <div className="flex flex-wrap items-center gap-2">

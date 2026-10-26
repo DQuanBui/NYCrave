@@ -491,7 +491,9 @@
     "openNow": "Open now",
     "noneOpen": "Nothing here is open right now. Turn off Open now to see them all.",
     "copyText": "Copy as text",
-    "copiedText": "Copied"
+    "copiedText": "Copied",
+    "clearAll": "Clear all",
+    "clearConfirm": "Tap again to clear all"
   },
   "footer": {
     "dataNote": "Places marked Unverified were researched from official sources but not yet confirmed with the venue. Hours and prices change, so check before you go.",
