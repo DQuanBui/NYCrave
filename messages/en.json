@@ -890,7 +890,10 @@
     "openNow": "Open now",
     "open": "Open place",
     "close": "Close preview",
-    "nearestOpen": "Nearest open"
+    "nearestOpen": "Nearest open",
+    "list": "List",
+    "listLabel": "Places on the map",
+    "showOnMap": "Show {name} on the map"
   },
   "privacy": {
     "title": "Privacy",

@@ -890,7 +890,10 @@
     "openNow": "正在营业",
     "open": "打开地点",
     "close": "关闭预览",
-    "nearestOpen": "最近的营业地点"
+    "nearestOpen": "最近的营业地点",
+    "list": "列表",
+    "listLabel": "地图上的地点",
+    "showOnMap": "在地图上显示 {name}"
   },
   "privacy": {
     "title": "隐私",

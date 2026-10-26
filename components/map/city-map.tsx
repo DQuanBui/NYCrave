@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowRight, LocateFixed, Navigation, X } from "lucide-react"
+import { ArrowRight, List, LocateFixed, MapPin, Navigation, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useMemo, useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
@@ -24,7 +24,9 @@ import { cn } from "@/lib/utils"
 import { CATEGORIES } from "@/types/enums"
 import type { Category } from "@/types/place"
 
-/** Every place on one map, with line toggles and a preview card. */
+const LIST_STEP = 40
+
+/** Every place on one map, with line toggles, a preview card and a list view. */
 export function CityMap({ places }: { places: CardPlace[] }) {
   const t = useTranslations()
   const now = useNow()
@@ -35,6 +37,9 @@ export function CityMap({ places }: { places: CardPlace[] }) {
   const [at, setAt] = useState<string | undefined>()
   const [freeOnly, setFreeOnly] = useState(false)
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  // The same places as a list: easier on a small screen, and with a keyboard or screen reader
+  const [showList, setShowList] = useState(false)
+  const [listLimit, setListLimit] = useState(LIST_STEP)
 
   const visible = useMemo(() => {
     const clock = at ? atClock(at) : undefined
@@ -51,6 +56,9 @@ export function CityMap({ places }: { places: CardPlace[] }) {
   const selected = visible.find((p) => p.id === selectedId)
   const origin = geo.state.status === "ready" ? geo.state.position : null
   const travel = selected && origin ? estimateTravel(origin, selected) : null
+  const listed = origin
+    ? [...visible].sort((a, b) => distanceKm(origin, a) - distanceKm(origin, b))
+    : [...visible].sort((a, b) => a.name.localeCompare(b.name))
   // The closest place on the map that is open right now, once we know where you are
   const nearestOpen =
     origin && now
@@ -141,6 +149,22 @@ export function CityMap({ places }: { places: CardPlace[] }) {
           >
             {t("cityMap.count", { count: visible.length })}
           </p>
+          <button
+            type="button"
+            aria-pressed={showList}
+            aria-controls="map-list"
+            onClick={() => {
+              setShowList((v) => !v)
+              setListLimit(LIST_STEP)
+            }}
+            className={cn(
+              "inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-sm font-bold shadow",
+              showList ? "bg-foreground text-background" : "bg-background/90",
+            )}
+          >
+            <List aria-hidden className="size-3.5" />
+            {t("cityMap.list")}
+          </button>
           {origin && nearestOpen ? (
             <button
               type="button"
@@ -168,7 +192,58 @@ export function CityMap({ places }: { places: CardPlace[] }) {
         className="h-[calc(100dvh-8rem)] min-h-[28rem] rounded-none border-0 md:h-[calc(100dvh-4rem)]"
       />
 
-      {selected ? (
+      {showList ? (
+        <section
+          id="map-list"
+          aria-label={t("cityMap.listLabel")}
+          className="absolute inset-x-3 top-36 bottom-3 z-20 mx-auto max-w-md overflow-y-auto rounded-2xl border bg-card p-2 shadow-2xl"
+        >
+          <ol className="divide-y">
+            {listed.slice(0, listLimit).map((p) => (
+              <li key={p.id} className="flex items-center gap-3 px-2 py-2.5">
+                <LineBullet line={CATEGORY_META[p.category].line} size="sm">
+                  {CATEGORY_META[p.category].bullet}
+                </LineBullet>
+                <div className="min-w-0 flex-1">
+                  <Link
+                    href={`/place/${p.slug}`}
+                    className="block truncate font-semibold underline-offset-4 hover:underline"
+                  >
+                    {p.name}
+                  </Link>
+                  <p className="truncate text-xs text-muted-foreground">
+                    {p.neighborhood}
+                    {origin ? ` · ${(distanceKm(origin, p) / 1.609).toFixed(1)} mi` : null}
+                  </p>
+                  <HoursBadge hours={p.hours} className="text-xs" />
+                </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedId(p.id)
+                    setShowList(false)
+                  }}
+                  aria-label={t("cityMap.showOnMap", { name: p.name })}
+                  className="grid size-9 shrink-0 place-items-center rounded-full hover:bg-muted"
+                >
+                  <MapPin aria-hidden className="size-4" />
+                </button>
+              </li>
+            ))}
+          </ol>
+          {listed.length > listLimit ? (
+            <button
+              type="button"
+              onClick={() => setListLimit((n) => n + LIST_STEP)}
+              className="m-2 h-10 w-[calc(100%-1rem)] rounded-full border-2 border-foreground font-bold"
+            >
+              {t("filters.showMore", { count: Math.min(LIST_STEP, listed.length - listLimit) })}
+            </button>
+          ) : null}
+        </section>
+      ) : null}
+
+      {selected && !showList ? (
         <div className="absolute inset-x-3 bottom-3 z-10 mx-auto max-w-md sm:bottom-6">
           <article
             aria-label={selected.name}

@@ -890,7 +890,10 @@
     "openNow": "영업 중",
     "open": "장소 열기",
     "close": "미리보기 닫기",
-    "nearestOpen": "가장 가까운 영업 중 장소"
+    "nearestOpen": "가장 가까운 영업 중 장소",
+    "list": "목록",
+    "listLabel": "지도 위 장소",
+    "showOnMap": "지도에서 {name} 보기"
   },
   "privacy": {
     "title": "개인정보",

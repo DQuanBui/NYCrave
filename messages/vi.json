@@ -890,7 +890,10 @@
     "openNow": "Đang mở cửa",
     "open": "Mở địa điểm",
     "close": "Đóng xem trước",
-    "nearestOpen": "Nơi gần nhất đang mở"
+    "nearestOpen": "Nơi gần nhất đang mở",
+    "list": "Danh sách",
+    "listLabel": "Các địa điểm trên bản đồ",
+    "showOnMap": "Hiện {name} trên bản đồ"
   },
   "privacy": {
     "title": "Quyền riêng tư",
