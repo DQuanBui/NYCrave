@@ -813,7 +813,9 @@
     "findPlaceholder": "Escribe un nombre, como Astoria",
     "findGo": "Ir",
     "findNone": "Aún no hay ningún barrio llamado «{query}». Prueba otro nombre o elige uno abajo.",
-    "jump": "Ir a un distrito"
+    "jump": "Ir a un distrito",
+    "nearMe": "Barrios cerca de mí",
+    "away": "a {distance} mi"
   },
   "credits": {
     "title": "Créditos de fotos",

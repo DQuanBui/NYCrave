@@ -813,7 +813,9 @@
     "findPlaceholder": "Type a name, like Astoria",
     "findGo": "Go",
     "findNone": "No neighborhood called “{query}” yet. Try another name, or pick one below.",
-    "jump": "Jump to a borough"
+    "jump": "Jump to a borough",
+    "nearMe": "Neighborhoods near me",
+    "away": "{distance} mi away"
   },
   "credits": {
     "title": "Photo credits",

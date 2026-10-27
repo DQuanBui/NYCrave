@@ -813,7 +813,9 @@
     "findPlaceholder": "Nhập tên, ví dụ Astoria",
     "findGo": "Đi",
     "findNone": "Chưa có khu phố nào tên “{query}”. Thử tên khác hoặc chọn bên dưới.",
-    "jump": "Chuyển đến một quận"
+    "jump": "Chuyển đến một quận",
+    "nearMe": "Khu phố gần tôi",
+    "away": "cách {distance} dặm"
   },
   "credits": {
     "title": "Nguồn ảnh",

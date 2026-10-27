@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { HoodFinder } from "@/components/listing/hood-finder"
+import { NearbyHoods } from "@/components/listing/nearby-hoods"
 import { SectionHeader } from "@/components/listing/section-header"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlacePhoto } from "@/components/place/place-photo"
@@ -66,6 +67,21 @@ export default async function NeighborhoodsPage({ params }: Props) {
           placeholder={t("neighborhoods.findPlaceholder")}
           go={t("neighborhoods.findGo")}
           notFound={t("neighborhoods.findNone", { query: "{query}" })}
+        />
+        <NearbyHoods
+          hoods={NEIGHBORHOODS.filter((n) => count(n.name) > 0).map((n) => ({
+            slug: n.slug,
+            name: n.name,
+            lat: n.lat,
+            lng: n.lng,
+            count: t("neighborhoods.count", { count: count(n.name) }),
+          }))}
+          labels={{
+            nearMe: t("neighborhoods.nearMe"),
+            locating: t("filters.locating"),
+            denied: t("filters.locationDenied"),
+            away: t("neighborhoods.away", { distance: "{distance}" }),
+          }}
         />
         <nav aria-label={t("neighborhoods.jump")}>
           <ul className="flex flex-wrap gap-2">
