@@ -1,7 +1,7 @@
 import stations from "@/data/subway-stations.json"
 import { distanceKm } from "@/lib/geo"
 import { walkMinutes } from "@/lib/planner/estimates"
-import { ROUTE_LINE, type Station } from "@/lib/subway"
+import { type Station } from "@/lib/subway"
 import type { Place } from "@/types/place"
 
 /**
@@ -14,14 +14,9 @@ import type { Place } from "@/types/place"
 
 const STATIONS = stations as Station[]
 
-/** The shuttles are three separate lines, and the Z only runs at rush hour. */
-export const RIDE_ROUTES = Object.keys(ROUTE_LINE).filter((r) => r !== "S" && r !== "Z")
+export { RIDE_ROUTES, routeFromSlug, routeSlug } from "@/lib/routes"
 
 export const MAX_WALK = 10
-
-export const routeSlug = (route: string) => route.toLowerCase()
-export const routeFromSlug = (slug: string) =>
-  RIDE_ROUTES.find((r) => routeSlug(r) === slug.toLowerCase())
 
 export type RideStop<P> = { station: Station; places: { place: P; walk: number }[] }
 

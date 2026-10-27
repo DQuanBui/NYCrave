@@ -1,9 +1,9 @@
 import { Accessibility } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { LineBullet } from "@/components/brand/line-bullet"
-import { ROUTE_LINE, type NearbyStation } from "@/lib/subway"
+import { RIDE_ROUTES, ROUTE_LINE, routeSlug } from "@/lib/routes"
+import type { NearbyStation } from "@/lib/subway"
 import { Link } from "@/i18n/navigation"
-import { RIDE_ROUTES, routeSlug } from "@/lib/ride"
 import { cn } from "@/lib/utils"
 
 /** Route bullets in MTA order, the way station signs show them. */

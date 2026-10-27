@@ -1,7 +1,9 @@
 import stations from "@/data/subway-stations.json"
 import { distanceKm, type LatLng } from "@/lib/geo"
-import type { LineColor } from "@/lib/lines"
+import { ROUTE_LINE } from "@/lib/routes"
 import { walkMinutes } from "@/lib/planner/estimates"
+
+export { ROUTE_LINE }
 
 /**
  * Subway stations from the MTA's open data (data.ny.gov, "MTA Subway Stations"),
@@ -20,33 +22,6 @@ export type Station = {
 export type NearbyStation = Station & { walkMinutes: number }
 
 const STATIONS = stations as Station[]
-
-/** Official MTA trunk-line colors. */
-export const ROUTE_LINE: Record<string, LineColor> = {
-  "1": "red",
-  "2": "red",
-  "3": "red",
-  "4": "green",
-  "5": "green",
-  "6": "green",
-  "7": "purple",
-  A: "blue",
-  C: "blue",
-  E: "blue",
-  B: "orange",
-  D: "orange",
-  F: "orange",
-  M: "orange",
-  G: "lime",
-  J: "brown",
-  Z: "brown",
-  L: "gray",
-  N: "yellow",
-  Q: "yellow",
-  R: "yellow",
-  W: "yellow",
-  S: "gray",
-}
 
 /** The closest stations within a comfortable walk, nearest first. */
 export function nearestStations(point: LatLng, limit = 3, maxWalk = 15): NearbyStation[] {
