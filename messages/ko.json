@@ -1526,7 +1526,10 @@
     "tonight": "오늘 {time}부터",
     "calendarLink": "오늘 저녁 골든아워({time})를 캘린더에 추가",
     "calendarTitle": "뉴욕의 골든아워",
-    "calendarBody": "골든아워는 {start}부터, 일몰은 {sunset}, 블루아워는 {end}까지."
+    "calendarBody": "골든아워는 {start}부터, 일몰은 {sunset}, 블루아워는 {end}까지.",
+    "calendarMorningLink": "내일 일출({time})을 캘린더에 추가",
+    "calendarMorningTitle": "뉴욕의 일출 골든아워",
+    "calendarMorningBody": "블루아워는 {start}부터, 일출은 {sunrise}, 골든아워는 {end}까지."
   },
   "guides": {
     "title": "테마 가이드",

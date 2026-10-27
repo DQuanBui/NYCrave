@@ -1550,7 +1550,10 @@
     "tonight": "From {time} tonight",
     "calendarLink": "Add tonight's golden hour ({time}) to your calendar",
     "calendarTitle": "Golden hour in New York",
-    "calendarBody": "Golden hour from {start}, sunset at {sunset}, blue hour until {end}."
+    "calendarBody": "Golden hour from {start}, sunset at {sunset}, blue hour until {end}.",
+    "calendarMorningLink": "Add tomorrow's sunrise ({time}) to your calendar",
+    "calendarMorningTitle": "Sunrise golden hour in New York",
+    "calendarMorningBody": "Blue hour from {start}, sunrise at {sunrise}, golden hour until {end}."
   },
   "guides": {
     "title": "Guides",

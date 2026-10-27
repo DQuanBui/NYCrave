@@ -1554,7 +1554,10 @@
     "tonight": "Desde las {time} esta tarde",
     "calendarLink": "Añade la hora dorada de esta tarde ({time}) a tu calendario",
     "calendarTitle": "Hora dorada en Nueva York",
-    "calendarBody": "Hora dorada desde las {start}, puesta de sol a las {sunset}, hora azul hasta las {end}."
+    "calendarBody": "Hora dorada desde las {start}, puesta de sol a las {sunset}, hora azul hasta las {end}.",
+    "calendarMorningLink": "Añade el amanecer de mañana ({time}) a tu calendario",
+    "calendarMorningTitle": "Hora dorada del amanecer en Nueva York",
+    "calendarMorningBody": "Hora azul desde las {start}, amanecer a las {sunrise}, hora dorada hasta las {end}."
   },
   "guides": {
     "title": "Guías",

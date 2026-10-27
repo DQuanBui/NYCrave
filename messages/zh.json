@@ -1510,7 +1510,10 @@
     "tonight": "今晚 {time} 开始",
     "calendarLink": "把今晚的黄金时刻（{time}）加入日历",
     "calendarTitle": "纽约的黄金时刻",
-    "calendarBody": "黄金时刻从 {start} 开始，{sunset} 日落，蓝调时刻持续到 {end}。"
+    "calendarBody": "黄金时刻从 {start} 开始，{sunset} 日落，蓝调时刻持续到 {end}。",
+    "calendarMorningLink": "把明天的日出（{time}）加入日历",
+    "calendarMorningTitle": "纽约的日出黄金时刻",
+    "calendarMorningBody": "蓝调时刻从 {start} 开始，{sunrise} 日出，黄金时刻持续到 {end}。"
   },
   "guides": {
     "title": "主题指南",

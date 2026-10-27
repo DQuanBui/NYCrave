@@ -1550,7 +1550,10 @@
     "tonight": "Từ {time} tối nay",
     "calendarLink": "Thêm giờ vàng tối nay ({time}) vào lịch",
     "calendarTitle": "Giờ vàng ở New York",
-    "calendarBody": "Giờ vàng từ {start}, mặt trời lặn lúc {sunset}, giờ xanh đến {end}."
+    "calendarBody": "Giờ vàng từ {start}, mặt trời lặn lúc {sunset}, giờ xanh đến {end}.",
+    "calendarMorningLink": "Thêm bình minh ngày mai ({time}) vào lịch",
+    "calendarMorningTitle": "Giờ vàng bình minh ở New York",
+    "calendarMorningBody": "Giờ xanh từ {start}, mặt trời mọc lúc {sunrise}, giờ vàng đến {end}."
   },
   "guides": {
     "title": "Cẩm nang",

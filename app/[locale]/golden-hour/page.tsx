@@ -40,6 +40,9 @@ export default async function GoldenHourPage({ params }: Props) {
   const locale = await getLocale()
   const now = new Date()
   const today = nycDateString(now)
+  // Tomorrow's sunrise: the next one to plan for, whatever time it is now
+  const tomorrow = nycDateString(new Date(Date.parse(`${today}T12:00:00Z`) + 86_400_000))
+  const dawn = sunDay(tomorrow)
   const sun = sunDay(today)
   const { weekday } = nycClock(now)
   const spots = await getPlaces({ category: "photo_spot" })
@@ -71,29 +74,54 @@ export default async function GoldenHourPage({ params }: Props) {
           <WithMessages namespaces={["goldenHour"]}>
             <SkyRibbon bands={lightBands(sun)} sunrise={sun.sunrise} sunset={sun.sunset} />
           </WithMessages>
-          <a
-            href={icsDataUrl(
-              timedIcs({
-                uid: `golden-hour-${today}`,
-                name: t("calendarTitle"),
-                date: today,
-                start: sun.goldenEvening.start,
-                end: sun.blueEvening.end,
-                description: t("calendarBody", {
-                  start: time(sun.goldenEvening.start),
-                  sunset: time(sun.sunset),
-                  end: time(sun.blueEvening.end),
+          <div className="flex flex-wrap gap-2">
+            <a
+              href={icsDataUrl(
+                timedIcs({
+                  uid: `golden-hour-${today}`,
+                  name: t("calendarTitle"),
+                  date: today,
+                  start: sun.goldenEvening.start,
+                  end: sun.blueEvening.end,
+                  description: t("calendarBody", {
+                    start: time(sun.goldenEvening.start),
+                    sunset: time(sun.sunset),
+                    end: time(sun.blueEvening.end),
+                  }),
+                  url: `${SITE_URL}/golden-hour`,
+                  stamp: new Date(`${today}T12:00:00Z`),
                 }),
-                url: `${SITE_URL}/golden-hour`,
-                stamp: new Date(`${today}T12:00:00Z`),
-              }),
-            )}
-            download={`nycrave-golden-hour-${today}.ics`}
-            className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-foreground px-4 text-sm font-bold hover:bg-accent"
-          >
-            <CalendarPlus aria-hidden className="size-4" />
-            {t("calendarLink", { time: time(sun.goldenEvening.start) })}
-          </a>
+              )}
+              download={`nycrave-golden-hour-${today}.ics`}
+              className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-foreground px-4 text-sm font-bold hover:bg-accent"
+            >
+              <CalendarPlus aria-hidden className="size-4" />
+              {t("calendarLink", { time: time(sun.goldenEvening.start) })}
+            </a>
+            <a
+              href={icsDataUrl(
+                timedIcs({
+                  uid: `sunrise-${tomorrow}`,
+                  name: t("calendarMorningTitle"),
+                  date: tomorrow,
+                  start: dawn.blueMorning.start,
+                  end: dawn.goldenMorning.end,
+                  description: t("calendarMorningBody", {
+                    start: time(dawn.blueMorning.start),
+                    sunrise: time(dawn.sunrise),
+                    end: time(dawn.goldenMorning.end),
+                  }),
+                  url: `${SITE_URL}/golden-hour`,
+                  stamp: new Date(`${today}T12:00:00Z`),
+                }),
+              )}
+              download={`nycrave-sunrise-${tomorrow}.ics`}
+              className="inline-flex h-10 items-center gap-2 rounded-full border-2 border-foreground/15 px-4 text-sm font-bold hover:border-foreground"
+            >
+              <CalendarPlus aria-hidden className="size-4" />
+              {t("calendarMorningLink", { time: time(dawn.sunrise) })}
+            </a>
+          </div>
         </section>
 
         <SunToday />
