@@ -10466,5 +10466,156 @@
     "website": "https://www.gargiulos.com",
     "lat": 40.57641,
     "lng": -73.98238
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/joe-allen-theater-district-1.jpg",
+        "alt": "Joe Allen's green awning on a brownstone on West 46th Street",
+        "width": 1100,
+        "height": 1466,
+        "source": "other",
+        "attribution": {
+          "text": "Jim.henderson, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Joe_Allen_326_W46_jeh.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Dinner before or after a Broadway show"],
+    "vibeTags": ["historic", "date_night", "tourist_classic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-27: address, hours (closed Monday; Tuesday 4:30 to 11:30 PM, Wednesday to Saturday from 11:30 AM or noon to 11:30 PM, Sunday 11:30 AM to 10:30 PM) and history from joeallenrestaurant.com. Reservations open a week ahead. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-joe-allen",
+    "slug": "joe-allen-theater-district",
+    "name": "Joe Allen",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": [],
+    "borough": "manhattan",
+    "neighborhood": "Hell's Kitchen",
+    "address": "326 W 46th St, New York, NY 10036",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:30",
+          "close": "22:30"
+        }
+      ],
+      "mon": [],
+      "tue": [
+        {
+          "open": "16:30",
+          "close": "23:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "23:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "23:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "23:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:30",
+          "close": "23:30"
+        }
+      ]
+    },
+    "editorialTake": "A pre- and post-theater dining institution on West 46th Street since 1965, a few steps from the Broadway houses.",
+    "bestTimeToVisit": "After a show",
+    "timeNeededMinutes": 75,
+    "trendingScore": 50,
+    "website": "https://joeallenrestaurant.com",
+    "lat": 40.76009,
+    "lng": -73.9891
+  },
+  {
+    "photos": [],
+    "mustTry": ["USDA prime steak", "A classic cocktail"],
+    "vibeTags": ["historic", "tourist_classic", "group_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-27: address, hours (Sunday to Thursday 11:45 AM to 10 PM, Friday and Saturday 11:45 AM to 11 PM) and history from gallaghersnysteakhouse.com/location/gallaghers-nyc. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-gallaghers-steakhouse",
+    "slug": "gallaghers-steakhouse",
+    "name": "Gallaghers Steakhouse",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": [],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "228 W 52nd St, New York, NY 10019",
+    "priceLevel": 4,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:45",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:45",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:45",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:45",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:45",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:45",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:45",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A steakhouse steps from Broadway and Times Square for more than 95 years, with classic cocktails and USDA prime beef.",
+    "bestTimeToVisit": "Before a show",
+    "timeNeededMinutes": 90,
+    "trendingScore": 50,
+    "website": "https://www.gallaghersnysteakhouse.com",
+    "lat": 40.76285,
+    "lng": -73.98383
   }
 ]
