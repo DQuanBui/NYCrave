@@ -245,7 +245,8 @@
     "pickOne": "帮我选一个",
     "showMore": "再显示 {count} 个",
     "showing": "已显示 {shown}/{total}",
-    "sortCloses": "营业到最晚"
+    "sortCloses": "营业到最晚",
+    "walkable": "步行可达"
   },
   "browse": {
     "cuisine": "按菜系浏览",

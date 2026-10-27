@@ -245,7 +245,8 @@
     "pickOne": "Chọn giúp tôi",
     "showMore": "Xem thêm {count}",
     "showing": "Đang hiện {shown}/{total}",
-    "sortCloses": "Mở muộn nhất"
+    "sortCloses": "Mở muộn nhất",
+    "walkable": "Đi bộ được"
   },
   "browse": {
     "cuisine": "Duyệt theo ẩm thực",

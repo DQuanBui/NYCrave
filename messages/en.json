@@ -245,7 +245,8 @@
     "pickOne": "Pick one for me",
     "showMore": "Show {count} more",
     "showing": "Showing {shown} of {total}",
-    "sortCloses": "Open latest"
+    "sortCloses": "Open latest",
+    "walkable": "Walking distance"
   },
   "browse": {
     "cuisine": "Browse by cuisine",

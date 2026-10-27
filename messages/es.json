@@ -245,7 +245,8 @@
     "pickOne": "Elige uno por mí",
     "showMore": "Ver {count} más",
     "showing": "Mostrando {shown} de {total}",
-    "sortCloses": "Abierto hasta más tarde"
+    "sortCloses": "Abierto hasta más tarde",
+    "walkable": "A pie"
   },
   "browse": {
     "cuisine": "Explora por cocina",

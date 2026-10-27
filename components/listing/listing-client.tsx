@@ -1,9 +1,9 @@
 "use client"
 
-import { LocateFixed, Shuffle, X } from "lucide-react"
+import { Footprints, LocateFixed, Shuffle, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useSearchParams } from "next/navigation"
-import { useMemo } from "react"
+import { useMemo, useState } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
 import { FilterBar } from "@/components/listing/filter-bar"
 import { pillClass } from "@/components/listing/filter-menu"
@@ -80,6 +80,10 @@ function Listing({ pool, options, params }: ListingClientProps & { params: Listi
     return { sorted: [...places].sort((a, b) => travel[a.id].km - travel[b.id].km), travel }
   }, [places, origin])
   const farAway = origin ? distanceKm(origin, { lat: 40.73, lng: -73.95 }) > 60 : false
+  // With Near me on: keep only what is a walk away (the same 20-minute line the
+  // travel estimates use between walking and taking the train)
+  const [walkOnly, setWalkOnly] = useState(false)
+  const listed = origin && walkOnly ? sorted.filter((p) => travel?.[p.id].mode === "walk") : sorted
 
   return (
     <div className="space-y-5">
@@ -90,11 +94,22 @@ function Listing({ pool, options, params }: ListingClientProps & { params: Listi
         onClear={clear}
         toggles={
           origin ? (
-            <button type="button" onClick={geo.reset} aria-pressed className={pillClass(true)}>
-              <LocateFixed aria-hidden className="size-4" />
-              {t("nearMe")}
-              <X aria-hidden className="size-3.5 opacity-70" />
-            </button>
+            <>
+              <button type="button" onClick={geo.reset} aria-pressed className={pillClass(true)}>
+                <LocateFixed aria-hidden className="size-4" />
+                {t("nearMe")}
+                <X aria-hidden className="size-3.5 opacity-70" />
+              </button>
+              <button
+                type="button"
+                aria-pressed={walkOnly}
+                onClick={() => setWalkOnly((v) => !v)}
+                className={pillClass(walkOnly)}
+              >
+                <Footprints aria-hidden className="size-4" />
+                {t("walkable")}
+              </button>
+            </>
           ) : (
             <button
               type="button"
@@ -117,14 +132,14 @@ function Listing({ pool, options, params }: ListingClientProps & { params: Listi
       <h2 className="sr-only">{t("resultsHeading")}</h2>
       <div className="flex min-h-8 flex-wrap items-center justify-between gap-2">
         <p className="text-sm font-semibold text-muted-foreground" aria-live="polite">
-          {t("results", { count: places.length })}
+          {t("results", { count: listed.length })}
         </p>
         <div className="flex flex-wrap items-center gap-2">
-          {places.length > 1 ? (
+          {listed.length > 1 ? (
             <button
               type="button"
               onClick={() =>
-                router.push(`/place/${places[Math.floor(Math.random() * places.length)].slug}`)
+                router.push(`/place/${listed[Math.floor(Math.random() * listed.length)].slug}`)
               }
               className="inline-flex h-8 items-center gap-1.5 rounded-full bg-taxi px-3 text-sm font-bold text-taxi-foreground"
             >
@@ -133,7 +148,7 @@ function Listing({ pool, options, params }: ListingClientProps & { params: Listi
             </button>
           ) : null}
           {/* Filters live in the URL, so a filtered view can be passed on as is */}
-          {hasActiveFilters(params) && places.length > 0 ? (
+          {hasActiveFilters(params) && listed.length > 0 ? (
             <ShareButton
               label={t("share")}
               className="h-8 border-foreground/15 px-3 hover:border-foreground"
@@ -143,7 +158,7 @@ function Listing({ pool, options, params }: ListingClientProps & { params: Listi
       </div>
 
       <div className="space-y-6">
-        {places.length === 0 ? (
+        {listed.length === 0 ? (
           <EmptyState
             line="orange"
             title={t("noResultsTitle")}
@@ -158,16 +173,16 @@ function Listing({ pool, options, params }: ListingClientProps & { params: Listi
           <>
             {params.view === "map" ? (
               <LazyMap
-                points={sorted.map((p) => placeToPoint(p))}
-                ariaLabel={t("mapLabel", { count: places.length })}
+                points={listed.map((p) => placeToPoint(p))}
+                ariaLabel={t("mapLabel", { count: listed.length })}
                 cluster
                 className="h-[60vh] min-h-80"
               />
             ) : null}
             {/* A new filter or order starts again from the first page */}
             <PagedGrid
-              key={`${JSON.stringify(listingQuery(params))}-${origin ? "near" : ""}`}
-              places={sorted}
+              key={`${JSON.stringify(listingQuery(params))}-${origin ? "near" : ""}-${walkOnly}`}
+              places={listed}
               travel={travel}
             />
           </>
