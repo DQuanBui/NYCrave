@@ -10617,5 +10617,90 @@
     "website": "https://www.gallaghersnysteakhouse.com",
     "lat": 40.76285,
     "lng": -73.98383
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/il-laboratorio-del-gelato-1.jpg",
+        "alt": "The Ludlow tower on Ludlow Street at Houston, where the gelato shop is at street level",
+        "width": 1100,
+        "height": 1467,
+        "source": "other",
+        "attribution": {
+          "text": "Eden, Janine and Jim from New York City, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:The_Ludlow_(52437416364).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["A cup of gelato and sorbet"],
+    "vibeTags": ["local_favorite", "solo_friendly", "late_night"],
+    "dietary": ["vegetarian"],
+    "verified": false,
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-27: address, hours (Sunday to Thursday 10:30 AM to 10 PM, Friday and Saturday 10:30 AM to midnight) and history from laboratoriodelgelato.com. A second shop is at 1062 Third Avenue on the Upper East Side. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-il-laboratorio-del-gelato",
+    "slug": "il-laboratorio-del-gelato",
+    "name": "Il Laboratorio del Gelato",
+    "category": "restaurant",
+    "cuisines": ["italian"],
+    "dishTypes": ["desserts"],
+    "borough": "manhattan",
+    "neighborhood": "Lower East Side",
+    "address": "188 Ludlow St, New York, NY 10002",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:30",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:30",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:30",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "A gelato \"lab\" on Ludlow Street at Houston since 2002, built around perfecting classic flavors with pure ingredients and developing new ones with New York chefs.",
+    "bestTimeToVisit": "A summer evening",
+    "timeNeededMinutes": 20,
+    "trendingScore": 50,
+    "website": "https://www.laboratoriodelgelato.com",
+    "lat": 40.72208,
+    "lng": -73.98705
   }
 ]
