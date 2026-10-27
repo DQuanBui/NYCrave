@@ -244,7 +244,8 @@
     "share": "Chia sẻ kết quả này",
     "pickOne": "Chọn giúp tôi",
     "showMore": "Xem thêm {count}",
-    "showing": "Đang hiện {shown}/{total}"
+    "showing": "Đang hiện {shown}/{total}",
+    "sortCloses": "Mở muộn nhất"
   },
   "browse": {
     "cuisine": "Duyệt theo ẩm thực",

@@ -120,3 +120,23 @@ describe("open at a chosen time", () => {
     )
   })
 })
+
+describe("open latest", () => {
+  it("puts what stays open longest first and closed places last", () => {
+    const at = new Date("2026-10-28T03:30:00Z") // Tuesday 11:30 PM in New York
+    const res = applyListing(all, parseListingParams({ sort: "closes" }), at)
+    const clock = { weekday: 2, minutes: 23 * 60 + 30 }
+    const left = (p: (typeof res)[number]) => {
+      const s = getStatusAt(p.hours, clock)
+      return s.state === "open_24h"
+        ? 7 * 1440
+        : s.state === "open" || s.state === "closing_soon"
+          ? s.minutesLeft
+          : -1
+    }
+    const minutes = res.map(left)
+    expect(minutes).toEqual([...minutes].sort((a, b) => b - a))
+    expect(minutes[0]).toBeGreaterThan(0)
+    expect(minutes.at(-1)).toBe(-1)
+  })
+})

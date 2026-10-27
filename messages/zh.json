@@ -244,7 +244,8 @@
     "share": "分享这些结果",
     "pickOne": "帮我选一个",
     "showMore": "再显示 {count} 个",
-    "showing": "已显示 {shown}/{total}"
+    "showing": "已显示 {shown}/{total}",
+    "sortCloses": "营业到最晚"
   },
   "browse": {
     "cuisine": "按菜系浏览",

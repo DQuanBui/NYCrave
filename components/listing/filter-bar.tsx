@@ -155,6 +155,7 @@ export function FilterBar({ params, options, onChange, onClear, toggles }: Filte
           options={[
             { value: "name", label: t("filters.sortName") },
             { value: "price", label: t("filters.sortPrice") },
+            { value: "closes", label: t("filters.sortCloses") },
           ]}
           onSelect={(v) => onChange({ sort: (v as ListingParams["sort"]) ?? "trending" })}
         />

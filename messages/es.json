@@ -244,7 +244,8 @@
     "share": "Compartir estos resultados",
     "pickOne": "Elige uno por mí",
     "showMore": "Ver {count} más",
-    "showing": "Mostrando {shown} de {total}"
+    "showing": "Mostrando {shown} de {total}",
+    "sortCloses": "Abierto hasta más tarde"
   },
   "browse": {
     "cuisine": "Explora por cocina",

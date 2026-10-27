@@ -1,5 +1,5 @@
 import { NEIGHBORHOODS } from "@/data/neighborhoods"
-import { getStatusAt, isOpen, nycClock } from "@/lib/hours"
+import { getStatusAt, isOpen, nycClock, type NycClock } from "@/lib/hours"
 import {
   atClock,
   matchesFilter,
@@ -62,7 +62,22 @@ export function applyListing<P extends FilterablePlace & Pick<Place, "hours">>(
     const clock = at ?? nycClock(now)
     results = results.filter((p) => isOpen(getStatusAt(p.hours, clock)))
   }
-  return sortPlaces(results, params.sort)
+  const sorted = sortPlaces(results, params.sort)
+  return params.sort === "closes" ? byClosingTime(sorted, at ?? nycClock(now)) : sorted
+}
+
+/** Minutes until a place closes at `clock`: open around the clock first, closed last. */
+function minutesOpen(hours: Place["hours"], clock: NycClock): number {
+  const status = getStatusAt(hours, clock)
+  if (status.state === "open_24h") return 7 * 1440
+  if (status.state === "open" || status.state === "closing_soon") return status.minutesLeft
+  return -1
+}
+
+/** "Open latest": what stays open longest comes first (a stable sort keeps the rest in order). */
+function byClosingTime<P extends Pick<Place, "hours">>(places: P[], clock: NycClock): P[] {
+  const left = new Map(places.map((p) => [p, minutesOpen(p.hours, clock)]))
+  return [...places].sort((a, b) => left.get(b)! - left.get(a)!)
 }
 
 export function hasActiveFilters(p: ListingParams): boolean {

@@ -244,7 +244,8 @@
     "share": "이 결과 공유",
     "pickOne": "하나 골라 줘",
     "showMore": "{count}곳 더 보기",
-    "showing": "{total}곳 중 {shown}곳 표시"
+    "showing": "{total}곳 중 {shown}곳 표시",
+    "sortCloses": "늦게까지 영업"
   },
   "browse": {
     "cuisine": "요리별로 둘러보기",

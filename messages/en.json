@@ -244,7 +244,8 @@
     "share": "Share these results",
     "pickOne": "Pick one for me",
     "showMore": "Show {count} more",
-    "showing": "Showing {shown} of {total}"
+    "showing": "Showing {shown} of {total}",
+    "sortCloses": "Open latest"
   },
   "browse": {
     "cuisine": "Browse by cuisine",

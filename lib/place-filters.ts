@@ -37,7 +37,7 @@ export type PlaceFilter = {
   maxPriceLevel?: 1 | 2 | 3 | 4
 }
 
-export const SORTS = ["trending", "name", "price"] as const
+export const SORTS = ["trending", "name", "price", "closes"] as const
 export type PlaceSort = (typeof SORTS)[number]
 
 /** The fields filtering and sorting read, so slim place cards can be filtered in the browser. */
@@ -89,6 +89,8 @@ export function sortPlaces<P extends FilterablePlace>(
       return copy.sort((a, b) => a.name.localeCompare(b.name))
     case "price":
       return copy.sort((a, b) => a.priceLevel - b.priceLevel || a.name.localeCompare(b.name))
+    // "Open latest" needs the time, so lib/listing sorts it; elsewhere it falls back
+    case "closes":
     case "trending":
       return copy.sort((a, b) => (b.trendingScore ?? 0) - (a.trendingScore ?? 0))
   }
