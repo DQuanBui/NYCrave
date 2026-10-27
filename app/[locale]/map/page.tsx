@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
+import { Suspense } from "react"
 import { CityMap } from "@/components/map/city-map"
 import { initLocale } from "@/i18n/locale"
 import { toCard } from "@/lib/card-place"
@@ -26,7 +27,14 @@ export default async function MapPage({ params }: Props) {
   return (
     <>
       <h1 className="sr-only">{t("title")}</h1>
-      <CityMap places={places} />
+      {/* The map reads its filters from the link, which happens in the browser */}
+      <Suspense
+        fallback={
+          <div className="h-[calc(100dvh-8rem)] min-h-[28rem] animate-pulse bg-muted md:h-[calc(100dvh-4rem)]" />
+        }
+      >
+        <CityMap places={places} />
+      </Suspense>
     </>
   )
 }

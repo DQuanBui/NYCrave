@@ -2,7 +2,8 @@
 
 import { ArrowRight, List, LocateFixed, MapPin, Navigation, X } from "lucide-react"
 import { useTranslations } from "next-intl"
-import { useMemo, useState } from "react"
+import { useSearchParams } from "next/navigation"
+import { useEffect, useMemo, useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { OpenAtMenu } from "@/components/listing/open-at-menu"
 import { pillClass } from "@/components/listing/filter-menu"
@@ -31,11 +32,36 @@ export function CityMap({ places }: { places: CardPlace[] }) {
   const t = useTranslations()
   const now = useNow()
   const geo = useGeolocation()
-  const [lines, setLines] = useState<Set<Category>>(() => new Set(CATEGORIES))
-  const [openNow, setOpenNow] = useState(false)
+  // Filters start from the link (?lines=restaurant,drink&open=1…) so a view can be shared
+  const searchParams = useSearchParams()
+  const [lines, setLines] = useState<Set<Category>>(() => {
+    const picked = (searchParams.get("lines") ?? "")
+      .split(",")
+      .filter((c): c is Category => (CATEGORIES as readonly string[]).includes(c))
+    return new Set(picked.length ? picked : CATEGORIES)
+  })
+  const [openNow, setOpenNow] = useState(() => searchParams.get("open") === "1")
   /** "Open at" a chosen weekday and time instead of now, as "sat-2100". */
-  const [at, setAt] = useState<string | undefined>()
-  const [freeOnly, setFreeOnly] = useState(false)
+  const [at, setAt] = useState<string | undefined>(() => {
+    const raw = searchParams.get("at") ?? ""
+    return atClock(raw) ? raw : undefined
+  })
+  const [freeOnly, setFreeOnly] = useState(() => searchParams.get("free") === "1")
+
+  // ...and every change goes back into the address bar, without a request
+  useEffect(() => {
+    const query = new URLSearchParams()
+    if (lines.size < CATEGORIES.length) query.set("lines", [...lines].join(","))
+    if (openNow) query.set("open", "1")
+    if (at) query.set("at", at)
+    if (freeOnly) query.set("free", "1")
+    const search = query.toString()
+    window.history.replaceState(
+      null,
+      "",
+      `${window.location.pathname}${search ? `?${search}` : ""}`,
+    )
+  }, [lines, openNow, at, freeOnly])
   const [selectedId, setSelectedId] = useState<string | null>(null)
   // The same places as a list: easier on a small screen, and with a keyboard or screen reader
   const [showList, setShowList] = useState(false)
@@ -152,7 +178,7 @@ export function CityMap({ places }: { places: CardPlace[] }) {
           <button
             type="button"
             aria-pressed={showList}
-            aria-controls="map-list"
+            aria-controls={showList ? "map-list" : undefined}
             onClick={() => {
               setShowList((v) => !v)
               setListLimit(LIST_STEP)
