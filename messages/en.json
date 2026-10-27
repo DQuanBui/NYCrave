@@ -1717,14 +1717,17 @@
   },
   "tonight": {
     "title": "Open late",
-    "tagline": "Pick an hour tonight and see what's still open: food, bars, cafés, museums and shops.",
+    "tagline": "Pick a night and an hour and see what's still open: food, bars, cafés, museums and shops.",
     "pick": "Open at",
     "count": "{count, plural, =0 {Nothing open} one {# place open} other {# places open}} at {time}",
     "until": "Until {time}",
     "allNight": "Open all night",
     "empty": "Nothing on NYCrave is open that late tonight. Try an earlier hour.",
     "note": "Checked against each place's weekly hours from its official site; kitchens can close before the bar, and holidays change hours. Streets, bridges and views never close:",
-    "photoSpots": "see Photo spots"
+    "photoSpots": "see Photo spots",
+    "pickNight": "Pick a night",
+    "tonight": "Tonight",
+    "emptyOther": "Nothing on NYCrave is open that late that night. Try an earlier hour."
   },
   "errorPage": {
     "title": "This train is having trouble",

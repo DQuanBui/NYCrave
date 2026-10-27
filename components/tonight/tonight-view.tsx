@@ -27,16 +27,19 @@ export function TonightView({ places }: { places: CardPlace[] }) {
   const locale = useLocale()
   const now = useNow()
   const [chosen, setChosen] = useState<number | null>(null)
+  /** 0 is tonight; 1–6 plan a late night later this week. */
+  const [dayOffset, setDayOffset] = useState(0)
 
   if (!now) {
     return <div aria-busy className="h-64 animate-pulse rounded-3xl bg-muted" />
   }
 
   const clock = nycClock(now)
-  const evening = eveningWeekday(clock)
+  const tonight = eveningWeekday(clock)
+  const evening = (tonight + dayOffset) % 7
   // Where "now" falls on tonight's timeline, so hours already past can be skipped
-  const nowSlot = clock.minutes + (clock.weekday === evening ? 0 : 1440)
-  const upcoming = LATE_SLOTS.filter((s) => s >= nowSlot - 30)
+  const nowSlot = clock.minutes + (clock.weekday === tonight ? 0 : 1440)
+  const upcoming = dayOffset ? [...LATE_SLOTS] : LATE_SLOTS.filter((s) => s >= nowSlot - 30)
   const slot = chosen ?? upcoming[0] ?? LATE_SLOTS.at(-1)!
 
   const open = places.flatMap((place) => {
@@ -52,6 +55,36 @@ export function TonightView({ places }: { places: CardPlace[] }) {
 
   return (
     <div className="space-y-8">
+      <div
+        role="radiogroup"
+        aria-label={t("pickNight")}
+        className="-mx-4 scrollbar-none flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0"
+      >
+        {Array.from({ length: 7 }, (_, offset) => (
+          <button
+            key={offset}
+            type="button"
+            role="radio"
+            aria-checked={offset === dayOffset}
+            onClick={() => {
+              setDayOffset(offset)
+              setChosen(null)
+            }}
+            className={cn(
+              "h-10 shrink-0 rounded-full border-2 px-4 text-sm font-semibold transition-colors",
+              offset === dayOffset
+                ? "border-foreground bg-foreground text-background"
+                : "border-foreground/15 bg-card hover:border-foreground",
+            )}
+          >
+            {offset === 0
+              ? t("tonight")
+              : new Intl.DateTimeFormat(locale, { weekday: "long", timeZone: "UTC" }).format(
+                  new Date(Date.UTC(2024, 0, 7 + ((tonight + offset) % 7))),
+                )}
+          </button>
+        ))}
+      </div>
       <div
         role="radiogroup"
         aria-label={t("pick")}
@@ -102,7 +135,7 @@ export function TonightView({ places }: { places: CardPlace[] }) {
 
       {groups.length === 0 ? (
         <p className="rounded-2xl border-2 border-dashed border-foreground/30 px-5 py-6 text-muted-foreground">
-          {t("empty")}
+          {dayOffset ? t("emptyOther") : t("empty")}
         </p>
       ) : (
         groups.map(({ category, items }) => (

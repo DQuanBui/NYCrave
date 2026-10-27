@@ -1717,14 +1717,17 @@
   },
   "tonight": {
     "title": "Mở khuya",
-    "tagline": "Chọn một giờ tối nay và xem nơi nào còn mở: quán ăn, quán bar, cà phê, bảo tàng và cửa hàng.",
+    "tagline": "Chọn một đêm và một giờ để xem nơi nào vẫn còn mở: quán ăn, quán bar, quán cà phê, bảo tàng và cửa hàng.",
     "pick": "Mở lúc",
     "count": "{count} địa điểm mở lúc {time}",
     "until": "Đến {time}",
     "allNight": "Mở suốt đêm",
     "empty": "Tối nay không có địa điểm nào trên NYCrave mở muộn đến vậy. Hãy thử giờ sớm hơn.",
     "note": "Đối chiếu với giờ mở cửa hằng tuần lấy từ trang chính thức của từng nơi; bếp có thể đóng trước quầy bar, và ngày lễ có thể đổi giờ. Đường phố, cây cầu và các điểm ngắm cảnh không bao giờ đóng:",
-    "photoSpots": "xem Điểm chụp ảnh"
+    "photoSpots": "xem Điểm chụp ảnh",
+    "pickNight": "Chọn một đêm",
+    "tonight": "Tối nay",
+    "emptyOther": "Không có nơi nào trên NYCrave mở muộn như vậy vào đêm đó. Hãy chọn giờ sớm hơn."
   },
   "errorPage": {
     "title": "Chuyến tàu này đang gặp sự cố",
