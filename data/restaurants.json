@@ -10315,5 +10315,156 @@
     "website": "https://www.theodeonrestaurant.com",
     "lat": 40.71691,
     "lng": -74.00792
+  },
+  {
+    "photos": [],
+    "mustTry": ["Red velvet donut", "Boston cream donut"],
+    "vibeTags": ["cheap_eats", "local_favorite", "historic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-27: address, hours (Monday to Wednesday 4:30 AM to 6 PM, Thursday and Friday 4:30 AM to 7 PM, Saturday 5 AM to 7 PM, Sunday 5:30 AM to 6 PM) and history from peterpandonuts.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-peter-pan-donuts",
+    "slug": "peter-pan-donuts-greenpoint",
+    "name": "Peter Pan Donut & Pastry Shop",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["desserts", "bakery"],
+    "borough": "brooklyn",
+    "neighborhood": "Greenpoint",
+    "address": "727 Manhattan Ave, Brooklyn, NY 11222",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "05:30",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "04:30",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "04:30",
+          "close": "18:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "04:30",
+          "close": "18:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "04:30",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "04:30",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "05:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A family-owned Greenpoint donut shop and neighborhood staple for more than 60 years, open from before dawn.",
+    "bestTimeToVisit": "Early morning",
+    "timeNeededMinutes": 20,
+    "trendingScore": 56,
+    "website": "https://www.peterpandonuts.com",
+    "lat": 40.72604,
+    "lng": -73.95232
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/gargiulos-coney-island-1.jpg",
+        "alt": "Gargiulo's red awnings on West 15th Street in Coney Island",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "LittleT889, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Gargiulo%27s_Italian_Restaurant.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Classic Southern Italian pasta", "Seafood"],
+    "vibeTags": ["historic", "group_friendly", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-27: address, hours (closed Tuesday; Monday, Wednesday and Thursday noon to 9:30 PM, Friday and Saturday noon to 10:30 PM, Sunday noon to 9 PM) and history from gargiulos.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-gargiulos",
+    "slug": "gargiulos-coney-island",
+    "name": "Gargiulo's",
+    "category": "restaurant",
+    "cuisines": ["italian"],
+    "dishTypes": ["pasta", "seafood"],
+    "borough": "brooklyn",
+    "neighborhood": "Coney Island",
+    "address": "2911 W 15th St, Brooklyn, NY 11224",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "tue": [],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "22:30"
+        }
+      ]
+    },
+    "editorialTake": "A Coney Island tradition since 1907, serving classic Neapolitan and Southern Italian cooking to generations of Brooklyn families.",
+    "bestTimeToVisit": "Before or after the beach and boardwalk",
+    "timeNeededMinutes": 90,
+    "trendingScore": 48,
+    "website": "https://www.gargiulos.com",
+    "lat": 40.57641,
+    "lng": -73.98238
   }
 ]
