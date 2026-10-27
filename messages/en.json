@@ -1682,7 +1682,10 @@
     "sameLine": "Same line",
     "note": "Stations come from MTA open data, with the trains that stop there on weekdays. Stops are put in order by their place on the map, so on lines with branches one branch comes before the next. Check the MTA for service changes.",
     "mapLabel": "Map of the {route} train's stations and nearby places",
-    "accessibleNote": "♿ marks stations with elevators or ramps."
+    "accessibleNote": "♿ marks stations with elevators or ramps.",
+    "nearMe": "Lines near me",
+    "noneNear": "No station within a {minutes}-minute walk.",
+    "accessibleStation": "Step-free station"
   },
   "crawls": {
     "title": "Food crawls",

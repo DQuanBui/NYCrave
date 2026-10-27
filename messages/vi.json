@@ -1682,7 +1682,10 @@
     "sameLine": "Cùng tuyến",
     "note": "Danh sách ga lấy từ dữ liệu mở của MTA, kèm các tàu dừng ở đó vào ngày thường. Các ga được xếp theo vị trí trên bản đồ, nên với tuyến có nhánh, hết nhánh này mới đến nhánh kia. Hãy kiểm tra MTA để biết thay đổi lịch chạy.",
     "mapLabel": "Bản đồ các ga tuyến {route} và địa điểm lân cận",
-    "accessibleNote": "♿ đánh dấu ga có thang máy hoặc lối dốc."
+    "accessibleNote": "♿ đánh dấu ga có thang máy hoặc lối dốc.",
+    "nearMe": "Tuyến gần tôi",
+    "noneNear": "Không có ga nào trong vòng {minutes} phút đi bộ.",
+    "accessibleStation": "Ga không bậc thang"
   },
   "crawls": {
     "title": "Ăn một vòng",

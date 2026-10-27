@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { SectionHeader } from "@/components/listing/section-header"
+import { LinesNearMe } from "@/components/subway/lines-near-me"
 import { initLocale } from "@/i18n/locale"
 import { Link } from "@/i18n/navigation"
 import { toCard } from "@/lib/card-place"
@@ -31,7 +32,8 @@ export default async function SubwayPage({ params }: Props) {
   return (
     <div>
       <SectionHeader line="blue" bullet="🚇" title={t("title")} tagline={t("tagline")} />
-      <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-14">
+      <div className="mx-auto max-w-7xl space-y-8 px-4 py-10 lg:px-8 lg:py-14">
+        <LinesNearMe />
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {rides.map((ride) => {
             const color = ROUTE_LINE[ride.route]

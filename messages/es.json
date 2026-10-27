@@ -1686,7 +1686,10 @@
     "sameLine": "Misma línea",
     "note": "Las estaciones vienen de los datos abiertos de la MTA, con los trenes que paran allí entre semana. Las paradas se ordenan según su posición en el mapa, así que en las líneas con ramales un ramal va antes que el otro. Consulta la MTA por cambios de servicio.",
     "mapLabel": "Mapa de las estaciones del tren {route} y los lugares cercanos",
-    "accessibleNote": "♿ marca las estaciones con ascensor o rampa."
+    "accessibleNote": "♿ marca las estaciones con ascensor o rampa.",
+    "nearMe": "Líneas cerca de mí",
+    "noneNear": "No hay ninguna estación a menos de {minutes} minutos a pie.",
+    "accessibleStation": "Estación sin escalones"
   },
   "crawls": {
     "title": "Rutas gastronómicas",
