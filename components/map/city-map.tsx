@@ -3,7 +3,7 @@
 import { ArrowRight, List, LocateFixed, MapPin, Navigation, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useSearchParams } from "next/navigation"
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { OpenAtMenu } from "@/components/listing/open-at-menu"
 import { pillClass } from "@/components/listing/filter-menu"
@@ -65,6 +65,25 @@ export function CityMap({ places }: { places: CardPlace[] }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   // The same places as a list: easier on a small screen, and with a keyboard or screen reader
   const [showList, setShowList] = useState(false)
+  const listButton = useRef<HTMLButtonElement>(null)
+  const listPanel = useRef<HTMLElement>(null)
+
+  // Escape closes the list (focus goes back to its button), then the preview
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return
+      if (showList) {
+        setShowList(false)
+        listButton.current?.focus()
+      } else if (selectedId) setSelectedId(null)
+    }
+    window.addEventListener("keydown", onKey)
+    return () => window.removeEventListener("keydown", onKey)
+  }, [showList, selectedId])
+  // Opening the list moves focus into it, so the keyboard lands on the places
+  useEffect(() => {
+    if (showList) listPanel.current?.focus()
+  }, [showList])
   const [listLimit, setListLimit] = useState(LIST_STEP)
 
   const visible = useMemo(() => {
@@ -178,6 +197,7 @@ export function CityMap({ places }: { places: CardPlace[] }) {
           <button
             type="button"
             aria-pressed={showList}
+            ref={listButton}
             aria-controls={showList ? "map-list" : undefined}
             onClick={() => {
               setShowList((v) => !v)
@@ -221,8 +241,10 @@ export function CityMap({ places }: { places: CardPlace[] }) {
       {showList ? (
         <section
           id="map-list"
+          ref={listPanel}
+          tabIndex={-1}
           aria-label={t("cityMap.listLabel")}
-          className="absolute inset-x-3 top-36 bottom-3 z-20 mx-auto max-w-md overflow-y-auto rounded-2xl border bg-card p-2 shadow-2xl"
+          className="absolute inset-x-3 top-36 bottom-3 z-20 mx-auto max-w-md overflow-y-auto rounded-2xl border bg-card p-2 shadow-2xl outline-none focus-visible:ring-4 focus-visible:ring-taxi"
         >
           <ol className="divide-y">
             {listed.slice(0, listLimit).map((p) => (
