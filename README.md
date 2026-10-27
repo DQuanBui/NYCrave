@@ -19,27 +19,27 @@ NYCrave is a mobile-first guide to New York City for locals and visitors: where 
 
 | | |
 | --- | --- |
-| 🔴 **Eat** · 🟠 **Sip** · 🔵 **Explore** · 🟣 **Shop** · 🟡 **Photo spots** · 🟢 **Parks & piers** | Browse by cuisine, dish, drink or shop type, with filters for open now or open at any day and time, free, step-free subway nearby, borough, neighborhood, price, vibe and dietary needs, as a list or a clustered map; share any filtered view, or let it pick one for you |
-| **Smart search** | Plain phrases in any of the five languages: "dumplings in Chinatown", "late night pizza", "trà sữa", "atracciones gratis", "唐人街 饺子", "차이나타운 만두". Forgives typos, remembers recent searches, sorts results by kind with an *Open now* switch, and <kbd>/</kbd> jumps to it from any page |
-| **City map** | Every place on one map, grouped into line-colored clusters, with line toggles, *Open now*, *Open at…*, *Free*, *Near me*, a jump to the nearest open place, and the same places as a list |
+| 🔴 **Eat** · 🟠 **Sip** · 🔵 **Explore** · 🟣 **Shop** · 🟡 **Photo spots** · 🟢 **Parks & piers** | Browse by cuisine, dish, drink or shop type, with filters for open now or open at any day and time, free, within walking distance, step-free subway nearby, borough, neighborhood, price, vibe and dietary needs, sorted by trending, name, price, distance or what stays open latest, as a list or a clustered map; share any filtered view, or let it pick one for you |
+| **Smart search** | Plain phrases in any of the five languages: "dumplings in Chinatown", "late night pizza", "trà sữa", "atracciones gratis", "唐人街 饺子", "차이나타운 만두". Forgives typos, remembers recent searches, sorts results by kind with *Open now* and *Near me* switches, and <kbd>/</kbd> jumps to it from any page |
+| **City map** | Every place on one map, grouped into line-colored clusters, with line toggles, *Open now*, *Open at…*, *Free*, *Near me*, a jump to the nearest open place, and the same places as a list; the filters stay in the link |
 | **Design My Day** | A timed day from breakfast to a nightcap, within budget, starting from any neighborhood or near you, with the train to take between stops; swap stops, share, copy as text, print, add to calendar or open the route in Google Maps; saved places can become a day too |
 | **Ready-made days** | A classic first day, a food crawl, Brooklyn by the water, art and museums, date night, and a $50 day |
 | **Ask NYCrave** | A free helper on every page, in every language, that answers "where can I get…", "is … open now?", "plan a day in …" and "how do I get from JFK…" from NYCrave's own places and tips |
 | **What's next?** | Places a short walk away that are open when you get there, picked for what you just did |
-| **Open late** | Pick 10 PM, midnight, 2 AM or 4 AM and see what is still open tonight, with closing times, nearest first if you like |
-| **Ride the subway** | Every train as a strip map and a map, with the places a short walk from each stop, whether each is open (or only what is open now), and accessible stations marked |
+| **Open late** | Pick 10 PM, midnight, 2 AM or 4 AM and see what is still open tonight or any night this week, with closing times, nearest first if you like |
+| **Ride the subway** | Every train as a strip map and a map, with the places a short walk from each stop, whether each is open (or only what is open now), and accessible stations marked; *Lines near me* finds the trains closest to you |
 | **Food crawls** | Pizza, dumplings, bagels, noodles, bakeries, coffee and cocktails: three or four places a short walk apart, drawn as a strip map, with a walking route and how far each starts from you |
-| **Guides** | Free NYC, rainy day, with kids, late night, date night, cheap eats, solo, outdoors and history, each with tips, a map, *Open now* and *Open at…* switches, a random pick and a one-tap day planned around its nearest places; the home forecast suggests one for the weather |
+| **Guides** | Free NYC, rainy day, with kids, late night, date night, cheap eats, solo, outdoors and history, each with tips, a map, *Open now* and *Open at…* switches, a random pick, copy as text and a one-tap day planned around its nearest places; the home forecast suggests one for the weather |
 | **The New York menu** | The city's signature foods, from the slice to pastrami on rye, and where to try each one |
 | **Walks & hikes** | Forest trails, waterfront paths and bridges in all five boroughs, with distance, difficulty and the nearest subway, nearest first if you like |
-| **Golden hour** | Today's light as a live sky ribbon, tonight's golden hour for your calendar, and photo walks timed so every stop lands in its best light |
+| **Golden hour** | Today's light as a live sky ribbon, tonight's golden hour and tomorrow's sunrise for your calendar, and photo walks timed so every stop lands in its best light |
 | **Seasons** | Manhattanhenge, cherry blossoms, the marathon and the holiday windows, with countdowns and an *Add to calendar* link for each |
 | **NYC Passport** | Stamp the places you visit and earn 14 badges, from Pizza pilgrim to Line hopper |
 | **Place pages** | Breadcrumbs, full-screen photos, a clean printout, live hours with a week chart, must-try items, tickets, nearest subway stations, directions, and today's golden hour for photo spots |
-| **Neighborhood guides** | Find any neighborhood by name or borough, or see them all on one map, each with its places, subway lines and a *Plan a day starting here* button |
+| **Neighborhood guides** | Find any neighborhood by name, borough or what is near you, or see them all on one map, each with its places, subway lines and a *Plan a day starting here* button |
 | **Tourist tips** | Airports, the subway and OMNY, tipping with a bill calculator, safety, and the city through the seasons |
 | **Five languages** | English, Vietnamese, Spanish, Simplified Chinese and Korean, switched in the footer |
-| **Works like an app** | Installable, saved places work offline, the time, open places and sunset in New York on the home page, new and recently viewed places, saved places by kind, open now or nearest first, shared or copied as text, an *Install the app* button, light, dark or device theme, keyboard shortcuts (<kbd>?</kbd>), holiday and weather notices |
+| **Works like an app** | Installable, saved places work offline, the time, open places, sunset and your saved days on the home page, new and recently viewed places, saved places by kind, open now or nearest first, shared or copied as text, an *Install the app* button, light, dark or device theme, keyboard shortcuts (<kbd>?</kbd>), holiday and weather notices |
 
 ## Screenshots
 
