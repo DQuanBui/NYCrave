@@ -1,6 +1,7 @@
 import { ArrowRight, Lightbulb } from "lucide-react"
 import { SITE_URL } from "@/lib/site"
 import { breadcrumbJsonLd } from "@/lib/structured-data"
+import { CopyButton } from "@/components/place/copy-button"
 import { ShareButton } from "@/components/place/share-button"
 import { WithMessages } from "@/components/providers/with-messages"
 import { PlanGuideLink } from "@/components/guides/plan-guide-link"
@@ -84,6 +85,21 @@ export default async function GuidePage({ params }: Props) {
             <div className="flex flex-wrap gap-2">
               <PlanGuideLink places={[...cards.values()]} />
               <ShareButton className="h-9" />
+              <CopyButton
+                value={[
+                  `${g("title")}: NYCrave`,
+                  ...sections.flatMap(({ category, places: list }) => [
+                    "",
+                    `${t(`categories.${category}.title`)}:`,
+                    ...list.map(
+                      (p) => `• ${p.name}, ${p.neighborhood}: ${absolute(`/place/${p.slug}`)}`,
+                    ),
+                  ]),
+                ].join("\n")}
+                label={t("saved.copyText")}
+                copiedLabel={t("saved.copiedText")}
+                className="h-9 border-foreground px-4 text-sm hover:bg-accent [&_svg]:size-4"
+              />
               {guide.related ? (
                 <Link
                   href={guide.related}
