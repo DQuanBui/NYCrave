@@ -10098,5 +10098,222 @@
     "website": "https://www.radiobakery.nyc",
     "lat": 40.73239,
     "lng": -73.955
+  },
+  {
+    "photos": [],
+    "mustTry": ["Oysters at the counter", "An oyster pan roast"],
+    "vibeTags": ["tourist_classic", "historic", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-27: address, hours (Monday to Friday 11:30 AM to 9:30 PM) and history from oysterbarny.com. Open weekdays only. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-grand-central-oyster-bar",
+    "slug": "grand-central-oyster-bar",
+    "name": "Grand Central Oyster Bar",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["seafood"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown East",
+    "address": "89 E 42nd St (Grand Central Terminal, Lower Level), New York, NY 10017",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [],
+      "mon": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:30",
+          "close": "21:30"
+        }
+      ],
+      "sat": []
+    },
+    "editorialTake": "A New York landmark under Guastavino-tiled vaulted ceilings on the lower level of Grand Central, serving oysters and pan roasts since the terminal's early days.",
+    "bestTimeToVisit": "Weekday lunch at the counter",
+    "timeNeededMinutes": 60,
+    "trendingScore": 60,
+    "website": "https://www.oysterbarny.com",
+    "lat": 40.75228,
+    "lng": -73.97716
+  },
+  {
+    "photos": [],
+    "mustTry": ["Frrrozen Hot Chocolate"],
+    "vibeTags": ["tourist_classic", "kid_friendly", "instagrammable"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-27: address and Upper East Side hours (Monday to Friday 11 AM to 11 PM, Saturday and Sunday 10 AM to 11 PM) from serendipity3.com. Last seating is at 10:45 PM. There is also a Times Square location. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-serendipity-3",
+    "slug": "serendipity-3-upper-east-side",
+    "name": "Serendipity 3",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["desserts"],
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "225 E 60th St, New York, NY 10022",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "The Upper East Side restaurant and dessert parlor that has served its famous Frrrozen Hot Chocolate since 1954.",
+    "bestTimeToVisit": "Weekday afternoon",
+    "timeNeededMinutes": 60,
+    "trendingScore": 58,
+    "website": "https://serendipity3.com",
+    "lat": 40.7618,
+    "lng": -73.96494
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-odeon-tribeca-1.jpg",
+        "alt": "The Odeon's neon sign on the corner of West Broadway in Tribeca on a rainy day",
+        "width": 1100,
+        "height": 619,
+        "source": "other",
+        "attribution": {
+          "text": "Jess Hawsor, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:NYC,_restaurant_in_Tribeca.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Weekend brunch", "A cocktail at the bar"],
+    "vibeTags": ["date_night", "local_favorite", "group_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-27T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-27: address and hours (lunch weekdays from 11 AM, brunch weekends from 10 AM, dinner until 10 PM Sunday and Monday and 11 PM Tuesday to Saturday) from theodeonrestaurant.com. Holiday hours differ; see the site. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-the-odeon",
+    "slug": "the-odeon-tribeca",
+    "name": "The Odeon",
+    "category": "restaurant",
+    "cuisines": ["american", "french"],
+    "dishTypes": ["brunch"],
+    "borough": "manhattan",
+    "neighborhood": "Tribeca",
+    "address": "145 West Broadway, New York, NY 10013",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "22:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "editorialTake": "A Tribeca brasserie and New York icon since 1980, with a classic American menu that nods to French cooking and a busy cocktail bar.",
+    "bestTimeToVisit": "Weekend brunch",
+    "timeNeededMinutes": 90,
+    "trendingScore": 56,
+    "website": "https://www.theodeonrestaurant.com",
+    "lat": 40.71691,
+    "lng": -74.00792
   }
 ]
