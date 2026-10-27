@@ -5,6 +5,7 @@ import { LiveHero, LiveHomeProvider, LiveNycNow, LiveRail } from "@/components/h
 import { LineMap } from "@/components/home/line-map"
 import { MenuTeaser } from "@/components/home/menu-teaser"
 import { MyDayPromo } from "@/components/home/my-day-promo"
+import { SavedDaysStrip } from "@/components/home/saved-days-strip"
 import { RecentlyViewed } from "@/components/home/recently-viewed"
 import { PlaceRail } from "@/components/place/place-rail"
 import { initLocale } from "@/i18n/locale"
@@ -79,6 +80,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           emptyText={t("openNowEmpty")}
         />
         <MyDayPromo />
+        <SavedDaysStrip />
         <GuidesTeaser places={all} sun={sun} />
         <LiveRail
           kind="free"
