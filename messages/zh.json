@@ -1678,7 +1678,9 @@
     "nearMeOn": "正在显示每条路线起点离你多远。",
     "denied": "定位已关闭，无法显示距离。",
     "fromYouWalk": "距你步行约 {minutes} 分钟",
-    "fromYouSubway": "距你乘地铁约 {minutes} 分钟"
+    "fromYouSubway": "距你乘地铁约 {minutes} 分钟",
+    "copyText": "复制为文字",
+    "copiedText": "已复制"
   },
   "tonight": {
     "title": "深夜营业",

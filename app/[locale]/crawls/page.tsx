@@ -1,5 +1,7 @@
 import { Footprints, Navigation } from "lucide-react"
+import { CopyButton } from "@/components/place/copy-button"
 import { ShareButton } from "@/components/place/share-button"
+import { SITE_URL } from "@/lib/site"
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 import { SignBand } from "@/components/brand/sign-band"
@@ -87,6 +89,27 @@ export default async function CrawlsPage({ params }: Props) {
                   {crawls.map((crawl) => {
                     const cards = crawl.stops.map((s) => ({ ...s, card: toCard(s.place) }))
                     const first = crawl.stops[0].place
+                    const directions = routeDirectionsUrl(
+                      first,
+                      crawl.stops.slice(1).map(({ place }) => ({
+                        lat: place.lat,
+                        lng: place.lng,
+                        name: place.name,
+                        address: place.address,
+                      })),
+                    )
+                    // The crawl as plain text, stop by stop with walks and links, for a group chat
+                    const text = [
+                      `${kind.emoji} ${t(`kinds.${kind.key}`)}: ${t("around", { area: crawl.areas.slice(0, 2).join(" · ") })}`,
+                      t("meta", { stops: crawl.stops.length, minutes: crawl.walkMinutes }),
+                      "",
+                      ...crawl.stops.flatMap(({ place, walk }, i) => [
+                        ...(walk ? [`   ${t("leg", { minutes: walk })}`] : []),
+                        `${i + 1}. ${place.name}, ${place.neighborhood}: ${SITE_URL}/place/${place.slug}`,
+                      ]),
+                      "",
+                      `${t("directions")}: ${directions}`,
+                    ].join("\n")
                     return (
                       <li
                         key={first.slug}
@@ -144,23 +167,23 @@ export default async function CrawlsPage({ params }: Props) {
                             </li>
                           ))}
                         </ol>
-                        <a
-                          href={routeDirectionsUrl(
-                            first,
-                            crawl.stops.slice(1).map(({ place }) => ({
-                              lat: place.lat,
-                              lng: place.lng,
-                              name: place.name,
-                              address: place.address,
-                            })),
-                          )}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="mt-auto inline-flex h-11 items-center justify-center gap-2 rounded-full border-2 border-foreground px-5 text-sm font-bold hover:bg-accent"
-                        >
-                          <Navigation aria-hidden className="size-4" />
-                          {t("directions")}
-                        </a>
+                        <div className="mt-auto flex flex-wrap gap-2">
+                          <a
+                            href={directions}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-full border-2 border-foreground px-5 text-sm font-bold hover:bg-accent"
+                          >
+                            <Navigation aria-hidden className="size-4" />
+                            {t("directions")}
+                          </a>
+                          <CopyButton
+                            value={text}
+                            label={t("copyText")}
+                            copiedLabel={t("copiedText")}
+                            className="h-11 px-5 text-sm [&_svg]:size-4"
+                          />
+                        </div>
                       </li>
                     )
                   })}

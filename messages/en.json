@@ -1718,7 +1718,9 @@
     "nearMeOn": "Showing how far each crawl starts from you.",
     "denied": "Location is off, so distances can't be shown.",
     "fromYouWalk": "About {minutes} min walk from you",
-    "fromYouSubway": "About {minutes} min by subway from you"
+    "fromYouSubway": "About {minutes} min by subway from you",
+    "copyText": "Copy as text",
+    "copiedText": "Copied"
   },
   "tonight": {
     "title": "Open late",

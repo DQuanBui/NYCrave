@@ -1718,7 +1718,9 @@
     "nearMeOn": "Đang hiện khoảng cách từ bạn đến điểm đầu của mỗi tuyến.",
     "denied": "Vị trí đang tắt nên không hiện được khoảng cách.",
     "fromYouWalk": "Cách bạn khoảng {minutes} phút đi bộ",
-    "fromYouSubway": "Cách bạn khoảng {minutes} phút đi tàu điện ngầm"
+    "fromYouSubway": "Cách bạn khoảng {minutes} phút đi tàu điện ngầm",
+    "copyText": "Sao chép dạng văn bản",
+    "copiedText": "Đã sao chép"
   },
   "tonight": {
     "title": "Mở khuya",
