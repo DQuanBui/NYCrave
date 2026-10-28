@@ -2711,5 +2711,229 @@
     "website": "https://www.bklynlarder.com",
     "lat": 40.68053,
     "lng": -73.97521
+  },
+  {
+    "photos": [],
+    "mustTry": ["The used jazz and classical bins"],
+    "vibeTags": ["local_favorite", "rainy_day", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address, hours (Sunday and Tuesday to Thursday noon to 7 PM, Monday noon to 6 PM, Friday and Saturday noon to 8 PM) and history from academy-records.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-academy-records",
+    "slug": "academy-records-flatiron",
+    "name": "Academy Records & CDs",
+    "category": "shopping",
+    "shopTypes": ["vintage"],
+    "borough": "manhattan",
+    "neighborhood": "Flatiron",
+    "address": "12 W 18th St, New York, NY 10011",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "19:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "A used record and CD shop on West 18th Street since 1977, specializing in classical, jazz, rock and soul.",
+    "bestTimeToVisit": "A weekday afternoon",
+    "timeNeededMinutes": 45,
+    "trendingScore": 50,
+    "website": "https://www.academy-records.com",
+    "lat": 40.73881,
+    "lng": -73.99304
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/rough-trade-rockefeller-center-1.jpg",
+        "alt": "Rough Trade's brass-framed entrance at Rockefeller Center with record sleeves in the windows",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "TFSyndicate, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Rough_Trade_NYC.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["Rough Trade exclusive pressings"],
+    "vibeTags": ["rainy_day", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address and hours (every day 10 AM to 8 PM; may change during in-store events) from roughtrade.com/en-us/stores/new-york. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-rough-trade-nyc",
+    "slug": "rough-trade-rockefeller-center",
+    "name": "Rough Trade",
+    "category": "shopping",
+    "shopTypes": ["flagship"],
+    "borough": "manhattan",
+    "neighborhood": "Midtown",
+    "address": "1250 6th Ave, New York, NY 10112",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "20:00"
+        }
+      ]
+    },
+    "editorialTake": "Rough Trade's New York record shop at Rockefeller Center, with Rough Trade exclusive releases; hours can change when a live event is on in the store.",
+    "bestTimeToVisit": "Before a Rockefeller Center visit",
+    "timeNeededMinutes": 40,
+    "trendingScore": 50,
+    "website": "https://www.roughtrade.com/en-us/stores/new-york",
+    "lat": 40.75952,
+    "lng": -73.98048
+  },
+  {
+    "photos": [],
+    "mustTry": ["C.O. Bigelow's own formulas"],
+    "vibeTags": ["historic", "rainy_day"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address and hours (Monday to Saturday 9 AM to 7 PM, Sunday 9 AM to 5:30 PM; holidays 9 AM to 4 PM) from bigelowchemists.com/pages/visit-us, history from bigelowchemists.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "s-co-bigelow",
+    "slug": "co-bigelow-greenwich-village",
+    "name": "C.O. Bigelow",
+    "category": "shopping",
+    "shopTypes": ["boutique"],
+    "borough": "manhattan",
+    "neighborhood": "Greenwich Village",
+    "address": "414 6th Ave, New York, NY 10011",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "17:30"
+        }
+      ],
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "19:00"
+        }
+      ]
+    },
+    "editorialTake": "A Greenwich Village apothecary established in 1838, which calls itself America's oldest, with its own old-world formulas alongside a pharmacy.",
+    "bestTimeToVisit": "Weekday morning",
+    "timeNeededMinutes": 25,
+    "trendingScore": 50,
+    "website": "https://www.bigelowchemists.com",
+    "lat": 40.73391,
+    "lng": -73.9991
   }
 ]
