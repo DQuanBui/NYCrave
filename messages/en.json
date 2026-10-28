@@ -246,7 +246,8 @@
     "showMore": "Show {count} more",
     "showing": "Showing {shown} of {total}",
     "sortCloses": "Open latest",
-    "walkable": "Walking distance"
+    "walkable": "Walking distance",
+    "noneOpenAt": "Nothing here is open then. Pick another time, or choose Any time to see everything."
   },
   "browse": {
     "cuisine": "Browse by cuisine",

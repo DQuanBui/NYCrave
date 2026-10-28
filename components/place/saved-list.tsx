@@ -5,10 +5,11 @@ import { useTranslations } from "next-intl"
 import { useState } from "react"
 import { EmptyState } from "@/components/brand/empty-state"
 import { pillClass } from "@/components/listing/filter-menu"
+import { OpenAtMenu } from "@/components/listing/open-at-menu"
 import { ClearSaved } from "@/components/place/clear-saved"
 import { CopyButton } from "@/components/place/copy-button"
 import { inKind, KindTabs, type KindTab } from "@/components/place/kind-tabs"
-import { OpenNowToggle, keepOpen } from "@/components/place/open-now-toggle"
+import { OpenNowToggle, keepOpen, keepOpenAt } from "@/components/place/open-now-toggle"
 import { PlaceCardSkeleton } from "@/components/place/place-card-skeleton"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PlaceGrid } from "@/components/place/place-grid"
@@ -51,6 +52,8 @@ export function SavedList({ places }: { places: CardPlace[] }) {
   const now = useNow()
   const [tab, setTab] = useState<KindTab>("all")
   const [openOnly, setOpenOnly] = useState(false)
+  /** "Open at" a chosen weekday and time instead of now, as "sat-2100". */
+  const [at, setAt] = useState<string | undefined>()
 
   if (!hydrated) {
     return (
@@ -68,7 +71,7 @@ export function SavedList({ places }: { places: CardPlace[] }) {
     .filter((p): p is CardPlace => p !== undefined)
 
   const plan = planSavedQuery(saved)
-  const open = keepOpen(inKind(saved, tab), openOnly, now)
+  const open = keepOpenAt(keepOpen(inKind(saved, tab), openOnly, now), at)
   const travel: Record<string, Travel> | undefined = origin
     ? Object.fromEntries(open.map((p) => [p.id, estimateTravel(origin, p)]))
     : undefined
@@ -121,8 +124,18 @@ export function SavedList({ places }: { places: CardPlace[] }) {
       <div className="flex flex-wrap items-center gap-2">
         <OpenNowToggle
           pressed={openOnly}
-          onToggle={() => setOpenOnly((v) => !v)}
+          onToggle={() => {
+            setOpenOnly((v) => !v)
+            setAt(undefined)
+          }}
           label={t("openNow")}
+        />
+        <OpenAtMenu
+          value={at}
+          onChange={(v) => {
+            setAt(v)
+            setOpenOnly(false)
+          }}
         />
         <button
           type="button"
@@ -138,7 +151,7 @@ export function SavedList({ places }: { places: CardPlace[] }) {
       </div>
       {shown.length === 0 ? (
         <p aria-live="polite" className="rounded-2xl border bg-card p-6 text-muted-foreground">
-          {t("noneOpen")}
+          {at ? tFilters("noneOpenAt") : t("noneOpen")}
         </p>
       ) : (
         <PlaceGrid places={shown} travel={travel} />

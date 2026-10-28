@@ -1,7 +1,8 @@
 "use client"
 
 import { Clock } from "lucide-react"
-import { getOpenStatus, isOpen } from "@/lib/hours"
+import { getOpenStatus, getStatusAt, isOpen } from "@/lib/hours"
+import { atClock } from "@/lib/place-filters"
 import { cn } from "@/lib/utils"
 import type { WeeklyHours } from "@/types/place"
 
@@ -44,4 +45,14 @@ export function keepOpen<P extends { hours: WeeklyHours }>(
 ): P[] {
   if (!on || !now) return places
   return places.filter((p) => isOpen(getOpenStatus(p.hours, now)))
+}
+
+/** Keeps only places open at a chosen "Open at" time ("sat-2100"); with none chosen, keeps all. */
+export function keepOpenAt<P extends { hours: WeeklyHours }>(
+  places: P[],
+  at: string | undefined,
+): P[] {
+  const clock = at ? atClock(at) : undefined
+  if (!clock) return places
+  return places.filter((p) => isOpen(getStatusAt(p.hours, clock)))
 }

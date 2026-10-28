@@ -246,7 +246,8 @@
     "showMore": "Xem thêm {count}",
     "showing": "Đang hiện {shown}/{total}",
     "sortCloses": "Mở muộn nhất",
-    "walkable": "Đi bộ được"
+    "walkable": "Đi bộ được",
+    "noneOpenAt": "Không có nơi nào mở vào lúc đó. Hãy chọn giờ khác, hoặc chọn Bất kỳ lúc nào để xem tất cả."
   },
   "browse": {
     "cuisine": "Duyệt theo ẩm thực",

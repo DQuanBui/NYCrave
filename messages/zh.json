@@ -246,7 +246,8 @@
     "showMore": "再显示 {count} 个",
     "showing": "已显示 {shown}/{total}",
     "sortCloses": "营业到最晚",
-    "walkable": "步行可达"
+    "walkable": "步行可达",
+    "noneOpenAt": "那个时间这里没有营业的地点。换个时间，或选择“任何时间”查看全部。"
   },
   "browse": {
     "cuisine": "按菜系浏览",

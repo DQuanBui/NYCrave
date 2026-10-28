@@ -246,7 +246,8 @@
     "showMore": "Ver {count} más",
     "showing": "Mostrando {shown} de {total}",
     "sortCloses": "Abierto hasta más tarde",
-    "walkable": "A pie"
+    "walkable": "A pie",
+    "noneOpenAt": "No hay nada abierto a esa hora. Elige otra hora o Cualquier hora para verlo todo."
   },
   "browse": {
     "cuisine": "Explora por cocina",
