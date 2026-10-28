@@ -10971,5 +10971,76 @@
     "website": "https://www.crifdogs.com",
     "lat": 40.72713,
     "lng": -73.98373
+  },
+  {
+    "photos": [],
+    "mustTry": ["A breakfast sandwich, served all day"],
+    "vibeTags": ["solo_friendly", "local_favorite"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address and hours (daily 7 AM to 9 PM) from dailyprovisions.co/locations, kitchen shared with Union Square Cafe from dailyprovisionsnyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-daily-provisions-union-square",
+    "slug": "daily-provisions-union-square",
+    "name": "Daily Provisions",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["sandwiches", "brunch"],
+    "borough": "manhattan",
+    "neighborhood": "Union Square",
+    "address": "103 E 19th St, New York, NY 10003",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "Danny Meyer's all-day café near Gramercy Park and Union Square, sharing a kitchen with Union Square Cafe, with coffee and breakfast sandwiches in the morning and roast chicken by night.",
+    "bestTimeToVisit": "Breakfast",
+    "timeNeededMinutes": 30,
+    "trendingScore": 50,
+    "website": "https://www.dailyprovisions.co/locations/",
+    "lat": 40.73761,
+    "lng": -73.98758
   }
 ]

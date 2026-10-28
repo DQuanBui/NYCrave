@@ -3207,5 +3207,145 @@
     "website": "https://www.overstory-nyc.com",
     "lat": 40.70647,
     "lng": -74.00774
+  },
+  {
+    "photos": [],
+    "mustTry": ["A classic cocktail with something to eat"],
+    "vibeTags": ["date_night", "local_favorite", "late_night"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address, hours (Monday to Thursday 4 PM to midnight, Friday 4 PM to 2 AM, Saturday noon to 2 AM, Sunday noon to midnight) and history from cloverclubny.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-clover-club",
+    "slug": "clover-club-cobble-hill",
+    "name": "Clover Club",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "brooklyn",
+    "neighborhood": "Cobble Hill",
+    "address": "210 Smith St, Brooklyn, NY 11201",
+    "priceLevel": 3,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A cocktail bar on Smith Street since 2008, part neighborhood institution and part destination, serving food as well as drinks.",
+    "bestTimeToVisit": "Early evening",
+    "timeNeededMinutes": 75,
+    "trendingScore": 50,
+    "website": "https://www.cloverclubny.com",
+    "lat": 40.68461,
+    "lng": -73.9922
+  },
+  {
+    "photos": [],
+    "mustTry": ["A Mexican American cocktail"],
+    "vibeTags": ["late_night", "group_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address and hours (Monday to Thursday 4 PM to 2 AM, Friday 2 PM to 2 AM, Saturday noon to 2 AM, Sunday 2 PM to 2 AM) from superbuenonyc.com. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "d-superbueno",
+    "slug": "superbueno-east-village",
+    "name": "Superbueno",
+    "category": "drink",
+    "drinkTypes": ["cocktails"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "13 1st Ave, New York, NY 10003",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "14:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "16:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "14:00",
+          "close": "02:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ]
+    },
+    "editorialTake": "A Mexican American cocktail bar on First Avenue in the East Village, open until 2 AM every night.",
+    "bestTimeToVisit": "Late evening",
+    "timeNeededMinutes": 60,
+    "trendingScore": 50,
+    "website": "https://www.superbuenonyc.com",
+    "lat": 40.72345,
+    "lng": -73.98855
   }
 ]
