@@ -1758,6 +1758,8 @@
     "search": "Buscar",
     "help": "Mostrar esta lista",
     "photos": "Foto anterior o siguiente en el visor",
-    "close": "Cerrar un diálogo, un menú o el visor de fotos"
+    "close": "Cerrar un diálogo, un menú o el visor de fotos",
+    "goTo": "Ir a {page}",
+    "sequence": "En los atajos de dos teclas, pulsa g y luego la letra."
   }
 }

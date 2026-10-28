@@ -1754,6 +1754,8 @@
     "search": "Tìm kiếm",
     "help": "Hiện danh sách này",
     "photos": "Ảnh trước hoặc sau trong trình xem ảnh",
-    "close": "Đóng hộp thoại, menu hoặc trình xem ảnh"
+    "close": "Đóng hộp thoại, menu hoặc trình xem ảnh",
+    "goTo": "Đến {page}",
+    "sequence": "Với phím tắt hai phím, nhấn g rồi nhấn chữ cái tiếp theo."
   }
 }

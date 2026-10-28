@@ -1754,6 +1754,8 @@
     "search": "Search",
     "help": "Show this list",
     "photos": "Previous or next photo in the photo viewer",
-    "close": "Close a dialog, menu or the photo viewer"
+    "close": "Close a dialog, menu or the photo viewer",
+    "goTo": "Go to {page}",
+    "sequence": "For two-key shortcuts, press g and then the letter."
   }
 }

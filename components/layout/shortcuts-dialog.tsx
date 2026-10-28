@@ -3,7 +3,8 @@
 import { Keyboard, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Dialog } from "radix-ui"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
+import { useRouter } from "@/i18n/navigation"
 
 /** Fired by the footer link to open the list without a keyboard. */
 export const OPEN_SHORTCUTS_EVENT = "nycrave:shortcuts"
@@ -21,17 +22,44 @@ const SHORTCUTS = [
   { keys: ["Esc"], label: "close" },
 ] as const
 
+/** "g" then a letter jumps to a main page, like Gmail and GitHub. */
+const GO = [
+  { key: "h", href: "/", page: "home" },
+  { key: "m", href: "/map", page: "map" },
+  { key: "s", href: "/saved", page: "saved" },
+  { key: "d", href: "/my-day", page: "myDay" },
+  { key: "t", href: "/tonight", page: "tonight" },
+] as const
+/** How long after "g" the second key still counts. */
+const GO_WINDOW_MS = 1500
+
 /** Press "?" anywhere for the site's keyboard shortcuts. */
 export function ShortcutsDialog() {
   const t = useTranslations("shortcuts")
+  const tNav = useTranslations("nav")
+  const router = useRouter()
   const [open, setOpen] = useState(false)
+  /** When "g" was last pressed, so a following letter can jump to a page. */
+  const goAt = useRef(0)
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key !== "?" || e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return
+      if (e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return
       if (typing(document.activeElement)) return
-      e.preventDefault()
-      setOpen(true)
+      if (e.key === "?") {
+        e.preventDefault()
+        setOpen(true)
+        return
+      }
+      const go = GO.find((g) => g.key === e.key)
+      if (go && Date.now() - goAt.current < GO_WINDOW_MS) {
+        e.preventDefault()
+        goAt.current = 0
+        setOpen(false)
+        router.push(go.href)
+        return
+      }
+      goAt.current = e.key === "g" ? Date.now() : 0
     }
     const onOpen = () => setOpen(true)
     window.addEventListener("keydown", onKey)
@@ -40,7 +68,7 @@ export function ShortcutsDialog() {
       window.removeEventListener("keydown", onKey)
       window.removeEventListener(OPEN_SHORTCUTS_EVENT, onOpen)
     }
-  }, [])
+  }, [router])
 
   return (
     <Dialog.Root open={open} onOpenChange={setOpen}>
@@ -76,7 +104,23 @@ export function ShortcutsDialog() {
                 </dd>
               </div>
             ))}
+            {GO.map(({ key, page }) => (
+              <div key={key} className="flex items-center justify-between gap-4">
+                <dt className="text-sm">{t("goTo", { page: tNav(page) })}</dt>
+                <dd className="flex gap-1">
+                  {["g", key].map((k) => (
+                    <kbd
+                      key={k}
+                      className="grid min-w-8 place-items-center rounded-md border-2 border-b-4 border-foreground/20 bg-muted px-2 py-0.5 font-mono text-sm font-bold"
+                    >
+                      {k}
+                    </kbd>
+                  ))}
+                </dd>
+              </div>
+            ))}
           </dl>
+          <p className="text-xs text-muted-foreground">{t("sequence")}</p>
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>
