@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowRight, List, LocateFixed, MapPin, Navigation, X } from "lucide-react"
+import { ArrowRight, Heart, List, LocateFixed, MapPin, Navigation, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { useSearchParams } from "next/navigation"
 import { useEffect, useMemo, useRef, useState } from "react"
@@ -12,7 +12,8 @@ import { HoursBadge } from "@/components/place/hours-badge"
 import { PlacePhoto } from "@/components/place/place-photo"
 import { SaveButton } from "@/components/place/save-button"
 import { useGeolocation } from "@/hooks/use-geolocation"
-import { useNow } from "@/hooks/use-now"
+import { useHydrated, useNow } from "@/hooks/use-now"
+import { useSaved } from "@/hooks/use-saved"
 import { Link } from "@/i18n/navigation"
 import type { CardPlace } from "@/lib/card-place"
 import { distanceKm } from "@/lib/geo"
@@ -47,6 +48,10 @@ export function CityMap({ places }: { places: CardPlace[] }) {
     return atClock(raw) ? raw : undefined
   })
   const [freeOnly, setFreeOnly] = useState(() => searchParams.get("free") === "1")
+  // Your saved places only; kept out of the link, since saved places live on each device
+  const [savedOnly, setSavedOnly] = useState(false)
+  const { slugs: savedSlugs } = useSaved()
+  const hydrated = useHydrated()
 
   // ...and every change goes back into the address bar, without a request
   useEffect(() => {
@@ -92,11 +97,12 @@ export function CityMap({ places }: { places: CardPlace[] }) {
       (p) =>
         lines.has(p.category) &&
         (!freeOnly || p.isFree) &&
+        (!savedOnly || savedSlugs.length === 0 || savedSlugs.includes(p.slug)) &&
         (clock
           ? isOpen(getStatusAt(p.hours, clock))
           : !openNow || !now || isOpen(getOpenStatus(p.hours, now))),
     )
-  }, [places, lines, freeOnly, openNow, at, now])
+  }, [places, lines, freeOnly, savedOnly, savedSlugs, openNow, at, now])
   const points = useMemo(() => visible.map((p) => placeToPoint(p)), [visible])
   const selected = visible.find((p) => p.id === selectedId)
   const origin = geo.state.status === "ready" ? geo.state.position : null
@@ -176,6 +182,17 @@ export function CityMap({ places }: { places: CardPlace[] }) {
           >
             {t("filters.free")}
           </button>
+          {hydrated && savedSlugs.length > 0 ? (
+            <button
+              type="button"
+              aria-pressed={savedOnly}
+              onClick={() => setSavedOnly((v) => !v)}
+              className={cn(pillClass(savedOnly), "shrink-0")}
+            >
+              <Heart aria-hidden className="size-4" />
+              {t("cityMap.savedOnly")}
+            </button>
+          ) : null}
           <button
             type="button"
             aria-pressed={Boolean(origin)}

@@ -904,7 +904,8 @@
     "nearestOpen": "Nơi gần nhất đang mở",
     "list": "Danh sách",
     "listLabel": "Các địa điểm trên bản đồ",
-    "showOnMap": "Hiện {name} trên bản đồ"
+    "showOnMap": "Hiện {name} trên bản đồ",
+    "savedOnly": "Đã lưu"
   },
   "privacy": {
     "title": "Quyền riêng tư",

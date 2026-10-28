@@ -904,7 +904,8 @@
     "nearestOpen": "가장 가까운 영업 중 장소",
     "list": "목록",
     "listLabel": "지도 위 장소",
-    "showOnMap": "지도에서 {name} 보기"
+    "showOnMap": "지도에서 {name} 보기",
+    "savedOnly": "저장"
   },
   "privacy": {
     "title": "개인정보",

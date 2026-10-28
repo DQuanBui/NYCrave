@@ -904,7 +904,8 @@
     "nearestOpen": "Nearest open",
     "list": "List",
     "listLabel": "Places on the map",
-    "showOnMap": "Show {name} on the map"
+    "showOnMap": "Show {name} on the map",
+    "savedOnly": "Saved"
   },
   "privacy": {
     "title": "Privacy",

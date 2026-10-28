@@ -904,7 +904,8 @@
     "nearestOpen": "Lo más cercano abierto",
     "list": "Lista",
     "listLabel": "Lugares en el mapa",
-    "showOnMap": "Ver {name} en el mapa"
+    "showOnMap": "Ver {name} en el mapa",
+    "savedOnly": "Guardados"
   },
   "privacy": {
     "title": "Privacidad",
