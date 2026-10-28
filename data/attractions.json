@@ -6022,5 +6022,132 @@
     "website": "https://jcal.org",
     "lat": 40.70392,
     "lng": -73.79817
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/the-jewish-museum-1.jpg",
+        "alt": "The Jewish Museum in the Warburg Mansion on Fifth Avenue at 92nd Street",
+        "width": 1100,
+        "height": 1045,
+        "source": "other",
+        "attribution": {
+          "text": "Americasroof, CC BY-SA 3.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Warburg-1109-fifth.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "mustTry": ["Free admission on Saturdays"],
+    "vibeTags": ["rainy_day", "historic"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address, museum hours (Sunday, Monday, Friday and Saturday 11 AM to 6 PM, Thursday 11 AM to 8 PM, closed Tuesday and Wednesday), admission (adults $24, free on Saturdays) from thejewishmuseum.org/visit, history from thejewishmuseum.org/about. The kosher restaurant and shop keep their own hours. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-jewish-museum",
+    "slug": "the-jewish-museum",
+    "name": "The Jewish Museum",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "1109 5th Ave, New York, NY 10128",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "Founded in 1904 as the first institution of its kind in the United States, now in the landmarked Warburg Mansion at 92nd Street on Museum Mile.",
+    "bestTimeToVisit": "A Saturday, when admission is free",
+    "timeNeededMinutes": 90,
+    "trendingScore": 50,
+    "website": "https://thejewishmuseum.org",
+    "lat": 40.78541,
+    "lng": -73.95718
+  },
+  {
+    "photos": [],
+    "mustTry": ["Free Friday evenings"],
+    "vibeTags": ["rainy_day", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address, hours (Thursday, Saturday and Sunday 10 AM to 6 PM, Friday 10 AM to 9 PM, closed Monday to Wednesday) and admission (adults $15, free every Friday and on the third Sunday of each month) from posterhouse.org/hours-admission-location. Closed on Thanksgiving, Christmas, New Year's Eve and New Year's Day. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "a-poster-house",
+    "slug": "poster-house-chelsea",
+    "name": "Poster House",
+    "category": "attraction",
+    "borough": "manhattan",
+    "neighborhood": "Chelsea",
+    "address": "119 W 23rd St, New York, NY 10011",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "mon": [],
+      "tue": [],
+      "wed": [],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
+    },
+    "editorialTake": "A museum devoted to posters on West 23rd Street, steps from the 23rd Street stations. Admission is free every Friday, when it stays open until 9 PM.",
+    "bestTimeToVisit": "A Friday evening",
+    "timeNeededMinutes": 60,
+    "trendingScore": 50,
+    "website": "https://posterhouse.org",
+    "lat": 40.74359,
+    "lng": -73.99334
   }
 ]
