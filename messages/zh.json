@@ -459,7 +459,9 @@
       "previous": "上一张",
       "next": "下一张"
     },
-    "copyAddress": "复制地址"
+    "copyAddress": "复制地址",
+    "howFar": "离我多远？",
+    "howFarNote": "粗略估算。你的位置只保留在本设备上。"
   },
   "hours": {
     "open": "营业中",

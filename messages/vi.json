@@ -459,7 +459,9 @@
       "previous": "Ảnh trước",
       "next": "Ảnh sau"
     },
-    "copyAddress": "Sao chép địa chỉ"
+    "copyAddress": "Sao chép địa chỉ",
+    "howFar": "Nơi này cách tôi bao xa?",
+    "howFarNote": "Ước tính sơ bộ. Vị trí của bạn chỉ ở trên thiết bị này."
   },
   "hours": {
     "open": "Đang mở",

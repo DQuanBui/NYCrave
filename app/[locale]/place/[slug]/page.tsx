@@ -20,6 +20,7 @@ import { RecordVisit } from "@/components/place/record-visit"
 import { StampButton } from "@/components/passport/stamp-button"
 import { SaveButton } from "@/components/place/save-button"
 import { SubwayList } from "@/components/place/subway-list"
+import { HowFar } from "@/components/place/how-far"
 import { SunToday } from "@/components/place/sun-today"
 import { ShareButton } from "@/components/place/share-button"
 import { UnverifiedTag } from "@/components/place/unverified-tag"
@@ -341,6 +342,9 @@ export default async function PlacePage({ params }: Props) {
                 icon={<TrainFront aria-hidden className="size-4" />}
               />
             </ul>
+            <div className="print:hidden">
+              <HowFar to={{ lat: place.lat, lng: place.lng }} />
+            </div>
           </div>
           {stations.length > 0 ? (
             <div className="space-y-4 rounded-2xl border bg-card p-5">

@@ -459,7 +459,9 @@
       "previous": "이전 사진",
       "next": "다음 사진"
     },
-    "copyAddress": "주소 복사"
+    "copyAddress": "주소 복사",
+    "howFar": "여기서 얼마나 멀까요?",
+    "howFarNote": "대략적인 추정입니다. 위치 정보는 이 기기에만 남습니다."
   },
   "hours": {
     "open": "영업 중",

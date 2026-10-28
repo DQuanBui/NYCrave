@@ -459,7 +459,9 @@
       "previous": "Previous photo",
       "next": "Next photo"
     },
-    "copyAddress": "Copy address"
+    "copyAddress": "Copy address",
+    "howFar": "How far is it from me?",
+    "howFarNote": "A rough estimate. Your location stays on this device."
   },
   "hours": {
     "open": "Open",
