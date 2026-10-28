@@ -248,7 +248,10 @@
     "sortCloses": "Abierto hasta más tarde",
     "walkable": "A pie",
     "noneOpenAt": "No hay nada abierto a esa hora. Elige otra hora o Cualquier hora para verlo todo.",
-    "milesAway": "a {distance} mi"
+    "milesAway": "a {distance} mi",
+    "copyText": "Copiar como texto",
+    "copiedText": "Copiado",
+    "andMore": "…y {count} más"
   },
   "browse": {
     "cuisine": "Explora por cocina",

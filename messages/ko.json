@@ -248,7 +248,10 @@
     "sortCloses": "늦게까지 영업",
     "walkable": "걸어서 갈 거리",
     "noneOpenAt": "그 시간에는 영업하는 곳이 없습니다. 다른 시간을 고르거나 '언제든'을 선택해 모두 보세요.",
-    "milesAway": "{distance}마일 거리"
+    "milesAway": "{distance}마일 거리",
+    "copyText": "텍스트로 복사",
+    "copiedText": "복사됨",
+    "andMore": "…외 {count}곳"
   },
   "browse": {
     "cuisine": "요리별로 둘러보기",

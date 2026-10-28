@@ -9,6 +9,7 @@ import { FilterBar } from "@/components/listing/filter-bar"
 import { pillClass } from "@/components/listing/filter-menu"
 import { LazyMap } from "@/components/map/lazy-map"
 import { PagedGrid } from "@/components/listing/paged-grid"
+import { CopyButton } from "@/components/place/copy-button"
 import { ShareButton } from "@/components/place/share-button"
 import { Button } from "@/components/ui/button"
 import { useGeolocation } from "@/hooks/use-geolocation"
@@ -36,6 +37,22 @@ type ListingClientProps = {
  * Changing one rewrites the query string in place (no request to the server)
  * and the list is filtered right here.
  */
+/** How many places "Copy as text" includes, so the text stays readable in a chat. */
+const COPY_LIMIT = 30
+
+/** The listing as plain text: the count and this view's link, then one place per line. */
+function listingText(heading: string, places: CardPlace[], more: string) {
+  const origin = window.location.origin
+  return [
+    `${heading}: ${window.location.href}`,
+    "",
+    ...places
+      .slice(0, COPY_LIMIT)
+      .map((p) => `• ${p.name}, ${p.neighborhood}: ${origin}/place/${p.slug}`),
+    ...(places.length > COPY_LIMIT ? [more] : []),
+  ].join("\n")
+}
+
 export function ListingClient({ pool, options }: ListingClientProps) {
   const searchParams = useSearchParams()
   const params = useMemo(
@@ -146,6 +163,22 @@ function Listing({ pool, options, params }: ListingClientProps & { params: Listi
               <Shuffle aria-hidden className="size-4" />
               {t("pickOne")}
             </button>
+          ) : null}
+          {listed.length > 0 ? (
+            <CopyButton
+              value={
+                typeof window === "undefined"
+                  ? ""
+                  : listingText(
+                      t("results", { count: listed.length }),
+                      listed,
+                      t("andMore", { count: listed.length - COPY_LIMIT }),
+                    )
+              }
+              label={t("copyText")}
+              copiedLabel={t("copiedText")}
+              className="h-8 px-3 text-sm [&_svg]:size-4"
+            />
           ) : null}
           {/* Filters live in the URL, so a filtered view can be passed on as is */}
           {hasActiveFilters(params) && listed.length > 0 ? (

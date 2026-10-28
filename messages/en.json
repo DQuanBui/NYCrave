@@ -248,7 +248,10 @@
     "sortCloses": "Open latest",
     "walkable": "Walking distance",
     "noneOpenAt": "Nothing here is open then. Pick another time, or choose Any time to see everything.",
-    "milesAway": "{distance} mi away"
+    "milesAway": "{distance} mi away",
+    "copyText": "Copy as text",
+    "copiedText": "Copied",
+    "andMore": "…and {count} more"
   },
   "browse": {
     "cuisine": "Browse by cuisine",

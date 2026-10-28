@@ -248,7 +248,10 @@
     "sortCloses": "营业到最晚",
     "walkable": "步行可达",
     "noneOpenAt": "那个时间这里没有营业的地点。换个时间，或选择“任何时间”查看全部。",
-    "milesAway": "距离 {distance} 英里"
+    "milesAway": "距离 {distance} 英里",
+    "copyText": "复制为文字",
+    "copiedText": "已复制",
+    "andMore": "……以及另外 {count} 个地点"
   },
   "browse": {
     "cuisine": "按菜系浏览",
