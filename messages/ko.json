@@ -1704,7 +1704,9 @@
     "photoSpots": "사진 명소 보기",
     "pickNight": "밤 선택",
     "tonight": "오늘 밤",
-    "emptyOther": "그날 밤에는 NYCrave에 그렇게 늦게까지 여는 곳이 없습니다. 더 이른 시간을 골라 보세요."
+    "emptyOther": "그날 밤에는 NYCrave에 그렇게 늦게까지 여는 곳이 없습니다. 더 이른 시간을 골라 보세요.",
+    "copyText": "텍스트로 복사",
+    "copiedText": "복사됨"
   },
   "errorPage": {
     "title": "이 열차에 문제가 생겼습니다",

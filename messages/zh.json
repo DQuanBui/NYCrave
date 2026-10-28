@@ -1688,7 +1688,9 @@
     "photoSpots": "查看拍照地点",
     "pickNight": "选择一个晚上",
     "tonight": "今晚",
-    "emptyOther": "那天晚上 NYCrave 上没有营业到这么晚的地点。试试更早的时间。"
+    "emptyOther": "那天晚上 NYCrave 上没有营业到这么晚的地点。试试更早的时间。",
+    "copyText": "复制为文字",
+    "copiedText": "已复制"
   },
   "errorPage": {
     "title": "这班车出了点问题",

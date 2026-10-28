@@ -1732,7 +1732,9 @@
     "photoSpots": "mira Lugares para fotos",
     "pickNight": "Elige una noche",
     "tonight": "Esta noche",
-    "emptyOther": "Nada en NYCrave abre tan tarde esa noche. Prueba una hora más temprano."
+    "emptyOther": "Nada en NYCrave abre tan tarde esa noche. Prueba una hora más temprano.",
+    "copyText": "Copiar como texto",
+    "copiedText": "Copiado"
   },
   "errorPage": {
     "title": "Este tren tiene problemas",

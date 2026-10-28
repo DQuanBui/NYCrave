@@ -1728,7 +1728,9 @@
     "photoSpots": "xem Điểm chụp ảnh",
     "pickNight": "Chọn một đêm",
     "tonight": "Tối nay",
-    "emptyOther": "Không có nơi nào trên NYCrave mở muộn như vậy vào đêm đó. Hãy chọn giờ sớm hơn."
+    "emptyOther": "Không có nơi nào trên NYCrave mở muộn như vậy vào đêm đó. Hãy chọn giờ sớm hơn.",
+    "copyText": "Sao chép dạng văn bản",
+    "copiedText": "Đã sao chép"
   },
   "errorPage": {
     "title": "Chuyến tàu này đang gặp sự cố",

@@ -1728,7 +1728,9 @@
     "photoSpots": "see Photo spots",
     "pickNight": "Pick a night",
     "tonight": "Tonight",
-    "emptyOther": "Nothing on NYCrave is open that late that night. Try an earlier hour."
+    "emptyOther": "Nothing on NYCrave is open that late that night. Try an earlier hour.",
+    "copyText": "Copy as text",
+    "copiedText": "Copied"
   },
   "errorPage": {
     "title": "This train is having trouble",

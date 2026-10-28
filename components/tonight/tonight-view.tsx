@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl"
 import { useState } from "react"
 import { LineBullet } from "@/components/brand/line-bullet"
 import { pillClass } from "@/components/listing/filter-menu"
+import { CopyButton } from "@/components/place/copy-button"
 import { PlacePhoto } from "@/components/place/place-photo"
 import { useGeolocation } from "@/hooks/use-geolocation"
 import { useNow } from "@/hooks/use-now"
@@ -52,6 +53,30 @@ export function TonightView({ places }: { places: CardPlace[] }) {
     category: c,
     items: open.filter((o) => o.place.category === c),
   })).filter((g) => g.items.length)
+  const nightName = (offset: number) =>
+    offset === 0
+      ? t("tonight")
+      : new Intl.DateTimeFormat(locale, { weekday: "long", timeZone: "UTC" }).format(
+          new Date(Date.UTC(2024, 0, 7 + ((tonight + offset) % 7))),
+        )
+  const closing = (status: (typeof open)[number]["status"]) =>
+    status.state === "open_24h"
+      ? t("allNight")
+      : status.state === "open" || status.state === "closing_soon"
+        ? t("until", { time: formatClockTime(status.closesAt.minutes, locale) })
+        : null
+  // The list as plain text by group, one place per line with its link, for a chat or notes
+  const listText = [
+    `${t("title")}: ${nightName(dayOffset)}, ${formatClockTime(slot, locale)}`,
+    ...groups.flatMap(({ category, items }) => [
+      "",
+      tc(`${category}.title`),
+      ...items.map(
+        ({ place, status }) =>
+          `• ${[place.name, place.neighborhood, closing(status)].filter(Boolean).join(", ")}: ${window.location.origin}/place/${place.slug}`,
+      ),
+    ]),
+  ].join("\n")
 
   return (
     <div className="space-y-8">
@@ -77,11 +102,7 @@ export function TonightView({ places }: { places: CardPlace[] }) {
                 : "border-foreground/15 bg-card hover:border-foreground",
             )}
           >
-            {offset === 0
-              ? t("tonight")
-              : new Intl.DateTimeFormat(locale, { weekday: "long", timeZone: "UTC" }).format(
-                  new Date(Date.UTC(2024, 0, 7 + ((tonight + offset) % 7))),
-                )}
+            {nightName(offset)}
           </button>
         ))}
       </div>
@@ -116,16 +137,26 @@ export function TonightView({ places }: { places: CardPlace[] }) {
         <p aria-live="polite" className="font-semibold">
           {t("count", { count: open.length, time: formatClockTime(slot, locale) })}
         </p>
-        <button
-          type="button"
-          aria-pressed={Boolean(origin)}
-          onClick={origin ? geo.reset : geo.locate}
-          disabled={geo.state.status === "locating"}
-          className={pillClass(Boolean(origin))}
-        >
-          <LocateFixed aria-hidden className="size-4" />
-          {geo.state.status === "locating" ? tAll("filters.locating") : tAll("filters.nearMe")}
-        </button>
+        <div className="flex flex-wrap items-center gap-2">
+          {open.length ? (
+            <CopyButton
+              value={listText}
+              label={t("copyText")}
+              copiedLabel={t("copiedText")}
+              className="h-10 px-4 text-sm [&_svg]:size-4"
+            />
+          ) : null}
+          <button
+            type="button"
+            aria-pressed={Boolean(origin)}
+            onClick={origin ? geo.reset : geo.locate}
+            disabled={geo.state.status === "locating"}
+            className={pillClass(Boolean(origin))}
+          >
+            <LocateFixed aria-hidden className="size-4" />
+            {geo.state.status === "locating" ? tAll("filters.locating") : tAll("filters.nearMe")}
+          </button>
+        </div>
       </div>
       {geo.state.status === "denied" ? (
         <p aria-live="polite" className="text-sm text-muted-foreground">
@@ -165,11 +196,7 @@ export function TonightView({ places }: { places: CardPlace[] }) {
                         {place.neighborhood}
                       </span>
                       <span className="text-sm font-semibold text-[#00692c] dark:text-green-400">
-                        {status.state === "open_24h"
-                          ? t("allNight")
-                          : status.state === "open" || status.state === "closing_soon"
-                            ? t("until", { time: formatClockTime(status.closesAt.minutes, locale) })
-                            : null}
+                        {closing(status)}
                       </span>
                       {travel ? (
                         <span className="block text-xs text-muted-foreground">
