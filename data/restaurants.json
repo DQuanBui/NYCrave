@@ -10702,5 +10702,274 @@
     "website": "https://www.laboratoriodelgelato.com",
     "lat": 40.72208,
     "lng": -73.98705
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/juniors-brooklyn-1.jpg",
+        "alt": "Junior's red neon sign and corner restaurant on Flatbush Avenue at night",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Leonard J. DeFrancisci, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Junior%27s_restaurant_(Brooklyn,_New_York)_P003.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      },
+      {
+        "url": "/photos/juniors-brooklyn-2.jpg",
+        "alt": "Junior's dining room with orange booths and framed photos on the walls",
+        "width": 1100,
+        "height": 825,
+        "source": "other",
+        "attribution": {
+          "text": "Leonard J. DeFrancisci, CC BY-SA 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Junior%27s_restaurant_(Brooklyn,_New_York)_P001.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      }
+    ],
+    "mustTry": ["A slice of cheesecake"],
+    "vibeTags": ["historic", "tourist_classic", "group_friendly", "kid_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address and hours (Sunday to Thursday 7 AM to 11 PM, Friday and Saturday 7 AM to midnight, as listed for the bakery and takeout; closes at midnight on Brooklyn Paramount show nights) from juniorscheesecake.com/pages/brooklyn, history from juniorscheesecake.com/pages/our-history. The site lists one set of hours for bakery and takeout; the dining room may differ. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-juniors-brooklyn",
+    "slug": "juniors-brooklyn",
+    "name": "Junior's Restaurant & Bakery",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["desserts", "bakery"],
+    "borough": "brooklyn",
+    "neighborhood": "Downtown Brooklyn",
+    "address": "386 Flatbush Avenue Ext, Brooklyn, NY 11201",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "07:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "editorialTake": "The original Junior's, opened by Harry Rosen in 1950 on the Flatbush Avenue corner where Harry and Mike Rosen had opened The Enduro in 1929, and still the home of its cheesecake.",
+    "bestTimeToVisit": "Dessert after a Brooklyn show",
+    "timeNeededMinutes": 60,
+    "trendingScore": 50,
+    "website": "https://www.juniorscheesecake.com/pages/brooklyn",
+    "lat": 40.69015,
+    "lng": -73.98199
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/pastrami-queen-upper-east-side-1.jpg",
+        "alt": "Illustrative: Pastrami Queen's former storefront on West 72nd Street, with its Est. 1956 sign",
+        "width": 1100,
+        "height": 961,
+        "source": "other",
+        "attribution": {
+          "text": "Sashimi-b, CC BY 4.0",
+          "url": "https://commons.wikimedia.org/wiki/File:Pastrami-queen-UWS.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        "illustrative": true
+      }
+    ],
+    "mustTry": ["Pastrami on rye"],
+    "vibeTags": ["local_favorite", "solo_friendly"],
+    "dietary": ["kosher"],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address, hours (every day 10 AM to 9 PM), kosher certification and founding year from pastramiqueen.com and pastramiqueen.com/locations. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-pastrami-queen-ues",
+    "slug": "pastrami-queen-upper-east-side",
+    "name": "Pastrami Queen",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["sandwiches"],
+    "borough": "manhattan",
+    "neighborhood": "Upper East Side",
+    "address": "1125 Lexington Ave, New York, NY 10075",
+    "priceLevel": 2,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "21:00"
+        }
+      ]
+    },
+    "editorialTake": "A certified kosher deli at 78th and Lexington, slicing pastrami since 1956 and cooking from scratch every day.",
+    "bestTimeToVisit": "Lunch",
+    "timeNeededMinutes": 30,
+    "trendingScore": 50,
+    "website": "https://www.pastramiqueen.com",
+    "lat": 40.77437,
+    "lng": -73.95911
+  },
+  {
+    "photos": [
+      {
+        "url": "/photos/crif-dogs-east-village-1.jpg",
+        "alt": "The hot dog sign reading eat me above Crif Dogs' awning on St. Marks Place",
+        "width": 1038,
+        "height": 1550,
+        "source": "other",
+        "attribution": {
+          "text": "Jazz Guy from New Jersey, United States, CC BY 2.0",
+          "url": "https://commons.wikimedia.org/wiki/File:New_York_City,_17_May_08_(2501550653).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      }
+    ],
+    "mustTry": ["A hot dog with the works"],
+    "vibeTags": ["late_night", "cheap_eats", "solo_friendly"],
+    "dietary": [],
+    "verified": false,
+    "updatedAt": "2026-10-28T12:00:00.000Z",
+    "verificationNotes": "Checked 2026-10-28: address and hours (Sunday to Thursday noon to 2 AM, Friday and Saturday noon to 3 AM) from crifdogs.com/location/crif-dogs-east-village. Price level is an editorial estimate. Confirm details with the venue before marking verified.",
+    "id": "r-crif-dogs-east-village",
+    "slug": "crif-dogs-east-village",
+    "name": "Crif Dogs",
+    "category": "restaurant",
+    "cuisines": ["american"],
+    "dishTypes": ["street_food"],
+    "borough": "manhattan",
+    "neighborhood": "East Village",
+    "address": "113 St Marks Pl, New York, NY 10009",
+    "priceLevel": 1,
+    "isFree": false,
+    "hours": {
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "mon": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "12:00",
+          "close": "02:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "12:00",
+          "close": "03:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "12:00",
+          "close": "03:00"
+        }
+      ]
+    },
+    "editorialTake": "Hot dogs on St. Marks Place, open late every night: until 2 AM Sunday to Thursday and 3 AM on Friday and Saturday.",
+    "bestTimeToVisit": "After midnight",
+    "timeNeededMinutes": 20,
+    "trendingScore": 50,
+    "website": "https://www.crifdogs.com",
+    "lat": 40.72713,
+    "lng": -73.98373
   }
 ]
