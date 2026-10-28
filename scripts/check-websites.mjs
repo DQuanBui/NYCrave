@@ -9,10 +9,14 @@ const SPAM =
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 
+// Network hiccups (a DNS lookup that fails once, a dropped connection) are
+// tried again before a site is reported
+const TRANSIENT = new Set(["EAI_AGAIN", "ENOTFOUND", "ETIMEDOUT", "timed out", "UND_ERR_SOCKET"])
+
 const places = FILES.flatMap((f) => JSON.parse(readFileSync(`data/${f}.json`, "utf8")))
 const sites = places.filter((p) => p.website)
 
-async function check(p) {
+async function check(p, retried = false) {
   try {
     const res = await fetch(p.website, {
       headers: { "user-agent": UA, "accept-language": "en-US" },
@@ -29,6 +33,10 @@ async function check(p) {
     return null
   } catch (e) {
     const code = e.name === "TimeoutError" ? "timed out" : (e.cause?.code ?? e.message)
+    if (!retried && TRANSIENT.has(code)) {
+      await new Promise((resolve) => setTimeout(resolve, 3000))
+      return check(p, true)
+    }
     // Big sites (nps.gov and the like) drop robots' connections: check those by hand
     return { p, problem: code, blocked: code === "ECONNRESET" }
   }

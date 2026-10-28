@@ -54,5 +54,9 @@
   "the-odeon-tribeca": {
     "site": "{\"0\":[\"10:00-22:00\"],\"1\":[\"11:00-22:00\"],\"2\":[\"11:00-23:00\"],\"3\":[\"11:00-23:00\"],\"4\":[\"11:00-23:00\"],\"5\":[\"11:00-23:00\"],\"6\":[\"10:00-11:00\"]}",
     "note": "Checked by hand 2026-10-27: the Hours & Location page says brunch weekends from 10am and dinner Tuesday to Saturday until 11pm; the structured data has Saturday closing at 11:00 (morning), a typo for 11 PM."
+  },
+  "daily-provisions-union-square": {
+    "site": "{\"0\":[\"08:00-19:00\"],\"1\":[\"07:00-20:00\"],\"2\":[\"07:00-20:00\"],\"3\":[\"07:00-20:00\"],\"4\":[\"07:00-20:00\"],\"5\":[\"07:00-20:00\"],\"6\":[\"08:00-08:00\"]}",
+    "note": "Checked by hand 2026-10-28: the locations page lists Union Square as Daily 7 AM - 9 PM; the structured data on that page that comes closest belongs to another branch (Brookfield Place)."
   }
 }
